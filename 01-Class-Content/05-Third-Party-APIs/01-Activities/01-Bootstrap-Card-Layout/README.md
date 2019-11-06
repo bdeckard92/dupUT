@@ -1,11 +1,11 @@
 # Bootstrap Card Layout
 
-In this activity, you will use the Bootstrap grid layout and components to quickly build a user interface.
+In this activity, you will use the Bootstrap grid layout with components to quickly build a user interface.
 
 
 ## Instructions
 
-* Using Bootstrap, build a page from scratch according to the design in the image below.
+* Using Bootstrap, build a page, from scratch, matching the design in the image below.
 
 ![Card-layout design](card-layout.png)
 

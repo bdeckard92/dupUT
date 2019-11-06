@@ -1,8 +1,8 @@
-### File
+# jQuery Sandwich Click
 
-* [`sandwich-click-unsolved`](Unsolved/sandwich-click-unsolved.html)
 
-### Instructions
+
+## Instructions
 
 * Add in the missing code such that clicking any of the sandwiches causes…
 
@@ -10,6 +10,10 @@
 
   2. A second alert message that displays to the user how many of that specific sandwich they've eaten.
 
-  3. **HINT:** You will need counter variables.
+## Hint(s)
 
-* **BONUS:** Add an image to the `image-div` on the click event.
+You will need counter variables.
+
+## BONUS
+
+Add an image for each click event.
