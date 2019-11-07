@@ -1,10 +1,10 @@
-# Module 05 Lesson Plan: Third-party APIs
+# Module 05 Required Session Lesson Plan: Third-party APIs
 
 ## Overview 
 
 @TODO
-Two to four sentences describing what’s in this lesson and its relevance both to the preceding asynchronous content and to the upcoming challenge. Outline the 3-4  key topics that will be drawn from the asynchronous content and reinforced in this lesson for use in the upcoming challenge so that instructors understand how the pieces fit together. 
 
+This session reviews Bootstrap and jQuery basics. Students will use the Bootstrap grid layout and components to quickly scaffold a UI, as well as handle events with jQuery methods. Students will also build a "to do list" application that is very similar to their challenge assignment. 
 
 ## Learning Objectives
 
@@ -401,32 +401,89 @@ By the end of class, students will be able to:
 
     * ✔️ Setting HTML contents with jQuery `.html()`
 
+* Open `/02-JQuery-Sandwich-Click/Solved/index.html` in your IDE and explain the following:
+
+    * We create three `<button>` elements, each with an `id` and corresponding content for our sandwiches.
+
+    ```html
+    <button id="pbj">Peanut Butter Jelly</button>
+	<button id="grilledcheese">Grilled Cheese</button>
+    <button id="roastbeef">Roast Beef</button>
+    ```
+
+    * We declare an empty `<div>` with an id of `#image-div`.
+
+    ```html
+    	<div id="image-div"></div>
+    ```
+
+    * ☝️ What is the purpose of this empty `<div>`?
+
+    * 🙋 We will render images in it.
+
+    * 🔑 In our `<script>` tag we declare three global state variables to count the number of sandwiches eaten.
+
+    ```js
+    var pbjCounter = 0;
+    var grilledCheeseCounter = 0;
+    var roastBeefCounter = 0;
+    ```
+
+    * 🔑 We declare three `.on()` methods, each listening for `click` events on a sandwich button, using the corresponding `id`.
+
+    ```js
+    $("#pbj").on("click", function() {
+      
+      alert("Mmm... Peanut Butter Jelly Time.");
+      pbjCounter++;
+      alert("You've eaten " + pbjCounter + " PB&J sandwiches");
+      
+      // BONUS
+      $("#image-div").html("<img src='https://i1.wp.com/snotapwi.com/wp-content/uploads/2017/03/PBJ-Sandwiches.jpg?resize=590%2C368&ssl=1' />");
+      
+    });
+    ```
+
+    * 📝 Within our `on()` methods, we use the increment operator to increase the sandwich count.
+
+    * 🔑 The image is rendered using the `html()` method on the `<div>` with the id of `#image-div`. We set the `src` of the image to an external, third-party URL.
+
+    * Lastly, we add jQuery to our document using another `<script>` tag below the first. 
+
+    ```html
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    ```
+
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
-    * ☝️ @TODO ?
+    * ☝️ Why do we add our JavaScript (and jQuery files) at the bottom of the `<body>` element?
 
-    * 🙋 @TODO .
+    * 🙋 To prevent our script from running before the DOM renders.
 
     * ☝️ What can we do if we don't completely understanding this?
 
-    * 🙋 We can refer to the lesson plan, read the [](), and stick around for office hours to ask for help.
+    * 🙋 We can refer to the lesson plan, read the [jQuery `on()`](https://api.jquery.com/on/) and [jQuery `html()`](https://api.jquery.com/html/) documentation, and stick around for office hours to ask for help.
 
 * Answer any questions before proceeding to the next activity.
 
 
-### 9. Instructor Do: Demo (5 or 10 min) 
+### 9. Instructor Demo: jQuery To-do List with localStorage (5 min) 
 
 * Use the prompts and talking points below to demonstrate the following key point(s):
 
-    * ✔️ 
+    * ✔️ Getting form values with jQuery
 
-    * ✔️ 
+    * ✔️ Dynamically generating HTML with jQuery
 
-* Open `/` in your brower and explain the following:
+    * ✔️ Setting and getting items in localStorage
 
-    * 
+* Open `/03-jQuery-ToDo-localStorage/index.html` in your browser and demonstrate the following:
 
-    * 
+    * We add items to our to-do list through a form field. Clicking the `Add item` button adds them both to the list rendered in the DOM and to `localStorage`.
+
+    * If we inspect Local Storage in the Application tab in DevTools, we will see the items we added.
+
+    * We can delete items from the list using the button prepended to each list item.
 
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
@@ -436,35 +493,65 @@ By the end of class, students will be able to:
 
     * ☝️ How does this activity equip us for the challenge?
 
-    * 🙋 @TODO . 
+    * 🙋 Getting form values with jQuery, and getting and setting items in `localStorage`. 
 
     * ☝️ How would we build this?
 
-    * 🙋 @TODO . 
+    * 🙋 We would start by scaffolding our HTML, then pseudocode our script functionality to listen for click events on the button, get the value in the form field, store the value in `localStorage`, get items from `localStorage` and render those items to the DOM.
 
 * Answer any questions before proceeding to the next activity.
 
 
-### 10. Student Do: [Activity Name] (10 or 15 min) 
+### 10. Student Do: jQuery To-do List with localStorage (15 min) 
 
 * Divide students into breakout rooms.
 
-* Direct students to the activity instructions found in `/`.
+* Direct students to the activity instructions found in `/03-jQuery-ToDo-localStorage`.
 
 ```md
-    @TODO add instructions; tabbed
+    # jQuery To-do List with localStorage
+
+    In this activity you will build an interactive list application with persistent storage. 
+
+    ## Instructions
+
+    From scratch, build a "To-do List" using jQuery with the following functionality:
+
+    * Items are added to the list through a form field. 
+
+    * Clicking the `Add item` button on the form sets the item in `localStorage`.
+
+    * Items in `localStorage` are rendered below the form field. 
+
+
+    ## Bonus
+
+    * Add functionality to delete items.
+
+
+    ## Hint(s)
+
+    * Don't forget to use `event.preventDefaul()` and `JSON.stringify()`.
+
+    * To delete items, you will need to use `this` and data attributes. 
 ```
 
 
-### 11. Instructor Review: [Activity Name] (5 or 10 min) 
+### 11. Instructor Review: jQuery To-do List with localStorage (10 min) 
 
 * Bring students back from breakout rooms. 
 
 * Use the prompts and talking points below to demonstrate the following key point(s):
 
-    * ✔️ @TODO
+    * ✔️ Getting form values with jQuery
 
-    * ✔️ @TODO
+    * ✔️ Dynamically generating HTML with jQuery
+
+    * ✔️ Setting and getting items in localStorage
+
+* Open `/03-jQuery-ToDo-localStorage/index.html` in your browser and explain the following:
+
+    * 
 
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
@@ -488,7 +575,7 @@ By the end of class, students will be able to:
 
     * ☝️ What do you think you absolutely need to know to succeed at the challenge?
 
-    * 🙋 
+    * 🙋 To succeed at the challenge, we need to know how to build user interfaces using Bootstrap components with grid layout. We also need to know how to do the following with jQuery: how to get values from forms, how to get and set items in `localStorage`, { ... }. Lastly, using Moment.js, we need to know how to get the current date, the users timezone, and create a highlighted time bar.
 
     * ☝️ What do you think is okay to not completely understand?
 
