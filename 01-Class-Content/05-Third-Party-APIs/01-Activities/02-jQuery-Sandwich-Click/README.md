@@ -1,19 +1,21 @@
 # jQuery Sandwich Click
 
-
+In this activity, you will build an interactive application that tracks state and handles events.
 
 ## Instructions
 
-* Add in the missing code such that clicking any of the sandwiches causes…
+* From scratch, create a simple jQuery application with the following functionality:
 
-  1. An alert message to popup saying something snarky about the sandwich type.
+    * Renders three buttons, each referencing a different type of sandwich. 
 
-  2. A second alert message that displays to the user how many of that specific sandwich they've eaten.
+    * When a button is clicked, a first alert displays a witty statement about the specific sandwich.
+    
+    * When the first alert is resolved, a second alert message displays the number of that specific sandwich the user has eaten.
 
 ## Hint(s)
 
-You will need counter variables.
+You will need to use global variables to track state.
 
 ## BONUS
 
-Add an image for each click event.
+Render an image for each click event.

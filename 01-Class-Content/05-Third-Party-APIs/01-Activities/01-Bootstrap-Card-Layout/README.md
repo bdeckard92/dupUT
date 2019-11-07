@@ -14,3 +14,5 @@ In this activity, you will use the Bootstrap grid layout with components to quic
 
 * Refer to the [Bootstrap 4 documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
+* Use [http://placehold.it](http://placehold.it) to generate a placeholder image of 150x150 pixels.
+

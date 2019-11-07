@@ -105,7 +105,7 @@ By the end of class, students will be able to:
 * Answer any questions before proceeding to the next activity.
 
 
-### 3. Instructor Do: Demo Bootstrap Card Layout (5 min) 
+### 3. Instructor Demo: Bootstrap Card Layout (5 min) 
 
 * Use the prompts and talking points below to demonstrate the following key point(s):
 
@@ -163,21 +163,159 @@ By the end of class, students will be able to:
 ```
 
 
-### 5. Instructor Review: [Activity Name] (5 or 10 min) 
+### 5. Instructor Review: Bootstrap Card Layout (5 or 10 min) 
 
 * Bring students back from breakout rooms. 
 
 * Use the prompts and talking points below to demonstrate the following key point(s):
 
+    * ✔️ Adding Bootstrap to HTML with a CDN
+
     * ✔️ Implementing a row / column layout with Bootstrap
 
     * ✔️ Consulting the Bootstrap documentation for components
 
+* Open `/01-Bootstrap-Card-Layout/index.html` in your brower and explain the following:
+
+    * 🔑 We import Bootstrap using the CDN in the `<head>` of our `index.html` file. 
+
+    ```html
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Card Layout Activity</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    </head>
+    ```
+
+    * 🔑 We then add a **nav** component in the `<body>` of our document. 
+
+    ```html
+    <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1">Navbar</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    ```
+
+    * ☝️ Did we write this component?
+
+    * 🙋 We could, but we can also copy/paste it from the [Bootstrap documentation](https://getbootstrap.com/docs/4.3/components/navs/)
+
+    * We next create a `<div>` element with a `container` class.
+
+    ```html
+    <div class="container">
+    ```
+
+    * ☝️ Why did we place this below the `<nav>` element and not at the top of our `<body>`?
+
+    * 🙋 We want our nav to span the width of the page. The container class will "contain" our content to a fixed width.
+
+    * 🔑 Within our container div, we create our first row, and within that a column with a width of 8.
+
+    ```html
+    <div class="row">
+        <div class="col-md-8">
+          ...
+        </div>
+    ```
+
+    * Within our first column, we add our `<h1>` element and another row.
+
+    ```html
+    <h1>About Me</h1>
+        <div class="row">
+    ```
+
+     * ☝️ Why did we place this new row below our `<h1>`?
+
+    * 🙋 We want our header to span the width of our container.
+
+    * 🔑 Within this new row, we add two columns with widths of 3 and 9, respectively. 
+
+    ```html
+    <div class="col-md-3">
+        <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+    </div>
+    <div class="col-md-9">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+            nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+            felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+            non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+            luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+            neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+            dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+            posuere sem congue a.
+        </p>
+    </div>
+    ```
+
+     * ☝️ Why did we choose widths of 3 and 9?
+
+    * 🙋 The Bootstrap grid layout is based on 12 units. 
+
+    * To finish our layout, we add a new column with a width of 4.
+
+    ```html
+    <div class="col-md-4">
+        ...
+    </div>
+      ```
+
+    * ☝️ Why did we choose a width of 4?
+
+    * 🙋 We assigned our first column a width of 8.
+
+    * 🔑 Within our new column, we add a card component. 
+
+    ```html
+    <div class="card mt-2">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         </div>
+    </div>
+    ```
+
+    * ☝️ Did we write this component?
+
+    * 🙋 We could, but we can also copy/paste it from the [Bootstrap documentation](https://getbootstrap.com/docs/4.3/components/card/) 
+
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
-    * ☝️ @TODO Do we use the `point up` emoji to signify a 'question'?
+    * ☝️ When is it okay to copy / paste code?
 
-    * 🙋 @TODO Yes. And we use the `raising hand` emoji to signfiy an 'answer'
+    * 🙋 When it is publicly available in the official documentation for a library or framework and/or the license allows you to do so.
+
+    * ☝️ When is it not okay to copy / paste code?
+
+    * 🙋 When it is under copyright or a restrictive license. It's also not okay to copypasta code from someone elses project and submit it as your own for grading!
 
     * ☝️ What can we do if we don't completely understanding this?
 
@@ -186,19 +324,22 @@ By the end of class, students will be able to:
 * Answer any questions before proceeding to the next activity.
 
 
-### 6. Instructor Do: Demo (5 or 10 min) 
+### 6. Instructor Demo: jQuery Sandwich Click (5 or 10 min) 
 
 * Use the prompts and talking points below to demonstrate the following key point(s):
 
-    * ✔️ 
+    * ✔️ Using state variables
 
-    * ✔️ 
+    * ✔️ Handling events with jQuery `.on()`
 
-* Open `/` in your brower and explain the following:
+    * ✔️ Setting HTML contents with jQuery `.html()`
+    
 
-    * 
+* Open `/02-JQuery-Sandwich-Click/Solved/index.html` in your brower and explain the following:
 
-    * 
+    * When we click one of the sandwich buttons, we are presented with two alerts: the first with a witty comment about the sandwich; the second a count of the number of sandiwches eaten. 
+
+    * When we resolve the alerts, an image of the sandwich is rendered in the browser. 
 
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
@@ -208,35 +349,57 @@ By the end of class, students will be able to:
 
     * ☝️ How does this activity equip us for the challenge?
 
-    * 🙋 @TODO . 
+    * 🙋 We are reviewing how to handle events, work with state variables and dynamically render HTML.
 
     * ☝️ How would we build this?
 
-    * 🙋 @TODO . 
+    * 🙋 We first need to scaffold our application with HTML, including three buttons and an element to hold dynamically generated content. We then need to set up event handlers to listen for clicks and respond to those clicks with alert messages and an image.
 
 * Answer any questions before proceeding to the next activity.
 
 
-### 7. Student Do: [Activity Name] (10 or 15 min) 
+### 7. Student Do: jQuery Sandwich Click (10 or 15 min) 
 
 * Divide students into breakout rooms.
 
 * Direct students to the activity instructions found in `/`.
 
 ```md
-    @TODO add instructions; tabbed
+    # jQuery Sandwich Click
+
+    In this activity, you will build an interactive application that tracks state and handles events.
+
+    ## Instructions
+
+    * From scratch, create a simple jQuery application with the following functionality:
+
+        * Renders three buttons, each referencing a different type of sandwich. 
+
+        * When a button is clicked, a first alert displays a witty statement about the specific sandwich.
+        
+        * When the first alert is resolved, a second alert message displays the number of that specific sandwich the user has eaten.
+
+    ## Hint(s)
+
+    You will need to use global variables to track state.
+
+    ## BONUS
+
+    Render an image for each click event.
 ```
 
 
-### 8. Instructor Review: [Activity Name] (5 or 10 min) 
+### 8. Instructor Review: jQuery Sandwich Click (5 or 10 min) 
 
 * Bring students back from breakout rooms. 
 
-* Use the prompts and talking points below to demonstrate the following key point(s):
+* Use the prompts and talking points below to review the following key point(s):
 
-    * ✔️ @TODO
+    * ✔️ Using state variables
 
-    * ✔️ @TODO
+    * ✔️ Handling events with jQuery `.on()`
+
+    * ✔️ Setting HTML contents with jQuery `.html()`
 
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 
