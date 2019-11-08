@@ -511,29 +511,28 @@ By the end of class, students will be able to:
 ```md
     # jQuery To-do List with localStorage
 
-    In this activity you will build an interactive list application with persistent storage. 
+    In this activity you will add persistent storage to a "To-do list" application. 
 
     ## Instructions
 
-    From scratch, build a "To-do List" using jQuery with the following functionality:
+    Using the starter code in `/Unsolved`, ensure the following functionality:
 
-    * Items are added to the list through a form field. 
+    * Items are added to the list through the form field. 
 
     * Clicking the `Add item` button on the form sets the item in `localStorage`.
 
     * Items in `localStorage` are rendered below the form field. 
 
-
-    ## Bonus
-
-    * Add functionality to delete items.
+    * Items are removed from the DOM and `localStorage` when the "✓" button is clicked.
 
 
     ## Hint(s)
 
-    * Don't forget to use `event.preventDefaul()` and `JSON.stringify()`.
+    * You will need to create an array to hold list items.
 
-    * To delete items, you will need to use `this` and data attributes. 
+    * How do you check to see if items already exist in `localStorage`? If not, then what?
+
+    * You will need to selectively delete array elements using `.splice`. 
 ```
 
 
@@ -549,9 +548,106 @@ By the end of class, students will be able to:
 
     * ✔️ Setting and getting items in localStorage
 
-* Open `/03-jQuery-ToDo-localStorage/index.html` in your browser and explain the following:
+* Open `/03-jQuery-ToDo-localStorage/Solved/index.html` in your IDE and explain the following:
 
-    * 
+    * 🔑 We declare a `list` variable and set the value of `list` to the parsed contents retrieved from `localStorage` use the `.getItem()` method. But, if  there is nothing in `localStorage`, we use the OR operator to set the value of `list` to an empty array.
+
+    ```js
+    var list = JSON.parse(localStorage.getItem("todolist")) || [];
+    ```
+
+    * We declare a `renderTodos()` function. Our function accepts a `list` argument, iterates over that list, and for each item in the list, creates a `<p> element prepended with a `<button>` element.
+
+    ```js
+    function renderTodos(list) {
+        $("#to-dos").empty(); // empties out the html
+
+        // render our todos to the page
+        for (var i = 0; i < list.length; i++) {
+          // Create a new variable that will hold a "<p>" tag.
+          // Then set the to-do "value" as text to this <p> element.
+          var toDoItem = $("<p>");
+          toDoItem.text(list[i]);
+
+          // Create a button with unique identifiers based on what number it is in the list. Again use jQuery to do this.
+          // Give your button a data attribute called data-to-do and a class called "checkbox".
+          // Lastly add a checkmark inside.
+
+          var toDoClose = $("<button>");
+
+          toDoClose.attr("data-to-do", i);
+          toDoClose.addClass("checkbox");
+          toDoClose.text("✓");
+
+          // Append the button to the to do item
+          toDoItem = toDoItem.prepend(toDoClose);
+
+          // Add the button and to do item to the to-dos div
+          $("#to-dos").append(toDoItem);
+        }
+      }
+      ```
+
+    * ☝️ What is the purpose of `$("#to-dos").empty();`?
+
+    * 🙋 It clears the `#to-dos` `<div>`. If we didn't call the `empty()` method, our list would be appended to the `#to-dos` `<div>` every time we opened or refreshed our page resulting in a redundant, messy interface.
+
+    * 🔑 We add an event handler to the `#add-to-do` form using `.on()`. When our application "hears" a `"click"` on the form `<input>`, the value in the form field is assigned to a variable, `toDoTask`. `toDoTask` is then pushed to the `list` array and passed to our `renderTodos` function. 
+
+      ```js
+        $("#add-to-do").on("click", function(event) {
+        event.preventDefault();
+
+        // Get the to-do "value" from the textbox and store it as a variable
+        var toDoTask = $("#to-do")
+          .val()
+          .trim();
+
+        // Adding our new todo to our local list variable and adding it to local storage
+        list.push(toDoTask);
+
+        // Update the todos on the page
+        renderTodos(list);
+
+        // Save the todos into localstorage.
+        // We need to use JSON.stringify to turn the list from an array into a string
+        localStorage.setItem("todolist", JSON.stringify(list));
+
+        // Clear the textbox when done
+        $("#to-do").val("");
+      });
+      ```
+
+    * 🔑 We update `localStorage` with the new `list` array using the `setItem` method and `JSON.stringify()`. 
+
+    * @TODO
+
+      ```js
+      $(document).on("click", ".checkbox", function() {
+        // Get the number of the button from its data attribute and hold in a variable called  toDoNumber.
+        var toDoNumber = $(this).attr("data-to-do");
+
+        // Deletes the item marked for deletion
+        list.splice(toDoNumber, 1);
+
+        // Update the todos on the page
+        renderTodos(list);
+
+        // Save the todos into localstorage.
+        // We need to use JSON.stringify to turn the list from an array into a string
+        localStorage.setItem("todolist", JSON.stringify(list));
+      });
+      ```
+    
+    * ☝️ Why do we add the event handler to the document?
+
+    * 🙋 The buttons were dynamically generated and did not exist before the DOM was rendered. 
+
+    * Lastly, we call our `renderTodos()` function and pass it our `list` to set everything in motion.
+
+    ```js
+    renderTodos(list);
+    ```
 
 * Ask the class the following question(s) and call on students for the corresponding answer(s):
 

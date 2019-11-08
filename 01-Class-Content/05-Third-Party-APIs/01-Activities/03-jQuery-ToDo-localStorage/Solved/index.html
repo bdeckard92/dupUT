@@ -2,12 +2,12 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>jQuery To-do List with localStorage</title>
+    <title>Solved: jQuery To-do List with localStorage</title>
   </head>
 
   <body>
     <!-- Title -->
-    <h1>jQuery To-do List with localStorage</h1>
+    <h1>Solved: jQuery To-do List with localStorage</h1>
 
     <!-- Input Form -->
     <form>
@@ -18,18 +18,26 @@
           type="submit"
       /></span>
     </form>
-
+    
     <hr />
-
+    
     <!-- To-Do List -->
     <div id="to-dos"></div>
-
+    
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    
     <!-- Script -->
-
+    
     <script type="text/javascript">
+      
+      // Load the todos from localstorage.
+      // We need to use JSON.parse to turn the string retrieved  from an array into a string
+      // Checks to see if the todolist exists in localStorage and is an array currently
+      // If not, set a local list variable to an empty array
+      // Otherwise list is our current list of todos
+      var list = JSON.parse(localStorage.getItem("todolist")) || [];
+
       function renderTodos(list) {
         $("#to-dos").empty(); // empties out the html
 
@@ -95,17 +103,6 @@
         // We need to use JSON.stringify to turn the list from an array into a string
         localStorage.setItem("todolist", JSON.stringify(list));
       });
-
-      // Load the todos from localstorage.
-      // We need to use JSON.parse to turn the string retrieved  from an array into a string
-      var list = JSON.parse(localStorage.getItem("todolist"));
-
-      // Checks to see if the todolist exists in localStorage and is an array currently
-      // If not, set a local list variable to an empty array
-      // Otherwise list is our current list of todos
-      if (!Array.isArray(list)) {
-        list = [];
-      }
 
       // render our todos on page load
       renderTodos(list);
