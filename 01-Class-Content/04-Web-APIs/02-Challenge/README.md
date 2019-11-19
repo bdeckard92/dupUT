@@ -85,7 +85,7 @@ var questions = [
 
 ### Submission
 
-> **Asset needed:** Instruction [Jira issue title](https://trilogyed.atlassian.net/jira/software/projects/FSFO/boards/197/backlog?selectedIssue=FSFO-279)
+> **Asset needed:** Instruction [Module 4 Challenge - Instruction: Add Submission Instructions for Challenge](https://trilogyed.atlassian.net/jira/software/projects/FSFO/boards/197/backlog?selectedIssue=FSFO-279)
 
 
 - - -
