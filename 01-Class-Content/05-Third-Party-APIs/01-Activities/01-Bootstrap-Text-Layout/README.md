@@ -1,15 +1,11 @@
-### File
+# Bootstrap Text Layout
 
-* *None*
+## Instructions
 
-### Instruction
+* Using Bootstrap, create the layout in the following image:
 
-* Using Bootstrap, create a layout that looks like:
+  ![text-layout activity design](bootstrap-text-layout.png)
 
-  ![text-layout activity design](text-layout.png)
+## Hint(s) 
 
-* **HINT:** Spend some time prior to coding on drawing out the grid layout.
-
-* **HINT:** Count the number of rows and columns.
-
-* **HINT:** Then use the bootstrap grid syntax to code it out.
+* Prior to co`/folder/file`ding, spend some time drawing the grid layout.
