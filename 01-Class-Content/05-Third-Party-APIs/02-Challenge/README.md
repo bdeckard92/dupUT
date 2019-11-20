@@ -1,18 +1,16 @@
-# Unit 05 Third-Party APIs Homework: Work Day Scheduler
+# 05 Third-Party APIs Assignment: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-![day planner demo](./Assets/05-Third-Party-APIs-homework-demo.gif)
-
 ## User Story
 
+```
 AS AN employee with a busy schedule
-
 I WANT to add important events to a daily planner
-
-SO THAT I can manage my time effectively 
+SO THAT I can manage my time effectively
+```
 
 ## Acceptance Criteria
 
@@ -32,9 +30,14 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-## Submission
+* Refer to the animated GIF below for a demonstration of the application functionality.
 
-You are required to submit the following:
+
+![day planner demo](./Assets/05-Third-Party-APIs-homework-demo.gif)
+
+## Review
+
+You are required to submit the following for review:
 
 * The URL of the deployed application
 
