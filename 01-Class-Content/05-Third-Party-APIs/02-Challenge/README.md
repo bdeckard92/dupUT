@@ -32,9 +32,29 @@ Poor time management can result in missed meetings and deadlines or create the a
 
 ## Acceptance Criteria
 
-* Functional, deployed application.
+```
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
+```
 
-* GitHub repository with a unique name and a README describing project.
+```
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I enter a
+THEN 
+
+```
+
 
 * The application displays timeblocks for standard business hours (9 a.m. to 5 p.m.).
 
@@ -42,18 +62,17 @@ Poor time management can result in missed meetings and deadlines or create the a
 
 * Clicking a timeblock's "Save" button stores the input text in local storage, allowing the text to persist when the application is refreshed.
 
-* The current day is displayed at the top of the calendar.
 
 * Each timeblock is color coded to indicate whether it is in a past, present, or future hour.
 - - -
 
-## Submission on BCS
+## Submission
 
 You are required to submit the following:
 
 * The URL of the deployed application
 
-* The URL of the GitHub repository
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
