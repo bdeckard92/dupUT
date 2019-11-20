@@ -29,9 +29,9 @@ THEN I can save my initials and score
 ![code quiz](./Assets/04-Web-APIs-homework-demo.gif)
 
 
-### Submission
+### Review
 
-You are required to submit the following:
+You are required to submit the following for review:
 
 * The URL of the functional, deployed application
 
