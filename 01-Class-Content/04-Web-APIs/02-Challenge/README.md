@@ -1,17 +1,6 @@
 # Module 04 Web APIs Challenge: Code Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive challenges. In this homework assignment, your challenge is to build a code quiz with multiple-choice questions.
-
-
-## Instructions
-
 From scratch, build a timer-based quiz application that stores high scores client-side. Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
-
-```
-As a coding bootcamp student
-I want to take a timed quiz on JavaScript fundamentals that stores high scores
-so that I can gauge my progress compared to my peers
-```
 
 How do you deliver this? Here are some guidelines:
 
@@ -32,7 +21,7 @@ How do you deliver this? Here are some guidelines:
 ![code quiz](./Assets/04-Web-APIs-homework-demo.gif)
 
 
-### Hints
+## Hints
 
 * Store your questions as an array of objects in a separate file, `questions.js`, that follows this format:
 
@@ -54,8 +43,19 @@ var questions = [
 
 * The length of the array in `questions.js` determines the length of play. Fifteen seconds per question is a good estimate, so 5 questions will result in a length of play of 75 seconds.
 
+## User Story
 
-### Minimum Requirements
+AS A coding bootcamp student
+
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+
+SO THAT I can gauge my progress compared to my peers
+
+## Business Context
+
+Coding assessments are typically a combination of multiple-choice questions and interactive challenges. In this homework assignment, your challenge is to build a code quiz with multiple-choice questions.
+
+## Acceptance Criteria
 
 * Functional, deployed application.
 
@@ -74,7 +74,7 @@ var questions = [
 * After the game ends, the user can save their initials and score to a highscores view using local storage.
 
 
-### Bonus
+## Bonus
 
 * Add audio files to alert the user of correct or incorrect answers. Be sure to include the appropriate license.
 
@@ -83,7 +83,7 @@ var questions = [
 * Create multiple quizzes and an option for users to choose between them.
 
 
-### Submission
+## Submission
 
 > **Asset needed:** Instruction [Module 4 Challenge - Instruction: Add Submission Instructions for Challenge](https://trilogyed.atlassian.net/jira/software/projects/FSFO/boards/197/backlog?selectedIssue=FSFO-279)
 
