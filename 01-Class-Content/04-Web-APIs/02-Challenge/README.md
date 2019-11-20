@@ -1,7 +1,6 @@
-# Module 04 Web APIs Challenge: Code Quiz
+# 04 Web APIs Assignment: Code Quiz
 
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment. These assessments are typically a combination of multiple-choice questions and interactive challenges. In this assignment, your challenge is to build a code quiz with multiple-choice questions.
-
 
 ## User Story
 ```
@@ -9,7 +8,6 @@ AS A coding bootcamp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
-
 
 ## Acceptance Criteria
 ```
