@@ -17,26 +17,22 @@ SO THAT I can create a strong password that provides greater security
 ## Acceptance Criteria
 
 ```
-GIVEN I a new, secure password
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts
 WHEN prompted for password criteria
 THEN I select which criteria to include in the password
 WHEN prompted for the length of the password
 THEN I choose a length of at least 8 characters and no more than 128 characters
 WHEN prompted for character types to include in the password
 THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer prompts
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
 THEN a password is generated
+WHEN the password is generated
+THEN the password is displayed either in an alert or written to the page
 ```
-
-
-
-
- 
-
-The application should validate user input and ensure that at least one character type is selected.
-
-Once all prompts are answered, the user will be presented with a password matching the answered prompts. Displaying the generated password in an alert is acceptable, but attempt to write the password to the page instead.
-
-Your application should have a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 As a bonus, the user should also have the option to click a button to copy the password to their clipboard.
 
