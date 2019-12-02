@@ -32,13 +32,6 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-Bonus:
-
-```
-WHEN I click the button to copy the password
-THEN the password is copied to the clipboard
-```
-
 * Refer to the image below for an example of what the application should look like.
 
 ![password generator demo](./Assets/03-JavaScript-homework-demo.png)
