@@ -26,7 +26,7 @@ THEN I can save my initials and score
 
 * Refer to the animated GIF below for a demonstration of the application functionality.
 
-![code quiz](./Assets/04-Web-APIs-homework-demo.gif)
+![code quiz](./Assets/04-web-apis-homework-demo.gif)
 
 
 ### Review

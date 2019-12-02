@@ -34,7 +34,7 @@ THEN the password is either displayed in an alert or written to the page
 
 * Refer to the image below for an example of what the application should look like.
 
-![password generator demo](./Assets/03-JavaScript-homework-demo.png)
+![password generator demo](./Assets/03-javascript-homework-demo.png)
 
 ## Review
 
