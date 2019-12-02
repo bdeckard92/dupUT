@@ -42,21 +42,19 @@ SO THAT I can create a strong password that provides greater security
 
 ## Acceptance Criteria
 
+```
 GIVEN that a user needs a new, secure password
-
 WHEN prompted for password criteria
-
 THEN a password is generated
+```
 
-- - -
+## Review
 
-## Submission on BCS
-
-You are required to submit the following:
+You are required to submit the following for review:
 
 * The URL of the deployed application
 
-* The URL of the GitHub repository
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
