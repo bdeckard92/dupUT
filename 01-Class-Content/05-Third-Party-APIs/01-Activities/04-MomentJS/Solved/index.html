@@ -25,6 +25,8 @@
     var randomFormat = "MM/DD/YYYY";
     var convertedDate = moment(randomDate, randomFormat);
 
+    console.log(convertedDate)
+
     // Using scripts from moment.js write code below to complete each of the following.
     // Console.log to confirm the code changes you made worked.
 
@@ -45,11 +47,7 @@
     var newDate = moment("02/14/2001", randomFormat);
     console.log(convertedDate.diff(newDate, "days"));
 
-    // 4 ...to convert the randomDate to unix time (be sure to look up what unix time even is!!!)
-    console.log(convertedDate.format("X"));
-    console.log("----------------------------------------");
-
-    // 5 ...to determine what day of the week and what week of the year this randomDate falls on.
+    // 4 ...to determine what day of the week and what week of the year this randomDate falls on.
     console.log(convertedDate.format("DDD"));
     console.log(convertedDate.format("dddd"));
   </script>
