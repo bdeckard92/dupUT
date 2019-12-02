@@ -35,7 +35,7 @@ THEN the password is either displayed in an alert or written to the page
 Bonus:
 
 ```
-WHEN I click a button to copy the password
+WHEN I click the button to copy the password
 THEN the password is copied to the clipboard
 ```
 
