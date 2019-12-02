@@ -220,8 +220,7 @@ function generatePassword() {
   return result.join("");
 }
 
-// Get references to the #copy and #generate elements
-var copyBtn = document.querySelector("#copy");
+// Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -231,23 +230,7 @@ function writePassword() {
 
   passwordText.value = password;
 
-  copyBtn.removeAttribute("disabled");
-  copyBtn.focus();
-}
-
-function copyToClipboard() {
-  var passwordText = document.querySelector("#password");
-
-  passwordText.select();
-  document.execCommand("copy");
-
-  alert(
-    "Your password " + passwordText.value + " was copied to your clipboard."
-  );
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-// Add event listener to copy button
-copyBtn.addEventListener("click", copyToClipboard);

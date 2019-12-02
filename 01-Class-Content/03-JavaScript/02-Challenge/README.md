@@ -32,7 +32,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-* Refer to the image below for an example of what the application should look like.
+* Refer to the image below for a demonstration of the application functionality.
 
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
 
