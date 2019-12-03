@@ -33,7 +33,7 @@ THEN the saved events persist
 * Refer to the animated GIF below for a demonstration of the application functionality.
 
 
-![day planner demo](./Assets/05-Third-Party-APIs-homework-demo.gif)
+![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Review
 
