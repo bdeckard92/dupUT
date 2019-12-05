@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,9 +10,9 @@ body {
 
 header {
     padding: 20px;
-    background-color: #2A6041;
-    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2A6041;
+    color: #ffffff;
 }
 
 header h1 {
@@ -22,10 +22,10 @@ header h1 {
 
 header div {
     padding-top: 15px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    margin-right: 20px;
 }
 
 header div ul {
@@ -38,7 +38,7 @@ header div ul li {
 }
 
 a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -49,10 +49,10 @@ p {
 .hero {
     height: 400px;
     width: 100%;
+    margin-bottom: 25px;
     background-image: url("../images/green-roof.jpg");
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
 }
 
 .float-left {
@@ -72,28 +72,27 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    border-radius: 15px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    background-color: #69B578;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #69B578;
 }
 
 .benefit-temp {
     margin-bottom: 32px;
-    color: white;
+    color: #ffffff;
 }
 
 .benefit-solar {
     margin-bottom: 32px;
-    color: white;
+    color: #ffffff;
 }
 
 .benefit-air {
     margin-bottom: 32px;
-    color: white;
+    color: #ffffff;
 }
 
 .benefit-temp h3 {
@@ -130,33 +129,30 @@ p {
 }
 
 .green-roofing {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #53A548;
-    color: white;
-    border-radius: 15px;
+    color: #ffffff;
 }
 
 .graywater-treatment {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #53A548;
-    color: white;
-    border-radius: 15px;
+    color: #ffffff;
 }
 
 .solar-energy {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #53A548;
-    color: white;
-    border-radius: 15px;
+    color: #ffffff;
 }
 
 .green-roofing img {
@@ -188,6 +184,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 .footer {
     padding: 30px;
     clear: both;
