@@ -1,4 +1,4 @@
-# 03 JavaScript Assignment: Password Generator
+# 03 JavaScript: Password Generator
 
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
@@ -32,7 +32,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-* Refer to the image below for a demonstration of the application functionality.
+The following image demonstrates the application functionality:
 
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
 
@@ -40,7 +40,7 @@ THEN the password is either displayed in an alert or written to the page
 
 You are required to submit the following for review:
 
-* The URL of the deployed application
+* The URL of the deployed application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
