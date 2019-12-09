@@ -32,7 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation demonstrates the application functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](./02-Challenge/Assets/02-advanced-css-homework-demo.gif)
 
 ## Review
 
