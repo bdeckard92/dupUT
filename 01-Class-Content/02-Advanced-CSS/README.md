@@ -18,20 +18,16 @@ SO THAT I can showcase my applications to potential employers and clients
 GIVEN I need a portfolio
 WHEN I load the website
 THEN I am presented with my name, a recent photo of me, and links to sections about me, my work, and how to contact me
-WHEN I click on the links
-THEN I am taken to that section of the portfolio
-WHEN I click on the link to the section about me
-THEN I am taken to a section providing some personal background information
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
 WHEN I click on the link to the section about my work
-THEN I am taken to a section with titled images of the applications I want to showcase
+THEN the UI scrolls to a section with titled images of the applications I want to showcase
 WHEN I want to feature one of my applications more than the others
 THEN that application's image should be displayed first and be larger in size than the others
 WHEN I add a new application to the section about my work
 THEN the layout for that section should adapt to the size change
 WHEN I click on the images of my applications
 THEN I am taken to that deployed application
-WHEN I click on the link to the section about how to contact me
-THEN I am taken to a section providing my phone number, email address, and links to my profile on relevant social networking platforms 
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
