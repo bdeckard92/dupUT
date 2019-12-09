@@ -7,26 +7,24 @@ If you don't have enough applications to showcase at this point, add in some pla
 ## User Story
 
 ```
-AS A web developer
-I WANT a deployed portfolio
-SO THAT I can showcase my applications to potential employers and clients
+AS AN employer
+I WANT to view a potential employee's deployed portfolio
+SO THAT I can review samples of the developer's work
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN I need a portfolio
-WHEN I load the website
-THEN I am presented with my name, a recent photo of me, and links to sections about me, my work, and how to contact me
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about my work
-THEN the UI scrolls to a section with titled images of the applications I want to showcase
-WHEN I want to feature one of my applications more than the others
-THEN that application's image should be displayed first and be larger in size than the others
-WHEN I add a new application to the section about my work
-THEN the layout for that section should adapt to the size change
-WHEN I click on the images of my applications
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
