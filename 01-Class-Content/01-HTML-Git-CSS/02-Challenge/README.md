@@ -1,33 +1,27 @@
 # 01 HTML CSS Git: Code Refactor
 
-Refactor an existing webpage to make it accessible. You should also ensure that all links are functioning correctly and clean up the CSS to make it more efficient. Use Git workflow and best practices to deploy the refactored webpage to GitHub pages.
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+
+Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+
+> Always leave the code you are editing a little cleaner than you found it.
+
+To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
 ## User Story
 
 ```
-AS A developer working with a legacy codebase
-I WANT to refactor my HTML and CSS
-SO THAT it meets accessibility standards
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN I need a webpage that meets accessibility standards
-WHEN the HTML elements don't accurately describe their purpose and the type of content that is inside them
-THEN I change the elements to semantic elements
-WHEN I click each navigation link at the top of the page
-THEN I am taken to a specific place on that page that matches the link
-WHEN my images don't include alt attributes
-THEN I add alt attributes that meet accessibility standards
-WHEN the CSS is inefficient and repeats selectors and properties
-THEN I refactor my CSS to consolidate selectors and properties
-WHEN the CSS selectors do not follow the semantic structure of the HTML elements
-THEN I reorganize the selectors to follow the semantic structure of the HTML elements
-WHEN the CSS does not include comments before each element or section of the page
-THEN I add comments to describe each element or section
-WHEN I modify the HTML and CSS
-THEN the webpage meets accessibility standards
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements, images with alt attributes, etc.
 ```
 
 ## Review
