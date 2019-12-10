@@ -14,4 +14,12 @@ Using only the command line:
 
 5. Delete the `self-destructing-folder`.
 
+## Bonus
 
+- What command lists all of the folders and files in a directory?
+
+- What command lists all of the hidden folders and files?
+
+- What command prints the current directory?
+
+- What command opens a file?

@@ -4,37 +4,36 @@
 
 Each module contains an overview (like this one!) with `Instructor Notes` containing tips, alerts, and resources to aid you in preparation. The following are general guidelines to be applied to all modules:
 
-* When reviewing activities, ask for volunteers to share their solutions and/or ask students to walk through the solution, line-by-line.
+- When reviewing activities, ask for volunteers to share their solutions and/or ask students to walk through the solution, line-by-line.
 
-* If you are comfortable doing so, live code the solutions to the activities. If not, no worries. Use the solutions provided and follow the prompts and talking points for review. 
+- If you are comfortable doing so, live code the solutions to the activities. If not, no worries. Use the solutions provided and follow the prompts and talking points for review.
 
-* If you are comfortable doing so, share your struggle and/or personal experiences learning and working with the concepts covered in this lesson.
+- If you are comfortable doing so, share your struggle and/or personal experiences learning and working with the concepts covered in this lesson.
 
-* During activities, visit a few breakout rooms quietly and ask the group if they are comfortable with the activity and provide gentle tips to keep them on track.
+- During activities, visit a few breakout rooms quietly and ask the group if they are comfortable with the activity and provide gentle tips to keep them on track.
 
-* In Required sessions, you will need to demonstrate the upcoming challenge. You will want to familiarize yourself with the application and ensure any dependencies are installed prior to class.
+- In Required sessions, you will need to demonstrate the upcoming challenge. You will want to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
 ## Live Session Lesson Plans
 
 ### Emoji Key
 
-@TODO 
-
+@TODO
 
 ### Flex Sessions
 
-Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week. 
+Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
 The primary goals of Flex Sessions are to:
 
-* Build community and help students feel more connected to instructors and one another
+- Build community and help students feel more connected to instructors and one another
 
-* Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
+- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
 
-* Provide extra context in the learning journey around career preparation and workforce readiness
+- Provide extra context in the learning journey around career preparation and workforce readiness
 
+Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, a fist (0) indicates lack of confidence and an open hand (5), confidence. Feel free to use other means to gauge overall comprehension of the material such as { ... }.
 
 ### Required Sessions
 
-@TODO 
-
+@TODO
