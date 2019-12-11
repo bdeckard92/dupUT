@@ -126,5 +126,3 @@ $(document).ready(function() {
     makeRow(history[i]);
   }
 });
-
-// Bonus, use location API to add the user's current location to the initial landing page.

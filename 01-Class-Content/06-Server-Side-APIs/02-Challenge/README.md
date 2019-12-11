@@ -32,13 +32,7 @@ THEN I am again presented with current and future conditions for that city
 
 The following image demonstrates the application functionality:
 
-![weather dashboard](./Assets/06-server-side-apis-homework-demo.png)
-
-
-## Bonus
-
-* Use the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to add the user's current location to the initial landing page.
-
+![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
 
 ## Review
 
