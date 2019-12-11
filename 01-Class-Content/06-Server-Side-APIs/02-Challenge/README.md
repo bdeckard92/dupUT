@@ -2,7 +2,7 @@
 
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions.
+Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
 
 ## User Story
 
@@ -32,51 +32,6 @@ The following image/animation demonstrates the application functionality:
 
 ![weather dashboard](./Assets/06-Server-Side-APIs-homework-demo.png)
 
-
-### Hints
-
-* Create multiple functions within your application to handle the different parts of the dashboard:
-
-  * Current conditions
-  
-  * 5-Day Forecast
-  
-  * Search history
-
-  * UV index
-
-* You will need to make more than one AJAX call.
-
-* You will need to hardcode some of the parameters in the API's URL. User input will determine some of the other parameters.
-
-* Use `localStorage` to store any persistent data.
-
-
-## Minimum Requirements
-
-* Functional, deployed application.
-
-* GitHub repository with a unique name and a README describing the project.
-
-* User can search for weather reports by city using the openweathermap API.
-
-* After searching for a city, the following information is displayed:
-
-  *  Current temperature
-
-  *  Current humidity
-
-  *  Windspeed
-
-  *  Uv index
-
-  *  5 day forecast
-
-* Application uses icons to represent weather conditions.
-
-* Application stores previously searched for cities in localstorage and displays them to the user.
-
-* Application loads last searched city forecast on page load.
 
 ## Bonus
 
