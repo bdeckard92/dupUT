@@ -34,6 +34,39 @@ The primary goals of Flex Sessions are to:
 
 Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, a fist (0) indicates lack of confidence and an open hand (5), confidence. Feel free to use other means to gauge overall comprehension of the material such as { ... }.
 
+| Start  | #   | Activity Name                  | Duration |
+| ------ | --- | ------------------------------ | -------- |
+| 6:30PM | 1   | Introduction                   | 0:05     |
+| 6:35PM | 2   | Everyone Do: Career Connection | 0:20     |
+| 6:55PM | 3   | Instructor Demo:               | 0:05     |
+| 7:00PM | 4   | Student Do:                    | 0:15     |
+| 7:15PM | 5   | Instrutor Review:              | 0:10     |
+| 7:25PM | 6   | Instructor Demo:               | 0:05     |
+| 7:30PM | 7   | Student Do:                    | 0:15     |
+| 7:45PM | 8   | Instructor Review:             | 0:10     |
+| 7:55PM | 9   | Recap                          | 0:05     |
+| 8:00PM | 10  | Office Hours                   | 0:30     |
+| 8:30PM | 11  | End                            | N/A      |
+
 ### Required Sessions
 
 @TODO
+
+| Start  | #   | Activity Name                | Duration |
+| ------ | --- | ---------------------------- | -------- |
+| 6:00PM | 0   | Office Hours                 | 0:30     |
+| 6:30PM | 1   | Introduction                 | 0:10     |
+| 6:40PM | 2   | Challenge Overview           | 0:05     |
+| 6:45PM | 3   | Instructor Demo:             | 0:05     |
+| 6:50PM | 4   | Student Do:                  | 0:15     |
+| 7:05PM | 5   | Instrutor Review:            | 0:10     |
+| 7:15PM | 6   | Instructor Demo:             | 0:05     |
+| 7:20PM | 7   | Student Do:                  | 0:15     |
+| 7:35PM | 8   | Instructor Review:           | 0:10     |
+| 7:45PM | 9   | Instructor Demo:             | 0:05     |
+| 7:50PM | 10  | Student Do:                  | 0:20     |
+| 8:10PM | 11  | Instructor Review:           | 0:10     |
+| 8:20PM | 12  | Recap                        | 0:05     |
+| 8:25PM | 13  | Promote Additional Resources | 0:05     |
+| 8:30PM | 14  | Office Hours                 | 0:30     |
+| 9:00PM | 15  | End                          | N/A      |
