@@ -1,17 +1,10 @@
-# Unit 06 Server-Side APIs Homework: Weather Dashboard
+# 06 Server-Side APIs: Weather Dashboard
 
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. In this homework assignment, your challenge is to build a weather dashboard using the OpenWeather API.
 
 
-## Instructions
-
 Build a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities. Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
 
-```
-As a traveler
-I want to see the weather outlook for multiple cities
-so that I can plan a trip accordingly
-```
 
 How do you deliver this? Here are some guidelines:
 
@@ -104,35 +97,33 @@ How do you deliver this? Here are some guidelines:
 * Add the application to your portfolio.
 
 
-## Commit Early and Often
+## User Story
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+```
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+```
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+## Acceptance Criteria
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+```
+GIVEN I
+WHEN I
+THEN I
+```
 
-Follow these guidelines for committing:
+The following image/animation demonstrates the application functionality:
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+![image](./Assets/image.png)
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+## Review
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+You are required to submit the following for review:
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+* The URL of the deployed application.
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository
-
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
