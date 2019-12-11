@@ -21,7 +21,7 @@ THEN I am presented with current and future conditions for that city
 WHEN I view current weather conditions for that city
 THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
 WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are safe or not
+THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
 WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, and icon representation of weather conditions, the temperature, and the humidity
 WHEN I search for a city
@@ -32,13 +32,12 @@ THEN I am again presented with current and future conditions for that city
 
 The following image demonstrates the application functionality:
 
-![weather dashboard](./Assets/06-Server-Side-APIs-homework-demo.png)
+![weather dashboard](./Assets/06-server-side-apis-homework-demo.png)
 
 
 ## Bonus
 
 * Use the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) to add the user's current location to the initial landing page.
-
 
 
 ## Review
