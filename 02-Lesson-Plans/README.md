@@ -20,6 +20,11 @@ Each module contains an overview (like this one!) with `Instructor Notes` contai
 
 @TODO
 
+### Time Trackers
+
+@TODO
+Flex and Required sessions follow the same format week-to-week.
+
 ### Flex Sessions
 
 Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
@@ -32,7 +37,8 @@ The primary goals of Flex Sessions are to:
 
 - Provide extra context in the learning journey around career preparation and workforce readiness
 
-Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, a fist (0) indicates lack of confidence and an open hand (5), confidence. Feel free to use other means to gauge overall comprehension of the material such as { ... }.
+@TODO
+✊ Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
 
 | Start  | #   | Activity Name                  | Duration |
 | ------ | --- | ------------------------------ | -------- |

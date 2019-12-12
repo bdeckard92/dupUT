@@ -2,6 +2,6 @@
 
 ## Instructions
 
-Using only HTML, create a simple site similar to the design in the following image:
+Using only HTML, create a simple portfolio similar to the design in the following image:
 
 ![](html-mockup.png)
