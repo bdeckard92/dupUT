@@ -1,33 +1,35 @@
-/**
- * Media Query Demo (note the commented rules)
- **/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600');
+/* set some css variables to reuse colors */
 
-* {
+:root {
+  --aquamarine: aquamarine;
+  --black: #272727;
+}
+
+html {
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
 }
 
-/*
-  The background color will be #ccc
-  at browser widths above 768px
-*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  /* Typography */
-  font-size: 18px;
-  line-height: 27px;
-
-  /* Visual */
-  background-color: #ccc;
+  margin: 50px;
 }
 
-/*
-  The width of the wrapper will be 1024px
-  at browser widths above 768px
-*/
 .wrapper {
-  /* Box-model */
+
   width: 1024px;
 
-  /* Positioning */
   margin: 40px auto;
 }
 
@@ -36,36 +38,47 @@ body {
   /* Box-model */
   width: 500px;
   padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 240, 248, 0.76);
+  border-radius: 5px;
+  font-size: 35px;
+
 }
 
 #main-content {
   /* Positioning */
   float: left;
 
+  color: white;
+
   /* Visual */
-  background: #fff;
+  background: black;
 }
 
 #sidebar {
   /* Positioning */
   float: right;
 
+  color:white;
   /* Visual */
-  background: #eee;
+  background: black;
 }
 
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-*/
-@media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
-  body {
-    background-color: #333;
-  }
+/* Additional Screen Sizes */
 
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
-}
+/* Width at 1024px and below */
+
+
+/* Width at 768px and below */
+
+
+/* Width at 600px and below */
+
+
+/* Width at 480px and below */
+
+
+/* Width at 480px and below */
+
