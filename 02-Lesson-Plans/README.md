@@ -2,7 +2,7 @@
 
 ## Instructor Notes
 
-Each module contains an overview (like this one!) with `Instructor Notes` containing tips, alerts, and resources to aid you in preparation. The following are general guidelines to be applied to all modules:
+Each module contains an overview (like this one!) with **Instructor Notes** containing tips, alerts, and resources to aid you in preparation. The following are general guidelines to be applied to all modules:
 
 - When reviewing activities, ask for volunteers to share their solutions and/or ask students to walk through the solution, line-by-line.
 
@@ -25,20 +25,7 @@ Each module contains an overview (like this one!) with `Instructor Notes` contai
 @TODO
 Flex and Required sessions follow the same format week-to-week.
 
-### Flex Sessions
-
-Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
-
-The primary goals of Flex Sessions are to:
-
-- Build community and help students feel more connected to instructors and one another
-
-- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
-
-- Provide extra context in the learning journey around career preparation and workforce readiness
-
-@TODO
-✊ Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
+#### Flex Session Time Tracker Template
 
 | Start  | #   | Activity Name                  | Duration |
 | ------ | --- | ------------------------------ | -------- |
@@ -54,9 +41,7 @@ The primary goals of Flex Sessions are to:
 | 8:00PM | 10  | Office Hours                   | 0:30     |
 | 8:30PM | 11  | End                            | N/A      |
 
-### Required Sessions
-
-@TODO
+#### Required Session Time Tracker Template
 
 | Start  | #   | Activity Name                | Duration |
 | ------ | --- | ---------------------------- | -------- |
@@ -76,3 +61,27 @@ The primary goals of Flex Sessions are to:
 | 8:25PM | 13  | Promote Additional Resources | 0:05     |
 | 8:30PM | 14  | Office Hours                 | 0:30     |
 | 9:00PM | 15  | End                          | N/A      |
+
+### Flex Sessions
+
+Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+
+The primary goals of Flex Sessions are to:
+
+- Build community and help students feel more connected to instructors and one another
+
+- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
+
+- Provide extra context in the learning journey around career preparation and workforce readiness
+
+@TODO
+✊ Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
+
+After getting the pulse of the class, the longest, and perhaps most important, activity of a Flex session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection.
+
+
+
+### Required Sessions
+
+@TODO
+
