@@ -156,8 +156,8 @@ body {
   }
 }
 
-/* Width at 480px and below */
-@media screen and (max-width: 480px) {
+/* Width at 300px and below */
+@media screen and (max-width: 300px) {
   body {
     background-color: #333;
   }
