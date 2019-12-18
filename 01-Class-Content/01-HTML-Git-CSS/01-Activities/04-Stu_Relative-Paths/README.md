@@ -2,8 +2,8 @@
 
 ## Instructions
 
-Modify each of the four `html-bio.html` pages such that they can access the CSS inside their folder. Don't move the CSS file, and don't move the HTML file.
+Correctly link the `style.css` for each of the four `index.html` files in their containing folders. Don't move either the CSS or HTML files. 
 
 ## Hint(s):
 
-If you need some reading material on relative paths, read [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
+You only need to change the relative path in the `<link>` tag.
