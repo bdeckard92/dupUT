@@ -6,9 +6,15 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 In this weeks virtual classes, you'll introduce students to the basics of HTML, CSS, Git and GitHub, and the command line.
 
+## Virtual Classes
+
 ### Recommended
 
+@TODO
+
 ### Required
+
+@TODO
 
 ## Instructor Notes
 
@@ -24,16 +30,20 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
   * SSH keys, added to both GitHub and the class repository
 
-  - Testing, testing
-
 * Students often encounter errors configuring their SSH keys. The pre-work directs students to the [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) article on GitHub. Many students simply forget to add their newly generated key to the ssh-agent. The others will most likely need to be regenerated.
-
-*
 
 ## Module Challenge
 
+@TODO
+
 ## Heads Up
+
+@TODO 
 
 ## Resources
 
+@TODO 
+
 ## Algorithms
+
+N/A
