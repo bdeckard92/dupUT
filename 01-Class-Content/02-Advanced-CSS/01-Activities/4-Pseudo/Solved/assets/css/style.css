@@ -46,8 +46,7 @@ li::before {
   content: "🥔";
 }
 
-li:nth-child(2n-1) {
-  color: blue;
+li:nth-child(2n -1) {
   background-color: wheat;
 }
 
@@ -61,41 +60,3 @@ li:nth-child(2n-1) {
   color: red;
   font-family: cursive;
 }
-
-.button {
-  background-color: purple;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  }
-
-
-  .link:link {
-    color: yellow;
-    font-weight: 300;
-  } 
-
-  .visited:visited {
-    color: orange;
-    background-color: black;
-    font-weight: 500;
-  } 
-  
-  .hover:hover {
-    color: red;
-    background-color: grey;
-    font-weight: 700;
-  }
-
-  .active:active {
-    color:purple;
-    background-color: yellow;
-    font-weight: 900;
-  }
