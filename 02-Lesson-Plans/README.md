@@ -14,7 +14,7 @@ Each module contains an overview (like this one!) with **Instructor Notes** cont
 
 - In Required sessions, you will need to demonstrate the upcoming challenge. You will want to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
-## Live Session Lesson Plans
+## Virtual Class Lesson Plans
 
 ### Emoji Key
 
@@ -23,9 +23,9 @@ Each module contains an overview (like this one!) with **Instructor Notes** cont
 ### Time Trackers
 
 @TODO
-Flex and Required sessions follow the same format week-to-week.
+Recommended and Required sessions follow the same format week-to-week.
 
-#### Flex Session Time Tracker Template
+#### Recommended Session Time Tracker Template
 
 | Start  | #   | Activity Name                  | Duration |
 | ------ | --- | ------------------------------ | -------- |
@@ -62,11 +62,11 @@ Flex and Required sessions follow the same format week-to-week.
 | 8:30PM | 14  | Office Hours                 | 0:30     |
 | 9:00PM | 15  | End                          | N/A      |
 
-### Flex Sessions
+### Recommended Sessions
 
-Flex Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+Recommended Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
-The primary goals of Flex Sessions are to:
+The primary goals of Recommended Sessions are to:
 
 - Build community and help students feel more connected to instructors and one another
 
@@ -75,11 +75,9 @@ The primary goals of Flex Sessions are to:
 - Provide extra context in the learning journey around career preparation and workforce readiness
 
 @TODO
-✊ Flex sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
+✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
 
-After getting the pulse of the class, the longest, and perhaps most important, activity of a Flex session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection.
-
-
+After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection.
 
 ### Required Sessions
 

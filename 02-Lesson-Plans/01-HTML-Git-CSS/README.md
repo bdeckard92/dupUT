@@ -1,4 +1,4 @@
-# Module 01: HTML-Git-CSS
+# Module 01 Instructor Overview: HTML-Git-CSS
 
 Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping hundreds of students across the world achieve their career goals and their creative dreams. You have plenty of time to work with these students, and their progress will astound you. Buckle in! You're in for a fun ride!
 
