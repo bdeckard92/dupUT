@@ -1,7 +1,10 @@
-## File
+# Iteration, Random
 
-* [`random-numbers-unsolved`](Unsolved/random-numbers-unsolved.html)
+## Instructions
 
-### Instructions
+* From scratch, create a simple 'site' that logs 10 random numbers using a `for` loop and `Math.random()`
 
-* Research how to improve on `Math.random()` to generate a random whole number between 1 and 10 instead of a random decimal number.
+
+## Hint(s)
+
+* `Math.random()` returns a decimal (or _floating point_) number. How will you convert it to a whole number?

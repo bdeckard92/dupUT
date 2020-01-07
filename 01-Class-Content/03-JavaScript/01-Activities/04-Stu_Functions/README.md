@@ -1,15 +1,18 @@
-### File
+# Functions
 
-* [`my-first-functions-unsolved`](Unsolved/my-first-functions-unsolved.html)
+## Instructions
 
-### Instructions
+* Create a function, `adder()`, that accepts three arguments and returns their sum.
 
-* Working in pairs and using the starter file above, fill in the missing functions and function calls.
+* Create a function, `muliplier()`, that accepts three arguments and returns their product. 
 
-* **NOTE:** Try to finish all four functions if you can, but don't be distressed if you only get one or two. The important thing is that you get at least one function fully done.
+* Create a function, `isString()`, that accepts three arguments and checks if the type of all three is string.
 
-* **HINT:** You will need to [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) on how to use `typeof` for the `isString` function. 
+* Create a function, `vowelCheker()`, that accepts one argument, a string, and checks if the first letter of the string is a vowel. 
 
-* **HINT:** Look back to previous example if you need help.
 
-* **BONUS:** If you finish w/ the first four functions create two functions, `adderReturn()` and `multiplierReturn()`, that return the value when you call the function rather than using console.log.
+## Hint(s) 
+
+* How do check the _type of_ a value?
+
+* How do you check the _character at_ a given position in a string?
