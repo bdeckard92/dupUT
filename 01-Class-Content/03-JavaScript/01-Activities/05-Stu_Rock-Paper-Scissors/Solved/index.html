@@ -14,7 +14,7 @@
       var losses = 0;
       var ties = 0;
 
-      for (var i = 0; i < 10; i++) {
+      for (var i = 0; i < 3; i++) {
         // Randomly chooses a choice from the options array. This is the Computer's guess.
         var computerGuess =
           computerChoices[Math.floor(Math.random() * computerChoices.length)];
@@ -42,6 +42,8 @@
             losses++;
             alert("You've lost " + losses + ' time(s).');
           }
+        } else {
+          alert("Please choose 'r', 'p' or 's'");
         }
       }
 
