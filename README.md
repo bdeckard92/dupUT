@@ -1,6 +1,6 @@
 # fullstack-online
 
-Welcome to the Full-Stack Coding Bootcamp! This repository houses the Online curriculum and is divided into two pillars:
+Welcome to the Full-Stack Online Coding Bootcamp! This repository houses the Online curriculum and is divided into two pillars:
 
 * student-facing **Class Content**
 

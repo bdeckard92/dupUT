@@ -18,11 +18,18 @@ Each module contains an overview (like this one!) with **Instructor Notes** cont
 
 ### Emoji Key
 
-@TODO
+Lesson plans use emojis for visual cues. 
+
+| Emoji     | Significance          |
+| ---       | ---                   |
+| ✔️         | Designates the key topics and concepts to be addressed in a review; corresponds with the :key: emoji (see below)        |
+| 🔑         | Designates the key concepts to be introduced in a demo or covered in a review (corresponds with the :heavy-check-mark: emoji (see above)|
+| ☝️           | Designates a question _you_ ask             |
+| 🙋‍♀️        | Designates a potential answer to solicit from students |
+|           |                       |
 
 ### Time Trackers
 
-@TODO
 Recommended and Required sessions follow the same format week-to-week.
 
 #### Recommended Session Time Tracker Template
@@ -74,12 +81,20 @@ The primary goals of Recommended Sessions are to:
 
 - Provide extra context in the learning journey around career preparation and workforce readiness
 
-@TODO
-✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material such as { ... }.
 
-After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection.
+#### Determine Group Sentiment
+
+✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
+
+
+#### Career Connection
+
+After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection. You are encouraged to share your own experiences in these activities.
+
 
 ### Required Sessions
 
 @TODO
+
+
 

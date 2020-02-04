@@ -38,7 +38,7 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Heads Up
 
-@TODO 
+Next week you will review Flexbox and CSS Grid and other advanced CSS topics. If these are new, or it's been awhile, be sure to review the activities in advance.
 
 ## Resources
 
