@@ -22,11 +22,10 @@ Lesson plans use emojis for visual cues.
 
 | Emoji     | Significance          |
 | ---       | ---                   |
-| ✔️         | Designates the key topics and concepts to be addressed in a review; corresponds with the :key: emoji (see below)        |
-| 🔑         | Designates the key concepts to be introduced in a demo or covered in a review (corresponds with the :heavy-check-mark: emoji (see above)|
-| ☝️           | Designates a question _you_ ask             |
-| 🙋‍♀️        | Designates a potential answer to solicit from students |
-|           |                       |
+| ✔️         | The checklist of concepts to be addressed in a review; corresponds with the `:key:` emoji (see below) |
+| 🔑        | The key concepts to be introduced in a demo or covered in a review (corresponds with the `:heavy-check-mark:` emoji (see above)|
+| ☝️           | A question for _you_ to ask             |
+| 🙋‍♀️        | A potential answer to solicit from students |
 
 ### Time Trackers
 
@@ -94,7 +93,9 @@ After getting the pulse of the class, the longest, and perhaps most important, a
 
 ### Required Sessions
 
-@TODO
+The Live Classes of our online boot camps are the only moments of the week in which learners are _required_ to be face-to-face with instructors, TAs, and one another. For busy learners or those who are not attending the optional sessions, these may be the only moment of social learning of the week, period. Learners are likely to see this live class as the “anchor” of their bootcamp, and they will want each live class to feel enriching, meaningful, and worth their attendance. Live Classes are the ‘pivot point’ in which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
 
+#### Ice Breaking Introduction
 
+The first activity of thhe required session, (Introduction), is intended to be an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
 

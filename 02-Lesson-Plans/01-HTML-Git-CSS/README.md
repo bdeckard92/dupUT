@@ -10,11 +10,11 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ### Recommended
 
-@TODO
+@TODO insert link
 
 ### Required
 
-@TODO
+@TODO insert link
 
 ## Instructor Notes
 
@@ -34,7 +34,7 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Module Challenge
 
-@TODO
+@TODO insert link
 
 ## Heads Up
 
