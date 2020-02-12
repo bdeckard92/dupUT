@@ -11,7 +11,7 @@ Welcome to the Full-Stack Online Coding Bootcamp! This repository houses the Onl
 
 ### Class Content
 
-`01-Class-Content` contains the following: 
+You will find the following in [01-Class-Content](./01-Class-Content):
 
 * Module overviews
 
@@ -28,7 +28,12 @@ Use these materials to build your class repository.
 
 ### Lesson Plans
 
-You will find grading rubrics, links to slide decks and time trackers, and lesson plans in [02-lesson-plans](02-lesson-plans). 
+In addition to lesson plans, you will find the following in [02-lesson-plans](./02-lesson-plans):
+
+* Grading rubrics
+
+* Links to slide decks (where applicable)
+
 
 📝 These materials are _not_ to be shared with students. 
 
