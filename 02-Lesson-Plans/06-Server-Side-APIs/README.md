@@ -22,6 +22,10 @@ In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE
 
 * @TODO { LIST THEM OUT}
 
+Instructions on how instructors break up groups
+
+Project 1 - 3 people per group: 1 strong, 1 middle, 1 struggling
+
 
 ## Module Challenge
 
