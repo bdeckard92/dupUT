@@ -1,0 +1,90 @@
+/* tell browser to fix box model calculations */
+* {
+  box-sizing: border-box;
+}
+
+/* get rid of browser's margins and set background color */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A8ADBA;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Calistoga', cursive;
+}
+
+/* <main> */
+main {
+  width: 80%;
+  /* center on page using auto for left/right */
+  margin: 50px auto;
+  /* add padding so html inside has space */
+  padding: 20px;
+  background-color: #FEFEFF;
+  border: 4px solid #393B4F;
+}
+
+/* target <h2> element inside of <main> */
+main h2 {
+  color: #FB3E55;
+  /* set padding to 0 top, 10 right and left, and 20 bottom */
+  padding: 0 10px 20px;
+  border-bottom: 3px solid #393B4F;
+}
+
+
+.flex-container {
+  /* Enter your CSS here */
+}
+
+/* flex child */
+.flex-item {
+  /* make each one 45%, putting 10% between each element on the page */
+  width: 45%;
+  /* rounded corners */
+  border-radius: 14px;
+  border: 4px solid #FB3E55;
+  background-color: #393B4F;
+  font-size: 22px;
+  font-weight: bold;
+  /* put space between each one vertically */
+  margin-bottom: 15px;
+  /* for files in local images folder, use url('../images/file-name.jpg') */
+  background-image: url('https://www.placecage.com/g/500/500');
+  /* tell background to fit box no matter what */
+  background-size: cover;
+  /* crop it at the center */
+  background-position: center;
+  /* padding top and bottom 20px, 0 for left/right */
+  padding: 20px 0;
+  /* set minimum heigh value so there's room */
+  min-height: 250px;
+  /* rather than use position...use flexbox and create column instead of row 
+  Enter your CSS here.
+  */
+}
+
+/* for text area inside of flex item */
+.flex-item span {
+  /* push element to bottom of flex item 
+  Enter your CSS here.
+  */
+}
+
+footer {
+  width: 100%;
+  padding: 45px 0;
+  background-color: #393B4F;
+  color: #FB3E55;
+  margin-top: auto;
+}
