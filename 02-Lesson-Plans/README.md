@@ -16,16 +16,56 @@ Each module contains an overview (like this one!) with **Instructor Notes** cont
 
 ## Virtual Class Lesson Plans
 
-### Emoji Key
+Virtual Class (Recommended) and Virtual Class (Required) Sessions are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These sessions are led by one Instructor and supported by assigned Instructional Staff Members. If you are unsure of which class you are leading, please confirm with your Program Support Manager or Online Instructional Lead.
 
-Lesson plans use emojis for visual cues. 
+All Virtual Class Sessions are held on video calls and are automatically recorded to be made available to learners for review.
 
-| Emoji     | Significance          |
-| ---       | ---                   |
-| ✔️         | The checklist of concepts to be addressed in a review; corresponds with the `:key:` emoji (see below) |
-| 🔑        | The key concepts to be introduced in a demo or covered in a review (corresponds with the `:heavy-check-mark:` emoji (see above)|
-| ☝️           | A question for _you_ to ask             |
-| 🙋‍♀️        | A potential answer to solicit from students |
+Only learners who are assigned to that specific class may attend these sessions.
+
+| Sunday        | Monday OR Tuesday             | Wednesday OR Thursday    | Friday                         |  Saturday|
+|---            |---                            |---                       |---                             |---       |
+| Weekly Challenge & Assessment Due | Virtual Class (Recommended)   | Virtual Class (Required) | New Module Released at 12:01am |          |
+
+### Virtual Class: Recommended Sessions
+
+A Virtual Class (Recommended) Session is held on a Monday or Tuesday, depending on your specific class schedule (Please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These sessions are loosely structured with Lesson Plans that are meant to be flexible in order to be adjusted as needed with the specific needs of your class in mind.
+
+Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to Virtual Class (Recommended) Sessions prepared to ask questions that will deepen their preliminary understanding of the material.
+
+Recommended Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+
+The primary goals of Recommended Sessions are to:
+
+- Build community and help students feel more connected to instructors and one another
+
+- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
+
+- Provide extra context in the learning journey around career preparation and workforce readiness
+
+
+#### Determine Group Sentiment
+
+✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
+
+
+#### Career Connection
+
+After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection. You are encouraged to share your own experiences in these activities.
+
+
+### Virtual Class: Required Sessions
+
+A Virtual Class (Required) Session is held on a Wednesday or Thursday, depending on your specific class schedule (Please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These sessions are completely structured with Lesson Plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
+
+Your class should be nearly complete with their asynchronous material and should be working on their Challenge Assignment.
+
+There is a 30-minute period alotted before and after each of these sessions meant to be used for open Office Hours for further flexibility.
+
+The Live Classes of our online boot camps are the only moments of the week in which learners are _required_ to be face-to-face with instructors, TAs, and one another. For busy learners or those who are not attending the optional sessions, these may be the only moment of social learning of the week, period. Learners are likely to see this live class as the “anchor” of their bootcamp, and they will want each live class to feel enriching, meaningful, and worth their attendance. Live Classes are the ‘pivot point’ in which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
+
+#### Ice Breaking Introduction
+
+The first activity of thhe required session, (Introduction), is intended to be an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
 
 ### Time Trackers
 
@@ -68,34 +108,50 @@ Recommended and Required sessions follow the same format week-to-week.
 | 8:30PM | 14  | Office Hours                 | 0:30     |
 | 9:00PM | 15  | End                          | N/A      |
 
-### Recommended Sessions
 
-Recommended Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+### Emoji Key
 
-The primary goals of Recommended Sessions are to:
+Lesson plans use emojis for visual cues. 
 
-- Build community and help students feel more connected to instructors and one another
-
-- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
-
-- Provide extra context in the learning journey around career preparation and workforce readiness
-
-
-#### Determine Group Sentiment
-
-✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
+| Emoji     | Significance          |
+| ---       | ---                   |
+| ✔️         | The checklist of concepts to be addressed in a review; corresponds with the `:key:` emoji (see below) |
+| 🔑        | The key concepts to be introduced in a demo or covered in a review (corresponds with the `:heavy-check-mark:` emoji (see above)|
+| ☝️           | A question for _you_ to ask             |
+| 🙋‍♀️        | A potential answer to solicit from students |
 
 
-#### Career Connection
+# Running Office Hours
 
-After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection. You are encouraged to share your own experiences in these activities.
+## When do Office Hours Take Place?
 
+There are 2 different situations during which Office Hours would be run: 
 
-### Required Sessions
+* **Instructor-led** Office Hours before and after video classes, supported by other Instructional Staff. 
+* **Supplemental** Office Hours during the week, led by a single Instructional Staff Member, hours assigned by management. 
 
-The Live Classes of our online boot camps are the only moments of the week in which learners are _required_ to be face-to-face with instructors, TAs, and one another. For busy learners or those who are not attending the optional sessions, these may be the only moment of social learning of the week, period. Learners are likely to see this live class as the “anchor” of their bootcamp, and they will want each live class to feel enriching, meaningful, and worth their attendance. Live Classes are the ‘pivot point’ in which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
+## What are Office Hours?
+Office Hours are designed to help students get caught up with their weekly work, feel more confident with the concepts they’ve covered, and grant them an opportunity to get all their questions answered. Office Hours tend to circle around the idea of providing students repetition of concepts they would have seen previously, potentially in their asynchronous course material, but with a deep dive aspect for building further clarity and understanding. 
 
-#### Ice Breaking Introduction
+Most importantly, Office Hours are **student-driven**. Let your students tell you what they need. You can provide an initial structure, but if you sense that your students need something else or they are demonstrating that they need something different than what you had originally planned, or what is outlined in the curriculum guidance provided, please feel empowered to pivot as needed. As the leader of Office Hours sessions, know that you can make the call to shift focus according to your students’ needs.
 
-The first activity of thhe required session, (Introduction), is intended to be an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
+## Getting Set Up
+
+**For Instructor-led Office Hours**, you do not need to post anything specific. Because this is tied to a specific class session, only students from your class should attend. 
+
+**For Supplemental Office Hours** led by a single Instructional Staff Member, post a message on #general in Slack letting students know that you’re about to get online with a Zoom link and the time you will remain online. These sessions are available to every student in the cohort.
+
+```
+#general: 
+
+@channel Hey, everyone! It's time for Office Hours! 
+I'll be online for 2 hours: https://zoom.us/j/yy67xx4zz1
+```
+
+## Helpful Guides
+
+#### [Engagement Tactics](./engagement-tactics.md)
+
+#### [Office Hours Variations](./office-hour-variations/office-hours-variations.md)
+
 
