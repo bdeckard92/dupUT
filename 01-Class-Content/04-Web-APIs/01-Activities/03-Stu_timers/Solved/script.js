@@ -6,14 +6,14 @@ var readEl = document.getElementById("read");
 var timerEl = document.getElementById("countdown");
 var bodyEl = document.createElement("div");
 
-var i = 0;
+var count = 0;
 
 var wordsPerMillisecond = prompt("How many words per millisecond would you like to read?");
 
 function prepareRead() {
   var timeLeft = 5;
 
-  var timeInterval = setInterval(function() {
+  var timeInterval = setInterval(function () {
     timerEl.textContent = timeLeft + " seconds remaining";
     timeLeft--;
 
@@ -28,19 +28,16 @@ function prepareRead() {
 
 
 function speedRead() {
-  mainEl.append(bodyEl);
 
-  var poemInterval = setInterval(function() {
-    if (words[i] === undefined) {
+  var poemInterval = setInterval(function () {
+    if (words[count] === undefined) {
       clearInterval(poemInterval);
     } else {
-      mainEl.textContent = words[i];
-      i++;
+      mainEl.textContent = words[count];
+      count++;
     }
 
   }, wordsPerMillisecond);
 }
 
 prepareRead();
-
-
