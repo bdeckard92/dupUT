@@ -4,7 +4,14 @@ Welcome to the Full-Stack Online Coding Bootcamp! This repository houses the Onl
 
 * student-facing **Class Content**
 
-* instructor-facing **Lesson Plans**. 
+* instructor-facing **Lesson Plans**.
+
+
+## Submitting Feedback
+
+If you find an error or bug in our curriculum, please submit feedback using our [Web Dev Blended Online Feedback Form for Instructional Teams](https://forms.gle/gbVpzgf6TK4Z2Bf78). The contents of your form submission go directly to our curriculum team.
+
+**Note:** If a bug is related to a Live Session lesson plan in this repository, please create an issue for faster resolution.
 
 
 ## How To Use This Repository
