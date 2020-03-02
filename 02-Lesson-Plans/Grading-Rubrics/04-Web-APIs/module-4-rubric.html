@@ -449,7 +449,7 @@
             "use strict";
 
             function Model() {
-                this.title = "Module 3 JavaScript Challenge Rubric";
+                this.title = "Module 4 Web APIs Challenge Rubric";
                 this.categories = [
                     {
                         title: "Deployment",
@@ -489,39 +489,45 @@
                         questions: [
                             {
                                 title:
-                                    "Application prompts user for password length and if they would like to include lowercased, uppercased, numeric, and special characters",
-                                score: 8,
-                                message: "Application doesn't prompt for password options",
+                                    "The first view of the application displays a button used to start the quiz",
+                                score: 6 + 2 / 3,
+                                message: "First view of the application doesn't display a button to start the quiz",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application generates valid password based on provided options",
-                                score: 8,
+                                    "Clicking the 'Start Quiz' button displays a series of questions",
+                                score: 6 + 2 / 3,
                                 message:
-                                    "Application doesn't generate valid password based on password options",
+                                    "Clicking the 'Start Quiz' button doesn't display a series of questions",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application requires minimum password length of 8 characters",
-                                score: 8,
+                                    "Once the quiz begins, a countdown timer starts",
+                                score: 6 + 2 / 3,
                                 message:
-                                    "Application doesn't require minimum password length of 8 character",
+                                    "A countdown timer doesn't start when the quiz begins",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application requires maximum password length of 128 characters",
-                                score: 8,
+                                    "If a question is answered incorrectly, additional time is subtracted from the timer",
+                                score: 6 + 2 / 3,
                                 message:
-                                    "Application doesn't require maximum password length of 128 characters",
+                                    "Additional time isn't subtracted from the timer if a question is answered incorrectly",
                                 status: false
                             },
                             {
-                                title: "Application is free of console errors",
-                                score: 8,
-                                message: "Application has errors in the console",
+                                title: "The game ends when all questions have been answered or the timer reaches 0",
+                                score: 6 + 2 / 3,
+                                message: "The timer doesn't stop when it reaches 0 or when all questions have been answered",
+                                status: false
+                            },
+                            {
+                                title: "After the game ends, the user can save their initials and score to a highscores view using local storage",
+                                score: 6 + 2 / 3,
+                                message: "Unable to save initials and score to highscores view using local storage",
                                 status: false
                             }
                         ]
