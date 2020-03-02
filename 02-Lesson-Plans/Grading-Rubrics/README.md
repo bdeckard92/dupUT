@@ -33,27 +33,17 @@ Late assignments currently carry no penalty.
 ### What do the Different Grade Colors Mean? 
 You may have noticed that a row of grades for a learner is color-coded. 
 
-![Grade Row](./assets/grade-row.png)
-
 * **White** - On-time assignment submission
 * **Blue** - Late assignment submission
 * **Orange** - Excused assignment submission
 
 **Note**: Please note that all `Excused` assignments are tagged as `Late` automatically in the learner’s view. The image below depicts the following Status selections in order: `Late`, `None`, `Excused`, `Excused`, `Late`. 
 
-![Student View - Grades](./assets/grade-student-view.png)
-
 
 ### How do I Remove a Late Tag from an Assignment Submission?
 If an assignment was resubmitted after the deadline, it will be automatically assigned a `Late` status. Although late assignments currently carry no penalty against learners, staff can adjust this tag if necessary. 
 
-Click on the dropdown arrow by a grade. 
-
-![Grade Row Altered](./assets/grade-row-alter.png)
-
-Select the option of `None` under Status. 
-
-![Grade Status](./assets/grade-status.png)
+Click on the dropdown arrow by a grade. Select the option of `None` under Status. 
 
 
 ### What does the Excused Assignment Status Mean? 
@@ -61,13 +51,9 @@ Please refrain from using the `Excused` Status on grades as it may have an impac
 
 Note: Please note that all `Excused` assignments are tagged as `Late` automatically in the learner’s view. The image below depicts the following Status selections in order: `Late`, `None`, `Late`, `None`, `None`.
 
-![Student View - Grades 2](./assets/grade-student-view2.png)
-
 
 ### What does the Dropped Status mean? 
 The 2 lowest scores for each learner are dropped from their average. The assignments that are slated to be dropped are dynamic based on learner submissions and are identifiable by the `Dropped` notation above their grade. 
-
-![Grade Dropped](./assets/grade-dropped.png)
 
 
 ### What if I Suspect Plagiarism? 
