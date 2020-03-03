@@ -26,6 +26,8 @@ Instructions on how instructors break up groups
 
 Project 1 - 3 people per group: 1 strong, 1 middle, 1 struggling
 
+* Students will need and want to install [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) prior to class. 
+
 
 ## Module Challenge
 
@@ -37,7 +39,9 @@ Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
+
+
 
 ## Algorithms
 
