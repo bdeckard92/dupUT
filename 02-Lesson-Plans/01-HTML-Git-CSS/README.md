@@ -8,13 +8,9 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](01.1-RECOMMENDED.md)
 
-@TODO insert link
-
-### Required
-
-@TODO insert link
+[Required](01.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -34,7 +30,7 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Module Challenge
 
-@TODO insert link
+[Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
 ## Heads Up
 
@@ -42,8 +38,8 @@ Next week you will review Flexbox and CSS Grid and other advanced CSS topics. If
 
 ## Resources
 
-@TODO 
+n/a
 
 ## Algorithms
 
-N/A
+n/a

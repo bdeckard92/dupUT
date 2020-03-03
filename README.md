@@ -4,7 +4,18 @@ Welcome to the Full-Stack Online Coding Bootcamp! This repository houses the Onl
 
 * student-facing **Class Content**
 
-* instructor-facing **Lesson Plans**. 
+* instructor-facing **Lesson Plans**.
+
+
+## Need Help?
+
+If you find an error or bug in our curriculum, please submit feedback using our [Web Dev Blended Online Feedback Form for Instructional Teams](https://forms.gle/gbVpzgf6TK4Z2Bf78). The contents of your form submission go directly to our curriculum team.
+
+**Note:** If a bug is related to a Live Session lesson plan in this repository, please create an issue for faster resolution.
+
+For information regarding onboarding and training, consult the [Instructor Onboarding Guide](https://coding-bootcamp-instructor-onboarding-prework.readthedocs-hosted.com/en/latest/).
+
+In case of emergency, message the Full Stack Online Program Support Specialist, Xander Rapstine, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
 
 
 ## How To Use This Repository
@@ -63,17 +74,6 @@ In addition to lesson plans, you will find the following in [02-lesson-plans](./
 Each module contains a README.md overview containing tips, alerts, and resources specific to that module. 
 
 📝 These materials are _not_ to be shared with students. 
-
-
-## Need Help?
-
-For information regarding onboarding and training, consult the [Instructor Onboarding Guide](https://coding-bootcamp-instructor-onboarding-prework.readthedocs-hosted.com/en/latest/).
-
-Have a suggestion or feedback? Please submit it through our [FullStack-Ground Feedback & Suggestions Survey](@TODO)
-
-Found a bug? [Log an Issue](https://github.com/coding-boot-camp/fullstack-online/issues).
-
-In case of emergency, message the Full Stack Online Program Support Specialist, `@TODO`, in [#05-web-dev-course](https://trilogyed-instruction.slack.com/messages/C1073F9N0/).
 
 
 ## FAQs
@@ -169,9 +169,9 @@ If you have any Payroll or Human Resources related questions, please be sure to 
 
 Be sure to include:
 
-Your Name
-Your Cohort or Class Code
-The issue you are having and any supporting documentation
+* Your Name
+* Your Cohort or Class Code
+* The issue you are having and any supporting documentation
 
 
 ### What if Learners are in the Wrong Class?

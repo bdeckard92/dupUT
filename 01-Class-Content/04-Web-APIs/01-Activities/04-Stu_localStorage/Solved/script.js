@@ -6,13 +6,6 @@ var userEmailSpan = document.querySelector("#user-email");
 var userPasswordSpan = document.querySelector("#user-password");
 
 
-renderLastRegistered();
-
-function displayMessage(type, message) {
-  msgDiv.textContent = message;
-  msgDiv.setAttribute("class", type);
-}
-
 function renderLastRegistered() {
   var email = localStorage.getItem("email");
   var password = localStorage.getItem("password");
@@ -25,7 +18,15 @@ function renderLastRegistered() {
   userPasswordSpan.textContent = password;
 }
 
-signUpButton.addEventListener("click", function(event) {
+renderLastRegistered();
+
+function displayMessage(type, message) {
+  msgDiv.textContent = message;
+  msgDiv.setAttribute("class", type);
+}
+
+
+signUpButton.addEventListener("click", function (event) {
   event.preventDefault();
 
   var email = document.querySelector("#email").value;
