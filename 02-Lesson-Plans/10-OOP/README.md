@@ -22,7 +22,6 @@ In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE
 
 * @TODO { LIST THEM OUT}
 
-
 Project requirements/rubric
 
 Group presentation guidelines
@@ -34,7 +33,9 @@ Group presentation guidelines
 
 ## Heads Up
 
-* Next week students will begin learning Node.js. You may want to use this week to check and troubleshoot installations.
+Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+
+* Heroku
 
 
 ## Resources
@@ -44,3 +45,7 @@ Group presentation guidelines
 ## Algorithms
 
 N/A
+
+
+
+
