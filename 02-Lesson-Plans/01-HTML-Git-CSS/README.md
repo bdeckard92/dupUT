@@ -51,8 +51,6 @@ Next week you will review Flexbox and CSS Grid and other advanced CSS topics. If
 
 * [Open in Browswer VSCode extension](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
-* @TODO ADD URL FOR PREWORK
-
 ## Algorithms
 
 n/a
