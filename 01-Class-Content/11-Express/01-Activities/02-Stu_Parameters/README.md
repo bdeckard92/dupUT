@@ -1,11 +1,10 @@
-# Parameters
-
+# Express Parameters
 
 ## Instructions
 
-* Create a route `/characters` to return all characters. 
+* Create a route `/api/characters` to return all characters. 
 
-* Create one more route, and only one more route, to return any given character.
+* Create one more route, and _only_ one more route, to return any given specific character. For example, a call to `api/characters/yoda` will return the data stored in the `yoda` object.
 
 
 ## Hint(s)
