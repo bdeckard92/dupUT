@@ -16,7 +16,7 @@ In this weeks virtual classes, you'll review Flexbox, CSS grid, and other advanc
 
 ## Module Challenge
 
-[Module 01 Challenge](../../01-Class-Content/03-Advanced-CSS/02-Challenge)
+[Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
 ## Heads Up
 
