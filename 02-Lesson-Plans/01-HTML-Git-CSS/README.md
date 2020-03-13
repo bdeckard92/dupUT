@@ -8,13 +8,9 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./01.1-RECOMMENDED.md)
 
-@TODO insert link
-
-### Required
-
-@TODO insert link
+[Required](./01.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -24,7 +20,9 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
   * Chrome
 
-  * VSCode
+  * VSCode (incl. Open in Browser extension)
+
+  * Git
 
   * Terminal emulator (Git BASH for Windows)
 
@@ -32,9 +30,16 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 * Students often encounter errors configuring their SSH keys. The pre-work directs students to the [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) article on GitHub. Many students simply forget to add their newly generated key to the ssh-agent. The others will most likely need to be regenerated.
 
+Students will also need the following accounts:
+
+* GitHub (for _their_ work)
+
+* GitLab (for the class repo)
+
+
 ## Module Challenge
 
-@TODO insert link
+[Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
 ## Heads Up
 
@@ -42,8 +47,10 @@ Next week you will review Flexbox and CSS Grid and other advanced CSS topics. If
 
 ## Resources
 
-@TODO 
+* [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+* [Open in Browswer VSCode extension](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
 ## Algorithms
 
-N/A
+n/a
