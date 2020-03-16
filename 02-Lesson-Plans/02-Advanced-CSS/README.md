@@ -1,39 +1,30 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 02 Instructor Overview: Advanced CSS
 
 ## Overview
 
-In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this weeks virtual classes, you'll review Flexbox, CSS grid, and other advanced CSS properties.
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./02.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./02.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
-
-* @TODO { LIST THEM OUT}
-
+* This module is long and covers a lot of ground. Student's are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to master CSS at this point, if ever.
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
 ## Heads Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week you will introduce students to JavaScript. This may be a big leap for some students. Be prepared to answer a lot of questions and be available during office hours. 
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+N/A 
 
 ## Algorithms
 
