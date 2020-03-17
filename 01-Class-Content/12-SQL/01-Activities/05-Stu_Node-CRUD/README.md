@@ -2,10 +2,10 @@
 
 ## Instructions
 
-* Write and call functions to CREATE, READ, UPDATE, and DELETE data in the `iceCream` database. 
+* Write and call functions to CREATE, READ, UPDATE, and DELETE data in the `iceCreamDB` database. 
 
 
 ## Hint(s)
 
-* Recall that you can create SQLite queries which include variables using question marks. Proper usage of this will help you quite a bit.
+* Recall that you can create MySQL queries which include variables using question marks. Proper usage of this will help you quite a bit.
 

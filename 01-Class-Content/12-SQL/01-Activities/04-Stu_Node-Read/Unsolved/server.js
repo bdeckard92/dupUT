@@ -1,10 +1,21 @@
-const sqlite3 = require('sqlite3').verbose();
+var mysql = require("mysql");
 
-// Connect to database 
-const db = new sqlite3.Database('./iceCream.db', err => {
-  if (err) {
-    return console.error(err.message);
-  }
+var connection = mysql.createConnection({
+  host: "localhost",
 
-  console.log('Connected to the ice cream database.');
+  // Your port; if not 3306
+  port: 3306,
+
+  // Your username
+  user: "root",
+
+  // Your password
+  password: "",
+  database: "ice_creamDB"
+});
+
+connection.connect(function(err) {
+  if (err) throw err;
+  console.log("connected as id " + connection.threadId);
+  connection.end();
 });

@@ -10,7 +10,8 @@ SELECT title, firstName, lastName
 FROM books
 LEFT JOIN authors ON books.authorId = authors.id;
 
--- show ALL authors, even if we don't know the books
-SELECT firstName, lastName, title
-FROM authors
-LEFT JOIN books ON books.authorId = authors.id;
+-- show ALL books, even if we don't know the author
+-- RIGHT JOIN returns all of the values from the right table, and the matching ones from the left table
+SELECT title, firstName, lastName
+FROM books
+RIGHT JOIN authors ON books.authorId = authors.id;
