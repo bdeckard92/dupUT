@@ -2,4 +2,6 @@
 
 ## Instructions
 
-* `res.sendFile` 
+* Update the home route to use `res.sendFile` and `path.join` to return `index.html` when a request is made at `/`. 
+
+
