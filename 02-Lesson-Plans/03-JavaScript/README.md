@@ -6,8 +6,6 @@ In this weeks virtual classes, you'll introduce weekly algorithms, review condit
 
 ## Virtual Classes
 
-### Recommended
-
 [Recommended](./03.1-RECOMMENDED.md)
 
 [Required](./03.2-REQUIRED.md)
