@@ -12,7 +12,7 @@
 
     * `authorId` (INTEGER)
 
-    * `title
+    * `title`
 
     * `PRIMARY KEY`
 
