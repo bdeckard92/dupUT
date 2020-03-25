@@ -1,35 +1,31 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# 03 Instructor Overview: JavaScript
 
 ## Overview
 
-In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this weeks virtual classes, you'll introduce weekly algorithms, review conditional and iterative statments, data types and functions. 
 
 ## Virtual Classes
 
 ### Recommended
 
-@TODO INSERT LINK
+[Recommended](./03.1-RECOMMENDED.md)
 
-### Required
-
-@TODO INSERT LINK
+[Required](./03.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use any remaining time to review one of this week's algorithms. 
+* This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use the remaining time to review one of this week's algorithms. 
 
-* 
+* The jump from HTML & CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use office hours to review programming fundamentals. 
 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
 ## Heads Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week you will review 'vanilla JS' web APIs. If this is new to you or you generally use a library or framework for front-end development, you will want to find time to review activities and research DOM methods. 
 
 ## Resources
 
