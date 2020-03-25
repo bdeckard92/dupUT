@@ -25,11 +25,11 @@ In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 04 Challenge](../../01-Class-Content/02-Web-APIs/02-Challenge)
 
 ## Heads Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week you will review Bootstrap, jQuery, and Moment.js. If these are new or it's been awhile, you will want to find time to review and/or brush up prior to class.
 
 ## Resources
 
