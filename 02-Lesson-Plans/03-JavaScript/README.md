@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this weeks virtual classes, you'll introduce weekly algorithms, review conditional and iterative statments, data types and functions. 
+In this week's virtual classes, you'll introduce weekly algorithms; and review conditional and iterative statments, data types, and functions. 
 
 ## Virtual Classes
 
@@ -16,20 +16,20 @@ In this weeks virtual classes, you'll introduce weekly algorithms, review condit
 
 * This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use the remaining time to review one of this week's algorithms. 
 
-* The jump from HTML & CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use office hours to review programming fundamentals. 
+* The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals. 
 
 
 ## Module Challenge
 
 [Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
-## Heads Up
+## Heads-Up
 
-Next week you will review 'vanilla JS' web APIs. If this is new to you or you generally use a library or framework for front-end development, you will want to find time to review activities and research DOM methods. 
+Next week, you will review "vanilla JS" Web APIs. If this is new to you or you generally use a library or framework for front-end development, you will want to find time to review activities and research DOM methods. 
 
 ## Resources
 
-n/a
+N/A
 
 ## Algorithms
 

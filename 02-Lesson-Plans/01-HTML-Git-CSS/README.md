@@ -1,10 +1,10 @@
-# Module 01 Instructor Overview: HTML-Git-CSS
+# Module 01 Instructor Overview: HTML, CSS, and Git
 
-Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping hundreds of students across the world achieve their career goals and their creative dreams. You have plenty of time to work with these students, and their progress will astound you. Buckle in! You're in for a fun ride!
+Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping thousands of students around the world achieve their professional goals and their creative dreams. You'll have plenty of time to work with these students, and their progress will astound you. Buckle in! You're in for a fun ride!
 
 ## Overview
 
-In this weeks virtual classes, you'll introduce students to the basics of HTML, CSS, Git and GitHub, and the command line.
+In this week's virtual classes, you'll introduce students to the basics of HTML, CSS, Git, GitHub, and the command line.
 
 ## Virtual Classes
 
@@ -14,13 +14,13 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
 ## Instructor Notes
 
-* Students will likely struggle getting all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following are priority for success in this module:
+* Students will likely struggle getting all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for success in this module:
 
   * Slack
 
   * Chrome
 
-  * VSCode (incl. Open in Browser extension)
+  * VS Code (including the Open in Browser extension)
 
   * Git
 
@@ -28,22 +28,21 @@ In this weeks virtual classes, you'll introduce students to the basics of HTML, 
 
   * SSH keys, added to both GitHub and the class repository
 
-* Students often encounter errors configuring their SSH keys. The pre-work directs students to the [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) article on GitHub. Many students simply forget to add their newly generated key to the ssh-agent. The others will most likely need to be regenerated.
+* Students often encounter errors while configuring their SSH keys. The prework directs students to the [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) article on GitHub. Many students simply forget to add their newly generated key to the ssh-agent. The others will most likely need to be regenerated.
 
-Students will also need the following accounts:
+* Students will also need the following accounts:
 
-* GitHub (for _their_ work)
+  * GitHub (for _their_ work)
 
-* GitLab (for the class repo)
-
+  * GitLab (for the class repo)
 
 ## Module Challenge
 
 [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
-## Heads Up
+## Heads-Up
 
-Next week you will review Flexbox and CSS Grid and other advanced CSS topics. If these are new, or it's been awhile, be sure to review the activities in advance.
+Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
 
 ## Resources
 

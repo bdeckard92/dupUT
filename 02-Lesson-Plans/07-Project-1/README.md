@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
 
 ## Virtual Classes
 
@@ -31,9 +31,9 @@ Group presentation guidelines
 
 @TODO INSERT LINK
 
-## Heads Up
+## Heads-Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
 
 ## Resources
 

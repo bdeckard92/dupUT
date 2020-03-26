@@ -2,33 +2,33 @@
 
 ## Instructor Notes
 
-Each module contains an overview (like this one!) with **Instructor Notes** containing tips, alerts, and resources to aid you in preparation. The following are general guidelines to be applied to all modules:
+Each module contains an overview (like this one!) that contains tips, alerts, and resources to help you prepare. The following are general guidelines to be applied to all modules:
 
-- When reviewing activities, ask for volunteers to share their solutions and/or ask students to walk through the solution, line-by-line.
+- When reviewing activities, ask for volunteers to share their solutions and/or ask students to walk through the solution line-by-line.
 
-- If you are comfortable doing so, live code the solutions to the activities. If not, no worries. Use the solutions provided and follow the prompts and talking points for review.
+- If you are comfortable doing so, live-code the solutions to the activities. If not, no worries. Use the solutions provided and follow the prompts and talking points for review.
 
 - If you are comfortable doing so, share your struggle and/or personal experiences learning and working with the concepts covered in this lesson.
 
 - During activities, visit a few breakout rooms quietly and ask the group if they are comfortable with the activity and provide gentle tips to keep them on track.
 
-- In Required sessions, you will need to demonstrate the upcoming challenge. You will want to familiarize yourself with the application and ensure any dependencies are installed prior to class.
+- In required virtual classes, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
 ## Virtual Class Lesson Plans
 
-Virtual Class (Recommended) and Virtual Class (Required) Sessions are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These sessions are led by one Instructor and supported by assigned Instructional Staff Members. If you are unsure of which class you are leading, please confirm with your Program Support Manager or Online Instructional Lead.
+The Virtual Class (Recommended) and Virtual Class (Required) are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Program Support Manager or Online Instructional Lead.
 
-All Virtual Class Sessions are held on video calls and are automatically recorded to be made available to learners for review.
+All virtual classes are held on video calls and automatically recorded to be made available to learners for review.
 
-Only learners who are assigned to that specific class may attend these sessions.
+Only learners who are assigned to that specific class may attend these classes.
 
 | Sunday        | Monday OR Tuesday             | Wednesday OR Thursday    | Friday                         |  Saturday|
 |---            |---                            |---                       |---                             |---       |
-| Weekly Challenge & Assessment Due | Virtual Class (Recommended)   | Virtual Class (Required) | New Module Released at 12:01am |          |
+| Weekly Challenge & Assessment Due | Virtual Class (Recommended)   | Virtual Class (Required) | New Module Released at 12:01 a.m. |          |
 
 ### Emoji Key
 
-Lesson plans use emojis for visual cues. 
+Lesson plans use the following emojis for visual cues: 
 
 | Emoji     | Significance          |
 | ---       | ---                   |
@@ -40,9 +40,9 @@ Lesson plans use emojis for visual cues.
 
 ### Time Trackers
 
-Recommended and Required sessions follow the same format week-to-week.
+The Virtual Class (Recommended) and Virtual Class (Required) follow the same format every week:
 
-#### Recommended Session Time Tracker Template
+#### Virtual Class (Recommended) Time Tracker Template
 
 | Start  | #   | Activity Name                  | Duration |
 | ------ | --- | ------------------------------ | -------- |
@@ -58,7 +58,7 @@ Recommended and Required sessions follow the same format week-to-week.
 | 8:00PM | 10  | Office Hours                   | 0:30     |
 | 8:30PM | 11  | End                            | N/A      |
 
-#### Required Session Time Tracker Template
+#### Virtual Class (Required) Time Tracker Template
 
 | Start  | #   | Activity Name                | Duration |
 | ------ | --- | ---------------------------- | -------- |
@@ -80,43 +80,42 @@ Recommended and Required sessions follow the same format week-to-week.
 | 9:00PM | 15  | End                          | N/A      |
 
 
-### Virtual Class: Recommended Sessions
+### Virtual Class (Recommended)
 
-A Virtual Class (Recommended) Session is held on a Monday or Tuesday, depending on your specific class schedule (Please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These sessions are loosely structured with Lesson Plans that are meant to be flexible in order to be adjusted as needed with the specific needs of your class in mind.
+A Virtual Class (Recommended) is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
 
-Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to Virtual Class (Recommended) Sessions prepared to ask questions that will deepen their preliminary understanding of the material.
+Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to recommended virtual class prepared to ask questions that will deepen their preliminary understanding of the material.
 
-Recommended Sessions are two hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+Recommended virtual classes are two-hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
-The primary goals of Recommended Sessions are to:
+The primary goals of recommended virtual classes are to:
 
 - Build community and help students feel more connected to instructors and one another
 
-- Help students who are “stuck” on the asynchronous work and would appreciate extra guidance and support
+- Help students who are stuck on the asynchronous work and would appreciate extra guidance and support
 
 - Provide extra context in the learning journey around career preparation and workforce readiness
 
-
 #### Determine Group Sentiment
 
-✊ Recommended sessions begin with an activity to get the pulse of the class. The lesson plans use "Fist-to-Five", in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
-
+✊ Recommended virtual classes begin with an activity to take the pulse of the class. The lesson plans use Fist-to-Five, in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
 
 #### Career Connection
 
-After getting the pulse of the class, the longest, and perhaps most important, activity of a Recommended session is the Career Connection. These will primarily be preparation for technical interviews and will reinforce topics introduced in the corresponding asynchronous Career Connection. You are encouraged to share your own experiences in these activities.
+After taking the pulse of the class, the longest and perhaps most important activity of a recommended virtual class is the Career Connection. These primarily involve preparing for technical interviews, and will reinforce topics that were introduced in the corresponding asynchronous Career Connection. You're encouraged to share your own experiences during these activities.
 
+### Virtual Class (Required)
 
-### Virtual Class: Required Sessions
+A Virtual Class (Required) is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
 
-A Virtual Class (Required) Session is held on a Wednesday or Thursday, depending on your specific class schedule (Please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These sessions are completely structured with Lesson Plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
+By the time this class meets, your class should be nearly complete with their asynchronous material and should be working on their Challenge.
 
-Your class should be nearly complete with their asynchronous material and should be working on their Challenge Assignment.
+A 30-minute period is allotted before and after each required virtual class for open Office Hours.
 
-There is a 30-minute period alotted before and after each of these sessions meant to be used for open Office Hours for further flexibility.
+The required virtual classes of our online boot camps are the only times during the week in which learners are **required** to be face-to-face with instructors, instructional staff members, and one another. For busy learners or those who do not attend the recommended virtual classes, these may be the only opportunity for social learning during the week. 
 
-The Live Classes of our online boot camps are the only moments of the week in which learners are _required_ to be face-to-face with instructors, TAs, and one another. For busy learners or those who are not attending the optional sessions, these may be the only moment of social learning of the week, period. Learners are likely to see this live class as the “anchor” of their bootcamp, and they will want each live class to feel enriching, meaningful, and worth their attendance. Live Classes are the ‘pivot point’ in which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
+Learners are likely to see this required virtual class as the “anchor” of their boot camp, and they will want every class to feel enriching, meaningful, and worth their attendance. Required virtual classes are the pivot point at which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
 
-#### Ice Breaking Introduction
+#### Icebreaker Introduction
 
-The first activity of thhe required session, (Introduction), is intended to be an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
+The first activity of every required virtual class (the Introduction) is an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
