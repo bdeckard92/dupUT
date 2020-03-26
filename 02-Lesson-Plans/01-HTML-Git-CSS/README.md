@@ -32,7 +32,7 @@ In this week's virtual classes, you'll introduce students to the basics of HTML,
 
 * Students will also need the following accounts:
 
-  * GitHub (for _their_ work)
+  * GitHub (for their work)
 
   * GitLab (for the class repo)
 
@@ -48,8 +48,8 @@ Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If 
 
 * [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-* [Open in Browswer VSCode extension](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+* [Open in Browser VSCode extension](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
 ## Algorithms
 
-n/a
+N/A

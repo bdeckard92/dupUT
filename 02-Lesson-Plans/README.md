@@ -84,9 +84,9 @@ The Virtual Class (Recommended) and Virtual Class (Required) follow the same for
 
 A Virtual Class (Recommended) is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
 
-Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to recommended virtual class prepared to ask questions that will deepen their preliminary understanding of the material.
+Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to class prepared to ask questions that will deepen their preliminary understanding of the material.
 
-Recommended virtual classes are two-hour Zoom sessions held earlier in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
+Recommended virtual classes are two-hour Zoom sessions held early in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
 The primary goals of recommended virtual classes are to:
 
@@ -98,7 +98,7 @@ The primary goals of recommended virtual classes are to:
 
 #### Determine Group Sentiment
 
-✊ Recommended virtual classes begin with an activity to take the pulse of the class. The lesson plans use Fist-to-Five, in which students hold up a hand indiciating their comfort level with the material, where a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
+✊ Recommended virtual classes begin with an activity to take the pulse of the class. The lesson plans use Fist-to-Five, in which students hold up a hand to show their comfort level with the material: a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
 
 #### Career Connection
 
@@ -108,17 +108,17 @@ After taking the pulse of the class, the longest and perhaps most important acti
 
 A Virtual Class (Required) is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
 
-By the time this class meets, your class should be nearly complete with their asynchronous material and should be working on their Challenge.
+By the time this class meets, your class should be nearly done with their asynchronous material and should be working on their Challenge.
 
 A 30-minute period is allotted before and after each required virtual class for open Office Hours.
 
-The required virtual classes of our online boot camps are the only times during the week in which learners are **required** to be face-to-face with instructors, instructional staff members, and one another. For busy learners or those who do not attend the recommended virtual classes, these may be the only opportunity for social learning during the week. 
+The required virtual class is the only time during the week in which learners are **required** to be face-to-face with instructors, instructional staff members, and one another. For busy learners or those who do not attend the recommended virtual classes, this may be the only opportunity for social learning during the week. 
 
 Learners are likely to see this required virtual class as the “anchor” of their boot camp, and they will want every class to feel enriching, meaningful, and worth their attendance. Required virtual classes are the pivot point at which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
 
 #### Icebreaker Introduction
 
-The first activity of every required virtual class (the Introduction) is an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
+The first activity of every required virtual class (the Introduction) is an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will be moving along confidently and feeling great; others will be struggling and feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
