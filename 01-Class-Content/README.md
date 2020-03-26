@@ -1,8 +1,8 @@
 # Coding Online Course Overview
 
-Welcome to the Coding Online Boot Camp! Many factors influence how well and how quickly you learn something new. These include how you structure and sequence your learning, how you stay motivated and curious about the material, and how you leverage prior knowledge to build new knowledge you can apply in different situations. 
+Welcome to the Coding Online Boot Camp! Many factors influence how well and how quickly you learn something new. These include how you structure and sequence your learning, stay motivated and curious about the material, and leverage prior knowledge to build new knowledge that you can apply in different situations. 
 
-Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course curriculum is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
+Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
 
 ## Section 1: Foundations (Modules 1–6)
 
