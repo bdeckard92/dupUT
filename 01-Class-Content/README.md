@@ -6,7 +6,7 @@ Learning to become a full-stack web developer is challenging. It will take a lot
 
 ## Section 1: Foundations (Modules 1–6)
 
-The first third of the course is focused on the front end of web development. The front end includes the things you see and interact with in the browser, such as when you click a login button and a box pops up inviting you to enter your username and password. Frontend languages, techniques, and libraries are foundational to being a full-stack web developer, so you’ll continuously build on these concepts throughout the entire course.
+The first third of the course is focused on the front end of web development. The front end includes the things you see and interact with in the browser, such as when you click a login button and a box pops up inviting you to enter your username and password. Front-end languages, techniques, and libraries are foundational to being a full-stack web developer, so you’ll continuously build on these concepts throughout the entire course.
 
 ### Project 1: Modules 7–8
 
