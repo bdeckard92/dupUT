@@ -15,7 +15,7 @@ In this activity, you will build a simple command line application that accepts 
 
     * "What languages do you know?"
 
-    * What is your preferred method of communciation?"
+    * What is your preferred method of communication?"
 
 * Then write the user response to a file. 
 
