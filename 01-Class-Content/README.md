@@ -10,31 +10,31 @@ The first third of the course is focused on the front end of web development. Th
 
 ### Project 1: Modules 7–8
 
-The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application in the first few weeks&mdash;and this is exactly what you'll do for your first group project! 
+The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application after the first several weeks&mdash;and this is exactly what you'll do for your first group project! 
 
 To do this, you'll develop the front end yourself and leverage other people’s servers and APIs. Past students have created some pretty cool projects, including Food Finder, an app that helps you find recipes, and Fourth and Lawn, an app that helps you find parking at sporting events.
 
 ## Section 2: Technique (Modules 9–14)
 
-You *could* stop here and look for a job as a front-end web developer. But the field demands more and there are many opportunities for developers who can build their own back end. So during the second section of the course, we’ll learn how to create your own server. Having a back end allows us to use a server to make and receive requests from the front end. For example, when you enter your username and password in a login dialog and click submit, those credentials are validated via a back-end server.
+You could stop here and look for a job as a front-end web developer. But the field demands more, and there are many opportunities for developers who can also build a back end. So during the second section of the course, you’ll learn how to create your own server. Having a back end allows you to use a server to make and receive requests from the front end. For example, when you enter your username and password in a login dialog and click submit, those credentials are validated via a back-end server.
 
 ### Project 2: Modules 15–16
 
-As a final group project for the second section, we combine your ability to create a front-end website with your new ability to write server code in order to create a web application that interacts with your server code.
+As a group project for the second section, you'll combine your ability to create a front-end website with your new ability to write server code to create a web application that interacts with your server code.
 
-This project will help you reinforce your existing front-end abilities and solidify how you conceive of the front-end and back-end dynamic. If your front-end fundamentals are strong at the end of the first section, you'll be building on a strong foundation as you undertake this project. An example of a student project is using JSON web tokens to make Recruit Analyzer, a basketball recruit simulator.
+This project will help you reinforce your existing front-end abilities and solidify how you conceive of the front-end and back-end dynamic. If your front-end fundamentals were solid at the end of the first section, you'll be building on a strong foundation as you undertake this project. An example of a student project from this stage is using JSON web tokens to make Recruit Analyzer, a basketball recruit simulator.
 
 ## Section 3: Performance (Modules 17–22)
 
-The third section of the course primarily focuses on React and computer science fundamentals. React is a popular front-end advanced library that has become very popular in recent years. Why do we go back to the front end at the very end? Well, unlike jQuery, React brings a certain level of abstraction that's harder to grasp without a working understanding of the back end. 
+The third section of the course primarily focuses on React and computer science fundamentals. React is a front-end advanced library that has become very popular in recent years. Why do we go back to the front end at the very end? Well, unlike jQuery, React brings a certain level of abstraction that's harder to grasp without a working understanding of the back end. 
 
-React lets us create highly reusable components. Instead of having to create the same element multiple times, React allows us to create it once, and render it as many times as necessary for our application. We can even dynamically render these components to populate information as needed, and not take up more memory than necessary.
+React lets us create highly reusable components. Instead of having to create the same element multiple times, React allows us to create it once and render it as many times as necessary for our application. We can even dynamically render these components to populate information only as needed and not take up more memory than necessary.
 
-We’ll also cover computer science fundamentals, which are essential to web development. While this content is no replacement for a computer science degree, you'll learn what you need to know to create optimized code, including sorting algorithms and Big O notation.
+We’ll also cover computer science fundamentals, which are essential to web development. Though this content is no replacement for a computer science degree, you'll learn what you need to know to work efficiently and create optimized code, including sorting algorithms and Big O notation.
 
 ### Final Project: Modules 23–24
 
-As a capstone to the boot camp, you’ll work in a group to build a a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
+As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
 
 ## Up Next
 
