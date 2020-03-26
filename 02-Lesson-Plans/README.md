@@ -119,3 +119,6 @@ Learners are likely to see this required virtual class as the “anchor” of th
 #### Icebreaker Introduction
 
 The first activity of every required virtual class (the Introduction) is an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will have been moving confidently and feeling great; others will have been struggling or feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support for their experiences, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

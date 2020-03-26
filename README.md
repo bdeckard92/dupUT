@@ -53,4 +53,4 @@ Each module contains a README.md overview containing tips, alerts, and resources
 📝 These materials are **not** to be shared with students. 
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

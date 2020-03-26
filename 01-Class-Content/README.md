@@ -20,7 +20,7 @@ You *could* stop here and look for a job as a front-end web developer. But the f
 
 ### Project 2: Modules 15–16
 
-As a final gropu project for the second section, we combine your ability to create a front-end website with your new ability to write server code in order to create a web application that interacts with your server code.
+As a final group project for the second section, we combine your ability to create a front-end website with your new ability to write server code in order to create a web application that interacts with your server code.
 
 This project will help you reinforce your existing front-end abilities and solidify how you conceive of the front-end and back-end dynamic. If your front-end fundamentals are strong at the end of the first section, you'll be building on a strong foundation as you undertake this project. An example of a student project is using JSON web tokens to make Recruit Analyzer, a basketball recruit simulator.
 
@@ -49,3 +49,6 @@ For a closer preview of what we explore in each module, dive into each module's 
 * Common interview questions related to that week’s material
 
 * Helpful resources if you want to get ahead or gain more experience after the module
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
