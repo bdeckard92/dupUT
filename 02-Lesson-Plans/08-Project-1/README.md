@@ -34,12 +34,8 @@ Group presentation guidelines
 
 ## Heads Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+* Next week students will begin learning Node.js. You may want to use this week to check and troubleshoot installations.
 
-* Node
-* Heroku
-* MySQL
-* Workbench
 
 ## Resources
 
