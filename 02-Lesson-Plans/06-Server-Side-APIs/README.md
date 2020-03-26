@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
 
 ## Virtual Classes
 
