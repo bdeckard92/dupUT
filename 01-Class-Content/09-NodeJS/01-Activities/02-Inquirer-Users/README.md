@@ -5,30 +5,24 @@ In this activity, you will build a simple command line application that accepts 
 
 ## Instructions
 
-* Initialize your repository and install the `inquirer` dependency.
-
-    * Is there another dependency you will need? 
+* Open the `index.js` file and install the `inquirer` dependency.
 
 * Prompt your user with the following questions:
 
     * "What is your name?"
 
+    * What is your preferred method of communication?"
+    
     * "What languages do you know?"
 
-    * What is your preferred method of communication?"
-
-* Then write the user response to a file. 
-
+* Then write the user response to a file using the given callback function. 
+    * How can you chain this callback method to the prompt?
 
 ## Hint(s)
 
-* You will need to use `JSON.stringify()`.
-
-* You will need to consult the `inquirer` documentation on how to prompt users for checkboxes and lists.
+* You may need to consult [the `inquirer` documentation](https://www.npmjs.com/package/inquirer) on how to prompt users for lists and checkboxes.
 
 
 ## Bonus
-
-* How would you format your JSON?
 
 * Can you generate the name of your user file from their input?

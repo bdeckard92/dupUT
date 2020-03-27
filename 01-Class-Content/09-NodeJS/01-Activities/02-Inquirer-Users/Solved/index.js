@@ -1,11 +1,24 @@
-var inquirer = require("inquirer");
 var fs = require('fs');
+// Install the `inquirer` dependency
+var inquirer = require("inquirer");
 
+//Prompt your user
 inquirer.prompt([
   {
     type: "input",
     name: "name",
     message: "What is your name?"
+  },
+  {
+    type: "list",
+    message: "What is your preferred method of communication?",
+    name: "contact",
+    choices: [
+      "email",
+      "phone",
+      "Slack",
+      "smoke signal"
+    ]
   },
   {
     type: "checkbox",
@@ -15,21 +28,14 @@ inquirer.prompt([
       "HTML", 
       "CSS", 
       "JavaScript", 
-      "MySQL"
-    ]
-  },
-  {
-    type: "list",
-    message: "What is your preferred method of communication?",
-    name: "contact",
-    choices: [
-      "email",
-      "phone",
-      "telekinesis"
+      "SQL"
     ]
   }
-]).then(function(data) {
-
+])
+// Then write the user response to a file using the below callback function
+.then(function(data) {
+  
+  // Bonus: Generate the name of your user file from their input
   var filename = data.name.toLowerCase().split(' ').join('') + ".json";
 
   fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
