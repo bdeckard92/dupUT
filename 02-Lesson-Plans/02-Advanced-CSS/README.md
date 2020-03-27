@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this weeks virtual classes, you'll review Flexbox, CSS grid, and other advanced CSS properties.
+In this week's virtual classes, you'll review flexbox, CSS Grid, and other advanced CSS properties.
 
 ## Virtual Classes
 
@@ -12,15 +12,15 @@ In this weeks virtual classes, you'll review Flexbox, CSS grid, and other advanc
 
 ## Instructor Notes
 
-* This module is long and covers a lot of ground. Student's are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to master CSS at this point, if ever.
+* This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to master CSS at this point, if ever.
 
 ## Module Challenge
 
 [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
-## Heads Up
+## Heads-Up
 
-Next week you will introduce students to JavaScript. This may be a big leap for some students. Be prepared to answer a lot of questions and be available during office hours. 
+Next week, you will introduce students to JavaScript. This may be a big leap for some students. Be prepared to answer a lot of questions and be available during Office Hours. 
 
 ## Resources
 
