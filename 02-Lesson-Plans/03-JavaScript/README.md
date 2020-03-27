@@ -6,8 +6,6 @@ In this week's virtual classes, you'll introduce weekly algorithms; and review c
 
 ## Virtual Classes
 
-### Recommended
-
 [Recommended](./03.1-RECOMMENDED.md)
 
 [Required](./03.2-REQUIRED.md)

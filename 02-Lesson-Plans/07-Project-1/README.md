@@ -33,7 +33,8 @@ Group presentation guidelines
 
 ## Heads-Up
 
-Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+* Students will present their group projects next week. You may want to 
+
 
 ## Resources
 
