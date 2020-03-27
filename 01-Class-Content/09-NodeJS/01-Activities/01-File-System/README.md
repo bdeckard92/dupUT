@@ -12,4 +12,4 @@ In this activity, you will read and write text to a file using the `fs` package.
 
 ## Hint(s)
 
-* You may need to consult [the Node.js `fs` documentation](link) for the appropriate method and its usage. 
+* You may need to consult [the Node.js `fs` documentation](https://nodejs.org/api/fs.html) for the appropriate method and its usage. 
