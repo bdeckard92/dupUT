@@ -50,7 +50,7 @@ The `02-Lesson-Plans/README.md` contains tips, alerts, and resources for all mod
 
 Each module contains a README.md overview containing tips, alerts, and resources specific to that module. 
 
-📝 These materials are **not** to be shared with students. 
+📝 The lesson plans in this repo are instructor-facing only and should **not** be shared with students. 
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

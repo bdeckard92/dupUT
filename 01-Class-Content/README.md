@@ -4,7 +4,7 @@ Welcome to the Coding Online Boot Camp! Many factors influence how well and how 
 
 Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
 
-## Section 1: Foundations (Modules 1–6)
+## Section 1: Foundation (Modules 1–6)
 
 The first third of the course is focused on the front end of web development. The front end includes the things you see and interact with in the browser, such as when you click a login button and a box pops up inviting you to enter your username and password. Front-end languages, techniques, and libraries are foundational to being a full-stack web developer, so you’ll continuously build on these concepts throughout the entire course.
 
@@ -35,6 +35,20 @@ We’ll also cover computer science fundamentals, which are essential to web dev
 ### Final Project: Modules 23–24
 
 As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
+
+## Up Next
+
+For a closer look at each module, refer to the module overviews to learn:
+
+* What you will learn and why it’s important
+
+* How topics in the unit relate to what came earlier in the boot camp
+
+* Activities you’ll complete and the skills they focus on
+
+* Common interview questions related to that week’s material
+
+* Helpful resources if you want to get ahead or gain more experience after the module
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
