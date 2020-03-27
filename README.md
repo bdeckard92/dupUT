@@ -24,7 +24,7 @@ In case of emergency, message the Full-Stack Online Program Support Manager, Xan
 
 You will find the following in [01-Class-Content](./01-Class-Content):
 
-* Module overviews
+* Module instructor overviews
 
 * In-class activities
 

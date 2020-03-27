@@ -36,19 +36,5 @@ We’ll also cover computer science fundamentals, which are essential to web dev
 
 As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
 
-## Up Next
-
-For a closer preview of what we explore in each module, dive into each module's overview to learn:
-
-* What you will learn and why it’s important
-
-* How topics in the module relate to what came earlier in the boot camp
-
-* Activities you’ll complete and what skills they focus on
-
-* Common interview questions related to that week’s material
-
-* Helpful resources if you want to get ahead or gain more experience after the module
-
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
