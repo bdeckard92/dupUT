@@ -5,7 +5,7 @@ In this activity, you will build a simple command line application that accepts 
 
 ## Instructions
 
-* Open the `index.js` file and install the `inquirer` dependency.
+* Open [Unsolved/index.js](Unsolved/index.js) and install the `inquirer` dependency.
 
 * Prompt your user with the following questions:
 
