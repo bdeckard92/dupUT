@@ -8,11 +8,11 @@ In this activity, you will convert functions to use ES6 arrow functions where su
 
 * Convert the functions to use arrow functions **where suitable**. If successful, the code should still work after the changes. 
 
-* Remember to start using `let` and `const` instead of `var` when declaring variables from now on. 
-
 ## Hints
 
 * Keep in mind the instances when you should _not_ be using arrow functions.
+
+* Remember to start using `let` and `const` instead of `var` when declaring variables from now on. 
 
 ## Bonus
 
