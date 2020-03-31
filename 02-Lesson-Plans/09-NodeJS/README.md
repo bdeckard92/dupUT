@@ -1,20 +1,14 @@
 # Module 09 Instructor Overview: Node.js
 
-@TODO { OVERVIEW }
-
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll review the `fs` package, `inquirer` package, and ES6.
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./09.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./09.2-REQUIRED.md)
 
 ## Instructor Notes
 
