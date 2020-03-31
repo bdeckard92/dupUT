@@ -1,10 +1,9 @@
-var fs = require('fs');
-// Install the `inquirer` dependency
+const fs = require('fs');
+// Install the `inquirer` dependency here
 
-// Prompt your user
+// Your code for the prompt here
 
-// Then write the user response to a file using the below callback function
-// Hint: How can you chain this callback method to the prompt above?
+// Write the user response to a file by chaining the below callback method to the prompt above.
 function(data) {
 
   // Bonus: Generate the name of your user file from their input

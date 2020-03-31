@@ -1,8 +1,6 @@
-var fs = require('fs');
-// Install the `inquirer` dependency
-var inquirer = require("inquirer");
+const fs = require('fs');
+const inquirer = require('inquirer');
 
-//Prompt your user
 inquirer.prompt([
   {
     type: "input",
@@ -31,12 +29,10 @@ inquirer.prompt([
       "SQL"
     ]
   }
-])
-// Then write the user response to a file using the below callback function
-.then(function(data) {
+]).then(function(data) {
   
   // Bonus: Generate the name of your user file from their input
-  var filename = data.name.toLowerCase().split(' ').join('') + ".json";
+  const filename = data.name.toLowerCase().split(' ').join('') + ".json";
 
   fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
 

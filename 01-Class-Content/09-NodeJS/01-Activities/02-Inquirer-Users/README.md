@@ -11,12 +11,11 @@ In this activity, you will build a simple command line application that accepts 
 
     * "What is your name?"
 
-    * What is your preferred method of communication?"
+    * "What is your preferred method of communication?"
     
     * "What languages do you know?"
 
-* Then write the user response to a file using the given callback function. 
-    * How can you chain this callback method to the prompt?
+* Then write the user response to a file using the given callback function by chaining this callback method to the prompt.
 
 ## Hint(s)
 
