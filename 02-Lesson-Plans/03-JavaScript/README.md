@@ -1,40 +1,40 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# 03 Instructor Overview: JavaScript
 
 ## Overview
 
-In this weeks virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll introduce weekly algorithms; and review conditional and iterative statments, data types, and functions. 
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./03.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./03.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use the remaining time to review one of this week's algorithms. 
 
-* @TODO { LIST THEM OUT}
+* The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals. 
 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
-## Heads Up
+## Heads-Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week, you will review "vanilla JS" Web APIs. If this is new to you or you generally use a library or framework for front-end development, you will want to find time to review activities and research DOM methods. 
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+N/A
 
 ## Algorithms
 
-N/A
+  * [01-arithmetic](../../../01-Class-Content/03-JavaScript/03-Algorithms/01-arithmetic)
+
+  * [02-odd-or-even](../../../01-Class-Content/03-JavaScript/03-Algorithms/02-odd-or-even)
+
+  * [03-log-nums](../../../01-Class-Content/03-JavaScript/03-Algorithms/03-log-nums)
+
+  * [Code Signal: Add Two Digits](https://app.codesignal.com/public-test/a2kjXwqf8v7vnGnks/7hyvjF58AaTiQW)
