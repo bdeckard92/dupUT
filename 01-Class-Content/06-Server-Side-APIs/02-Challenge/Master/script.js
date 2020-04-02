@@ -1,7 +1,8 @@
 
 function getSearchVal() {
   var searchValue = document.querySelector("#search-value").value;
-  searchWeather(searchValue)
+  searchWeather(searchValue);
+  makeRow(searchValue);
 }
 
 function makeRow(searchValue) {
@@ -10,6 +11,13 @@ function makeRow(searchValue) {
   var text = searchValue;
   liEl.textContent = text;
   var historyEl = document.querySelector('.history');
+  console.log(event.target)
+  historyEl.onclick = function(){
+    console.log(event.target.tagName)
+    if (event.target.tagName == "LI"){
+    searchWeather(event.target.textContent)
+    }
+  }
   historyEl.appendChild(liEl);
 };
 
@@ -19,7 +27,6 @@ function searchWeather(searchValue) {
     return response.json();
   })
   .then(function(data) {
-    makeRow(searchValue)
     // clear any old content
     todayEl = document.querySelector("#today");
     todayEl.textContent = " ";
