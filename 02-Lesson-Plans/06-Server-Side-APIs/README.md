@@ -33,9 +33,9 @@ Project 1 - 3 people per group: 1 strong, 1 middle, 1 struggling
 
 @TODO INSERT LINK
 
-## Heads Up
+## Heads-Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
 
 ## Resources
 

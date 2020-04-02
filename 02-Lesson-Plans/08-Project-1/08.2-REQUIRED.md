@@ -2,7 +2,7 @@
 
 ## Overview 
 
-@TODO In today's required session, students will { OUTLINE THE 3 KEY TOPIC AREAS FROM THE ASYNCHRONOUS CONTENT THAT ARE REINFORCED IN THIS LESSON }.
+@TODO In today's required virtual class, students will { OUTLINE THE 3 KEY TOPIC AREAS FROM THE ASYNCHRONOUS CONTENT THAT ARE REINFORCED IN THIS LESSON }.
 
 
 ## Learning Objectives
@@ -29,7 +29,7 @@ By the end of class, students will be able to:
 
 ## Office Hours
 
-Encourage students to work on the remaining module algorithms during office hours. Review the algorithm solutions 5–10 minutes before class begins or during office hours after class.
+Encourage students to work on the remaining module algorithms during Office Hours. Review the algorithm solutions 5–10 minutes before class begins or during Office Hours after class.
 
 
 ## Time Tracker 
@@ -170,7 +170,7 @@ Encourage students to work on the remaining module algorithms during office hour
 
     * ☝️ What can you do if you don't completely understand this?
 
-    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for Office Hours to ask for help.
 
 * Answer any questions before proceeding to the next activity.
 
@@ -243,7 +243,7 @@ Encourage students to work on the remaining module algorithms during office hour
 
     * ☝️ What can you do if you don't completely understanding this?
 
-    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for Office Hours to ask for help.
 
 * Answer any questions before proceeding to the next activity.
 
@@ -316,7 +316,7 @@ Encourage students to work on the remaining module algorithms during office hour
 
     * ☝️ What can you do if you don't completely understanding this?
 
-    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for Office Hours to ask for help.
 
 * Answer any questions before proceeding to the next activity.
 
@@ -373,7 +373,7 @@ Encourage students to work on the remaining module algorithms during office hour
 
 ### 14. Office Hours (30 min)
 
-* Announce office hours and encourage students to stay on the Zoom and start the challenge while they have live support from instructional staff. 
+* Announce Office Hours and encourage students to stay on the Zoom and start the challenge while they have live support from instructional staff. 
 
 
 ### 15. End 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this weeks virtual classes, you'll review DOM manipulation and traversal, event handling, timers and browser storage.
+In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers and browser storage.
 
 ## Virtual Classes
 
@@ -20,9 +20,9 @@ In this weeks virtual classes, you'll review DOM manipulation and traversal, eve
 
 [Module 04 Challenge](../../01-Class-Content/02-Web-APIs/02-Challenge)
 
-## Heads Up
+## Heads-Up
 
-Next week you will review Bootstrap, jQuery, and Moment.js. If these are new or it's been awhile, you will want to find time to review and/or brush up prior to class.
+Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or it's been awhile, you will want to find time to review and/or brush up prior to class.
 
 ## Resources
 
