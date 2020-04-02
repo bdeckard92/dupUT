@@ -57,9 +57,8 @@ function searchWeather(searchValue) {
     cardBodyEl.appendChild(windEl);
     cardEl.appendChild(cardBodyEl);
     todayEl.appendChild(cardEl);
-    // call follow-up api endpoints
+
     getForecast(searchValue);
-    // getUVIndex(data.coord.lat, data.coord.lon);
   }
 )}
 
