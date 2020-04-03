@@ -1,32 +1,28 @@
 # MiniBank
 
-In this activity you will use objects to create a mini banking application.
+In this activity, you will use objects to create a mini banking application.
 
 ## Instructions
 
 ### Part 1 - Add methods and properties to `MiniBank`
 
-Update the `MiniBank` constructor function with methods and properties as follows:
+Update the `MiniBank` constructor function with the following methods and properties:
 
-1. Define a property named `statement`. Assign an initial value of an array containing the `balance` parameter passed to the constructor.
+1. Add a `setBalance()` function. 
 
-2. Add a `setBalance` function. This function should receive a `value` parameter and assign it to the `balance` property of `MiniBank`.
+   * This function should receive a `value` parameter and assign it to the `balance` property of `MiniBank`.
 
-3. Write an `updateStatement` function that takes in a number and pushes it to the `statement` array.
+2. Add a `deposit()` function. 
 
-4. Write a `getStatement` function that returns the `statement` property.
+   * This function should receive a `value` parameter and call `setBalance()` to update the `balance` property after adding the `value` amount.
 
-5. Write a `printStatement` function that prints each element in the `statement` array on its own line.
+   * Log the amount that was deposited in the console, i.e. `Deposited 85!`
 
-6. Write a `deposit` function that takes a value and performs the following:
+3. Write a `withdraw()` function. 
+   
+   * This function should receive a `value` parameter and call `setBalance()` to update the `balance` property after subtracting the `value` amount.
 
-   - Calls `updateStatement` to record the deposit transaction.
-   - Calls `setBalance` to update the `balance` property.
-
-7. Write a `withdraw` function that takes a value and performs the following:
-
-   - Calls `updateStatement` to record the withdrawal transaction. (Be sure to use a negative number here.)
-   - Calls `setBalance` to update the `balance` property.
+   * Log the amount that was withdrawn in the console, i.e. `Withdrew 20!`
 
 ### Part 2 - Create and use a `MiniBank` instance
 
@@ -42,8 +38,10 @@ Update the `MiniBank` constructor function with methods and properties as follow
 
 6. Print the `bank` balance.
 
-## Bonus 🏆
+## Hint(s)
+
+* Before you can call the `setBalance()` function, you will need to call the `getBalance()` function to add or subtract the `value` amount and get a new balance. 
+
+## Bonus
 
 - Add code to throw an error if the user tries to withdraw more money than they have, or try to deposit or withdraw values that aren't positive numbers.
-
-- Add code to return a copy of the `statement` array when `getStatement` is called, rather than returning the original array.
