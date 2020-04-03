@@ -6,19 +6,19 @@ In this activity, you will use objects to create a mini banking application.
 
 ### Part 1 - Add methods and properties to `MiniBank`
 
-* Open [Unsolved/minibank.js](Unsolved/minibank.js) and update the `MiniBank` constructor function with the following methods and properties:
+Open [Unsolved/minibank.js](Unsolved/minibank.js) and update the `MiniBank` constructor function with the following methods and properties:
 
-1. Add a `setBalance()` function. 
+* Add a `setBalance()` function. 
 
    * This function should receive a `value` parameter and assign it to the `balance` property of `MiniBank`.
 
-2. Add a `deposit()` function. 
+* Add a `deposit()` function. 
 
    * This function should receive a `value` parameter and call `setBalance()` to update the `balance` property after adding the `value` amount.
 
    * Log the amount that was deposited in the console, i.e. `Deposited 85!`
 
-3. Write a `withdraw()` function. 
+* Write a `withdraw()` function. 
    
    * This function should receive a `value` parameter and call `setBalance()` to update the `balance` property after subtracting the `value` amount.
 
@@ -26,17 +26,17 @@ In this activity, you will use objects to create a mini banking application.
 
 ### Part 2 - Create and use a `MiniBank` instance
 
-1. Create a new `bank` object using the `MiniBank` constructor function.
+* Create a new `bank` object using the `MiniBank` constructor function.
 
-2. Print the `bank` balance.
+* Print the `bank` balance.
 
-3. Deposit some money into the `bank` object.
+* Deposit some money into the `bank` object.
 
-4. Print the `bank` balance.
+* Print the `bank` balance.
 
-5. Withdraw some money from the `bank` object.
+* Withdraw some money from the `bank` object.
 
-6. Print the `bank` balance.
+* Print the `bank` balance.
 
 ## Hint(s)
 
