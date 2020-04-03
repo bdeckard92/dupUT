@@ -1,5 +1,4 @@
 // Create a constructor function called `Animal`
-
 // Your code here
 
 
@@ -10,3 +9,5 @@ let cat = new Animal(false, "Meow!");
 // Calls the `makeNoise()` methods on the `dog` and `cat` objects
 dog.makeNoise();
 cat.makeNoise();
+
+// Bonus code here
