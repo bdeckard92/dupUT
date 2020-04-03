@@ -1,0 +1,384 @@
+# Module { XX } Virtual Class (Required): { MODULE TITLE }
+
+## Overview 
+
+@TODO In today's required session, students will { OUTLINE THE 3 KEY TOPIC AREAS FROM THE ASYNCHRONOUS CONTENT THAT ARE REINFORCED IN THIS LESSON }.
+
+
+## Learning Objectives
+
+By the end of class, students will be able to:
+
+* @TODO { EXPLAIN THIS }
+
+* @TODO { USE THAT }
+
+* @TODO { IMPLEMENT THE OTHER}
+
+
+## Instructor Notes 
+
+* @TODO { HEADS UP? }
+
+* @TODO { PAIN POINTS? }
+
+* @TODO { RESOURCES? }
+
+* @TODO { REFERENCE TO ASYNC }
+
+
+## Office Hours
+
+Encourage students to work on the remaining module algorithms during office hours. Review the algorithm solutions 5–10 minutes before class begins or during office hours after class.
+
+
+## Time Tracker 
+@TODO INSERT TITLES
+| Start  | #   | Activity Name                | Duration |
+| ------ | --- | ---------------------------- | -------- |
+| 6:30PM | 0   | Office Hours                 | 0:30     |
+| 7:00PM | 1   | Introduction                 | 0:10     |
+| 7:10PM | 2   | Review Current Challenge     | 0:05     |
+| 7:15PM | 3   | Instructor Demo:             | 0:05     |
+| 7:20PM | 4   | Student Do:                  | 0:15     |
+| 7:35PM | 5   | Instrutor Review:            | 0:10     |
+| 7:45PM | 6   | Instructor Demo:             | 0:05     |
+| 7:50PM | 7   | Student Do:                  | 0:15     |
+| 8:05PM | 8   | Instructor Review:           | 0:10     |
+| 8:15PM | 9   | Instructor Demo:             | 0:05     |
+| 8:20PM | 10  | Student Do:                  | 0:20     |
+| 8:40PM | 11  | Instructor Review:           | 0:10     |
+| 8:50PM | 12  | Recap & Promote Resources    | 0:05     |
+| 8:55PM | 13  | Introduce Upcoming Challenge | 0:05     |
+| 9:00PM | 14  | Office Hours                 | 0:30     |
+| 9:30PM | 15  | End                          | N/A      |
+---
+
+## Class Instructions
+
+### 1. Introduction (10 min)
+
+* Welcome students to class.
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ What did you learn this week? How would you explain it to your friends and family?
+
+    * 🙋 @TODO We learned { X, Y & Z }. We are moving fast compared to traditional learners. It’s okay to feel overwhelmed as long as you don’t give up.
+
+    * ☝️ Did anyone have an "Aha!" or "Eureka!" moment this week? When was it and why did things suddenly click for you? 
+
+    * 🙋 Eureka moments happen when we try different approaches to a problem or change the way we're thinking about it.
+
+    * ☝️ Did anyone feel stuck this week? How did you get unstuck?
+
+    * 🙋 It's easy to get stuck when you're learning web development. It's important to learn how to get unstuck because it happens to the pros too. Rather than getting lost in search results, consult the tool's official documentation first. Then ask for help from instructional staff or your peers. Study groups are great because explaining your problems to someone else often reveals the solution. 
+
+
+### 2. Review Current Challenge (5 min)
+
+@TODO USE THE FOLLOWING FOR BROWSER AND/OR COMMAND LINE DEMOS, RESPECTIVELY. REMOVE IF UNUSED
+* Open `@TODO/folder/file` in your browser and demonstrate the following:
+* Run `@TODO/folder/file { AND ARGS, IF ANY }` from the command line and demonstrate the following: 
+
+    * @TODO { WHEN WE DO THIS, IT DOES THAT. }
+
+    * @TODO { WE ALSO SEE THESE THINGS. }
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ What recently acquired skills will help us build this challenge?
+
+    * 🙋 @TODO { YES, WHAT? }
+
+    * ☝️ How are these skills relevant to a career in web development?
+
+    * 🙋 @TODO { YES, WHAT? }
+
+    * ☝️ How will this challenge improve your portfolio?
+
+    * 🙋 @TODO { YES, HOW? }
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 3. Instructor Demo: { ACTIVITY NAME } (5 min) 
+
+@TODO USE THE FOLLOWING FOR BROWSER AND/OR COMMAND LINE DEMOS, RESPECTIVELY. REMOVE IF UNUSED
+* Open `@TODO/folder/file` in your browser and demonstrate the following:
+* Run `@TODO/folder/file { AND ARGS, IF ANY }` from the command line and demonstrate the following: 
+
+    * 🔑 @TODO { WHEN WE DO THIS, IT DOES THAT. }
+
+    * 🔑 @TODO { WE ALSO SEE THESE THINGS. }
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ Where have we used this before?
+
+    * 🙋 @TODO We used this to accomplish { X, Y, Z }, in { CORRESPONDING ASYNCHRONOUS LESSON PLAN }.
+
+    * ☝️ How does this activity equip us for the challenge?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+    * ☝️ How would we build this?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 4. Student Do: { ACTIVITY NAME }  (15 min) 
+
+* Divide students into breakout rooms.
+
+* Direct students to the activity instructions found in `@TODO/folder/file`.
+
+```md
+    @TODO ADD INSTRUCTIONS; TABBED
+```
+
+
+### 5. Instructor Review: { ACTIVITY NAME }  (10 min) 
+
+* Bring students back from breakout rooms. 
+
+* Use the prompts and talking points below to review the following key (🔑) points:
+
+    * ✔️ @TODO { THIS }
+
+    * ✔️ @TODO { THAT }
+
+    * ✔️ @TODO { THE OTHER }
+
+* Open `@TODO/folder/file` in your IDE and explain the following: 
+
+    * @TODO { WE DO THIS AND THE RESULT IS THAT }
+
+    ```
+    @TODO ADD CODE SNIPPET, TABBED
+    ```
+
+    * 🔑 @TODO DON'T FORGET TO USE THE KEY EMOJI ON KEY POINTS, BUT ONLY KEY POINTS, NOT _EVERY_ POINT
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ @TODO { DO WE END OUR REVIEWS WITH A QUESTION? }
+
+    * 🙋 @TODO { YES, WE DO! }
+
+    * ☝️ What can you do if you don't completely understand this?
+
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 6. Instructor Demo: { ACTIVITY NAME }  (5 min) 
+
+@TODO USE THE FOLLOWING FOR BROWSER AND/OR COMMAND LINE DEMOS, RESPECTIVELY. REMOVE IF UNUSED
+* Open `@TODO/folder/file` in your browser and demonstrate the following:
+* Run `@TODO/folder/file { AND ARGS, IF ANY }` from the command line and demonstrate the following: 
+
+    * 🔑 @TODO { WHEN WE DO THIS, IT DOES THAT. }
+
+    * 🔑 @TODO { WE ALSO SEE THESE THINGS. }
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ Where have we used this before?
+
+    * 🙋 @TODO We used this to accomplish { X, Y, Z }, in { CORRESPONDING ASYNCHRONOUS LESSON PLAN }.
+
+    * ☝️ How does this activity equip us for the challenge?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+    * ☝️ How would we build this?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 7. Student Do: { ACTIVITY NAME }  (15 min) 
+
+* Divide students into breakout rooms.
+
+* Direct students to the activity instructions found in `@TODO/folder/file`.
+
+```md
+    @TODO add instructions; tabbed
+```
+
+
+### 8. Instructor Review: { ACTIVITY NAME }  (10 min) 
+
+* Bring students back from breakout rooms. 
+
+* Use the prompts and talking points below to review the following key (🔑) points:
+
+    * ✔️ @TODO { THIS }
+
+    * ✔️ @TODO { THAT }
+
+    * ✔️ @TODO { THE OTHER }
+
+* Open `@TODO/folder/file` in your IDE and explain the following: 
+
+    * @TODO { WE DO THIS AND THE RESULT IS THAT }
+
+    ```
+    @TODO ADD CODE SNIPPET, TABBED
+    ```
+
+    * 🔑 @TODO DON'T FORGET TO USE THE KEY EMOJI ON KEY POINTS, BUT ONLY KEY POINTS, NOT _EVERY_ POINT
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ @TODO { DO WE END OUR REVIEWS WITH A QUESTION? }
+
+    * 🙋 @TODO { YES, WE DO! }
+
+    * ☝️ What can you do if you don't completely understanding this?
+
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 9. Instructor Demo: { ACTIVITY NAME }  (5 min) 
+
+@TODO USE THE FOLLOWING FOR BROWSER AND/OR COMMAND LINE DEMOS, RESPECTIVELY. REMOVE IF UNUSED
+* Open `@TODO/folder/file` in your browser and demonstrate the following:
+* Run `@TODO/folder/file { AND ARGS, IF ANY }` from the command line and demonstrate the following: 
+
+    * 🔑 @TODO { WHEN WE DO THIS, IT DOES THAT. }
+
+    * 🔑 @TODO { WE ALSO SEE THESE THINGS. }
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ Where have we used this before?
+
+    * 🙋 @TODO We used this to accomplish { X, Y, Z }, in { CORRESPONDING ASYNCHRONOUS LESSON PLAN }.
+
+    * ☝️ How does this activity equip us for the challenge?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+    * ☝️ How would we build this?
+
+    * 🙋 @TODO { YES, HOW? } 
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 10. Student Do: { ACTIVITY NAME }  (20 min) 
+
+* Divide students into breakout rooms.
+
+* Direct students to the activity instructions found in `@TODO/folder/file`.
+
+```md
+    @TODO ADD INSTRUCTIONS; TABBED
+```
+
+
+### 11. Instructor Review: { ACTIVITY NAME }  (10 min) 
+
+* Bring students back from breakout rooms. 
+
+* Use the prompts and talking points below to review the following key (🔑) points:
+
+    * ✔️ @TODO { THIS }
+
+    * ✔️ @TODO { THAT }
+
+    * ✔️ @TODO { THE OTHER }
+
+* Open `@TODO/folder/file` in your IDE and explain the following: 
+
+    * @TODO { WE DO THIS AND THE RESULT IS THAT }
+
+    ```
+    @TODO ADD CODE SNIPPET, TABBED
+    ```
+
+    * 🔑 @TODO DON'T FORGET TO USE THE KEY EMOJI ON KEY POINTS, BUT ONLY KEY POINTS, NOT _EVERY_ POINT
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ @TODO { DO WE END OUR REVIEWS WITH A QUESTION? }
+
+    * 🙋 @TODO { YES, WE DO! }
+
+    * ☝️ What can you do if you don't completely understanding this?
+
+    * 🙋 @TODO We can refer to the lesson plan, read the [{ DOCS }]({ URL }), and stick around for office hours to ask for help.
+
+* Answer any questions before proceeding to the next activity.
+
+
+### 12. Recap & Promote Additional Resources (5 min)
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ What do you think you absolutely need to know to succeed at the challenge?
+
+    * 🙋 @TODO { YES, WHAT? }
+
+    * ☝️ What do you think is okay to not completely understand?
+
+    * 🙋 All of it! The field of web development is very wide and rapidly evolving. Unless you choose to specialize, it is not necessary to know any one area completely to be successful. 
+
+    * ☝️ Why is it important to do as much of the lesson material prior to class as possible?
+
+    * 🙋 It's important both to be fully prepared to start the challenge and because it will prepare you for your future career as a web developer. We cover a lot of material in the boot camp. Lessons are intentionally designed to give each topic an optimal amount of depth and scope so that you have a solid foundation to build upon in future lessons. The skills you learn in the lessons are cutting-edge, real-world skills that you will use in your career as a full-stack web developer.
+
+* Direct students to the additional resources available to them:
+
+    * Reflection and Retrieval
+
+    * Career Connection
+
+    * Dessert Menu
+
+### 13. Introduce Upcoming Challenge (5 min)
+
+@TODO USE THE FOLLOWING FOR BROWSER AND/OR COMMAND LINE DEMOS, RESPECTIVELY. REMOVE IF UNUSED
+* Open `@TODO/folder/file` in your browser and demonstrate the following:
+* Run `@TODO/folder/file { AND ARGS, IF ANY }` from the command line and demonstrate the following: 
+
+    * @TODO { WHAT ARE WE GOING TO BE BUILD? }
+
+    * @TODO { ISN'T THIS NEAT! A SOPHISTICATED OR MODERN APPLICATION OF A KEY TOPIC. }
+
+* Ask the class the following questions (☝️) and call on students for the answers (🙋):
+
+    * ☝️ What are we learning?
+
+    * 🙋 @TODO { YES, WHAT? }.
+
+    * ☝️ How does this project build off or extend previously learned material?
+
+    * 🙋 @TODO {YES, WHAT? }.
+
+    * ☝️ How does this project relate to your career goals?
+
+    * 🙋 @TODO { HOW DO COMPANIES USE IT IN INTERESTING WAYS? HOW POPULAR OR IN-DEMAND IS IT? WHY IS THE PROJECT ENTICING TO EMPLOYERS? }
+
+* Answer any questions before proceeding to the next activity.
+
+### 14. Office Hours (30 min)
+
+* Announce office hours and encourage students to stay on the Zoom and start the challenge while they have live support from instructional staff. 
+
+
+### 15. End 
+
+How did today’s lesson go? Your feedback is important. Please take 5 minutes to complete [this anonymous survey](https://forms.gle/3LozVjherGH83aG17)
+
+---
+© 2019 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
