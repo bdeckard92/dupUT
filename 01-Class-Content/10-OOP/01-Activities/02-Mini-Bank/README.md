@@ -6,7 +6,7 @@ In this activity, you will use objects to create a mini banking application.
 
 ### Part 1 - Add methods and properties to `MiniBank`
 
-Update the `MiniBank` constructor function with the following methods and properties:
+* Open [Unsolved/minibank.js](Unsolved/minibank.js) and update the `MiniBank` constructor function with the following methods and properties:
 
 1. Add a `setBalance()` function. 
 
