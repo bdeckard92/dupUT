@@ -60,15 +60,18 @@ function searchWeather(searchValue) {
     todayEl.appendChild(cardEl);
 
     getForecast(searchValue);
+    getUVIndex(data.coord.lat, data.coord.lon);
   }
 )}
 
 function getForecast(searchValue) {
   fetch("http://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=d91f911bcf2c0f925fb6535547a5ddc9&units=imperial")
   .then(function(response){
+
     return response.json();
   })
   .then(function(data){
+    console.log(data)
     var forecastEl = document.querySelector("#forecast");
     forecastEl.innerHTML = "<h4 class=\"mt-3\">5-Day Forecast:</h4>";
     forecastRowEl = document.createElement("div");
@@ -85,6 +88,12 @@ function getForecast(searchValue) {
         colEl.classList.add("col-md-2");
         var cardEl = document.createElement("div");
         cardEl.classList.add("card", "bg-primary", "text-white");
+        var windEl = document.createElement("p");
+        windEl.classList.add("card-text");
+        windEl.textContent = "Wind Speed: " + data.list[i].wind.speed + " MPH";
+        var humidityEl = document.createElement("p");
+        humidityEl.classList.add("card-text");
+        humidityEl.textContent = "Humidity : " + data.list[i].main.humidity + " %";
         var bodyEl = document.createElement("div");
         bodyEl.classList.add("card-body", "p-2");
         var titleEl = document.createElement("h5");
@@ -103,6 +112,8 @@ function getForecast(searchValue) {
         colEl.appendChild(cardEl);
         bodyEl.appendChild(titleEl);
         bodyEl.appendChild(imgEl);
+        bodyEl.appendChild(windEl);
+        bodyEl.appendChild(humidityEl);
         bodyEl.appendChild(p1El);
         bodyEl.appendChild(p2El);
         cardEl.appendChild(bodyEl);
@@ -110,6 +121,33 @@ function getForecast(searchValue) {
       }
     }
   });
+}
+
+function getUVIndex(lat, lon) {
+  fetch("http://api.openweathermap.org/data/2.5/uvi?appid=d91f911bcf2c0f925fb6535547a5ddc9&lat=" + lat + "&lon=" + lon)
+  .then(function(response){
+    return response.json();
+  }).then(function(data){
+    var bodyEl = document.querySelector(".card-body");
+    var uvEl = document.createElement("p");
+    uvEl.textContent = "UV Index: "
+    var buttonEl = document.createElement("span");
+    buttonEl.classList.add("btn", "btn-sm");
+    buttonEl.innerHTML = data.value;
+
+    if (data.value < 3) {
+      buttonEl.classList.add("btn-success");
+    }
+    else if (data.value < 7) {
+      buttonEl.classList.add("btn-warning");
+    }
+    else {
+      buttonEl.classList.add("btn-danger");
+    }
+
+    bodyEl.appendChild(uvEl);
+    uvEl.appendChild(buttonEl);
+  })
 }
 
 document.querySelector("#search-button").addEventListener("click", getSearchVal);
