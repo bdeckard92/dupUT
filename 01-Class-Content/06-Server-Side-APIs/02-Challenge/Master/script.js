@@ -27,6 +27,7 @@ function searchWeather(searchValue) {
     return response.json();
   })
   .then(function(data) {
+
     // clear any old content
     todayEl = document.querySelector("#today");
     todayEl.textContent = " ";
@@ -43,8 +44,8 @@ function searchWeather(searchValue) {
     humidEl.classList.add("card-text");
     var tempEl = document.createElement("p");
     tempEl.classList.add("card-text");
-    humidEl.textContent = "Humidity: " + data.main.humidity + "";
-    tempEl.textContent = "Temperature: " + data.main.temp + " degrees";
+    humidEl.textContent = "Humidity: " + data.main.humidity + " %";
+    tempEl.textContent = "Temperature: " + data.main.temp + " °F";
     var cardBodyEl = document.createElement("div");
     cardBodyEl.classList.add("card-body");
     var imgEl = document.createElement("img");
@@ -69,11 +70,16 @@ function getForecast(searchValue) {
   })
   .then(function(data){
     var forecastEl = document.querySelector("#forecast");
-    forecastEl.innerHTML = "<h4 class=\"mt-3\">5-Day Forecast:</h4>"
+    forecastEl.innerHTML = "<h4 class=\"mt-3\">5-Day Forecast:</h4>";
+    forecastRowEl = document.createElement("div");
+    forecastRowEl.className = "\"row\"";
+
     // loop over all forecasts (by 3-hour increments)
     for (var i = 0; i < data.list.length; i++) {
+
       // only look at forecasts around 3:00pm
       if (data.list[i].dt_txt.indexOf("15:00:00") !== -1) {
+
         // create html elements for a bootstrap card
         var colEl = document.createElement("div");
         colEl.classList.add("col-md-2");
@@ -92,13 +98,14 @@ function getForecast(searchValue) {
         var p2El = document.createElement("p");
         p2El.classList.add("card-text");
         p2El.textContent = "Humidity: " + data.list[i].main.humidity + "%";
+
         // merge together and put on page
-        colEl.appendChild(cardEl)
-        cardEl.appendChild(bodyEl)
+        colEl.appendChild(cardEl);
         bodyEl.appendChild(titleEl);
         bodyEl.appendChild(imgEl);
         bodyEl.appendChild(p1El);
         bodyEl.appendChild(p2El);
+        cardEl.appendChild(bodyEl);
         forecastEl.appendChild(colEl);
       }
     }
