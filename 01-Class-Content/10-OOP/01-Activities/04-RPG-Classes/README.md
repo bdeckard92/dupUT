@@ -1,4 +1,4 @@
-# Classes
+# RPG Classes
 
 In this activity, you will change the constructor function and prototype methods from the previous `RPG-Prototypes` activity into ES6 Classes. 
 

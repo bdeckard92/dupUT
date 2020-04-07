@@ -1,4 +1,4 @@
-# TDD
+# RPG TDD
 
 In this activity, you will write tests outlining the expected functionality for the RPG game we created in the last activity.
 
