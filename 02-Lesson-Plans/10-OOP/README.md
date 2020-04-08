@@ -1,20 +1,14 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 10 Instructor Overview: Object-Oriented Programming
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll review constructor functions, the `this` keyword, prototypes, ES6 Classes, and TDD.
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./10.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
