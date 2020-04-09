@@ -22,4 +22,4 @@
 
 * Finally, you must add your project to the portfolio that you created in Module 2.
 
-**More details about the project will be provided in Module 7.**
+**More details about the project will be provided in the lessons for Module 7 in Canvas.**
