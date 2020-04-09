@@ -4,7 +4,7 @@
 
 In this week's virtual classes, you'll review using fetch to make requests to APIs and using vanilla JavaScript to display the responses to the browser. You will also review using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls.
 
-You will also announce the upcoming group project and the group members during the Required Class.
+You will also announce the upcoming group project and the group members during this week's Required Class.
 
 
 ## Virtual Classes
@@ -20,7 +20,7 @@ You will also announce the upcoming group project and the group members during t
 
   * Start thinking about project groups. Assign 3 students per group: one advanced, one average, one struggling.  
 
-  * Go over the [project requirements](01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md). 
+  * Look over the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md). 
 
 * Fetch is a fairly simple topic, but being this is new to students be prepared for questions on syntax or basic errors.
 
@@ -29,12 +29,12 @@ You will also announce the upcoming group project and the group members during t
 
 ## Module Challenge
 
-[Module 06 Challenge](01-Class-Content/06-Server-Side-APIs/02-Challenge)
+[Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge/README.md)
 
 
 ## Heads-Up
 
-Next week, students will start working on their group project. So before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
 Also, next week's Recommended Class is very important because it will cover agile project management, so strongly encourage the students to attend.
 
