@@ -6,13 +6,13 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 ## Virtual Classes
 
-[Recommended](./10.1-RECOMMENDED.md)
+[Recommended Class](./10.1-RECOMMENDED.md)
 
-[Required](./10.2-REQUIRED.md)
+[Required Class](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* Be sure to prepare and read over the activities before your class begins. Try and anticipate questions students may have.
 
 * @TODO { LIST THEM OUT}
 
