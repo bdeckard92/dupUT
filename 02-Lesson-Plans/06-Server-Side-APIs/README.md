@@ -1,48 +1,48 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 06 Instructor Overview: Server Side APIs
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll review using `fetch()` to make requests to APIs and using vanilla JavaScript to display the responses to the browser. You will also review using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls.
+
+You will also announce the upcoming group project and the group members during this week's Required Class.
 
 ## Virtual Classes
 
-### Recommended
+### [Recommended](./06.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+### [Required](./06.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* During this week's Required Class, information about the upcoming group project must go out!
 
-* @TODO { LIST THEM OUT}
+  * Start thinking about project groups. Assign 3 students per group: one advanced, one average, one struggling.  
 
-Instructions on how instructors break up groups
+  * Look over the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md). 
 
-Project 1 - 3 people per group: 1 strong, 1 middle, 1 struggling
+* `fetch()` is a fairly simple topic, but being this is new to students be prepared for questions on syntax or basic errors.
 
 * Students will need and want to install [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) prior to class. 
 
-
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge/README.md)
 
 ## Heads-Up
 
-Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+
+Also, next week's Module 07 Recommended Class is very important because it will cover agile project management, so strongly encourage the students to attend.
 
 ## Resources
 
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
-
+* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ## Algorithms
 
 N/A
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
