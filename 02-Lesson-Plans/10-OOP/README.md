@@ -12,25 +12,17 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 ## Instructor Notes
 
-* Be sure to prepare and read over the activities before your class begins. Try and anticipate questions students may have.
+* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
 
 * @TODO { LIST THEM OUT}
-
-Project requirements/rubric
-
-Group presentation guidelines
-
 
 ## Module Challenge
 
 @TODO INSERT LINK
 
-## Heads-Up
+## Heads Up
 
-Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
-
-* Heroku
-
+Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
 
 ## Resources
 
@@ -39,7 +31,3 @@ Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODUL
 ## Algorithms
 
 N/A
-
-
-
-
