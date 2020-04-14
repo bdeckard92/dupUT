@@ -93,15 +93,15 @@ function appMenu() {
         ]
       }
     ]).then(userChoice => {
-      switch(userChoice.memberChoice) {
-      case "Engineer":
-        addEngineer();
-        break;
-      case "Intern":
-        addIntern();
-        break;
-      default:
-        buildTeam();
+      switch (userChoice.memberChoice) {
+        case "Engineer":
+          addEngineer();
+          break;
+        case "Intern":
+          addIntern();
+          break;
+        default:
+          buildTeam();
       }
     });
   }
@@ -133,7 +133,7 @@ function appMenu() {
             } else {
               return true;
             }
-                        
+
           }
           return "Please enter a positive number greater than zero.";
         }
@@ -198,7 +198,7 @@ function appMenu() {
             } else {
               return true;
             }
-                        
+
           }
           return "Please enter a positive number greater than zero.";
         }

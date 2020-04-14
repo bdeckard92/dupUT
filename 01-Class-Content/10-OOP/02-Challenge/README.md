@@ -1,9 +1,8 @@
 # 10. Object-Oriented Programming: Team Profile Generator
 
-
 Your challenge is to build a Node.js command-line application that takes in information about employees and generates an HTML webpage that displays summaries for each person in a software engineering team. Since testing is a key piece in making code maintainable, you will also write tests for each part of your code and ensure that it passes all unit tests.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. You’ll need to submit a link to the video **and** add it to the README of your project.
+Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video **and** add it to the README of your project.
 
 ## User Story
 
@@ -55,15 +54,15 @@ node index.js
 It is recommended that you start with a directory structure that looks like this:
 
 ```md
-lib/			    // classes and helper code
-output/			    // rendered output (HTML) and CSS style sheet
-templates/		    // HTML template(s)
 __tests__/			    // jest tests
   Employee.test.js
   Engineer.test.js
   Intern.test.js
   Manager.test.js
-index.js		    // Runs the application
+dist/               // rendered output (HTML) and CSS style sheet
+lib/                // classes
+src/                // template helper code
+index.js            // Runs the application
 ```
 
 The application must have these classes: `Employee`, `Manager`, `Engineer`, and `Intern`. The tests for these classes (in the tests directory) must all pass.
@@ -102,14 +101,14 @@ In addition to `Employee`'s properties and methods, `Intern` will also have:
 
 * `getRole()`   // Overridden to return 'Intern'
 
-Create multiple HTML templates for the page that contains the roster and each type of user (`main.html`, `engineer.html`, `intern.html`, `manager.html`). In your HTML template files, you may also want to add a placeholder character that helps your program identify where the dynamic markup begins and ends. Finally, although it’s not a requirement, you should consider adding validation to ensure that user input provided is in the proper expected format.
+Finally, although it’s not a requirement, you should consider adding validation to ensure that user input provided is in the proper expected format.
 
 
 ## Review
 
 You are required to submit the following for review:
 
-* A walkthrough video demonstrating the functionality of the application.
+* A walkthrough video demonstrating the functionality of the application and passing tests.
 
 * A sample HTML file generated using your application.
 
