@@ -14,11 +14,11 @@ In this activity, you will use Sequelize CRUD methods to create new todos, updat
 
   * Add a Sequelize `findAll()` method inside the GET route which finds all of the todos and returns them to the user as JSON.
 
-  * Add a Sequelize `create()` method to the POST route to save a new todo to the database using the data sent to the server in `req.body`.
+  * Add a Sequelize `create()` method inside the POST route to save a new todo to the database using the data in `req.body`.
 
-  * Add a Sequelize `destroy()` method to the DELETE route to delete the todo with the id available to us in `req.params.id`.
+  * Add a Sequelize `destroy()` method inside the DELETE route to delete the todo with the id from `req.params.id`.
 
-  * Add a Sequelize `update()` method to the PUT route to update a todo with the new todo data sent to the server in `req.body`.
+  * Add a Sequelize `update()` method inside the PUT route to update a todo with the new todo data in `req.body`.
 
 * To test if this worked, open your terminal and run `npm start` and navigate to `localhost:3001` in your browser. If you are able to save new todos, as well as update and delete todos, you were successful.
 
