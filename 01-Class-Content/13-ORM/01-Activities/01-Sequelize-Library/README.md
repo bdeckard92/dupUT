@@ -6,9 +6,11 @@ In this activity, you will use sequelize query methods to create the required ro
 
 * Create a `'sequelize_library'` DB.
 
+* Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
+
 * Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
 
-* Modify the query methods in the [api-routes.js](Unsolved/app/routes/api-routes.js) file to use sequelize to GET the following:
+* In the [api-routes.js](Unsolved/app/routes/api-routes.js) file, modify the following routes to use sequelize query methods:
 
   * Get all books
 
