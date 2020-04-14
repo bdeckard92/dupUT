@@ -14,17 +14,6 @@ router.get('/books', (req, res) => {
   });
 });
 
-// Get a specific book
-router.get('/books/:book', (req, res) => {
-  Book.findAll({
-    where: {
-      title: req.params.book
-    }
-  }).then(results => {
-    res.json(results);
-  });
-});
-
 // Get all books of a specific genre
 router.get('/genres/:genre', (req, res) => {
   Book.findAll({
@@ -72,33 +61,6 @@ router.get('/books/length/short', (req, res) => {
     order: [['pages', 'ASC']]
   }).then(results => {
     res.json(results);
-  });
-});
-
-// Add a book
-router.post('/books', (req, res) => {
-  console.log('Book Data:');
-  console.log(req.body);
-  Book.create({
-    title: req.body.title,
-    author: req.body.author,
-    genre: req.body.genre,
-    pages: req.body.pages
-  }).then(results => {
-    res.json(results);
-  });
-});
-
-// Delete a book
-router.delete('/books/:id', (req, res) => {
-  console.log('Book ID:');
-  console.log(req.params.id);
-  Book.destroy({
-    where: {
-      id: req.params.id
-    }
-  }).then(() => {
-    res.end();
   });
 });
 
