@@ -1,5 +1,5 @@
 {
-  "name": "create-read",
+  "name": "Sequelize-CRUD",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
