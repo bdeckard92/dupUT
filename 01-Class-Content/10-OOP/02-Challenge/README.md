@@ -58,7 +58,7 @@ It is recommended that you start with a directory structure that looks like this
 lib/			    // classes and helper code
 output/			    // rendered output (HTML) and CSS style sheet
 templates/		    // HTML template(s)
-test/			    // jest tests
+__tests__/			    // jest tests
   Employee.test.js
   Engineer.test.js
   Intern.test.js
