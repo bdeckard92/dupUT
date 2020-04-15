@@ -1,6 +1,6 @@
 # Blog Association
 
-In this activity, you will modify the `Post` and `Author` models so tht they are associated with each other. 
+In this activity, you will modify the `Post` and `Author` models so that they are associated with each other. 
 
 ## Instructions
 
@@ -10,12 +10,12 @@ In this activity, you will modify the `Post` and `Author` models so tht they are
 
 * Open the [index.js](Unsolved/models/index.js) file and create the following associations:
 
-  * Create a relationship that instructs the `Posts` to belong to `Authors`.
+  * Create a relationship that instructs the `Post` to belong to `Author`.
 
-  * Create a relationship that instructs `Authors` that it has many `Posts`.
-
-* You will need to set an `associate` property to the `Post` model after it's defined. 
+  * Create a relationship that instructs `Author` that it has many `Post`.
 
 ## Hint(s)
+
+* You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html). 
 
 ## Bonus
