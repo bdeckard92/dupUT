@@ -43,8 +43,8 @@ router.get('/books/length/long', (req, res) => {
       pages: {
         [Op.gte]: 150
       }
-    }
-    // order: [['pages', 'DESC']]
+    },
+    order: [['pages', 'DESC']]
   }).then(results => {
     res.json(results);
   });

@@ -25,3 +25,7 @@ In this activity, you will use sequelize query methods to create the required ro
   ## Hint(s)
 
   * You may need to consult the [Sequelize Manual on Operators](https://sequelize.org/master/manual/model-querying-basics.html#operators) for the last two queries involving book pages.
+
+  ## Bonus
+
+  * Display the "long" books in descending order and the "short" books in ascending order.
