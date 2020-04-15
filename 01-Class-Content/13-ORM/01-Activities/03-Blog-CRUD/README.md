@@ -1,23 +1,51 @@
-- **Folder**: `12-Blog-CRUD/Unsolved`
+# Blog CRUD
 
-- **INSTRUCTIONS**:
+In this activity, you will add validations for the `Post` model and add Sequelize CRUD methods to the routes. 
 
-  The goal of this exercise is to add Sequelize CRUD methods inside each route specified in the comments in the api-routes.js file.
+## Instructions
 
-  1. Open the folder slacked out to you, run `npm install`
+* Create a `blogger` DB.
 
-  2. Open the `config` folder and update the `connection.js` file to match your own local MySQL database.
+* Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-  3. Navigate to the `api-routes.js` file inside of the `routes` folder.
+* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/database information. 
 
-  4. Fill in each route with the code described in the comments to add each CRUD action.
+* Open the [post.js](Unsolved/models/post.js) file and examine the Sequelize `Post` model.
 
-- We can test our code works by checking to see if we have the following functionality (recommended order):
+* Add the following validations:
 
-  - Create a new post
-  - Get a list of all posts
-    - Get a list of all posts of a category
-    - Edit a post
-    - Delete a post
+  1. Flags to the `title` and `body` to prevent NULL values from being entered.
 
-- **If things aren't working as expected, check to see if any errors logged to the terminal.**
+  2. A validation to the `title` so that it must be between 1 and 160 characters.
+
+  3. A flag to the category so that it has a default value of "Personal" if a value is not supplied.
+
+* Open the [api-routes.js](Unsolved/routes/api-routes.js) file and fill in each route with the following Sequelize methods:
+
+  * Add a Sequelize `findAll()` method inside the GET route to get the posts of a specific category.
+
+  * Add a Sequelize `findOne()` method inside the GET route to get a single post using the id from `req.params.id`.
+
+  * Add a Sequelize `create()` method inside the POST route to save a new post using the data in `req.body`.
+
+  * Add a Sequelize `destroy()` method inside the DELETE route to delete a post using the id from `req.params.id`.
+
+  * Add a Sequelize `update()` method inside the PUT route to update a post using the new todo data in `req.body`.
+
+* To test if everything is working properly, open your terminal and run `npm start` and navigate to `localhost:3001` in your browser. We can check to see if we have the following functionality (recommended order):
+
+  1. Create a new post
+  
+  2. Get a list of all posts
+  
+  3. Get a list of all posts of a category
+  
+  4. Edit a post
+  
+  5. Delete a post
+
+## Hint(s)
+
+* You may need to consult the [Sequelize Validations & Constraints docs](https://sequelize.org/master/manual/validations-and-constraints.html).
+
+* If things aren't working as expected, check to see if any errors logged to the terminal.
