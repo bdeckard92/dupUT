@@ -6,9 +6,7 @@ const { Post, Author } = require('../models');
 
 // `include` the Author model
 router.get('/api/posts/', (req, res) => {
-  Post.findAll({
-    include: [Author]
-  }).then(dbPost => {
+  Post.findAll({}).then(dbPost => {
     res.json(dbPost);
   });
 });
@@ -18,8 +16,7 @@ router.get('/api/posts/category/:category', (req, res) => {
   Post.findAll({
     where: {
       category: req.params.category
-    },
-    include: [Author]
+    }
   }).then(dbPost => {
     res.json(dbPost);
   });
@@ -30,8 +27,7 @@ router.get('/api/posts/:id', (req, res) => {
   Post.findOne({
     where: {
       id: req.params.id
-    },
-    include: [Author]
+    }
   }).then(dbPost => {
     res.json(dbPost);
   });
