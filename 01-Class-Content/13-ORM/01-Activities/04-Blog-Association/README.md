@@ -1,6 +1,6 @@
 # Blog Association
 
-In this activity, you will modify the `Post` and `Author` models so that they are associated with each other. 
+In this activity, you will create relationships between the `Post` and `Author` models so that they are associated with each other. 
 
 ## Instructions
 
@@ -14,8 +14,8 @@ In this activity, you will modify the `Post` and `Author` models so that they ar
 
   * Create a relationship that instructs `Author` that it has many `Post`.
 
+* To test if the association was created properly, open your terminal and run `npm start` and check your MySQL Workbench. If the Posts table now has a foreign key of AuthorId, you were successful.
+
 ## Hint(s)
 
 * You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html). 
-
-## Bonus

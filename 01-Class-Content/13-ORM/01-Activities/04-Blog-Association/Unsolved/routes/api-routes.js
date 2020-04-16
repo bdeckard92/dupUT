@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Post = require('../models/post');
+const db = require('../models');
 
 // Routes
 // =============================================================
@@ -12,7 +12,7 @@ router.get('/api/posts/', (req, res) => {
 
 // Get route for returning posts of a specific category
 router.get('/api/posts/category/:category', (req, res) => {
-  Post.findAll({
+  db.Post.findAll({
     where: {
       category: req.params.category
     }
@@ -23,7 +23,7 @@ router.get('/api/posts/category/:category', (req, res) => {
 
 // Get route for retrieving a single post
 router.get('/api/posts/:id', (req, res) => {
-  Post.findOne({
+  db.Post.findOne({
     where: {
       id: req.params.id
     }
@@ -35,7 +35,7 @@ router.get('/api/posts/:id', (req, res) => {
 // POST route for saving a new post
 router.post('/api/posts', (req, res) => {
   console.log(req.body);
-  Post.create({
+  db.Post.create({
     title: req.body.title,
     body: req.body.body,
     category: req.body.category
@@ -46,7 +46,7 @@ router.post('/api/posts', (req, res) => {
 
 // DELETE route for deleting posts
 router.delete('/api/posts/:id', (req, res) => {
-  Post.destroy({
+  db.Post.destroy({
     where: {
       id: req.params.id
     }
@@ -57,11 +57,18 @@ router.delete('/api/posts/:id', (req, res) => {
 
 // PUT route for updating posts
 router.put('/api/posts/:id', (req, res) => {
-  Post.update(req.body, {
-    where: {
-      id: req.params.id
+  db.Post.update(
+    {
+      title: req.body.title,
+      body: req.body.body,
+      category: req.body.category
+    },
+    {
+      where: {
+        id: req.params.id
+      }
     }
-  }).then(dbPost => {
+  ).then(dbPost => {
     res.json(dbPost);
   });
 });
