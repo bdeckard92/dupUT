@@ -4,7 +4,7 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
 ## Instructions
 
-* Create a `blogger` DB.
+* Create a `blogger` DB. You will use this database for all of today's activities.
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 

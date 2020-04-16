@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Requiring our models for syncing
-const db = require('./models/post');
+// const db = require('./models/post');
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));

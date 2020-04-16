@@ -35,6 +35,7 @@ router.get('/api/posts/:id', (req, res) => {
 
 // POST route for saving a new post
 router.post('/api/posts', (req, res) => {
+  console.log(req.body);
   Post.create({
     title: req.body.title,
     body: req.body.body,
