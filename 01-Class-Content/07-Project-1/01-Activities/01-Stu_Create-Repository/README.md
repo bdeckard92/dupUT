@@ -34,4 +34,4 @@ In this activity we will create a Github repository, add group members as collab
 
 ### Hints
 
-* Ask an instructor or TA if you get stuck!
+* Ask your instructor or TA if you get stuck!
