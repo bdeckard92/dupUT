@@ -1,6 +1,3 @@
-// Add code here to create a Post model
-// This model needs a title, a body, and a category
-// Don't forget to export the post after defining
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
@@ -12,7 +9,7 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1]
+        len: [1, 160]
       }
     },
     body: {

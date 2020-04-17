@@ -1,16 +1,19 @@
 const router = require('express').Router();
+// Requiring our models
 const db = require('../../models');
 
+// Routes
+// =============================================================
+
+// Update query to "include" associated Posts
 router.get('/', (req, res) => {
-  db.Author.findAll({
-    // update query to "include" associated Posts
-  }).then(dbAuthor => {
+  db.Author.findAll({}).then(dbAuthor => {
     res.json(dbAuthor);
   });
 });
 
+// Update query to "include" associated Posts
 router.get('/:id', (req, res) => {
-  // update query to "include" associated Posts
   db.Author.findOne({
     where: {
       id: req.params.id
