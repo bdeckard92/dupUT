@@ -30,7 +30,7 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
   * A `destroy()` method inside the DELETE route to delete a post using the id from `req.params.id`.
 
-  * An `update()` method inside the PUT route to update a post using the new todo data in `req.body`.
+  * An `update()` method inside the PUT route to update a post using the new data in `req.body`.
 
 * To test if everything is working properly, run `npm start` in your terminal. Navigate to `localhost:3001` in your browser and check if we have the following functionality (recommended order):
 
