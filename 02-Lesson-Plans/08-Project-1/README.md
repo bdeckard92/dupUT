@@ -1,36 +1,28 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 08 Instructor Overview: Project 1, cont'd.
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, students will continue working on projects, deploy their projects, and present their projects as groups to their classmates. 
 
 ## Virtual Classes
 
-### Recommended
-
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./08.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* Prepare superlatives. 
 
-* @TODO { LIST THEM OUT}
+* Divide class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
+* @TODO Project requirements/rubric
 
-Project requirements/rubric
-
-Group presentation guidelines
+* @TODO Group presentation guidelines
 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+n/a
+
 
 ## Heads-Up
 
@@ -39,8 +31,8 @@ Group presentation guidelines
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+n/a
 
 ## Algorithms
 
-N/A
+@TODO
