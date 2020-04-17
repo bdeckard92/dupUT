@@ -2,7 +2,7 @@
 
 For people that need to keep track of a lot of information, it's easy to forget important things. Being able to take persistent notes allows people to have written information available when they need it. Your challenge is to create a Note Taker application that can be used to write, save, and delete notes. This application will use an Express.js backend and save and retrieve note data from a JSON file.
 
-The application frontend has already been created, it's your job to build the backend and connect the two and then deploy the entire application to Heroku.
+The application frontend has already been created. It's your job to build the backend and connect the two and then deploy the entire application to Heroku.
 
 Before you start, clone the [starter code](https://github.com/coding-boot-camp/miniature-eureka).
 
@@ -48,7 +48,7 @@ The following images show the web application's appearance and functionality:
 
 ## Getting Started
 
-The application should have a db.json file on the backend that will be used to store and retrieve notes using the `fs` module.
+The application should have a `db.json file` on the backend that will be used to store and retrieve notes using the `fs` module.
 
 The following HTML routes should be created:
 
