@@ -14,8 +14,8 @@ In this activity, you will create relationships between the `Post` and `Author` 
 
   * Create a relationship that instructs `Author` that it has many `Post`.
 
-* To test if the association was created properly, open your terminal and run `npm start` and check your MySQL Workbench. If the Posts table now has a foreign key of AuthorId, you were successful.
+* To test if the association was created properly, run `npm start` in your terminal and check your MySQL Workbench. If the `Post` table now has a foreign key of `AuthorId`, you were successful!
 
 ## Hint(s)
 
-* You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html). 
+* You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html) on how to make relationships between the models. 

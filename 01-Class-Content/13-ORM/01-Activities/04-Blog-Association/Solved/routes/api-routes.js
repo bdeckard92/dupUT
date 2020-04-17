@@ -3,6 +3,7 @@ const db = require('../models');
 
 // Routes
 // =============================================================
+
 // GET route for getting all of the posts
 router.get('/api/posts/', (req, res) => {
   db.Post.findAll({}).then(dbPost => {
