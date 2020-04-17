@@ -32,7 +32,7 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
   * An `update()` method inside the PUT route to update a post using the new todo data in `req.body`.
 
-* To test if everything is working properly, open your terminal and run `npm start` and navigate to `localhost:3001` in your browser. We can check to see if we have the following functionality (recommended order):
+* To test if everything is working properly, run `npm start` in your terminal. Navigate to `localhost:3001` in your browser and check if we have the following functionality (recommended order):
 
   1. Create a new post
   
