@@ -1,49 +1,44 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 07 Instructor Overview: Project 1
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll introduce agile project management and working collaboratively with git branching.
+
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./07.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
-
-* @TODO { LIST THEM OUT}
-
-Project requirements/rubric
-
-Group presentation guidelines
+* There is no lesson plan for the Required session. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+@TODO INSERT LINK?
+
 
 ## Heads-Up
 
-* Students will present their group projects next week. You may want to 
+* Students will present their group projects next week. You may want to prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+
+* Students presentations will take place in next week's Required session.
 
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+N/A
 
 ## Algorithms
 
-N/A
+## Algorithms
 
+  * [01-swap-case](../../../01-Class-Content/07-Project-1/03-Algorithms/01-swap-case)
 
+  * [02-longest-word](../../../01-Class-Content/07-Project-1/03-Algorithms/02-longest-word)
 
+  * [03-acronym-builder](../../../01-Class-Content/07-Project-1/03-Algorithms/03-acronym-builder)
 
+  * [04-reverse-words](../../../01-Class-Content/07-Project-1/03-Algorithms/04-reverse-words)
