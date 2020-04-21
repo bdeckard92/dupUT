@@ -14,7 +14,7 @@ In this week's virtual classes, students will continue working on projects, depl
 
 * Divide class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
-* Share the [Project Presentation Template](@TODO) with students. 
+* Share the [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit) with students early in the week to give them ample time to prepare for their presentations.
 
 
 ## Module Challenge
