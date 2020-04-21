@@ -39,9 +39,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 The following images show the web application's appearance and functionality: 
 
-![challenge demo 1](./assets/11-express-homework-demo-01.png)
+![challenge demo 1](./Assets/11-express-homework-demo-01.png)
 
-![challenge demo 2](./assets/11-express-homework-demo-02.png)
+![challenge demo 2](./Assets/11-express-homework-demo-02.png)
 
 
 ## Getting Started
