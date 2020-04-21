@@ -33,8 +33,8 @@ n/a
 
 ## Algorithms
 
-  * [01-character-count](../../../01-Class-Content/09-NodeJS/03-Algorithms/01-character-count)
+  * [01-character-count](../../01-Class-Content/09-NodeJS/03-Algorithms/01-character-count)
 
-  * [02-product-of-largest-two](../../../01-Class-Content/09-NodeJS/03-Algorithms/02-product-of-largest-two)
+  * [02-product-of-largest-two](../../01-Class-Content/09-NodeJS/03-Algorithms/02-product-of-largest-two)
 
-  * [03-camel-case](../../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
+  * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
