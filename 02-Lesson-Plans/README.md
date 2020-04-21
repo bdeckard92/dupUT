@@ -12,6 +12,8 @@ Each module contains an overview (like this one!) that contains tips, alerts, an
 
 - During activities, visit a few breakout rooms quietly and ask the group if they are comfortable with the activity and provide gentle tips to keep them on track.
 
+- While students are working on activities, you may want to present this [Time to Code slide](https://docs.google.com/presentation/d/1fUrXBMNng_r8NFkm2aGeO5yy4Eo_OQe0RpNjb2Iqqd4/edit?usp=sharing) to provide clarification for students accessing the class recording later.
+
 - In required virtual classes, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
 ## Virtual Class Lesson Plans
