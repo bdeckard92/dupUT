@@ -10,13 +10,11 @@ In this week's virtual classes, students will continue working on projects, depl
 
 ## Instructor Notes
 
-* Prepare superlatives. 
+* Prepare superlatives. Use [this example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing), feeling free to customize as you see fit for your cohort. 
 
 * Divide class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
-* @TODO Project requirements/rubric
-
-* @TODO Group presentation guidelines
+* Share the [Project Presentation Template](@TODO) with students. 
 
 
 ## Module Challenge
@@ -35,4 +33,8 @@ n/a
 
 ## Algorithms
 
-@TODO
+  * [01-character-count](../../../01-Class-Content/09-NodeJS/03-Algorithms/01-character-count)
+
+  * [02-product-of-largest-two](../../../01-Class-Content/09-NodeJS/03-Algorithms/02-product-of-largest-two)
+
+  * [03-camel-case](../../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
