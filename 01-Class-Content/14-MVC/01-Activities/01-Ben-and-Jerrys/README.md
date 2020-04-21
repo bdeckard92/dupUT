@@ -1,6 +1,6 @@
 # Ben and Jerry's 
 
-In this activity, you will use handlebars to render details about specific Ben and Jerry's ice cream flavors. 
+In this activity, you will use Handlebars to render details about specific Ben and Jerry's ice cream flavors. 
 
 ## Instructions
 
@@ -8,9 +8,9 @@ In this activity, you will use handlebars to render details about specific Ben a
 
 * Open the [server.js](Unsolved/server.js) file and do the following:
 
-  * Set handlebars as the default templating engine.
+  * Set Handlebars as the default templating engine.
 
-  * For simplicity, do not use MySQL or Sequelize for this activity. Add the `icecreams` variable below as your dummy data:
+  * For simplicity, do not use MySQL or Sequelize for this activity. Add the `icecreams` array below as your dummy data:
 
   ```js
   const icecreams = [
@@ -23,13 +23,13 @@ In this activity, you will use handlebars to render details about specific Ben a
   ];
   ```
 
-  * Using handlebars and express, create a route called `/:num`. 
+  * Using Handlebars and Express, create a route called `/:num`.
 
     * When the route is hit, it will display the name, price and awesomeness for that specific ice cream.
 
     * Look at how [all.handlebars](Unsolved/views/all.handlebars) is hard-coded in order to render the right ice cream.
 
-* In the [Unsolved/views](Unsolved/views/) folder, create a new handlebars file called `icecream.handlebars`.
+* In the [Unsolved/views](Unsolved/views/) folder, create a new Handlebars file called `icecream.handlebars`.
 
   * Create a template that will print out the name, price and awesomeness for that specific ice cream.
 
