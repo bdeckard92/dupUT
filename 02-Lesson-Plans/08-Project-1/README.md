@@ -1,36 +1,26 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 08 Instructor Overview: Project 1, cont'd.
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, students will continue working on projects, deploy their projects, and present their projects as groups to their classmates. 
 
 ## Virtual Classes
 
-### Recommended
-
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./08.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* Prepare superlatives. Use [this example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing), feeling free to customize as you see fit for your cohort. 
 
-* @TODO { LIST THEM OUT}
+* Divide class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
-
-Project requirements/rubric
-
-Group presentation guidelines
+* Share the [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit) with students early in the week to give them ample time to prepare for their presentations.
 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+n/a
+
 
 ## Heads-Up
 
@@ -39,8 +29,12 @@ Group presentation guidelines
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+n/a
 
 ## Algorithms
 
-N/A
+  * [01-character-count](../../01-Class-Content/09-NodeJS/03-Algorithms/01-character-count)
+
+  * [02-product-of-largest-two](../../01-Class-Content/09-NodeJS/03-Algorithms/02-product-of-largest-two)
+
+  * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
