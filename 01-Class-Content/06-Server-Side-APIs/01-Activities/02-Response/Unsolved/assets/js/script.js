@@ -8,11 +8,7 @@ fetch(
   })
   .then(function(response) {
     // Use 'querySelector' to get the ID of where the GIF will be displayed
-    var responseContainerEl = document.querySelector('#response-container');
     // Create an '<img>' element
-    var gifImg = document.createElement('img');
     // Set that element's 'src' attribute to the 'image_url' from our Giphy API response
-    gifImg.setAttribute('src', response.data.image_url);
     // Append the '<img>' element to the page
-    responseContainerEl.appendChild(gifImg);
   });
