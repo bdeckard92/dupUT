@@ -1,17 +1,17 @@
 # Display Response
 
-In this activity you will use the fetch you created in the last activity and then instead of console logging the response, display a gif to the page!
+In this activity, you will create a fetch request and instead of logging the response in the console, you will display the GIF from the response in the browser.
 
 ## Instructions
 
-* Open `index.html` and check the IDs and class names of the HTML elements, this will be important for DOM manipulation later.
+* Open the [index.html](Unsolved/index.html) file and examine the ID's and class names of the HTML elements. This will be important for DOM manipulation later.
 
-* Open `script.js` and create a new fetch request to the Giphy API `random` endpoint.
+* Open the [script.js](Unsolved/assets/js/script.js) file and create a fetch request to the Giphy API `random` endpoint.
 
-* From the response, display a gif to the screen.
+  * Remember to include your API key!
+
+* Display the GIF in the browser using the appropriate DOM manipulation.
 
 ## Hint(s) 
-
-* We will need to use DOM manipulation to create elements and append them to the screen!
 
 * Check out the `<img>` tag.
