@@ -28,6 +28,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "mysql2": "^2.1.0",
     "pretty-quick": "^2.0.1"
   }
 }
