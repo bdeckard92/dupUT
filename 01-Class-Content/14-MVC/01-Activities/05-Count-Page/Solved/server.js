@@ -1,6 +1,6 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
-// Require the 'express-session' module here
+// Require the 'express-session' module
 const session = require(`express-session`);
 
 const app = express();
@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
-// Set up the sessions with the 'secret', 'resave', 'saveUninitialized' options here
+// Set up the sessions with the 'secret', 'resave', 'saveUninitialized' options
 app.use(
   session({
     secret: 'This is a major secret!',
@@ -58,14 +58,13 @@ app.get('/', (req, res) => {
     req.session.countPage++;
     req.session.firstTime = false;
   } else {
-    // If the 'countPage' session variable doesn't exist, initialize it and set it to 1.
-    // Initialize and set the 'firstTime' session variable to 'true'
+    // If the 'countPage' session variable doesn't exist, set it to 1 and set the 'firstTime' session variable to 'true'
     req.session.countPage = 1;
     req.session.firstTime = true;
   }
   const data = {
+    // Include the 'books' array, 'countPage' and 'firstTime' session variables to be sent over to index.handlebars
     library: books,
-    // Include the 'countPage' and 'firstTime' session variables to be sent over to index.handlebars
     countPage: req.session.countPage,
     firstTime: req.session.firstTime
   };

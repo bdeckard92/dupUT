@@ -8,7 +8,9 @@ In this activity, you will use `express-session` to keep track of how many times
 
 * Open the [index.handlebars](Unsolved/views/index.handlebars) file and examine the code on top.
 
-  * If this is the first time the user is visiting the page, they will be welcomed with a special message. Otherwise, the user will know how many times they have visited the page. 
+  * If this is the first time the user is visiting the page, they will be welcomed with a special message. 
+  
+  * Otherwise, the user will know how many times they have visited the page. 
 
 * Open the [server.js](Unsolved/server.js) file and do the following:
 
