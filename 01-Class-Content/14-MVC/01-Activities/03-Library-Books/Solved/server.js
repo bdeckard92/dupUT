@@ -5,6 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
+// Set Handlebars as the default template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
@@ -42,11 +43,10 @@ const books = [
 ];
 
 app.get('/', (req, res) => {
-  // Send the books to the index handlebars file as an object
+  // Send the books to index.handlebars as an object
   const data = {
     library: books
   };
-
   res.render('index', data);
 });
 

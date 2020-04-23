@@ -41,7 +41,7 @@ const books = [
 ];
 
 app.get('/', (req, res) => {
-  // Send the books to the index handlebars file as an object
+  // Send the books to index.handlebars as an object
 });
 
 app.listen(PORT, () => {

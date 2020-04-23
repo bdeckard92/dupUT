@@ -18,7 +18,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
 * In the [Unsolved/views/index.handlebars](Unsolved/views/index.handlebars) file, loop through the books sent to this page.
 
-  * For each of the books, check if the book has been read using the appropriate helper functions.
+  * For `{{#each}}` of the books, check `{{#if}}` the book has been read using the appropriate helper functions.
 
   * In an unordered list, print out the details of the books in the correct list.
 
