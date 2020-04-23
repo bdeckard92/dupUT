@@ -10,13 +10,13 @@ In this activity, you will use Handlebars partials to reuse the template that di
 
 * Inside the `partials` folder, create another folder called `books`.
 
-* Inside the `books` folder, create a Handlebars partial file. 
+* Inside the `books` folder, create a Handlebars partial file called `book-block.handlebars`. 
 
-  * Write the HTML code for printing out the book details for each book (`title`, `author`, `read`).
+  * Write the code for printing out the book details for each book (`title`, `author`, `read`).
 
 * Open the [index.handlebars](Unsolved/views/index.handlebars) file and do the following:
 
-  * Replace the HTML code that renders the book details with Handlebars partial file you created above.
+  * Replace the code that renders the book details with Handlebars partial file you created above.
 
 * To test if everything is working properly, run `npm start` in your terminal and navigate to `localhost:3001` in your browser. 
 
