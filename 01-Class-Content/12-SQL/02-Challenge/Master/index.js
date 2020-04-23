@@ -74,6 +74,10 @@ function loadMainPrompts() {
           value: "REMOVE_DEPARTMENT"
         },
         {
+          name: "View Total Utilized Budget By Department",
+          value: "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT"
+        },
+        {
           name: "Quit",
           value: "QUIT"
         }
@@ -113,6 +117,9 @@ function loadMainPrompts() {
       case "REMOVE_DEPARTMENT":
         removeDepartment();
         break;
+      case "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT":
+        viewUtilizedBudgetByDepartment();
+        break;
       case "VIEW_ROLES":
         viewRoles();
         break;
@@ -129,6 +136,7 @@ function loadMainPrompts() {
   )
 }
 
+// View all employees
 function viewEmployees() {
   db.findAllEmployees()
     .then(([rows]) => {
@@ -139,8 +147,9 @@ function viewEmployees() {
     .then(() => loadMainPrompts());
 }
 
+// View all employees that belong to a department
 function viewEmployeesByDepartment() {
-  db.listAllDepartments()
+  db.findAllDepartments()
     .then(([rows]) => {
       let departments = rows;
       const departmentChoices = departments.map(({ id, name }) => ({
@@ -166,6 +175,7 @@ function viewEmployeesByDepartment() {
     });
 }
 
+// View all employees that report to a specific manager
 function viewEmployeesByManager() {
   db.findAllEmployees()
     .then(([rows]) => {
@@ -197,6 +207,7 @@ function viewEmployeesByManager() {
     });
 }
 
+// Delete an employee
 function removeEmployee() {
   db.findAllEmployees()
     .then(([rows]) => {
@@ -220,6 +231,7 @@ function removeEmployee() {
     })
 }
 
+// Update an employee's role
 function updateEmployeeRole() {
   db.findAllEmployees()
     .then(([rows]) => {
@@ -263,6 +275,7 @@ function updateEmployeeRole() {
     })
 }
 
+// Update an employee's manager
 function updateEmployeeManager() {
   db.findAllEmployees()
     .then(([rows]) => {
@@ -307,6 +320,7 @@ function updateEmployeeManager() {
     })
 }
 
+// View all roles
 function viewRoles() {
   db.findAllRoles()
     .then(([rows]) => {
@@ -317,6 +331,7 @@ function viewRoles() {
     .then(() => loadMainPrompts());
 }
 
+// Add a role
 function addRole() {
   db.findAllDepartments()
     .then(([rows]) => {
@@ -350,6 +365,7 @@ function addRole() {
     })
 }
 
+// Delete a role
 function removeRole() {
   db.findAllRoles()
     .then(([rows]) => {
@@ -374,8 +390,9 @@ function removeRole() {
     })
 }
 
+// View all deparments
 function viewDepartments() {
-  db.listAllDepartments()
+  db.findAllDepartments()
     .then(([rows]) => {
       let departments = rows;
       console.log("\n");
@@ -384,6 +401,7 @@ function viewDepartments() {
     .then(() => loadMainPrompts());
 }
 
+// Add a department
 function addDepartment() {
   prompt([
     {
@@ -399,6 +417,7 @@ function addDepartment() {
     })
 }
 
+// Delete a department
 function removeDepartment() {
   db.findAllDepartments()
     .then(([rows]) => {
@@ -421,6 +440,18 @@ function removeDepartment() {
     })
 }
 
+// View all departments and show their total utilized department budget
+function viewUtilizedBudgetByDepartment() {
+  db.viewDepartmentBudgets()
+    .then(([rows]) => {
+      let departments = rows;
+      console.log("\n");
+      console.table(departments);
+    })
+    .then(() => loadMainPrompts());
+}
+
+// Add an employee
 function addEmployee() {
   prompt([
     {
@@ -489,6 +520,7 @@ function addEmployee() {
     })
 }
 
+// Exit the application
 function quit() {
   console.log("Goodbye!");
   process.exit();
