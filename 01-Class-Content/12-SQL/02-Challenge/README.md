@@ -47,7 +47,7 @@ You’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) 
 
 Design the following database schema containing three tables:
 
-![Database Demo](./Assets/12-sql-homework-demo-02.png)
+![Database Demo](./Assets/12-sql-homework-demo-02.gif)
 
 * **department:**
 
