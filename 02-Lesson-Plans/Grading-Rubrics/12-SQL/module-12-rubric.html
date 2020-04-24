@@ -448,21 +448,15 @@
             "use strict";
 
             function Model() {
-                this.title = "Module 10 OOP Challenge Rubric";
+                this.title = "Module 12 SQL Challenge Rubric";
                 this.categories = [
                     {
                         title: "Deliverables",
                         subtitle: null,
                         questions: [
                             {
-                                title: "Student submitted a sample HTML file generated from the application",
-                                score: 7.5,
-                                message: "Student did not submit a sample HTML file generated from the application",
-                                status: false
-                            },
-                            {
                                 title: "Student submitted GitHub Repo containing application code",
-                                score: 7.5,
+                                score: 10,
                                 message: "GitHub repo is empty",
                                 status: false
                             }
@@ -482,10 +476,10 @@
                             },
                             {
                                 title:
-                                    "Walkthrough video shows all four tests passing from the command line",
-                                score: 10,
+                                    "Walkthrough video shows all of the technical acceptance criteria being met",
+                                score: 12,
                                 message:
-                                    "Walkthrough video doesn't show all four tests passing from the command line",
+                                    "Walkthrough video doesn't show all of the technical acceptance criteria being met",
                                 status: false
                             },
                             {
@@ -497,16 +491,9 @@
                             },
                             {
                                 title:
-                                    "Walkthrough video demonstrates all of the prompts receiving user input",
-                                score: 4,
-                                message: "Walkthrough video does not demonstrate all of the prompts receiving user input",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates a generated HTML file that matches the user input",
-                                score: 8,
-                                message: "Walkthrough video does not demonstrate a generated HTML file that matches the user input",
+                                    "Walkthrough video demonstrates a functional menu",
+                                score: 5,
+                                message: "Walkthrough video does not demonstrate a functional menu",
                                 status: false
                             }
                         ]
@@ -518,40 +505,71 @@
                         questions: [
                             {
                                 title:
-                                    "Application prompts user for employees to add to roster (1 manager and a combination of engineers and interns)",
-                                score: 8,
-                                message:
-                                    "Application doesn't prompt user for employees to add to the roster",
+                                    "Application follows table schema outlined in HW instructions",
+                                score: 5,
+                                message: "Application doesn't follow table schema outlined in HW instructions",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application utilizes 'Employee', 'Manager', 'Engineer', and 'Intern' classes to create employee objects as outlined in the Challenge instructions",
-                                score: 8,
+                                    "Application allows users to add departments",
+                                score: 5,
                                 message:
-                                    "Application doesn't utilize 'Employee', 'Manager', 'Engineer', and 'Intern' classes to create employee objects as outlined in the Challenge instructions",
+                                    "Application allow users to add departments",
                                 status: false
                             },
                             {
                                 title:
-                                    "Email addresses in the HTML use mailto links and GitHub usernames link to profiles",
-                                score: 8,
+                                    "Application allows users to add roles",
+                                score: 5,
                                 message:
-                                    "Email addresses in the HTML don't use mailto links and/or GitHub usernames don't link to profiles",
-                                status: false
-                            },
-                            {
-                                title: "All application tests pass",
-                                score: 8,
-                                message: "Not all application tests pass",
+                                    "Application doesn't allow users to add roles",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application generates an HTML document displaying the employee roster",
-                                score: 8,
+                                    "Application allows users to add employees",
+                                score: 5,
                                 message:
-                                    "Application doesn't generate an HTML document displaying the employee roster",
+                                    "Application doesn't allow users to add employees",
+                                status: false
+                            },
+                            {
+                                title: "Application allows users to view departments",
+                                score: 5,
+                                message: "Application doesn't allow users to view departments",
+                                status: false
+                            },
+                            {
+                                title: "Application allows users to view roles",
+                                score: 5,
+                                message: "Application doesn't allow users to view roles",
+                                status: false
+                            },
+                            {
+                                title: "Application allows users to view employees",
+                                score: 5,
+                                message: "Application doesn't allow users to view employees",
+                                status: false
+                            },
+                            {
+                                title: "Application allows users to update employee roles",
+                                score: 5,
+                                message: "Application doesn't allow users to update employee roles",
+                                status: false
+                            }
+                        ]
+                    },
+                    {
+                        title: "Application Quality",
+                        subtitle: null,
+                        questions: [
+                            {
+                                title:
+                                    "Application user experience is intuitive and easy to navigate",
+                                score: 10,
+                                message:
+                                    "Application user experience could be more intuitive",
                                 status: false
                             }
                         ]
