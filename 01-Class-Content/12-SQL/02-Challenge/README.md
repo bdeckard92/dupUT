@@ -38,7 +38,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 The following animation shows an example of the application being used from the command line:
 
-![Command Line demo](./Assets/12-sql-homework-demo-01.png)
+![Command Line demo](./Assets/12-sql-homework-demo-01.gif)
 
 
 ## Getting Started
@@ -49,7 +49,7 @@ You might also want to make your queries asynchronous. MySQL2 exposes a `.promis
 
 Design the following database schema containing three tables:
 
-![Database Demo](./Assets/12-sql-homework-demo-02.gif)
+![Database Demo](./Assets/12-sql-homework-demo-02.png)
 
 * **department:**
 
