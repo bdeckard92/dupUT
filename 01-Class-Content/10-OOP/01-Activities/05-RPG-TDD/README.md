@@ -1,12 +1,12 @@
 # RPG TDD
 
-In this activity, you will write tests outlining the expected functionality for the RPG game we created in the last activity.
+In this activity, you will write tests outlining the expected functionality for the RPG game we created in the first activity `RPG-Prototypes`.
 
 ## Instructions
 
 * Open the [Unsolved/rpg-tdd.js](Unsolved/rpg-tdd.js) file and take a moment to examine the code.
   
-  * It is the `Character` constructor function from our previous RPG activities. 
+  * It is the `Character` constructor function from our first RPG activity. 
 
 * Now open the [Unsolved/test/rpg-tdd.test.js](Unsolved/test/rpg-tdd.test.js) file.
 
