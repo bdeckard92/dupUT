@@ -2,6 +2,8 @@
 
 Take this working Express API and have it use Sequelize to interact with a SQL database. Create the configuration to connect a database using Sequelize. Use environment variables to store sensitive data, like your MySQL username and password.
 
+Before you start, clone the [starter code](https://github.com/coding-boot-camp/fantastic-umbrella).
+
 dotenv
 express
 mysql2
