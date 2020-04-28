@@ -1,41 +1,16 @@
 const router = require('express').Router();
 
-const { Product, Category, Tag, ProductTag } = require('../../models');
+// DON'T FORGET TO IMPORT THE MODELS YOU'LL WORK WITH
 
-// get all products
-router.get('/', (req, res) => {
-  Product.findAll({
-    include: [
-      Category,
-      {
-        model: Tag,
-        through: ProductTag
-      }
-    ]
-  })
-    .then(products => res.json(products))
-    .catch(err => res.status(400).json(err));
-});
+// GET /api/products to retrieve all products from database, include associated Category and Tag data (through ProductTag)
+router.get('/', (req, res) => {});
 
-// get one product
-router.get('/:id', (req, res) => {
-  Product.findByPk(req.params.id, {
-    include: [
-      Category,
-      {
-        model: Tag,
-        through: ProductTag
-      }
-    ]
-  })
-    .then(products => res.json(products))
-    .catch(err => res.status(400).json(err));
-});
+// GET /api/products/:id to retrieve one product's data by it's `id` value, include associated Category and Tag data (through ProductTag)
+router.get('/:id', (req, res) => {});
 
-// creat new product
+// POST /api/products to create data in Product model and associate any tags using the ProductTag through model
 router.post('/', (req, res) => {
-  
-  const tagIds = req.body.tagIds.split(',');
+  console.log(req.body);
 
   Product.create(req.body)
     .then(product => {
@@ -49,17 +24,17 @@ router.post('/', (req, res) => {
     .then(productTagIds => res.status(200).json(productTagIds))
     .catch(err => {
       console.log(err);
-      res.status(400).json(err)
+      res.status(400).json(err);
     });
 });
 
-// update product
+// PUT /api/products/:id to update a post by it's `id`, fill in the question marks!
 router.put('/:id', (req, res) => {
   const tagIds = req.body.tagIds.split(',');
   // update product data
-  Product.update(req.body, {
+  Product.update(// ? , {
     where: {
-      id: req.params.id
+      id: // ?
     }
   })
     .then(product => {
@@ -83,17 +58,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
-router.delete('/:id', (req, res) => {
-  Product.destroy({
-    where: {
-      id: req.params.id
-    }
-  })
-    .then(products => {
-      console.log(products);
-      res.json(products);
-    })
-    .catch(err => res.status(400).json(err));
-});
+// DELETE /api/products/:id to delete a product by its `id` value
+router.delete('/:id', (req, res) => {});
 
 module.exports = router;

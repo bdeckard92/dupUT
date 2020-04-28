@@ -80,3 +80,14 @@ IMAGE
 ## Sync Sequelize to database on server start.
 
 - Create the code needed in server.js to sync our Sequelize models to our SQL database on server start.
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* A walkthrough video demonstrating the functionality of the application and passing tests.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+- - -
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

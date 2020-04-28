@@ -1,56 +1,20 @@
 const router = require('express').Router();
-const { Tag, Product, ProductTag } = require('../../models');
 
-router.get('/', (req, res) => {
-  Tag.findAll({
-    include: [
-      {
-        model: Product,
-        through: ProductTag
-      }
-    ]
-  })
-    .then(tags => res.status(200).json(tags))
-    .catch(err => res.status(500).json(err));
-});
+// DON'T FORGET TO IMPORT THE MODELS YOU'LL WORK WITH
 
-router.get('/:id', (req, res) => {
-  Tag.findByPk(req.params.id, {
-    include: [
-      {
-        model: Product,
-        through: ProductTag
-      }
-    ]
-  })
-    .then(tag => res.status(200).json(tag))
-    .catch(err => res.status(404).json(err));
-})
+// GET /api/tags to retrieve all tags from database, include associated Product data through ProductTag
+router.get('/', (req, res) => {});
 
-router.post('/', (req, res) => {
-  Tag.create(req.body)
-    .then(tag => res.status(200).json(tag))
-    .catch(err => res.status(404).json(err));
-});
+// GET /api/tags/:id to retrieve a tag from database by its `id`, include associated Product data through ProductTag
+router.get('/:id', (req, res) => {});
 
-router.put('/:id', (req, res) => {
-  Tag.update(req.body, {
-    where: {
-      id: req.params.id
-    }
-  })
-    .then(tag => res.status(200).json(tag))
-    .catch(err => res.status(404).json(err));
-});
+// POST /api/tags to create a tag
+router.post('/', (req, res) => {});
 
-router.delete('/:id', (req, res) => {
-  Tag.destroy({
-    where: {
-      id: req.params.id
-    }
-  })
-    .then(tag => res.status(200).json(tag))
-    .catch(err => res.status(404).json(err));
-});
+// PUT /api/tags/:id to update a tag's information by its `id`
+router.put('/:id', (req, res) => {});
+
+// DELETE /api/tags/:id to delete a tag by its `id`
+router.delete('/:id', (req, res) => {});
 
 module.exports = router;
