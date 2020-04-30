@@ -6,6 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Data
+// ===========================================================
 const characters = [
   {
     routeName: 'yoda',
@@ -36,7 +37,16 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Star Wars Page!');
 });
 
+// Create a GET route `/api/characters` that returns all of the characters
+//
 // YOUR CODE HERE
+//
+
+// Create just one GET route that returns any given specific character
+// Iterate through the characters' routeNames to check if it matches `req.params.character`
+//
+// YOUR CODE HERE
+//
 
 // Listener
 // ===========================================================

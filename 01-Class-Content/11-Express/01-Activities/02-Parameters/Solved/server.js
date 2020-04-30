@@ -38,25 +38,21 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Star Wars Page!');
 });
 
-// What does this route do?
+// Create a GET route `/api/characters` that returns all of the characters
 app.get('/api/characters', (req, res) => {
   return res.json(characters);
 });
 
-// What does this route do?
+// Create just one GET route that returns any given specific character
 app.get('/api/characters/:character', (req, res) => {
-  // What does this code do?
   const chosen = req.params.character;
-  console.log(chosen);
 
-  // What does this code do?
+  // Iterate through the characters' routeNames to check if it matches `req.params.character`
   for (let i = 0; i < characters.length; i++) {
     if (chosen === characters[i].routeName) {
       return res.json(characters[i]);
     }
   }
-
-  // What does this code do?
   return res.send('No character found');
 });
 
