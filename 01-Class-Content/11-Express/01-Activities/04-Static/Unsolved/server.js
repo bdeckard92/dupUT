@@ -1,18 +1,17 @@
 // Dependencies
+// =============================================================
 const express = require('express');
+const path = require('path');
 
 const app = express();
 const PORT = 3000;
 
 // Sets up the Express app to handle data parsing
-app.use(
-  express.urlencoded({
-    extended: true
-  })
-);
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Data
+// =============================================================
 const characters = [
   {
     routeName: 'yoda',
@@ -38,16 +37,19 @@ const characters = [
 ];
 
 // Routes
+// =============================================================
+
+// Update the home route to return `index.html`
 app.get('/', (req, res) => {
-  res.send('Welcome to the Star Wars Page!');
+  //
+  // YOUR CODE HERE
+  //
 });
 
-// Displays all characters
 app.get('/api/characters', (req, res) => {
   return res.json(characters);
 });
 
-// Displays a single character, or shows "No character found"
 app.get('/api/characters/:character', (req, res) => {
   const chosen = req.params.character;
 
@@ -59,11 +61,21 @@ app.get('/api/characters/:character', (req, res) => {
     }
   }
 
-  return res.send('No character found');
+  return res.json(false);
 });
 
-// YOUR CODE HERE
+app.post('/api/characters', (req, res) => {
+  const newCharacter = req.body;
 
+  console.log(newCharacter);
+
+  characters.push(newCharacter);
+
+  res.json(newCharacter);
+});
+
+// Listener
+// =============================================================
 app.listen(PORT, () => {
   console.log(`App listening on PORT ${PORT}`);
 });

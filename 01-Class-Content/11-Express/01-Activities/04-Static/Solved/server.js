@@ -3,20 +3,14 @@
 const express = require('express');
 const path = require('path');
 
-// Sets up the Express App
-// =============================================================
 const app = express();
 const PORT = 3000;
 
 // Sets up the Express app to handle data parsing
-app.use(
-  express.urlencoded({
-    extended: true
-  })
-);
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Star Wars Characters (DATA)
+// Data
 // =============================================================
 const characters = [
   {
@@ -45,17 +39,15 @@ const characters = [
 // Routes
 // =============================================================
 
-// Basic route that sends the user first to the AJAX Page
+// Update the home route to return `index.html`
 app.get('/', (req, res) => {
-  res.send('Welcome to the Star Wars Page!');
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Displays all characters
 app.get('/api/characters', (req, res) => {
   return res.json(characters);
 });
 
-// Displays a single character, or returns false
 app.get('/api/characters/:character', (req, res) => {
   const chosen = req.params.character;
 
@@ -70,22 +62,17 @@ app.get('/api/characters/:character', (req, res) => {
   return res.json(false);
 });
 
-// Create New Characters - takes in JSON input
 app.post('/api/characters', (req, res) => {
-  // req.body hosts is equal to the JSON post sent from the user
-  // This works because of our body parsing middleware
-  const newcharacter = req.body;
+  const newCharacter = req.body;
 
-  console.log(newcharacter);
+  console.log(newCharacter);
 
-  // We then add the json the user sent to the character array
-  characters.push(newcharacter);
+  characters.push(newCharacter);
 
-  // We then display the JSON to the users
-  res.json(newcharacter);
+  res.json(newCharacter);
 });
 
-// Starts the server to begin listening
+// Listener
 // =============================================================
 app.listen(PORT, () => {
   console.log(`App listening on PORT ${PORT}`);
