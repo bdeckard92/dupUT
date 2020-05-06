@@ -1,13 +1,13 @@
 const mysql = require('mysql2');
 
-// Create the connection to database
+// Creates the connection to database
 const connection = mysql.createConnection({
   host: 'localhost',
   port: 3306,
   // Your MySQL username
   user: 'root',
   // Your MySQL password
-  password: 'gchoi@Trilogy!',
+  password: '',
   database: 'ice_creamDB'
 });
 
@@ -18,7 +18,7 @@ connection.connect(err => {
 });
 
 afterConnection = () => {
-  connection.query('SELECT * FROM products', (err, res) => {
+  connection.query('SELECT * FROM products', function(err, res) {
     if (err) throw err;
     console.log(res);
     connection.end();

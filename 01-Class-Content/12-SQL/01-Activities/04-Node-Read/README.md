@@ -16,6 +16,8 @@ In this activity, you will use a npm package to connect to a MySQL database and 
 
   * In the `afterConnection` function, write a simple query that will `SELECT` everything from the `products` table and log the results in the console.
 
+* To check if everything was done correctly, run `npm install` and `npm start` in the command line.
+
 ## Hint(s)
 
 * You may need to consult the documentation for the [mysql2 package](https://www.npmjs.com/package/mysql2).
