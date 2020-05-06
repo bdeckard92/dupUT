@@ -1,15 +1,28 @@
-const { Model, DataTypes } = require("sequelize");
+const { Model, DataTypes } = require('sequelize');
 
-const sequelize = require("../config/config.js");
+const sequelize = require('../config/connection.js');
 
-class Tag extends Model {};
+class Tag extends Model {}
 
-Tag.init({
-  tag_name: {
-    type: DataTypes.STRING
+Tag.init(
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    tag_name: {
+      type: DataTypes.STRING,
+    },
+  },
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'tag',
   }
-}, {
-  sequelize
-});
+);
 
 module.exports = Tag;
