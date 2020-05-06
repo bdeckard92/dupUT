@@ -6,11 +6,11 @@ In this activity, you will join the `books` and `authors` data together using JO
 
 * In the [Unsolved/](Unsolved/) folder, create a `join.sql` file and write JOIN queries for the following: 
 
-    * show ALL books with authors: INNER JOIN will only return all matching values from both tables
+    * show ALL books with authors
 
-    * show ALL books, even if we don't know the author: LEFT JOIN returns all of the values from the left table, and the matching ones from the right table
+    * show ALL books, even if we don't know the author
 
-    * show ALL authors, even if we don't know the book: RIGHT JOIN returns all of the values from the right table, and the matching ones from the left table
+    * show ALL authors, even if we don't know the book
 
 * To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password.
 
@@ -24,4 +24,4 @@ In this activity, you will join the `books` and `authors` data together using JO
 
 ## Hint(s)
 
-* You may need to consult the MySQL documentation on [the JOIN clause](https://dev.mysql.com/doc/refman/5.7/en/join.html)
+* Think of when you would use `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` queries.
