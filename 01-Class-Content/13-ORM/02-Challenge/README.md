@@ -39,19 +39,22 @@ Create the configuration to connect a database using Sequelize. Use environment 
 
 ## Mock-Up
 
-The following images show examples of the application's API routes being tested in Insomnia:
+The following animations show examples of the application's API routes being tested in Insomnia.
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-01.png)
+The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia:
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-02.png)
+![Insomnia Demo](./Assets/13-orm-homework-demo-01.gif)
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-03.png)
+The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-04.png)
+![Insomnia Demo](./Assets/13-orm-homework-demo-02.gif)
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-05.png)
+The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia:
 
-![Insomnia Demo](./Assets/13-orm-homework-demo-06.png)
+![Insomnia Demo](./Assets/13-orm-homework-demo-03.gif)
+
+Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+
 
 ## Getting Started
 
