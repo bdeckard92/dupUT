@@ -22,4 +22,4 @@ In this activity, you will write functions that will query the database to perfo
 
 ## Hint(s)
 
-  * Use the `?` prepared statement for the UPDATE and DELETE operations.
+* Use the `?` prepared statement for the UPDATE and DELETE operations.
