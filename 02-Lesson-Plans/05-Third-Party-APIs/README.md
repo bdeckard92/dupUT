@@ -48,8 +48,11 @@ In this week's virtual classes, you'll review Bootstrap, jQuery and Moment.js.
 
 ## Algorithms
 
-  * [01-fizz-buzz](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/01-fizz-buzz)
+* [01-fizz-buzz](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/01-fizz-buzz)
 
-  * [02-max-num](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/02-max-num)
+* [02-max-num](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/02-max-num)
 
-  * [03-vowel-count](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/03-vowel-count)
+* [03-vowel-count](../../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/03-vowel-count)
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
