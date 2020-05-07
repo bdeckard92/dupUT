@@ -448,7 +448,7 @@
             "use strict";
 
             function Model() {
-                this.title = "Module 12 SQL Challenge Rubric";
+                this.title = "Module 13 ORM Challenge Rubric";
                 this.categories = [
                     {
                         title: "Deliverables",
@@ -469,7 +469,7 @@
                             {
                                 title:
                                     "Student includes link to walkthrough video in README",
-                                score: 8,
+                                score: 6,
                                 message:
                                     "Student does not include link to walkthrough video in README",
                                 status: false
@@ -477,23 +477,51 @@
                             {
                                 title:
                                     "Walkthrough video shows all of the technical acceptance criteria being met",
-                                score: 12,
+                                score: 10,
                                 message:
                                     "Walkthrough video doesn't show all of the technical acceptance criteria being met",
                                 status: false
                             },
                             {
                                 title:
-                                    "Walkthrough video demonstrates how to invoke the application",
+                                    "Walkthrough video demonstrates how to create the schema from the MySQL shell",
                                 score: 2,
-                                message: "Walkthrough video does not demonstrate how to invoke the application",
+                                message: "Walkthrough video does not demonstrate how to create the schema from the MySQL shell",
                                 status: false
                             },
                             {
                                 title:
-                                    "Walkthrough video demonstrates a functional menu",
+                                    "Walkthrough video demonstrates how to seed the database from the command line",
+                                score: 2,
+                                message: "Walkthrough video does not demonstrate how to seed the database from the command line",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Walkthrough video demonstrates how to start the server",
+                                score: 2,
+                                message: "Walkthrough video does not demonstrate how to start the server",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Walkthrough video demonstrates GET routes for all categories, all products, and all tags being tested in Insomnia",
                                 score: 5,
-                                message: "Walkthrough video does not demonstrate a functional menu",
+                                message: "Walkthrough video does not demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Walkthrough video demonstrates GET routes for a single category, a single product, and a single tag being tested in Insomnia",
+                                score: 5,
+                                message: "Walkthrough video does not demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Walkthrough video demonstrates POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia",
+                                score: 5,
+                                message: "Walkthrough video does not demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia",
                                 status: false
                             }
                         ]
@@ -505,71 +533,57 @@
                         questions: [
                             {
                                 title:
-                                    "Application follows table schema outlined in HW instructions",
+                                    "Application syncs Sequelize models to MySQL database on server start",
                                 score: 5,
-                                message: "Application doesn't follow table schema outlined in HW instructions",
+                                message:
+                                    "Application doesn't sync Sequelize models to MySQL database on server start",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application allows users to add departments",
+                                    "Application includes column definitions for all four models that match challenge instructions",
                                 score: 5,
-                                message:
-                                    "Application doesn't allow users to add departments",
+                                message: "Application doesn't include column definitions for all four models that match challenge instructions",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application allows users to add roles",
+                                    "Application includes model associations that match challenge instructions",
                                 score: 5,
                                 message:
-                                    "Application doesn't allow users to add roles",
+                                    "Application doesn't include model associations that match challenge instructions",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application allows users to add employees",
+                                    "Application includes GET routes that return all categories, all products, and all tags",
                                 score: 5,
                                 message:
-                                    "Application doesn't allow users to add employees",
+                                    "Application doesn't include GET routes that return all categories, all products, and all tags",
                                 status: false
                             },
                             {
-                                title: "Application allows users to view departments",
+                                title: "Application includes GET routes that return a single category, a single product, and a single tag",
                                 score: 5,
-                                message: "Application doesn't allow users to view departments",
+                                message: "Application doesn't include GET routes that return a single category, a single product, and a single tag",
                                 status: false
                             },
                             {
-                                title: "Application allows users to view roles",
+                                title: "Application includes POST routes that can create a new category, a new product, or a new tag",
                                 score: 5,
-                                message: "Application doesn't allow users to view roles",
+                                message: "Application doesn't include POST routes that can create a new category, a new product, or a new tag",
                                 status: false
                             },
                             {
-                                title: "Application allows users to view employees",
+                                title: "Application includes PUT routes that can update a category, a product, or a tag",
                                 score: 5,
-                                message: "Application doesn't allow users to view employees",
+                                message: "Application doesn't include PUT routes that can update a category, a product, or a tag",
                                 status: false
                             },
                             {
-                                title: "Application allows users to update employee roles",
+                                title: "Application includes DELETE routes that can delete a category, a product, or a tag",
                                 score: 5,
-                                message: "Application doesn't allow users to update employee roles",
-                                status: false
-                            }
-                        ]
-                    },
-                    {
-                        title: "Application Quality",
-                        subtitle: null,
-                        questions: [
-                            {
-                                title:
-                                    "Application user experience is intuitive and easy to navigate",
-                                score: 10,
-                                message:
-                                    "Application user experience could be more intuitive",
+                                message: "Application doesn't include DELETE routes that can delete a category, a product, or a tag",
                                 status: false
                             }
                         ]
