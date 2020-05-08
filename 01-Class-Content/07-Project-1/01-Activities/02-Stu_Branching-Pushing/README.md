@@ -1,14 +1,14 @@
-# Git Branching/Pushing
+# Git Branching and Pull Requests
 
-In this activity we will create a new branch, implement a feature, and then submit a pull request back into master. We will also cover reviewing pull requests and merging them into master.
+In this activity, we will create a new branch, implement a feature, and then submit a pull request back into master. We will also cover reviewing pull requests and merging them into master.
 
 # Instructions
 
 ## Part I: Branching and Submitting a Pull Request
 
-* In this section we will create a branch, add a feature, and submit a pull request. **Only one group member should complete this section, everyone else should observe.**
+In this section, we will create a branch, add a feature, and submit a pull request. **Only one group member should complete this section, everyone else should observe.**
 
-* Clone the project repo onto your computer and cd into it.
+* Clone your project repository onto your computer and `cd` into it.
 
 * Run the following command in your terminal to create and checkout to a new branch:
 
@@ -22,19 +22,19 @@ In this activity we will create a new branch, implement a feature, and then subm
   git branch
   ```
 
-* You should see two branches listed: `master` and `add-html-skeleton`. The `add-html-skeleton` branch should have an asterisk to the left of it. This indicates that this is the branch you're currently on.
+  * You should see two branches listed: `master` and `add-html-skeleton`. The `add-html-skeleton` branch should have an asterisk to the left of it. This indicates that this is the branch you're currently on.
 
-* At the root of the repo, create a new file named `index.html`. Inside this file, add code for a basic HTML skeleton and save.
+* At the root of the repository, create a new file named `index.html`. Inside this file, add code for a basic HTML skeleton and save.
 
-* In your terminal, add and commit the changes. Then push up your code by running following in your terminal:
+* In your terminal, add and commit the changes. Then push up your code by running the following command in your terminal:
 
   ```
   git push origin add-html-skeleton
   ```
 
-* This should push up your code to to GitHub on a branch with the same name (`add-html-skeleton`).
+  * This should push up your code to to GitHub on a branch with the same name (`add-html-skeleton`).
 
-* Go to the main repo page at github.com and you should see the following:
+* Go to the main repository page at github.com and you should see the following:
 
   ![Recently Pushed](Images/01-Recently-Pushed.png)
 
@@ -44,17 +44,17 @@ In this activity we will create a new branch, implement a feature, and then subm
 
   ![Recently Pushed](Images/02-Pull-Request.png)
 
-* If completed successfully, you should see the pull request listed under the repo's "Pull request" tab.
+* If completed successfully, you should see the pull request listed under the repository's "Pull request" tab.
 
   ![PR List](Images/03-PR-List.png)
 
 ## Part II: Reviewing a Pull Request
 
-* In this section we will review the pull request from Part I and merge it into master. **A different project member should complete this section while others observe**.
+In this section, we will review the pull request from Part I and merge it into master. **A different project member should complete this section while others observe**.
 
-* Clone the repo to your computer if you haven't already done so and cd into it.
+* Clone the repository to your computer if you haven't already done so and `cd` into it.
 
-* First you will want to test the changes introduced by the `add-html-skeleton` branch locally.In order to examine the new branch on your local machine, run the following commands in your terminal:
+* First you will want to test the changes introduced by the `add-html-skeleton` branch locally. In order to examine the new branch on your local machine, run the following commands in your terminal:
 
   ```
   git fetch
@@ -66,7 +66,7 @@ In this activity we will create a new branch, implement a feature, and then subm
 
 * This code should bring the copy of the `add-html-skeleton` branch that's on GitHub onto your computer. 
 
-  * Make sure this worked by verifying that there's an `index.html` file in your local repo.
+  * Make sure this worked by verifying that there's an `index.html` file in your local repository.
 
   * Normally you'd run the code here to make sure everything works properly.
 
@@ -76,7 +76,7 @@ In this activity we will create a new branch, implement a feature, and then subm
   git checkout master
   ```
 
-* Now go to your GitHub repo's main page and go to the "Pull request" section. Select the `add-html-skeleton` pull request from the list.
+* Now go to your GitHub repository's main page and go to the "Pull request" section. Select the `add-html-skeleton` pull request from the list.
 
   ![PR List](Images/03-PR-List.png)
 
