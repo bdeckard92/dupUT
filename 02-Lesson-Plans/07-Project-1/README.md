@@ -23,7 +23,7 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's Required session. You may want to prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative 'awards'.
+* Students will present their group projects during next week's Required session. Prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative 'awards'.
 
 ## Resources
 
