@@ -44,4 +44,4 @@ Open [Unsolved/minibank.js](Unsolved/minibank.js) and update the `MiniBank` cons
 
 ## Bonus
 
-- Add code to throw an error if the user tries to withdraw more money than they have, or try to deposit or withdraw values that aren't positive numbers.
+* Add code to throw an error if the user tries to withdraw more money than they have, or try to deposit or withdraw values that aren't positive numbers.
