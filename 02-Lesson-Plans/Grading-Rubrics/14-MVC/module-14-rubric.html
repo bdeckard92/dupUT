@@ -450,78 +450,33 @@
             function Model() {
                 this.title = "Module 14 MVC Challenge Rubric";
                 this.categories = [
-                    {
-                        title: "Deliverables",
+                {
+                        title: "Deployment",
                         subtitle: null,
                         questions: [
                             {
-                                title: "Student submitted GitHub Repo containing application code",
-                                score: 10,
+                                title: "Student submitted deployed live application URL",
+                                score: 8,
+                                message: "Application isn't deployed",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Application loads at deployed URL (no 404, or Heroku/GH Pages error)",
+                                score: 8,
+                                message: "Application isn't deployed",
+                                status: false
+                            },
+                            {
+                                title: "Student submitted application GitHub URL",
+                                score: 8,
+                                message: "Missing GitHub submission URL",
+                                status: false
+                            },
+                            {
+                                title: "GitHub Repo contains application code",
+                                score: 8,
                                 message: "GitHub repo is empty",
-                                status: false
-                            }
-                        ]
-                    },
-                    {
-                        title: "Walkthrough Video",
-                        subtitle: null,
-                        questions: [
-                            {
-                                title:
-                                    "Student includes link to walkthrough video in README",
-                                score: 6,
-                                message:
-                                    "Student does not include link to walkthrough video in README",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video shows all of the technical acceptance criteria being met",
-                                score: 10,
-                                message:
-                                    "Walkthrough video doesn't show all of the technical acceptance criteria being met",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates how to create the schema from the MySQL shell",
-                                score: 2,
-                                message: "Walkthrough video does not demonstrate how to create the schema from the MySQL shell",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates how to seed the database from the command line",
-                                score: 2,
-                                message: "Walkthrough video does not demonstrate how to seed the database from the command line",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates how to start the server",
-                                score: 2,
-                                message: "Walkthrough video does not demonstrate how to start the server",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates GET routes for all categories, all products, and all tags being tested in Insomnia",
-                                score: 5,
-                                message: "Walkthrough video does not demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates GET routes for a single category, a single product, and a single tag being tested in Insomnia",
-                                score: 5,
-                                message: "Walkthrough video does not demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Walkthrough video demonstrates POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia",
-                                score: 5,
-                                message: "Walkthrough video does not demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia",
                                 status: false
                             }
                         ]
@@ -533,57 +488,66 @@
                         questions: [
                             {
                                 title:
-                                    "Application syncs Sequelize models to MySQL database on server start",
+                                    "Application allows users to sign up and log in",
                                 score: 5,
                                 message:
-                                    "Application doesn't sync Sequelize models to MySQL database on server start",
+                                    "Application doesn't allow users to sign up and log in",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application includes column definitions for all four models that match challenge instructions",
+                                    "Application includes navigation options for home, a dashboard, and the login page, and the dashboard page redirects to the login page if the user is not logged in",
                                 score: 5,
-                                message: "Application doesn't include column definitions for all four models that match challenge instructions",
+                                message:
+                                    "Application doesn't include navigation options for home, a dashboard, and the login page, and the dashboard page doesn't redirect to the login page if the user is not logged in",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application includes model associations that match challenge instructions",
+                                    "Application displays all existing blog posts (post title, contents, post creator’s username, and date created) on the home page and the user's blog posts on their dashboard",
                                 score: 5,
                                 message:
-                                    "Application doesn't include model associations that match challenge instructions",
+                                    "Application doesn't display all existing blog posts (post title, contents, post creator’s username, and date created) on the home page and the user's blog posts on their dashboard",
                                 status: false
                             },
                             {
                                 title:
-                                    "Application includes GET routes that return all categories, all products, and all tags",
+                                    "Application dashboard includes the option to create new blog posts, including a title and a content, and both the homepage and dashboard are updated to include the new post",
                                 score: 5,
                                 message:
-                                    "Application doesn't include GET routes that return all categories, all products, and all tags",
+                                    "Application doesn't include the option to create new blog posts, including a title and a content, and both the homepage and dashboard are updated to include the new post",
                                 status: false
                             },
                             {
-                                title: "Application includes GET routes that return a single category, a single product, and a single tag",
+                                title:
+                                    "Application dashboard allows user to click into their blog posts and either update or delete them",
                                 score: 5,
-                                message: "Application doesn't include GET routes that return a single category, a single product, and a single tag",
+                                message:
+                                    "Application dashboard doesn't allow user to click into their blog posts and either update or delete them",
                                 status: false
                             },
                             {
-                                title: "Application includes POST routes that can create a new category, a new product, or a new tag",
+                                title:
+                                    "Application allows all users to click on existing blog posts on the home page and see the post title, contents, post creator’s username, date created for that post, and any existing comments (comment, comment creator’s username, and the date it was created)",
                                 score: 5,
-                                message: "Application doesn't include POST routes that can create a new category, a new product, or a new tag",
+                                message:
+                                    "Application doesn't allow users to click on existing blog posts on the home page and see the post title, contents, post creator’s username, date created for that post, and any existing comments (comment, comment creator’s username, and the date it was created)",
                                 status: false
                             },
                             {
-                                title: "Application includes PUT routes that can update a category, a product, or a tag",
+                                title:
+                                    "Application allows logged in users to leave a comment on a post that they click on and updates post to include comment",
                                 score: 5,
-                                message: "Application doesn't include PUT routes that can update a category, a product, or a tag",
+                                message:
+                                    "Application doesn't allow logged in users to leave a comment on a post that they click on and doesn't update post to include comment",
                                 status: false
                             },
                             {
-                                title: "Application includes DELETE routes that can delete a category, a product, or a tag",
+                                title:
+                                    "Application navigation includes a link for users to log out of application and logs the user out automatically after they have been idle for too long",
                                 score: 5,
-                                message: "Application doesn't include DELETE routes that can delete a category, a product, or a tag",
+                                message:
+                                    "Application navigation doesn't include a link for users to log out of application and doesn't log the user out automatically after they have been idle for too long",
                                 status: false
                             }
                         ]
@@ -624,10 +588,39 @@
                             },
                             {
                                 title:
-                                    "Repository contains quality README with description and a link to walkthrough video",
+                                    "Repository contains quality README with description, screenshot, link to deployed application",
                                 score: 5,
                                 message:
-                                    "Repo doesn't include a high quality README with description and a link to walkthrough video",
+                                    "Repo doesn't include a high quality README with screenshots, a description, link to deployed application",
+                                status: false
+                            }
+                        ]
+                    },
+                    {
+                        title: "Application Quality",
+                        subtitle: null,
+                        questions: [
+                            {
+                                title:
+                                    "Application user experience is intuitive and easy to navigate",
+                                score: 5,
+                                message:
+                                    "Application user experience could be more intuitive",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Application user interface style is clean and polished",
+                                score: 5,
+                                message: "Application user interface needs work",
+                                status: false
+                            },
+                            {
+                                title:
+                                    "Application resembles the mock-up functionality provided in Challenge instructions",
+                                score: 5,
+                                message:
+                                    "Application could resemble mock-up functionality provided with Challenge instructions more closely",
                                 status: false
                             }
                         ]
