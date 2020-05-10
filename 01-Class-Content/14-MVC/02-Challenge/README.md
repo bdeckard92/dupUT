@@ -59,7 +59,7 @@ The following animation demonstrates the application functionality:
 
 ## Getting Started
 
-Your application must have a folder structure that follows the Model View Controller Paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to use Handlebars.js for your Views, the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+Your application must have a folder structure that follows the Model View Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to use Handlebars.js for your Views, the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
 
 You’ll also need to use the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
