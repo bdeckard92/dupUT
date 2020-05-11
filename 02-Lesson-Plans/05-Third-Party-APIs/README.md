@@ -40,9 +40,9 @@ In this week's virtual classes, you'll review Bootstrap, jQuery and Moment.js.
 
 * [Bootstrap 4 documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
-* [jQuery `on()`](https://api.jquery.com/on/) and [jQuery `html()`](https://api.jquery.com/html/) documentation
+* [jQuery on()](https://api.jquery.com/on/) and [jQuery html()](https://api.jquery.com/html/) documentation
 
-* [`this` MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [this MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
 * [Moment.js docs](https://momentjs.com/docs/)
 
