@@ -1,16 +1,16 @@
 # Sequelize Library
 
-In this activity, you will use sequelize query methods to create the required routes.
+In this activity, you will use Sequelize query methods to create the required routes.
 
 ## Instructions
 
-* Create a `'sequelize_library'` DB.
+* Create a `sequelize_library` DB.
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
 * Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
 
-* In the [api-routes.js](Unsolved/app/routes/api-routes.js) file, modify the following routes to use sequelize query methods:
+* In the [api-routes.js](Unsolved/app/routes/api-routes.js) file, modify the following routes to use Sequelize query methods:
 
   * Get all books
 
@@ -22,10 +22,10 @@ In this activity, you will use sequelize query methods to create the required ro
 
   * Get all "short" books (books with 150 pages or less)
 
-  ## Hint(s)
+## Hint(s)
 
-  * You may need to consult the [Sequelize Manual on Operators](https://sequelize.org/master/manual/model-querying-basics.html#operators) for the last two queries involving book pages.
+* You may need to consult the [Sequelize Manual on Operators](https://sequelize.org/master/manual/model-querying-basics.html#operators) for the last two queries involving book pages.
 
-  ## Bonus
+## Bonus
 
-  * Display the "long" books in descending order and the "short" books in ascending order.
+* Display the "long" books in descending order and the "short" books in ascending order.

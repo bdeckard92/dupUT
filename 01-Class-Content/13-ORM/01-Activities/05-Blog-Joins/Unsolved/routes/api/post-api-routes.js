@@ -5,13 +5,13 @@ const db = require('../../models');
 // Routes
 // =============================================================
 
-// Update query to "include" associated Author
 router.get('/', (req, res) => {
   const query = {};
   if (req.query.author_id) {
     query.AuthorId = req.query.author_id;
   }
 
+  // Update query to "include" associated Author
   db.Post.findAll({
     where: query
   }).then(dbPost => {
