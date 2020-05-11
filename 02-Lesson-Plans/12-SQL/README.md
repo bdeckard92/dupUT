@@ -24,7 +24,9 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 
 ## Heads Up
 
-Next week you will introduce ORMs, more specifically Sequelize.
+* Next week you will introduce ORMs, more specifically Sequelize. BE VERY CAREFUL NOT TO GO TOO IN DEPTH. There are a ton of components that make Sequelize work, but much of it is boilerplate that doesn't need much explanation. 
+
+* THIS IS TOUGH STUFF! Tell your class to not feel discouraged if there are concepts that they can't nail down completely. Tell them to try their best, but to speak with you or a TA if they're unsure of anything.
 
 ## Resources
 
