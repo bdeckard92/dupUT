@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll review Sequelize query methods and CRUD methods
+In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, associations, and eager loading.
 
 ## Virtual Classes
 
@@ -26,7 +26,9 @@ In this week's virtual classes, you'll review Sequelize query methods and CRUD m
 
 ## Heads Up
 
-* Next week you will 
+* Next week you will divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that their team members consist of students all at the same skill level.
+
+* Next week you will review Handlebars, a template engine, as well as authentication.
 
 ## Resources
 
@@ -47,3 +49,6 @@ In this week's virtual classes, you'll review Sequelize query methods and CRUD m
 * [02-permutation-substring](../../01-Class-Content/13-ORM/03-Algorithms/02-permutation-substring)
 
 * [03-string-map](../../01-Class-Content/13-ORM/03-Algorithms/03-string-map)
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
