@@ -43,3 +43,6 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 * [02-zeroes-and-ones](../../01-Class-Content/12-SQL/03-Algorithms/02-zeroes-and-ones)
 
 * [03-merge-sorted](../../01-Class-Content/12-SQL/03-Algorithms/03-merge-sorted)
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

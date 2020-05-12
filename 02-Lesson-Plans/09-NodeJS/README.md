@@ -45,4 +45,4 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

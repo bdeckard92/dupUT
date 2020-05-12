@@ -51,4 +51,4 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 * [03-string-map](../../01-Class-Content/13-ORM/03-Algorithms/03-string-map)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

@@ -45,4 +45,4 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 * [03-is-anagram](../../01-Class-Content/10-OOP/03-Algorithms/03-is-anagram)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
