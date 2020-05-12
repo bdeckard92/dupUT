@@ -22,7 +22,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
   * In an unordered list, print out the details of the books in the correct list.
 
-* To test if everything is working properly, run `npm start` in your terminal and navigate to `localhost:3001` in your browser. 
+* To test if everything is working properly, run `npm start` in your terminal and navigate to <http://localhost:3001/> in your browser. 
 
   * You should be able to see all of the books listed according to their `read` status.
 

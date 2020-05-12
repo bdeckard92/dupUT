@@ -20,7 +20,7 @@ In this activity, you will use Sequelize CRUD methods to create new todos, updat
 
   * Add a Sequelize `update()` method inside the PUT route to update a todo with the new todo data in `req.body`.
 
-* To test if this worked, open your terminal and run `npm start`. Navigate to `localhost:3001` in your browser. If you are able to save new todos, as well as update and delete todos, you were successful.
+* To test if this worked, open your terminal and run `npm start`. Navigate to <http://localhost:3001/> in your browser. If you are able to save new todos, as well as update and delete todos, you were successful.
 
 ## Hint(s)
 
