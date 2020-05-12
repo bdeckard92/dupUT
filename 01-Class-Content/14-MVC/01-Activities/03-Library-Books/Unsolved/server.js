@@ -5,7 +5,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-// Set Handlebars as the default template engine here
+// Set Handlebars as the default template engine
+// YOUR CODE HERE
+//
 
 const books = [
   {
@@ -42,6 +44,8 @@ const books = [
 
 app.get('/', (req, res) => {
   // Send the books to index.handlebars as an object
+  // YOUR CODE HERE
+  //
 });
 
 app.listen(PORT, () => {

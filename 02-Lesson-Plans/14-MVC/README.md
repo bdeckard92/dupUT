@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll mainly review Handlebars, including helper functions and partials. You will also review implementing sessions using `express-session`.
 
 You will also announce the upcoming group project and the group members during this week's Required Class.
 
@@ -16,11 +16,15 @@ You will also announce the upcoming group project and the group members during t
 
 * During this week's Required Class, information about the upcoming group project must go out!
 
-  * Start thinking about project groups. Assign 3 students per group, all around the same skill level this time.  
+  * Start thinking about project groups. This time, assign 3 students per group, all around the **same** skill level.  
 
   * Look over the [project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md). 
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
+
+* Instead of setting up a MySQL database for this week's activities, students will be given dummy data to use. 
+
+* Although we just finished learning Sequelize, these activities only use Express so students can focus simply on Handlebars and `express-session`.
 
 ## Module Challenge
 
@@ -33,6 +37,14 @@ You will also announce the upcoming group project and the group members during t
 ## Resources
 
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+
+* [Express Handlebars docs](https://www.npmjs.com/package/express-handlebars#usage)
+
+* [Express Handlebars Helpers docs](https://www.npmjs.com/package/express-handlebars#helpers)
+
+* [Express Handlebars Partials docs](https://handlebarsjs.com/guide/partials.html#basic-partials)
+
+* [Express-Session docs](https://www.npmjs.com/package/express-session)
 
 ## Algorithms
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
-// Require the 'express-session' module
+// Requires the 'express-session' module
 const session = require(`express-session`);
 
 const app = express();
@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
-// Set up the sessions with the 'secret', 'resave', 'saveUninitialized' options
+// Sets up the sessions with the 'secret', 'resave', 'saveUninitialized' options
 app.use(
   session({
     secret: 'This is a major secret!',

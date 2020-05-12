@@ -8,7 +8,7 @@ const app = express();
 // Set the port of our application
 const PORT = process.env.PORT || 3001;
 
-// Set Handlebars as the default templating engine.
+// Set Handlebars as the default template engine.
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
