@@ -1,27 +1,33 @@
 # Project Requirements
 
-* Have a polished UI without using Bootstrap. Use alternative CSS frameworks, like Materialize or Semantic UI, instead.
+* Use Node.js and Express.js to create a RESTful API
 
-* Use MySQL and Sequelize ORM for the database.
+* Use a template engine, such as Handlebars.js
 
-* Use Node and Express with REST APIs.
+* Use MySQL and the Sequelize ORM for the database
 
-* Use a template engine, such as Handlebars.js.
+* Have both GET and POST routes for retrieving and adding new data
 
-* Include authentications (cookies and express-session).
+* Be deployed using Heroku (with data)
 
-* Have MVC style folder structure.
+* Utilize at least one new library, package, or technology that we haven’t discussed
 
-* Be responsive and interactive (i.e., accept and respond to user input).
+* Have a polished UI.
 
-* Be deployed to Heroku.
+* Be responsive.
+
+* Be interactive (i.e., accept and respond to user input).
+
+* Must have a folder structure that meets the MVC paradigm
+
+* Must include authentication (cookies and express-session)
+
+* Must protect API keys and sensitive information with environment variables
 
 * Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 
-* Do not expose API key information (use an ENV file).
-
 * Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-* Finally, you must add your project to your portfolio.
+Finally, you must add your project to the portfolio that you created in Module 2.
 
 **More details about the project will be provided in the lessons for Module 15 in Canvas.**
