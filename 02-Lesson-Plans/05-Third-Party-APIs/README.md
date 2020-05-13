@@ -18,7 +18,7 @@ In this week's virtual classes, you'll review Bootstrap, jQuery and Moment.js.
 
 * Ensure that you are using the correct versions of jQuery and Bootstrap (v4).
 
-* Students will find `this` challenging. Review the `03-jQuery-Todo-localStorage` activity prior to class and be prepared to discuss `this`.
+* Students will find `this` challenging. Review the `05-jQuery-Todo-localStorage` activity prior to class and be prepared to discuss `this`.
 
 ## Module Challenge
 

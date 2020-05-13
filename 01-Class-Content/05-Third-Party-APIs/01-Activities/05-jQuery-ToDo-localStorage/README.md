@@ -1,27 +1,27 @@
 # jQuery To-do List with localStorage
 
-In this activity you will add persistent storage to a "To-do list" application. 
+In this activity, you will dynamically generate HTML and get form values using jQuery, as well as set and get items in localStorage.
 
 ## Instructions
 
-Using the starter code in `/Unsolved`, ensure the following functionality:
+* Open [Unsolved/index.html](Unsolved/index.html) and do the following:
 
-* Items are added to the list through the form field. 
+  * Take time to examine the code and comments, especially for the `renderTodos()` function.
 
-* Clicking the `Add item` button on the form sets the item in `localStorage`.
+  * Modify the event handler for the `#add-to-do` form
+  
+    * When it is 'clicked', the value in the form field is assigned to a variable, which is then pushed to the `list` array and passed into the `renderTodos()` function.
 
-* Items in `localStorage` are rendered below the form field. 
+    * Save the to-dos to `localStorage` using `JSON.stringify()`
 
-* Items are removed from the DOM and `localStorage` when the "✓" button is clicked.
+  * Modify the event handler for the `.checkbox`
+  
+    * When it is 'clicked', get the `id` of the button in order to delete the right to-do from the `list` array and pass into the `renderTodos()` function.
 
+    * Save the to-dos to `localStorage` using `JSON.stringify()`
 
 ## Hint(s)
 
-* You will need to create an array to hold list items.
+* Detailed instructions are in the `index.html` file as comments.
 
-* How do you check to see if items already exist in `localStorage`? If not, then what?
-
-* You will need to selectively delete array elements using `.splice`.
-
-
-
+* You may need to refer to the [`this` MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this),[data-attributes MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*), and [jQuery `.on()` documentation](https://api.jquery.com/on/).

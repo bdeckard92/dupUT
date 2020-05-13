@@ -2,12 +2,11 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>Unsolved: jQuery To-do List with localStorage</title>
+    <title>Solved: jQuery To-do List with localStorage</title>
   </head>
 
   <body>
-    <!-- Title -->
-    <h1>Unsolved: jQuery To-do List with localStorage</h1>
+    <h1>Solved: jQuery To-do List with localStorage</h1>
 
     <!-- Input Form -->
     <form>
@@ -30,60 +29,83 @@
     <!-- Script -->
 
     <script type="text/javascript">
-      // Create an initial toDoCount variable
-      var toDoCount = 0;
+      // Declares a 'list' variable that holds the parsed to-do items retrieved from 'localStorage'
+      // If there is nothing in 'localStorage', sets the 'list' to an empty array
+      var list = JSON.parse(localStorage.getItem('todolist')) || [];
 
-      //  On Click event associated with the add-to-do function
-      $("#add-to-do").on("click", function(event) {
+      // Renders our to-dos to the page
+      function renderTodos(list) {
+        // Empties out the html
+        $('#to-dos').empty();
+
+        // Iterates over the 'list'
+        for (var i = 0; i < list.length; i++) {
+          // Creates a new variable 'toDoItem' that will hold a "<p>" tag
+          // Sets the `list` item's value as text of this <p> element
+          var toDoItem = $('<p>');
+          toDoItem.text(list[i]);
+
+          // Creates a button `toDoClose` with an attribute called `data-to-do` and a unique `id`
+          var toDoClose = $('<button>');
+          toDoClose.attr('data-to-do', i);
+
+          // Gives the button a class called 'checkbox'
+          toDoClose.addClass('checkbox');
+
+          // Adds a checkmark symbol as its text value
+          toDoClose.text('✓');
+
+          // Adds the button to the `toDoItem`
+          toDoItem = toDoItem.prepend(toDoClose);
+
+          // Adds 'toDoItem' to the To-Do List div
+          $('#to-dos').append(toDoItem);
+        }
+      }
+
+      $('#add-to-do').on('click', function(event) {
         event.preventDefault();
 
-        // Get the to-do "value" from the textbox and store it a variable
-        var toDoTask = $("#to-do")
-          .val()
-          .trim();
+        // Get the to-do "value" from the textbox and store it as a variable using `.val()` and `.trim()`
+        // YOUR CODE HERE
+        //
 
-        // Create a new variable that will hold a "<p>" tag.
-        // Then give it an ID in the following form:
-        // "item-4" or "item-3" or "item-99", where the number is equal to toDoCount.
-        // Then set the to-do "value" as text to this <p> element.
-        var toDoItem = $("<p>");
+        // Add the new to-do to our local 'list' variable
+        // YOUR CODE HERE
+        //
 
-        toDoItem.attr("id", "item-" + toDoCount);
-        toDoItem.text(toDoTask);
+        // Update the to-dos on the page
+        // YOUR CODE HERE
+        //
 
-        // Create a button with unique identifiers based on what number it is in the list. Again use jQuery to do this.
-        // Give your button a data attribute called data-to-do and a class called "checkbox".
-        // Lastly add a checkmark inside.
+        // Save the to-dos into localStorage
+        // We need to use JSON.stringify to turn the list from an array into a string
+        // YOUR CODE HERE
+        //
 
-        var toDoClose = $("<button>");
-
-        toDoClose.attr("data-to-do", toDoCount);
-        toDoClose.addClass("checkbox");
-        toDoClose.text("✓");
-
-        // Append the button to the to do item
-        toDoItem = toDoItem.prepend(toDoClose);
-
-        // Add the button and to do item to the to-dos div
-        $("#to-dos").append(toDoItem);
-
-        // Clear the textbox when done
-        $("#to-do").val("");
-
-        // Add to the toDoCount
-        toDoCount++;
+        // Clear the textbox when done using `.val()`
+        // YOUR CODE HERE
+        //
       });
 
-      // When a user clicks a check box then delete the specific content
-      // (NOTE: Pay attention to the unusual syntax here for the click event.
-      // Because we are creating click events on "dynamic" content, we can't just use the usual "on" "click" syntax.)
-      $(document.body).on("click", ".checkbox", function() {
-        // Get the number of the button from its data attribute and hold in a variable called  toDoNumber.
-        var toDoNumber = $(this).attr("data-to-do");
-
-        // Select and Remove the specific <p> element that previously held the to do item number.
-        $("#item-" + toDoNumber).remove();
+      $(document).on('click', '.checkbox', function() {
+        // Get the `id` of the button from its data attribute and hold in a variable called 'toDoNumber'
+        // YOUR CODE HERE
+        //
+        // Delete the to-do with that `id` from our local `list` using `.splice()`
+        // YOUR CODE HERE
+        //
+        // Update the to-dos on the page
+        // YOUR CODE HERE
+        //
+        // Save the to-dos into localStorage
+        // We need to use JSON.stringify to turn the list from an array into a string
+        // YOUR CODE HERE
+        //
       });
+
+      // Renders our to-dos on page load
+      renderTodos(list);
     </script>
   </body>
 </html>
