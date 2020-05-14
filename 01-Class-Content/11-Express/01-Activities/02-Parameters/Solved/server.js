@@ -3,7 +3,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 // Data
 // ===========================================================
@@ -33,7 +33,6 @@ const characters = [
 
 // Routes
 // ===========================================================
-
 app.get('/', (req, res) => {
   res.send('Welcome to the Star Wars Page!');
 });

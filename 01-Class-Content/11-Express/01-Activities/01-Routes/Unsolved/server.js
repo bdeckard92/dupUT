@@ -3,7 +3,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 // Data
 // ===========================================================
@@ -21,10 +21,10 @@ const darthmaul = {
   forcePoints: 1200
 };
 
-// Create a data object for the character, Obi Wan Kenobi.
-// Enter any values you like for the parameters following the same format as the Yoda and Darth Maul character
+// Create a data object for the character, Obi Wan Kenobi
+// Enter any values you like for the properties following the same format as the Yoda and Darth Maul character above
 //
-// YOUR CODE GOES HERE
+// YOUR CODE HERE
 //
 
 // Routes
@@ -41,10 +41,10 @@ app.get('/darthmaul', (req, res) => {
   res.json(darthmaul);
 });
 
-// Create a new Express route that leads users to the new Obi Wan Kenobi Data
+// Create a new Express route that leads users to the new Obi Wan Kenobi data
 // Follow the same format as the Yoda and Darth Maul routes
 //
-// YOUR CODE GOES HERE
+// YOUR CODE HERE
 //
 
 // Listener
