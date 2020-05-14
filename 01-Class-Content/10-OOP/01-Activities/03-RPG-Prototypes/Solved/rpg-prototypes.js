@@ -37,6 +37,8 @@ Character.prototype.attack = function(opponent) {
   console.log('\n-------------\n');
 };
 
+// =============================================================
+
 let warrior = new Character('Crusher', 10, 75);
 let rogue = new Character('Dodger', 20, 50);
 
