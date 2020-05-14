@@ -8,7 +8,9 @@ router.get("/", withAuth, (req, res) => {
         userId: req.session.userId
       }
     })
-      .then(posts => {
+      .then(dbPostData => {
+        const posts = dbPostData.map((post) => post.get({ plain: true }));
+        
         res.render("all-posts-admin", {
           layout: "dashboard",
           posts
@@ -28,8 +30,10 @@ router.get("/", withAuth, (req, res) => {
   
   router.get("/edit/:id", withAuth, (req, res) => {
     Post.findByPk(req.params.id)
-      .then(post => {
-        if (post) {
+      .then(dbPostData => {
+        if (dbPostData) {
+          const post = dbPostData.get({ plain: true });
+          
           res.render("edit-post", {
             layout: "dashboard",
             post
