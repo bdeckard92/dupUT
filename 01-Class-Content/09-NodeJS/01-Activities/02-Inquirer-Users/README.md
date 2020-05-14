@@ -2,7 +2,6 @@
 
 In this activity, you will build a simple command line application that accepts user input and writes it to a `.json` file. 
 
-
 ## Instructions
 
 * Open [Unsolved/index.js](Unsolved/index.js) and install the `inquirer` dependency.
