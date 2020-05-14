@@ -1,23 +1,27 @@
-# Call Giphy's Search API endpoint with a search term
+# GIF Search
 
-In this activity you will call Giphy's search API with a search term entered by the user. 
+In this activity, you will call Giphy's search API with a search term entered by the user. 
 
 ## Instructions
 
-Using the starter code in `/Unsolved`, ensure the following functionality:
+* Open the [index.html](Unsolved/index.html) file and examine the ID's of the HTML elements. This will be important for DOM manipulation later.
 
-* There's an input field in `index.html` that collects a search term from the user, and a Search button to submit the term.
+* Open the [script.js](Unsolved/assets/js/script.js) file and do the following:
 
-* Pressing the Search button triggers a request to Giphy, with a `q` query string parameter set to the value the input field.
+  * Create a function called `myFunction()`
 
-* The `response-container` element in the DOM is updated with the image from the Giphy response.
+  * Create a variable that will capture the value of the user's input
 
-* The image returned from Giphy should be related to the search term entered by the user. (It's likely this relationship will be loose.)
+  * Make a `fetch` request using the user's input. Remember to add your API key at the end.
+
+  * Create a variable that selects the `<div>` where the GIF will be displayed
+
+  * Empty out the `<div>` of any previous GIFs
+
+  * Append the GIF to the page
 
 ## Hint(s)
 
-* You will need to update both `index.html` and `script.js` to handle the user's search term.
+* Detailed instructions are in the `script.js` file as comments.
 
-* Take a look at the Giphy search [API endpoint docs](https://developers.giphy.com/docs/api/endpoint#search).
-
-* You'll need to wrap the JavaScript in a function that can be called when the button is clicked. You can use an `onlclick` attribute on the button element to trigger the function.
+* You may need to refer to the [Giphy API endpoint docs](https://developers.giphy.com/docs/api/endpoint#search).

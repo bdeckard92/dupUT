@@ -1,28 +1,23 @@
-# Giphy API call with rating parameter
+# Query Params
 
-In this activity you will add a "rating" parameter to the Giphy API call. This parameter filters Giphy results based on the MPAA rating system: G, PG, PG-13.
+In this activity, you will add a "rating" parameter to the Giphy API call. This parameter filters Giphy results based on the MPAA rating system: G, PG, PG-13.
 
 ## Instructions
 
-Using the starter code in `/Unsolved`, ensure the following functionality:
+* Open the [index.html](Unsolved/index.html) file and add a `<select>` menu with 3 options: G, PG, and PG-13.
 
-* Users can select a G, PG, or PG-13 rating from a select menu
+* Open the [script.js](Unsolved/assets/js/script.js) file and do the following:
 
-* Pressing the Search button submits the `fetch()` request to Giphy, with the `rating` parameter set to the chosen value.
+  * Create a variable to hold the value of the rating. 
 
-* The `response-container` element in the DOM is updated with the image in the Giphy response.
+  * Modify the `fetch` request with a `rating` parameter. Remember to add your API key.
 
 * The image returned from Giphy should have the appropriate `rating` value (or lower) in the response. You can check this by using the Chrome DevTools network tab.
 
-
 ## Hint(s)
-
-* Take a look at the Giphy search [API endpoint docs](https://developers.giphy.com/docs/api/endpoint#search).
 
 * Adding the rating is very similar to adding `searchTerm` in the previous activity.
 
-* You will need to update both `index.html` and `script.js` to handle the selected rating option.
-
 * Remember the query string parameters are separated by an ampersand (`&`).
 
-
+* You may need to refer to the [Giphy API endpoint docs](https://developers.giphy.com/docs/api/endpoint#search).
