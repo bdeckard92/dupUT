@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
-  <title>Project 1 Grading Rubric</title>
+  <title>Project 2 Grading Rubric</title>
   <style>
     *,
     *::before,
@@ -448,49 +448,49 @@
       "use strict";
 
       function Model() {
-        this.title = "Group Project 1 Rubric";
+        this.title = "Group Project 2 Rubric";
         this.categories = [
         {
             title: "Technical Acceptance Criteria",
             subtitle: null,
             questions: [
-              {
-                title: "Application uses at least 2 server-side APIs",
-                score: 5,
-                message:
-                  "Application doesn't use at least 2 server-side APIs",
-                status: false
-              },
-              {
-                title: "Application uses client-side storage to store persistent data",
-                score: 5,
-                message:
-                  "Application doesn't use client-side storage to store persistent data",
-                status: false
-              },
-              {
-                title:
-                  "Application doesn't use JS alerts, prompts, or confirms (uses modals instead)",
-                score: 5,
-                message:
-                  "Application should use modals instead JS alerts, prompts, and confirms",
-                status: false
-              },
-              {
-                title: "Application uses CSS framework other than Bootstrap",
-                score: 5,
-                message:
-                  "Application should use CSS framework other than Bootstrap",
-                status: false
-              },
-              {
-                title:
-                  "Application is interactive (ie accepts and responds to user input)",
-                score: 5,
-                message:
-                  "Application should be interactive (ie should accept and respond to user input)",
-                status: false
-              }
+            {
+                  title: "Application uses a Node and Express backend and utilizes both GET and POST routes for retrieving and adding new data",
+                  score: 5,
+                  message:
+                    "Application doesn't use a Node and Express backend and doesn't utilize both GET and POST routes for retrieving and adding new data",
+                  status: false
+                },
+                {
+                  title:
+                    "Application has a folder structure that meets the MVC paradigm and uses Handlebars.js as the template engine",
+                  score: 5,
+                  message:
+                    "Application does not have a folder structure that meets the MVC paradigm and does not use Handlebars.js as the template engine",
+                  status: false
+                },
+                {
+                  title: "Application is backed by a MySQL database with a Sequelize ORM and protects API keys and sensitive information with environment variables",
+                  score: 5,
+                  message:
+                    "Application isn't backed by a MySQL database with a Sequelize ORM and doesn't protect API keys and sensitive information with environment variables",
+                  status: false
+                },
+                {
+                  title:
+                    "Application includes user authentication (express-session and cookies)",
+                  score: 5,
+                  message:
+                    "Application doesn't include user authentication",
+                  status: false
+                },
+                {
+                  title: "Application utilizes at least one new  library, package, or technology not covered in class",
+                  score: 5,
+                  message:
+                    "Application doesn't use a new library, package, or technology",
+                  status: false
+                }
             ]
           },
           {
