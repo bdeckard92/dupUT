@@ -12,7 +12,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
   * For simplicity, do not use MySQL or Sequelize for this activity. Use the given `books` array as your dummy data. 
 
-  * Modify the `/` route so that all the books are sent to the `index.handlebars` file. 
+  * Modify the GET route so that all the books are sent to the `index.handlebars` file. 
 
     * Remember, Handlebars requires an object to be sent to the `index.handlebars` file, not an array!
 

@@ -1,14 +1,19 @@
+// Dependencies
+// =============================================================
 const express = require('express');
 const exphbs = require('express-handlebars');
 
+// Sets up the Express App
+// =============================================================
 const app = express();
-
 const PORT = process.env.PORT || 3001;
 
 // Set Handlebars as the default template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
+// Data
+// =============================================================
 const animals = [
   {
     animalType: 'dog',
@@ -36,6 +41,9 @@ const animals = [
     fierceness: 10
   }
 ];
+
+// Routes
+// =============================================================
 
 app.get('/all-pets', (req, res) => {
   // Handlebars requires an object to be sent to the index.handlebars file.
@@ -79,6 +87,8 @@ app.get('/all-non-pets', (req, res) => {
   res.render('index', data);
 });
 
+// Starts the server to begin listening
+// =============================================================
 app.listen(PORT, () => {
   console.log('App listening on PORT ' + PORT);
 });

@@ -1,12 +1,16 @@
+// Dependencies
+// =============================================================
 const express = require('express');
 const exphbs = require('express-handlebars');
 // Requires the 'express-session' module
 const session = require(`express-session`);
 
+// Sets up the Express App
+// =============================================================
 const app = express();
-
 const PORT = process.env.PORT || 3001;
 
+// Sets Handlebars as the default template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
@@ -19,6 +23,8 @@ app.use(
   })
 );
 
+// Data
+// =============================================================
 const books = [
   {
     title: 'Love You Forever',
@@ -52,6 +58,9 @@ const books = [
   }
 ];
 
+// Routes
+// =============================================================
+
 app.get('/', (req, res) => {
   if (req.session.countVisit) {
     // If the 'countVisit' session variable exists, increment it by 1 and set the 'firstTime' session variable to 'false'
@@ -62,6 +71,7 @@ app.get('/', (req, res) => {
     req.session.countVisit = 1;
     req.session.firstTime = true;
   }
+
   const data = {
     // Include the 'books' array, 'countVisit' and 'firstTime' session variables to be sent over to index.handlebars
     library: books,
@@ -71,6 +81,8 @@ app.get('/', (req, res) => {
   res.render('index', data);
 });
 
+// Starts the server to begin listening
+// =============================================================
 app.listen(PORT, () => {
   console.log('App listening on PORT ' + PORT);
 });
