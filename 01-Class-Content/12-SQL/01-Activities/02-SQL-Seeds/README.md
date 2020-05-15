@@ -4,7 +4,7 @@ In this activity, you will populate the `books_db` database with data.
 
 ## Instructions
 
-* In the [Unsolved/](Unsolved/) folder, create a `seeds.sql` file.
+* In the [Unsolved](Unsolved/) folder, create a `seeds.sql` file.
 
   * Insert the following names, in this order, into their corresponding columns in `authors`:
 
@@ -30,7 +30,7 @@ In this activity, you will populate the `books_db` database with data.
 
     * 'Dracula', null 
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password.
+* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
 
 * To set up the database, type into the MySQL command line: `source schema.sql`
 
@@ -38,7 +38,7 @@ In this activity, you will populate the `books_db` database with data.
 
 * To check if everything was done correctly, type into the MySQL command line: `SELECT * FROM authors;` or `SELECT * FROM books;`
 
-  * To exit the MySQL command line, type `quit;` or `exit;`
+* To exit the MySQL command line, type `quit;` or `exit;`
 
 ## Hint(s)
 
