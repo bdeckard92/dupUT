@@ -1,3 +1,5 @@
+// Dependencies
+// =============================================================
 const router = require('express').Router();
 const Todo = require('../models/todo');
 
@@ -6,20 +8,36 @@ const Todo = require('../models/todo');
 
 // GET route for getting all of the todos
 router.get('/api/todos', (req, res) => {
-  // Write code here to retrieve all of the todos from the database and then `res.json` them back to the user
+  // Retrieve all of the todos from the database
+  // Return the todos as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
-// POST route for saving a new todo. We can create todo with the data in 'req.body'
+// POST route for saving a new todo
 router.post('/api/todos', (req, res) => {
-  // Write code here to create a new todo and then `res.json` back the new todo to the user
+  // Create a new todo with the data in 'req.body'
+  // Return the new todo as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
-// DELETE route for deleting a todo. We can get the id of the todo to be deleted from 'req.params.id'
+// DELETE route for deleting a todo
 router.delete('/api/todos/:id', (req, res) => {
-  // Write code here to delete a todo and then `res.json` back the result back to the user
+  // Delete a todo using the id from 'req.params.id'
+  // Return the result as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
-// PUT route for updating a todo. We can update todo with the data in req.body
+// PUT route for updating a todo
 router.put('/api/todos/:id', (req, res) => {
-  // Write code here to update a todo and then `res.json` back the result back to the user
+  // Update a todo with the data in 'req.body'
+  // Return the result as JSON
+  //
+  // YOUR CODE HERE
+  //
 });

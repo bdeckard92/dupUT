@@ -1,5 +1,4 @@
 const router = require('express').Router();
-// Requiring our models
 const db = require('../../models');
 
 // Routes

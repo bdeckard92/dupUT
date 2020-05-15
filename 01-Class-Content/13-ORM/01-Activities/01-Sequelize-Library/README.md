@@ -8,7 +8,7 @@ In this activity, you will use Sequelize query methods to create the required ro
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-* Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
+* Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/password information.
 
 * In the [api-routes.js](Unsolved/app/routes/api-routes.js) file, modify the following routes to use Sequelize query methods:
 

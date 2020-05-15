@@ -1,18 +1,18 @@
 # Blog Joins
 
-In this activity, you will modify the queries in both `post-api-routes.js` and `author-api-routes.js` to use Sequelize's "include" option.
+In this activity, you will modify the queries in both `post-api-routes.js` and `author-api-routes.js` to use the Sequelize "include" option.
 
 ## Instructions
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-* Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
+* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/password information.
 
-* Open the [post-api-routes.js](Unsolved/routes/post-api-routes.js) file.
+* Open the [post-api-routes.js](Unsolved/routes/api/post-api-routes.js) file.
 
   * Add the "include" option to the queries specified in the comments. We want to "include" the Author model. 
 
-* Open the [author-api-routes.js](Unsolved/routes/author-api-routes.js) file.
+* Open the [author-api-routes.js](Unsolved/routes/api/author-api-routes.js) file.
 
   * Add the "include" option to the queries specified in the comments. We want to "include" the Post model. 
 
