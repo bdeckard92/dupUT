@@ -1,21 +1,30 @@
+// =============================================================
+// PART 1
+
 function MiniBank(balance) {
   this.balance = balance;
-  this.getBalance = function() {
+  (this.getBalance = function() {
     return this.balance;
-  },
-  // Add a `setBalance()` function
- 
+  }),
+    // Add a `setBalance()` function
+    // YOUR CODE HERE
+    //
 
-  // Add a `deposit()` function
+    // Add a `deposit()` function
+    // YOUR CODE HERE
+    //
 
+    // Add a `withdraw()` function
+    // YOUR CODE HERE
+    //
 
-  // Add a `withdraw()` function
-
-
-  this.printBalance = function() {
-    console.log(`Balance: ${this.getBalance()}`);
-  };
+    (this.printBalance = function() {
+      console.log(`Balance: ${this.getBalance()}`);
+    });
 }
+
+// =============================================================
+// PART 2
 
 // Create a new `bank` object
 

@@ -4,13 +4,13 @@ In this activity, you will use Sequelize CRUD methods to create new todos, updat
 
 ## Instructions
 
-* Create a `'todolist'` DB.
+* Create a `todolist` DB.
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-* Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
+* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/password information.
 
-* In the [api-routes.js](Unsolved/app/routes/api-routes.js) file, add the following Sequelize methods:
+* In the [api-routes.js](Unsolved/routes/api-routes.js) file, add the following Sequelize methods:
 
   * Add a Sequelize `findAll()` method inside the GET route which finds all of the todos and returns them to the user as JSON.
 
@@ -20,7 +20,11 @@ In this activity, you will use Sequelize CRUD methods to create new todos, updat
 
   * Add a Sequelize `update()` method inside the PUT route to update a todo with the new todo data in `req.body`.
 
-* To test if this worked, open your terminal and run `npm start` and navigate to `localhost:3001` in your browser. If you are able to save new todos, as well as update and delete todos, you were successful.
+* To test if this worked, open your terminal and run `npm start`. 
+
+  * Navigate to <http://localhost:3001/> in your browser. 
+  
+  * If you are able to save new todos, as well as update and delete todos, you were successful.
 
 ## Hint(s)
 

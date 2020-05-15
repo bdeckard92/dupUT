@@ -1,13 +1,19 @@
+// Dependencies
+// =============================================================
 const express = require('express');
 const exphbs = require('express-handlebars');
 
+// Sets up the Express App
+// =============================================================
 const app = express();
-
 const PORT = process.env.PORT || 3001;
 
+// Set Handlebars as the default template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
+// Data
+// =============================================================
 const animals = [
   {
     animalType: 'dog',
@@ -36,14 +42,16 @@ const animals = [
   }
 ];
 
-app.get('/all-pets', (req, res) => {
-  // Handlebars requires an object to be sent to the index handlebars file.
+// Routes
+// =============================================================
 
-  // 2. Loop through the animals, and send those that are pets to the index handlebars file.
+app.get('/all-pets', (req, res) => {
+  // Handlebars requires an object to be sent to the index.handlebars file.
   const data = {
     animals: []
   };
 
+  // Loop through the animals, and send those that are pets to the index handlebars file.
   for (let i = 0; i < animals.length; i++) {
     // Get the current animal.
     let currentAnimal = animals[i];
@@ -59,13 +67,12 @@ app.get('/all-pets', (req, res) => {
 });
 
 app.get('/all-non-pets', (req, res) => {
-  // Handlebars requires an object to be sent to the index handlebars file.
-
-  // 3. Loop through the animals, and send those that are not pets to the index handlebars file.
+  // Handlebars requires an object to be sent to the index.handlebars file.
   const data = {
     animals: []
   };
 
+  // Loop through the animals, and send those that are not pets to the index handlebars file.
   for (let i = 0; i < animals.length; i++) {
     // Get the current animal.
     let currentAnimal = animals[i];
@@ -80,6 +87,8 @@ app.get('/all-non-pets', (req, res) => {
   res.render('index', data);
 });
 
+// Starts the server to begin listening
+// =============================================================
 app.listen(PORT, () => {
   console.log('App listening on PORT ' + PORT);
 });

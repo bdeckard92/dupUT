@@ -4,6 +4,8 @@ In this activity, you will write tests outlining the expected functionality for 
 
 ## Instructions
 
+* Navigate to [Unsolved/](Unsolved/) in your command line and run `npm install`.
+
 * Open the [Unsolved/rpg-tdd.js](Unsolved/rpg-tdd.js) file and take a moment to examine the code.
   
   * It is the `Character` constructor function from our first RPG activity. 
@@ -21,6 +23,8 @@ In this activity, you will write tests outlining the expected functionality for 
   * Create a test that checks if the `strength` and `hitpoints` are `numbers`
 
   * Create a test that checks if the `hitpoints` is greater than the `strength`
+
+* To check if everything was done correctly, run `npm test` in your command line. All tests should be passing!
 
 ## Hint(s)
 

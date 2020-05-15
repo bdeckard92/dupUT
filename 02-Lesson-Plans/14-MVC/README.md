@@ -1,45 +1,58 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 14 Instructor Overview: MVC
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll mainly review Handlebars, including helper functions and partials. You will also review implementing sessions using `express-session`.
+
+You will also announce the upcoming group project and the group members during this week's Required Class.
 
 ## Virtual Classes
 
-### Recommended
+[Recommended Class](./14.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required Class](./14.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* During this week's Required Class, information about the upcoming group project must go out!
 
-* @TODO { LIST THEM OUT}
+  * Start thinking about project groups. This time, assign 3 students per group, all around the **same** skill level.  
 
+  * Look over the [project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md). 
+
+* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
+
+* Instead of setting up a MySQL database for this week's activities, students will be given dummy data to use. 
+
+* Although we just finished learning Sequelize, these activities only use Express so students can focus simply on Handlebars and `express-session`.
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 14 Challenge](../../01-Class-Content/14-MVC/02-Challenge)
 
 ## Heads-Up
 
-Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
-
-Instructions on how instructors break up groups
-
-Project 2 - 3 people per group: all people at the same skill level
+* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+* [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+
+* [Express Handlebars docs](https://www.npmjs.com/package/express-handlebars#usage)
+
+* [Express Handlebars Helpers docs](https://www.npmjs.com/package/express-handlebars#helpers)
+
+* [Express Handlebars Partials docs](https://handlebarsjs.com/guide/partials.html#basic-partials)
+
+* [Express-Session docs](https://www.npmjs.com/package/express-session)
 
 ## Algorithms
 
-N/A
+* [01-double-triple-map](../../01-Class-Content/14-MVC/03-Algorithms/01-double-triple-map)
 
+* [02-array-intersection](../../01-Class-Content/14-MVC/03-Algorithms/02-array-intersection)
+
+* [03-squares-of-a-sorted-array](../../01-Class-Content/14-MVC/03-Algorithms/03-squares-of-a-sorted-array)
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
