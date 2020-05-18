@@ -4,9 +4,9 @@ In this activity, you will create a MySQL database and tables.
 
 ## Instructions
 
-* In the [Unsolved/](Unsolved/) folder, create a `schema.sql` file for a database named `books_db`.
+* In the [Unsolved](Unsolved/) folder, create a `schema.sql` file for a database named `books_db`.
 
-    * Add these commands to the top of the file to create a database:
+    * Add these commands to the top of the file to create the database:
 
     ```sql
     DROP DATABASE IF EXISTS books_db;
@@ -36,13 +36,13 @@ In this activity, you will create a MySQL database and tables.
 
             * `PRIMARY KEY`
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password.
+* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
 
 * To execute the `schema.sql` file, type into the MySQL command line: `source schema.sql`
 
 * To check if everything was done correctly, type `show databases;` and `show tables;` in the MySQL command line. Don't forget the semicolon!
 
-    * To exit the MySQL command line, type `quit;` or `exit;`
+* To exit the MySQL command line, type `quit;` or `exit;`
 
 ## Hint(s)
 

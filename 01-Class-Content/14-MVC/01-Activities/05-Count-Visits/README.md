@@ -24,7 +24,7 @@ In this activity, you will use `express-session` to keep track of how many times
 
   * In the `data` object, include the `books` array, `countVisit` and `firstTime` session variables to be sent over to `index.handlebars`.
 
-* To test if everything is working properly, run `npm start` in your terminal and navigate to `localhost:3001` in your browser. 
+* To test if everything is working properly, run `npm start` in your terminal and navigate to <http://localhost:3001/> in your browser. 
 
   * You should be greeted with "This is your first time visiting the Library!"
 

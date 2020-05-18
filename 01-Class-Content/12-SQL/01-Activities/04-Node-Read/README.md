@@ -4,13 +4,13 @@ In this activity, you will use a npm package to connect to a MySQL database and 
 
 ## Instructions 
 
-* Navigate to the [Unsolved/](Unsolved/) folder and set up the database:
+* Navigate to the [Unsolved](Unsolved/) folder and set up the database:
 
   * Initialize the MySQL command line: `mysql -u root -p` and your MySQL password.
 
   * Run the `schema.sql` and `seeds.sql` files from the MySQL command line to create and populate the `iceCreamDB` database. Exit the MySQL command line when done.
 
-* Open the [Unsolved/server.js](Unsolved/server.js) file and do the following:
+* Open the [server.js](Unsolved/server.js) file and do the following:
 
   * Update the `user` and `password` with your MySQL username and password.
 

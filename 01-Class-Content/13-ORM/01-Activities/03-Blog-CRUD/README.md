@@ -8,7 +8,7 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/database information. 
+* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/password information. 
 
 * Open the [post.js](Unsolved/models/post.js) file and examine the Sequelize `Post` model.
 
@@ -26,13 +26,13 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
   * A `findOne()` method inside the GET route to get a single post using the id from `req.params.id`.
 
-  * A `create()` method inside the POST route to save a new post using the data in `req.body`.
+  * A `create()` method inside the POST route to create a new post using the data in `req.body`.
 
   * A `destroy()` method inside the DELETE route to delete a post using the id from `req.params.id`.
 
   * An `update()` method inside the PUT route to update a post using the new data in `req.body`.
 
-* To test if everything is working properly, run `npm start` in your terminal. Navigate to `localhost:3001` in your browser and check if we have the following functionality (recommended order):
+* To test if everything is working properly, run `npm start` in your terminal. Navigate to <http://localhost:3001/> in your browser and check if you have the following functionality (in this recommended order):
 
   1. Create a new post
   

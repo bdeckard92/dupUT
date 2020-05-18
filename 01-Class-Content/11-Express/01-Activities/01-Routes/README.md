@@ -4,7 +4,9 @@ In this activity, you will create Express routes.
 
 ## Instructions
 
-* Open the [Unsolved/server.js](Unsolved/server.js) file.
+* Navigate to your [Unsolved](Unsolved/) folder and run `npm install`
+
+* Open the [server.js](Unsolved/server.js) file.
 
 * Create a data object for `obiwankenobi`.
 

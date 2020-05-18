@@ -1,3 +1,5 @@
+// Dependencies
+// =============================================================
 const router = require('express').Router();
 const Todo = require('../models/todo');
 
@@ -11,7 +13,7 @@ router.get('/api/todos', (req, res) => {
   });
 });
 
-// POST route for saving a new todo. We can create todo with the data in 'req.body'
+// POST route for saving a new todo
 router.post('/api/todos', (req, res) => {
   Todo.create({
     text: req.body.text,
@@ -21,7 +23,7 @@ router.post('/api/todos', (req, res) => {
   });
 });
 
-// DELETE route for deleting a todo. We can get the id of the todo to be deleted from 'req.params.id'
+// DELETE route for deleting a todo
 router.delete('/api/todos/:id', (req, res) => {
   Todo.destroy({
     where: {
@@ -32,7 +34,7 @@ router.delete('/api/todos/:id', (req, res) => {
   });
 });
 
-// PUT route for updating a todo. We can update todo with the data in req.body
+// PUT route for updating a todo
 router.put('/api/todos/:id', (req, res) => {
   Todo.update(
     {

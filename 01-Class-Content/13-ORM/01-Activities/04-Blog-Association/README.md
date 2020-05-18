@@ -6,15 +6,13 @@ In this activity, you will create relationships between the `Post` and `Author` 
 
 * Navigate to the [Unsolved](Unsolved/) folder and run `npm install` in your terminal.
 
-* Be sure to modify the [connection.js](Unsolved/app/config/connection.js) file to include your MySQL user/database information.
+* Be sure to modify the [connection.js](Unsolved/config/connection.js) file to include your MySQL user/password information.
 
 * Open the [index.js](Unsolved/models/index.js) file and create the following associations:
 
   * Create a relationship that instructs the `Post` to belong to `Author`.
 
   * Create a relationship that instructs `Author` that it has many `Post`.
-
-* To test if the association was created properly, run `npm start` in your terminal and check your MySQL Workbench. If the `Post` table now has a foreign key of `AuthorId`, you were successful!
 
 ## Hint(s)
 

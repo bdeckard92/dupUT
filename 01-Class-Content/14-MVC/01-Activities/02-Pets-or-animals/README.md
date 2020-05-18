@@ -8,7 +8,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
 * Open the [server.js](Unsolved/server.js) file and do the following:
 
-  * Set Handlebars as the default templating engine.
+  * Set Handlebars as the default template engine.
 
   * For simplicity, do not use MySQL or Sequelize for this activity. Use the given `animals` array as your dummy data. 
 
