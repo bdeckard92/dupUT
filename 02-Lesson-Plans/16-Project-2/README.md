@@ -40,11 +40,11 @@ N/A
 
 ## Algorithms
 
-* [01-missing-number](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/01-missing-number)
+* [01-missing-number](../../01-Class-Content/16-Project-2/03-Algorithms/01-missing-number)
 
-* [02-left-rotation](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/02-left-rotation)
+* [02-left-rotation](../../01-Class-Content/16-Project-2/03-Algorithms/02-left-rotation)
 
-* [03-ransom-note](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/03-ransom-note)
+* [03-ransom-note](../../01-Class-Content/16-Project-2/03-Algorithms/03-ransom-note)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
