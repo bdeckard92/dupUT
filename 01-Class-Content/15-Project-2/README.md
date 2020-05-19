@@ -3,7 +3,7 @@
 ## Overview
 Welcome to Project 2! Take a moment to think about what you’ve just accomplished. In the last six weeks, you broadened your skill set with all the necessary back-end technologies that complement the foundational front-end technologies you learned in the first part of this course. As a result, you can finally call yourself a full-stack developer! 
 
-Over the next two weeks, you’ll work on your second group project to create an interactive full-stack application. For this project, you’ll want to start from scratch instead of using the front-end you developed for your first project. This will help you practice your existing front-end abilities, reinforce those skills, and solidify how you conceive of the dynamic between the front-end and back-end. You’ll also have another chance to work as most developers do - collaboratively.
+Over the next two weeks, you’ll work on your second group project to create an interactive full-stack application. For this project, you’ll want to start from scratch instead of using the front-end you developed for your first project. This will help you practice your existing front-end abilities, reinforce those skills, and solidify how you conceive of the dynamic between the front end and back end. You’ll also have another chance to work as most developers do - collaboratively.
 
 ## Key Topics
 * Collaborative Full-Stack Development
@@ -12,8 +12,8 @@ Over the next two weeks, you’ll work on your second group project to create an
 
 ## Comprehension Check
 You will be employer-ready if you can answer the following questions:
-1. What is agile software development?
-2. How can you communicate with your team if everyone works remotely?
+1. Can you describe the functionality of your application?
+2. How can you work efficiently with your team if everyone works remotely across different time zones?
 3. What is the MVC paradigm?
 
 ## Learning Objectives
@@ -27,7 +27,8 @@ You will be employer-competitive if you are able to:
 * Speak technically about the features in your application
 
 ## Helpful Links
-* [Guide on how to connect a GitHub repo to Heroku](./04-Supplemental/GitHubHerokuConnect.md)
+* [Describe an important project you worked on](https://www.livecareer.com/resources/interviews/questions/describe-an-important-project-you-worked-on)
+* [7 Tips for Successfully Managing Remote Teams](https://www.inc.com/jason-aten/7-tips-for-working-fsuccessfully-managing-remote-teams.html)
 * [MVC Tutorial](https://www.guru99.com/mvc-tutorial.html)
 
 ---
