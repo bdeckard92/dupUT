@@ -30,10 +30,10 @@ Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or
 
 ## Algorithms
 
-  * [01-log-even-nums](../../../01-Class-Content/04-Web-APIs/03-Algorithms/01-log-even-nums)
+  * [01-log-even-nums](../../01-Class-Content/04-Web-APIs/03-Algorithms/01-log-even-nums)
 
-  * [02-countdown](../../../01-Class-Content/04-Web-APIs/03-Algorithms/02-countdown)
+  * [02-countdown](../../01-Class-Content/04-Web-APIs/03-Algorithms/02-countdown)
 
-  * [03-sum-array](../../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
+  * [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
 
   * [Code Signal](https://app.codesignal.com/public-test/YvSg9mctHApfLBuMH/qBHxbHRS4Yghf8)

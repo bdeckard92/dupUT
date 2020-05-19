@@ -4,11 +4,13 @@ In this activity, you will read and write text to a file using the `fs` package.
 
 ## Instructions
 
-* Create a `index.js` file.
+* In the [Unsolved](Unsolved/) folder, create a `index.js` file.
 
-* The app should accept a command line argument and use it to create a text file and write to it. If there are no errors, it should print "Done!" in the console. 
+* Import the `fs` module
 
-* Also include a method that will read the newly created text file and print its contents in the console.
+* Write a method that will accept a command line argument and use it to create a text file and write to it. If there are no errors, it should print "Done!" in the console. 
+
+* Write a method that will read the newly created text file and log its contents in the console.
 
 ## Hint(s)
 

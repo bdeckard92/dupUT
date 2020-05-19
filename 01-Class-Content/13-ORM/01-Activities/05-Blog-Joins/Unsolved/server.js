@@ -1,3 +1,4 @@
+// Dependencies
 // =============================================================
 const express = require('express');
 const sequelize = require('./config/connection');
@@ -20,8 +21,8 @@ app.use(require('./routes'));
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
-sequelize.sync({ force: true }).then(function () {
-  app.listen(PORT, function () {
+sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
     console.log('App listening on PORT ' + PORT);
   });
 });

@@ -6,28 +6,43 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 ## Virtual Classes
 
-[Recommended Class](./10.1-RECOMMENDED.md)
+[Recommended](./10.1-RECOMMENDED.md)
 
-[Required Class](./10.2-REQUIRED.md)
+[Required](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
-* @TODO { LIST THEM OUT}
+* Students will use `jest` for unit testing. Familiarize yourself with it if you've never used it before.
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 10 Challenge](../../01-Class-Content/10-OOP/02-Challenge)
 
 ## Heads Up
 
-Next week you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+* Next week you will introduce Express.js to use in the back-end of an application. 
+
+* You will use a tool called [Insomnia](https://insomnia.rest/) to test APIs, so make sure to have it installed on your machine and be familiar with using it. 
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+* [MDN documentation on Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+
+* [MDN documentation on Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+
+* [MDN documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+* [Jest documentation](https://jestjs.io/docs/en/using-matchers)
 
 ## Algorithms
 
-N/A
+* [01-linear-search](../../01-Class-Content/10-OOP/03-Algorithms/01-linear-search)
+
+* [02-is-unique](../../01-Class-Content/10-OOP/03-Algorithms/02-is-unique)
+
+* [03-is-anagram](../../01-Class-Content/10-OOP/03-Algorithms/03-is-anagram)
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

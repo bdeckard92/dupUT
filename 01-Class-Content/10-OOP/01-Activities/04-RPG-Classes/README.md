@@ -4,7 +4,7 @@ In this activity, you will change the constructor function and prototype methods
 
 ## Instructions
 
-* Copy your code from [03-RPG-Prototypes/Unsolved/rpg-prototypes.js](../03-RPG-Prototypes/Unsolved/rpg-prototypes.js) and paste it into [Unsolved/rpg-classes.js](Unsolved/rpg-classes.js)
+* Copy your code from [rpg-prototypes.js](../03-RPG-Prototypes/Unsolved/rpg-prototypes.js) and paste it into [rpg-classes.js](Unsolved/rpg-classes.js)
 
 * Convert the constructor function, including the prototype methods, to ES6 Classes.
 

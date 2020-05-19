@@ -1,4 +1,4 @@
-# Module 06 Instructor Overview: Server Side APIs
+# Module 06 Instructor Overview: Server-Side APIs
 
 ## Overview
 
@@ -8,9 +8,9 @@ You will also announce the upcoming group project and the group members during t
 
 ## Virtual Classes
 
-### [Recommended](./06.1-RECOMMENDED.md)
+[Recommended](./06.1-RECOMMENDED.md)
 
-### [Required](./06.2-REQUIRED.md)
+[Required](./06.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -26,23 +26,29 @@ You will also announce the upcoming group project and the group members during t
 
 ## Module Challenge
 
-[Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge/README.md)
+[Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge)
 
 ## Heads-Up
 
-Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
-Also, next week's Module 07 Recommended Class is very important because it will cover agile project management, so strongly encourage the students to attend.
+* Also, next week's Module 07 Recommended Class is very important because it will cover agile project management, so strongly encourage the students to attend.
 
 ## Resources
 
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
+* [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 * [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ## Algorithms
 
-N/A
+* [01-is-palindrome](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/01-is-palindrome)
+
+* [02-factorial](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/02-factorial)
+
+* [03-title-case](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/03-title-case)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

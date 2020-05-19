@@ -10,6 +10,6 @@ In this activity, you will create a fetch request and log the response in the co
 
 ## Hint(s)
 
-* Check out the [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+* You can refer to the [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 * Remember to put your API key at the end of the fetch request.

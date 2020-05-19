@@ -10,8 +10,8 @@ In this activity, you will add a route to return `add.html` when a request is ma
 
 * Open the [Unsolved/add.html](Unsolved/add.html) file.
 
-  * Examine the jQuery at the bottom of the file and try to understand what the code is doing.
-
+  * Examine the jQuery at the bottom of the file and take turns explaining what the code is doing.
+  
 ## Bonus 
 
 * Use Regular Expressions (RegEx), like the following code snippet, to create route names without spaces in the POST route.

@@ -12,7 +12,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
   * For simplicity, do not use MySQL or Sequelize for this activity. Use the given `books` array as your dummy data. 
 
-  * Modify the `/` route so that all the books are sent to the `index.handlebars` file. 
+  * Modify the GET route so that all the books are sent to the `index.handlebars` file. 
 
     * Remember, Handlebars requires an object to be sent to the `index.handlebars` file, not an array!
 
@@ -22,7 +22,7 @@ In this activity, you will use Handlebars built-in helpers to render details abo
 
   * In an unordered list, print out the details of the books in the correct list.
 
-* To test if everything is working properly, run `npm start` in your terminal and navigate to `localhost:3001` in your browser. 
+* To test if everything is working properly, run `npm start` in your terminal and navigate to <http://localhost:3001/> in your browser. 
 
   * You should be able to see all of the books listed according to their `read` status.
 

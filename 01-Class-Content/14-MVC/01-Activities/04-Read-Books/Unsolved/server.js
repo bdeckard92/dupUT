@@ -1,13 +1,19 @@
+// Dependencies
+// =============================================================
 const express = require('express');
 const exphbs = require('express-handlebars');
 
+// Sets up the Express App
+// =============================================================
 const app = express();
-
 const PORT = process.env.PORT || 3001;
 
+// Sets Handlebars as the default template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
+// Data
+// =============================================================
 const books = [
   {
     title: 'Love You Forever',
@@ -41,14 +47,18 @@ const books = [
   }
 ];
 
+// Routes
+// =============================================================
+
 app.get('/', (req, res) => {
   const data = {
     library: books
   };
-
   res.render('index', data);
 });
 
+// Starts the server to begin listening
+// =============================================================
 app.listen(PORT, () => {
   console.log('App listening on PORT ' + PORT);
 });

@@ -1,52 +1,44 @@
-# Module XX Instructor Overview: { TITLE }
-
-@TODO { OVERVIEW }
+# Module 11 Instructor Overview: Express.js
 
 ## Overview
 
-In this week's virtual classes, you'll { INTRODUCE THIS, REVIEW THAT, DISCUSS THE OTHER }.
+In this week's virtual classes, you'll review setting up an Express application using standard GET routes and GET routes with parameters, as well as review Express server basics.
 
 ## Virtual Classes
 
-### Recommended
+[Recommended](./11.1-RECOMMENDED.md)
 
-@TODO INSERT LINK
-
-### Required
-
-@TODO INSERT LINK
+[Required](./11.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* @TODO { WHAT ARE THE THINGS AN INSTRUCTOR NEEDS TO KNOW TO SUCCEED IN THIS MODULE}
+* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
-* @TODO { LIST THEM OUT}
+* Ensure that you are using the correct version of Express (v4).
 
-Project requirements/rubric
-
-Group presentation guidelines
-
+* Be sure to have Insomnia installed on your machine and you are familiar with using it. 
 
 ## Module Challenge
 
-@TODO INSERT LINK
+[Module 11 Challenge](../../01-Class-Content/11-Express/02-Challenge)
 
 ## Heads-Up
 
-Next week, you will { WHAT DOES AN INSTRUCTOR NEED TO PREPARE FOR THE NEXT MODULE }
+* Next week, you will introduce SQL but let the students know that they will be using SQLite for the project they will build in the lessons, but they will be using MySQL in the virtual classes and in their weekly Challenge.
 
-* SQLite
-* MySQL
-* Workbench
+* Be sure to install MySQL on your machine along with the MySQL Workbench.
 
 ## Resources
 
-@TODO ARE THERE ANY EXTERNAL RESOURCES THAT WOULD BE USEFUL TO THE INSTRUCTOR?
+* [Express.js docs](https://expressjs.com/en/api.html)
 
 ## Algorithms
 
-N/A
+* [01-most-songs-in-playlist](../../01-Class-Content/11-Express/03-Algorithms/01-most-songs-in-playlist)
 
+* [02-is-perfect-square](../../01-Class-Content/11-Express/03-Algorithms/02-is-perfect-square)
 
+* [03-array-search-2d](../../01-Class-Content/11-Express/03-Algorithms/03-array-search-2d)
 
-
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

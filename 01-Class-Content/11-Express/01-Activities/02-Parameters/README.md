@@ -4,7 +4,9 @@ In this activity, you will create a GET route that returns all of the characters
 
 ## Instructions
 
-* Open the [Unsolved/server.js](Unsolved/server.js) file.
+* Navigate to your [Unsolved](Unsolved/) folder and run `npm install`.
+
+* Open the [server.js](Unsolved/server.js) file.
 
 * Create a GET route `/api/characters` to return all characters. 
 
@@ -19,3 +21,5 @@ In this activity, you will create a GET route that returns all of the characters
 ## Hint(s)
 
 * What's the title of this activity? 
+
+* You may need to consult the [Express guide to route parameters](https://expressjs.com/en/guide/routing.html#route-parameters)

@@ -1,3 +1,5 @@
+// Dependencies
+// =============================================================
 const router = require('express').Router();
 const Post = require('../models/post');
 
@@ -13,31 +15,48 @@ router.get('/api/posts/', (req, res) => {
 
 // GET route for retrieving posts of a specific category
 router.get('/api/posts/category/:category', (req, res) => {
-  // Your code here
+  // Retrieve all of the posts of a specific category
+  // Return the posts as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
 // GET route for retrieving a single post
 // We can get the id of the post from 'req.params.id'
 router.get('/api/posts/:id', (req, res) => {
-  // Your code here
+  // Retrieve a single post using the id from 'req.params.id'
+  // Return the post as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
 // POST route for saving a new post
-// We can create a post with the data in 'req.body'
 router.post('/api/posts', (req, res) => {
-  // Your code here
+  // Create a new post with the data in 'req.body'
+  // Return the new post as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
 // DELETE route for deleting a post
-// We can get the id of the post from 'req.params.id'
 router.delete('/api/posts/:id', (req, res) => {
-  // Your code here
+  // Delete a post using the id from 'req.params.id'
+  // Return the result as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
 // PUT route for updating a post
-// We can update a post with the data in 'req.body'
 router.put('/api/posts/:id', (req, res) => {
-  // Your code here
+  // Update a post with the data in 'req.body'
+  // Return the result as JSON
+  //
+  // YOUR CODE HERE
+  //
 });
 
 module.exports = router;
