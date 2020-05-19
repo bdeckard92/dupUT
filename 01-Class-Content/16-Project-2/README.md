@@ -1,11 +1,13 @@
 # Unit 16: Project 2 (Continued)
 
 ## Overview
+
 Welcome to the second week of Project 2! This week you will continue to work on your group project to create an interactive full-stack application. Projects are extremely important on your journey to becoming a full-stack web developer. As you begin the last phase of your boot camp, you’ll begin to apply for web developer roles. In order to get an interview, you must have high-quality deployed examples of your work featured in your portfolio.
 
 Once you get an interview, you must then be able to present your project and demonstrate your application. In order to prepare for that, you will give a 10-minute group presentation of your project during the Required virtual class this week. 
 
 ## Helpful Links
+
 * [Employer-Ready vs Employer-Competitive](https://sites.google.com/2u.com/careerservices-webdev/coding-milestones/intro-to-career-services#h.p_GO4NbPlPwbTh)
 
 * [Guide on how to connect a GitHub repo to Heroku](../../01-Class-Content/15-Project-2/04-Supplemental/GitHubHerokuConnect.md)

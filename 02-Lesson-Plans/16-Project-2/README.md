@@ -26,7 +26,7 @@ N/A
 
 ## Heads-Up
 
-* Next week, students will learn to get a better understanding of JavaScript and Computer Science. This last phase of the boot camp is more about being job-ready and improving the skills they have already learned. Basically, they will focus on "Life after Boot Camp". 
+* Next week, students will learn Computer Science fundamentals as they apply to JavaScript. This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their applications more performant and efficient. Basically, they will focus on "Life after Boot Camp". 
 
 ## Resources
 
@@ -40,11 +40,11 @@ N/A
 
 ## Algorithms
 
-* [01-missing-number](../../../01-Class-Content/16-Project-2-Contd/03-Algorithms/01-missing-number)
+* [01-missing-number](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/01-missing-number)
 
-* [02-left-rotation](../../../01-Class-Content/16-Project-2-Contd/03-Algorithms/02-left-rotation)
+* [02-left-rotation](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/02-left-rotation)
 
-* [03-ransom-note](../../../01-Class-Content/16-Project-2-Contd/03-Algorithms/03-ransom-note)
+* [03-ransom-note](../../01-Class-Content/16-Project-2-Contd/03-Algorithms/03-ransom-note)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
