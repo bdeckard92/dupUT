@@ -16,7 +16,7 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 * Students will use `jest` for unit testing. Familiarize yourself with it if you've never used it before.
 
-* Let your students know that this module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them more employer-competitive. So reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first. 
+* Let your students know that this module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them employer-competitive. So reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first. 
 
 * At the same time, do not feel discouraged if your students aren't understanding the concept after you've tried explaining it to them. It takes time to fully grasp object-oriented programming, so keep encouraging your students and reassuring them that with time and practice, they will understand this! If you are comfortable doing so, share your own struggle and/or personal experiences learning and working with OOP.
 
