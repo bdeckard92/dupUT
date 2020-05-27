@@ -14,7 +14,7 @@ In this week's virtual classes, you'll introduce students to the basics of HTML,
 
 ## Instructor Notes
 
-* Students will likely struggle getting all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for success in this module:
+* Students will likely struggle to get all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for success in this module:
 
   * Slack
 
