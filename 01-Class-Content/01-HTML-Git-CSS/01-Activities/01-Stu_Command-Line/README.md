@@ -18,9 +18,9 @@ Using only the command line:
 
 ## Bonus
 
-- What command lists all the folders and files in a directory?
+- Which command lists all the folders and files in a directory?
 
-- What command lists all the hidden folders and files?
+- Which command lists all the hidden folders and files?
 
 - How do you move a file or folder?
 
