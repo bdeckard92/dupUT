@@ -42,10 +42,6 @@ Once you have a better understanding of what these different parts of a regex do
 
 You have the option to choose one of the following regular expressions to feature in your tutorial, or you can choose another regex not included in this list:
 
-* Matching a Username - `/^[a-z0-9_-]{3,16}$/`
-
-* Matching a Password - `/^[a-z0-9_-]{6,18}$/`
-
 * Matching a Hex Value - `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 * Matching an Email - `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
