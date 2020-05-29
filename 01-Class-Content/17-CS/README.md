@@ -68,3 +68,12 @@ The starter code is a template formatted to include a title, introductory paragr
 **Note:** The regex you choose may not include all of the components outlined in the starter code. Once you’ve finished your walkthrough, remove any sections that you didn’t need to use.
 
 Each section of the tutorial that describes a different component of the regex should include more than just one sentence explaining what it does. It should also include a code snippet of that particular component of the regex and some examples that would meet the requirements of that component.
+
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the GitHub gist. Give the gist a unique name.
+
+- - -
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
