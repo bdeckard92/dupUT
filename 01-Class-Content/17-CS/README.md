@@ -40,7 +40,7 @@ Before you get started, watch this [introduction to regular expressions](https:/
 
 Once you have a better understanding of what these different parts of a regex do, you’ll need to explain what those components do for a specific regex.
 
-You have the option to choose one of the following regular expressions to feature in your tutorial, or you can choose another regex not included in this list:
+You have the option to choose one of the following regular expressions to feature in your tutorial, or you can choose another regex not included in this list (with the exception of the regex that you covered in your virtual classes, Matching a Username):
 
 * Matching a Hex Value - `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
