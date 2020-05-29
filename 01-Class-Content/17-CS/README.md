@@ -36,7 +36,7 @@ A regex, which is short for regular expression, is a sequence of characters that
 
 All of the different components of this regex have different responsibilities to make sure that a user enters an email address that begins with an unspecified number of characters preceding the `@` symbol, followed by a domain.
 
-Before you get started, watch this [introduction to regular expressions](https://youtu.be/7DG3kCDx53c) and read this [RegEx Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285) to help you identify the different components that make up a regex.
+Before you get started, watch this [introduction to regular expressions](https://youtu.be/7DG3kCDx53c) and read this [RegEx Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285) to help you identify the different components that make up a regex. If you need any additional help, there are several regex resources on the web. Feel free to do your own research to find one that can help you complete this Challenge.
 
 Once you have a better understanding of what these different parts of a regex do, you’ll need to explain what those components do for a specific regex.
 
