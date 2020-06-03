@@ -3,11 +3,11 @@ const name = 'Kim';
 function person() {
   const name = 'Lee';
 
-  // Return the closure through a function called `displayName()`
+  // Return a function called `displayName()` with access to the `name` variable
   // YOUR CODE HERE
   //
 }
 
-// Invoke `displayName()` in order to print out "Lee" in the console
+// Invoke `displayName()` in order to print "Lee" in the console
 
 console.log(name);

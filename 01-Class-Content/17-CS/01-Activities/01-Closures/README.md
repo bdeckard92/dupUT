@@ -1,6 +1,6 @@
 # Closures
 
-In this activity, you will practice using closures and understanding scope.
+In this activity, you will practice using closures to gain a better understanding of scope. 
 
 ## Instructions
 
@@ -8,6 +8,6 @@ In this activity, you will practice using closures and understanding scope.
 
 * Open the [index.js](Unsolved/index.js) file.
 
-* Create a closure inside the `person()` function called `displayName()`
+* Create a closure called `displayName()` that will access and print out the `name` variable in `person()` in the console.
 
-* Invoke the `displayName()` in order to print "Lee" in the console.
+* Invoke `displayName()` in order to print "Lee" in the console.
