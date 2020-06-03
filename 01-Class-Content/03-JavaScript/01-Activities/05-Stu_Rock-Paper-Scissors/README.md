@@ -4,7 +4,7 @@
 
 * From scratch, create a simple Rock-Paper-Scissors game in which one player plays against a computer opponent. 
 
-* Use `confirm()` to get user play.
+* Use `prompt()` to get user play.
 
 * Use `alert()` to state whether the user or computer wins.
 
