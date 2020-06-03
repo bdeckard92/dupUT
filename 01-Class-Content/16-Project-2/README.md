@@ -8,7 +8,7 @@ Once you get an interview, you must then be able to present your project and dem
 
 ## Heads Up
 
-* The next module is heavy on concepts and slightly different from the previous modules, but it will help you think more like a developer and prepare you for tough interview questions. Therefore, the Challenge for Module 17 will be more in the vein of thinking like a developer, rather than a strict coding exercise. 
+* The next module is heavy on concepts and slightly different from the previous modules, but it will help you think more like a developer and prepare you for tough interview questions. Therefore, the Challenge for Module 17 will require you to think like a developer, rather than ask you to complete a coding exercise.
 
 ## Helpful Links
 
