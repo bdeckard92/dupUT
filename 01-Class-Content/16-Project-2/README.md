@@ -6,6 +6,10 @@ Welcome to the second week of Project 2! This week you will continue to work on 
 
 Once you get an interview, you must then be able to present your project and demonstrate your application. In order to prepare for that, you will give a 10-minute group presentation of your project during the Required virtual class this week. 
 
+## Heads Up
+
+* The next module is heavy on concepts and slightly different from the previous modules, but it will help you think more like a developer and prepare you for tough interview questions. Therefore, the Challenge for Module 17 will require you to think like a developer, rather than ask you to complete a coding exercise.
+
 ## Helpful Links
 
 * [Employer-Ready vs Employer-Competitive](https://sites.google.com/2u.com/careerservices-webdev/coding-milestones/intro-to-career-services#h.p_GO4NbPlPwbTh)
