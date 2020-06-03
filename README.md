@@ -34,6 +34,10 @@ You will find the following in [01-Class-Content](./01-Class-Content):
 
 * Supplemental content such as installation guides and learning resources
 
+* Module Project code 
+  
+  * **Note**: Wait 2 weeks after the Module has wrapped up before giving this code to the students in order to give all of them a chance to finish it on their own.
+
 Use these materials to build your class repository.
 
 ### Lesson Plans
