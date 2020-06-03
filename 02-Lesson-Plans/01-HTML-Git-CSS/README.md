@@ -42,13 +42,17 @@ In this week's virtual classes, you'll introduce students to the basics of HTML,
 
 ## Heads-Up
 
-Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
+* Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
+
+* As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
 
 ## Resources
 
 * [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 * [Open in Browser VSCode extension](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+
+* [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md)
 
 ## Algorithms
 
