@@ -12,8 +12,12 @@ In this activity, you will actually implement the classic Fibonacci algorithm th
 
   * Start the sequence at 1.
 
+* To check your code, run `node fibonacci.js` in your terminal and you should see `55` printed in the console.
+
 ## Bonus
 
 * Benchmark your solution. 
 
-  * Remember to run `npm install benchmark` in your `Unsolved/` folder. Create a `index.js` file and require `benchmark` along with your `recursive` or `linear` module from `fibonacci.js`.
+  * Remember to run `npm install benchmark` in your `Unsolved/` folder. 
+  
+  * Create a `index.js` file and require `benchmark` along with your `recursive` or `linear` module from `fibonacci.js`.

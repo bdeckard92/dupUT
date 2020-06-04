@@ -16,4 +16,4 @@ In this activity, you will create a factory function that will print out the typ
 
     * `place()` will print out the `origin` of the beverage, i.e. "This coffee is from Kenya!"
 
-  * Invoke the methods in order to print out all messages in the console.
+  * Invoke the methods in order to print out all of the messages in the console.

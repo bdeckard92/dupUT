@@ -4,7 +4,7 @@ const beverage = function() {
   // YOUR CODE HERE
   //
 
-  // Return an object literal which contains the methods `product`, `amount`, and `place`
+  // Return an object literal which contains the methods `product()`, `amount()`, and `place()`
   return {
     // `product()` will print an invitation to drink the `type` of beverage
     //  YOUR CODE HERE
