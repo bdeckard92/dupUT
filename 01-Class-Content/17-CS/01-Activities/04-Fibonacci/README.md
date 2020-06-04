@@ -1,18 +1,19 @@
 # Fibonacci
 
-In this activity, you will actually implement the classic Fibonacci algorithm that you pseudocoded in Lesson 5. 
+In this activity, you will actually implement the classic Fibonacci algorithm that you pseudocoded in Lesson 5. Remember that the Fibonacci sequence adds the previous two numbers to create the next number. 
 
 ## Instructions
 
-* Open the [index.js](Unsolved/index.js) file. 
+* Open the [fibonacci.js](Unsolved/fibonacci.js) file. 
 
 * Choose between the linear OR recursive approach. Just choose ONE!
 
 * Create a function that, when given a number, returns the value at that point in the sequence using the approach you chose.
 
-  * Start at 1
-
+  * Start the sequence at 1.
 
 ## Bonus
 
-* Navigate to the [Unsolved](Unsolved/) folder and run `npm install benchmark`
+* Benchmark your solution. 
+
+  * Remember to run `npm install benchmark` in your `Unsolved/` folder. Create a `index.js` file and require `benchmark` along with your `recursive` or `linear` module from `fibonacci.js`.

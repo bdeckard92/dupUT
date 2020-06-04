@@ -1,21 +1,23 @@
-// Recursive Approach
-function recursive(num) {
-  if (num <= 2) return 1;
+const Benchmark = require('benchmark');
+const { recursive, linear } = require('./fibonacci');
 
-  return recursive(num - 1) + recursive(num - 2);
-}
+const num = Math.floor(Math.random() * 10 + 1);
+console.log(`Using the number ${num}`);
 
-const x = recursive(10);
-console.log(x);
+const suite = new Benchmark.Suite();
 
-// Linear Approach
-function linear(n) {
-  let arr = [0, 1];
-  for (let i = 2; i < n + 1; i++) {
-    arr.push(arr[i - 2] + arr[i - 1]);
-  }
-  return arr[n];
-}
-
-const y = linear(10);
-console.log(y);
+suite
+  .add('recursive approach', function() {
+    recursive(num);
+  })
+  .add('linear approach', function() {
+    linear(num);
+  })
+  .on('complete', function() {
+    this.forEach(result =>
+      console.log(
+        `${result.name} averaged ${result.stats.mean * 1000} milliseconds.`
+      )
+    );
+  })
+  .run();
