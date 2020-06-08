@@ -26,4 +26,4 @@ In this activity, you will write a regex (regular expression) to find certain pa
 
 ## Hint(s)
 
-* Use the "RegEx Reference" on [RegExr](https://regexr.com/) to familiarize yourself with the patterns to make your regex.
+* Use the "RegEx Reference" section on [RegExr](https://regexr.com/) to familiarize yourself with the patterns to make your regex.
