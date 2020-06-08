@@ -41,7 +41,11 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 
 ## Algorithms
 
-N/A
+* [01-is-armstrong](../../01-Class-Content/17-CS/03-Algorithms/01-is-armstrong)
+
+* [02-max-profit](../../01-Class-Content/17-CS/03-Algorithms/02-max-profit)
+
+* [03-smallest-difference](../../01-Class-Content/17-CS/03-Algorithms/03-smallest-difference)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
