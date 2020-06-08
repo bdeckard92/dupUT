@@ -29,8 +29,6 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 
 * Next week, students will learn about noSQL databases, more specifically MongoDB. They will use Mongoose as their ODM, so be sure to familiarize yourself with both before the next class.
 
-* Robo3T
-
 ## Resources
 
 * [MDN docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
