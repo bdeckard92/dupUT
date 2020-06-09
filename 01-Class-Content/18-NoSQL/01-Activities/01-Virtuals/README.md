@@ -4,7 +4,7 @@ In this activity, you will use Mongoose virtuals to add a property that won't be
 
 ## Instructions
 
-* Open [userModel.js](Unsolved/userModel.js) and do the following:
+* Open [user-model.js](Unsolved/user-model.js) and do the following:
 
   * Create a virtual property named `username` that will be taken from the front part of the email address (before the `@` symbol)
 
