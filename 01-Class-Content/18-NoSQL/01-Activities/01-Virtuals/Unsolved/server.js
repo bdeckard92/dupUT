@@ -31,6 +31,12 @@ app.post('/submit', ({ body }, res) => {
     });
 });
 
+app.get('/users', (req, res) => {
+  User.find({}).then(users => {
+    res.json(users);
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
