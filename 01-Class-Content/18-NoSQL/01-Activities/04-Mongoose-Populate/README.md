@@ -1,0 +1,26 @@
+# Mongoose Populate
+
+In this activity, you will use `.populate()` to return a user with all of the notes associated with that user.
+
+## Instructions
+
+* Open [Note.js](Unsolved/models/Note.js) to see the Note schema.
+
+* Open [User.js](Unsolved/models/User.js) to see how the User schema makes the `.populate()` method possible.
+
+* Open [server.js](Unsolved/server.js) and update the `/populate` route.
+
+  * Write a query to `find()` the documents from the User collection and `populate()` them with any associated notes.
+
+* To test it out, run `npm install` and `npm start` in your command line to start the server.
+
+  * Open Insomnia and make a POST request to `/submit` with data for a new note in JSON format, i.e. 
+
+  ```js
+  {
+    "title": "Post 1",
+    "body": "Here is Post 1."
+  }
+  ```
+
+  * Then, make a GET request to `/populate`. You should see the user "Ernest Hemingway" with the note you just created.

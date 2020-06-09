@@ -28,12 +28,12 @@ In this activity, you will create a user schema with Mongoose.
 
   * You should see your new user created in the data returned from our POST request. 
 
-## 💡 Hint(s)
+## Hint(s)
 
 * To check if an email address is valid, you can use `match` which will create a validator that checks if the value matches the given regex, which for checking if a string is an email is: `/.+\@.+\..+/`
 
 * You can refer to the Mongoose docs on [Validations](https://mongoosejs.com/docs/validation.html) or on [String Validators](https://mongoosejs.com/docs/schematypes.html#string-validators)
 
-## 🏆 Bonus 
+## Bonus 
 
 * Insert five more documents with one command. Use the [MongoDB Manual on Query Documents](https://docs.mongodb.com/manual/tutorial/query-documents/) to see how you can accomplish this.
