@@ -1,15 +1,15 @@
-# Custom Methods
+# Virtuals
+
+In this activity, you will use virtuals to add a property to a user that won't be stored in the database. 
 
 ## Instructions
 
-* Open `userModel.js` and create the following custom methods.
+* Open [userModel.js](Unsolved/userModel.js) and do the following:
 
-  * `setFullName`: sets the current user's `fullName` property to their lastName appended to their `firstName`
+  * Create a virtual property named `username` that will be taken from the front part of the email address (before the `@` symbol)
 
-  * `lastUpdatedDate`: sets the current user's `lastUpdated` property to `Date.now()`
-
-* When you are finished use your new custom methods in a `POST` request.
+  * Remember to set the `toJSON` schema option to `{ virtuals: true }` in order to include virtuals in `res.json()`
 
 ## 💡 Hint(s)
 
-* Use the [Mongo guides](https://docs.mongodb.com/guides/) if you are stuck.
+* You can use `slice()` to get the front part of the email address.

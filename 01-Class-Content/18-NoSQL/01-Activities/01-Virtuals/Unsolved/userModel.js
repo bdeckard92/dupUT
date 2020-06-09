@@ -1,60 +1,46 @@
-// Create the required custom methods at the bottom of this file
+const { Schema, model } = require('mongoose');
 
-const mongoose = require("mongoose");
+const UserSchema = new Schema(
+  {
+    firstName: {
+      type: String,
+      trim: true,
+      required: 'First Name is Required'
+    },
 
-const Schema = mongoose.Schema;
+    lastName: {
+      type: String,
+      trim: true,
+      required: 'Last Name is Required'
+    },
 
-const UserSchema = new Schema({
-  firstName: {
-    type: String,
-    trim: true,
-    required: "First Name is Required"
-  },
+    password: {
+      type: String,
+      trim: true,
+      required: 'Password is Required',
+      validate: [({ length }) => length >= 6, 'Password should be longer.']
+    },
 
-  lastName: {
-    type: String,
-    trim: true,
-    required: "Last Name is Required"
-  },
+    email: {
+      type: String,
+      unique: true,
+      match: [/.+@.+\..+/, 'Please enter a valid e-mail address']
+    },
 
-  username: {
-    type: String,
-    trim: true,
-    required: "Username is Required"
-  },
+    userCreated: {
+      type: Date,
+      default: Date.now
+    }
+  }
+  // Set the `toJSON` schema option to { virtuals: true }
+  // YOUR CODE HERE
+  //
+);
 
-  password: {
-    type: String,
-    trim: true,
-    required: "Password is Required",
-    validate: [
-      ({length}) => length >= 6,
-      "Password should be longer."
-    ]
-  },
+// Create a virtual property `username` that's computed from the front part of `email` before the `@` symbol.
+// YOUR CODE HERE
+//
 
-  email: {
-    type: String,
-    unique: true,
-    match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
-  },
+const User = model('User', UserSchema);
 
-  userCreated: {
-    type: Date,
-    default: Date.now
-  },
-
-  lastUpdated: Date,
-
-  fullName: String
-});
-
-// setFullName: sets the current user's `fullName` property to their lastName appended to their `firstName`
-
-// lastUpdatedDate: sets the current user's `lastUpdated` property to Date.now()
-
-// This creates our model from the above schema, using mongoose's model method
-const User = mongoose.model("User", UserSchema);
-
-// Export the User model
 module.exports = User;
