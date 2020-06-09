@@ -4,6 +4,8 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 Your challenge this week is to add functionality to an existing Budget Tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should update the total when brought back online.
 
+Before you start, clone the [starter code](https://github.com/coding-boot-camp/symmetrical-bassoon).
+
 
 ## User Story
 
