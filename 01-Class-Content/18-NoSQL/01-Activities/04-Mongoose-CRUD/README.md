@@ -8,13 +8,13 @@ In this activity, you will create, update, and delete notes from the database us
 
 * Open [server.js](Unsolved/server.js) and modify the following routes:
 
-  * POST route to `/submit` to create a new note in the database's collection
+  * In the POST route to `/submit`, create a new note in the database's collection.
 
-  * GET route to `/all` to retrieve all notes
+  * In the GET route to `/all`, retrieve all notes in the collection.
 
-  * POST route to `/update/:id` to update one note by its ObjectId, `_id` 
+  * In the POST route to `/update/:id`, update one note by its ObjectId, `_id`.
 
-  * DELETE route to `/delete/:id` to delete one note by its ObjectId, `_id`
+  * In the DELETE route to `/delete/:id`, delete one note by its ObjectId, `_id`.
 
 * To test it out, run `npm install` and `npm start` in your command line to start the server.
 
@@ -28,3 +28,7 @@ In this activity, you will create, update, and delete notes from the database us
   ```
 
   * Now make a GET request to `/all`, POST request to `/update/:id`, and DELETE request to `/delete/:id` to check the rest of your routes.
+
+## Hint(s)
+
+* You can refer to the Mongoose docs on [queries](https://mongoosejs.com/docs/queries.html).

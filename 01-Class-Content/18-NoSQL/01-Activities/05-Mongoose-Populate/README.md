@@ -1,6 +1,6 @@
 # Mongoose Populate
 
-In this activity, you will use `.populate()` to return a user with all of the notes associated with that user.
+In this activity, you will use the method `.populate()` to return a user with all of the notes associated with that user.
 
 ## Instructions
 
@@ -24,3 +24,7 @@ In this activity, you will use `.populate()` to return a user with all of the no
   ```
 
   * Then, make a GET request to `/populate`. You should see the user "Ernest Hemingway" with the note you just created.
+
+## Hint(s)
+
+* You can refer to the Mongoose docs on [populate](https://mongoosejs.com/docs/populate.html)
