@@ -1,4 +1,4 @@
-# Virtuals
+# Mongoose Virtuals
 
 In this activity, you will use Mongoose virtuals to add a property that won't be stored in the database to a user. 
 
