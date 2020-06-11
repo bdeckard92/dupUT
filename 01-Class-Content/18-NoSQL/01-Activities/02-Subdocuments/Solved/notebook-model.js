@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const notesSchema = require('./Notes');
+const notesSchema = require('./notes-subdoc');
 
 const notebookSchema = new Schema({
   title: {
@@ -11,7 +11,9 @@ const notebookSchema = new Schema({
   createdAt: {
     type: Date,
     default: Date.now
-  }
+  },
+
+  notes: [notesSchema]
 });
 
 const Notebook = model('Notebook', notebookSchema);
