@@ -42,40 +42,20 @@ app.get('/api/notebooks', (req, res) => {
 
 // Create a new note for a notebook
 app.post('/api/notebooks/:notebookId/notes', (req, res) => {
-  Notebook.findOneAndUpdate(
-    { _id: req.params.notebookId },
-    { $addToSet: { notes: req.body } },
-    { runValidators: true, new: true }
-  )
-    .then(dbNotebookData => {
-      if (!dbNotebookData) {
-        return res.status(404).json({ message: 'No notebook with this id!' });
-      }
-      res.json(dbNotebookData);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
+  // Using the 'notebookId' in the params, find the notebook from the collection
+  // Add the 'req.body' to the 'notes' subdocument array in the notebook
+  //
+  // YOUR CODE HERE
+  //
 });
 
 // Delete a note from a notebook
 app.delete('/api/notebooks/:notebookId/notes/:noteId', (req, res) => {
-  Notebook.findOneAndUpdate(
-    { _id: req.params.notebookId },
-    { $pull: { notes: { noteId: req.params.noteId } } },
-    { runValidators: true, new: true }
-  )
-    .then(dbNotebookData => {
-      if (!dbNotebookData) {
-        return res.status(404).json({ message: 'No notebook with this id!' });
-      }
-      res.json(dbNotebookData);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
+  // Using the 'notebookId' and 'noteId' in the params, find the notebook that contains the note
+  // Remove the note from the 'notes' subdocument array in the notebook
+  //
+  // YOUR CODE HERE
+  //
 });
 
 app.listen(PORT, () => {
