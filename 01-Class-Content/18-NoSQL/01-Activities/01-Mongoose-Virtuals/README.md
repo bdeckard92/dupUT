@@ -27,6 +27,6 @@ In this activity, you will use Mongoose virtuals to add a property that won't be
 
   * If you make a few more users and then make a GET request to `/users` in Insomnia, you should see all of the users in the database with `username` as a virtual property.
 
-## 💡 Hint(s)
+## Hint(s)
 
 * You can use `slice()` or `split()` to get the front part of the email address.
