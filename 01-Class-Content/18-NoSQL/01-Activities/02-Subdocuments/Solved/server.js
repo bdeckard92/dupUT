@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const Notebook = require('./notebook-model.js');
+const { Notebook } = require('./models');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -12,45 +12,63 @@ app.use(express.json());
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/notebookdb', {
   useFindAndModify: false,
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 });
 
 mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
-app.post('/notebook', ({ body }, res) => {
+app.post('/api/notebooks', ({ body }, res) => {
   Notebook.create(body)
-    .then(data => {
-      res.json(data);
+    .then((dbNotebookData) => {
+      res.json(dbNotebookData);
     })
-    .catch(err => {
+    .catch((err) => {
       res.json(err);
     });
 });
 
-app.get('/notebook', (req, res) => {
+app.get('/api/notebooks', (req, res) => {
   Notebook.find()
-    .then(data => {
-      res.json(data);
+    .then((dbNotebookData) => {
+      res.json(dbNotebookData);
     })
-    .catch(err => {
+    .catch((err) => {
       res.json(err);
     });
 });
 
-app.post('/:notebookId', (req, res) => {
+app.post('/api/notebooks/:notebookId/notes', (req, res) => {
   Notebook.findOneAndUpdate(
     { _id: req.params.notebookId },
     { $addToSet: { notes: req.body } },
     { runValidators: true, new: true }
   )
-    .then(data => {
-      if (!data) {
+    .then((dbNotebookData) => {
+      if (!dbNotebookData) {
         return res.status(404).json({ message: 'No notebook with this id!' });
       }
-      res.json(data);
+      res.json(dbNotebookData);
     })
-    .catch(err => {
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
+app.delete('/api/notebooks/:notebookId/notes/:noteId', (req, res) => {
+  Notebook.findOneAndUpdate(
+    { _id: req.params.notebookId },
+    { $pull: { notes: { noteId: req.params.noteId } } },
+    { runValidators: true, new: true }
+  )
+    .then((dbNotebookData) => {
+      if (!dbNotebookData) {
+        return res.status(404).json({ message: 'No notebook with this id!' });
+      }
+      res.json(dbNotebookData);
+    })
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
