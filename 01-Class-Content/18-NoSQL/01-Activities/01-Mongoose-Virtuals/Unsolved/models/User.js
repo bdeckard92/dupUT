@@ -32,7 +32,8 @@ const UserSchema = new Schema(
       default: Date.now
     }
   }
-  // Set the `toJSON` schema option to { virtuals: true }
+  // Set the `toJSON` schema option to use virtuals
+  // Set the `id` as false
   // YOUR CODE HERE
   //
 );
