@@ -1,6 +1,4 @@
-// Exporting an object containing all of our models
+const Note = require('./Note');
+const User = require('./User');
 
-module.exports = {
-  Note: require('./Note'),
-  User: require('./User')
-};
+module.exports = { Note, User };
