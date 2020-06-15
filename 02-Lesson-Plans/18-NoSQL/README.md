@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll go over Mongoose
+In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, schema, CRUD operations, and the populate method.
 
 ## Virtual Classes
 
@@ -14,7 +14,11 @@ In this week's virtual classes, you'll go over Mongoose
 
 * This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
 
+* Be sure students have installed MongoDB and Mongoose before starting their lessons. The install instructions are provided in the `Up and Running` section in Canvas. 
 
+* Students will use Insomnia Core to test their API routes instead of relying on a front end in this week's activities.
+
+* CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, populate are used in Lesson 2. Mongoose schema is introduced in Lesson 1 but validations are used in Lesson 5.
 
 
 ## Module Challenge
@@ -27,7 +31,15 @@ In this week's virtual classes, you'll go over Mongoose
 
 ## Resources
 
-* 
+* [Mongoose Docs on Virtuals](https://mongoosejs.com/docs/tutorials/virtuals.html)
+
+* [Mongoose Docs on Subdocuments](https://mongoosejs.com/docs/subdocs.html)
+
+* [Mongoose Docs on Validations](https://mongoosejs.com/docs/validation.html) and [String Validators](https://mongoosejs.com/docs/schematypes.html#string-validators)
+
+* [Mongoose Docs on Queries](https://mongoosejs.com/docs/queries.html)
+
+* [Mongoose Docs on Populate](https://mongoosejs.com/docs/populate.html)
 
 ## Algorithms
 
