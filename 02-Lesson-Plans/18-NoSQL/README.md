@@ -1,8 +1,8 @@
-# Module 18 Instructor Overview: noSQL
+# Module 18 Instructor Overview: NoSQL
 
 ## Overview
 
-In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, schema, CRUD operations, and the populate method.
+In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, schema, CRUD operations, and the `.populate()` method.
 
 ## Virtual Classes
 
@@ -16,10 +16,9 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 * Be sure students have installed MongoDB and Mongoose before starting their lessons. The install instructions are provided in the `Up and Running` section in Canvas. 
 
-* Students will use Insomnia Core to test their API routes instead of relying on a front end in this week's activities.
+* Students will use Insomnia Core to test their API routes instead of relying on a front end in this week's virtual classes.
 
-* CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, populate are used in Lesson 2. Mongoose schema is introduced in Lesson 1 but validations are used in Lesson 5.
-
+* CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, and the `.populate()` method are used in Lesson 2. Mongoose schema is introduced in Lesson 1 but validations are used in Lesson 5.
 
 ## Module Challenge
 
@@ -27,7 +26,7 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 ## Heads-Up
 
-* Next week, students will learn 
+* Next week, students will learn about measuring and optimizing the performance of web applications, as well as focus on Progressive Web Apps (PWAs). 
 
 ## Resources
 
