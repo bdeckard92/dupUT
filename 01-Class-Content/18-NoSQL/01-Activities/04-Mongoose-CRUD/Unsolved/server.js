@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const Note = require('./note-model.js');
+const { Note } = require('./models');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -32,12 +32,14 @@ app.get('/all', (req, res) => {
 
 app.post('/update/:id', ({ params, body }, res) => {
   // Use the `findOneAndUpdate()` method to update a note using the `_id` and data from the `body`
+  // If there is no note with that `id` in the collection, return an error message.
   // YOUR CODE HERE
   //
 });
 
 app.delete('/delete/:id', ({ params }, res) => {
   // Use the `findOneAndDelete()` method to delete a note using the `_id`
+  // If there is no note with that `id` in the collection, return an error message.
   // YOUR CODE HERE
   //
 });
