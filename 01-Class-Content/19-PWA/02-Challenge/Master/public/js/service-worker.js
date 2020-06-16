@@ -1,9 +1,9 @@
-var APP_PREFIX = 'my-site-cache-';  
-var VERSION = 'v1';
-var CACHE_NAME = APP_PREFIX + VERSION;
+let APP_PREFIX = 'my-site-cache-';  
+let VERSION = 'v1';
+let CACHE_NAME = APP_PREFIX + VERSION;
 const DATA_CACHE_NAME = "data-cache-" + VERSION;
 
-var FILES_TO_CACHE = [
+let FILES_TO_CACHE = [
   "../",
   "./db.js",
   "./index.js",
@@ -69,7 +69,7 @@ self.addEventListener('activate', function (e) {
     caches.keys().then(function (keyList) {
       // `keyList` contains all cache names under your username.github.io
       // filter out ones that has this app prefix to create white list
-      var cacheWhitelist = keyList.filter(function (key) {
+      let cacheWhitelist = keyList.filter(function (key) {
         return key.indexOf(APP_PREFIX);
       })
       // add current cache name to white list
