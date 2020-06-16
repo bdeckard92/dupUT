@@ -1,9 +1,36 @@
-var poem = "Some say the world will end in 🔥, Some say in ice. From what I’ve tasted of desire, I hold with those who favor fire. But if it had to perish twice, I think I know enough of hate. To say that for destruction ice, Is also great, And would suffice.";
+var timerEl = document.getElementById('countdown');
+var mainEl = document.getElementById('main');
+var startBtn = document.getElementById('start');
 
-function prepareRead() {
-  // Create the countdown timer.
+var message =
+  'Congratulations! Now you are prepared to tackle the Challenge this week! Good luck!';
+var words = message.split(' ');
+
+// Timer that counts down from 5
+function countdown() {
+  var timeLeft = 5;
+
+  // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
+  var timeInterval = setInterval(function() {
+    //
+    // YOUR CODE HERE
+    //
+  });
 }
 
-function speedRead() {
-  // Print words to the screen one at a time.
+// Displays the message one word at a time
+function displayMessage() {
+  var wordCount = 0;
+
+  // Uses the `setInterval()` method to call a function to be executed every 300 milliseconds
+  var msgInterval = setInterval(function() {
+    if (words[wordCount] === undefined) {
+      clearInterval(msgInterval);
+    } else {
+      mainEl.textContent = words[wordCount];
+      wordCount++;
+    }
+  }, 300);
 }
+
+startBtn.onclick = countdown;

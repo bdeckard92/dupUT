@@ -1,15 +1,21 @@
-# Speed Reader 
+# Countdown timer
 
-In this activity you are going to create a speed reading application. It will input a single word on the screen at a time, changing to the next word after 1 second. This equates to reading at 60 Words Per Minute (WPM).
+In this activity, you will create a timer that will count down from 5 and display a message when it hits 0. 
 
 ## Instructions
 
-* The app should countdown from 5, and when the countdown is finished it should print one word to the screen every second. Each word replaces the other.
+* Open [index.html](Unsolved/index.html) and examine the HTML code in the `<body>`.
 
-* Open `index.html` and create the necessary HTML. You will need at least 3 elements.
+* Open [script.js](Unsolved/script.js) and complete the `countdown()` function that will count down from 5.
 
-* Open `script.js`.
+  * Complete the `setInterval()` method to call a function to be executed every 1000 milliseconds
 
-  * The two function names have been created for you, as well as a poem to speed read.
+  * As long as the `timeLeft` is greater than 1, set the `textContent` of `timerEl` to show the remaining seconds, and decrement `timeLeft` by 1.
 
-* Fill out the necessary code that would create a countdown timer. When that timer completes, it should dissapear and speed reading should begin.
+  * Once the `timeLeft` gets to 0, set the `textContent` of `timerEl` to an empty string, use `clearInterval()` to stop the timer, and call the `displayMessage` function.
+
+## Hint(s)
+
+* Look at the `displayMessage()` function to see an example of how to use `setInterval()` and `clearInterval()`.
+
+* You can also refer to the MDN Web Docs on [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval) for more information.
