@@ -1,51 +1,213 @@
-# Unit 18 Nosql Homework: Workout Tracker
+# 18 NoSQL: Social Network API
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Over the last part of this course, you’ll use several of the technologies that social networking platforms use in their full-stack applications. Because the foundation of these applications is data, it’s important that you understand how to build and structure the API first.
+
+Your challenge is to build an API for a social network using Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, you’ll need to use the [Moment package](https://www.npmjs.com/package/moment) to format time.
+
+Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+```md
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
+```
 
-## Business Context
-
-A consumer will reach their fitness goals quicker when they track their workout progress.
 
 ## Acceptance Criteria
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+```md
+GIVEN a social network API
+WHEN I enter the command to invoke the application
+THEN my server is started and the Mongoose models are synced to the MongoDB database
+WHEN I open API GET routes in Insomnia Core for users and thoughts
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+THEN I am able to successfully create, update, and delete users and thoughts in my database
+WHEN I test API POST and DELETE routes in Insomnia Core
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+```
 
-The user should be able to:
 
-  * Add exercises to a previous workout plan.
+## Mock-Up
 
-  * Add new exercises to a new workout plan.
+The following animations show examples of the application's API routes being tested in Insomnia Core.
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+The first animation shows GET routes to return all users and all thoughts being tested in Insomnia Core:
 
-## Commit Early and Often
+![Homework Demo 01](./Assets/18-nosql-homework-demo-01.gif)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+The second animation shows GET routes to return a single user and a single thought being tested in Insomnia Core:
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+![Homework Demo 02](./Assets/18-nosql-homework-demo-02.gif)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+The third animation shows the POST, PUT, and DELETE routes for users being tested in Insomnia Core:
 
-Follow these guidelines for committing:
+![Homework Demo 03](./Assets/18-nosql-homework-demo-03.gif)
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+Your walkthrough video should also show the POST, PUT, and DELETE routes for thoughts being tested in Insomnia Core.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+The final animation shows the POST and DELETE routes for a user’s friend list being tested in Insomnia Core:
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+![Homework Demo 04](./Assets/18-nosql-homework-demo-04.gif)
 
-* Test your application before you commit to ensure functionality at every step in the development process
+Your walkthrough video should also show the POST and DELETE routes for reactions to thoughts being tested in Insomnia Core.
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Submission on BCS
+## Getting Started
 
-You are required to submit the following:
+Use the following guidelines to set up your models and API routes:
 
-* The URL to the deployed application
+### Models
 
-* The URL to the Github repository
+**User**
+
+* `username`
+    * String
+    * Unique
+    * Required
+    * Trimmed
+
+* `email`
+    * String
+    * Required
+    * Unique
+    * Must match a valid email address (look into Mongoose's matching validation)
+
+* `thoughts`
+    * Array of `_id` values referencing the `Thought` model
+
+* `friends`
+    * Array of `_id` values referencing the `User` model (self-reference)
+
+**Schema Settings**
+
+Create a virtual called `friendCount` that retrieves the length of the user's `friends` array field on query
+
+---
+
+**Thought**
+
+* `thoughtText`
+    * String
+    * Required
+    * Must be between 1 and 280 characters
+
+* `createdAt`
+    * Date
+    * Set default value to the current timestamp
+    * Use `moment` in a getter method to format the timestamp on query
+
+* `username` - Which user created this thought
+    * String
+    * Required
+
+* `reactions` (like replies)
+    * Array of nested documents created with the `reactionSchema`
+
+**Schema Settings**
+
+Create a virtual called `reactionCount` that retrieves the length of the thought's `reactions` array field on query
+
+---
+
+**Reaction** (SCHEMA ONLY)
+
+* `reactionId`
+    * Use Mongoose's ObjectId data type
+    * Default value is set to a new ObjectId
+
+* `reactionBody`
+    * String
+    * Required
+    * 280 character maximum
+
+* `username`
+    * String
+    * Required
+
+* `createdAt`
+    * Date
+    * Set default value to the current timestamp
+    * Use `moment` in a getter method to format the timestamp on query
+
+**Schema Settings**
+
+This will not be a model, but rather used as the `reaction` field's subdocument schema in the `Thought` model.
+
+
+### API Routes
+
+**`/api/users`**
+
+* `GET` all users
+
+* `GET` a single user by its `_id` and populated thought and friend data
+
+* `POST` a new user:
+
+```json
+// example data
+{
+  "username": "lernantino",
+  "email": "lernantino@gmail.com"
+}
+```
+
+* `PUT` to update a user by its `_id`
+
+* `DELETE` to remove user by its `_id`
+
+**BONUS**: Remove a user's associated thoughts when deleted
+
+---
+
+**`/api/users/:userId/friends/:friendId`**
+
+* `POST` to add a new friend to a user's friend list
+
+* `DELETE` to remove a friend from a user's friend list
+
+---
+
+**`/api/thoughts`**
+
+* `GET` to get all thoughts
+
+* `GET` to get a single thought by its `_id`
+
+* `POST` to create a new thought (don't forget to push the created thought's `_id` to the associated user's `thoughts` array field)
+
+```json
+// example data
+{
+  "thoughtText": "Here's a cool thought...",
+  "username": "lernantino",
+  "userId": "5edff358a0fcb779aa7b118b"
+}
+```
+
+* `PUT` to update a thought by its `_id`
+
+* `DELETE` to remove a thought by its `_id`
+
+---
+
+**`/api/thoughts/:thoughtId/reactions`**
+
+* `POST` to create a reaction stored in a single thought's `reactions` array field
+
+* `DELETE` to pull and remove a reaction by the reaction's `reactionId` value
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+- - -
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
