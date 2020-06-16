@@ -18,6 +18,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/populatedb', {
 mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
+// A user has been created already for our activity purposes
 db.User.create({ name: 'Ernest Hemingway' })
   .then(dbUser => {
     console.log(dbUser);
@@ -26,6 +27,7 @@ db.User.create({ name: 'Ernest Hemingway' })
     console.log(message);
   });
 
+// Retrieve all notes
 app.get('/notes', (req, res) => {
   db.Note.find({})
     .then(dbNote => {
@@ -36,6 +38,7 @@ app.get('/notes', (req, res) => {
     });
 });
 
+// Retrieve all users
 app.get('/user', (req, res) => {
   db.User.find({})
     .then(dbUser => {
@@ -46,6 +49,7 @@ app.get('/user', (req, res) => {
     });
 });
 
+// Create a new note and associate it with user
 app.post('/submit', ({ body }, res) => {
   db.Note.create(body)
     .then(({ _id }) =>
@@ -61,7 +65,11 @@ app.post('/submit', ({ body }, res) => {
 
 app.get('/populate', (req, res) => {
   db.User.find({})
-    .populate('notes')
+    .populate({
+      path: 'notes',
+      select: '-__v'
+    })
+    .select('-__v')
     .then(dbUser => {
       res.json(dbUser);
     })
