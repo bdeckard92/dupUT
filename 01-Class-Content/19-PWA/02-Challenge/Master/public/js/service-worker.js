@@ -4,13 +4,13 @@ var CACHE_NAME = APP_PREFIX + VERSION;
 const DATA_CACHE_NAME = "data-cache-" + VERSION;
 
 var FILES_TO_CACHE = [
-  "/",
-  "/db.js",
-  "/index.js",
-  "/manifest.json",
-  "/styles.css",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "../",
+  "./db.js",
+  "./index.js",
+  "../manifest.json",
+  "../css/styles.css",
+  "../icons/icon-192x192.png",
+  "../icons/icon-512x512.png"
 ];
 
 // Cache resources

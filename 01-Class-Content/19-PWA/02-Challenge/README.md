@@ -46,7 +46,7 @@ You’ll need to use IndexedDB to add offline functionality. Review **Module 18:
 
 You’ll also need to add a service worker to your application. Review **Module 19: Progressive Web Applications (PWA), Lesson 4: Service Workers** as a refresher on how to add this to your application.
 
-> **Important:** You should add both of the files to handle this functionality to the `public/js` directory of your application.
+> **Important:** You should add both of the files to handle this functionality to the `public/js/` directory of your application.
 
 Once you have updated the existing budget tracker, it should provide the following functionality:
 
@@ -76,7 +76,7 @@ This `manifest.json` file for this project will contain the following properties
 
 * `display`
 
-> **Important:** In the module project, you used webpack to create the `manifest.json` file. For this application, you’ll need to create it manually and add it to the `public/js` directory of your application. You can also review **Module 19: Progressive Web Applications (PWA), Lesson 5: PWA** as a refresher on web manifests.
+> **Important:** In the module project, you used webpack to create the `manifest.json` file. For this application, you’ll need to create it manually and add it to the `public/` directory of your application. You can also review **Module 19: Progressive Web Applications (PWA), Lesson 5: PWA** as a refresher on web manifests.
 
 ### Deployment to Heroku Using mLab
 
