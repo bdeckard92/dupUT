@@ -1,14 +1,17 @@
-var db = require("../models");
+const db = require('../models');
 
-module.exports = function(app) {
-  app.get("/api/images", function(req, res) {
-    db.Image.find({}).then(function(dbImages) {
+module.exports = app => {
+  app.get('/api/images', (req, res) => {
+    db.Image.find({}).then(dbImages => {
       res.json(dbImages);
     });
   });
 
-  app.put("/api/images/:id", function(req, res) {
-    db.Image.updateOne({ _id: req.params.id }, { rating: req.body.rating }).then(function(dbImage) {
+  app.put('/api/images/:id', (req, res) => {
+    db.Image.updateOne(
+      { _id: req.params.id },
+      { rating: req.body.rating }
+    ).then(dbImage => {
       res.json(dbImage);
     });
   });

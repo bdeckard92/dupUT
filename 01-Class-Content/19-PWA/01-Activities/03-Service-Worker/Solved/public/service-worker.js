@@ -1,1 +1,1 @@
-console.log("Hello from your service worker!");
+console.log('Hi from your service-worker.js file!');
