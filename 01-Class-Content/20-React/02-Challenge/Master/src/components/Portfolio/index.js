@@ -25,25 +25,27 @@ const PhotoList = ({ category }) => {
     {
       name: 'calculator',
       description: 'React/JavaScript/CSS',
-    }
+    },
   ]);
 
   return (
     <div>
       <div className="flex-row">
         {projects.map((project) => (
-          <div className="project">
+          <div className="project" key={project.name}>
             <img
               src={require(`../../assets/projects/${project.name}.jpg`)}
               alt={removeHyphensAndCapitalize(project.name)}
               className="project-bg"
-              key={project.name}
             />
             <div className="project-text">
-              <h3><a href="#">{removeHyphensAndCapitalize(project.name)}</a> <a href="#"><i className="fab fa-github"></i></a></h3>
-              <p>
-              {project.description}
-              </p>
+              <h3>
+                <a href="#">{removeHyphensAndCapitalize(project.name)}</a>{' '}
+                <a href="#">
+                  <i className="fab fa-github"></i>
+                </a>
+              </h3>
+              <p>{project.description}</p>
             </div>
           </div>
         ))}
