@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
-const PhotoList = ({ category }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentPhoto, setCurrentPhoto] = useState();
+const Portfolio = ({ category }) => {
 
   const [projects] = useState([
     {
@@ -54,4 +52,4 @@ const PhotoList = ({ category }) => {
   );
 };
 
-export default PhotoList;
+export default Portfolio;
