@@ -1,11 +1,11 @@
-let APP_PREFIX = 'my-site-cache-';  
-let VERSION = 'v1';
-let CACHE_NAME = APP_PREFIX + VERSION;
+const APP_PREFIX = 'my-site-cache-';  
+const VERSION = 'v1';
+const CACHE_NAME = APP_PREFIX + VERSION;
 const DATA_CACHE_NAME = "data-cache-" + VERSION;
 
-let FILES_TO_CACHE = [
+const FILES_TO_CACHE = [
   "../",
-  "./db.js",
+  "./idb.js",
   "./index.js",
   "../manifest.json",
   "../css/styles.css",
