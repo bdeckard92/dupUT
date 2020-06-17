@@ -1,27 +1,31 @@
-# Webpack Intro
+# Webpack
 
-In this activity we will create a bundle.js file with Webpack.
+In this activity, you will create a `bundle.js` file with Webpack.
 
-##Instructions
+## Instructions
 
-* Run the following command: `npm install webpack webpack-cli -D`
+* In the [Unsolved/](Unsolved/) folder, run `npm i -D webpack webpack-cli` in your command line to install Webpack.
 
 * Create a file called `webpack.config.js`.
 
-* Using the entry point of `src/app.js`, make Webpack output a bundle file in a folder called `dist/`.
+  * Create the main configuration object `module.exports` with 3 properties: `entry`, `output`, and `mode`.
+  
+    * Set the entry point to be `src/app.js` (pay attention to the relative path).
 
-* In `index.html`, change the JavaScript file src to be your new bundle file.
+    * Set the output folder as `/dist` and the bundled code to be in a file called `bundle.js`.
 
-* Add the necessary scripts to `package.json`, then run Webpack with the `--watch` option.
+    * Set the mode to be `development` mode.
 
-* Update this application to accomplish the following:
+* In [index.html](Unsolved/index.html), change the Javascript script tag to use `bundle.js`.
 
-  * When the user types in a value to the price field and clicks submit, the remaining balance should be updated.
+* In [package.json](Unsolved/package.json), add the necessary scripts to run Webpack with the `--watch` option as well as without it. 
 
-  * Using the `require` module and `module.exports`, move the code that calculates the new budget to a file named `calculations.js`.
+* To test it out, run Webpack without the `--watch` option in your command line, i.e. `npm run build`. Open `index.html` in your browser and check the console to see what message was printed. You should see "Hello Webpack!"
 
-  * Update the `reset` function so that when clicked, it sets the current balance back to its original balance and clears the list of expenses.
+* This time, run Webpack with the `--watch` option, i.e. `npm run webpack`. 
 
-### Hints
+* While Webpack is running, in [app.js](Unsolved/src/app.js), replace "Hello Webpack!" with a message of your own and save the file.
 
-* Make sure that Webpack is working properly before attempting to make adjustments to the app.
+* Check the browser's console to see the message updated!
+
+* Remember to `CTRL + C` to terminate the `webpack --watch` process.
