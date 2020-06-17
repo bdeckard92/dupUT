@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
-const Portfolio = ({ category }) => {
+function Portfolio() {
 
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
