@@ -24,8 +24,6 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
     <div>
       <Header>
@@ -33,8 +31,6 @@ function App() {
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
         ></Nav>
       </Header>
       <main>

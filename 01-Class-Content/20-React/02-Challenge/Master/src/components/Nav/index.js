@@ -6,7 +6,6 @@ function Nav(props) {
     pages = [],
     setCurrentPage,
     currentPage,
-    setContactSelected,
   } = props;
 
   useEffect(() => {
@@ -24,10 +23,7 @@ function Nav(props) {
               key={Page.name}
             >
               <span
-                onClick={() => {
-                  setCurrentPage(Page);
-                  setContactSelected(false);
-                }}
+                onClick={() => setCurrentPage(Page)}
               >
                 {capitalizeFirstLetter(Page.name)}
               </span>
