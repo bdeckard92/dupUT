@@ -28,8 +28,8 @@ In this activity, you will implement offline functionality to a Notetaker app.
 
   * Install and activate the service worker
 
-  * Intercept fetch requests that includes `/api/` as well as doesn't include `/api/`.
+  * Intercept fetch requests. If the response is successful, we clone it and store it in our cache. If the network request fails, we grab it from our cache.
 
 ## Hint(s)
 
-* Refer back to the previous activities to help you create the `service-worker.js` file!
+* Refer to the previous activities to help you create the `service-worker.js` file!

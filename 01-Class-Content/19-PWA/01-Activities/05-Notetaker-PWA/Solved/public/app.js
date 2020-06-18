@@ -8,7 +8,7 @@ const status = document.getElementById('status');
 
 function getResults() {
   clearTodos();
-  fetch('/all')
+  fetch('/api/all')
     .then(function(response) {
       if (response.status !== 200) {
         console.log(
@@ -64,7 +64,7 @@ results.addEventListener('click', function(e) {
   if (e.target.matches('.delete')) {
     element = e.target;
     data_id = element.getAttribute('data-id');
-    fetch('/delete/' + data_id, {
+    fetch('/api/delete/' + data_id, {
       method: 'delete'
     })
       .then(function(response) {
@@ -87,7 +87,7 @@ results.addEventListener('click', function(e) {
     element = e.target;
     data_id = element.getAttribute('data-id');
     status.innerText = 'Editing';
-    fetch('/find/' + data_id, { method: 'get' })
+    fetch('/api/find/' + data_id, { method: 'get' })
       .then(function(response) {
         return response.json();
       })
@@ -108,7 +108,7 @@ actionBtn.addEventListener('click', function(e) {
     data_id = updateBtnEl.getAttribute('data-id');
     const title = document.getElementById('title').value;
     const note = document.getElementById('note').value;
-    fetch('/update/' + data_id, {
+    fetch('/api/update/' + data_id, {
       method: 'post',
       headers: {
         Accept: 'application/json, text/plain, */*',
@@ -135,7 +135,7 @@ actionBtn.addEventListener('click', function(e) {
   } else if (e.target.matches('#make-new')) {
     element = e.target;
     data_id = element.getAttribute('data-id');
-    fetch('/submit', {
+    fetch('/api/submit', {
       method: 'post',
       headers: {
         Accept: 'application/json, text/plain, */*',
