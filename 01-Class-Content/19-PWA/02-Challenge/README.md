@@ -33,7 +33,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 The following image shows the web application's appearance and functionality:
 
-![Challenge Demo](./Assets/19-nosql-homework-demo-01.png)
+![Challenge Demo](./Assets/19-pwa-homework-demo-01.png)
 
 
 ## Getting Started
