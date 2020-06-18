@@ -1,10 +1,10 @@
 import React from 'react';
 
-const PageContent = ({ page }) => {
+const PageContent = (props) => {
 
   return (
     <div>
-      {page.component}
+      {props.children}
     </div>
   );
 };

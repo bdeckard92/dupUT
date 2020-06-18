@@ -1,13 +1,34 @@
 import React from 'react';
 import PageContent from '../PageContent';
+import About from "../About";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
+import Resume from "../Resume";
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page(props) {
+
   const { currentPage } = props;
+
+  const renderPage = () => {
+    switch(currentPage.name) {
+      case "about me":
+        return <About />
+      case "portfolio":
+        return <Portfolio />
+      case "contact":
+        return <Contact />
+      case "resume":
+        return <Resume />
+    }
+  }
+
   return (
     <section>
       <h2 data-testid="h2tag">{capitalizeFirstLetter(currentPage.name)}</h2>
-      <PageContent page={currentPage} />
+      <PageContent>
+        {renderPage()}
+      </PageContent>
     </section>
   );
 }
