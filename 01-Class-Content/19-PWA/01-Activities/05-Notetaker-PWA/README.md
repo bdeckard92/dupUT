@@ -1,19 +1,35 @@
-# Installing a PWA
+# Notetaker PWA
 
-For this activity you are going to convert the Noteteaker that your previously worked on into a PWA.
+In this activity, you will implement offline functionality to a Notetaker app.
 
 ## Instructions
 
-* Refer back to the activities we previously worked through to help you accomplish the following steps.
+* In the [public/](Unsolved/public/) folder, create a `manifest.json` file with the following properties:
 
-  * Create an app manifest.
+  * `name` and `short_name` set to "Notetaker"
 
-  * Register and install a service worker.
+  * `icons` set to an array of icons of multiple sizes. You can find all the icons in the [icons](Unsolved/public/assets/images/icons) folder. Be sure to include the `src`, `sizes`, and `type` of each icon.
+  
+  * `theme_color` and `background_color` set to `#ffffff`
+  
+  * `start_url` set to `/`
+  
+  * `display` set to `standalone`
 
-  * Cache your files and deliver and offline experience.
+* In the [index.html](Unsolved/public/index.html) file, register the service worker.
 
-  * Make your app downloadable.
+  * Refer to the previous activities to get the code for registering a service worker!
 
-## BONUS
+* In the [public/](Unsolved/public/) folder, create a `service-worker.js` file and add the following functionality:
 
-* Push your app to heroku!
+  * Name the caches `my-site-cache-v2` and `data-cache-v2` respectively.
+
+  * Add all of the files in the [public/](Unsolved/public) folder to the `FILES_TO_CACHE` array. Don't forget to also include `/`
+
+  * Install and activate the service worker
+
+  * Intercept fetch requests that includes `/api/` as well as doesn't include `/api/`.
+
+## Hint(s)
+
+* Refer back to the previous activities to help you create the `service-worker.js` file!

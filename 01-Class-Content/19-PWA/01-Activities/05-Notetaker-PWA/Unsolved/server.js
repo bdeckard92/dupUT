@@ -1,124 +1,72 @@
-const express = require("express");
-const mongojs = require("mongojs");
-const logger = require("morgan");
-const path = require("path");
+const express = require('express');
+const mongoose = require('mongoose');
 
 const app = express();
+const PORT = process.env.PORT || 3001;
 
-app.use(logger("dev"));
+const { Note } = require('./models');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
-app.use(express.static("public"));
-
-const databaseUrl = process.env.MONGODB_URI || "notetaker";
-const collections = ["notes"];
-
-const db = mongojs(databaseUrl, collections);
-
-db.on("error", error => {
-  console.log("Database Error:", error);
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Notedb', {
+  useFindAndModify: false,
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "./public/index.html"));
+mongoose.set('useCreateIndex', true);
+mongoose.set('debug', true);
+
+app.post('/submit', ({ body }, res) => {
+  Note.create(body)
+    .then(dbNote => {
+      res.json(dbNote);
+    })
+    .catch(err => {
+      res.json(err);
+    });
 });
 
-app.post("/submit", (req, res) => {
-  console.log(req.body);
-
-  db.notes.insert(req.body, (error, saved) => {
-    if (error) {
-      console.log(error);
-    } else {
-      res.send(saved);
-    }
-  });
+app.get('/all', (req, res) => {
+  Note.find({})
+    .then(dbNote => {
+      res.json(dbNote);
+    })
+    .catch(err => {
+      res.json(err);
+    });
 });
 
-app.get("/all", (req, res) => {
-  db.notes.find({}, (error, found) => {
-    if (error) {
-      console.log(error);
-    } else {
-      res.json(found);
-    }
-  });
-});
-
-app.get("/find/:id", (req, res) => {
-  db.notes.findOne(
-    {
-      _id: mongojs.ObjectId(req.params.id)
-    },
-    (error, found) => {
-      if (error) {
-        console.log(error);
-        res.send(error);
-      } else {
-        console.log(found);
-        res.send(found);
+app.post('/update/:id', ({ params, body }, res) => {
+  Note.findOneAndUpdate({ _id: params.id }, body, { new: true })
+    .then(dbNote => {
+      if (!dbNote) {
+        res.json({ message: 'No note found with this id!' });
+        return;
       }
-    }
-  );
+      res.json(dbNote);
+    })
+    .catch(err => {
+      res.json(err);
+    });
 });
 
-app.post("/update/:id", (req, res) => {
-  db.notes.update(
-    {
-      _id: mongojs.ObjectId(req.params.id)
-    },
-    {
-      $set: {
-        title: req.body.title,
-        note: req.body.note,
-        modified: Date.now()
+app.delete('/delete/:id', ({ params }, res) => {
+  Note.findOneAndDelete({ _id: params.id })
+    .then(dbNote => {
+      if (!dbNote) {
+        res.json({ message: 'No note found with this id!' });
+        return;
       }
-    },
-    (error, edited) => {
-      if (error) {
-        console.log(error);
-        res.send(error);
-      } else {
-        console.log(edited);
-        res.send(edited);
-      }
-    }
-  );
+      res.json(dbNote);
+    })
+    .catch(err => {
+      res.json(err);
+    });
 });
-
-app.delete("/delete/:id", (req, res) => {
-  db.notes.remove(
-    {
-      _id: mongojs.ObjectID(req.params.id)
-    },
-    (error, removed) => {
-      if (error) {
-        console.log(error);
-        res.send(error);
-      } else {
-        console.log(removed);
-        res.send(removed);
-      }
-    }
-  );
-});
-
-app.delete("/clearall", (req, res) => {
-  db.notes.remove({}, (error, response) => {
-    if (error) {
-      console.log(error);
-      res.send(error);
-    } else {
-      console.log(response);
-      res.send(response);
-    }
-  });
-});
-
-const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Application running on PORT ${PORT}`);
+  console.log(`App running on port ${PORT}!`);
 });
