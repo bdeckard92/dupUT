@@ -217,11 +217,11 @@ footer a {
   color: var(--light);
   opacity: .5;
   margin: 10px 20px;
+  transition: all .3s ease-in-out;
 }
 
 footer a:hover {
   opacity: 1;
-  transition: all .3s ease-in-out;
 }
 
 textarea {
@@ -330,12 +330,12 @@ textarea {
     padding: 50px;
     z-index: 900;
     opacity: 0;
+    transition: all .5s ease-in-out;
 }
 
 .project-text:hover {
   background-color: var(--alpha);
   opacity: 1;
-  transition: all .5s ease-in-out;
   border: 10px solid var(--secondary);
 }
 
@@ -347,11 +347,11 @@ textarea {
   text-decoration: none;
   font-weight: bold;
   color: var(--dark);
+  transition: all .3s ease-in-out;
 }
 
 .project-text a:hover {
   color: var(--darker);
-  transition: all .3s ease-in-out;
 }
 
 .navActive {
