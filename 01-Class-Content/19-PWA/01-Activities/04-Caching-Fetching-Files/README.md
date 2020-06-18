@@ -1,78 +1,65 @@
-# The Offline Experience
+# Caching and Fetching Files
 
-In this activity you will be enabling functionality to allow your application to work offline.
+In this activity, you will be enabling functionality to allow the 'Image Gallery' app to work offline. You will install and activate the service worker that you registered in the previous activity. This will give the service worker the ability to cache the files we tell it to and deliver them in an offline experience for our users. 
+
+Most of this code is standard, which is why they are provided for you. However, type out the code snippets since that will help you solidify what you are doing!
 
 ## Instructions
 
-* Open a terminal and start `mongod` if it isn't already running.
+* Navigate to [Unsolved/](Unsolved/) and run `npm install`, `npm seed`, and `npm start` in your command line.
 
-* Open another terminal and run the commands:
+* Navigate to <http://localhost:3001> in Chrome and open the Dev Tools. Keep your Dev Tools open to monitor your progress and debug if needed.
 
-  * `npm install`
+* Open [service-worker.js](Unsolved/public/service-worker.js) and do the following:
 
-  * `npm run seed`
+  * Uncomment the code to set up the cache files.
 
-  * `npm start`
+  * Add the following code to install the service worker:
 
-* Add the following code to your `service-worker.js` file.
+  ![Install service worker](Images/install-code.png)
 
-* Copy/Type out the following code snippets when adding them to your application, it will help you solidify what you are doing!
+  * Next, add the following code to activate your service worker and remove old data from the cache:
 
-* As you go through each step, keep your Chrome Develop tools open to monitor your progress and debug if needed.
+  ![Activate service worker](Images/activate-code.png)
 
-  1. Uncomment the code to set up cache files in `service-worker.js`.
-
-   ![Files To Cache](Images/cache-code.png)
-
-  2. Add code to install and register your service worker.
-
-  ```js
-  self.addEventListener('install', function(evt) {
-    evt.waitUntil(
-      caches.open(CACHE_NAME).then(cache => {
-        console.log("Your files were pre-cached successfully!");
-        return cache.addAll(FILES_TO_CACHE);
-      })
-    );
-
-    self.skipWaiting();
-  });
-  ```
-
-  3. If done successfully, you should see your static cache in your Application tab.
-
-   ![Static Cache](Images/static-cache.png)
-
-  4. Add code to activate the service worker and remove old data from the cache.
-
-  ```js
-  self.addEventListener("activate", function(evt) {
-    evt.waitUntil(
-      caches.keys().then(keyList => {
-        return Promise.all(
-          keyList.map(key => {
-            if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
-              console.log("Removing old cache data", key);
-              return caches.delete(key);
-            }
-          })
-        );
-      })
-    );
-
-    self.clients.claim();
-  });
-  ```
-
-  5. Enable the service worker to intercept network requests.
+  * Finally, add the following code to intercept fetch requests:
 
   ```js
   self.addEventListener('fetch', function(evt) {
-  // code to handle requests goes here
+  
   });
   ```
 
-  6. Serve static files from the cache. Proceed with a network request when the resource is not in the cache. This code allows the page to be accessible offline. (This code should be placed in the function handling the `fetch` event.)
+  * Inside that function, if the request with a URL includes `/api/`, add the following code to handle those requests and store the responses in the cache:
+
+  ```js
+  if (evt.request.url.includes('/api/')) {
+    evt.respondWith(
+      caches
+        .open(DATA_CACHE_NAME)
+        .then(cache => {
+          return fetch(evt.request)
+            .then(response => {
+              // If the response was good, clone it and store it in the cache.
+              if (response.status === 200) {
+                cache.put(evt.request.url, response.clone());
+              }
+
+              return response;
+            })
+            .catch(err => {
+              // Network request failed, try to get it from the cache.
+              return cache.match(evt.request);
+            });
+        })
+        .catch(err => console.log(err))
+    );
+
+    return;
+  }
+  ```
+
+  * If the request path does not include `/api/`, then assume the request is for a static file. The file is returned from the cache if a matching request is found and falls back to fetching the resource if nothing is cached. Add the following code in the function handling the `fetch` event, right below the code handling the requests to `/api/`:
 
   ```js
   evt.respondWith(
@@ -84,12 +71,8 @@ In this activity you will be enabling functionality to allow your application to
   );
   ```
 
-  7. Type the remaining code to cache responses for requests for data. The function handling the `fetch` event should resemble the following:
+  * The complete function should look like this:
 
-    ![Fetch](Images/fetch-code.png)
+  ![Intercept fetch requests](Images/fetch-code.png)
 
-    If done successfully you will see your data cache in your Application tab. At this point you should be able to put your application in offline mode for an offline experience.
-
-    ![Data Cache](Images/data-cache.png)
-
-    ![Offline](Images/offline.png)
+* If done correctly, you should see your data cache in the Application tab of the Chrome Dev Tools. 

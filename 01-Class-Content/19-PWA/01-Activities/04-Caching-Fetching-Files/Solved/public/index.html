@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="manifest" href="manifest.json" />
     <title>Image Gallery</title>
   </head>
 
@@ -25,14 +25,17 @@
     </nav>
     <div class="container"></div>
     <script src="/assets/js/loadImages.js"></script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("service-worker.js").then(reg => {
-            console.log("We found your service worker file!", reg);
-          });
-        });
-      }
+    <script type="text/javascript">
+      (function() {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('./service-worker.js')
+            .then(() => console.log('Service Worker registered successfully.'))
+            .catch(error =>
+              console.log('Service Worker registration failed:', error)
+            );
+        }
+      })();
     </script>
   </body>
 </html>

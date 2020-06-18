@@ -1,10 +1,10 @@
 # Service Worker
 
-In this activity, you will be registering a service worker for an 'Image Gallery' app. The code for the app has been provided already. You are only responsible for registering a service worker.
+In this activity, you will be registering a service worker for an 'Image Gallery' app. The script for registering a service worker is standard, which is why it is provided for you. However type out the code snippets instead of simply copying/pasting them to your application. It will help you solidify what you are doing!
 
 ## Instructions
 
-* In [index.html](Unsolved/public/index.html), add the following script:
+* In [index.html](Unsolved/public/index.html), add the following script while paying attention to what each line of code is doing:
 
 ```html
 <script type="text/javascript">

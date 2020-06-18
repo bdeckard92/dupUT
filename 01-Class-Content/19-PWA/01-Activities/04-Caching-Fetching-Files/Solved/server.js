@@ -1,20 +1,24 @@
-var express = require("express");
-var mongoose = require("mongoose");
+const express = require('express');
+const mongoose = require('mongoose');
 
-var app = express();
-var PORT = process.env.PORT || 3001;
+const app = express();
+const PORT = process.env.PORT || 3001;
 
-app.use(express.static("public"));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/imageperformance", {
-  useNewUrlParser: true
-});
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/imageperformance',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  }
+);
 
-app.listen(PORT, function() {
-  console.log(`Now listening on port: ${PORT}`);
+app.listen(PORT, () => {
+  console.log(`App running on port ${PORT}`);
 });
