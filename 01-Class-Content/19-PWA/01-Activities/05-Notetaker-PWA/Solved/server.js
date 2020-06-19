@@ -39,34 +39,6 @@ app.get('/api/all', (req, res) => {
     });
 });
 
-app.post('/api/update/:id', ({ params, body }, res) => {
-  Note.findOneAndUpdate({ _id: params.id }, body, { new: true })
-    .then(dbNote => {
-      if (!dbNote) {
-        res.json({ message: 'No note found with this id!' });
-        return;
-      }
-      res.json(dbNote);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-app.delete('/api/delete/:id', ({ params }, res) => {
-  Note.findOneAndDelete({ _id: params.id })
-    .then(dbNote => {
-      if (!dbNote) {
-        res.json({ message: 'No note found with this id!' });
-        return;
-      }
-      res.json(dbNote);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });

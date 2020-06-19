@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Notedb', {
 mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
-app.post('/submit', ({ body }, res) => {
+app.post('/api/submit', ({ body }, res) => {
   Note.create(body)
     .then(dbNote => {
       res.json(dbNote);
@@ -29,37 +29,9 @@ app.post('/submit', ({ body }, res) => {
     });
 });
 
-app.get('/all', (req, res) => {
+app.get('/api/all', (req, res) => {
   Note.find({})
     .then(dbNote => {
-      res.json(dbNote);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-app.post('/update/:id', ({ params, body }, res) => {
-  Note.findOneAndUpdate({ _id: params.id }, body, { new: true })
-    .then(dbNote => {
-      if (!dbNote) {
-        res.json({ message: 'No note found with this id!' });
-        return;
-      }
-      res.json(dbNote);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-app.delete('/delete/:id', ({ params }, res) => {
-  Note.findOneAndDelete({ _id: params.id })
-    .then(dbNote => {
-      if (!dbNote) {
-        res.json({ message: 'No note found with this id!' });
-        return;
-      }
       res.json(dbNote);
     })
     .catch(err => {

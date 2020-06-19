@@ -10,7 +10,7 @@ const NoteSchema = new Schema({
   note: {
     type: String,
     trim: true,
-    required: 'Password is Required',
+    required: 'Text is Required',
     minlength: 6
   },
 
