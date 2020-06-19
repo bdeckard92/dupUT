@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(props) {
+function Footer() {
 
   // Replace links with social media profiles
   const icons = [

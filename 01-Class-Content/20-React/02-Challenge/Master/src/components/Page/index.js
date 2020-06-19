@@ -6,9 +6,7 @@ import Contact from "../Contact";
 import Resume from "../Resume";
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Page(props) {
-
-  const { currentPage } = props;
+function Page({ currentPage }) {
 
   const renderPage = () => {
     switch(currentPage.name) {
