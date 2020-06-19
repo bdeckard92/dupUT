@@ -1,6 +1,6 @@
 # Notetaker PWA
 
-In this activity, you will implement offline functionality to a Notetaker app.
+In this activity, you will implement offline functionality to a Notetaker app. You can refer to the previous activities for the code to register, install, and activate the service worker.
 
 ## Instructions
 
@@ -20,7 +20,7 @@ In this activity, you will implement offline functionality to a Notetaker app.
 
   * Refer to the previous activities to get the code for registering a service worker!
 
-* In the [public/](Unsolved/public/) folder, create a `service-worker.js` file and add the following functionality:
+* In the [public/](Unsolved/public/) folder, create a `service-worker.js` file and do the following:
 
   * Name the caches `my-site-cache-v2` and `data-cache-v2` respectively.
 
@@ -29,6 +29,8 @@ In this activity, you will implement offline functionality to a Notetaker app.
   * Install and activate the service worker
 
   * Intercept fetch requests. If the response is successful, we clone it and store it in our cache. If the network request fails, we grab it from our cache.
+
+* If done correctly, create a few notes and you should be able to see all of your notes saved in cache even after going offline.
 
 ## Hint(s)
 
