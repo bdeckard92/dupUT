@@ -1,10 +1,10 @@
 # Webpack
 
-In this activity, you will create a `bundle.js` file with Webpack.
+In this activity, you will create a `bundle.js` file with webpack.
 
 ## Instructions
 
-* In the [Unsolved/](Unsolved/) folder, run `npm i -D webpack webpack-cli` in your command line to install Webpack.
+* In the [Unsolved/](Unsolved/) folder, run `npm i -D webpack webpack-cli` in your command line to install webpack.
 
 * Create a file called `webpack.config.js`.
 
@@ -16,15 +16,15 @@ In this activity, you will create a `bundle.js` file with Webpack.
 
     * Set the mode to be `development` mode.
 
-* In [index.html](Unsolved/index.html), change the Javascript script tag to use `bundle.js`.
+* In [index.html](Unsolved/index.html), change the JavaScript script tag to use `bundle.js`.
 
-* In [package.json](Unsolved/package.json), add the necessary scripts to run Webpack with the `--watch` option as well as without it. 
+* In [package.json](Unsolved/package.json), add the necessary scripts to run webpack with the `--watch` option as well as without it. 
 
-* To test it out, run Webpack without the `--watch` option in your command line, i.e. `npm run build`. Open `index.html` in your browser and check the console to see what message was printed. You should see "Hello Webpack!"
+* To test it out, run webpack without the `--watch` option in your command line, i.e. `npm run build`. Open `index.html` in your browser and check the console to see what message was printed. You should see "Hello Webpack!"
 
-* This time, run Webpack with the `--watch` option, i.e. `npm run webpack`. 
+* This time, run webpack with the `--watch` option, i.e. `npm run webpack`. 
 
-* While Webpack is running, in [app.js](Unsolved/src/app.js), replace "Hello Webpack!" with a message of your own and save the file.
+* While webpack is running, in [app.js](Unsolved/src/app.js), replace "Hello Webpack!" with a message of your own and save the file.
 
 * Check the browser's console to see the message updated!
 
