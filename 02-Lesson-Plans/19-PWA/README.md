@@ -1,4 +1,4 @@
-# Module 19 Instructor Overview: PWA
+# Module 19 Instructor Overview: Progressive Web Applications (PWA)
 
 ## Overview
 
