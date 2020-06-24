@@ -6,7 +6,7 @@ Most of this code is standard, which is why they are provided for you. However, 
 
 ## Instructions
 
-* Navigate to [Unsolved/](Unsolved/) and run `npm install`, `npm run seed`, and `npm start` in your command line.
+* Navigate to the [Unsolved/](Unsolved/) folder and run `npm install`, `npm run seed`, and `npm start` in your command line.
 
 * Navigate to <http://localhost:3001> in Chrome and open the Dev Tools. Keep your Dev Tools open to monitor your progress and debug if needed.
 
@@ -18,7 +18,7 @@ Most of this code is standard, which is why they are provided for you. However, 
 
   ![Install service worker](Images/install-code.png)
 
-  * Next, add the following code to activate your service worker and remove old data from the cache:
+  * Next, add the following code to activate your service worker and remove any old data from the cache:
 
   ![Activate service worker](Images/activate-code.png)
 
@@ -30,7 +30,7 @@ Most of this code is standard, which is why they are provided for you. However, 
   });
   ```
 
-  * Inside that function, if the request with a URL includes `/api/`, add the following code to handle those requests and store the responses in the cache:
+  * Inside that function, if the request with a URL includes `/api/`, we need to handle those requests and store the responses in the cache:
 
   ```js
   if (evt.request.url.includes('/api/')) {
@@ -59,7 +59,7 @@ Most of this code is standard, which is why they are provided for you. However, 
   }
   ```
 
-  * If the request path does not include `/api/`, then assume the request is for a static file. Add the following code in the function handling the `fetch` event, right below the code handling the requests to `/api/`:
+  * If the request path does not include `/api/`, then we can assume the request is for a static file. Add the following code in the function handling the `fetch` event, right below the code handling the requests to `/api/`:
 
   ```js
   evt.respondWith(
