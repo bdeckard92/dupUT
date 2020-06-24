@@ -13,6 +13,7 @@
 //   '/assets/images/icons/icon-72x72.png',
 //   '/assets/images/icons/icon-96x96.png',
 //   '/assets/images/icons/icon-128x128.png',
+//   '/assets/images/icons/icon-144x144.png',
 //   '/assets/images/1.jpg',
 //   '/assets/images/2.jpg',
 //   '/assets/images/3.jpg',
