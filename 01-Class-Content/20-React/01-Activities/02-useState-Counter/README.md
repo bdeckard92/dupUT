@@ -1,22 +1,27 @@
-# Decrement Counter
+# useState Counter
 
-In this activity we will add a "Decrement" button and click handler to the Click Counter application.
+In this activity, you will use the `useState` Hook to declare a state variable and update it by incrementing or decrementing using click handlers on buttons. 
 
 ## Instructions
 
-* Copy the [src](Unsolved/src) folder into your Create React App boilerplate. Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
+* **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
 
-* This example uses Bootstrap. Be sure to add the Bootstrap CDN to your `index.html` file.
+* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
 
-  ```html
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
-  ```
+* Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Open [localhost:3000](http://localhost:3000) in your web browser. This application's starter code is identical to the last example.
+* Check out the application running on <http://localhost:3000> in your browser. 
 
-* Add code to the `Counter` component to add a `Decrement` button which _decreases_ the value of `this.state.count` by one each time it is clicked.
+* In [Counter.js](../reactpractice/src/components/Counter.js), implement the following:
 
-### Hints
+  * Import `useState` Hook from React
 
-* Use the `Increment` button and event handler as a reference for creating the new button.
+  * Inside the `Counter` component, declare a new state variable by calling the `useState` Hook. It returns two values. Name the variable, `count`, and initialize it to zero by passing `0` as the only `useState` argument. The second returned item is a function, which you can name `setCount`.
 
+  * Add a click handler to the two buttons so that when the buttons are clicked, `setCount` is called and `count` is assigned a new incremented or decremented value respectively.
+
+* Check the application in your browser to see if the counter works properly.
+
+## Hint(s)
+
+* You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html).
