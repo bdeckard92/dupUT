@@ -1,7 +1,7 @@
 // Import useState Hook from React
 import React from 'react';
 
-function Counter() {
+function Counter({ count }) {
   // Call the useState Hook directly inside our component
   // Declare a new state variable, called "count", and set it to 0
   // YOUR CODE HERE
