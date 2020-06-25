@@ -14,9 +14,11 @@ In this activity, you will use the `useState` Hook to declare a state variable a
 
 * In [Counter.js](../reactpractice/src/components/Counter.js), implement the following:
 
-  * Import `useState` Hook from React
+  * Import `useState` Hook from React.
 
   * Inside the `Counter` component, declare a new state variable by calling the `useState` Hook. It returns two values. Name the variable, `count`, and initialize it to zero by passing `0` as the only `useState` argument. The second returned item is a function, which you can name `setCount`.
+
+  * Show the current `count` value.
 
   * Add a click handler to the two buttons so that when the buttons are clicked, `setCount` is called and `count` is assigned a new incremented or decremented value respectively.
 

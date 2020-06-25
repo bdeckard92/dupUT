@@ -11,7 +11,8 @@ function Counter() {
     <div className="card text-center">
       <div className="card-header bg-primary text-white">Click Counter!</div>
       <div className="card-body">
-        <p className="card-text">Click Count: {count}</p>
+        {/* Add the count variable to show the current count value */}
+        <p className="card-text">Click Count: </p>
         {/* When the button is clicked, we call setCount with the incremented value of count */}
         <button className="btn btn-primary">Increment</button>{' '}
         {/* When the button is clicked, we call setCount with the decremented value of count */}
