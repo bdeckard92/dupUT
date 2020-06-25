@@ -1,32 +1,35 @@
 # Component Map
 
-In this activity we will map over a list of data and render components from each piece of data.
+In this activity, you will map over a list of groceries and render components from each piece of data.
 
 ## Instructions
 
-* Replace your React application's `src` folder with [src](Unsolved/src). Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
+* **Note** You will be using the same React application, [reactpractice](../reactpractice), for all of our activities today.
 
-* This activity uses Bootstrap. Be sure to add the Bootstrap CDN to your React app's `index.html` file:
+* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
 
-  ```html
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
-  ```
+* Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Open the application in your web browser and study the rendered application. Then take a minute to study the included components:
+* Check out the application running on <http://localhost:3000> in your browser. Then take a minute to study the included components:
 
-  * **App**: Our Application's root component.
+  * **App.js**: Our application's root component.
 
-  * **List**: Responsible for rendering an unordered list from `props.data`.
+  * **List.js**: Responsible for rendering an unordered list from `props`.
 
-* Modify the `List` component so that inside of its `ul` tags, it renders one `li` tag for each item in array of grocery objects being passed via props. Each `li` tag should display the `text` property of each grocery object. The array map method should be used for this.
+* Modify the `List` component so that inside of its `ul` tags, it renders one `li` tag for each item in the array of grocery objects being passed via props. 
+
+  * Each `li` tag should display the `text` property of each grocery object. 
+  
+  * The `.map()` method should be used for this.
+
+* Check the application in your browser to see all of the groceries listed.
+
+* Press `CTRL + C` to stop the server before moving on to the next activity.
+
+## Hint(s)
+
+* You can refer to the React Docs for [Lists and Keys](https://facebook.github.io/react/docs/lists-and-keys.html) and the MDN Web Docs for [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
+
+## Bonus
 
 * For styling purposes, give each `li` tag a class of `list-group-item`.
-
-### Hints
-
-* You should definitely look at [React's documentation for lists and keys](https://facebook.github.io/react/docs/lists-and-keys.html)
-
-* See MDN Documentation for [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
-
-* You will only need to modify the `List` component.
-
