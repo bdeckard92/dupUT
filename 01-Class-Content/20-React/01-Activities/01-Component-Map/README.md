@@ -28,7 +28,7 @@ In this activity, you will map over a list of groceries and render components fr
 
 ## Hint(s)
 
-* You can refer to the React Docs for [Lists and Keys](https://facebook.github.io/react/docs/lists-and-keys.html) and the MDN Web Docs for [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
+* You can refer to the React Docs on [Lists and Keys](https://facebook.github.io/react/docs/lists-and-keys.html) and the MDN Web Docs on [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
 
 ## Bonus
 

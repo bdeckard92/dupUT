@@ -42,4 +42,4 @@ In this activity, you will render one of four different components based upon th
 
 ### Hints
 
-* Refer to [React Docs on Conditional Rendering](https://facebook.github.io/react/docs/conditional-rendering.html) and [MDN Web Docs on switch statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
+* You can refer to the React Docs on [Conditional Rendering](https://facebook.github.io/react/docs/conditional-rendering.html) and MDN Web Docs on [switch statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
