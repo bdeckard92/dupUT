@@ -1,25 +1,33 @@
-# Friends List Refactor
+# Friends List
 
-In this activity we will use our new React skills to further refactor the Friends List application from earlier.
+In this activity, you will map through `friendsList` and render a `FriendCard` component for each friend. You will also add functionality to remove a `FriendCard` from the page.
 
 ## Instructions
 
-* Replace your React App's `src` folder with [Unsolved/src](Unsolved/src). Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
+* **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
 
-* Open [localhost:3000](http://localhost:3000) in your browser and take a moment to study the rendered app.
+* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
 
-* Attempt to complete each of the following:
+* Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
+
+* Check out the application running on <http://localhost:3000> in your browser. Right now, you can't see any `FriendCard` rendered on the page.
+
+* Open [App.js](../reactpractice/src/App.js) and do the following:
   
-  1. Refactor the `App` component so that it's a class component. Set the component's initial state to the `friends` JSON array. Inside of the `render` method, map over `this.state.friends` to render each `FriendCard` component.
+  * Import the `useState` Hook from React. 
+  
+  * Using `useState`, declare a new state variable `friendsList` and set the initial value to the imported `friends` array from `friends.json`. Name the returned setter method `setFriendsList`.
 
-  2. Refactor the `App` component so that rather than rendering each `FriendCard` component manually, use a map to render one `FriendCard` component for each object in the `friends` JSON, passing in the appropriate props.
+  * Add functionality so that when the red X icon on a `FriendCard` is clicked, that `FriendCard` is removed from the page. To do that, create a method `removeFriend` that accepts an `id` parameter and then utilizes the `.filter()` method to create a new array of friends without the passed `id`. Update the state with this new filtered array.
 
-  3. Add functionality to the application so that when the red X icon on a `FriendCard` is clicked, that `FriendCard` is removed from the page. To accomplish this, you should define a method inside of `App` which accepts an `id` parameter, and then utilize filter to create a new array of friends without the passed `id`. Then set `this.state.friends` to this new filtered array. You'll want to pass this method into each `FriendCard` component and attach an `onClick` listener to the "remove" span.
+  * Map through `friendsList` to render a `FriendCard` for each friend. Remember to pass the `removeFriend` method into each `FriendCard` along with each property of a `friend`.
 
-## Hints
+* Keep checking the application in your browser as you make the changes.
 
-* Test your application after each step!!
+* Press `CTRL + C` to stop the server.
 
-* Refer back to the previous in class activities for if you get stuck anywhere.
+## Hint(s)
 
-* If you get stuck working with the event handler, spend a few minutes reading [React's Documentation](https://facebook.github.io/react/docs/handling-events.html) on handling events. 
+* Check `friends.json` for the properties of a `friend` to pass into `FriendCard`.
+
+* You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html), [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html), and the [MDN Docs on .filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
