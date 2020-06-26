@@ -1,4 +1,4 @@
-// Import useEffect Hook from React
+// Import `useEffect` Hook from React
 import React, { useState } from 'react';
 
 function Thermostat() {
@@ -11,7 +11,7 @@ function Thermostat() {
 
   return (
     <div className="card text-center">
-      <div className="card-header bg-primary text-white">
+      <div className="card-header bg-warning text-white">
         Building Temperature
       </div>
       <div className="card-body">

@@ -1,18 +1,15 @@
-// Import useEffect Hook from React
 import React, { useState, useEffect } from 'react';
 
 function Thermostat() {
-  // Set the starting temperature
   const [temp, setTemp] = useState(75);
 
-  // Use the `useEffect` Hook to set the `document.title` to the current temperature
   useEffect(() => {
     document.title = `${temp}° Fahrenheit`;
   });
 
   return (
     <div className="card text-center">
-      <div className="card-header bg-primary text-white">
+      <div className="card-header bg-warning text-white">
         Building Temperature
       </div>
       <div className="card-body">
