@@ -18,19 +18,21 @@ In this activity, you will render one of four different components based upon th
 
 * Open [NavTabs.js](../reactpractice/src/components/NavTabs.js) and observe the code.
   
-  * Whenever a nav item is clicked, it sets `currentPage` inside of `PortfolioContainer` to the selected nav item.
+  * We are mapping through the different tabs and creating the nav items.
+  
+  * Whenever a nav item is clicked, it sets `currentPage` inside of `PortfolioContainer` to the selected tab.
 
 * Open [PortfolioContainer.js](../reactpractice/src/components/PortfolioContainer.js) and do the following:
 
   * Add a `switch` statement to `PortfolioContainer` so that depending on the `currentPage`, a different component is returned in order to be rendered underneath the `NavTabs` component.
 
-    * Return the `About` component when `currentPage`is "About"
+    * Return the `About` component when `currentPage`is "About".
   
-    * Return the `Blog` component when `currentPage` is "Blog"
+    * Return the `Blog` component when `currentPage` is "Blog".
 
-    * Return the `Contact` component when `currentPage` is "Contact"
+    * Return the `Contact` component when `currentPage` is "Contact".
 
-    * Return the `Home` component when `currentPage` is "Home"
+    * Return the `Home` component as default.
 
   * Under the `NavTabs`, render the component returned by the `switch` statement.
 
@@ -40,4 +42,4 @@ In this activity, you will render one of four different components based upon th
 
 ### Hints
 
-* Refer to [React Docs on Conditional Rendering](https://facebook.github.io/react/docs/conditional-rendering.html) and [MDN Web Docs on switch statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+* Refer to [React Docs on Conditional Rendering](https://facebook.github.io/react/docs/conditional-rendering.html) and [MDN Web Docs on switch statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
