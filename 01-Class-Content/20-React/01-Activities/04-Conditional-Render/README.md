@@ -10,21 +10,17 @@ In this activity, you will render one of four different components based upon th
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser. 
-
-  * At the top of the page, there's a Bootstrap NavTabs component. 
-  
-  * Whenever a nav element is clicked, the nav element goes into an "active" state. 
+* Check out the application running on <http://localhost:3000> in your browser. At the top of the page, there's a Bootstrap NavTabs component. Whenever a nav element is clicked, the nav element goes into an "active" state. But nothing is rendered on the page.
 
 * Open [NavTabs.js](../reactpractice/src/components/NavTabs.js) and observe the code.
   
-  * We are mapping through the different tabs and creating the nav items.
+  * We are mapping through the tabs and creating the `<li>` nav items for each tab.
   
-  * Whenever a nav item is clicked, it sets `currentPage` inside of `PortfolioContainer` to the selected tab.
+  * Whenever a nav item is clicked, it sets the `currentPage` inside of the `PortfolioContainer` component to the selected tab through the `handlePageChange` method.
 
 * Open [PortfolioContainer.js](../reactpractice/src/components/PortfolioContainer.js) and do the following:
 
-  * Add a `switch` statement to `PortfolioContainer` so that depending on the `currentPage`, a different component is returned in order to be rendered underneath the `NavTabs` component.
+  * Add a `switch` statement to `renderPage()` so that depending on the `currentPage`, a different component is returned in order to be rendered on the page.
 
     * Return the `About` component when `currentPage`is "About".
   
@@ -34,7 +30,7 @@ In this activity, you will render one of four different components based upon th
 
     * Return the `Home` component as default.
 
-  * Under the `NavTabs`, render the component returned by the `switch` statement.
+  * Under the `<NavTabs>`, render the component returned by `renderPage()`.
 
 * Check the application in your browser to see if the page changes when you click the different nav items.
 

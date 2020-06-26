@@ -9,7 +9,7 @@ function Portfolio() {
   const [currentPage, handlePageChange] = useState('Home');
 
   const renderPage = () => {
-    // Add a switch statement that will return the appropriate component of the currentPage
+    // Add a switch statement that will return the appropriate component of the 'currentPage'
     // YOUR CODE HERE
     //
   };
@@ -19,7 +19,7 @@ function Portfolio() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>
         {
-          // Render the component returned by renderPage
+          // Render the component returned by 'renderPage()'
           // YOUR CODE HERE
           //
         }
