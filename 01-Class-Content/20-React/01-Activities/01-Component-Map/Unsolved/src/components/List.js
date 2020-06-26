@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function List(props) {
   return (
     <ul className="list-group">
-      Using the map method, render one li element displaying the text property of each grocery
-      object.
+      {/* Map over the groceries from props and for each item render <li> tags with the item's name */}
     </ul>
   );
 }
