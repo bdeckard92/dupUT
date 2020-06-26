@@ -4,19 +4,19 @@ In this activity, you will use the `useState` Hook to declare a state variable a
 
 ## Instructions
 
-* **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
+* **Note** You will be using the same React application, [reactpractice](../reactpractice), for all of our activities today. Stop the server if it is still running.
 
 * Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser. 
+* Check out the application running on <http://localhost:3000> in your browser. We see two buttons but nothing happens when we click them. Also the "Click Count" is blank.
 
-* In [Counter.js](../reactpractice/src/components/Counter.js), implement the following:
+* Open [Counter.js](../reactpractice/src/components/Counter.js) and implement the following:
 
   * Import `useState` Hook from React.
 
-  * Inside the `Counter` component, declare a new state variable by calling the `useState` Hook. It returns two values. Name the variable, `count`, and initialize it to zero by passing `0` as the only `useState` argument. The second returned item is a function, which you can name `setCount`.
+  * Inside the `Counter` component, using `useState`, declare a new state variable `count` and initialize it to zero by passing `0` as the `useState` argument. Name the returned setter method `setCount`.
 
   * Show the current `count` value.
 
