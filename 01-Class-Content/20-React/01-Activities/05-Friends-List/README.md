@@ -10,7 +10,7 @@ In this activity, you will map through `friendsList` and render a `FriendCard` c
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser. Right now, you can't see any `FriendCard` rendered on the page.
+* Check out the application running on <http://localhost:3000> in your browser. None of the `FriendCard`s are rendered on the page.
 
 * Open [App.js](../reactpractice/src/App.js) and do the following:
   
@@ -18,16 +18,16 @@ In this activity, you will map through `friendsList` and render a `FriendCard` c
   
   * Using `useState`, declare a new state variable `friendsList` and set the initial value to the imported `friends` array from `friends.json`. Name the returned setter method `setFriendsList`.
 
-  * Add functionality so that when the red X icon on a `FriendCard` is clicked, that `FriendCard` is removed from the page. To do that, create a method `removeFriend` that accepts an `id` parameter and then utilizes the `.filter()` method to create a new array of friends without the passed `id`. Update the state with this new filtered array.
+  * Create a method `removeFriend()` that accepts an `id` parameter and then utilizes the `.filter()` method to create a new array of friends without the passed `id`. Update the state with this new filtered array.
 
-  * Map through `friendsList` to render a `FriendCard` for each friend. Remember to pass the `removeFriend` method into each `FriendCard` along with each property of a `friend`.
+  * Map through `friendsList` to render a `FriendCard` for each friend. Remember to pass the `removeFriend()` method into each `FriendCard` along with each property of a `friend`.
 
-* Keep checking the application in your browser as you make the changes.
+* Keep checking the application in your browser as you make the changes. You should be able to see all of the `FriendCard`s rendered on the page and when you click the red X icon, that `FriendCard` should be removed from the page.
 
 * Press `CTRL + C` to stop the server.
 
 ## Hint(s)
 
-* Check `friends.json` for the properties of a `friend` to pass into `FriendCard`.
+* Check `friends.json` for the properties of `friend` to pass into `FriendCard`.
 
 * You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html), [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html), and the [MDN Docs on .filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
