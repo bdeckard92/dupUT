@@ -24,6 +24,8 @@ In this activity, you will use the `useState` Hook to declare a state variable a
 
 * Check the application in your browser to see if the counter works properly.
 
+* Press `CTRL + C` to stop the server.
+
 ## Hint(s)
 
 * You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html).

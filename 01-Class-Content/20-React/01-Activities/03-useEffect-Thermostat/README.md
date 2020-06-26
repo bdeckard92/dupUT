@@ -22,6 +22,8 @@ In this activity, you will use the `useEffect` Hook to update the browser tab to
 
 * Check the application in your browser to see if the thermostat works properly.
 
+* Press `CTRL + C` to stop the server before moving on to the next activity.
+
 ## Hint(s)
 
 * You can refer to the React Docs on [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html).
