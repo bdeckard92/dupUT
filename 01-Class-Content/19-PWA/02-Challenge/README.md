@@ -64,7 +64,7 @@ This `manifest.json` file for this project will contain the following properties
 
 * `name`
 
-*`short_name`
+* `short_name`
 
 * `icons`
 
