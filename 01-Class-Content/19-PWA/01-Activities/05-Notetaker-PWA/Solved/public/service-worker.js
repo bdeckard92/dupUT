@@ -10,7 +10,8 @@ const FILES_TO_CACHE = [
   '/assets/css/style.css',
   '/assets/images/icons/icon-72x72.png',
   '/assets/images/icons/icon-96x96.png',
-  '/assets/images/icons/icon-128x128.png'
+  '/assets/images/icons/icon-128x128.png',
+  '/assets/images/icons/icon-144x144.png'
 ];
 
 // Install the service worker
@@ -71,9 +72,14 @@ self.addEventListener('fetch', function(evt) {
   }
 
   evt.respondWith(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.match(evt.request).then(response => {
-        return response || fetch(evt.request);
+    fetch(evt.request).catch(function() {
+      return caches.match(evt.request).then(function(response) {
+        if (response) {
+          return response;
+        } else if (evt.request.headers.get('accept').includes('text/html')) {
+          // return the cached home page for all requests for html pages
+          return caches.match('/');
+        }
       });
     })
   );

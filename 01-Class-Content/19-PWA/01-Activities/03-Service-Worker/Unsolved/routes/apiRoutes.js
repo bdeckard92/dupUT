@@ -6,13 +6,4 @@ module.exports = app => {
       res.json(dbImages);
     });
   });
-
-  app.put('/api/images/:id', (req, res) => {
-    db.Image.updateOne(
-      { _id: req.params.id },
-      { rating: req.body.rating }
-    ).then(dbImage => {
-      res.json(dbImage);
-    });
-  });
 };
