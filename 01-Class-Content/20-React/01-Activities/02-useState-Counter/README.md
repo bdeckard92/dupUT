@@ -6,7 +6,7 @@ In this activity, you will use the `useState` Hook to declare a state variable a
 
 * **Note** You will be using the same React application, [reactpractice](../reactpractice), for all of our activities today. Stop the server if it is still running.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [reactpractice/public/](../reactpractice/public/) folder. 
+* Copy the [src](Unsolved/src) folder and swap out the previous `src` folder in the [reactpractice/](../reactpractice/) app with this one.
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
