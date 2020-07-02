@@ -40,13 +40,13 @@ N/A
 
 ## Algorithms
 
-* [01-reverse-no-built-in](01-Class-Content/08-Project-1/03-Algorithms/01-reverse-no-built-in)
+* [01-reverse-no-built-in](../../01-Class-Content/08-Project-1/03-Algorithms/01-reverse-no-built-in)
 
-* [02-reverse-in-place](01-Class-Content/08-Project-1/03-Algorithms/02-reverse-in-place)
+* [02-reverse-in-place](../../01-Class-Content/08-Project-1/03-Algorithms/02-reverse-in-place)
 
-* [03-look-say-sequence](01-Class-Content/08-Project-1/03-Algorithms/03-look-say-sequence)
+* [03-look-say-sequence](../../01-Class-Content/08-Project-1/03-Algorithms/03-look-say-sequence)
 
-* [04-is-numeric](01-Class-Content/08-Project-1/03-Algorithms/04-is-numeric)
+* [04-is-numeric](../../01-Class-Content/08-Project-1/03-Algorithms/04-is-numeric)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
