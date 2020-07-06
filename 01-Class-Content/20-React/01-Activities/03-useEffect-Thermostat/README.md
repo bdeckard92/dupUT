@@ -6,7 +6,7 @@ In this activity, you will use the `useEffect` Hook to update the browser tab to
 
 * **Note** You will be using the same React application, [reactpractice](../reactpractice), for all of our activities today.
 
-* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
+* Copy the [src](Unsolved/src) folder and paste it into the [reactpractice](../reactpractice/) app. 
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
