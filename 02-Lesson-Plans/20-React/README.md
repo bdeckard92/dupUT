@@ -20,13 +20,15 @@ In this week's virtual classes, you'll go over React, including rendering JSX, u
 
 * **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [reactpractice](../../01-Class-Content/20-React/01-Activities/reactpractice) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
+* Mapping and rendering JSX on to the page was covered in Lesson 1 and React Hooks and conditional rendering were all covered in Lesson 3.
+
 ## Module Challenge
 
 [Module 20 Challenge](../../01-Class-Content/20-React/02-Challenge)
 
 ## Heads-Up
 
-* Next week, students will learn about GraphQL.
+* Next week, students will learn about GraphQL. Familiarize yourself with GraphQL, as well as [Apollo](https://www.apollographql.com/) and the GraphQL Playground. 
 
 ## Resources
 
@@ -39,12 +41,6 @@ In this week's virtual classes, you'll go over React, including rendering JSX, u
 * [React Docs on Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 * [React Docs on Conditional Rendering](https://facebook.github.io/react/docs/conditional-rendering.html) 
-
-* [MDN Web Docs on map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-
-* [MDN Web Docs on filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-
-* [MDN Web Docs on switch statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ## Algorithms
 
