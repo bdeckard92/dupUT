@@ -1,36 +1,30 @@
-import React from "react";
-import List from "./components/List";
+import React from 'react';
+import List from './components/List';
 
 const groceries = [
   {
     id: 1,
-    name: "Milk",
-    purchased: true
+    name: 'Milk'
   },
   {
     id: 2,
-    name: "Eggs",
-    purchased: true
+    name: 'Eggs'
   },
   {
     id: 3,
-    name: "Cheese",
-    purchased: false
+    name: 'Cheese'
   },
   {
     id: 4,
-    name: "Cake Mix",
-    purchased: false
+    name: 'Cake Mix'
   },
   {
     id: 5,
-    name: "Carrots",
-    purchased: false
+    name: 'Carrots'
   },
   {
     id: 6,
-    name: "Juice",
-    purchased: true
+    name: 'Juice'
   }
 ];
 

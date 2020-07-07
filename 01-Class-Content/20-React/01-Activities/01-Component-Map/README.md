@@ -1,6 +1,6 @@
 # Component Map
 
-In this activity, you will map over a list of groceries and render components from each piece of data.
+In this activity, you will map over a list of groceries and render each item in an unordered list on the page.
 
 ## Instructions
 
@@ -10,17 +10,15 @@ In this activity, you will map over a list of groceries and render components fr
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser. Then take a minute to study the included components:
+* Check out the application running on <http://localhost:3000> in your browser. Right now, we don't see any of the grocery items on the page.
 
-  * **App.js**: Our application's root component.
+* Open [App.js](../reactpractice/src/App.js) and notice the array of groceries. It is passed into the `List` component.
 
-  * **List.js**: Responsible for rendering an unordered list from `props`.
+* Open [List.js](../reactpractice/src/components/List.js) and do the following:
 
-* Modify the `List` component so that inside of its `ul` tags, it renders one `li` tag for each item in the array of grocery objects being passed via props. 
+  * Inside of the `<ul>` tags, `.map` over the groceries that were passed through props.
 
-  * Each `li` tag should display the `text` property of each grocery object. 
-  
-  * The `.map()` method should be used for this.
+  * Render a `<li>` tag for each item and display the `name` property of each item.
 
 * Check the application in your browser to see all of the groceries listed.
 
@@ -28,8 +26,8 @@ In this activity, you will map over a list of groceries and render components fr
 
 ## Hint(s)
 
-* You can refer to the React Docs for [Lists and Keys](https://facebook.github.io/react/docs/lists-and-keys.html) and the MDN Web Docs for [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
+* You can refer to the React Docs on [Lists and Keys](https://facebook.github.io/react/docs/lists-and-keys.html) and the MDN Web Docs on [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
 
 ## Bonus
 
-* For styling purposes, give each `li` tag a class of `list-group-item`.
+* For styling purposes, give each `<li>` tag a `className` of `list-group-item`.
