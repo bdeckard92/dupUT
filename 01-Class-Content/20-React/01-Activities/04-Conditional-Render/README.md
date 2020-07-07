@@ -6,7 +6,7 @@ In this activity, you will render one of four different components based upon th
 
 * **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
 
-* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
+* Copy the [src](Unsolved/src) folder and paste it into the [reactpractice](../reactpractice/) app. 
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
@@ -16,7 +16,7 @@ In this activity, you will render one of four different components based upon th
   
   * We are mapping through the tabs and creating the `<li>` nav items for each tab.
   
-  * Whenever a nav item is clicked, it sets the `currentPage` inside of the `PortfolioContainer` component to the selected tab through the `handlePageChange` method.
+  * Whenever a nav item is clicked, it sets the `currentPage` inside of the `Portfolio` component to the selected tab through the `handlePageChange` method.
 
 * Open [PortfolioContainer.js](../reactpractice/src/components/PortfolioContainer.js) and do the following:
 
