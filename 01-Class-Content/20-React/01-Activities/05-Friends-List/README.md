@@ -6,7 +6,7 @@ In this activity, you will map through `friendsList` and render a `FriendCard` c
 
 * **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
 
-* Copy the [Unsolved/src](Unsolved/src) folder and paste it into the React application. 
+* Copy the [src](Unsolved/src) folder and paste it into the [reactpractice](../reactpractice/) app.
 
 * Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
 
@@ -30,4 +30,4 @@ In this activity, you will map through `friendsList` and render a `FriendCard` c
 
 * Check `friends.json` for the properties of `friend` to pass into `FriendCard`.
 
-* You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html), [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html), and the [MDN Docs on .filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
+* You can refer to the React Docs on [Using the State Hook](https://reactjs.org/docs/hooks-state.html), [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html), and the [MDN Web Docs on filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
