@@ -12,7 +12,7 @@ Your challenge this week is to refactor the e-commerce platform that you created
 ```md
 AS a senior engineer on an e-commerce platform
 I WANT my platform to use Redux to manage global state instead of the Context API
-SO THAT my website aligns with industry standards
+SO THAT my website's state management is taken out of the React ecosystem
 ```
 
 
@@ -46,7 +46,7 @@ The following animations show the web application's appearance and functionality
 
 ### Getting Started
 
-Read through the Redux [guide to getting started](https://redux.js.org/introduction/getting-started) to add Redux to your application. Note that the docs will refer to additional packages that you'll need to complete this implementation.
+Read through the Redux [basic tutorial](https://redux.js.org/basics/basic-tutorial) to add Redux to your application. Note that the docs will refer to additional packages that you'll need to complete this implementation.
 
 > **Important:** Make sure you look through ALL the documentation, because there are newer methods available that can make these tools much easier to implement. Remember that React has gone through several iterations, and some React + Redux tutorials that you find will assume you aren't using Hooks.
 
