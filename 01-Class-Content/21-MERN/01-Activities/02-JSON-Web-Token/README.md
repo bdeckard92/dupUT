@@ -10,17 +10,17 @@ In this activity, you will implement JSON Web Tokens as a way to authenticate a 
 
   * Require `jsonwebtoken` on top.
 
-  * Create a JWT `secret` and an `expiration` .
+  * Create a JWT `secret` and an `expiration`.
 
   * Export the `signToken()` function that takes in a `user` object and adds the `email` and `_id` properties to the token, along with the `secret` and `expiration`.
 
-* Open `typeDefs.js` and define a new `Mutation` and `Auth` type.
+* Open [typeDefs.js](Unsolved/schemas/typeDefs.js) and define a new `Mutation` and `Auth` type.
 
   * Add a `login()` mutation that takes in an `email` and `password` and returns an `Auth` object.
 
   * Add a `Auth` type that must return a `token` and can include any other `user` data.
 
-* Open `resolvers.js` and import the `signToken()` function on top.
+* Open [resolvers.js](Unsolved/schemas/resolvers.js) and import the `signToken()` function on top.
 
   * Update the `login()` mutation to sign a `token` and return an object that combines the `token` with the user's data.
 
