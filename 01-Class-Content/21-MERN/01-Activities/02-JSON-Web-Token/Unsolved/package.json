@@ -1,5 +1,5 @@
 {
-  "name": "graphql-schema",
+  "name": "graphql-jwt",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
