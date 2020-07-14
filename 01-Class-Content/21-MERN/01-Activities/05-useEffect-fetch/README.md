@@ -28,4 +28,4 @@ In this activity, you will use the `useEffect` Hook to make HTTP calls using `fe
 
 ## Hint(s)
 
-* You can refer to the React Docs on [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html).
+* You can refer to the React Docs on [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html), especially the [last part](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects) about running an effect only once.
