@@ -13,6 +13,10 @@ const BookSchema = new Schema({
     type: Number,
     required: true,
   },
+  description: {
+    type: String,
+    required: true,
+  },
 });
 
 const Book = model('Book', BookSchema);

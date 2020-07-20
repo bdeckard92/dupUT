@@ -7,6 +7,7 @@ export const QUERY_BOOKS = gql`
       title
       author
       pages
+      description
     }
   }
 `;

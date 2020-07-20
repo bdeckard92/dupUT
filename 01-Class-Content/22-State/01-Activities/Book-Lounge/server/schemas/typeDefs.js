@@ -6,6 +6,7 @@ const typeDefs = gql`
     title: String
     author: String
     pages: Int
+    description: String
   }
 
   type Query {

@@ -13,8 +13,9 @@ db.once('open', async () => {
     const title = faker.company.catchPhrase();
     const author = faker.name.findName();
     const pages = faker.random.number();
+    const description = faker.lorem.paragraphs();
 
-    bookData.push({ title, author, pages });
+    bookData.push({ title, author, pages, description });
   }
   await Book.collection.insertMany(bookData);
 
