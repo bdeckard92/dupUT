@@ -4,7 +4,7 @@ In this activity, you will create actions and reducers in order to implement a g
 
 ## Instructions
 
-* **Note** You will be using the same React application, [Book-Lounge](../Book-Lounge), for all of our activities today.
+* **Note** You will be using one web application, [Book-Lounge](../Book-Lounge), for all of our activities today.
 
 * Copy the [src](Unsolved/src) folder and paste it into the [Book-Lounge](../Book-Lounge) app. 
 
@@ -12,9 +12,9 @@ In this activity, you will create actions and reducers in order to implement a g
 
 * Check out the application running on <http://localhost:3000> in your browser. 
 
-* Open [App.js](../Book-Lounge/src/App.js) and notice how we are managing the state and what components are using it. 
+* Open [App.js](../Book-Lounge/client/src/App.js) and notice how we are managing the state and what components are using it. 
 
-* In the [utils](../Book-Lounge/src/utils) folder, create two files: `actions.js` and `reducers.js`.
+* In the [utils](../Book-Lounge/client/src/utils) folder, create two files: `actions.js` and `reducers.js`.
 
   * In `actions.js`, define two actions: `UPDATE_BOOKS` and `UPDATE_CURRENT_BOOK`.
 
