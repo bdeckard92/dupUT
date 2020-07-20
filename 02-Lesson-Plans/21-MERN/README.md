@@ -26,7 +26,7 @@ In this week's virtual classes, you'll go over mainly GraphQL, including using t
 
 ## Heads-Up
 
-* Next week, students will learn about state, mainly Redux. Students will also learn about the Stripe payment platform and Context API.
+* Next week, students will learn about state management, mainly React Context API. Students will also learn about the Stripe payment platform.
 
 ## Resources
 
