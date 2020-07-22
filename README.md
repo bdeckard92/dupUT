@@ -12,9 +12,7 @@ If you find an error or bug in our curriculum, please submit feedback using the 
 
 **Note:** If a bug is related to a virtual class lesson plan in this repository, please create a GitHub issue for faster resolution.
 
-For information about onboarding and training, please consult your Onboarding course in Canvas. If you don't have access or a Canvas account, please email support@bootcampspot.com and provide your name and university. 
-
-For FAQs and reference material regarding teaching this Coding Online course, consult the [Online Instructor Resources Repository](https://coding-bootcamp-instructor-onboarding-prework.readthedocs-hosted.com/en/latest/).
+For information about onboarding and training, please consult your Onboarding course in Canvas. If you don't have access or a Canvas account, please email support@bootcampspot.com and provide your name and university.
 
 In case of emergency, message the Full-Stack Online Program Support Manager, Xander Rapstine, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
 
