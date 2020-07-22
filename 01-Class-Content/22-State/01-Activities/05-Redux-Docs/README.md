@@ -1,6 +1,6 @@
 # Redux Documentation
 
-In this activity, you will read through the official Redux documentation to not only learn about Redux, but also practice reading official documentation and implementing what you learned to your code. We will NOT be using `Book-Lounge` for this activity.
+In this activity, you will read through the official Redux documentation to not only learn about Redux, but also practice reading official documentation and implementing what you learned to your code. 
 
 ## Instructions
 
@@ -20,10 +20,20 @@ In this activity, you will read through the official Redux documentation to not 
 
 **Part 2**
 
-* Using what you read about Redux, create a Redux [store](Unsolved/store.js) and refactor [reducers.js](Unsolved/reducers.js) and [App.js](Unsolved/App.js) to use the Redux store.
+* **Note** You will be using one web application, [Book-Lounge](../Book-Lounge), for all of our activities today.
+
+* Copy the [src](Unsolved/src) folder and paste it into the [Book-Lounge](../Book-Lounge) app. 
+
+* Using what you read about Redux, create a Redux [store](../Book-Lounge/client/src/utils/store.js) and refactor [reducers.js](../Book-Lounge/client/src/utils/reducers.js) and [App.js](../Book-Lounge/client/src/App.js) to use the Redux store.
+
+* Navigate to [01-Activities/Book-Lounge](../Book-Lounge) and start the app in dev mode by running `npm start` from your command line.
+
+* Check out the application running on <http://localhost:3000> in your browser and you should see the store logged in the console with the initial state.
+
+* Press `CTRL + C` to stop the server.
 
 ## Hint(s)
 
 * Check out "Getting Started with Redux" and the "Basic Tutorial" in the Redux Docs to guide you through the activity. 
 
-* Do not worry if you can't finish Part 2. This activity is a preview of what you will do on your Challenge.
+* Don't worry if you can't finish Part 2. This activity is a preview of what you will do on your Challenge.
