@@ -37,7 +37,7 @@ const Detail = () => {
         currentBook: {}
       });
     };
-  }, [loading, currentBook, dispatch]);
+  }, [loading, currentBook, dispatch, data]);
 
   return (
     <main>

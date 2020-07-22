@@ -18,13 +18,13 @@ In this activity, you will refactor the components to read state data from the s
   
   * Once the `data` is returned from the `useQuery()` but before there is a `currentBook` set, execute the `dispatch()` function to trigger the `UPDATE_BOOKS` action with the books from the `data`. 
 
-  * Once the books have been loaded, `currentBook` will have a value of the book that we found using the `bookId` from the params. That should then trigger the `UPDATE_CURRENT_BOOK` action with the `currentBook`.
+  * Once the books have been loaded, `currentBook` will have a value of a book. That should then trigger the `UPDATE_CURRENT_BOOK` action with the `currentBook`.
 
 * Open [App.js](../Book-Lounge/client/src/App.js) and remove the prop drilling.
 
 * Navigate to [01-Activities/Book-Lounge](../Book-Lounge) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser. 
+* Check out the application running on <http://localhost:3000> in your browser. Everything should work as before, but now using global state!
 
 * Press `CTRL + C` to stop the server before moving on to the next activity.
 
@@ -32,4 +32,4 @@ In this activity, you will refactor the components to read state data from the s
 
 * Check out [BookList.js](../Book-Lounge/client/src/pages/BookList.js) for an example of refactoring already done for you.
 
-* You can refer to the [React Docs on Context](https://reactjs.org/docs/context.html)
+* You can refer to the [React Docs on useEffect](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
