@@ -5,10 +5,10 @@ import store from './utils/store';
 
 function App() {
   return (
-    <div>
+    <div className="m-5">
       <Provider store={store}>
-        <h4>Check the console</h4>
-        <div className="container">{console.log(store.getState())}</div>
+        <h4>Here is the initialState:</h4>
+        <div className="container">{JSON.stringify(store.getState())}</div>
       </Provider>
     </div>
   );
