@@ -28,7 +28,7 @@ In this activity, you will read through the official Redux documentation to not 
 
 * Navigate to [01-Activities/Book-Lounge](../Book-Lounge) and start the app in dev mode by running `npm start` from your command line.
 
-* Check out the application running on <http://localhost:3000> in your browser and you should see the store logged in the console with the initial state.
+* Check out the application running on <http://localhost:3000> in your browser and you should see the store with the initial state on the page.
 
 * Press `CTRL + C` to stop the server.
 
