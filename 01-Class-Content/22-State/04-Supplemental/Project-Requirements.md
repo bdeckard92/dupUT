@@ -11,11 +11,11 @@
 * Be deployed using Heroku (with data).
 
 * Meet the minimum requirements of a PWA:
+
+	* Uses a web manifest
 	
-  * Uses a web manifest
-
 	* Uses a service worker for offline functionality
-
+	
 	* Is installable
 
 * Have a polished UI.
