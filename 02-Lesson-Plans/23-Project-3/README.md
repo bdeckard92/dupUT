@@ -22,6 +22,8 @@ N/A
 
 * Students will present their group projects during next week's Required session. 
 
+* Remind students that they should connect their repository to Heroku for automatic deployment. Students can refer to Module 21 Lesson 6 on how to do this.
+
 * Prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative 'awards'.
 
 ## Resources

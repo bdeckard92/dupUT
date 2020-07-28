@@ -36,7 +36,7 @@ Finally, you must add your project to the portfolio that you created in Module 2
 
 You should also consider the following suggestions to help your project stand out:
 
-#### CSS Styling
+## CSS Styling
 
 Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
 
@@ -48,7 +48,7 @@ Instead of using a CSS library like Bootstrap, consider one of the following sug
 
 Ultimately, it doesn't matter which of these options you choose&mdash;it just needs to look professional and be mobile-friendly.
 
-#### Payment Platform
+## Payment Platform
 
 Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
