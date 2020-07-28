@@ -18,13 +18,11 @@ In this week's virtual classes, students will continue working on their projects
 
 * Divide the Required session class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
-## Module Challenge
-
-N/A
-
 ## Heads-Up
 
-*  
+* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **the Sunday after the Required Class**. 
+
+* Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Program Support Manager for the link.
 
 ## Resources
 
@@ -33,6 +31,8 @@ N/A
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+
+* [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 
 ## Algorithms
 
