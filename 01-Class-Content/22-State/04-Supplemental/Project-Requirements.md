@@ -34,4 +34,10 @@
 
 Finally, you must add your project to the portfolio that you created in Module 20.
 
+You should also consider the following suggestions to help your project stand out:
+
+* Instead of using a CSS library like Bootstrap, consider using CSS-in-JS, a component library, or create your own CSS stylesheet.
+
+* Consider integrating the Stripe payment platform.
+
 **More details about the project will be provided in the lessons for Module 23 in Canvas.**
