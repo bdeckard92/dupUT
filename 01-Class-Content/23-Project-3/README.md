@@ -2,7 +2,7 @@
 
 ## Overview
 
-Our journey together is coming to an end, but this is just the beginning for yours as a full-stack web developer. Just about six months ago, you started the transformative journey towards becoming a web developer. Don’t diminish your accomplishments&mdash;you’ve done something extraordinary, and you should be immensely proud of your work! You started by mastering the foundational front-end technologies that all websites use. Next, you added back-end technologies to create full-stack applications. Finally, you learned how to make applications more performant and efficient by using cutting-edge technologies to create scalable MERN stack applications.
+Our journey together is coming to an end, but this is just the beginning for yours as a full-stack web developer. Just about six months ago, you started the transformative journey towards becoming a web developer. Don’t diminish your accomplishments&mdash;you’ve done something extraordinary, and you should be immensely proud of your work! 
 
 Remember, developers never stop learning and adding to their skillsets. You’ve had plenty of practice at this throughout the course. Make no mistake&mdash;you are now well equipped to succeed as a professional full-stack web developer!
 
@@ -14,9 +14,7 @@ This module and the next are similar to the previous group project modules. Duri
 
 * Git workflow in groups
 
-* Professional-grade portfolio
-
-* Resume
+* Professional-grade portfolio and resume
 
 ## Comprehension Check
 
@@ -36,19 +34,31 @@ You will be employer-ready if you can answer the following questions:
 
 You will be employer-competitive if you are able to:
 
+* Explain agile software development
+
+* Explain and execute git workflow in a collaborative project
+
+* Communicate with team members asynchronously
+
+* Design, build, and deploy a full-stack MERN application using Heroku
+
+* Prepare a professional presentation and repository README for your project
+
+* Speak technically about the features in your application
+
 * Polish your professional-grade portfolio to show all 3 deployed group projects, in addition to 2-3 of your best homework assignments or personal projects. 
 
-* Make sure that each project has a professional README outlining its functionality, the tech stack, and the build process including any challenges faced and how they were overcome. 
-
-* Draft a resume detailing your newly acquired skillset.
-
-* Submit your resume, portfolio, and Github on BCS for feedback from a Profile Coach.
-
-* Connect with your Career Director for ongoing coaching and attend Career Services workshops.
+* Update your resume detailing your newly acquired skillset.
 
 ## Helpful Links
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
+
+* [Learn the MERN Stack series](https://www.youtube.com/playlist?list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE)
+
+* [GraphQL course](https://www.youtube.com/watch?v=ed8SzALpx1Q)
+
+* [Google's video series on creating PWAs](https://www.youtube.com/playlist?list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

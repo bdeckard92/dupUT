@@ -36,8 +36,20 @@ Finally, you must add your project to the portfolio that you created in Module 2
 
 You should also consider the following suggestions to help your project stand out:
 
-* Instead of using a CSS library like Bootstrap, consider using CSS-in-JS, a component library, or create your own CSS stylesheet.
+#### CSS Styling
 
-* Consider integrating the Stripe payment platform.
+Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
+
+* Look into the concept of **CSS-in-JS**, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include [styled-components](https://styled-components.com/) and [Emotion](https://emotion.sh/docs/introduction).
+
+* Try using a component library, such as [Semantic UI](https://semantic-ui.com/), [Chakra UI](https://chakra-ui.com/), or [Ant Design](https://ant.design/).
+
+* Create all the CSS for your application just using CSS.
+
+Ultimately, it doesn't matter which of these options you choose&mdash;it just needs to look professional and be mobile-friendly.
+
+#### Payment Platform
+
+Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
 **More details about the project will be provided in the lessons for Module 23 in Canvas.**
