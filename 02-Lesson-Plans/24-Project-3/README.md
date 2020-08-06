@@ -18,6 +18,12 @@ In this week's virtual classes, students will continue working on their projects
 
 * Divide the Required session class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
+## Career Connection
+
+Now that you are in the last week of boot camp, it's more important than ever that students meet with their Career Director more than ever.  Remind sudents that they should reach out to their Career Director and meet with them often throughout boot camp to help prepare their professional materials. Students can also sign up for workshops [here](https://careerservicesonlineevents.splashthat.com/).
+
+If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+
 ## Heads-Up
 
 * Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **the Sunday after the Required Class**. 

@@ -20,6 +20,14 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 
 * THIS IS TOUGH STUFF! This week, tell your class to not feel discouraged if there are concepts that they can't nail down completely. Tell them to try their best, but to speak with you or a TA if they're unsure of anything.
 
+## Career Connection
+
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services, and how this material will be applicable to them in their future career.
+
+Remind sudents that they should reach out to their Career Director and meet with them often throughout boot camp to help prepare their professional materials. Students can also sign up for workshops [here](https://careerservicesonlineevents.splashthat.com/).
+
+If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+
 ## Module Challenge
 
 [Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge)

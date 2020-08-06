@@ -22,6 +22,14 @@ In this week's virtual classes, you'll go over React, including rendering JSX, u
 
 * Mapping and rendering JSX on to the page was covered in Lesson 1 and React Hooks and conditional rendering were all covered in Lesson 3.
 
+## Career Connection
+
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services, and how this material will be applicable to them in their future career.
+
+Remind sudents that they should reach out to their Career Director and meet with them often throughout boot camp to help prepare their professional materials. Students can also sign up for workshops [here](https://careerservicesonlineevents.splashthat.com/).
+
+If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+
 ## Module Challenge
 
 [Module 20 Challenge](../../01-Class-Content/20-React/02-Challenge)
