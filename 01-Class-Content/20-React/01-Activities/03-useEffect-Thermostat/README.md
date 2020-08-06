@@ -4,15 +4,15 @@ In this activity, you will use the `useEffect` Hook to update the browser tab to
 
 ## Instructions
 
-* **Note** You will be using the same React application, [00-react-app](../00-react-app), for all of our activities today.
+* **Note** You will be using the same React application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-react-app](../00-react-app/) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App/) app. 
 
-* Navigate to [01-Activities/00-react-app](../00-react-app) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. The browser tab says "React App" but we want it to show our current temperature, which right now is set to 0.
 
-* Open [Thermostat.js](../00-react-app/src/components/Thermostat.js) and do the following:
+* Open [Thermostat.js](../00-React-App/src/components/Thermostat.js) and do the following:
 
   * Import `useEffect` Hook from React.
 
