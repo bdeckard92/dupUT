@@ -8,7 +8,7 @@ In this activity, you will create actions and reducers in order to implement a g
 
 * Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](..00-React-App) app. 
 
-* Navigate to [01-Activities00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. 
 

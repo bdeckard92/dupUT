@@ -18,7 +18,7 @@ You will also announce the upcoming final project during this week's Required Cl
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have. 
 
-* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 * The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. In order to prepare the students for the challenge and also their career, the activity is about examining the official Redux Documentation. Emphasize to the students how important it is for them to be able to sift through documentation to find the right information that addresses the specific problem they're trying to solve at their jobs. 
 

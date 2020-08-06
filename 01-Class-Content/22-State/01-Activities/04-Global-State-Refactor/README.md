@@ -22,7 +22,7 @@ In this activity, you will refactor the components to read state data from the s
 
 * Open [App.js](..00-React-App/client/src/App.js) and remove the prop drilling.
 
-* Navigate to [01-Activities00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. Everything should work as before, but now using global state!
 
