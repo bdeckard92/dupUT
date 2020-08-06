@@ -38,9 +38,9 @@ In this week's virtual classes, you'll introduce students to the basics of HTML,
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services, and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
 
-Remind sudents that they should reach out to their Career Director and meet with them often throughout boot camp to help prepare their professional materials. Students can also sign up for [workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
 
 If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
 
