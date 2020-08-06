@@ -4,11 +4,11 @@ In this activity, you will create tests to check if the reducers we created in t
 
 ## Instructions
 
-* **Note** You will be using one web application, [Book-Lounge](../Book-Lounge), for all of our activities today.
+* **Note** You will be using one web application, [00-React-App](..00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [Book-Lounge](../Book-Lounge) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](..00-React-App) app. 
 
-* In the [src](../Book-Lounge/client/src/) folder, create a new folder for tests, and inside it, create a file called `reducers.test.js`.
+* In the [src](..00-React-App/client/src/) folder, create a new folder for tests, and inside it, create a file called `reducers.test.js`.
 
   * Import the reducer and the two actions at the top of the page.
 
@@ -18,7 +18,7 @@ In this activity, you will create tests to check if the reducers we created in t
 
   * Write a test for `UPDATE_CURRENT_BOOK`. You don't have to change all of the fields of the `currentBook` for our testing purposes. You can change just one field, like the `title`, and test that.
 
-* Navigate to the [client](../Book-Lounge/client) directory and run `npm run test`. Check if all of the tests passed.
+* Navigate to the [client](..00-React-App/client) directory and run `npm run test`. Check if all of the tests passed.
 
 ## Hint(s)
 
