@@ -18,7 +18,7 @@ In this week's virtual classes, you'll go over React, including rendering JSX, u
 
 * Students may feel a little overwhelmed with the new unusual syntax. Remind them that at the end of the day, we're still just working with JavaScript. Prioritize making sure they understand concepts, rather than worrying about them perfectly memorizing syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
-* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [reactpractice](../../01-Class-Content/20-React/01-Activities/reactpractice) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [00-react-app](../../01-Class-Content/20-React/01-Activities/00-react-app) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 * Mapping and rendering JSX on to the page was covered in Lesson 1 and React Hooks and conditional rendering were all covered in Lesson 3.
 
