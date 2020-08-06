@@ -4,15 +4,15 @@ In this activity, you will use the `useState` Hook to declare a state variable a
 
 ## Instructions
 
-* **Note** You will be using the same React application, [reactpractice](../reactpractice), for all of our activities today. Stop the server if it is still running.
+* **Note** You will be using the same React application, [00-React-App](../00-React-App), for all of our activities today. Stop the server if it is still running.
 
-* Copy the [src](Unsolved/src) folder and swap out the previous `src` folder in the [reactpractice/](../reactpractice/) app with this one.
+* Copy the [src](Unsolved/src) folder and swap out the previous `src` folder in the [00-React-App/](../00-React-App/) app with this one.
 
-* Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. We see two buttons but nothing happens when we click them. Also the "Click Count" is blank.
 
-* Open [Counter.js](../reactpractice/src/components/Counter.js) and implement the following:
+* Open [Counter.js](../00-React-App/src/components/Counter.js) and implement the following:
 
   * Import `useState` Hook from React.
 
