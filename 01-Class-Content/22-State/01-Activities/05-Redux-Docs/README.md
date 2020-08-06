@@ -20,13 +20,13 @@ In this activity, you will read through the official Redux documentation to not 
 
 **Part 2**
 
-* **Note** You will be using one web application, [00-React-App](..00-React-App), for all of our activities today.
+* **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](..00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
 
-* Using what you read about Redux, create a Redux [store](..00-React-App/client/src/utils/store.js) and refactor [reducers.js](..00-React-App/client/src/utils/reducers.js) and [App.js](..00-React-App/client/src/App.js) to use the Redux store.
+* Using what you read about Redux, create a Redux [store](../00-React-App/client/src/utils/store.js) and refactor [reducers.js](../00-React-App/client/src/utils/reducers.js) and [App.js](../00-React-App/client/src/App.js) to use the Redux store.
 
-* Navigate to [01-Activities/00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser and you should see the store with the initial state on the page.
 

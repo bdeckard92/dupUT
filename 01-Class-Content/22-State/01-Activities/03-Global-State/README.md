@@ -4,11 +4,11 @@ In this activity, you will create a new context object for the global state.
 
 ## Instructions
 
-* **Note** You will be using one web application, [00-React-App](..00-React-App), for all of our activities today.
+* **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](..00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
 
-* Navigate to [01-Activities/00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. 
 
@@ -24,7 +24,7 @@ In this activity, you will create a new context object for the global state.
 
   * Finally export both the `StoreProvider` and `useStoreContext()` Hook.
 
-* Open [App.js](..00-React-App/client/src/App.js) and import the `StoreProvider` so that the global state will be available to all of the components.
+* Open [App.js](../00-React-App/client/src/App.js) and import the `StoreProvider` so that the global state will be available to all of the components.
 
   * Wrap all of the components in `<StoreProvider>`.
 

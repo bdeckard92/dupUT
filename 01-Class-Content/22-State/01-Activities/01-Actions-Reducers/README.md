@@ -4,17 +4,17 @@ In this activity, you will create actions and reducers in order to implement a g
 
 ## Instructions
 
-* **Note** You will be using one web application, [00-React-App](..00-React-App), for all of our activities today.
+* **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](..00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
 
-* Navigate to [01-Activities/00-React-App](..00-React-App) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. 
 
-* Open [App.js](..00-React-App/client/src/App.js) and notice how we are managing the state and what components are using it. 
+* Open [App.js](../00-React-App/client/src/App.js) and notice how we are managing the state and what components are using it. 
 
-* In the [utils](..00-React-App/client/src/utils) folder, create two files: `actions.js` and `reducers.js`.
+* In the [utils](../00-React-App/client/src/utils) folder, create two files: `actions.js` and `reducers.js`.
 
   * In `actions.js`, define two actions: `UPDATE_BOOKS` and `UPDATE_CURRENT_BOOK`.
 
