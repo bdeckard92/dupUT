@@ -4,15 +4,15 @@ In this activity, you will map through `friendsList` and render a `FriendCard` c
 
 ## Instructions
 
-* **Note** You will be using the same React application `reactpractice` for all of our activities today. Stop the server if it is still running.
+* **Note** You will be using the same React application `00-React-App` for all of our activities today. Stop the server if it is still running.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [reactpractice](../reactpractice/) app.
+* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App/) app.
 
-* Navigate to [01-Activities/reactpractice](../reactpractice) and start the app in dev mode by running `npm start` from your command line.
+* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 
 * Check out the application running on <http://localhost:3000> in your browser. None of the `FriendCard`s are rendered on the page.
 
-* Open [App.js](../reactpractice/src/App.js) and do the following:
+* Open [App.js](../00-React-App/src/App.js) and do the following:
   
   * Import the `useState` Hook from React. 
   
