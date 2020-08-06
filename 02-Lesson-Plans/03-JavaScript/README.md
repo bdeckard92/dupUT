@@ -14,8 +14,15 @@ In this week's virtual classes, you'll introduce weekly algorithms; and review c
 
 * This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use the remaining time to review one of this week's algorithms. 
 
-* The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals. 
+* The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals.
 
+## Career Connection
+
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+
+Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+
+If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
 
 ## Module Challenge
 

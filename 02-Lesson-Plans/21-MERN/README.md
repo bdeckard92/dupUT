@@ -20,6 +20,14 @@ In this week's virtual classes, you'll go over mainly GraphQL, including using t
 
 * The `useEffect` Hook was not covered in the async material, however it is used in the Challenge. Use the class time to explain the activity and help students understand it so they can succeed in the Challenge.
 
+## Career Connection
+
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+
+Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+
+If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+
 ## Module Challenge
 
 [Module 21 Challenge](../../01-Class-Content/21-MERN/02-Challenge)
