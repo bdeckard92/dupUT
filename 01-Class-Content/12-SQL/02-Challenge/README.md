@@ -101,7 +101,7 @@ See if you can add some additional functionality to your application, such as th
 
 You are required to submit BOTH of the following for review:
 
-* A walkthrough video demonstrating the functionality of the application and passing tests.
+* A walkthrough video demonstrating the functionality of the application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
