@@ -18,6 +18,8 @@ In this week's virtual classes, students will continue working on their projects
 
 * Divide the Required session class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
+* Remind students to complete the End-of-Course Survey that covers their journey through this bootcamp. It’s important that they are aware of this in advance and that they take their time to complete the survey. This will ultimately help us understand how the program, the curriculum, the instruction, and our support can be improved!
+
 ## Career Connection
 
 Now that you are in the last week of boot camp, it's more important than ever that students meet with their Career Director more than ever.  Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).

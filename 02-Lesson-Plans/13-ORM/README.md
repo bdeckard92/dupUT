@@ -20,6 +20,8 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 
 * THIS IS TOUGH STUFF! This week, tell your class to not feel discouraged if there are concepts that they can't nail down completely. Tell them to try their best, but to speak with you or a TA if they're unsure of anything.
 
+* Remind students to complete the Midpoint Survey that covers their journey thus far. It’s important that they are aware of this in advance and that they take their time to complete the survey. This will ultimately help us understand how the program, the curriculum, the instruction, and our support can be improved!
+
 ## Career Connection
 
 During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
