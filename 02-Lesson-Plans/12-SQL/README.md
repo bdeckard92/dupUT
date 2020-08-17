@@ -18,7 +18,7 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 
 * Be sure to [install MySQL](https://dev.mysql.com/downloads/mysql/) before this week's classes and run the server to be able to initialize the MySQL command line prompt. 
 
-* Remind students to complete the Midpoint Survey coming up that covers their journey thus far. It’s important that they are aware of this in advance and that they take their time to complete the survey. This will ultimately help us understand how the program, the curriculum, the instruction, and our support can be improved!
+* Remind students to complete the Midpoint Survey coming up that covers their journey thus far. Clarify that this survey is **not** about the current Module, but is about the entire course up until this point! It’s important that they are aware of this in advance and that they take their time to complete the survey. This will ultimately help us understand how the program, the curriculum, the instruction, and our support can be improved!
 
 ## Career Connection
 
