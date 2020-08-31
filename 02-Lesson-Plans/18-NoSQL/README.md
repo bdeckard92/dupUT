@@ -20,6 +20,8 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 * CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, and the `.populate()` method are used in Lesson 2. Mongoose schema is introduced in Lesson 1 but validations are used in Lesson 5.
 
+* Although students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, ensure that they have the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md).
+
 ## Career Connection
 
 During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
