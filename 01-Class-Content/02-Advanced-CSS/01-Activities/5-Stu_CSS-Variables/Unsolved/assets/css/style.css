@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-/* Extract colos to CSS Variables */
+/* Extract colors to CSS Variables */
 
 body {
-  background-color: #F9EDED;
+  background-color: #f9eded;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -17,12 +17,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Calistoga', cursive;
+  font-family: cursive;
 }
 
-
 header {
-  background-color: #29364F;
+  background-color: #29364f;
 }
 
 .header-wrapper {
@@ -35,12 +34,12 @@ header {
 
 .header-wrapper h1 {
   margin: 0;
-  background-color: #1D6768;
+  background-color: #1d6768;
   padding: 20px 15px;
 }
 
 .header-wrapper h1 a {
-  color: #F9EDED;
+  color: #f9eded;
   text-decoration: none;
 }
 
@@ -52,11 +51,11 @@ header {
 }
 
 .header-wrapper nav a {
-  color: #F9EDED;
+  color: #f9eded;
   padding: 0 15px;
   font-size: 20px;
   text-decoration: none;
-  border-right: 2px solid #337EAA;
+  border-right: 2px solid #337eaa;
 }
 
 .header-wrapper nav a:last-child {
@@ -68,7 +67,7 @@ header {
   margin: 40px auto;
 }
 
-#main-content{
+#main-content {
   width: 80%;
   padding: 30px;
   display: flex;
@@ -77,11 +76,10 @@ header {
   border: 5px solid rgba(0, 240, 248, 0.76);
   border-radius: 5px;
   font-size: 35px;
-
 }
 
 #main-content {
   float: left;
-  color: #F9EDED;
-  background: #181B26;
+  color: #f9eded;
+  background: #181b26;
 }
