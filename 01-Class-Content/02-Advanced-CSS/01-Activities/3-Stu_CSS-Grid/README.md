@@ -13,3 +13,7 @@ In this activity you will take a basic page containing 10 items, and style it to
   * Box 10 occupies 4 rows spanning 3 columns
 
   * Boxes 3, 6, 9, and 10 are larger than the other grid items
+
+* Here is the mockup:
+
+  ![The mockup displays a grid with some items spanning more rows and columns than others.](./Images/100-mockup.png)
