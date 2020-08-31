@@ -4,7 +4,9 @@ In this activity you will take a page and style specific elements using pseudo-c
 
 ## Instructions
 
-* Take the starter code and use pseudo-classes to make the page resemble the mockup.
+* Take the starter code and use pseudo-classes to make the page resemble the mockup presented below:
+
+  ![The mockup shows that different styles are applied to specific HTML elements on the page](./Images/100-mockup.png)
 
 * The page will need to have the following styles using only CSS:
 

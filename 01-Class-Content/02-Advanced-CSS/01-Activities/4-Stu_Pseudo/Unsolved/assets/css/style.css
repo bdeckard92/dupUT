@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600');
-
 * {
   box-sizing: border-box;
 }
 
 body {
   background: #fffeee;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +20,6 @@ a {
 
 ul {
   list-style: none outside;
-
 }
 
 li {
@@ -42,4 +39,4 @@ li {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
-  }
+}
