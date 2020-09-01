@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
-    <title>Challenge Grading Rubric</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.css" rel="stylesheet" />
+    <title>Unit 1 HTML & CSS Challenge Rubric</title>
     <style>
       *,
       *::before,
@@ -75,6 +78,16 @@
         clip: rect(1px 1px 1px 1px);
         clip: rect(1px, 1px, 1px, 1px);
         white-space: nowrap;
+      }
+
+      .select-lg,
+      .select-lg option {
+        font-family: "Inter", sans-serif;
+        padding: 10px;
+      }
+
+      .narrow {
+        width: 800px;
       }
 
       #app {
@@ -198,6 +211,15 @@
         color: #e2e2e2;
       }
 
+      .card-header h2 {
+        display: inline-block;
+      }
+
+      .card .cat-score {
+        margin-left: 20px;
+        font-size: smaller;
+      }
+
       .card h3 {
         font-size: 1.2rem;
         font-weight: 700;
@@ -210,7 +232,6 @@
       .card label,
       .card legend {
         color: #7a869c;
-        font-weight: 300;
         border-width: 0;
         display: block;
         font-size: 1.1rem;
@@ -218,6 +239,19 @@
         line-height: 1.8em;
         margin: 0;
         padding: 0;
+      }
+
+      .card legend {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .card legend .score {
+        font-size: smaller;
+        margin-left: 20px;
+        font-weight: 100;
+        min-width: 5%;
       }
 
       .dark .card p,
@@ -329,6 +363,7 @@
 
       button.copy {
         margin-left: 0.4rem;
+        font-size: .8rem;
       }
 
       button:focus {
@@ -351,7 +386,6 @@
         font-size: 1.2rem;
         border: none;
         font-family: monospace;
-        white-space: pre-wrap;
         background-color: #d5d9de;
         padding: 0.9rem;
         border-radius: 6px;
@@ -359,12 +393,37 @@
         width: 100%;
       }
 
+      .summary h2,
+      .dark .summary h2 {
+        font-size: 1.2rem;
+        font-family: "Inter", sans-serif;
+        margin-top: 35px;
+        margin-bottom: 5px;
+      }
+
+      .summary h2:first-of-type,
+      .dark .summary h2:first-of-type {
+        margin-top: 15px;
+      }
+
       .dark .summary {
         background: #6b6a6a;
         color: #e2e2e2;
       }
 
-      .summary:empty {
+      .summary pre,
+      .dark .summary pre {
+        white-space: pre-wrap;
+        border-radius: 5px;
+        padding: 15px;
+        border: solid 2px rgba(0,0,0,.4);
+      }
+
+      .summary pre:empty {
+        display: none;
+      }
+
+      .summary pre:empty + button {
         display: none;
       }
 
@@ -437,24 +496,42 @@
         }
       }
     </style>
+    <script>
+      $(function () {
+        let $select2 = $('.select2').select2({
+          containerCssClass: "wrap"
+        })
+
+        function triggerEvent(name, val) {
+          let selected = $("select[name='" + name + "']")
+          let change = new Event('change', { bubbles: true })
+          selected[0].dispatchEvent(change)
+        }
+
+        $('.select2').on('select2:select', function (e) {
+          triggerEvent(e.target.name, e.target.value)
+        });
+      })
+  </script>
   </head>
   <body>
     <div id="app"></div>
-
     <script>
       (function(window) {
         "use strict";
 
         function Model() {
-          this.title = "Module 1 HTML & CSS Challenge Rubric";
+          this.title = `Unit 1 HTML & CSS Challenge Rubric (Coding)`;
           this.categories = [
             {
               title: "Deployment",
               subtitle: null,
+              score: 0,
               questions: [
                 {
                   title: "Student submitted deployed live application URL",
                   score: 8,
+                  type: "true false",
                   message: "Application isn't deployed",
                   status: false
                 },
@@ -462,18 +539,21 @@
                   title:
                     "Application loads at deployed URL (no 404, or Heroku/GH Pages error)",
                   score: 8,
+                  type: "true false",
                   message: "Application isn't deployed",
                   status: false
                 },
                 {
                   title: "Student submitted application GitHub URL",
                   score: 8,
+                  type: "true false",
                   message: "Missing GitHub submission URL",
                   status: false
                 },
                 {
                   title: "GitHub Repo contains application code",
                   score: 8,
+                  type: "true false",
                   message: "GitHub repo is empty",
                   status: false
                 }
@@ -483,33 +563,54 @@
               title: "Technical Acceptance Criteria",
               subtitle:
                 "Keep your browser console open and watch out for errors from this point forward.",
+              score: 0,
               questions: [
                 {
                   title:
                     "Application utilizes semantic HTML (articles, sections, headers, etc)",
                   score: 5,
+                  type: "true false",
                   message: "Application doesn't utilize semantic HTML",
                   status: false
                 },
                 {
                   title: "Application's HTML elements follow logical structure independent of styling and positioning",
                   score: 5,
+                  type: "true false",
                   message:
                     "Application HTML elements do not follow logical structure independent of styling and positioning",
                   status: false
                 },
                 {
-                  title:
-                    "Application's image elements all have accessible `alt` attributes",
+                  title: "Application's image elements all have accessible `alt` attributes",
                   score: 5,
-                  message:
-                    "Application's image elements do not all have accessible `alt` attributes",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application's image elements do not have accessible `alt` attributes",
+                      score: 0
+                    },
+                    {
+                      message: "Very few of the application's image elements have accessible `alt` attributes",
+                      score: 2
+                    },
+                    {
+                      message: "Most of the application's image elements have accessible `alt` attributes",
+                      score: 4
+                    },
+                    {
+                      message: "Application's image elements all have accessible `alt` attributes",
+                      score: 5
+                    }
+                  ],
+                  message: "",
                   status: false
                 },
                 {
                   title:
                     "Application's heading attributes appear in sequential order",
                   score: 5,
+                  type: "true false",
                   message:
                     "Application's heading attributes do not appear in sequential order",
                   status: false
@@ -518,40 +619,97 @@
                   title:
                     "Application's title element is concise and descriptive",
                   score: 5,
+                  type: "true false",
                   message:
                     "Application's title element is not concise and descriptive",
                   status: false
                 },
                 {
-                  title:
-                    "Application's links all function correctly",
+                  title: "Application's links all function correctly",
                   score: 5,
-                  message: "Application's links do not function correctly",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application's links do not function correctly",
+                      score: 0
+                    },
+                    {
+                      message: "Very few of the application's links function correctly",
+                      score: 2
+                    },
+                    {
+                      message: "Most of the application's links function correctly",
+                      score: 4
+                    },
+                    {
+                      message: "Application's links all function correctly",
+                      score: 5
+                    }
+                  ],
+                  message: "",
                   status: false
                 },
                 {
-                  title:
-                    "Application's CSS selectors and properties are consolidated and organized to follow semantic structure",
+                  title: "Application's CSS selectors and properties are consolidated and organized to follow semantic structure",
                   score: 5,
-                  message: "Application's CSS selectors and properties are not consolidated and organized to follow semantic structure",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application's CSS selectors and properties are not consolidated and organized to follow semantic structure",
+                      score: 0
+                    },
+                    {
+                      message: "Application's CSS selectors and properties are either not consolidated or organized to follow semantic structure",
+                      score: 2
+                    },
+                    {
+                      message: "Application's CSS selectors and properties could be better consolidated or better organized to follow semantic structure",
+                      score: 4
+                    },
+                    {
+                      message: "Application's CSS selectors and properties are consolidated and organized to follow semantic structure",
+                      score: 5
+                    }
+                  ],
+                  message: "",
                   status: false
                 },
                 {
-                  title:
-                    "Application's CSS file is properly commented",
+                  title: "Application's CSS file is properly commented",
                   score: 5,
-                  message: "Application's CSS file contains no comments",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application's CSS file contains no comments",
+                      score: 0
+                    },
+                    {
+                      message: "Application's CSS file contains very few comments",
+                      score: 2
+                    },
+                    {
+                      message: "Application's CSS file contains some comments, but should have more",
+                      score: 4
+                    },
+                    {
+                      message: "Application's CSS file is properly commented",
+                      score: 5
+                    }
+                  ],
+                  message: "",
                   status: false
-                },
+                }
               ]
             },
             {
               title: "Repository Quality",
               subtitle: null,
+              score: 0,
               questions: [
                 {
                   title: "Repository has a unique name",
                   score: 2,
+                  type: "true false",
                   message: "Repo doesn't have a unique name",
                   status: false
                 },
@@ -559,6 +717,7 @@
                   title:
                     "Repository follows best practices for file structure and naming conventions",
                   score: 2,
+                  type: "true false",
                   message:
                     "Code doesn't follow recommended file/folder structure",
                   status: false
@@ -567,6 +726,7 @@
                   title:
                     "Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.",
                   score: 2,
+                  type: "true false",
                   message:
                     "Code doesn't follow good practices for class/id names, indentation, lacks quality comments",
                   status: false
@@ -575,16 +735,34 @@
                   title:
                     "Repository contains multiple descriptive commit messages",
                   score: 2,
+                  type: "true false",
                   message:
                     "Repo doesn't contain multiple descriptive commit messages",
                   status: false
                 },
                 {
-                  title:
-                    "Repository contains quality README with description, screenshot, link to deployed application",
+                  title: "Repository contains quality README with description, screenshot, link to deployed application",
                   score: 5,
-                  message:
-                    "Repo doesn't include a high quality README with screenshots, a description, link to deployed application",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Repo doesn't include a high quality README with screenshots, a description, link to deployed application",
+                      score: 0
+                    },
+                    {
+                      message: "Repository README is missing 2 of the following: description, screenshot, or link to deployed application",
+                      score: 2
+                    },
+                    {
+                      message: "Repository README is missing 1 of the following: description, screenshot, or link to deployed application",
+                      score: 4
+                    },
+                    {
+                      message: "Repository contains quality README with description, screenshot, link to deployed application",
+                      score: 5
+                    }
+                  ],
+                  message: "",
                   status: false
                 }
               ]
@@ -592,13 +770,31 @@
             {
               title: "Application Quality",
               subtitle: null,
+              score: 0,
               questions: [
                 {
-                  title:
-                    "Application resembles (at least 90%) mock-up provided in Challenge instructions",
+                  title: "Application resembles (at least 90%) screenshots provided in HW instructions",
                   score: 15,
-                  message:
-                    "Application could resemble mock-up provided with Challenge instructions more closely",
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application does not resemble screenshots provided with HW instructions",
+                      score: 0
+                    },
+                    {
+                      message: "Application could resemble screenshots provided with HW instructions much more closely",
+                      score: 5
+                    },
+                    {
+                      message: "Application could resemble screenshots provided with HW instructions a bit more closely",
+                      score: 10
+                    },
+                    {
+                      message: "Application resembles (at least 90%) screenshots provided in HW instructions",
+                      score: 15
+                    }
+                  ],
+                  message: "",
                   status: false
                 }
               ]
@@ -607,10 +803,12 @@
               title: "Academic Integrity",
               subtitle:
                 "If any of of the following are true, partner with your instructor to investigate plagiarism. Contact your SSM if you believe plagiarism has occurred.",
+              score: 0,
               questions: [
                 {
                   title: "Application contains a low number of commits",
                   score: 0,
+                  type: "true false",
                   message: null,
                   status: false
                 },
@@ -618,6 +816,7 @@
                   title:
                     "Application codebase appears advanced for the student, at this point in the course, or in general",
                   score: 0,
+                  type: "true false",
                   message: null,
                   status: false
                 },
@@ -625,6 +824,7 @@
                   title:
                     "Application package.json file references a different author and/or repository",
                   score: 0,
+                  type: "true false",
                   message: null,
                   status: false
                 },
@@ -632,6 +832,7 @@
                   title:
                     "Application package.json file references much older versions of npm packages",
                   score: 0,
+                  type: "true false",
                   message: null,
                   status: false
                 }
@@ -650,13 +851,27 @@
           this.isDarkMode =
             JSON.parse(localStorage.getItem("isDarkMode")) || false;
 
-          this.categories.forEach(category => {
+          this.categories
+          .forEach(category => {
+            category.score = 0;
             category.questions.forEach(question => {
+              question.category = category.title;
               question.status = false;
               question.id = this.questions.length;
               question.flagged = category.title === "Academic Integrity";
-              question.message && this.messages.add(question.message);
+              question.bonus = category.title === "Bonus";
+              if (question.type === "likert") {
+                question.message = question.options[0].message.split(" - ").pop();
+              };
+
+              let messageObj = {
+                message : question.message,
+                category : question.category
+              };
+
+              question.message && !question.bonus && this.messages.add(messageObj);
               this.questions.push(question);
+              category.score += question.score;
             });
           });
         };
@@ -669,11 +884,29 @@
         Model.prototype.toggleRadio = function(radio) {
           const id = Number(radio.getAttribute("name"));
           const question = this.questions[id];
+          const questionScore = document.querySelector("span[data-id='" + id + "']");
+          const category = question.category;
+          const categoryScore = document.querySelector("span[data-cat='" + category + "']");
+          const resultsCategoryScore = document.querySelector("span[data-res-cat='" + category + "']");
 
           question.status = !question.status;
 
           if (question.status === true) {
-            this.messages.delete(question.message);
+            
+            if (!question.bonus) {
+              this.messages.forEach(message => {
+                if (message.message === question.message) {
+                  this.messages.delete(message);
+                }
+              })
+            } else {
+              let messageObj = {
+                message : question.message,
+                category : category
+              }
+              this.messages.add(messageObj);
+            }
+
             this.score += question.score;
 
             if (question.flagged) {
@@ -684,12 +917,108 @@
               this.flagged.delete(question.id);
             }
 
-            if (question.message) {
-              this.messages.add(question.message);
+            if (!question.bonus) {
+              if (question.message) {
+                let messageObj = {
+                  message: question.message,
+                  category: category
+                }
+                this.messages.add(messageObj);
+              }
+            } else {
+              this.messages.forEach(message => {
+                if (message.message === question.message) {
+                  this.messages.delete(message);
+                }
+              })
             }
 
             this.score -= question.score;
           }
+
+          if (category !== "Academic Integrity") {
+            if (question.status) {
+              questionScore.textContent = question.score;
+            } else {
+              questionScore.textContent = 0;
+            }
+
+            const catQuestions = this.categories.filter(cat => cat.title === category)[0].questions;
+            let categoryTotal = 0;
+
+            catQuestions.forEach(question => {
+              if (question.type === "true false") {
+                if (question.status) {
+                  categoryTotal += question.score;
+                }
+              } else {
+                let score = document.querySelector("select[name='" + question.id + "']").value;
+                categoryTotal += parseInt(score);
+              }
+            })
+
+            categoryScore.textContent = categoryTotal;
+            resultsCategoryScore.textContent = categoryTotal;
+          }
+
+        };
+
+        Model.prototype.handleSelect = function (select) {
+          const id = Number(select.getAttribute("name"));
+          const question = this.questions[id];
+          const questionScore = document.querySelector("span[data-id='" + id + "']");
+          const oldScore = questionScore.textContent;
+          const category = question.category;
+          const categoryScore = document.querySelector("span[data-cat='" + category + "']");
+          const resultsCategoryScore = document.querySelector("span[data-res-cat='" + category + "']");
+          let newMessage = select.selectedOptions[0].text.split(" - ").pop();
+          
+          if (newMessage === "Open this menu") {
+            newMessage = select[1].text.split(" - ").pop();
+          };
+
+          if (question.type === "likert") {
+
+            this.messages.forEach(item => {
+              if (item.message === question.message) {
+                this.messages.delete(item)
+              }
+            })
+           
+           question.message = newMessage;
+
+           let messageObj = {
+              message: newMessage,
+              category: category
+            }
+
+            this.messages.add(messageObj);
+
+          };
+
+          
+          
+          this.score -= parseInt(oldScore);
+          this.score += parseInt(select.value);
+          questionScore.textContent = select.value;
+
+          const catQuestions = this.categories.filter(cat => cat.title === category)[0].questions;
+          let categoryTotal = 0;
+
+          catQuestions.forEach(question => {
+              if (question.type === "true false") {
+                if (question.status) {
+                  categoryTotal += question.score;
+                }
+              } else {
+                let score = document.querySelector("select[name='" + question.id + "']").value;
+                categoryTotal += parseInt(score);
+              }
+            })
+
+          categoryScore.textContent = categoryTotal;
+          resultsCategoryScore.textContent = categoryTotal;
+
         };
 
         Model.prototype.calcGrade = function() {
@@ -740,37 +1069,67 @@
 
         View.prototype.cacheDom = function() {
           this.darkModeToggle = document.querySelector("#dark-mode");
+
           this.radios = Array.from(
             document.querySelectorAll("input[type='radio']")
           );
+
+          this.selects = Array.from(
+            document.querySelectorAll("select")
+          );
+
           this.totals = document.querySelector(".totals");
           this.grade = document.querySelector(".grade");
           this.alert = document.querySelector("div[role='alert']");
           this.summaryHeading = document.querySelector(".summary-heading");
           this.summary = document.querySelector(".summary");
+          
+          this.model.categories
+          .filter(category => category.title !== "Academic Integrity")
+          .map(category => {
+            let summary = category.title.replace(/\s+/g, '-').toLowerCase();
+            let summaryName = summary + "-summary";
+            return this[summaryName] = document.querySelector("." + summary);
+            })
+
           this.resetButton = document.querySelector(".reset");
-          this.copyButton = document.querySelector(".copy");
+          
+          this.model.categories
+          .filter(category => category.title !== "Academic Integrity")
+          .map(category => {
+            let button = category.title.replace(/\s+/g, '-').toLowerCase();
+            let buttonName = "copyButton-" + button;
+            return this[buttonName] = document.querySelector(".copy-" + button);
+            })
         };
 
-        View.prototype.createFieldset = function({ title, id }) {
+        View.prototype.createFieldset = function({ title, id, score, status, category, type, options }) {
           return `<fieldset class="input-group">
           <legend>
-            ${title}
+            <span class="title">${title}</span> ${category === "Academic Integrity" ? "" : "<span class='score'><span data-id='" + id + "' class='current-score'>0</span> / " + score + "</span>"}
           </legend>
-          <div class="radio-group">
+          ${type === "true false" ?
+          `<div class="radio-group">
             <input type="radio" name="${id}" id="${id}-true" value="true">
             <label for="${id}-true">True</label>
           </div>
           <div class="radio-group">
             <input type="radio" name="${id}" id="${id}-false" value="false" checked>
             <label for="${id}-false">False</label>
-          </div>
+          </div>` :
+          `<div class="select-group">
+            <select name="${id}" class="select-lg select2 narrow wrap">
+              <option value="0" selected>Open this menu</option>
+              ${options.map(option => `<option value="${option.score}">${option.score} - ${option.message}</option>`)}
+            </select>
+          </div>`
+        }
         </fieldset>`;
         };
 
-        View.prototype.createCard = function({ title, subtitle, questions }) {
+        View.prototype.createCard = function({ title, subtitle, questions, score }) {
           return `<div class="card">
-          <h2>${title}</h2>
+          <div class="card-header"><h2>${title}</h2> ${title !== "Academic Integrity" ? "<span class='cat-score'><span data-cat='" + title + "'>0</span> / " + score + "</span>" : ""}</div>
           ${subtitle ? `<h3>${subtitle}</h3>` : ""}
           ${questions.map(child => this.createFieldset(child)).join("")}
           </div>`;
@@ -778,20 +1137,30 @@
 
         View.prototype.createResults = function() {
           return `<div class="card">
-        <h2 class="totals">(0/100)</h2>
         <h2>Recommended Grade: <span class="grade">F</span></h2>
+        <h2 class="totals">Total: (0/100)</h2>
         <div class="d-none" role="alert">
           You've selected <strong>True</strong> for one of more Academic
           Integrity prompts and are advised to investigate plagiarism before
           issuing a grade.
         </div>
-        <h3 class="summary-heading d-none">Summary:</h3>
-        <pre class="summary" aria-label="summary">${[...this.model.messages]
-          .map(message => `* ${message}\n`)
-          .join("")}</pre>
+        <div class="summary" aria-label="summary">
+        ${this.model.categories
+          .filter(category => category.title !== "Academic Integrity")
+          .map(category => {
+            let score = category.score;
+            let title = category.title;
+            let catClass = title.replace(/\s+/g, '-').toLowerCase();
+
+            return "<h2>" + title + "<span class='cat-score'><span data-res-cat='" + title + "'>0</span> / " + score + "</span></h2><pre class='" + catClass + "'>" + [...this.model.messages]
+            .filter(messageObj => messageObj.category === category.title)
+            .map(messageObj => `* ${messageObj.message}\n`)
+            .join("") + "</pre><button class='copy copy-" + catClass + "'>Copy To Clipboard</button>"
+            })
+          .join("")}
+        </div>
         <div class="btn-container">
           <button class="reset">Reset Form</button>
-          <button class="copy">Copy To Clipboard</button>
         </div>
       </div>`;
         };
@@ -833,7 +1202,7 @@
 
         View.prototype.update = function() {
           const roundedScore = Math.min(100, Math.ceil(this.model.score));
-          this.totals.textContent = `(${roundedScore}/ 100)`;
+          this.totals.textContent = `Total: (${roundedScore}/ 100)`;
 
           const letterGrade = this.model.calcGrade();
           this.grade.textContent = letterGrade;
@@ -850,9 +1219,17 @@
             this.wrapper.classList.remove("dark");
           }
 
-          this.summary.textContent = [...this.model.messages]
-            .map(message => `* ${message}\n`)
-            .join("");
+          this.model.categories
+          .filter(category => category.title !== "Academic Integrity")
+          .forEach(category => {
+            let catClass = category.title.replace(/\s+/g, '-').toLowerCase();
+
+            this[catClass + "-summary"].innerHTML = [...this.model.messages]
+            .filter(messageObj => messageObj.category === category.title)
+            .map(messageObj => `* ${messageObj.message}\n`)
+            .join("")
+            })
+
         };
 
         function Controller(model, view) {
@@ -864,12 +1241,15 @@
         Controller.prototype.addEventListeners = function() {
           this.view.wrapper.addEventListener("change", event => {
             const { target } = event;
-
-            if (!target.matches("input[type='radio']")) {
-              return;
+            
+            if (target.name !== "dark-mode") {
+              if (!target.matches("input[type='radio']")) {
+                this.model.handleSelect(target);
+              } else {
+                this.model.toggleRadio(target);
+              }
             }
 
-            this.model.toggleRadio(target);
             this.view.update();
           });
 
@@ -880,19 +1260,50 @@
               radio => (radio.checked = radio.hasAttribute("checked"))
             );
 
+            this.view.selects.forEach(
+              select => select.selectedIndex = null
+            )
+            
+            this.model.questions
+            .filter(question => question.category !== "Academic Integrity")
+            .forEach(question => {
+              const id = question.id;
+              const questionScore = document.querySelector("span[data-id='" + id + "']");
+              questionScore.textContent = 0;
+            });
+            
+            this.model.categories
+            .filter(category => category.title !== "Academic Integrity")
+            .forEach(category => {
+              const title = category.title
+              const categoryScore = document.querySelector("span[data-cat='" + title + "']");
+              const resultsCategoryScore = document.querySelector("span[data-res-cat='" + title + "']");
+              categoryScore.textContent = 0;
+              resultsCategoryScore.textContent = 0;
+            });
+
             this.view.update();
             window.scrollTo(0, 0);
           });
 
-          this.view.copyButton.addEventListener("click", () => {
-            const selection = window.getSelection();
-            const range = document.createRange();
+          this.model.categories
+            .filter(category => category.title !== "Academic Integrity")
+            .forEach(category => {
+              let title = category.title.replace(/\s+/g, '-').toLowerCase();
+              let buttonName = "copyButton-" + title;
+              
+              let summaryName = title + "-summary";
 
-            range.selectNodeContents(this.view.summary);
-            selection.removeAllRanges();
-            selection.addRange(range);
-            document.execCommand("copy");
-          });
+              this.view[buttonName].addEventListener("click", () => {
+                const selection = window.getSelection();
+                const range = document.createRange();
+                range.selectNodeContents(this.view[summaryName]);
+                selection.removeAllRanges();
+                selection.addRange(range);
+                document.execCommand("copy");
+              });
+            });
+
 
           this.view.darkModeToggle.addEventListener("change", () => {
             this.model.toggleDarkMode();
@@ -910,4 +1321,5 @@
       })(window);
     </script>
   </body>
-</html>
+  </html>
+  
