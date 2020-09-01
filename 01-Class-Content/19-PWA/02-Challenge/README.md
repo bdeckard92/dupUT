@@ -82,9 +82,9 @@ This `manifest.json` file for this project will contain the following properties
 
 > **Important:** In the module project, you used webpack to create the `manifest.json` file. For this application, you’ll need to create it manually and add it to the `public/` directory of your application. You can also review **Module 19: Progressive Web Applications (PWA), Lesson 5: PWA** as a refresher on web manifests.
 
-### Deployment to Heroku Using mLab
+### Deployment to Heroku Using MongoDB Atlas
 
-Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using mLab. To review this process, look at **Module 18: NoSQL, Lesson 5: Add Mongoose Validation**, specifically **18.5.5: Deploy to Heroku**.
+Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
 
 
 ## Review
