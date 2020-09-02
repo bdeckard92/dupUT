@@ -1,12 +1,12 @@
 // Dependencies
 // =============================================================
 
-// Requires the sequelize library
+// Require the sequelize library
 const { Model, DataTypes } = require('sequelize');
-// Requires the connection to the database (connection.js)
-const sequelize = require('../config/connection.js');
+// Require the connection to the database (connection.js)
+const sequelize = require('../config/connection');
 
-// Creates a "Book" model with title, author, genre, and pages properties
+// Create a "Book" model with a title, author, genre, and pages
 class Book extends Model {}
 
 Book.init(
@@ -21,5 +21,5 @@ Book.init(
   }
 );
 
-// Exports the book model for other files to use
+// Export the book model for other files to use
 module.exports = Book;
