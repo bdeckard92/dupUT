@@ -18,9 +18,9 @@ In this activity, you will use Sequelize query methods to create the required ro
 
   * Get all books from a specific author
 
-  * Get all "long" books (books with 150 pages or more)
+  * Get all "long" books (books with 350 pages or more)
 
-  * Get all "short" books (books with 150 pages or less)
+  * Get all "short" books (books with 350 pages or less)
 
 ## Hint(s)
 

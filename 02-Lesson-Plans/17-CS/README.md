@@ -34,7 +34,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, students will learn about noSQL databases, more specifically MongoDB. They will use Mongoose as their ODM, so be sure to familiarize yourself with both before the next class.
+* Next week, students will learn about noSQL databases, more specifically MongoDB. They will use Mongoose as their ODM, so be sure to familiarize yourself with both before the next class. Although they will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, you should provide them with the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's Required Virtual Class.
 
 ## Resources
 

@@ -2,7 +2,7 @@
 // =============================================================
 const router = require('express').Router();
 const { Op } = require('sequelize');
-const Book = require('../models/book.js');
+const Book = require('../models/book');
 
 // Routes
 // =============================================================
@@ -36,12 +36,12 @@ router.get('/authors/:author', (req, res) => {
   });
 });
 
-// Get all "long" books (books 150 pages or more)
+// Get all "long" books (books 350 pages or more)
 router.get('/books/length/long', (req, res) => {
   Book.findAll({
     where: {
       pages: {
-        [Op.gte]: 150
+        [Op.gte]: 350
       }
     },
     order: [['pages', 'DESC']]
@@ -50,12 +50,12 @@ router.get('/books/length/long', (req, res) => {
   });
 });
 
-// Get all "short" books (books 150 pages or less)
+// Get all "short" books (books 350 pages or less)
 router.get('/books/length/short', (req, res) => {
   Book.findAll({
     where: {
       pages: {
-        [Op.lte]: 150
+        [Op.lte]: 350
       }
     },
     order: [['pages', 'ASC']]

@@ -4,7 +4,7 @@
 // Require the sequelize library
 const { Model, DataTypes } = require('sequelize');
 // Require the connection to the database (connection.js)
-const sequelize = require('../config/connection.js');
+const sequelize = require('../config/connection');
 
 // Create a "Book" model with a title, author, genre, and pages
 class Book extends Model {}

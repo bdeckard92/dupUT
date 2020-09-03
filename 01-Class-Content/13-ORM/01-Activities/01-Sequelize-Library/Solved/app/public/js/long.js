@@ -1,4 +1,4 @@
-// Make a get request to our api route that will return every "long" book (300 pages or more)
+// Make a get request to our api route that will return every "long" book (350 pages or more)
 $.get('/api/books/length/long', function(data) {
   // For each book that our server sends us back
   for (var i = 0; i < data.length; i++) {
@@ -12,9 +12,11 @@ $.get('/api/books/length/long', function(data) {
     $('#well-section').append(wellSection);
 
     // Now  we add our book data to the well we just placed on the page
-    $('#book-well-' + i).append('<h2>' + (i + 1) + '. ' + data[i].title + '</h2>');
-    $('#book-well-' + i).append('<h3>Author: ' + data[i].author + '</h4>');
-    $('#book-well-' + i).append('<h3>Genre: ' + data[i].genre + '</h4>');
-    $('#book-well-' + i).append('<h3>Pages: ' + data[i].pages + '</h4>');
+    $('#book-well-' + i).append(
+      '<h2>' + (i + 1) + '. ' + data[i].title + '</h2>'
+    );
+    $('#book-well-' + i).append('<h4>Author: ' + data[i].author + '</h4>');
+    $('#book-well-' + i).append('<h4>Genre: ' + data[i].genre + '</h4>');
+    $('#book-well-' + i).append('<h4>Pages: ' + data[i].pages + '</h4><br>');
   }
 });

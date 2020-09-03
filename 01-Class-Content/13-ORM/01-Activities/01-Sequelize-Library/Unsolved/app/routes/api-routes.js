@@ -2,7 +2,7 @@
 // =============================================================
 const router = require('express').Router();
 const { Op } = require('sequelize');
-const Book = require('../models/book.js');
+const Book = require('../models/book');
 
 // Routes
 // =============================================================

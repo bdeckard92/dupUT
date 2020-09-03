@@ -10,11 +10,6 @@ router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/view.html'));
 });
 
-// add route loads the add.html page, where users can enter new books to the db
-router.get('/add', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/add.html'));
-});
-
 // all route loads the all.html page, where all books in the db are displayed
 router.get('/all', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/all.html'));
