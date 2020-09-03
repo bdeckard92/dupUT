@@ -10,7 +10,7 @@ At the end of this week, your group will present the application to your classma
 
 * **Each member of your group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it on the **Sunday that follows presentation day**. The code you submit should be as close to finished as possible.
 
-* As you put the final touches on your project, don’t forget to RSVP for your upcoming **Demo Day**. This is your opportunity to showcase your work to employers, practice answering questions about it, and network at the same time. Look for the invitation via email or reach out to your Program Support Manager for the link. You can also reach out to your Career Director to ask additional questions. Employers are excited to meet you!
+* As you put the final touches on your project, don’t forget to RSVP for your upcoming **Demo Day**. This is your opportunity to showcase your work to employers, practice answering questions about it, and network at the same time. Look for the invitation via email or reach out to your Student Success Manager for the link. You can also reach out to your Career Director to ask additional questions. Employers are excited to meet you!
 
 ## Helpful Links
 

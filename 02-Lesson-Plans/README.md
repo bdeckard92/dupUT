@@ -18,7 +18,7 @@ Each module contains an overview (like this one!) that contains tips, alerts, an
 
 ## Virtual Class Lesson Plans
 
-The Virtual Class (Recommended) and Virtual Class (Required) are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Program Support Manager or Online Instructional Lead.
+The Virtual Class (Recommended) and Virtual Class (Required) are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Student Success Manager or Online Instructional Lead.
 
 All virtual classes are held on video calls and automatically recorded to be made available to learners for review.
 
@@ -84,7 +84,7 @@ The Virtual Class (Recommended) and Virtual Class (Required) follow the same for
 
 ### Virtual Class (Recommended)
 
-A Virtual Class (Recommended) is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
+A Virtual Class (Recommended) is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
 
 Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to class prepared to ask questions that will deepen their preliminary understanding of the material.
 
@@ -108,7 +108,7 @@ After taking the pulse of the class, the longest and perhaps most important acti
 
 ### Virtual Class (Required)
 
-A Virtual Class (Required) is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Program Support Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
+A Virtual Class (Required) is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
 
 By the time this class meets, your class should be nearly done with their asynchronous material and should be working on their Challenge.
 
