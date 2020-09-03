@@ -30,7 +30,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **the Sunday after the Required Class**. 
 
-* Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Program Support Manager for the link.
+* Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Student Success Manager for the link.
 
 ## Resources
 
