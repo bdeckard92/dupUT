@@ -25,7 +25,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-[Module 04 Challenge](../../01-Class-Content/02-Web-APIs/02-Challenge)
+[Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge)
 
 ## Heads-Up
 
