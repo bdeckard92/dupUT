@@ -1,6 +1,6 @@
 # Git Branching and Pull Requests
 
-In this activity, we will create a new branch, implement a feature, and then submit a pull request back into master. We will also cover reviewing pull requests and merging them into master.
+In this activity, we will create a new branch, implement a feature, and then submit a pull request back into main. We will also cover reviewing pull requests and merging them into main.
 
 # Instructions
 
@@ -22,7 +22,7 @@ In this section, we will create a branch, add a feature, and submit a pull reque
   git branch
   ```
 
-  * You should see two branches listed: `master` and `add-html-skeleton`. The `add-html-skeleton` branch should have an asterisk to the left of it. This indicates that this is the branch you're currently on.
+  * You should see two branches listed: `main` and `add-html-skeleton`. The `add-html-skeleton` branch should have an asterisk to the left of it. This indicates that this is the branch you're currently on.
 
 * At the root of the repository, create a new file named `index.html`. Inside this file, add code for a basic HTML skeleton and save.
 
@@ -50,7 +50,7 @@ In this section, we will create a branch, add a feature, and submit a pull reque
 
 ## Part II: Reviewing a Pull Request
 
-In this section, we will review the pull request from Part I and merge it into master. **A different project member should complete this section while others observe**.
+In this section, we will review the pull request from Part I and merge it into main. **A different project member should complete this section while others observe**.
 
 * Clone the repository to your computer if you haven't already done so and `cd` into it.
 
@@ -70,10 +70,10 @@ In this section, we will review the pull request from Part I and merge it into m
 
   * Normally you'd run the code here to make sure everything works properly.
 
-* Check back out to your local `master` branch by running the following in your terminal:
+* Check back out to your local `main` branch by running the following in your terminal:
 
   ```
-  git checkout master
+  git checkout main
   ```
 
 * Now go to your GitHub repository's main page and go to the "Pull request" section. Select the `add-html-skeleton` pull request from the list.
@@ -92,13 +92,13 @@ In this section, we will review the pull request from Part I and merge it into m
 
   ![Approve](Images/06-Approve.png)
 
-* Click the "Merge pull request" button to add the branch's changes into master. Once complete you can delete the feature branch from your machine by running the following in your terminal:
+* Click the "Merge pull request" button to add the branch's changes into main. Once complete you can delete the feature branch from your machine by running the following in your terminal:
 
   ```
   git branch -D add-html-skeleton
   ```
 
-* Remember to use `git pull` on your master branch to update it.
+* Remember to use `git pull` on your main branch to update it.
 
 ### Hints
 

@@ -12,7 +12,7 @@ In this week's virtual classes, you'll review flexbox, CSS Grid, and other advan
 
 ## Instructor Notes
 
-* This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to master CSS at this point, if ever.
+* This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to main CSS at this point, if ever.
 
 ## Career Connection
 
