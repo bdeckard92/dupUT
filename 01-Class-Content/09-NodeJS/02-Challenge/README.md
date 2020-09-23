@@ -21,7 +21,7 @@ Before you start, clone the [starter code](https://github.com/coding-boot-camp/p
 ```
 AS A developer
 I WANT a README generator
-SO THAT can quickly create a professional README for a new project
+SO THAT I can quickly create a professional README for a new project
 ```
 
 ## Acceptance Criteria
