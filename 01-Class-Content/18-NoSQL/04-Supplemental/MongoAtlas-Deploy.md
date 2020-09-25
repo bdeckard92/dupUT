@@ -113,8 +113,8 @@ Next and last, you'll update the application's code to accommodate the MongoDB c
    ```bash
    git add -A
    git commit -m 'deploying'
-   # make sure you're pushing from your local master branch!
-   git push heroku master
+   # make sure you're pushing from your local main branch!
+   git push heroku main
    ```
 
 4. If everything worked correctly, use `heroku open` to open your app in the browser and see your work! If something isn't working, run `heroku logs` from the command line to see where there may be issues.

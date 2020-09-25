@@ -24,7 +24,7 @@ In this activity, you will use Sequelize query methods to create the required ro
 
 ## Hint(s)
 
-* You may need to consult the [Sequelize Manual on Operators](https://sequelize.org/master/manual/model-querying-basics.html#operators) for the last two queries involving book pages.
+* You may need to consult the [Sequelize Manual on Operators](https://sequelize.org/v5/manual/querying.html#operators) for the last two queries involving book pages.
 
 ## Bonus
 

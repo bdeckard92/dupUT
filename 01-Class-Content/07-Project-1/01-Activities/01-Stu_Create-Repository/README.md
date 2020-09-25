@@ -1,6 +1,6 @@
-# Create a Repository and Protect Master Branch
+# Create a Repository and Protect Main Branch
 
-In this activity, you will create a Github repository, add group members as collaborators, and protect your repository's master branch.
+In this activity, you will create a Github repository, add group members as collaborators, and protect your repository's main branch.
 
 ## Instructions
 
@@ -18,7 +18,7 @@ In this activity, you will create a Github repository, add group members as coll
 
 * Navigate back to the repository's "Settings" page and then select "Branches" from the left sidebar.
 
-* Under "Branch Protection Rules" select "master" from the dropdown.
+* Under "Branch Protection Rules" select "main" from the dropdown.
 
 * You should be presented with some options, check off the following:
 
@@ -30,7 +30,7 @@ In this activity, you will create a Github repository, add group members as coll
 
   ![Protect Branch](Images/01-Protect.png)
 
-* If completed successfully, no one should be able to push directly to the master branch. Instead, all changes must be made in the form of pull requests that are to be reviewed by another group member.
+* If completed successfully, no one should be able to push directly to the main branch. Instead, all changes must be made in the form of pull requests that are to be reviewed by another group member.
 
 ### Hints
 
