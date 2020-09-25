@@ -48,6 +48,6 @@ In this activity, you will add validations for the `Post` model and add Sequeliz
 
 * You may need to consult the [Sequelize Validations & Constraints docs](https://sequelize.org/master/manual/validations-and-constraints.html) on how to validate the data.
 
-* You may need to read the Sequelize documentation on the [findAll()](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-findAll), [create()](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-create), [update()](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-update), [destroy()](http://docs.sequelizejs.com/class/lib/model.js~Model.html#static-method-destroy) methods, as well as check out [how to apply the "where" clause](https://sequelize.org/master/manual/model-querying-basics.html#applying-where-clauses).
+* You may need to read the Sequelize documentation on the [findAll()](https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-findAll), [create()](https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-create), [update()](https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-update), [destroy()](https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-destroy) methods, as well as [how to apply the "where" clause](https://sequelize.org/v5/manual/querying.html#where).
 
 * If things aren't working as expected, check to see if any errors logged to the terminal.
