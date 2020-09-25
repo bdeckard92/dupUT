@@ -42,13 +42,13 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Resources
 
-* [Sequelize Manual on Model Querying](https://sequelize.org/master/manual/model-querying-basics.html)
+* [Sequelize Manual on Model Querying](https://sequelize.org/v5/manual/querying.html)
 
-* [Sequelize Model docs](https://sequelize.org/master/class/lib/model.js~Model.html)
+* [Sequelize Model docs](https://sequelize.org/v5/class/lib/model.js~Model.html)
 
 * [Sequelize Validations & Constraints docs](https://sequelize.org/master/manual/validations-and-constraints.html)
 
-* [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html)
+* [Sequelize Manual on Associations](https://sequelize.org/v5/manual/associations.html)
 
 * [Sequelize Manual on Eager Loading](https://sequelize.org/master/manual/eager-loading.html)
 

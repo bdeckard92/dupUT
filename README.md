@@ -36,13 +36,13 @@ You will find the following in [01-Class-Content](./01-Class-Content):
 
   This is the code for the projects that students build in their asynchronous modules in Canvas. You'll find the following in each `05-Module-Project` folder: 
 
-  1. a `master` folder containing the final project build
+  1. a `main` folder containing the final project build
 
   2. a `lesson-files` folder containing the snapshots of where the code should be at the end of each lesson in an asynchronous module of content
   
-  **Note**: The final project build inside the `master` folder can be provided to your students as early the day after the Required Virtual Class. This will ensure that they have the ability to get through the Module Project prior to finishing up their Weekly Challenge.
+  **Note**: The final project build inside the `main` folder can be provided to your students as early the day after the Required Virtual Class. This will ensure that they have the ability to get through the Module Project prior to finishing up their Weekly Challenge.
   
-  You also have the option to give your students a **Lesson Snapshot** (inside the `lesson-files` folder) earlier in the week if they are completely blocked on a lesson of asynchronous content. Please refrain from providing the final project build in the `master` folder to your students until after the Required Virtual Class for that week's module.
+  You also have the option to give your students a **Lesson Snapshot** (inside the `lesson-files` folder) earlier in the week if they are completely blocked on a lesson of asynchronous content. Please refrain from providing the final project build in the `main` folder to your students until after the Required Virtual Class for that week's module.
 
 Use these materials to build your class repository.
 

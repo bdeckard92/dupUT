@@ -16,4 +16,4 @@ In this activity, you will create relationships between the `Post` and `Author` 
 
 ## Hint(s)
 
-* You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/master/manual/assocs.html) on how to make relationships between the models. 
+* You may need to consult the [Sequelize Manual on Associations](https://sequelize.org/v5/manual/associations.html) on how to make relationships between the models. 
