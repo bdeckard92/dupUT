@@ -1,11 +1,9 @@
-/* set some css variables to reuse colors */
 :root {
   --aquamarine: aquamarine;
   --black: #272727;
 }
 
 html {
-  /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -26,13 +24,11 @@ body {
 
 .wrapper {
   width: 1024px;
-
   margin: 40px auto;
 }
 
 #main-content,
 #sidebar {
-  /* Box-model */
   width: 500px;
   padding: 30px;
   display: flex;
@@ -44,25 +40,18 @@ body {
 }
 
 #main-content {
-  /* Positioning */
   float: left;
-
   color: white;
-
-  /* Visual */
   background: black;
 }
 
 #sidebar {
-  /* Positioning */
   float: right;
-
   color: white;
-  /* Visual */
   background: black;
 }
 
-/* Additional Screen Sizes */
+/* TODO: Add media queries for the following screen sizes */
 
 /* Width at 1024px and below */
 
