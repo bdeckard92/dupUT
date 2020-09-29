@@ -1,7 +1,15 @@
 # HTML + CSS
 
+In this activity, you will use CSS to add style to the portfolio.
+
 ## Instructions
 
-Using the starter code found in the `Unsolved` folder, use CSS to style the page and position elements according to the design in the following image:
+* Open the `index.html` file and examine the HTML elements.
 
-![](html-css-mockup.png)
+  * Replace the content with your own information to make this portfolio your own!
+
+* Create a CSS stylesheet and name it `style.css`.
+
+  * Using CSS, style the page and position the elements according to the design in the following image:
+
+  ![A portfolio with a dark gray header with the student's name, a photo, text on the left and contact info in an unordered list on the right](html-css-mockup.png)

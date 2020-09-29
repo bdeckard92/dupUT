@@ -1,13 +1,13 @@
 # Relative Paths
 
+In this activity, you will correctly link the various `style.css` files using relative paths.
+
 ## Instructions
+
+* Open the `index.html` file and notice the `<head>` section with the links to the CSS stylesheets.
 
 * Correctly link the three `style.css` files found in the `public` directory to the `index.html` file to ensure the HTML file renders according to the following image:
 
-![](html-css-mockup.png)
+  ![A portfolio with a dark gray header with the student's name, a photo, text on the left and contact info in an unordered list on the right](html-css-mockup.png)
 
-* Do not move any of the files. 
-
-## Hint(s):
-
-* You only need to change the relative path in the `<link>` tags.
+  * Do not move any of the files! You only need to add the relative paths in the `<link>` tags.
