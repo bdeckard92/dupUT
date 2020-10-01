@@ -6,7 +6,7 @@ In this activity, you will refactor the components to read state data from the s
 
 * **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the `00-React-App` app inside the [client](../00-React-App/client) folder. 
 
 * Take a moment to think about which components need to access the global state. Look at [App.js](../00-React-App/client/src/App.js) to see where the prop drilling is happening.
 
