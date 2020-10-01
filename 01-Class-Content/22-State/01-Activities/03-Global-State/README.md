@@ -6,7 +6,7 @@ In this activity, you will create a new context object for the global state.
 
 * **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the `00-React-App` app inside the [client](../00-React-App/client) folder. 
 
 * Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
 

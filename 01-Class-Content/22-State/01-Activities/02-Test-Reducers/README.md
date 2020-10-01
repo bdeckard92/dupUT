@@ -6,7 +6,7 @@ In this activity, you will create tests to check if the reducers we created in t
 
 * **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the `00-React-App` app inside the [client](../00-React-App/client) folder. 
 
 * In the [src](../00-React-App/client/src/) folder, create a new folder for tests, and inside it, create a file called `reducers.test.js`.
 
