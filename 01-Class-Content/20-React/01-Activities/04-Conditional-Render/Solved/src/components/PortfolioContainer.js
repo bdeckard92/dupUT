@@ -6,8 +6,14 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
 function Portfolio() {
+
+  // With useState, we write the variable to store the state 
+  // and the method to set the state.
+  // The default value for currentPage is 'Home'
   const [currentPage, handlePageChange] = useState('Home');
 
+  // The renderPage method uses a switch statement 
+  // to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
       case 'About':
@@ -23,7 +29,9 @@ function Portfolio() {
 
   return (
     <div>
+      {/* We pass the state value and the setter as props to NavTabs */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* We call the renderPage function passing through the current page */}
       <div>{renderPage(currentPage)}</div>
     </div>
   );
