@@ -22,7 +22,7 @@ In this activity, you will read through the official Redux documentation to not 
 
 * **Note** You will be using one web application, [00-React-App](../00-React-App), for all of our activities today.
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App) app. 
+* Copy the [src](Unsolved/src) folder and paste it into the `00-React-App` app inside the [client](../00-React-App/client) folder. 
 
 * Using what you read about Redux, create a Redux [store](../00-React-App/client/src/utils/store.js) and refactor [reducers.js](../00-React-App/client/src/utils/reducers.js) and [App.js](../00-React-App/client/src/App.js) to use the Redux store.
 
