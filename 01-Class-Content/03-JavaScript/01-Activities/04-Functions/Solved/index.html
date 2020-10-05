@@ -5,47 +5,44 @@
     <title>My First Function</title>
   </head>
   <body>
-    <h1>Open the console to see the magic!</h1>
+    <h1 style="text-align:center; margin-top:20%;">
+      Open the console to see the functions at work!
+    </h1>
 
-    <script>
-      // FUNCTIONS
-      // ================================================================================
-
-      // Creates a Function called "adder" that takes three arguments (x, y, z).
+    <script type="text/javascript">
+      // Creates a function called "adder" that takes three arguments (x, y, z) and returns their sum
       function adder(x, y, z) {
         return x + y + z;
       }
 
-      // Creates a Function called "multiplier" that takes three arguments (x, y, z).
+      // Creates a function called "multiplier" that takes three arguments (x, y, z) and returns their product
       function multiplier(x, y, z) {
         return x * y * z;
       }
 
-      // Creates a Function called "isString" that takes three arguments (x, y, z).
+      // Creates a function called "isString" that takes three arguments (x, y, z)
       function isString(x, y, z) {
-        // isString checks if each argument is a string using typeof.
-
-        // If each argument is a string it will note that.
+        // Checks if each argument is a string using typeof
         if (
           typeof x === 'string' &&
           typeof y === 'string' &&
           typeof z === 'string'
         ) {
-          return 'Yep. They are all strings';
+          // If they are strings, it will log that message
+          return 'Yep. They are all strings!';
         }
-
-        // If anyone of them is NOT a string... it will note that.
+        // If any one of them is NOT a string, it will log that message
         else {
           return "No... I don't believe these are strings.";
         }
       }
 
-      // Creates a Function called "vowelChecker" that takes in a single argument (x).
+      // Creates a function called "vowelChecker" that takes in a single argument (x).
       function vowelChecker(x) {
-        // vowelChecker will grab the first letter (character)...
+        // charAt(0) will grab the first letter (character) and convert it toLowerCase()
         var firstChar = x.toLowerCase().charAt(0);
 
-        // Then check if that first letter is a vowel.
+        // Checks if that first letter is a vowel
         if (
           firstChar === 'a' ||
           firstChar === 'e' ||
@@ -53,11 +50,11 @@
           firstChar === 'o' ||
           firstChar === 'u'
         ) {
-          // If so... it will log that.
-          return 'OMG. The first letter is a vowel!';
+          // If it is a vowel, it will log that message
+          return 'Yes, the first letter is a vowel!';
         } else {
-          // If not... it will log that.
-          return 'First letter is NOT a vowel. :sadface:';
+          // If it is NOT a vowel, it will log that message
+          return 'First letter is NOT a vowel.';
         }
       }
 
