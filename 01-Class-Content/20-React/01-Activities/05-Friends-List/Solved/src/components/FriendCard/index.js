@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-// We pass props through our functional component.
+// Props are passed through our functional component.
 function FriendCard(props) {
   return (
     <div className="card">
@@ -21,8 +21,7 @@ function FriendCard(props) {
           </li>
         </ul>
       </div>
-      {/* The onClick method will invoke the removeFriends function from props
-          Passing through the value of props.id  */}
+      {/* The onClick method will invoke the removeFriends function passing through the value of props.id  */}
       <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
       </span>

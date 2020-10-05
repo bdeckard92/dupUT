@@ -1,4 +1,4 @@
-// We import useState from React
+// Import 'useState' Hook from React
 import React, { useState } from 'react';
 import FriendCard from './components/FriendCard';
 import Wrapper from './components/Wrapper';
@@ -6,14 +6,11 @@ import friends from './friends.json';
 import './App.css';
 
 function App() {
-
-  // We declare our state variable friendsList
-  // We declare our state setters setFriendsList
-  // We set the default state to the friends array, using useState
+  // Using useState, declare a new state variable 'friendsList' and set it to the 'friends' array from 'friends.json'
   const [friendsList, setFriendsList] = useState(friends);
 
-  // We write the removeFriend method, which will use the id of the friend
-  // To return a new array that excludes the friend with the matching id.
+  // Create a method 'removeFriend()' that takes in 'id' and filters through 'friendsList'
+  // Update the state with the new friends list.
   const removeFriend = id => {
     const newList = friendsList.filter(friend => friend.id !== id);
     setFriendsList(newList);
@@ -22,7 +19,8 @@ function App() {
   return (
     <Wrapper>
       <h1 className="title">Friends List</h1>
-      {/* We map through our friendsList, passing the removeFriend method as props */}
+      {/* Map through 'friendsList' and render a 'FriendCard' for each friend */}
+      {/* Pass in the 'removeFriend()' method and each property of a friend */}
       {friendsList.map(friend => (
         <FriendCard
           removeFriend={removeFriend}

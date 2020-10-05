@@ -2,14 +2,11 @@
 import React, { useState, useEffect } from 'react';
 
 function Thermostat() {
-
-  // We set the default state of temp to 75 degrees.
+  // Change the default state of temp to 75 degrees.
   const [temp, setTemp] = useState(75);
 
-  // We write our useEffect hook.
+  // Use useEffect hook to set the document.title to the current temp
   useEffect(() => {
-    
-    // The document.title will be set when the page renders.
     document.title = `${temp}° Fahrenheit`;
   });
 
