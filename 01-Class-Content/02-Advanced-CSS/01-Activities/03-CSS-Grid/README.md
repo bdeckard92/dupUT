@@ -4,7 +4,7 @@ In this activity, you will take a basic page containing 10 boxes and organize th
 
 ## Instructions
 
-* Open the `style.css` file in your IDE and examine the code.
+* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code.
 
 * Create the following layout:
 

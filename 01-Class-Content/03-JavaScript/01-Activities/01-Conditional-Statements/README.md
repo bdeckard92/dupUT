@@ -4,7 +4,7 @@ In this activity, you will use conditional statements to determine which alert w
 
 ## Instructions
 
-* Open `index.html` in your IDE and create a website from scratch that asks users if they eat meat.
+* Open [index.html](Unsolved/index.html) in your IDE and create a website from scratch that asks users if they eat meat.
 
   * If they respond with "OK", alert the following to the page: "Here’s a cheese burger!"
 

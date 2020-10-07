@@ -4,7 +4,7 @@ In this activity, you will use functions to create a simple Rock Paper Scissors 
 
 ## Instructions
 
-* Open `index.html` in your IDE and create a simple Rock-Paper-Scissors game in which one player plays against a computer opponent. 
+* Open [index.html](Unsolved/index.html) in your IDE and create a simple Rock-Paper-Scissors game in which one player plays against a computer opponent. 
 
   * Create an array of the three game choices: Rock, Paper, or Scissors.
 

@@ -4,9 +4,9 @@ In this activity, you will use media queries to ensure the components will stack
 
 ## Instructions
 
-* Open `index.html` in your browser and open Chrome DevTools to change the screen size. Notice what happens to the components when the screen size gets smaller.
+* Open [index.html](Unsolved/index.html) in your browser and open Chrome DevTools to change the screen size. Notice what happens to the components when the screen size gets smaller.
 
-* Open the `style.css` file in your IDE and examine the code. 
+* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code. 
 
 * At the bottom of the stylesheet, add media queries for the various screen sizes to change the styles as outlined below:
 

@@ -6,7 +6,7 @@ In this activity, you will create a timer that will count down from 5 and displa
 
 * Open [index.html](Unsolved/index.html) and examine the HTML code in the `<body>`.
 
-* Open [script.js](Unsolved/script.js) and complete the `countdown()` function that will count down from 5.
+* Open [script.js](Unsolved/assets/js/script.js) and complete the `countdown()` function that will count down from 5.
 
   * Complete the `setInterval()` method to call a function to be executed every 1000 milliseconds
 

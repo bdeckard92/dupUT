@@ -4,7 +4,7 @@ In this activity, you will write functions to do simple math and check the argum
 
 ## Instructions
 
-* Open `index.html` in your IDE and add JavaScript code for the following:
+* Open [index.html](Unsolved/index.html) in your IDE and add JavaScript code for the following:
 
   * Create a function, `adder()`, that accepts three arguments and returns their sum.
 

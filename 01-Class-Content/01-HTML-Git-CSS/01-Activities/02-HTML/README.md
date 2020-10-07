@@ -8,7 +8,7 @@ In this activity, you will use HTML to create a simple portfolio.
 
 * Using HTML, create a simple portfolio similar to the following image:
 
-![A portfolio mockup with a title, student's name, a photo, text, and contact info in an unordered list](html-mockup.png)
+![A portfolio mockup with a title, student's name, a photo, text, and contact info in an unordered list](Images/100-html-mockup.png)
 
   * Add a title to the head element.
 

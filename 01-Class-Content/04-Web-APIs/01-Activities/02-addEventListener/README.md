@@ -4,9 +4,9 @@ In this activity, you will create two buttons that will increment and decrement 
 
 ## Instructions
 
-* Open `index.html` in your browser and monitor it as you work on this activity.
+* Open [index.html](Unsolved/index.html) in your browser and monitor it as you work on this activity.
 
-* Open `script.js` in your IDE and implement the following:
+* Open [script.js](Unsolved/assets/js/script.js) in your IDE and implement the following:
 
   * Create a counter to keep track of the current count
 

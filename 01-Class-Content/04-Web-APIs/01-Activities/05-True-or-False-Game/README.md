@@ -4,7 +4,7 @@ In this activity, you will create a "True or False" game that will ask five ques
 
 ## Instructions
 
-* Open [script.js](Unsolved/script.js) and implement the following:
+* Open [script.js](Unsolved/assets/js/script.js) and implement the following:
 
   * Create an array with five question objects. Each object in the array should be structured as follows: 
 

@@ -4,9 +4,9 @@ In this activity, you will use flexbox to organize the cards into two columns an
 
 ## Instructions
 
-* Open `index.html` in your browser and look at the current layout.
+* Open [index.html](Unsolved/index.html) in your browser and look at the current layout.
 
-* Open the `style.css` file in your IDE and examine the code. Read the provided comments to understand what the CSS is doing.
+* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code. Read the provided comments to understand what the CSS is doing.
 
   * Using flexbox, position the cards and the contents of the cards to resemble the layout in the following image:
 

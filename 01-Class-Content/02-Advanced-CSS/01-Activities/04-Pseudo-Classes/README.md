@@ -4,9 +4,9 @@ In this activity, you will take a webpage and style specific elements using pseu
 
 ## Instructions
 
-* Open `index.html` in your browser and look at the current styling.
+* Open [index.html](Unsolved/index.html) in your browser and look at the current styling.
 
-* Open the `style.css` file in your IDE and examine the code.
+* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code.
 
 * Using the comments to guide you, add the following styles using only CSS:
 

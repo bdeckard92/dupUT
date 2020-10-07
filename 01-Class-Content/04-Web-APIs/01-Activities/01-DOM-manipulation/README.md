@@ -4,9 +4,9 @@ In this activity, you are going to use DOM methods to create an entire webpage.
 
 ## Instructions
 
-* Open `index.html` in your browser and monitor it as you work on this activity.
+* Open [index.html](Unsolved/index.html) in your browser and monitor it as you work on this activity.
 
-* Open `script.js` in your IDE and only work in this file!
+* Open [script.js](Unsolved/assets/js/script.js) in your IDE and only work in this file!
 
 * Using only DOM methods, create an entire HTML page. It should include:
 

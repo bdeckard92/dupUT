@@ -4,7 +4,7 @@ In this activity, you have been provided with a sign-up form that successfully s
 
 ## Instructions
 
-* Open [script.js](Unsolved/script.js) in your IDE.
+* Open [script.js](Unsolved/assets/js/script.js) in your IDE.
 
 * In the `renderLastRegistered()` function:
 
