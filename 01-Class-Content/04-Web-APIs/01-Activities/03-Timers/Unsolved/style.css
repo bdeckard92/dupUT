@@ -1,24 +1,24 @@
-.container{
+.container {
   margin: auto;
   width: 100%;
   height: 100px;
   text-align: center;
 }
 
-.welcome{
+.welcome {
   margin-bottom: 20px;
 }
 
-#main{
+#main {
   margin-bottom: 20px;
   font-size: 100px;
-  width:100%;
+  width: 100%;
   height: 25px;
 }
 
-#read{
+#read {
   margin: auto;
   padding: 10px;
-  width:100%;
+  width: 100%;
   height: 25px;
 }

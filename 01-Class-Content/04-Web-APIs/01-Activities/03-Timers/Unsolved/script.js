@@ -10,20 +10,12 @@ var words = message.split(' ');
 function countdown() {
   var timeLeft = 5;
 
-  // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
+  // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   var timeInterval = setInterval(function() {
-    if (timeLeft > 1) {
-      timerEl.textContent = timeLeft + ' seconds remaining';
-      timeLeft--;
-    } else if (timeLeft === 1) {
-      timerEl.textContent = timeLeft + ' second remaining';
-      timeLeft--;
-    } else {
-      timerEl.textContent = '';
-      clearInterval(timeInterval);
-      displayMessage();
-    }
-  }, 1000);
+    //
+    // YOUR CODE HERE
+    //
+  });
 }
 
 // Displays the message one word at a time

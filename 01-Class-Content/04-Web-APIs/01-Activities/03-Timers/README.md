@@ -1,4 +1,4 @@
-# Countdown timer
+# Countdown Timer
 
 In this activity, you will create a timer that will count down from 5 and display a message when it hits 0. 
 
@@ -12,7 +12,7 @@ In this activity, you will create a timer that will count down from 5 and displa
 
   * As long as the `timeLeft` is greater than 1, set the `textContent` of `timerEl` to show the remaining seconds, and decrement `timeLeft` by 1.
 
-  * Once the `timeLeft` gets to 0, set the `textContent` of `timerEl` to an empty string, use `clearInterval()` to stop the timer, and call the `displayMessage` function.
+  * Once the `timeLeft` gets to 0, set the `textContent` of `timerEl` to an empty string, use `clearInterval()` to stop the timer, and call the `displayMessage()` function.
 
 ## Hint(s)
 
