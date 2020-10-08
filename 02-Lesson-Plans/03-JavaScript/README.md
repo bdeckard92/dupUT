@@ -1,8 +1,8 @@
-# 03 Instructor Overview: JavaScript
+# Module 03 Instructor Overview: JavaScript
 
 ## Overview
 
-In this week's virtual classes, you'll introduce weekly algorithms; and review conditional and iterative statments, data types, and functions. 
+In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete in order to prepare for technical interviews. In terms of module content, you will review conditional statements, iteration, functions,arrays, generating random values, prompts and alerts. 
 
 ## Virtual Classes
 
@@ -34,14 +34,21 @@ Next week, you will review "vanilla JS" Web APIs. If this is new to you or you g
 
 ## Resources
 
-N/A
+* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+* [MDN Web Docs on Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+* [MDN Web Docs on prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+
+* [MDN Web Docs on alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
 
 ## Algorithms
 
-  * [01-arithmetic](../../01-Class-Content/03-JavaScript/03-Algorithms/01-arithmetic)
+* [01-arithmetic](../../01-Class-Content/03-JavaScript/03-Algorithms/01-arithmetic)
 
-  * [02-odd-or-even](../../01-Class-Content/03-JavaScript/03-Algorithms/02-odd-or-even)
+* [02-odd-or-even](../../01-Class-Content/03-JavaScript/03-Algorithms/02-odd-or-even)
 
-  * [03-log-nums](../../01-Class-Content/03-JavaScript/03-Algorithms/03-log-nums)
+* [03-log-nums](../../01-Class-Content/03-JavaScript/03-Algorithms/03-log-nums)
 
-  * [Code Signal: Add Two Digits](https://app.codesignal.com/public-test/a2kjXwqf8v7vnGnks/7hyvjF58AaTiQW)
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
