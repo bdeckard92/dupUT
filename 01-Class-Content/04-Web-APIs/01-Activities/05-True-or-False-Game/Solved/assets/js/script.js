@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 // The array of questions for the game.
 var questions = [
   { q: 'The sky is blue.', a: 't' },
