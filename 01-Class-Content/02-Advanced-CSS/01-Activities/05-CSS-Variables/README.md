@@ -21,3 +21,6 @@ In this activity, you will take a CSS stylesheet and extract the colors into CSS
 * Open [index.html](Unsolved/index.html) in your browser to see which colors corresponds with each CSS variable.
 
 * Replace the corresponding occurrences of the color hex codes with the new CSS variables.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

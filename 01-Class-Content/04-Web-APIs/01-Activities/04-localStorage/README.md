@@ -19,3 +19,6 @@ In this activity, you have been provided with a sign-up form that successfully s
   * Save the email and password to localStorage.
 
   * Render the last registered email and password.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

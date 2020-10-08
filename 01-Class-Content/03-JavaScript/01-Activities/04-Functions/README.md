@@ -29,3 +29,6 @@ In this activity, you will write functions to do simple math and check the argum
 * How do check the _type of_ a value?
 
 * How do you check the _character at_ a given position in a string?
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

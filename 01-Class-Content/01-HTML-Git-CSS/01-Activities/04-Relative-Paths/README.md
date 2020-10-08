@@ -11,3 +11,6 @@ In this activity, you will correctly link the various `style.css` files using re
   ![A portfolio with a dark gray header with the student's name, a photo, text on the left and contact info in an unordered list on the right](Images/100-html-css-mockup.png)
 
   * Do not move any of the files! You only need to add the relative paths in the `<link>` tags.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

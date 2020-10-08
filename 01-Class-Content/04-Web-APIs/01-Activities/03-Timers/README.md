@@ -19,3 +19,6 @@ In this activity, you will create a timer that will count down from 5 and displa
 * Look at the `displayMessage()` function to see an example of how to use `setInterval()` and `clearInterval()`.
 
 * You can also refer to the MDN Web Docs on [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval) for more information.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

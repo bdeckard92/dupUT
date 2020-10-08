@@ -17,3 +17,6 @@ In this activity, you will use media queries to ensure the components will stack
   * Add some padding to the `<div>`
 
   * Add a margin to the `sidebar` to give it some space from the `main-content` box.
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

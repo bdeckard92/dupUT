@@ -17,3 +17,6 @@ In this activity, you will use flexbox to organize the cards into two columns an
 ## Hints
 
   * Each card is also its own flexbox!
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
