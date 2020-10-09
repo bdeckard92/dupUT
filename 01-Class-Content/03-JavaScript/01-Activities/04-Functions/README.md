@@ -10,7 +10,7 @@ In this activity, you will write functions to do simple math and check the argum
 
   * Create a function, `muliplier()`, that accepts three arguments and returns their product. 
 
-  * Create a function, `isString()`, that accepts three arguments and checks if the type of all three is string.
+  * Create a function, `isString()`, that accepts three arguments and checks if the type of all three is a string.
 
     * If they are strings, return a message confirming they are strings.
 
@@ -26,7 +26,7 @@ In this activity, you will write functions to do simple math and check the argum
 
 ## Hint(s) 
 
-* How do check the _type of_ a value?
+* How do you check the _type of_ a value?
 
 * How do you check the _character at_ a given position in a string?
 

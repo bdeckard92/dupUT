@@ -6,7 +6,7 @@ In this activity, you will publish your own Personal site using GitHub Pages.
 
 1. Create a new repo that is named `<<YOUR USERNAME>>.github.io` where `<<YOUR USERNAME>>` is your GitHub username. 
 
-  * Double check that you use exactly your username. (For example, `janedoe.github.io` would be the GitHub pages repo name for the GitHub user `janedoe`)
+  * Double check that you use your exact username. (For example, `janedoe.github.io` would be the GitHub pages repo name for the GitHub user `janedoe`)
 
 2. Clone your repository into your work directory.
 

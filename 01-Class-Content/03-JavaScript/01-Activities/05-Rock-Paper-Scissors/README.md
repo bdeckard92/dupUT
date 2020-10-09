@@ -12,9 +12,9 @@ In this activity, you will use functions to create a simple Rock Paper Scissors 
 
   * Using `Math.floor()` and `Math.random()`, randomly choose one of the three game choices as the computer's turn.
 
-  * Using `prompt()`, collect the user's response and convert to lower case as the user's turn.
+  * Using `prompt()`, collect the user's response and convert it to lower case as the user's turn.
 
-  * Using `if/else if/else` statements, create the game logic to run if the user chooses a valid game option. 
+  * Using `if/else` statements, create the game logic to run if the user chooses a valid game option. 
 
   * Using `alert()`, let the user know the result of each round as well as the final total.
 

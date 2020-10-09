@@ -22,9 +22,9 @@ In this activity, you are going to use DOM methods to create an entire webpage.
 
 ## Hints
 
-* What DOM methods allow you to create an HTML element, add an HTML element, and add a specified attribute to an HTML element?
+* Which DOM methods allow you to create an HTML element, add an HTML element, and add a specified attribute to an HTML element?
 
-* What property allows you to set the text content of the specified node?
+* Which property allows you to set the text content of the specified node?
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

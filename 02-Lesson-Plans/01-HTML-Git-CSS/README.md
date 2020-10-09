@@ -52,7 +52,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
 
-* **IMPORTANT** As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
+* **IMPORTANT**: As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
 
 ## Resources
 

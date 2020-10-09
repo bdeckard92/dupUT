@@ -23,7 +23,7 @@ function countdown() {
       timerEl.textContent = timeLeft + ' second remaining';
       timeLeft--;
     } else {
-      // Once the `timeLeft` gets to 0, set `timerEl` to an empty string
+      // Once `timeLeft` gets to 0, set `timerEl` to an empty string
       timerEl.textContent = '';
       // Use `clearInterval()` to stop the timer
       clearInterval(timeInterval);

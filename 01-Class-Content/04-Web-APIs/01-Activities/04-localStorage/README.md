@@ -12,7 +12,7 @@ In this activity, you have been provided with a sign-up form that successfully s
   
   * If the last registered is null, return early from this function.
   
-  * Otherwise set the text of the `userEmailSpan` and `userPasswordSpan` to their corresponding values from localStorage.
+  * Otherwise, set the text of the `userEmailSpan` and `userPasswordSpan` to their corresponding values from localStorage.
 
 * In the `signUpButton` event listener:
 
