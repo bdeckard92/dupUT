@@ -18,7 +18,7 @@ var startGame = function() {
   for (var i = 0; i < enemyNames.length; i++) {
     // if player is still alive, keep fighting
     if (playerHealth > 0) {
-      // let user know what round they are in, remember that arrays start at 0 so it needs to have 1 added to it
+      // let player know what round they are in, remember that arrays start at 0 so it needs to have 1 added to it
       window.alert('Welcome to Robot Gladiators! Round ' + (i + 1));
 
       // pick new enemy to fight based on the index of the enemyNames array
@@ -64,12 +64,12 @@ var endGame = function() {
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
-    // ask user if they'd liked to fight or run
-    var promptFight = window.prompt('Would you like FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
+    // ask player if they'd like to fight or run
+    var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
-    // if user picks "skip" confirm and then stop the loop
+    // if player picks "skip" confirm and then stop the loop
     if (promptFight === 'skip' || promptFight === 'SKIP') {
-      // confirm user wants to skip
+      // confirm player wants to skip
       var confirmSkip = window.confirm("Are you sure you'd like to quit?");
 
       // if yes (true), leave fight
@@ -95,7 +95,7 @@ var fight = function(enemyName) {
       // award player money for winning
       playerMoney = playerMoney + 20;
 
-      // ask if user wants to use the store before next round
+      // ask if player wants to use the store before next round
       var storeConfirm = window.confirm('The fight is over, visit the store before the next round?');
 
       // if yes, take them to the store() function

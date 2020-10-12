@@ -12,7 +12,7 @@ var startGame = function() {
 
     // if player is still alive, keep fighting
     if (playerInfo.health > 0) {
-      // let user know what round they are in, remember that arrays start at 0 so it needs to have 1 added to it
+      // let player know what round they are in, remember that arrays start at 0 so it needs to have 1 added to it
       window.alert("Welcome to Robot Gladiators! Round " + (i + 1));
 
       // pick new enemy to fight based on the index of the enemyInfo array
@@ -28,7 +28,7 @@ var startGame = function() {
 
       // if player is still alive after the fight and we're not at the last enemy in the array
       if (playerInfo.health > 0 && i < enemyInfo.length - 1) {
-        // ask if user wants to use the store before next round
+        // ask if player wants to use the store before next round
         var storeConfirm = window.confirm("The fight is over, visit the store before the next round?");
 
         // if yes, take them to the store() function
@@ -86,7 +86,7 @@ var fight = function(enemy) {
 
   while (playerInfo.health > 0 && enemy.health > 0) {
     if (isPlayerTurn) {
-      // ask user if they'd like to fight or skip using fightOrSkip function
+      // ask player if they'd like to fight or skip using fightOrSkip function
       if (fightOrSkip()) {
         // if true, leave fight by breaking loop
         break;
@@ -157,7 +157,7 @@ var shop = function() {
     "Would you like to REFILL your health, UPGRADE your attack, or LEAVE the store? Please enter one 1 for REFILL, 2 for UPGRADE, or 3 for LEAVE."
   );
 
-  // check if prompt answer was left blank, user hit "cancel", or provided a number instead
+  // check if prompt answer was left blank, player hit "cancel", or provided a number instead
   if (shopOptionPrompt === null || shopOptionPrompt === "" || isNaN(shopOptionPrompt)) {
     window.alert("You need to provide a valid answer! Please try again.");
     return shop();
@@ -204,8 +204,8 @@ var randomNumber = function(min, max) {
 
 // function to check if player wants to fight or skip
 var fightOrSkip = function() {
-  // ask user if they'd liked to fight or run
-  var promptFight = window.prompt("Would you like FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
+  // ask player if they'd like to fight or run
+  var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
   // validate prompt answer
   if (promptFight === "" || promptFight === null || !isNaN(promptFight)) {
@@ -218,7 +218,7 @@ var fightOrSkip = function() {
   promptFight = promptFight.toLowerCase();
 
   if (promptFight === "skip") {
-    // confirm user wants to skip
+    // confirm player wants to skip
     var confirmSkip = window.confirm("Are you sure you'd like to quit?");
 
     // if yes (true), leave fight
@@ -228,7 +228,7 @@ var fightOrSkip = function() {
       playerInfo.money = Math.max(0, playerInfo.money - 10);
       // stop while() loop using break; and enter next fight
 
-      // return true if user wants to leave
+      // return true if player wants to leave
       return true;
     }
   }
