@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll review flexbox, CSS Grid, and other advanced CSS properties.
+In this week's virtual classes, you'll review flexbox, media queries, CSS Grid, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
 ## Virtual Classes
 
@@ -13,6 +13,10 @@ In this week's virtual classes, you'll review flexbox, CSS Grid, and other advan
 ## Instructor Notes
 
 * This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is normal and expected, and that it's not essential to master CSS at this point, if ever.
+
+* Students will be early on in their work on the module, so be prepared to answer questions related to the first few lessons of the module.
+
+* While flexbox is simple at the surface, this is students' first exposure to CSS. Look over the activities ahead of time to be sure you are familiar with what they will encounter.
 
 ## Career Connection
 
@@ -32,8 +36,19 @@ Next week, you will introduce students to JavaScript. This may be a big leap for
 
 ## Resources
 
-N/A 
+* [MDN Web Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+
+* [MDN Web Docs on Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+* [MDN Web Docs on CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+
+* [MDN Web Docs on Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+* [MDN Web Docs on CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ## Algorithms
 
 N/A
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

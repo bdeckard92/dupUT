@@ -4,7 +4,7 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 ## Overview
 
-In this week's virtual classes, you'll introduce students to the basics of HTML, CSS, Git, GitHub, and the command line.
+In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
 ## Virtual Classes
 
@@ -52,7 +52,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
 
-* As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
+* **IMPORTANT**: As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
 
 ## Resources
 
@@ -62,6 +62,15 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md)
 
+* [Git Command Line documentation](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
+
+* [MDN Web Docs on float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
+
+* [GitHub Page documentation](https://pages.github.com/)
+
 ## Algorithms
 
 N/A
+
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

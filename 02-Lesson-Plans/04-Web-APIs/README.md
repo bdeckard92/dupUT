@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers and browser storage.
+In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers and `localStorage`.
 
 ## Virtual Classes
 
@@ -10,10 +10,11 @@ In this week's virtual classes, you'll review DOM manipulation and traversal, ev
 
 [Required](./04.2-REQUIRED.md)
 
-
 ## Instructor Notes
 
 * This week's content will help students understand the purpose of JavaScript in front-end web development. But the DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
+
+* Students do not use timers in the module project, but they will need to use timers for the module Challenge. Be prepared to help the students if they have questions as they do the activity on timers. 
 
 ## Career Connection
 
@@ -33,14 +34,21 @@ Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or
 
 ## Resources
 
-* [MDN: The Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [MDN Web Docs on the Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+
+* [MDN Web Docs on addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+*  MDN Web Docs on [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
+
+* [MDN Web Docs on localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 ## Algorithms
 
-  * [01-log-even-nums](../../01-Class-Content/04-Web-APIs/03-Algorithms/01-log-even-nums)
+* [01-log-even-nums](../../01-Class-Content/04-Web-APIs/03-Algorithms/01-log-even-nums)
 
-  * [02-countdown](../../01-Class-Content/04-Web-APIs/03-Algorithms/02-countdown)
+* [02-countdown](../../01-Class-Content/04-Web-APIs/03-Algorithms/02-countdown)
 
-  * [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
+* [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
 
-  * [Code Signal](https://app.codesignal.com/public-test/YvSg9mctHApfLBuMH/qBHxbHRS4Yghf8)
+---
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
