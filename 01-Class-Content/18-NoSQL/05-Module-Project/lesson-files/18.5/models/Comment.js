@@ -1,5 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
-const moment = require('moment');
+const dateFormat = require('../utils/dateFormat');
 
 const ReplySchema = new Schema(
   {
@@ -20,7 +20,7 @@ const ReplySchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
+      get: createdAtVal => dateFormat(createdAtVal)
     }
   },
   {
@@ -43,7 +43,7 @@ const CommentSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
+      get: createdAtVal => dateFormat(createdAtVal)
     },
     // use ReplySchema to validate data for a reply
     replies: [ReplySchema]
