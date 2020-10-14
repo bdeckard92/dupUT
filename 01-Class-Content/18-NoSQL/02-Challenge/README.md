@@ -98,7 +98,7 @@ Create a virtual called `friendCount` that retrieves the length of the user's `f
 * `createdAt`
     * Date
     * Set default value to the current timestamp
-    * Use `moment` in a getter method to format the timestamp on query
+    * Use a getter method to format the timestamp on query
 
 * `username` - Which user created this thought
     * String
@@ -131,7 +131,7 @@ Create a virtual called `reactionCount` that retrieves the length of the thought
 * `createdAt`
     * Date
     * Set default value to the current timestamp
-    * Use `moment` in a getter method to format the timestamp on query
+    * Use a getter method to format the timestamp on query
 
 **Schema Settings**
 
