@@ -20,7 +20,7 @@ In this week's virtual classes, you'll review Bootstrap, jQuery and Moment.js.
 
 * Students will find `this` challenging. Review the `05-jQuery-Todo-localStorage` activity prior to class and be prepared to discuss `this`.
 
-* The module project and challenge both us Moment.js, which is now considered a legacy project. Point out to students that it's okay for us to still use it here, but offer suggestions to use native JavaScript functionality or another library for their date and time needs. The [Moment.js project status page](https://momentjs.com/docs/#/-project-status/) offers suggestions for other solutions. 
+* The module project and challenge both use Moment.js, which is now considered a legacy project. Point out to students that it's okay for us to still use it here, but offer suggestions to use native JavaScript functionality or another library for their date and time needs. The [Moment.js project status page](https://momentjs.com/docs/#/-project-status/) offers direction for other solutions. 
 
 ## Career Connection
 
