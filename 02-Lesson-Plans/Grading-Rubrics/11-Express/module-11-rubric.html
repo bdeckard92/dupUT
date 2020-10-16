@@ -522,85 +522,85 @@
       (function (window) {
         "use strict";
 
-            function Model() {
-                this.title = "Module 11 Express.js Challenge Rubric (Coding)";
-                this.categories = [
-                    {
-                        title: "Deployment",
-                        subtitle: null,
-                        questions: [
-                            {
-                                title: "Student submitted deployed live application URL",
-                                score: 9,
-                                type: "true false",
-                                message: "Application isn't deployed",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application loads at deployed URL (no 404, or Heroku/GH Pages error)",
-                                score: 9,
-                                type: "true false",
-                                message: "Application isn't deployed",
-                                status: false
-                            },
-                            {
-                                title: "Student submitted application GitHub URL",
-                                score: 9,
-                                type: "true false",
-                                message: "Missing GitHub submission URL",
-                                status: false
-                            },
-                            {
-                                title: "GitHub Repo contains application code",
-                                score: 9,
-                                type: "true false",
-                                message: "GitHub repo is empty",
-                                status: false
-                            }
-                        ]
-                    },
-                    {
-                        title: "Technical Acceptance Criteria",
-                        subtitle:
-                            "Keep your browser console open and watch out for errors from this point forward.",
-                        questions: [
-                            {
-                                title:
-                                    "Application allows user to create and save persistent notes",
-                                score: 10,
-                                type: "true false",
-                                message: "Application doesn't allow user to create and save persistent notes",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application allows user to view previously saved notes",
-                                score: 10,
-                                type: "true false",
-                                message:
-                                    "Application doesn't allow user to view previously saved notes",
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application front-end connects to Express.js backend",
-                                score: 10,
-                                type: "true false",
-                                message:
-                                    "Application front-end doesn't connect to Express.js backend",
-                                status: false
-                            },
-                            {
-                                title: "Application backend stores notes with unique IDs in JSON file",
-                                score: 10,
-                                type: "true false",
-                                message: "Application backend doesn't store notes with unique IDs in JSON file",
-                                status: false
-                            }
-                        ]
-                    },
-                    {
+        function Model() {
+          this.title = "Module 11 Express.js Challenge Rubric (Coding)";
+          this.categories = [
+            {
+              title: "Deployment",
+              subtitle: null,
+              questions: [
+                {
+                  title: "Student submitted deployed live application URL",
+                  score: 9,
+                  type: "true false",
+                  message: "Application isn't deployed",
+                  status: false
+                },
+                {
+                  title:
+                    "Application loads at deployed URL (no 404, or Heroku/GH Pages error)",
+                  score: 9,
+                  type: "true false",
+                  message: "Application isn't deployed",
+                  status: false
+                },
+                {
+                  title: "Student submitted application GitHub URL",
+                  score: 9,
+                  type: "true false",
+                  message: "Missing GitHub submission URL",
+                  status: false
+                },
+                {
+                  title: "GitHub Repo contains application code",
+                  score: 9,
+                  type: "true false",
+                  message: "GitHub repo is empty",
+                  status: false
+                }
+              ]
+            },
+            {
+              title: "Technical Acceptance Criteria",
+              subtitle:
+                "Keep your browser console open and watch out for errors from this point forward.",
+              questions: [
+                {
+                  title:
+                    "Application allows user to create and save persistent notes",
+                  score: 10,
+                  type: "true false",
+                  message: "Application doesn't allow user to create and save persistent notes",
+                  status: false
+                },
+                {
+                  title:
+                    "Application allows user to view previously saved notes",
+                  score: 10,
+                  type: "true false",
+                  message:
+                    "Application doesn't allow user to view previously saved notes",
+                  status: false
+                },
+                {
+                  title:
+                    "Application front-end connects to Express.js backend",
+                  score: 10,
+                  type: "true false",
+                  message:
+                    "Application front-end doesn't connect to Express.js backend",
+                  status: false
+                },
+                {
+                  title: "Application backend stores notes with unique IDs in JSON file",
+                  score: 10,
+                  type: "true false",
+                  message: "Application backend doesn't store notes with unique IDs in JSON file",
+                  status: false
+                }
+              ]
+            },
+            {
               title: "Repository Quality",
               subtitle: null,
               score: 0,
@@ -662,81 +662,97 @@
                 }
               ]
             },
+            {
+              title: "Application Quality",
+              subtitle: null,
+              questions: [
+                {
+                  title: "Application console is free of errors",
+                  score: 11,
+                  type: "likert",
+                  options: [
                     {
-                        title: "Application Quality",
-                        subtitle: null,
-                        questions: [
-                            {
-                                    title: "Application console is free of errors",
-                                    score: 11,
-                                    type: "likert",
-                                    options: [
-                                        {
-                                            message: "Application console contains 4 or more errors",
-                                            score: 0
-                                        },
-                                        {
-                                            message: "Application console contains 2-3 errors",
-                                            score: 5
-                                        },
-                                        {
-                                            message: "Application console contains 1 error",
-                                            score: 9
-                                        },
-                                        {
-                                            message: "Application console is free of errors",
-                                            score: 11
-                                        }
-                                    ],
-                                    message: "",
-                                    status: false
-                                }
-                        ]
+                      message: "Application console contains 4 or more errors",
+                      score: 0
                     },
                     {
-                        title: "Academic Integrity",
-                        subtitle:
-                            "If any of of the following are true, partner with your instructor to investigate plagiarism. Contact your SSM if you believe plagiarism has occurred.",
-                        questions: [
-                            {
-                                title: "Application contains a low number of commits",
-                                score: 0,
-                                type: "true false",
-                                message: null,
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application codebase appears advanced for the student, at this point in the course, or in general",
-                                score: 0,
-                                type: "true false",
-                                message: null,
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application package.json file references a different author and/or repository",
-                                score: 0,
-                                type: "true false",
-                                message: null,
-                                status: false
-                            },
-                            {
-                                title:
-                                    "Application package.json file references much older versions of npm packages",
-                                score: 0,
-                                type: "true false",
-                                message: null,
-                                status: false
-                            }
-                        ]
+                      message: "Application console contains 2-3 errors",
+                      score: 5
+                    },
+                    {
+                      message: "Application console contains 1 error",
+                      score: 9
+                    },
+                    {
+                      message: "Application console is free of errors",
+                      score: 11
                     }
-                ];
-
-                this.initStorage();
+                  ],
+                  message: "",
+                  status: false
+                }
+              ]
+            },
+            {
+              title: "Bonus",
+              subtitle: null,
+              solution: null,
+              previewText: null,
+              score: 0,
+              questions: [
+                {
+                  title: "Application allows user to delete notes",
+                  score: 10,
+                  type: "true false",
+                  message: "Application allows user to delete notes",
+                  status: false
+                }
+              ]
+            },
+            {
+              title: "Academic Integrity",
+              subtitle:
+                "If any of of the following are true, partner with your instructor to investigate plagiarism. Contact your SSM if you believe plagiarism has occurred.",
+              questions: [
+                {
+                  title: "Application contains a low number of commits",
+                  score: 0,
+                  type: "true false",
+                  message: null,
+                  status: false
+                },
+                {
+                  title:
+                    "Application codebase appears advanced for the student, at this point in the course, or in general",
+                  score: 0,
+                  type: "true false",
+                  message: null,
+                  status: false
+                },
+                {
+                  title:
+                    "Application package.json file references a different author and/or repository",
+                  score: 0,
+                  type: "true false",
+                  message: null,
+                  status: false
+                },
+                {
+                  title:
+                    "Application package.json file references much older versions of npm packages",
+                  score: 0,
+                  type: "true false",
+                  message: null,
+                  status: false
+                }
+              ]
             }
+          ];
 
-            Model.prototype.initStorage = function () {
+          this.initStorage();
+        }
+
+        Model.prototype.initStorage = function () {
           this.score = 0;
           this.questions = [];
           this.messages = new Set();
