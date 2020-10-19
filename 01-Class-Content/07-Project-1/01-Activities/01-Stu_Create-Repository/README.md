@@ -10,7 +10,7 @@ In this activity, you will create a Github repository, add group members as coll
 
 * Once in the repository's settings, select the "Manage access" menu item on the left.
 
-* From the "Manage access" page invite your group members to be project collaborators by entering their Github usernames one at a time.
+* From the "Who has access" page, click "Invite a collaborator" and invite your group members to be project collaborators by entering their GitHub usernames one at a time.
 
 * Each invited group member should receive an email they must open to accept the invitation.
 
