@@ -4,6 +4,8 @@ Your challenge is to build a Node.js command-line application that takes in info
 
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video **and** add it to the README of your project.
 
+**Note**: There is no starter code for this assignment.
+
 ## User Story
 
 ```md
@@ -62,7 +64,7 @@ __tests__/			// jest tests
 dist/               			// rendered output (HTML) and CSS style sheet
 lib/				// classes
 src/				// template helper code
-Index.js			// runs the application
+index.js			// runs the application
 ```
 
 The application must have these classes: `Employee`, `Manager`, `Engineer`, and `Intern`. The tests for these classes (in the `_tests_` directory) **must all pass**.
