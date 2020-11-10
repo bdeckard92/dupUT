@@ -55,7 +55,7 @@ THEN I am automatically signed out of the site
 
 The following animation demonstrates the application functionality:
 
-![Blog Demo](./Assets/14-mvc-homework-demo-01.gif)
+![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif)
 
 
 ## Getting Started
