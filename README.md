@@ -48,7 +48,7 @@ Use these materials to build your class repository.
 
 ### Lesson Plans
 
-You will find the following in [02-lesson-plans](./02-lesson-plans):
+You will find the following in [02-lesson-plans](./02-Lesson-Plans):
 
 * Lesson plans
 
