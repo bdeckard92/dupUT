@@ -59,15 +59,15 @@ Instead of creating a repository, you’ll publish a GitHub **gist**. GitHub des
 
 After you’ve cloned the starter code, learn [how to create a gist](https://help.github.com/en/github/writing-on-github/creating-gists). You can also watch this video on [how to use gists](https://www.youtube.com/watch?v=wc2NlcWjQHw).
 
-**Note:** Make sure to create a **public** gist.
+> **Note:** Make sure to create a **public** gist.
 
 The starter code is a template with a title, introductory paragraph, summary, and table of contents. The table of contents should link to sections of the tutorial that describe the functionality of each component in the regex. Be sure to rename the template to a unique name that describes your tutorial.
 
-**Note:** The regular expression that you choose may not include all of the components outlined in the starter code. After you’ve finished your walkthrough, you can remove any sections that you didn’t use.
+> **Note:** The regular expression that you choose may not include all of the components outlined in the starter code. After you’ve finished your walkthrough, you can remove any sections that you didn’t use.
 
 Each section that describes a component should include more than just one sentence explaining what it does. It should also include a code snippet of that particular component and some examples that meet the requirements of that component.
 
-**Important:** Make revisions to your gist in the GitHub gist UI. This will create a revision history that graders can use to verify that the tutorial content is yours.
+> **Important:** Make revisions to your gist in the GitHub gist UI. This will create a revision history that graders can use to verify that the tutorial content is yours.
 
 
 ## Review
@@ -77,4 +77,4 @@ You are required to submit the following for review:
 * The URL of the GitHub gist. Give the gist a unique name.
 
 - - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
