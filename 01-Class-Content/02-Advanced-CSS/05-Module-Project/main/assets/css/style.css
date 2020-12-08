@@ -460,62 +460,6 @@ section {
 }
 /* TRAINER STYLES END */
 
-/* SERVICE STYLES END */
-.services {
-  background: var(--primary-color);
-}
-
-.service-grid-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.service-grid-container {
-  background: rgba(255,255,255, 0.75);
-  width: 80%;
-  display: grid;
-  /* repeat(iterator, size) */
-  grid-template-columns: 1fr 4fr 4fr;
-  grid-template-rows: repeat(5, 1fr) 2fr;
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
-  font-size: 1.2rem;
-}
-
-.service-grid-item {
-  padding: 15px 0;
-  border: 2px solid var(--secondary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center
-}
-
-/* specific match */
-.service-grid-item.basic {
-  grid-column: 2 / span 1;
-}
-
-.service-grid-item.both {
-  grid-column: 2 / span 2;
-}
-
-.service-grid-item.cancel {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  grid-column: 1;
-  grid-row: 1 / -1;
-}
-
-.grid-head, .grid-price, .service-grid-item.cancel {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-
-/* SERVICE STYLES END */
-
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
@@ -603,10 +547,7 @@ section {
   color: var(--primary-color);
   background: var(--tertiary-color);
 }
-
 /* REACH OUT STYLES END */
-
-
 
 /* UTILITIES */
 .flex-row {
