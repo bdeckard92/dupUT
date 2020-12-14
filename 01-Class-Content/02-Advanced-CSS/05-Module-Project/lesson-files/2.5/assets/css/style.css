@@ -298,8 +298,8 @@ section {
   justify-content: space-between;
 }
 
-.step:not(:last-child) {
-  border-bottom: 1px solid var(--tertiary-color);
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -547,10 +547,6 @@ section {
 
   .step-text {
     flex: 100%;  
-  }
-  
-  .trainer-img h3, .trainer-img h4, .trainer-img::after {
-    display: none;
   }
 
   .trainer-bio h3, .trainer-bio h4 {

@@ -13,6 +13,7 @@
 }
 
 body {
+  color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -536,10 +537,6 @@ section {
     flex: 0 70%;
   }
 
-  .service-grid-container {
-    width: 100%;
-  }
-
   .contact-info iframe{
     flex: 1 100%;
   }
@@ -585,10 +582,6 @@ section {
 
   .step-text {
     flex: 100%;  
-  }
-
-  .trainer-img h3, .trainer-img h4, .trainer-img::after {
-    display: none;
   }
 
   .trainer-bio h3, .trainer-bio h4 {
