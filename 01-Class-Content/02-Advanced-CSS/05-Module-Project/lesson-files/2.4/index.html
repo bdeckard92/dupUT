@@ -26,9 +26,6 @@
           <li>
             <a href="#reach-out">Reach Out</a>
           </li>
-          <li>
-            <a href="#service-plans">Service Plans</a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -51,24 +48,28 @@
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult.</p>
         <form>
-          <label for="name">Enter full name:</label>
+          <label for="name">Your Name</label>
           <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
-          <label for="email">Enter email address:</label>
+          <label for="email">Your Email</label>
           <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
-          <label for="phone">Enter a telephone number:</label>
+          <label for="phone">Phone Number</label>
           <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
           <p>
-            Have you worked out with a trainer before? 
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-            <input type="radio" name="trainer-confirm" id="trainer-no"/>
-            <label for="trainer-no">No</label>
+            Have you worked out with a trainer before?
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+              <label for="trainer-yes">Yes</label>
+            </span>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-no" />
+              <label for="trainer-no">No</label>
+            </span>
           </p>
           <p>
-            <label for="checkbox">
-              I acknowledge that I am at least 18 years of age.
-            </label>
-            <input type="checkbox" name="checkpoint1" id="checkbox" />
+            <span class="checkbox-wrapper">
+              <input type="checkbox" name="checkpoint1" id="checkbox" />
+              <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+            </span>
           </p>
           <button type="submit">
             Get running!
@@ -189,66 +190,6 @@
       </div>
     </section>
     <!-- "meet the trainers" end -->
-
-    <!-- service plans start -->
-    <section id="service-plans" class="services">
-      <h2 class="section-title secondary-border">
-        Our Service Plans
-      </h2>
-
-      <div class="service-grid-wrapper">
-        <div class="service-grid-container">
-          <!-- Headers -->
-          <div class="service-grid-item grid-head basic">
-            Basic
-          </div>
-          <div class="service-grid-item grid-head premium">
-            Premium
-          </div>
-          <!-- Body -->
-          <div class="service-grid-item basic">
-            Support Offered Between 9-5
-          </div>
-
-          <div class="service-grid-item premium">
-            24/7 Plan Support
-          </div>
-
-          <div class="service-grid-item basic">
-            Bi-Weekly Trainer Calls
-          </div>
-
-          <div class="service-grid-item premium">
-            Weekly Trainer Calls
-          </div>
-
-          <div class="service-grid-item basic">
-            N/A
-          </div>
-
-          <div class="service-grid-item premium">
-            Discounts At Select Running Stores
-          </div>
-
-          <div class="service-grid-item both">
-            Subscription to Run Buddy's Health Magazine!
-          </div>
-
-          <div class="service-grid-item grid-price basic">
-            $10/mo
-          </div>
-
-          <div class="service-grid-item grid-price premium">
-            $25/mo
-          </div>
-
-          <div class="service-grid-item cancel">
-            Cancel At Any Time!
-          </div>
-        </div> <!-- div service-grid-container -->
-      </div> <!-- div service-grid-wrapper -->
-    </section>
-    <!-- service plans end -->
 
     <!-- "reach out" start -->
     <section id="reach-out" class="contact">
