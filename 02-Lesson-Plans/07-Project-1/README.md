@@ -4,15 +4,19 @@
 
 In this week's virtual classes, you'll introduce agile project management and working collaboratively with git branching.
 
-
 ## Virtual Classes
 
-[Recommended](./07.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
+* [Virtual Class 07.1](./07.1-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 07.1](./07.1-RECOMMENDED.md)
 
 ## Instructor Notes
 
-* There is no lesson plan for the Required session. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
+* There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
 * Students can use the [API_Resources](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for ideas on free APIs that don't require CORS to use in their projects.
 
@@ -28,10 +32,11 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 N/A
 
-
 ## Heads-Up
 
-* Students will present their group projects during next week's Required session. Prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative 'awards'.
+* Students will present their group projects during next week's second virtual class.
+
+* Prepare a slide deck of superlative awards to give to each group. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
 
 ## Resources
 

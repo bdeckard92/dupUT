@@ -6,11 +6,17 @@ In this week's virtual classes, you'll review agile project management and Git w
 
 ## Virtual Classes
 
-[Recommended](./15.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
+
+* [Virtual Class 15.1](./15.1-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 15.1](./15.1-RECOMMENDED.md)
 
 ## Instructor Notes
 
-* There is no lesson plan for the Required session. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
+* There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
 * Students can refer to this [guide](../../01-Class-Content/15-Project-2/04-Supplemental/GitHubHerokuConnect.md) on how to connect a GitHub repository to Heroku for automatic deployment.
 
@@ -28,9 +34,9 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's Required session. 
+* Students will present their group projects during next week's second virtual class.
 
-* Prepare a slide deck of superlative 'awards' to give to each group. Here is [an example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative 'awards'.
+* Prepare a slide deck of superlative awards to give to each group. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
 
 ## Resources
 

@@ -2,13 +2,21 @@
 
 ## Overview
 
-In this week's virtual classes, you'll go over closures, factory functions, event delegation, and the Fibonacci algorithm. You will also spend a good amount of time in the Required virtual class going over their Challenge, which looks different from what the students are used to.
+In this week's virtual classes, you'll go over closures, factory functions, event delegation, and the Fibonacci algorithm. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing.
 
 ## Virtual Classes
 
-[Recommended Class](./17.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./17.2-REQUIRED.md)
+* [Virtual Class 17.1](./17.1-REQUIRED.md)
+
+* [Virtual Class 17.2](./17.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 17.1](./17.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 17.2](./17.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -16,9 +24,9 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 
 * This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
 
-* Regex was not covered in the async lessons, however it is the topic used in this week's Challenge. Students may struggle with the `05-Regex` activity because it is their first time seeing it, but encourage them to research online and use this activity as practice for their Challenge.
+* Regex was not covered in the async lessons, but it is the topic used in this week's Challenge. Students may struggle with the `05-Regex` activity because it is their first time seeing it, but encourage them to research online and use this activity as practice for their Challenge.
 
-* You will spend some time in the Required virtual class going over how to create a GitHub gist, so read over the [Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge) and familiarize yourself with [creating gists](https://help.github.com/en/github/writing-on-github/creating-gists) before this class. 
+* You will spend some time in this week's second virtual class going over how to create a GitHub gist, so read over the [Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge) and familiarize yourself with [creating gists](https://help.github.com/en/github/writing-on-github/creating-gists) before this class. 
 
 ## Career Connection
 
@@ -34,7 +42,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, students will learn about noSQL databases, more specifically MongoDB. They will use Mongoose as their ODM, so be sure to familiarize yourself with both before the next class. Although they will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, you should provide them with the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's Required Virtual Class.
+* Next week, students will learn about NoSQL databases, and more specifically, MongoDB. They will use Mongoose as their ODM, so be sure to familiarize yourself with both before the next class. Although they will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, you should provide them with the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
 
 ## Resources
 

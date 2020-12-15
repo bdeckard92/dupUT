@@ -2,13 +2,21 @@
 
 ## Overview
 
-In this week's virtual classes, you'll go over mainly GraphQL, including using the Apollo Server and Apollo Boost to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
+In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server and Apollo Boost to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
 
 ## Virtual Classes
 
-[Recommended Class](./21.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./21.2-REQUIRED.md)
+* [Virtual Class 21.1](./21.1-REQUIRED.md)
+
+* [Virtual Class 21.2](./21.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 21.1](./21.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 21.2](./21.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -34,7 +42,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, students will learn about state management, mainly React Context API. Students will also learn about the Stripe payment platform.
+* Next week, students will learn about state management, mainly using the React Context API. Students will also learn about the Stripe payment platform.
 
 ## Resources
 

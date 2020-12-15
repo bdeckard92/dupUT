@@ -6,21 +6,29 @@ In this week's virtual classes, you'll go over React, including rendering JSX, u
 
 ## Virtual Classes
 
-[Recommended Class](./20.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./20.2-REQUIRED.md)
+* [Virtual Class 20.1](./20.1-REQUIRED.md)
+
+* [Virtual Class 20.2](./20.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 20.1](./20.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 20.2](./20.2-REQUIRED.md)
 
 ## Instructor Notes
 
 * This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
 
-* Let students know that we won't be able to teach them all of React in the amount of time we have. Our role is essentially, to give them the high-points so they understand the terms and know how to proceed.
+* Let students know that we won't be able to teach them all of React in the amount of time we have. Our role is essentially to give them the high points so they understand the terms and know how to proceed.
 
 * Students may feel a little overwhelmed with the new unusual syntax. Remind them that at the end of the day, we're still just working with JavaScript. Prioritize making sure they understand concepts, rather than worrying about them perfectly memorizing syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
-* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
-* Mapping and rendering JSX on to the page was covered in Lesson 1 and React Hooks and conditional rendering were all covered in Lesson 3.
+* Mapping and rendering JSX on to the page was covered in Lesson 1 and React Hooks and conditional rendering were covered in Lesson 3.
 
 ## Career Connection
 

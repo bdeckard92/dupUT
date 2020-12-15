@@ -14,11 +14,11 @@ Each module contains an overview (like this one!) that contains tips, alerts, an
 
 - While students are working on activities, you may want to present this [Time to Code slide](https://docs.google.com/presentation/d/1fUrXBMNng_r8NFkm2aGeO5yy4Eo_OQe0RpNjb2Iqqd4/edit?usp=sharing) to provide clarification for students accessing the class recording later.
 
-- In required virtual classes, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
+- In the second virtual class each week, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
 ## Virtual Class Lesson Plans
 
-The Virtual Class (Recommended) and Virtual Class (Required) are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Student Success Manager or Online Instructional Lead.
+The virtual classes are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Student Success Manager or Online Instructional Lead.
 
 All virtual classes are held on video calls and automatically recorded to be made available to learners for review.
 
@@ -26,7 +26,9 @@ Only learners who are assigned to that specific class may attend these classes.
 
 | Sunday        | Monday OR Tuesday             | Wednesday OR Thursday    | Friday                         |  Saturday|
 |---            |---                            |---                       |---                             |---       |
-| Weekly Challenge & Assessment Due | Virtual Class (Recommended)   | Virtual Class (Required) | New Module Released at 12:01 a.m. |          |
+| Weekly Challenge & Assessment Due | Virtual Class 1   | Virtual Class 2 | New Module Released at 12:01 a.m. |          |
+
+**Note**: All classes that began **before** January 1, 2021 have a **Recommended Virtual Class** and a **Required Virtual Class**. All classes that began **after** January 1, 2021 have two **Required Virtual Classes**. For your convenience, we have linked the appropriate lesson plans in each unit's overview (the root-level README for that unit).
 
 ### Emoji Key
 
@@ -42,9 +44,9 @@ Lesson plans use the following emojis for visual cues:
 
 ### Time Trackers
 
-The Virtual Class (Recommended) and Virtual Class (Required) follow the same format every week:
+The virtual classes follow the same format every week:
 
-#### Virtual Class (Recommended) Time Tracker Template
+#### Virtual Class 1 Time Tracker Template
 
 | Start  | #   | Activity Name                  | Duration |
 | ------ | --- | ------------------------------ | -------- |
@@ -60,7 +62,15 @@ The Virtual Class (Recommended) and Virtual Class (Required) follow the same for
 | 8:00PM | 10  | Office Hours                   | 0:30     |
 | 8:30PM | 11  | End                            | N/A      |
 
-#### Virtual Class (Required) Time Tracker Template
+**Note**: If you are teaching a course that started **after** January 1, 2021, the first 2 items in the time tracker will look slightly different:
+
+| Start  | #   | Activity Name                     | Duration |
+| ------ | --- | ------------------------------    | -------- |
+| 7:00PM | 1   | Everyone Do: Career Connection    | 0:20     |
+| 7:20PM | 2   | Instructor Do: Student Check-In   | 0:05     |
+
+
+#### Virtual Class 2 Time Tracker Template
 
 | Start  | #   | Activity Name                | Duration |
 | ------ | --- | ---------------------------- | -------- |
@@ -82,45 +92,18 @@ The Virtual Class (Recommended) and Virtual Class (Required) follow the same for
 | 9:00PM | 15  | End                          | N/A      |
 
 
-### Virtual Class (Recommended)
+### Virtual Class 1
 
-A Virtual Class (Recommended) is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
+The first virtual class is held on a Monday or Tuesday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are loosely structured with lesson plans that are meant to be flexible so you can adjust them to meet the specific needs of your class.
 
-Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to class prepared to ask questions that will deepen their preliminary understanding of the material.
+Your class should have already begun reviewing their ascynchronous material and learning independently. They should come to class prepared to ask questions that will deepen their preliminary understanding of the material. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
-Recommended virtual classes are two-hour Zoom sessions held early in the week (Mondays/Tuesdays) and are optional for students. Students are expected to be in the middle of working on their asynchronous content during this time of the week.
 
-The primary goals of recommended virtual classes are to:
+### Virtual Class 2
 
-- Build community and help students feel more connected to instructors and one another
-
-- Help students who are stuck on the asynchronous work and would appreciate extra guidance and support
-
-- Provide extra context in the learning journey around career preparation and workforce readiness
-
-#### Determine Group Sentiment
-
-✊ Recommended virtual classes begin with an activity to take the pulse of the class. The lesson plans use Fist-to-Five, in which students hold up a hand to show their comfort level with the material: a fist indicates lack of confidence (0) and an open hand indicates full confidence (5). Feel free to use other means to gauge overall comprehension of the material.
-
-#### Career Connection
-
-After taking the pulse of the class, the longest and perhaps most important activity of a recommended virtual class is the Career Connection. These primarily involve preparing for technical interviews, and will reinforce topics that were introduced in the corresponding asynchronous Career Connection. You're encouraged to share your own experiences during these activities.
-
-### Virtual Class (Required)
-
-A Virtual Class (Required) is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
+The second virtual class is held on a Wednesday or Thursday, depending on your specific class schedule (please ask your Student Success Manager or Online Instructional Lead if you are not sure which schedule to use). These classes are completely structured with lesson plans tailored to deepen the critical understanding of the independent learning that has been done throughout the week.
 
 By the time this class meets, your class should be nearly done with their asynchronous material and should be working on their Challenge.
-
-A 30-minute period is allotted before and after each required virtual class for open Office Hours.
-
-The required virtual class is the only time during the week in which learners are **required** to be face-to-face with instructors, instructional staff members, and one another. For busy learners or those who do not attend the recommended virtual classes, this may be the only opportunity for social learning during the week. 
-
-Learners are likely to see this required virtual class as the “anchor” of their boot camp, and they will want every class to feel enriching, meaningful, and worth their attendance. Required virtual classes are the pivot point at which students are shifting focus from primarily doing asynchronous content to starting the weekly Challenge. 
-
-#### Icebreaker Introduction
-
-The first activity of every required virtual class (the Introduction) is an icebreaker. Students will have spent many hours alone this week, working through asynchronous lesson plans. Some will be moving along confidently and feeling great; others will be struggling and feeling overwhelmed. This is a moment for students to connect with others, receive empathy and emotional support, and get geared up for a positive class, no matter what their week was like and no matter how much of their content they have completed.
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

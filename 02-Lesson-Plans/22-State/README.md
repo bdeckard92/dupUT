@@ -2,15 +2,23 @@
 
 ## Overview
 
-In this week's virtual classes, you'll go over state management, particularly using React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
+In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
-You will also announce the upcoming final project during this week's Required Class.
+You will also announce the upcoming final project during this week's second virtual class.
 
 ## Virtual Classes
 
-[Recommended Class](./22.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./22.2-REQUIRED.md)
+* [Virtual Class 22.1](./22.1-REQUIRED.md)
+
+* [Virtual Class 22.2](./22.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 22.1](./22.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 22.2](./22.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -18,11 +26,11 @@ You will also announce the upcoming final project during this week's Required Cl
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have. 
 
-* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
-* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. In order to prepare the students for the challenge and also their career, the activity is about examining the official Redux Documentation. Emphasize to the students how important it is for them to be able to sift through documentation to find the right information that addresses the specific problem they're trying to solve at their jobs. 
+* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. In order to prepare the students for the Challenge and also their career, the activity is about examining the official Redux Documentation. Emphasize to the students how important it is for them to be able to sift through documentation to find the right information that addresses the specific problem they're trying to solve at their jobs. 
 
-* During this week's Required Class, information about the upcoming final project must go out!
+* Information about the upcoming group project must go out during this week's second virtual class!
 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 

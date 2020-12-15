@@ -6,9 +6,17 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 ## Virtual Classes
 
-[Recommended](./10.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./10.2-REQUIRED.md)
+* [Virtual Class 10.1](./10.1-REQUIRED.md)
+
+* [Virtual Class 10.2](./10.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 10.1](./10.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 10.2](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -34,9 +42,9 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads Up
 
-* Next week you will introduce Express.js to use in the back-end of an application. 
+* Next week you will introduce Express.js to use in the back end of an application. 
 
-* You will use a tool called [Insomnia](https://insomnia.rest/) to test APIs, so make sure to have it installed on your machine and be familiar with using it. 
+* You will use a tool called [Insomnia Core](https://insomnia.rest/products/core/) to test APIs, so make sure to have it installed on your machine and be familiar with using it. 
 
 ## Resources
 
