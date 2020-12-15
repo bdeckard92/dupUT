@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server and Apollo Boost to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
+In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
 
 ## Virtual Classes
 
