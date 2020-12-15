@@ -21,4 +21,4 @@ In this activity, you will publish your own Personal site using GitHub Pages.
 If you need help, consult the [GitHub Pages documentation](https://pages.github.com/).
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

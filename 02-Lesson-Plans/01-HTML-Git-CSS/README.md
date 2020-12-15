@@ -1,6 +1,6 @@
 # Module 01 Instructor Overview: HTML, CSS, and Git
 
-Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping thousands of students around the world achieve their professional goals and their creative dreams. You'll have plenty of time to work with these students, and their progress will astound you. Buckle in! You're in for a fun ride!
+Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping thousands of students around the world achieve their professional goals and their creative dreams. You'll have plenty of time to work with these students, and their progress will astound you. Get ready! You're in for a fun ride!
 
 ## Overview
 
@@ -8,9 +8,17 @@ In this week's virtual classes, you will be welcoming our students to their firs
 
 ## Virtual Classes
 
-[Recommended](./01.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./01.2-REQUIRED.md)
+* [Virtual Class 01.1](./01.1-REQUIRED.md)
+
+* [Virtual Class 01.2](./01.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 01.1](./01.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 01.2](./01.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -73,4 +81,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 N/A
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

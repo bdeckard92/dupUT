@@ -51,4 +51,4 @@ For a closer look at each module, refer to the module overviews to learn:
 * Helpful resources if you want to get ahead or gain more experience after the module
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
