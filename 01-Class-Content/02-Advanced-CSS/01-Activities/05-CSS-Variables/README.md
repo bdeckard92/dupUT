@@ -23,4 +23,4 @@ In this activity, you will take a CSS stylesheet and extract the colors into CSS
 * Replace the corresponding occurrences of the color hex codes with the new CSS variables.
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

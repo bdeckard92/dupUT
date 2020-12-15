@@ -57,4 +57,4 @@ N/A
 * [03-ransom-note](../../01-Class-Content/16-Project-2/03-Algorithms/03-ransom-note)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

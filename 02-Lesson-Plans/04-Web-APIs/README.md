@@ -59,4 +59,4 @@ Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or
 * [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

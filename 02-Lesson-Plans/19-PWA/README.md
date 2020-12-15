@@ -57,4 +57,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-int-to-roman](../../01-Class-Content/19-PWA/03-Algorithms/03-int-to-roman)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

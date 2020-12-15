@@ -106,4 +106,4 @@ The second virtual class is held on a Wednesday or Thursday, depending on your s
 By the time this class meets, your class should be nearly done with their asynchronous material and should be working on their Challenge.
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -55,4 +55,4 @@ N/A
 * [03-remove-duplicates](../../01-Class-Content/15-Project-2/03-Algorithms/03-remove-duplicates)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

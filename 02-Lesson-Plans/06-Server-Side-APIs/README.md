@@ -67,4 +67,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-title-case](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/03-title-case)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

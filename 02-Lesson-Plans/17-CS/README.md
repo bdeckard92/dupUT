@@ -63,4 +63,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-peak-finder](../../01-Class-Content/17-CS/03-Algorithms/03-peak-finder)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

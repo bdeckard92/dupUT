@@ -21,4 +21,4 @@ In this activity, you will use HTML to create a simple portfolio.
   * Include links to an email address, Github profile, and LinkedIn profile in an unordered list.
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -57,4 +57,4 @@ N/A
 * [04-is-numeric](../../01-Class-Content/08-Project-1/03-Algorithms/04-is-numeric)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

@@ -55,4 +55,4 @@ N/A
   * [04-reverse-words](../../01-Class-Content/07-Project-1/03-Algorithms/04-reverse-words)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

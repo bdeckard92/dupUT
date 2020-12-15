@@ -73,4 +73,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-vowel-count](../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/03-vowel-count)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
