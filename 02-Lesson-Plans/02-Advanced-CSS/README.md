@@ -6,9 +6,17 @@ In this week's virtual classes, you'll review flexbox, media queries, CSS Grid, 
 
 ## Virtual Classes
 
-[Recommended](./02.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./02.2-REQUIRED.md)
+* [Virtual Class 02.1](./02.1-REQUIRED.md)
+
+* [Virtual Class 02.2](./02.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 02.1](./02.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 02.2](./02.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -51,4 +59,4 @@ Next week, you will introduce students to JavaScript. This may be a big leap for
 N/A
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

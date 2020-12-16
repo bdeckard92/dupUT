@@ -2,19 +2,27 @@
 
 ## Overview
 
-In this week's virtual classes, you'll review Bootstrap, jQuery and Moment.js.
+In this week's virtual classes, you'll review Bootstrap, jQuery, and Moment.js.
 
 ## Virtual Classes
 
-[Recommended](./05.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./05.2-REQUIRED.md)
+* [Virtual Class 05.1](./05.1-REQUIRED.md)
+
+* [Virtual Class 05.2](./05.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 05.1](./05.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 05.2](./05.2-REQUIRED.md)
 
 ## Instructor Notes
 
 * Be sure to prepare and read over the activities before your class begins. Try and anticipate questions students may have.
 
-* Students may struggle with this module as the shift from vanilla JS to jQuery may be jarring as well as acclimating to use of a CSS framework.
+* Students may struggle with this module as the shift from plain JS to jQuery may be jarring. It may also be difficult for them to acclimate to the use of a CSS framework.
 
 * Ensure that you are using the correct versions of jQuery and Bootstrap (v4).
 
@@ -44,7 +52,7 @@ If you'd like more information on Career Services, visit the [Career Services re
   
   * 1 struggling student
 
-* Next week you will introduce server-side APIs using `fetch`. If `fetch` is new to you, you will want to review prior to class.
+* Next week you will introduce server-side APIs using `fetch`. If `fetch` is new to you, you will want to review it prior to class.
 
 ## Resources
 
@@ -65,4 +73,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-vowel-count](../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/03-vowel-count)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

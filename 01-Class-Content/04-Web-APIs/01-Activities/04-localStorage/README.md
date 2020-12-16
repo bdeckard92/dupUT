@@ -21,4 +21,4 @@ In this activity, you have been provided with a sign-up form that successfully s
   * Render the last registered email and password.
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

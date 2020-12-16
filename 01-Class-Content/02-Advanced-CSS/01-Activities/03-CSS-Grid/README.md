@@ -21,4 +21,4 @@ In this activity, you will take a basic page containing 10 boxes and organize th
   ![The mockup displays a grid with some items spanning more rows and columns than others.](./Images/100-mockup.png)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
