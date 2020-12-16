@@ -27,4 +27,4 @@ In this activity, you are going to use DOM methods to create an entire webpage.
 * Which property allows you to set the text content of the specified node?
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

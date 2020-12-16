@@ -2,19 +2,27 @@
 
 ## Overview
 
-In this week's virtual classes, you'll go over PWAs, mainly webpack and service workers.
+In this week's virtual classes, you'll go over PWAs, primarily focusing on Webpack and service workers.
 
 ## Virtual Classes
 
-[Recommended Class](./19.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./19.2-REQUIRED.md)
+* [Virtual Class 19.1](./19.1-REQUIRED.md)
+
+* [Virtual Class 19.2](./19.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 19.1](./19.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 19.2](./19.2-REQUIRED.md)
 
 ## Instructor Notes
 
 * This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
 
-* Webpack was introduced in Lesson 2 but will not be required for the Challenge. Service workers were introduced in Lesson 4.
+* Webpack was introduced in Lesson 2, but it's not required for the Challenge. Service workers were introduced in Lesson 4.
 
 ## Career Connection
 
@@ -30,7 +38,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, students will learn about React. Students may feel a little overwhelmed with the new unusual syntax. Remind them that at the end of the day, we're still just working with JavaScript. Prioritize making sure they understand concepts, rather than worrying about them perfectly memorizing syntax.
+* Next week, students will learn about React. Students may feel a little overwhelmed with the new, unusual syntax. Remind them that at the end of the day, we're still just working with JavaScript. Prioritize making sure they understand concepts, rather than worrying about them perfectly memorizing syntax.
 
 ## Resources
 
@@ -49,4 +57,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-int-to-roman](../../01-Class-Content/19-PWA/03-Algorithms/03-int-to-roman)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

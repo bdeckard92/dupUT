@@ -2,17 +2,23 @@
 
 ## Overview
 
-In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete in order to prepare for technical interviews. In terms of module content, you will review conditional statements, iteration, functions,arrays, generating random values, prompts and alerts. 
+In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete in order to prepare for technical interviews. In terms of module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts. 
 
 ## Virtual Classes
 
-[Recommended](./03.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./03.2-REQUIRED.md)
+* [Virtual Class 03.1](./03.1-REQUIRED.md)
+
+* [Virtual Class 03.2](./03.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 03.1](./03.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 03.2](./03.2-REQUIRED.md)
 
 ## Instructor Notes
-
-* This week's Career Connection is on the topic of interview process. Use the prompts to facilitate a discussion. Feel free to share your personal experience. Use the remaining time to review one of this week's algorithms. 
 
 * The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals.
 
@@ -51,4 +57,4 @@ Next week, you will review "vanilla JS" Web APIs. If this is new to you or you g
 * [03-log-nums](../../01-Class-Content/03-JavaScript/03-Algorithms/03-log-nums)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

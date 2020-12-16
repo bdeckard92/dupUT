@@ -6,9 +6,17 @@ In this week's virtual classes, you'll review setting up an Express application 
 
 ## Virtual Classes
 
-[Recommended](./11.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./11.2-REQUIRED.md)
+* [Virtual Class 11.1](./11.1-REQUIRED.md)
+
+* [Virtual Class 11.2](./11.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 11.1](./11.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 11.2](./11.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -16,7 +24,7 @@ In this week's virtual classes, you'll review setting up an Express application 
 
 * Ensure that you are using the correct version of Express (v4).
 
-* Be sure to have Insomnia installed on your machine and you are familiar with using it. 
+* Be sure to have Insomnia Core installed on your machine and that you are familiar with using it. 
 
 ## Career Connection
 
@@ -34,7 +42,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * Next week, you will introduce SQL but let the students know that they will be using SQLite for the project they will build in the lessons, but they will be using MySQL in the virtual classes and in their weekly Challenge.
 
-* Be sure to install MySQL on your machine along with the MySQL Workbench.
+* Be sure to install MySQL on your machine.
 
 ## Resources
 
@@ -49,4 +57,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-array-search-2d](../../01-Class-Content/11-Express/03-Algorithms/03-array-search-2d)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

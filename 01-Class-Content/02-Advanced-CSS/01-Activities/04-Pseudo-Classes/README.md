@@ -33,4 +33,4 @@ In this activity, you will take a webpage and style specific elements using pseu
   ![The mockup shows that different styles are applied to specific HTML elements on the page](./Images/100-mockup.png)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
