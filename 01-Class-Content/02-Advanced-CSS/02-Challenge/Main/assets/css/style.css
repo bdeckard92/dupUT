@@ -148,26 +148,23 @@ main {
   margin-bottom: 20px;
 }
 
-.grid-container {
-  display: grid;
-  column-gap: 10px;
-  row-gap: 10px;
-  grid-auto-flow: dense;
-  /* create a 12 column grid */
-  grid-template-columns: repeat(12, 1fr);
-  /* set each row to be atleast 150px tall and a max of 1fr */
-  grid-auto-rows: minmax(150px, 1fr);
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.grid-item {
+.flex-item {
   border: 5px solid var(--secondary);
-  grid-column: span 4;
   background-color: var(--primary);
   color: var(--tertiary);
   min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
+  margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
   background-size: 150%;
@@ -176,21 +173,21 @@ main {
 }
 
 /* feature first portfolio item */
-.grid-item:first-child {
-    grid-column: span 8;
-    grid-row: span 2;
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
 }
 
-.grid-item:hover {
+.flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.grid-item div {
+.flex-item div {
   background-color: var(--secondary);
   padding: 8px 10px;
 }
 
-.grid-item h3 {
+.flex-item h3 {
   font-size: 1.6rem;
 }
 
@@ -222,7 +219,7 @@ main {
   color: var(--secondary);
 }
 
-/* PORTFOLIO PROJECT IMAGES */
+/* portfolio project images */
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
 }
@@ -243,7 +240,7 @@ main {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
-/* END PORTFOLIO PROJECT IMAGES */
+/* end portfolio project images */
 
 @media screen and (max-width: 980px) {
   header {
@@ -279,13 +276,13 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  .grid-item,
-  .grid-item:first-child {
-    grid-column: 1 / -1;
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
   }
 
-  .grid-container {
-    grid-auto-rows: minmax(200px, 1fr);
+  .flex-item:first-child {
+    min-height: 150px;
   }
 
   .hero-banner {
