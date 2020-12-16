@@ -13,4 +13,4 @@ In this activity, you will correctly link the various `style.css` files using re
   * Do not move any of the files! You only need to add the relative paths in the `<link>` tags.
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

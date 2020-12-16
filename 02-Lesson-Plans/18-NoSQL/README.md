@@ -6,9 +6,17 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 ## Virtual Classes
 
-[Recommended Class](./18.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./18.2-REQUIRED.md)
+* [Virtual Class 18.1](./18.1-REQUIRED.md)
+
+* [Virtual Class 18.2](./18.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 18.1](./18.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 18.2](./18.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -18,7 +26,7 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 * Students will use Insomnia Core to test their API routes instead of relying on a front end in this week's virtual classes.
 
-* CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, and the `.populate()` method are used in Lesson 2. Mongoose schema is introduced in Lesson 1 but validations are used in Lesson 5.
+* CRUD operations using Mongoose are introduced in Lesson 1. Mongoose virtuals, subdocuments, and the `.populate()` method are used in Lesson 2. Mongoose schema is introduced in Lesson 1, but validations are used in Lesson 5.
 
 * Although students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, ensure that they have the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md).
 
@@ -36,7 +44,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, students will learn about measuring and optimizing the performance of web applications, as well as focus on Progressive Web Apps (PWAs). 
+* Next week, students will learn about measuring and optimizing the performance of web applications, as well as learning how to create Progressive Web Applications (PWAs).
 
 ## Resources
 
@@ -59,4 +67,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-smallest-difference](../../01-Class-Content/18-NoSQL/03-Algorithms/03-smallest-difference)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

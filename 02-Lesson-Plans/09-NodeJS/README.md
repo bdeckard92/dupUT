@@ -6,9 +6,17 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 
 ## Virtual Classes
 
-[Recommended](./09.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required](./09.2-REQUIRED.md)
+* [Virtual Class 09.1](./09.1-REQUIRED.md)
+
+* [Virtual Class 09.2](./09.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 09.1](./09.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 09.2](./09.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -57,4 +65,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
