@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll review flexbox, media queries, CSS Grid, and other advanced CSS properties, like pseudo-classes and CSS variables.
+In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
 ## Virtual Classes
 
@@ -40,7 +40,7 @@ Next week, you will introduce students to JavaScript. This may be a big leap for
 
 * [MDN Web Docs on Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-* [MDN Web Docs on CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+* [Wikipedia Page on Website Wireframe](https://en.wikipedia.org/wiki/Website_wireframe)
 
 * [MDN Web Docs on Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
