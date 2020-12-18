@@ -6,9 +6,17 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 
 ## Virtual Classes
 
-[Recommended Class](./13.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./13.2-REQUIRED.md)
+* [Virtual Class 13.1](./13.1-REQUIRED.md)
+
+* [Virtual Class 13.2](./13.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 13.1](./13.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 13.2](./13.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -61,4 +69,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-string-map](../../01-Class-Content/13-ORM/03-Algorithms/03-string-map)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
