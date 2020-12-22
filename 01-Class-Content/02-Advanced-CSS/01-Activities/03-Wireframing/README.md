@@ -22,7 +22,7 @@ In this activity, you will use [Google Slides](https://docs.google.com/presentat
 
 * Using the highlighted boxes for reference, your finished wireframe should resemble the following:
 
-  ![The completed wireframe for the CSS Cheat Sheet website.](./Images/100-completed-wireframe.png)
+![The completed wireframe for the CSS Cheat Sheet website.](./Images/100-completed-wireframe.png)
 
 ---
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
