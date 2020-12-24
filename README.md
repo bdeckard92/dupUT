@@ -12,6 +12,8 @@ If you find an error or bug in our curriculum, please submit feedback using the 
 
 **Note:** If a bug is related to a virtual class lesson plan in this repository, please create a GitHub issue for faster resolution.
 
+Please see the [FullStack-Online Wiki](https://github.com/coding-boot-camp/fullstack-online/wiki) for contributing guidelines.
+
 For information about onboarding and training, please consult your Onboarding course in Canvas. If you don't have access or a Canvas account, please email support@bootcampspot.com and provide your name and university.
 
 In case of emergency, message the Full-Stack Online Program Support Manager, Xander Rapstine, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
@@ -44,7 +46,7 @@ Use these materials to build your class repository.
 
 ### Lesson Plans
 
-You will find the following in [02-lesson-plans](./02-lesson-plans):
+You will find the following in [02-lesson-plans](./02-Lesson-Plans):
 
 * Lesson plans
 

@@ -29,4 +29,4 @@ You will be employer-competitive if you are able to:
 * [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 
 - - -
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

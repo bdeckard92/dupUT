@@ -55,7 +55,7 @@ THEN I am automatically signed out of the site
 
 The following animation demonstrates the application functionality:
 
-![Blog Demo](./Assets/14-mvc-homework-demo-01.gif)
+![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif)
 
 
 ## Getting Started
@@ -74,4 +74,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
