@@ -41,10 +41,6 @@ You will find the following in [01-Class-Content](./01-Class-Content):
   1. a `main` folder containing the final project build
 
   2. a `lesson-files` folder containing the snapshots of where the code should be at the end of each lesson in an asynchronous module of content
-  
-  **Note**: The final project build inside the `main` folder can be provided to your students as early the day after the Required Virtual Class. This will ensure that they have the ability to get through the Module Project prior to finishing up their Weekly Challenge.
-  
-  You also have the option to give your students a **Lesson Snapshot** (inside the `lesson-files` folder) earlier in the week if they are completely blocked on a lesson of asynchronous content. Please refrain from providing the final project build in the `main` folder to your students until after the Required Virtual Class for that week's module.
 
 Use these materials to build your class repository.
 
@@ -65,4 +61,4 @@ Each module contains a README.md overview containing tips, alerts, and resources
 📝 The lesson plans in this repo are instructor-facing only and should **not** be shared with students. 
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

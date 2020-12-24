@@ -4,17 +4,25 @@
 
 In this week's virtual classes, you'll mainly review Handlebars, including helper functions and partials. You will also review implementing sessions using `express-session`.
 
-You will also announce the upcoming group project and the group members during this week's Required Class.
+You will also announce the upcoming group project and the group members during this week's second virtual class.
 
 ## Virtual Classes
 
-[Recommended Class](./14.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./14.2-REQUIRED.md)
+* [Virtual Class 14.1](./14.1-REQUIRED.md)
+
+* [Virtual Class 14.2](./14.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 14.1](./14.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 14.2](./14.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* During this week's Required Class, information about the upcoming group project must go out!
+* Information about the upcoming group project must go out during this week's second virtual class!
 
   * Start thinking about project groups. This time, assign 3 students per group, all around the **same** skill level.  
 
@@ -63,4 +71,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-squares-of-a-sorted-array](../../01-Class-Content/14-MVC/03-Algorithms/03-squares-of-a-sorted-array)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
