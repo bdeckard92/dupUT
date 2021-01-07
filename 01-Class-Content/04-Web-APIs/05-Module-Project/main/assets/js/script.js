@@ -248,11 +248,11 @@ var deleteTask = function (taskId) {
   saveTasks();
 };
 
-var saveTasks = function() {
+var saveTasks = function () {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
-var loadTasks = function() {
+var loadTasks = function () {
   var savedTasks = localStorage.getItem("tasks");
   // if there are no tasks, set tasks to an empty array and return out of the function
   if (!savedTasks) {
