@@ -148,14 +148,14 @@ var completeEditTask = function (taskName, taskType, taskId) {
   formEl.removeAttribute("data-task-id");
   // update formEl button to go back to saying "Add Task" instead of "Edit Task"
   formEl.querySelector("#save-task").textContent = "Add Task";
-
+  // save tasks to localStorage
   saveTasks();
 };
 
 var taskButtonHandler = function (event) {
   // get target element from event
   var targetEl = event.target;
-  console.log(targetEl);
+
   if (targetEl.matches(".edit-btn")) {
     console.log("edit", targetEl);
     var taskId = targetEl.getAttribute("data-task-id");
@@ -195,7 +195,7 @@ var taskStatusChangeHandler = function (event) {
     }
   }
 
-  console.log(tasks);
+  // save to localStorage
   saveTasks();
 };
 
@@ -214,7 +214,7 @@ var editTask = function (taskId) {
   var taskType = taskSelected.querySelector("span.task-type").textContent;
   console.log(taskType);
 
-  // write values of taskname and taskType to form to be edited
+  // write values of taskName and taskType to form to be edited
   document.querySelector("input[name='task-name']").value = taskName;
   document.querySelector("select[name='task-type']").value = taskType;
 
