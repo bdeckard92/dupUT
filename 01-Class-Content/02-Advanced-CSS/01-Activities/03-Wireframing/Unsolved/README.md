@@ -4,4 +4,4 @@
 
 ![Example of an unfinished wireframe with its row and columns highlighted](./assets/Images/100-unfinished-wireframe.png)
 
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
