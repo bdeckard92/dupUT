@@ -18,6 +18,13 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -25,6 +32,7 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -48,6 +56,14 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -89,11 +105,12 @@ section {
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .hero-cta {
@@ -109,15 +126,22 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(255, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
 }
 
 .hero-form h3 {
@@ -136,6 +160,13 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px; 
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 
 .hero-form label {
@@ -148,6 +179,7 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  border-radius: 10px;
 } 
 /* HERO STYLES END */
 
@@ -201,6 +233,10 @@ section {
   justify-content: space-between;
 }
 
+.step:last-child {
+  border-bottom: none;
+}
+
 .step h3 {
   color: #024e76;
   font-size: 46px;
@@ -237,7 +273,6 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
-
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -279,59 +314,6 @@ section {
   font-size: 17px;
 }
 /* TRAINER STYLES END */
-
-/* SERVICE STYLES START */
-.services {
-  background: #fce138; 
-}
-
-.service-grid-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.service-grid-container {
-  background: lightyellow;
-  width: 80%;
-  display: grid;
-  /* repeat(iterator, size) */
-  grid-template-columns: 1fr repeat(2, 4fr);
-  grid-template-rows: repeat(5, 1fr) 2fr;
-  border: 2px solid #024e76;
-  color:  #024e76;
-  font-size: 1.2rem;
-}
-
-.service-grid-item {
-  padding: 15px 0;
-  border: 2px solid #024e76;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.service-grid-item.basic {
-  grid-column: 2 / span 1;
-}
-
-.service-grid-item.both {
-  grid-column: 2 / span 2;
-}
-
-.service-grid-item.cancel {
-  writing-mode: vertical-lr;
-  grid-column: 1;
-  grid-row: 1 / -1;
-  transform: rotate(180deg);
-}
-
-.grid-head, .grid-price, .service-grid-item.cancel {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-/* SERVICE STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -382,6 +364,13 @@ section {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 
 .contact-form button {
@@ -392,13 +381,17 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 .contact-info a {
   color: #fce138;
 }
-
-
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -419,6 +412,7 @@ section {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
@@ -489,24 +483,9 @@ section {
   .step-text {
     flex: 100%;  
   }
-  
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
 
-  .service-grid-item.basic {
-    grid-column: 1;
-  }
-
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
-
-  .service-grid-item.cancel {
-    transform: none;
-    writing-mode: unset;
-    grid-column: 1 / -1;
-    grid-row: -1;
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 }
 

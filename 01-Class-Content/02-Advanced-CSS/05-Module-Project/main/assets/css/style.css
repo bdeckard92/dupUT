@@ -13,6 +13,7 @@
 }
 
 body {
+  color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -105,7 +106,6 @@ footer a {
 section {
   padding: 60px;
 }
-
 
 /* HERO STYLES START */
 
@@ -258,8 +258,6 @@ section {
 .radio-wrapper input[type="radio"]:checked + label::after {
     content: "";
 }
-
-
 /* HERO STYLES END */
 
 /* SECTION TITLE STYLES START */
@@ -362,82 +360,17 @@ section {
   justify-content: space-around;
 }
 
-/* 2.2 - added flex */
 .trainer {
-  flex: 1;
   margin: 20px;
+  flex: 1;
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.trainer-img {
+.trainer img {
   width: 100%;
-  min-height: 300px;
-  display: flex;
-  padding: 15px;
-  align-items: flex-end;
-  background-size: cover;
-  background-position: top;
-  overflow: hidden;
-  position: relative;
 }
 
-.trainer-img::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  display: block;
-  background-image: linear-gradient(180deg, rgba(252,225,56,0.3) 0%, rgba(2,78,118,1) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: .5s linear;
-}
-
-
-.trainer-img h3 {
-  font-size: 28px;
-  position: relative;
-  top: 200px;
-  transition-duration: .6s;
-  transition-timing-function: ease-in-out;
-  margin-bottom: 5px;
-  z-index: 1;
-}
-
-.trainer-img h4 {
-  font-weight: lighter;
-  font-size: 22px;
-  position: relative;
-  z-index: 1;
-  top: 200px;
-  transition-duration: .6s;
-  transition-delay: .2s;
-  transition-timing-function: ease-in-out;
-}
-
-.trainer:hover .trainer-img::after {
-  opacity: 1;
-}
-
-.trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
-  transform: translateY(-200px);
-}
-
-.trainer-1 {
-  background-image: url('../images/trainer-1.jpg');
-}
-
-.trainer-2 {
-  background-image: url('../images/trainer-2.jpg');
-}
-
-.trainer-3 {
-  background-image: url('../images/trainer-3.jpg');
-}
-
-/* 2.2 - removed float and width */
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
@@ -445,14 +378,12 @@ section {
 
 .trainer-bio h3 {
   font-size: 28px;
-  display: none;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
-  display: none;
 }
 
 .trainer-bio p {
@@ -460,65 +391,8 @@ section {
 }
 /* TRAINER STYLES END */
 
-/* SERVICE STYLES END */
-.services {
-  background: var(--primary-color);
-}
-
-.service-grid-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.service-grid-container {
-  background: rgba(255,255,255, 0.75);
-  width: 80%;
-  display: grid;
-  /* repeat(iterator, size) */
-  grid-template-columns: 1fr 4fr 4fr;
-  grid-template-rows: repeat(5, 1fr) 2fr;
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
-  font-size: 1.2rem;
-}
-
-.service-grid-item {
-  padding: 15px 0;
-  border: 2px solid var(--secondary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center
-}
-
-/* specific match */
-.service-grid-item.basic {
-  grid-column: 2 / span 1;
-}
-
-.service-grid-item.both {
-  grid-column: 2 / span 2;
-}
-
-.service-grid-item.cancel {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  grid-column: 1;
-  grid-row: 1 / -1;
-}
-
-.grid-head, .grid-price, .service-grid-item.cancel {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-
-/* SERVICE STYLES END */
-
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
   background: var(--secondary-color);
 }
 
@@ -603,10 +477,7 @@ section {
   color: var(--primary-color);
   background: var(--tertiary-color);
 }
-
 /* REACH OUT STYLES END */
-
-
 
 /* UTILITIES */
 .flex-row {
@@ -666,10 +537,6 @@ section {
     flex: 0 70%;
   }
 
-  .service-grid-container {
-    width: 100%;
-  }
-
   .contact-info iframe{
     flex: 1 100%;
   }
@@ -683,7 +550,6 @@ section {
 
 /* 2.4 - MEDIA QUERIES FOR TABLETS DOWN TO PHONES */
 @media screen and (max-width: 768px) {
-
   section {
     padding: 30px 15px;
   }
@@ -718,33 +584,9 @@ section {
     flex: 100%;  
   }
 
-  .trainer-img h3, .trainer-img h4, .trainer-img::after {
-    display: none;
-  }
-
   .trainer-bio h3, .trainer-bio h4 {
     display: block;
   }
-
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .service-grid-item.basic {
-    grid-column: 1;
-  }
-
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
-
-  .service-grid-item.cancel {
-    transform: none;
-    writing-mode: unset;
-    grid-column: 1 / -1;
-    grid-row: -1;
-  }
-
 }
 
 /* 2.4 - MEDIA QUERIES FOR PHONE */
