@@ -29,4 +29,4 @@ In this activity, you will create a "True or False" game that will ask five ques
 * Which DOM method can we use to display an alert? 
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -6,9 +6,17 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 
 ## Virtual Classes
 
-[Recommended Class](./12.1-RECOMMENDED.md)
+If your class started **AFTER** January 1, 2021, use these lesson plans:
 
-[Required Class](./12.2-REQUIRED.md)
+* [Virtual Class 12.1](./12.1-REQUIRED.md)
+
+* [Virtual Class 12.2](./12.2-REQUIRED.md)
+
+If your class started **BEFORE** January 1, 2021, use these lesson plans:
+
+* [Virtual Class (Recommended) 12.1](./12.1-RECOMMENDED.md)
+
+* [Virtual Class (Required) 12.2](./12.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -55,4 +63,4 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [03-merge-sorted](../../01-Class-Content/12-SQL/03-Algorithms/03-merge-sorted)
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

@@ -11,4 +11,4 @@ In this activity, you will use a `for` loop to iterate over an array of zoo anim
 What is DRY in terms of software development?
 
 ---
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
