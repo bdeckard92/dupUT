@@ -272,7 +272,6 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
@@ -299,8 +298,8 @@ section {
   justify-content: space-between;
 }
 
-.step:not(:last-child) {
-  border-bottom: 1px solid var(--tertiary-color);
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -339,7 +338,6 @@ section {
   line-height: 1.5;
   color: var(--secondary-color);
 }
-
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -381,59 +379,6 @@ section {
   font-size: 17px;
 }
 /* TRAINER STYLES END */
-
-/* SERVICE STYLES START */
-.services {
-  background: var(--primary-color); 
-}
-
-.service-grid-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.service-grid-container {
-  background: lightyellow;
-  width: 80%;
-  display: grid;
-  /* repeat(iterator, size) */
-  grid-template-columns: 1fr repeat(2, 4fr);
-  grid-template-rows: repeat(5, 1fr) 2fr;
-  border: 2px solid var(--secondary-color);
-  color:  var(--secondary-color);
-  font-size: 1.2rem;
-}
-
-.service-grid-item {
-  padding: 15px 0;
-  border: 2px solid var(--secondary-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.service-grid-item.basic {
-  grid-column: 2 / span 1;
-}
-
-.service-grid-item.both {
-  grid-column: 2 / span 2;
-}
-
-.service-grid-item.cancel {
-  writing-mode: vertical-lr;
-  grid-column: 1;
-  grid-row: 1 / -1;
-  transform: rotate(180deg);
-}
-
-.grid-head, .grid-price, .service-grid-item.cancel {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-/* SERVICE STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -512,8 +457,6 @@ section {
 .contact-info a {
   color: var(--primary-color);
 }
-
-
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -605,24 +548,9 @@ section {
   .step-text {
     flex: 100%;  
   }
-  
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
 
-  .service-grid-item.basic {
-    grid-column: 1;
-  }
-
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
-
-  .service-grid-item.cancel {
-    transform: none;
-    writing-mode: unset;
-    grid-column: 1 / -1;
-    grid-row: -1;
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 }
 
