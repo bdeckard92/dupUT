@@ -47,7 +47,7 @@ router.get('/candidate/:id', (req, res) => {
 
 // Create a candidate
 router.post('/candidate', ({ body }, res) => {
-    // Candidate is allowed not to be affiliated with a party
+  // Candidate is allowed not to be affiliated with a party
   const errors = inputCheck(body, 'first_name', 'last_name', 'industry_connected');
   if (errors) {
     res.status(400).json({ error: errors });
@@ -57,8 +57,8 @@ router.post('/candidate', ({ body }, res) => {
   const sql =  `INSERT INTO candidates (first_name, last_name, industry_connected, party_id) 
                 VALUES (?,?,?,?)`;
   const params = [body.first_name, body.last_name, body.industry_connected, body.party_id];
-  // function,not arrow, to use this
-  db.query(sql, params, function(err, result) {
+
+  db.query(sql, params, (err, result) => {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -66,8 +66,7 @@ router.post('/candidate', ({ body }, res) => {
 
     res.json({
       message: 'success',
-      data: body,
-      id: this.lastID
+      data: body
     });
   });
 });
@@ -83,31 +82,43 @@ router.put('/candidate/:id', (req, res) => {
 
   const sql = `UPDATE candidates SET party_id = ? WHERE id = ?`;
   const params = [req.body.party_id, req.params.id];
-  // must use a function declaration, not arrow function, to retain this context
-  db.query(sql, params, function(err, result) {
+  db.query(sql, params, (err, result) => {
     if (err) {
       res.status(400).json({ error: err.message });
-      return;
+      // check if a record was found
+    } else if (!result.affectedRows) {
+      res.json({
+        message: 'Candidate not found',
+      });
+    } else {
+      res.json({
+        message: 'success',
+        data: req.body,
+        changes: result.affectedRows
+      });
     }
-
-    res.json({
-      message: 'success',
-      data: req.body,
-      changes: this.changes
-    });
+    
   });
 });
 
 // Delete a candidate
 router.delete('/candidate/:id', (req, res) => {
   const sql = `DELETE FROM candidates WHERE id = ?`
-  db.query(sql, req.params.id, function(err, result) {
+  db.query(sql, req.params.id, (err, result) => {
     if (err) {
       res.status(400).json({ error: res.message });
-      return;
+      // checks if anything was deleted
+    } else if (!result.affectedRows) {
+      res.json({
+        message: 'Candidate not found',
+      })
+    } else {
+      res.json({ 
+        message: 'deleted', 
+        changes: result.affectedRows,
+        id: req.params.id
+      });
     }
-
-    res.json({ message: 'deleted', changes: this.changes, deleted: result });
   });
 });
 

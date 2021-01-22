@@ -26,7 +26,7 @@ router.get('/votes', (req, res) => {
 });
 
 // Create a vote record
-router.post('/vote', ( {body}, res) => {
+router.post('/vote', ({ body }, res) => {
   // Data validation 
   const errors = inputCheck(body, 'voter_id', 'candidate_id');
   if (errors) {
@@ -36,8 +36,8 @@ router.post('/vote', ( {body}, res) => {
   
   const sql = `INSERT INTO votes (voter_id, candidate_id) VALUES (?,?)`;
   const params = [body.voter_id, body.candidate_id];
-  // use ES5 function, not arrow to use this 
-  db.query(sql, params, function(err, result) {
+  // use a function declaration to keep this context
+  db.query(sql, params, (err, result) => {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -46,7 +46,7 @@ router.post('/vote', ( {body}, res) => {
     res.json({
       message: 'success',
       data: body,
-      id: this.lastID
+      changes: result.affectedRows
     });
   });
 });

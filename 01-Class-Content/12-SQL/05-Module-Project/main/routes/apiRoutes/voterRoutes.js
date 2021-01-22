@@ -37,7 +37,7 @@ router.get('/voter/:id', (req, res) => {
 });
 
 // Create a voter
-router.post('/voter', ({body}, res) => {
+router.post('/voter', ({ body }, res) => {
   // Data validation 
   const errors = inputCheck(body, 'first_name', 'last_name', 'email');
   if (errors) {
@@ -47,8 +47,7 @@ router.post('/voter', ({body}, res) => {
   
   const sql = `INSERT INTO voters (first_name, last_name, email) VALUES (?,?,?)`;
   const params = [body.first_name, body.last_name, body.email];
-  // use function declaration, not arrow function to keep this context 
-  db.query(sql, params, function(err, data) {
+  db.query(sql, params, (err, data) => {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -56,8 +55,7 @@ router.post('/voter', ({body}, res) => {
 
     res.json({
       message: 'success',
-      data: body,
-      id: this.lastID
+      data: body
     });
   });
 });
@@ -72,31 +70,41 @@ router.put('/voter/:id', (req, res) => {
   
   const sql = `UPDATE voters SET email = ? WHERE id = ?`;
   const params = [req.body.email, req.params.id];
-  // use ES5 function, not arrow to use this 
-  db.query(sql, params, function(err, data) {
+  db.query(sql, params, (err, data) => {
     if (err) {
       res.status(400).json({ error: err.message });
-      return;
+    } else if (!data.affectedRows) {
+      res.json({
+        message: 'Voter not found',
+      }); 
+    } else {
+      res.json({
+        message: 'success',
+        data: req.body,
+        changes: result.affectedRows
+      });
     }
-
-    res.json({
-      message: 'success',
-      data: req.body,
-      changes: this.changes
-    });
   });
 });
 
 // Delete a voter
 router.delete('/voter/:id', (req, res) => {
   const sql = `DELETE FROM voters WHERE id = ?`;
-  db.query(sql, req.params.id, function(err, result) {
+  db.query(sql, req.params.id, (err, result) => {
     if (err) {
       res.status(400).json({ error: res.message });
-      return;
+     // checks if anything was deleted
+    } else if (!result.affectedRows) {
+      res.json({
+        message: 'Voter not found',
+      })
+    } else {
+      res.json({ 
+        message: 'deleted', 
+        changes: result.affectedRows,
+        id: req.params.id
+      });
     }
-
-    res.json({ message: 'deleted', changes: this.changes });
   });
 });
 
