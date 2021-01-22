@@ -58,7 +58,7 @@ router.post('/candidate', ({ body }, res) => {
                 VALUES (?,?,?,?)`;
   const params = [body.first_name, body.last_name, body.industry_connected, body.party_id];
   // function,not arrow, to use this
-  db.query(sql, params, (err, result) => {
+  db.query(sql, params, function(err, result) {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
