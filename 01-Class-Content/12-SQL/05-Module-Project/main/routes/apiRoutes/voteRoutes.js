@@ -36,7 +36,6 @@ router.post('/vote', ({ body }, res) => {
   
   const sql = `INSERT INTO votes (voter_id, candidate_id) VALUES (?,?)`;
   const params = [body.voter_id, body.candidate_id];
-  // use a function declaration to keep this context
   db.query(sql, params, (err, result) => {
     if (err) {
       res.status(400).json({ error: err.message });
