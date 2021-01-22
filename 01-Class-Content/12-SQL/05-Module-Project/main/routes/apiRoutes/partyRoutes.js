@@ -43,15 +43,15 @@ router.delete('/party/:id', (req, res) => {
       if (err) {
         res.status(400).json({ error: res.message });
         return;
-    } else if (!result.affectedRows) {
-      res.json({
-        message: 'Party not found',
-      })
-    } else {
-      res.json({ 
-        message: 'deleted', 
-        changes: result.affectedRows 
-      });
+      } else if (!result.affectedRows) {
+        res.json({
+          message: 'Party not found',
+        })
+      } else {
+        res.json({ 
+          message: 'deleted', 
+          changes: result.affectedRows 
+        });
     }
   });
 });
