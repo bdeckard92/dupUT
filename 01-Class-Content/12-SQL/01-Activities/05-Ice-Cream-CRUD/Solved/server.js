@@ -1,24 +1,14 @@
-const mysql = require('mysql2');
+const db = require('./db/connection');
 
-const connection = mysql.createConnection({
-  host: 'localhost',
-  port: 3306,
-  // Your MySQL username
-  user: 'root',
-  // Your MySQL password
-  password: '',
-  database: 'ice_creamDB'
-});
-
-connection.connect(err => {
+db.connect(err => {
   if (err) throw err;
-  console.log('connected as id ' + connection.threadId + '\n');
+  console.log('connected as id ' + db.threadId + '\n');
   createProduct();
 });
 
 createProduct = () => {
   console.log('Inserting a new product...\n');
-  const query = connection.query(
+  const query = db.query(
     'INSERT INTO products SET ?',
     {
       flavor: 'Rocky Road',
@@ -38,7 +28,7 @@ createProduct = () => {
 
 updateProduct = () => {
   console.log('Updating all Rocky Road quantities...\n');
-  const query = connection.query(
+  const query = db.query(
     'UPDATE products SET ? WHERE ?',
     [
       {
@@ -61,7 +51,7 @@ updateProduct = () => {
 
 deleteProduct = () => {
   console.log('Deleting all strawberry ice cream...\n');
-  const query = connection.query(
+  const query = db.query(
     'DELETE FROM products WHERE ?',
     {
       flavor: 'strawberry'
@@ -79,10 +69,10 @@ deleteProduct = () => {
 
 readProducts = () => {
   console.log('Selecting all products...\n');
-  connection.query('SELECT * FROM products', function(err, res) {
+  db.query('SELECT * FROM products', function(err, res) {
     if (err) throw err;
     // Log all results of the SELECT statement
     console.log(res);
-    connection.end();
+    db.end();
   });
 };

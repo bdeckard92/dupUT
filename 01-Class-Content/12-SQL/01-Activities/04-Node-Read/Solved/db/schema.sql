@@ -2,6 +2,8 @@ DROP DATABASE IF EXISTS ice_creamDB;
 CREATE DATABASE ice_creamDB;
 USE ice_creamDB;
 
+DROP TABLE IF EXISTS products;
+
 CREATE TABLE products
 (
   id INT NOT NULL
