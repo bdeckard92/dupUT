@@ -1,12 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../../db/database');
+const db = require('../../db/connection');
 
 // Get all parties
 router.get('/parties', (req, res) => {
-  const sql = `SELECT * FROM parties`;
-  const params = [];
-  db.all(sql, params, (err, rows) => {
+  db.query(`SELECT * FROM parties`, (err, rows) => {
     if (err) {
       res.status(500).json({ error: err.message });
       return;
@@ -21,12 +19,17 @@ router.get('/parties', (req, res) => {
 
 // Get single party
 router.get('/party/:id', (req, res) => {
-  const sql = `SELECT * FROM parties WHERE id = ?`;
-  const params = [req.params.id];
-  db.get(sql, params, (err, rows) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-      return;
+  // const sql = `SELECT * FROM parties WHERE id = ?`;
+  // const params = [req.params.id];
+  db.query(
+    `SELECT * FROM parties WHERE id = ?`, 
+    req.params.id, 
+    (err, rows) => {
+      if (err) {
+        res.status(400).json({ 
+          error: err.message 
+        });
+        return;
     }
 
     res.json({
@@ -38,14 +41,20 @@ router.get('/party/:id', (req, res) => {
 
 // Delete a party
 router.delete('/party/:id', (req, res) => {
-  const sql = `DELETE FROM parties WHERE id = ?`;
-  db.run(sql, req.params.id, function(err, result) {
-    if (err) {
-      res.status(400).json({ error: res.message });
-      return;
+  // const sql = `DELETE FROM parties WHERE id = ?`;
+  db.query(
+    `DELETE FROM parties WHERE id = ?`, 
+    req.params.id, 
+    function(err, result) {
+      if (err) {
+        res.status(400).json({ error: res.message });
+        return;
     }
 
-    res.json({ message: 'deleted', changes: this.changes });
+    res.json({ 
+      message: 'deleted', 
+      changes: this.changes 
+    });
   });
 });
 

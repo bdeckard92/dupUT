@@ -1,13 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../../db/database');
+const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
 
 // Get all voters alphabetized by last name
 router.get('/voters', (req, res) => {
   const sql = `SELECT * FROM voters ORDER BY last_name`;
-  const params = [];
-  db.all(sql, params, (err, rows) => {
+  db.query(sql, (err, rows) => {
     if (err) {
       res.status(500).json({ error: err.message });
       return;
@@ -24,7 +23,7 @@ router.get('/voters', (req, res) => {
 router.get('/voter/:id', (req, res) => {
   const sql = `SELECT * FROM voters WHERE id = ?`;
   const params = [req.params.id];
-  db.get(sql, params, (err, rows) => {
+  db.query(sql, params, (err, rows) => {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -48,8 +47,8 @@ router.post('/voter', ({body}, res) => {
   
   const sql = `INSERT INTO voters (first_name, last_name, email) VALUES (?,?,?)`;
   const params = [body.first_name, body.last_name, body.email];
-  // use ES5 function, not arrow to use this 
-  db.run(sql, params, function(err, data) {
+  // use function declaration, not arrow to use this 
+  db.query(sql, params, function(err, data) {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -74,7 +73,7 @@ router.put('/voter/:id', (req, res) => {
   const sql = `UPDATE voters SET email = ? WHERE id = ?`;
   const params = [req.body.email, req.params.id];
   // use ES5 function, not arrow to use this 
-  db.run(sql, params, function(err, data) {
+  db.query(sql, params, function(err, data) {
     if (err) {
       res.status(400).json({ error: err.message });
       return;
@@ -91,7 +90,7 @@ router.put('/voter/:id', (req, res) => {
 // Delete a voter
 router.delete('/voter/:id', (req, res) => {
   const sql = `DELETE FROM voters WHERE id = ?`;
-  db.run(sql, req.params.id, function(err, result) {
+  db.query(sql, req.params.id, function(err, result) {
     if (err) {
       res.status(400).json({ error: res.message });
       return;
