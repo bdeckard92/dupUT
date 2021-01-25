@@ -10,18 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 
-// Connect to database 
-const db = new sqlite3.Database('./db/election.db', err => {
-  if (err) {
-    return console.error(err.message);
-  }
 
-  console.log('Connected to the votes database.');
-});
-
-//*************************************
-// ******** Candidate routes **********
-//*************************************
 // Get all candidates and their party affiliation
 app.get('/api/candidates', (req, res) => {
   const sql =  `SELECT candidates.*, parties.name 
