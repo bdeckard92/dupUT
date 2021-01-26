@@ -12,7 +12,7 @@ router.get('/parties', (req, res) => {
 
     res.json({
       message: 'success',
-      data: rows
+      data: rows,
     });
   });
 });
@@ -22,16 +22,16 @@ router.get('/party/:id', (req, res) => {
   const sql = `SELECT * FROM parties WHERE id = ?`;
   const params = [req.params.id];
   db.query(sql, params, (err, rows) => {
-      if (err) {
-        res.status(400).json({ 
-          error: err.message 
-        });
-        return;
+    if (err) {
+      res.status(400).json({
+        error: err.message,
+      });
+      return;
     }
 
     res.json({
       message: 'success',
-      data: rows
+      data: rows,
     });
   });
 });
@@ -40,18 +40,18 @@ router.get('/party/:id', (req, res) => {
 router.delete('/party/:id', (req, res) => {
   const sql = `DELETE FROM parties WHERE id = ?`;
   db.query(sql, req.params.id, (err, result) => {
-      if (err) {
-        res.status(400).json({ error: res.message });
-        return;
-      } else if (!result.affectedRows) {
-        res.json({
-          message: 'Party not found',
-        })
-      } else {
-        res.json({ 
-          message: 'deleted', 
-          changes: result.affectedRows 
-        });
+    if (err) {
+      res.status(400).json({ error: res.message });
+    } else if (!result.affectedRows) {
+      res.json({
+        message: 'Party not found',
+      });
+    } else {
+      res.json({
+        message: 'deleted',
+        changes: result.affectedRows,
+        id: req.params.id,
+      });
     }
   });
 });

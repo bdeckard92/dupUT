@@ -97,7 +97,6 @@ router.put('/candidate/:id', (req, res) => {
         changes: result.affectedRows
       });
     }
-    
   });
 });
 
