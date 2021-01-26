@@ -1,6 +1,6 @@
 const mysql = require("mysql2");
 
-const connection = mysql.createConnection({
+const db = mysql.createConnection({
   host: "localhost",
   // Your username,
   user: "root",
@@ -9,4 +9,4 @@ const connection = mysql.createConnection({
   database: "election"
 });
 
-module.exports = connection;
+module.exports = db;
