@@ -12,7 +12,7 @@ app.use(express.json());
 // Use apiRoutes
 app.use('/api', apiRoutes);
 
-// Not Found response for unmatched routes
+// "Not Found" 404 status response for unmatched routes
 app.use((req, res) => {
   res.status(404).end();
 });
