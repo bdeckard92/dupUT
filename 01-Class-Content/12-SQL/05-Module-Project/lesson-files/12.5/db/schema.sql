@@ -34,14 +34,7 @@ CREATE TABLE votes (
   voter_id INTEGER NOT NULL,
   candidate_id INTEGER NOT NULL,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  CONSTRAINT fk_voter 
-    FOREIGN KEY (voter_id)
-    REFERENCES voters(id)
-    ON DELETE CASCADE,
-  CONSTRAINT fk_candidate 
-    FOREIGN KEY (candidate_id) 
-    REFERENCES candidates(id) 
-    ON DELETE CASCADE,
-  CONSTRAINT uc_voter
-    UNIQUE (voter_id)
+  CONSTRAINT uc_voter UNIQUE (voter_id),
+  CONSTRAINT fk_voter FOREIGN KEY (voter_id) REFERENCES voters(id) ON DELETE CASCADE,
+  CONSTRAINT fk_candidate FOREIGN KEY (candidate_id) REFERENCES candidates(id) ON DELETE CASCADE
 );
