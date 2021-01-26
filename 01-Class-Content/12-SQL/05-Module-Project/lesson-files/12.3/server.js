@@ -16,7 +16,7 @@ const db = mysql.createConnection(
     // Your MySQL username,
     user: 'root',
     // Your MySQL password
-    password: '',
+    password: 'password',
     database: 'election'
   },
   console.log('Connected to the election database.')
@@ -80,7 +80,6 @@ app.post('/api/candidate', ({ body }, res) => {
 
   const sql =  `INSERT INTO candidates (first_name, last_name, industry_connected, party_id) VALUES (?,?,?,?)`;
   const params = [body.first_name, body.last_name, body.industry_connected, body.party_id];
-  // function,not arrow, to use this
   db.query(sql, params, (err, result) => {
     if (err) {
       res.status(400).json({ error: err.message });
@@ -124,7 +123,7 @@ app.put('/api/candidate/:id', (req, res) => {
   });
 });
 
- // DELETE a candidate
+ // delete a candidate
  app.delete('/api/candidate/:id', (req, res) => {
   const sql = `DELETE FROM candidates WHERE id = ?`;
   const params = [req.params.id];
