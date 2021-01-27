@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Back-end APIs for a voting app.",
   "main": "server.js",
-  "devDependencies": {
-    "jest": "^25.1.0"
-  },
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
