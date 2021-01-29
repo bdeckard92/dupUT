@@ -6,39 +6,19 @@ In this activity, you will create a MySQL database and tables.
 
 * In the [Unsolved](Unsolved/) folder, create a `schema.sql` file for a database named `books_db`.
 
-    * Add these commands to the top of the file to create the database:
+	* Add SQL commands to drop the database if it already exists, create the database, and use the database at the top of the file.
 
-    ```sql
-    DROP DATABASE IF EXISTS books_db;
-    CREATE DATABASE books_db;
-    USE books_db;
-    ```
+	* Create two tables, one for `books` and one for `authors`
 
-    * Create two tables, one for `books` and one for `authors`. 
+		* The `books` table should have an `id` with the `PRIMARY KEY` and `AUTO_INCREMENT` attributes, `authorId`, and `title`.
 
-        * In the `books` table, add columns for the following:
+		* The `authors` table should have an `id` with the `PRIMARY KEY` and `AUTO_INCREMENT` attributes, `firstName`, and `lastName`.
 
-            * `id`
+		* Carefully consider what data types those fields should be.
 
-            * `authorId` 
+* To create this database, initiate the MySQL Shell. Be sure your MySQL Server is running!
 
-            * `title`
-
-            * `PRIMARY KEY`
-
-        * In the `authors` table, add columns for the following: 
-
-            * `id`
-
-            * `firstName`
-
-            * `lastName`
-
-            * `PRIMARY KEY`
-
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
-
-* To execute the `schema.sql` file, type into the MySQL command line: `source schema.sql`
+* Execute the `schema.sql` file on the MySQL command line.
 
 * To check if everything was done correctly, type `show databases;` and `show tables;` in the MySQL command line. Don't forget the semicolon!
 

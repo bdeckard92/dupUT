@@ -6,7 +6,7 @@ In this activity, you will populate the `books_db` database with data.
 
 * In the [Unsolved](Unsolved/) folder, create a `seeds.sql` file.
 
-  * Insert the following names, in this order, into their corresponding columns in `authors`:
+  * Insert the following names, in this order, into their corresponding columns in the `authors` table:
 
     1. Jane Austen
     
@@ -16,7 +16,7 @@ In this activity, you will populate the `books_db` database with data.
     
     4. Andre Asselin
 
-  * Insert the following titles and `authorId` into their corresponding columns in `books`:
+  * Insert the following titles and `authorId` into their corresponding columns in the `books` table:
 
     * 'Pride and Prejudice', 1
 
@@ -30,13 +30,11 @@ In this activity, you will populate the `books_db` database with data.
 
     * 'Dracula', null 
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
+* To create this database, initiate the MySQL Shell. Be sure your MySQL Server is running!
 
-* To set up the database, type into the MySQL command line: `source schema.sql`
+* If needed, execute the `schema.sql` file again and then seed the database.
 
-* To seed the database, type into the MySQL command line: `source seeds.sql`
-
-* To check if everything was done correctly, type into the MySQL command line: `SELECT * FROM authors;` or `SELECT * FROM books;`
+* To check if the database was seeded correctly, query the database to select all of the authors or all of the books.
 
 * To exit the MySQL command line, type `quit;` or `exit;`
 
