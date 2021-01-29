@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, you'll teach students MySQL schemas, creating databases and tables, and populating tables with data. You will also review `JOIN` statements, the `mysql2` npm package, and `?` prepared statements.
+In this week's virtual classes, you'll teach students MySQL schemas, creating databases and tables, and populating tables with data. You will also review `JOIN` statements, the `mysql2` npm package, and prepared statements.
 
 ## Virtual Classes
 
@@ -20,7 +20,7 @@ If your class started **BEFORE** January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* Be sure to install the [MySQL server](https://dev.mysql.com/downloads/mysql/) before this week's classes and run the server to be able to initialize the MySQL command line prompt. 
+* Be sure to install the [MySQL server](https://dev.mysql.com/downloads/mysql/) before this week's classes and run the server to be able to initialize the MySQL Shell. 
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
