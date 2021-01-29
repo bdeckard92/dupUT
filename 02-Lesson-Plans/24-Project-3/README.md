@@ -24,7 +24,7 @@ In this week's virtual classes, students will continue working on their projects
 
 Now that you are in the last week of boot camp, it's more important than ever that students meet with their Career Director more than ever.  Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
 
 ## Heads-Up
 
