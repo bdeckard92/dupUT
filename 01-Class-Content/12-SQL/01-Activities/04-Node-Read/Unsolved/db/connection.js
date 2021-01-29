@@ -1,7 +1,7 @@
 const mysql = require('mysql2');
 
 // Creates the connection to database
-const connection = mysql.createConnection({
+const db = mysql.createConnection({
   host: 'localhost',
   port: 3306,
   // Your MySQL username
@@ -11,4 +11,4 @@ const connection = mysql.createConnection({
   database: 'ice_creamDB'
 });
 
-module.exports = connection;
+module.exports = db;

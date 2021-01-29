@@ -2,7 +2,7 @@ const db = require('./db/connection');
 
 db.connect(err => {
   if (err) throw err;
-  console.log('connected as id ' + connection.threadId);
+  console.log('connected as id ' + db.threadId);
   afterConnection();
 });
 

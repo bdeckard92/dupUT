@@ -4,7 +4,7 @@ In this activity, you will join the `books` and `authors` data together using JO
 
 ## Instructions 
 
-* In the [Unsolved](Unsolved/) folder, create a `join.sql` file and write JOIN queries for the following: 
+* In the [join.sql](Unsolved/join.sql) file, write JOIN queries for the following: 
 
     * show ALL books with authors
 
@@ -12,16 +12,14 @@ In this activity, you will join the `books` and `authors` data together using JO
 
     * show ALL authors, even if we don't know the book
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
+* To check our work, initiate the MySQL Shell. Be sure your MySQL Server is running!
 
-* To set up the database, type into the MySQL command line: `source schema.sql`
+* To needed, rebuild and seed the database.
 
-* To seed the database, type into the MySQL command line: `source seeds.sql`
-
-* To check if everything was done correctly, type into the MySQL command line: `source join.sql`
+* To check if everything was done correctly, execute the `join.sql` file in the MySQL command line.
 
 * To exit the MySQL command line, type `quit;` or `exit;`
 
 ## Hint(s)
 
-* Think of when you would use `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` queries.
+* Think of when you would use the `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` queries.

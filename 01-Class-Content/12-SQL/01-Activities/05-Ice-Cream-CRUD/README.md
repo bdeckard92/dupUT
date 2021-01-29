@@ -4,11 +4,11 @@ In this activity, you will write functions that will query the database to perfo
 
 ## Instructions
 
-* Open the [Unsolved/server.js](Unsolved/server.js) file.
+* In the [connection.js](Unsolved/db/connection.js) file, update the `password` with your MySQL password. The `schema.sql` and `seeds.sql` files have been included in the `db` folder in case you need to reset the database.
 
-* Update the `user` and `password` with your MySQL username and password.
+* Open the [server.js](Unsolved/server.js) file.
 
-* Examine the `createProduct()` function and use as a reference to write the following functions to UPDATE, DELETE, and READ data in the `iceCreamDB` database. 
+  * Examine the `createProduct()` function and use as a reference to write the following functions to UPDATE, DELETE, and READ data in the `ice_creamDB` database. 
 
   * Update the quantity for `Rocky Road` to 100
 
@@ -22,4 +22,4 @@ In this activity, you will write functions that will query the database to perfo
 
 ## Hint(s)
 
-* Use the `?` prepared statement for the UPDATE and DELETE operations.
+* Use the prepared statements for the UPDATE and DELETE operations.

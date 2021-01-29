@@ -12,5 +12,4 @@ afterConnection = () => {
   //
   // YOUR CODE HERE
   //
-  db.end();
 };

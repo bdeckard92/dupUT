@@ -15,7 +15,7 @@ createProduct = () => {
       price: 3.0,
       quantity: 50
     },
-    function(err, res) {
+    (err, res) => {
       if (err) throw err;
       console.log(res.affectedRows + ' product inserted!\n');
       // Call updateProduct() AFTER the INSERT completes
