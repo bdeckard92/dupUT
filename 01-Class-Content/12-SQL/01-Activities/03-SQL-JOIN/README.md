@@ -6,11 +6,11 @@ In this activity, you will join the `books` and `authors` data together using JO
 
 * In the [join.sql](Unsolved/join.sql) file, write JOIN queries for the following: 
 
-    * show ALL books with authors
+	* show ALL books with authors
 
-    * show ALL books, even if we don't know the author
+	* show ALL books, even if we don't know the author
 
-    * show ALL authors, even if we don't know the book
+	* show ALL authors, even if we don't know the book
 
 * To check our work, initiate the MySQL Shell. Be sure your MySQL Server is running!
 
