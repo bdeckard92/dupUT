@@ -1,26 +1,15 @@
-const mysql = require('mysql2');
+const db = require('./db/connection');
 
-// Creates the connection to database
-const connection = mysql.createConnection({
-  host: 'localhost',
-  port: 3306,
-  // Your MySQL username
-  user: 'root',
-  // Your MySQL password
-  password: '',
-  database: 'ice_creamDB'
-});
-
-connection.connect(err => {
+db.connect(err => {
   if (err) throw err;
-  console.log('connected as id ' + connection.threadId);
+  console.log('connected as id ' + db.threadId);
   afterConnection();
 });
 
 afterConnection = () => {
-  connection.query('SELECT * FROM products', function(err, res) {
+  db.query('SELECT * FROM products', (err, res) => {
     if (err) throw err;
     console.log(res);
-    connection.end();
+    db.end();
   });
 };
