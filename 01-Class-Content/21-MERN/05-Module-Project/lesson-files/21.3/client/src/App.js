@@ -1,15 +1,25 @@
 import React from 'react';
-
-import { ApolloProvider } from '@apollo/react-hooks';
-import ApolloClient from 'apollo-boost';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 import Home from './pages/Home';
 
+// Construct our main GraphQL API endpoint
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
+
 const client = new ApolloClient({
-  uri: '/graphql'
+  // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
+  link: httpLink,
+  cache: new InMemoryCache(),
 });
 
 function App() {
