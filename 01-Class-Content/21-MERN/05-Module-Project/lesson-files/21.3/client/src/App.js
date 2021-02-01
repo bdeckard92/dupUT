@@ -11,13 +11,11 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 
-// Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
 
 const client = new ApolloClient({
-  // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
   link: httpLink,
   cache: new InMemoryCache(),
 });
