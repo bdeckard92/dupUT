@@ -1,14 +1,23 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { ApolloProvider } from '@apollo/react-hooks';
-import ApolloClient from 'apollo-boost';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
 
 import Header from './components/Header';
 import BookList from './pages/BookList';
 import Detail from './pages/Detail';
 
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
+
 const client = new ApolloClient({
-  uri: '/graphql'
+  link: httpLink,
+  cache: new InMemoryCache(),
 });
 
 function App() {
