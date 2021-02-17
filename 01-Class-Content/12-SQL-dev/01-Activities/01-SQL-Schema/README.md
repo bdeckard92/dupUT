@@ -14,17 +14,17 @@ In this activity, you will create tables for a MySQL database.
 
 	  * Each column in the `books` table should have an appropriate data type. 
 
-	  * The `id` and the `book_name` columns should not accept NULL values. 
+	  * The `id` and the `book_name` columns should not accept `NULL` values. 
 
 	* Create a new table named `categories`.
 
 	  * The `categories` table should have the following columns: `id` and `category_name`.
 
-	  * Each column in the `categories` table should have an appropriate data type and not accept null values.
+	  * Each column in the `categories` table should have an appropriate data type and not accept `NULL` values.
 	  
 * Execute the `schema.sql` file using the MySQL Shell to create the database and tables.
 
-* To check that the tables have been successfully created and have the correct data types, type `DESCRIBE books;` or `DESCRIBE categories;` into the MySQL shell. 
+* To check that each table has been successfully created and has the correct data types, type `DESCRIBE books;` or `DESCRIBE categories;` into the MySQL shell. 
 
 * To exit the MySQL command line, type `quit;` or `exit;`
 
