@@ -1,37 +1,44 @@
-# MySQL Schema
+# 📖 Create Schema With Tables
 
-In this activity, you will create tables for a MySQL database.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a developer, I want to add two tables to my MySQL database. 
 
-* In the [Unsolved](Unsolved/db) folder, open the `schema.sql` file for a database named `inventory_db`.
+## Acceptance Criteria
 
-	* Add a MySQL command to use the `inventory_db` database.
+* It's done when the schema includes two tables.
 
-	* Create a new table named `books`.
+* It's done when each table has at least three fields and each field has an assigned data type.
 
-	  * The `books` table should have the following columns: `id`, `book_name`, `book_description`, `category_name`, `price`, and `in_stock`.
+* It's done when each table includes an `id` field that does not accept `NULL` values.
 
-	  * Each column in the `books` table should have an appropriate data type. 
+## 📝 Notes
 
-	  * The `id` and the `book_name` columns should not accept `NULL` values. 
+Refer to the documentation: 
 
-	* Create a new table named `categories`.
+[MDN Web Docs on Creating a Table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
 
-	  * The `categories` table should have the following columns: `id` and `category_name`.
+[MDN Web Docs on Data Types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
-	  * Each column in the `categories` table should have an appropriate data type and not accept `NULL` values.
-	  
-* Execute the `schema.sql` file using the MySQL Shell to create the database and tables.
+## Assets
 
-* To check that each table has been successfully created and has the correct data types, type `DESCRIBE books;` or `DESCRIBE categories;` into the MySQL shell. 
+The following image demonstrates the web application's appearance and functionality:
 
-* To exit the MySQL command line, type `quit;` or `exit;`
+![Example of two tables with data types displayed](./assets/image_1.png)
 
-## Hint(s)
+---
 
-* Consult the MySQL documentation on [creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
+## 💡 Hints
 
-* Consult the MySQL documentation on [data types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+* What MySQL command do we use to display a table and information about each field's data types? 
 
+## 🏆 Bonus
 
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* What are some issues we can avoid by having a well designed schema?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

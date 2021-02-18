@@ -5,7 +5,7 @@ USE inventory_db;
 
 CREATE TABLE books(
   id INTEGER NOT NULL,
-  book_name VARCHAR(30) NOT NULL,
+  book_name VARCHAR(30),
   book_description TEXT,
   category_name VARCHAR(30),
   price DECIMAL,
@@ -14,6 +14,6 @@ CREATE TABLE books(
 
 CREATE TABLE categories(
   id INTEGER NOT NULL,
-  category_name VARCHAR(30) NOT NULL
+  category_name VARCHAR(30),
+  category_description TEXT
 );
-
