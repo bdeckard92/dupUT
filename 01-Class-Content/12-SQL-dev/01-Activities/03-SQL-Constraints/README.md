@@ -1,25 +1,26 @@
-# SQL JOIN
+# 🏗️ Use Primary Key and Foreign Key to Define Relationship Between Tables
 
-In this activity, you will join the `books` and `authors` data together using JOIN queries.
+Implement the following user story:
 
-## Instructions 
+* As a developer, I want to link two tables using a primary and foreign keys.
 
-* In the [join.sql](Unsolved/join.sql) file, write JOIN queries for the following: 
+## Acceptance Criteria
 
-	* show ALL books with authors
+* It's done when the `id` columns of both tables are defined as the primary key and auto-increment.
 
-	* show ALL books, even if we don't know the author
+* It's done the foreign key in the `books` table refers to the `prices` table primary key.
 
-	* show ALL authors, even if we don't know the book
+## 💡 Hints
 
-* To check our work, initiate the MySQL Shell. Be sure your MySQL Server is running!
+* What is the difference between the primary and foreign key constraints?
 
-* To needed, rebuild and seed the database.
+## 🏆 Bonus
 
-* To check if everything was done correctly, execute the `join.sql` file in the MySQL command line.
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* To exit the MySQL command line, type `quit;` or `exit;`
+* What are the advantages of using multiple, related tables to store our data? 
 
-## Hint(s)
+Use [Google](https://www.google.com) or another search engine to research this.
 
-* Think of when you would use the `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` queries.
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

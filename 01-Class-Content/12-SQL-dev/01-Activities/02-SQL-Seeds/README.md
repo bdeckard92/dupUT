@@ -1,6 +1,6 @@
 # 🏗️ Seed Table Data
 
-Work with a partner to implement the following user story:
+Implement the following user story:
 
 * As a developer, I want to add data to my database tables.
 
