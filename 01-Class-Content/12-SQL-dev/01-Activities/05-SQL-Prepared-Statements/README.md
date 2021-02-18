@@ -1,25 +1,44 @@
-# Ice Cream CRUD
+# 🐛 Query Not Deleting Row from Table
 
-In this activity, you will write functions that will query the database to perform CRUD operations. 
+Resolve the following issue(s):
 
-## Instructions
+* As a developer, I want to be able to delete a specific row from the `books` table. 
 
-* In the [connection.js](Unsolved/db/connection.js) file, update the `password` with your MySQL password. The `schema.sql` and `seeds.sql` files have been included in the `db` folder in case you need to reset the database.
+## Expected Behavior
 
-* Open the [server.js](Unsolved/server.js) file.
+When I run `server.js`, the row with the `id` of `2` should be deleted from the table and the updated table displayed in the console.
 
-  * Examine the `createProduct()` function and use as a reference to write the following functions to UPDATE, DELETE, and READ data in the `ice_creamDB` database. 
+## Actual Behavior
 
-  * Update the quantity for `Rocky Road` to 100
+When I run `server.js`, a `ER_PARSE_ERROR` results and the table is not updated. 
 
-  * Delete the flavor `strawberry`
+## Steps to Reproduce the Problem
 
-  * Read all of the data from the `products` table
+1. In the MySQL Shell, execute the `db/schema.sql` file. 
 
-  * Remember to include the callback functions!
+2. Next, execute the `db/seeds.sql` file. 
 
-* To check if everything was done correctly, run `npm install` and `npm start` in the command line. 
+3. Run `node server.js` to start the Express server. The results of the query and the table are shown in the console. 
 
-## Hint(s)
+## Assets
 
-* Use the prepared statements for the UPDATE and DELETE operations.
+The following image demonstrates the web application's appearance and functionality:
+
+![Image of Successful Console Log](./assets/image_1.png)
+
+---
+
+## 💡 Hints
+
+What does the `?` represent in a prepared statement? 
+
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* How can you set a user-defined values using a MySQL statement? 
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
