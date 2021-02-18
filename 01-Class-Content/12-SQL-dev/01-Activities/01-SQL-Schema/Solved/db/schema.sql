@@ -8,7 +8,7 @@ CREATE TABLE books(
   book_name VARCHAR(30),
   book_description TEXT,
   category_name VARCHAR(30),
-  price DECIMAL,
+  price DECIMAL(10,2),
   in_stock BOOLEAN 
 );
 

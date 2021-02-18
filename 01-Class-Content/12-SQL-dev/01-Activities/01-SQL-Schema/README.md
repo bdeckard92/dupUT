@@ -20,14 +20,6 @@ Refer to the documentation:
 
 [MDN Web Docs on Data Types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
-## Assets
-
-The following image demonstrates the web application's appearance and functionality:
-
-![Example of two tables with data types displayed](./assets/image_1.png)
-
----
-
 ## 💡 Hints
 
 * What MySQL command do we use to display a table and information about each field's data types? 

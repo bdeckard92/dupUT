@@ -1,11 +1,14 @@
-INSERT INTO authors (firstName, lastName) VALUES ('Jane', 'Austen');
-INSERT INTO authors (firstName, lastName) VALUES ('Mark', 'Twain');
-INSERT INTO authors (firstName, lastName) VALUES ('Lewis', 'Carroll');
-INSERT INTO authors (firstName, lastName) VALUES ('Andre', 'Asselin');
+INSERT INTO books (id, book_name)
+VALUES 
+  (1, "Pride and Prejudice"),
+  (2,"Dracula"),
+  (3,"100 Years of Solitude"),
+  (4,"The Epic of Gilgamesh"),
+  (5, "The Waiting Years");
 
-INSERT INTO books (title, authorId) VALUES ('Pride and Prejudice', 1);
-INSERT INTO books (title, authorId) VALUES ('Emma', 1);
-INSERT INTO books (title, authorId) VALUES ('The Adventures of Tom Sawyer', 2);
-INSERT INTO books (title, authorId) VALUES ('Adventures of Huckleberry Finn', 2);
-INSERT INTO books (title, authorId) VALUES ('Alice''s Adventures in Wonderland', 3);
-INSERT INTO books (title, authorId) VALUES ('Dracula', null);
+INSERT INTO categories (id, category_name) 
+VALUES
+  (1, "Fiction"),
+  (2, "Non-Fiction");
+
+INSERT INTO prices (id, price) VALUES (1, 10.55);

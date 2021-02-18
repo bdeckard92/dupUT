@@ -1,15 +1,19 @@
-DROP DATABASE IF EXISTS books_db;
-CREATE DATABASE books_db;
-USE books_db;
+DROP DATABASE IF EXISTS inventory_db;
+CREATE DATABASE inventory_db;
+
+USE inventory_db;
 
 CREATE TABLE books(
-  id INTEGER AUTO_INCREMENT PRIMARY KEY,
-  authorId INTEGER(11),
-  title VARCHAR(100)
+  id INTEGER NOT NULL,
+  book_name VARCHAR(30) NOT NULL
 );
 
-CREATE TABLE authors(
-  id INTEGER(11) AUTO_INCREMENT PRIMARY KEY,
-  firstName VARCHAR(30),
-  lastName VARCHAR(30)
+CREATE TABLE categories(
+  id INTEGER NOT NULL,
+  category_name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE prices(
+  id INTEGER NOT NULL,
+  price DECIMAL(10,2) NOT NULL
 );
