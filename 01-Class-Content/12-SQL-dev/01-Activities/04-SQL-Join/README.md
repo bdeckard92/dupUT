@@ -1,23 +1,22 @@
-# Node Read
+# 📐 Add Comments to Implementation of a MySQL JOIN Clause
 
-In this activity, you will use the `mysql2` npm package to connect to a MySQL database and print all of the rows of the database's table in the console. 
+dd comments describing the functionality of the code found in [Unsolved](./Unsolved).
 
-## Instructions 
+## 📝 Notes
 
-* Navigate to the [Unsolved](Unsolved/) folder and set up the database:
+Refer to the documentation: 
 
-  * Initialize the MySQL Shell and run the `schema.sql` and `seeds.sql` files to create and populate the `ice_creamDB` database. Exit the MySQL Shell when done.
+[MySQL Docs on JOIN Clause](https://dev.mysql.com/doc/refman/8.0/en/join.html)
 
-* Open the [connection.js](Unsolved/db/connection.js) file and update the `password` with your MySQL password.
+---
 
-* Open the [server.js](Unsolved/server.js) file and do the following:
+## 🏆 Bonus
 
-  * In the `afterConnection()` function, write a simple query that will `SELECT` everything from the `products` table and log the results in the console.
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-  * Be sure to end the connection with `db.end();`. 
+* How do we define a relationship between the two tables?
 
-* To check if everything was done correctly, run `npm install` and `npm start` in the command line.
+Use [Google](https://www.google.com) or another search engine to research this.
 
-## Hint(s)
-
-* You may need to consult the documentation for the [mysql2 package](https://www.npmjs.com/package/mysql2).
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
