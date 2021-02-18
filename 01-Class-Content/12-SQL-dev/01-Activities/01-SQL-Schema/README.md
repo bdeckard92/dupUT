@@ -1,6 +1,6 @@
 # 📖 Create Schema With Tables
 
-Work with a partner to implement the following user story:
+Implement the following user story:
 
 * As a developer, I want to add two tables to my MySQL database. 
 
