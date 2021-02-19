@@ -16,7 +16,7 @@ Implement the following user story:
 
 ## 💡 Hints
 
-What MySQL command do we use to select and display a table and it's data? 
+What MySQL command do we use to select and display a table and it's populated data? 
 
 ## 🏆 Bonus
 
