@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of a MySQL JOIN Clause
 
-dd comments describing the functionality of the code found in [Unsolved](./Unsolved).
+Add comments describing the functionality of the code found in [Unsolved](./Unsolved).
 
 ## 📝 Notes
 
