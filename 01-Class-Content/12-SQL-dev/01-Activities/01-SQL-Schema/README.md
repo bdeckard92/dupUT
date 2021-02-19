@@ -16,9 +16,9 @@ Implement the following user story:
 
 Refer to the documentation: 
 
-[MDN Web Docs on Creating a Table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
+[MySQL Docs on Creating a Table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
 
-[MDN Web Docs on Data Types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+[MySQL Docs on Data Types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 ## 💡 Hints
 
