@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
   // Grab the existing history from local storage
   var existingHistory = JSON.parse(localStorage.getItem('history'));
   var historyItems = [];
@@ -7,8 +7,8 @@ window.addEventListener('load', function () {
   function getForecast(searchValue) {
     var endpoint = `http://api.openweathermap.org/data/2.5/forecast?q=${searchValue}&appid=d91f911bcf2c0f925fb6535547a5ddc9&units=imperial`;
     fetch(endpoint)
-      .then((res) => res.json())
-      .then((data) => {
+      .then(res => res.json())
+      .then(data => {
         // Select our forecast element and add a header to it
         var forecastEl = document.querySelector('#forecast');
         forecastEl.innerHTML = '<h4 class="mt-3">5-Day Forecast:</h4>';
@@ -71,8 +71,8 @@ window.addEventListener('load', function () {
     fetch(
       `http://api.openweathermap.org/data/2.5/uvi?appid=d91f911bcf2c0f925fb6535547a5ddc9&lat=${lat}&lon=${lon}`
     )
-      .then((res) => res.json())
-      .then((data) => {
+      .then(res => res.json())
+      .then(data => {
         var bodyEl = document.querySelector('.card-body');
         var uvEl = document.createElement('p');
         uvEl.id = 'uv';
@@ -97,7 +97,7 @@ window.addEventListener('load', function () {
       });
   }
 
-  const handleHistory = (term) => {
+  const handleHistory = term => {
     if (existingHistory && existingHistory.length > 0) {
       var existingEntries = JSON.parse(localStorage.getItem('history'));
       var newHistory = [...existingEntries, term];
@@ -113,10 +113,12 @@ window.addEventListener('load', function () {
   function searchWeather(searchValue) {
     var endpoint = `http://api.openweathermap.org/data/2.5/weather?q=${searchValue}&appid=d91f911bcf2c0f925fb6535547a5ddc9&units=imperial`;
     fetch(endpoint)
-      .then((res) => res.json())
-      .then((data) => {
+      .then(res => res.json())
+      .then(data => {
         // Invoke our history method
-        handleHistory(searchValue);
+        if (!existingHistory.includes(searchValue)) {
+          handleHistory(searchValue);
+        }
         // Clear any old content
         todayEl = document.querySelector('#today');
         todayEl.textContent = ' ';
@@ -170,7 +172,7 @@ window.addEventListener('load', function () {
     liEl.textContent = text;
 
     // Select the history element and add an event to it
-    liEl.addEventListener('click', (e) => {
+    liEl.addEventListener('click', e => {
       if (e.target.tagName === 'LI') {
         searchWeather(e.target.textContent);
       }
@@ -180,7 +182,7 @@ window.addEventListener('load', function () {
 
   // Render existing history to the page.
   if (existingHistory && existingHistory.length > 0) {
-    existingHistory.forEach((item) => makeRow(item));
+    existingHistory.forEach(item => makeRow(item));
   }
 
   // Helper function to get a search value.
