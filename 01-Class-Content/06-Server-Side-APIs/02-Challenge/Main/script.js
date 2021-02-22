@@ -1,10 +1,19 @@
 window.addEventListener('load', function() {
-  // Grab the existing history from local storage
-  var existingHistory = JSON.parse(localStorage.getItem('history'));
+  // Grab the existing history from local storage IF it exists
+  var existingHistory;
+  if (!JSON.parse(localStorage.getItem('history'))) {
+    existingHistory = [];
+  } else {
+    existingHistory = JSON.parse(localStorage.getItem('history'));
+  }
+
   var historyItems = [];
 
   // Function to get the forecast, loop through only the days of the week and render data to the page
   function getForecast(searchValue) {
+    if (!searchValue) {
+      return;
+    }
     var endpoint = `http://api.openweathermap.org/data/2.5/forecast?q=${searchValue}&appid=d91f911bcf2c0f925fb6535547a5ddc9&units=imperial`;
     fetch(endpoint)
       .then(res => res.json())
@@ -188,8 +197,11 @@ window.addEventListener('load', function() {
   // Helper function to get a search value.
   function getSearchVal() {
     var searchValue = document.querySelector('#search-value').value;
-    searchWeather(searchValue);
-    makeRow(searchValue);
+    if (searchValue) {
+      searchWeather(searchValue);
+      makeRow(searchValue);
+      document.querySelector('#search-value').value = '';
+    }
   }
 
   // Attach our getSearchVal function to the search button
