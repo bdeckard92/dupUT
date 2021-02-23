@@ -28,7 +28,7 @@ Refer to the documentation:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What are some issues we can avoid by having a well designed schema?
+* What are some issues we can avoid by having a well-designed schema?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
