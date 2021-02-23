@@ -15,7 +15,7 @@ const db = mysql.createConnection(
     host: 'localhost',
     // MySQL username,
     user: 'root',
-    // MySQL password
+    // {TODO: Add your MySQL password}
     password: '',
     database: 'inventory_db'
   },
@@ -41,4 +41,3 @@ db.query('SELECT * FROM books', function (err, results) {
 app.use((req, res) => {
   res.status(404).end();
 });
-
