@@ -12,10 +12,10 @@ $(document).ready(function() {
     // save in localStorage
     localStorage.setItem(time, value);
 
-    // Show notification that item was saved to localStorage
+    // Show notification that item was saved to localStorage by adding class 'show'
     $('.notification').addClass('show');
 
-    // Timeout to empty to fade out and empty the notification div
+    // Timeout to remove 'show' class after 5 seconds
     setTimeout(function() {
       $('.notification').removeClass('show');
     }, 5000);
