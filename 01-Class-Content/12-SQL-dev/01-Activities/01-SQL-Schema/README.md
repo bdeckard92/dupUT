@@ -14,6 +14,8 @@ Implement the following user story:
 
 ## 📝 Notes
 
+For this activity, feel free to choose the name of each table and field as well as the assigned data type. 
+
 Refer to the documentation: 
 
 [MySQL Docs on Creating a Table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
