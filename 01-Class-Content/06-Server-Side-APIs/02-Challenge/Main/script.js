@@ -109,8 +109,8 @@ window.addEventListener('load', function() {
   const handleHistory = term => {
     if (existingHistory && existingHistory.length > 0) {
       var existingEntries = JSON.parse(localStorage.getItem('history'));
-      var newHistory = [...existingEntries, term];
-      localStorage.setItem('history', JSON.stringify(newHistory));
+      existingEntries.push(term);
+      localStorage.setItem('history', JSON.stringify(existingEntries));
       // If there is no history, create one with the searchValue and save it localStorage
     } else {
       historyItems.push(term);
