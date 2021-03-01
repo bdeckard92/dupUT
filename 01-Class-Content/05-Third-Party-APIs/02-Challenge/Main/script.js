@@ -2,10 +2,10 @@ $(document).ready(function() {
   // listen for save button clicks
   $('.saveBtn').on('click', function() {
     // get nearby values
-    const value = $(this)
+    var value = $(this)
       .siblings('.description')
       .val();
-    const time = $(this)
+    var time = $(this)
       .parent()
       .attr('id');
 
@@ -23,11 +23,11 @@ $(document).ready(function() {
 
   function hourUpdater() {
     // get current number of hours
-    const currentHour = moment().hours();
+    var currentHour = moment().hours();
 
     // loop over time blocks
     $('.time-block').each(function() {
-      const blockHour = parseInt(
+      var blockHour = parseInt(
         $(this)
           .attr('id')
           .split('-')[1]
@@ -50,7 +50,7 @@ $(document).ready(function() {
   hourUpdater();
 
   // set up interval to check if current time needs to be updated
-  const interval = setInterval(hourUpdater, 15000);
+  var interval = setInterval(hourUpdater, 15000);
 
   // load any saved data from localStorage
   $('#hour-9 .description').val(localStorage.getItem('hour-9'));
