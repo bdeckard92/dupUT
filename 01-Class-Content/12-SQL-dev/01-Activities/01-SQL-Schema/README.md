@@ -8,13 +8,13 @@ Implement the following user story:
 
 * It's done when the schema includes two tables.
 
-* It's done when each table has at least three fields and each field has an assigned data type.
+* It's done when each table has at least three columns and each column has an assigned data type.
 
-* It's done when each table includes an `id` field that does not accept `NULL` values.
+* It's done when each table includes an `id` column that does not accept `NULL` values.
 
 ## 📝 Notes
 
-For this activity, feel free to choose the name of each table and field as well as the assigned data type. 
+For this activity, feel free to choose the name of each table and column as well as the assigned data type. 
 
 Refer to the documentation: 
 
@@ -24,7 +24,7 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-* What MySQL command do we use to display a table and information about each field's data types? 
+* What MySQL command do we use to display a table and information about each column's data types? 
 
 ## 🏆 Bonus
 
