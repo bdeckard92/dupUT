@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of a MySQL JOIN Clause
 
-Add comments describing the functionality of the code found in [Unsolved](./Unsolved).
+Add comments describing the functionality of the code found in [Unsolved](./Unsolved/db/query.sql) and [Unsolved](./Unsolved/db/schema.sql).
 
 ## 📝 Notes
 
