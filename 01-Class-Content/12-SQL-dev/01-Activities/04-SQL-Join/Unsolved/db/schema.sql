@@ -12,7 +12,6 @@ CREATE TABLE books(
   id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
   book_name VARCHAR(30) NOT NULL,
   price INTEGER,
-  -- Sets relationship between books table and prices table --
   FOREIGN KEY (price)
   REFERENCES prices(id)
   ON DELETE SET NULL
