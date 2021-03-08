@@ -5,7 +5,7 @@ function MiniBank(balance) {
   this.balance = balance;
   this.getBalance = function() {
     return this.balance;
-  },
+  };
     // Add a `setBalance()` function
     // YOUR CODE HERE
     //
