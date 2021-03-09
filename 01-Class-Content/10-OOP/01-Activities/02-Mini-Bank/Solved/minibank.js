@@ -3,15 +3,15 @@
 
 function MiniBank(balance) {
   this.balance = balance;
-  (this.getBalance = function() {
+  this.getBalance = function() {
     return this.balance;
-  }),
+  };
     // Add a `setBalance()` function
-    (this.setBalance = function(value) {
+    this.setBalance = function(value) {
       this.balance = value;
-    }),
+    };
     // Add a `deposit()` function
-    (this.deposit = function(value) {
+    this.deposit = function(value) {
       // Bonus code
       if (typeof value !== 'number' || value <= 0) {
         throw new Error("'value' must be a positive number!");
@@ -19,9 +19,9 @@ function MiniBank(balance) {
       let newBalance = this.getBalance() + value;
       this.setBalance(newBalance);
       console.log(`Deposited ${value}!`);
-    }),
+    };
     // Add a `withdraw()` function
-    (this.withdraw = function(value) {
+    this.withdraw = function(value) {
       // Bonus code
       if (typeof value !== 'number' || value <= 0) {
         throw new Error("'value' must be a positive number");
@@ -33,10 +33,10 @@ function MiniBank(balance) {
       }
       this.setBalance(newBalance);
       console.log(`Withdrew ${value}!`);
-    }),
-    (this.printBalance = function() {
+    };
+    this.printBalance = function() {
       console.log(`Balance: ${this.getBalance()}`);
-    });
+    };
 }
 
 // =============================================================
