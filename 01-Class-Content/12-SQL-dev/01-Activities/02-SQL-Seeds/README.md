@@ -16,13 +16,13 @@ Implement the following user story:
 
 ## 💡 Hints
 
-What MySQL command do we use to select and display a table and it's populated data? 
+Which MySQL command do we use to select and display a table and its populated data? 
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What MySQL command do we use to add data to a table?
+* Which MySQL command do we use to add data to a table?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

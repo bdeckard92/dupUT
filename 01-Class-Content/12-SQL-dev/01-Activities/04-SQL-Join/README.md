@@ -6,7 +6,7 @@ Add comments describing the functionality of the code found in [query.sql](./Uns
 
 Refer to the documentation: 
 
-[MySQL Docs on JOIN Clause](https://dev.mysql.com/doc/refman/8.0/en/join.html)
+[MySQL documentation on JOIN clause](https://dev.mysql.com/doc/refman/8.0/en/join.html)
 
 ---
 
@@ -14,7 +14,7 @@ Refer to the documentation:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How do we define a relationship between the two tables?
+* How do we define a relationship between two tables?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
