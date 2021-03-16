@@ -1,29 +1,38 @@
-# SQL Schema
+# 📖 Create Schema With Tables
 
-In this activity, you will create a MySQL database and tables.
+Implement the following user story:
 
-## Instructions
+* As a developer, I want to add two tables to my MySQL database. 
 
-* In the [Unsolved](Unsolved/) folder, create a `schema.sql` file for a database named `books_db`.
+## Acceptance Criteria
 
-	* Add SQL commands to drop the database if it already exists, create the database, and use the database at the top of the file.
+* It's done when the schema includes two tables.
 
-	* Create two tables, one for `books` and one for `authors`
+* It's done when each table has at least three columns and each column has an assigned data type.
 
-		* The `books` table should have an `id` with the `PRIMARY KEY` and `AUTO_INCREMENT` attributes, `authorId`, and `title`.
+* It's done when each table includes an `id` column that does not accept `NULL` values.
 
-		* The `authors` table should have an `id` with the `PRIMARY KEY` and `AUTO_INCREMENT` attributes, `firstName`, and `lastName`.
+## 📝 Notes
 
-		* Carefully consider what data types those fields should be.
+For this activity, feel free to choose the name of each table and column as well as the assigned data type. 
 
-* To create this database, initiate the MySQL Shell. Be sure your MySQL Server is running!
+Refer to the documentation: 
 
-* Execute the `schema.sql` file on the MySQL command line.
+[MySQL documentation on creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
 
-* To check if everything was done correctly, type `show databases;` and `show tables;` in the MySQL command line. Don't forget the semicolon!
+[MySQL documentation on data types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
-* To exit the MySQL command line, type `quit;` or `exit;`
+## 💡 Hints
 
-## Hint(s)
+Which MySQL command do we use to display a table and information about each column's data types? 
 
-* You may need to consult the MySQL documentation on [creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* What issues can we avoid by having a well-designed schema?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
