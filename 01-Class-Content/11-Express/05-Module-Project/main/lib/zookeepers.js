@@ -5,7 +5,7 @@ function filterByQuery(query, zookeepers) {
   let filteredResults = zookeepers;
 
   if (query.age) {
-    filteredResults = filteredResults.filter(zookeeper => zookeeper.age === query.age);
+    filteredResults = filteredResults.filter(zookeeper => zookeeper.age === Number(query.age));
   }
   if (query.favoriteAnimal) {
     filteredResults = filteredResults.filter(
