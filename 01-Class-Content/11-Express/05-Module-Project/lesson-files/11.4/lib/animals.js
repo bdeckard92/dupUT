@@ -39,7 +39,7 @@ function createNewAnimal(body, animalsArray) {
   animalsArray.push(animal);
   fs.writeFileSync(
     path.join(__dirname, '../data/animals.json'),
-    JSON.stringify({ animalsArray }, null, 2)
+    JSON.stringify({ animals: animalsArray }, null, 2)
   );
   return animal;
 }
