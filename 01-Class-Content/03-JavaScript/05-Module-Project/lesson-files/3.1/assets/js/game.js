@@ -4,9 +4,8 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
-console.log(playerName);
-console.log(playerHealth, playerAttack, playerMoney);
-console.log("You can put regular sentences in these.");
+// You can also log multiple values at once like this
+console.log(playerName, playerAttack, playerHealth);
 
 var enemyName = "Roborto";
 var enemyHealth = 50;
