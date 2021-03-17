@@ -126,7 +126,7 @@ var endGame = function() {
   if (playAgainConfirm) {
     startGame();
   } else {
-    window.alert('Thank you for playing Battlebots! Come back soon!');
+    window.alert('Thank you for playing Robot Gladiators! Come back soon!');
   }
 };
 
