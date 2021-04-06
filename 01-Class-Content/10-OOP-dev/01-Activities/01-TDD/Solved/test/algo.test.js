@@ -1,3 +1,4 @@
+// Require algo file
 const Algo = require("../algo");
 
 describe("Algo", () => {

@@ -7,6 +7,7 @@ const reversed = algo.reverse(str1);
 
 console.log(str1, "->", reversed);
 
+// Is this meant to be a fail? In the other examples, racecar is a pass and neon is a fail. 
 const str2 = "racacar";
 const isPalindrome = algo.isPalindrome(str2);
 
