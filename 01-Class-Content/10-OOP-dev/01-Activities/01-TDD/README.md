@@ -10,7 +10,7 @@ Work with a partner to implement the following user story:
 
 * It's done when the `isPalindrome()` test is written to expect the string `"racecar"` to return `true` and the string `"neon"` to return `false` after calling `new Algo().isPalindrome()`.
 
-* It's done when the `capitalize()` test is written to expect the string `"capitalize every first word of the string."` to become `"Capitalize Every First Word Of The String."` after calling `new Algo().capitalize()`.
+* It's done when the `capitalize()` test is written to expect the string `"capitalize the first letter of each word in a string."` to become `"Capitalize The First Letter Of Each Word In A String." after calling `new Algo().capitalize()`.
 
 
 ## 📝 Notes
