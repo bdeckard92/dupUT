@@ -38,4 +38,4 @@ DayCare.prototype.pickupChild = function(name) {
   return this.children.splice(index, 1)[0];
 };
 
-module.exports = DayCare
+module.exports = DayCare;
