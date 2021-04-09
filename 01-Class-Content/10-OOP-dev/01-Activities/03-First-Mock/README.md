@@ -28,7 +28,7 @@ Work with a partner to resolve the following issues:
 
 The following image demonstrates the web application's appearance and functionality:
 
-![The console indicates that the test suites and tests have passed, with no messages or errors displayed.](./images/image_1.png)
+![The console indicates that the test suites and tests have passed, with no messages or errors displayed.](./images/image.png)
 
 ---
 
