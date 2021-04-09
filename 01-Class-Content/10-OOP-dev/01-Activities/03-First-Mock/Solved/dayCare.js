@@ -37,3 +37,5 @@ DayCare.prototype.pickupChild = function(name) {
   console.log(`Picked up ${name} from day care`);
   return this.children.splice(index, 1)[0];
 };
+
+module.exports = DayCare;
