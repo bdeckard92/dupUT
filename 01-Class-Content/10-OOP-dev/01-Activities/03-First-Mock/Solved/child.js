@@ -11,5 +11,5 @@ function Child(name, age) {
     this.age = age;
   }
   
-  module.exports = Child;
+module.exports = Child;
   
