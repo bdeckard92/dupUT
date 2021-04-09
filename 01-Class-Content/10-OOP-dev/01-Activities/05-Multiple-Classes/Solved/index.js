@@ -18,4 +18,4 @@ store.replenishStock('Rare Toy', 2);
 store.processProductSale('Rare Toy');
 
 // Should return 80.95
-store.printRevenue(); 
+store.printRevenue();
