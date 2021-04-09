@@ -34,5 +34,4 @@ class Character {
     // Switch turns
     graceTurn = !graceTurn;
   }, 2000);
-  © 2021 GitHub, Inc.
   
