@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of Multiple Classes
 
-Work with a partner to add comments describing the functionality of the code found in [store.js](./Unsolved/store.js), [store.js](./Unsolved/toy.js), and [index.js](./Unsolved/index.js)
+Work with a partner to add comments describing the functionality of the code found in [store.js](./Unsolved/store.js), [toy.js](./Unsolved/toy.js), and [index.js](./Unsolved/index.js)
 
 ## 📝 Notes
 
