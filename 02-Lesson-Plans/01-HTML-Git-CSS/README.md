@@ -61,7 +61,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* Review with students the difference between a module project and a challenge. A challenge can be though of as homework while the module project is asynchronous material found in Canvas. While it is not required, students are advised to be familiar with the material before attending class.
+* Review with students the difference between a module project and a challenge. A challenge can be thought of as homework while the module project is asynchronous material found in Canvas. While it is not required, students are advised to be familiar with the material before attending class.
 
 * Students will likely struggle to get all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for success in this module:
 
