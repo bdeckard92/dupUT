@@ -47,8 +47,8 @@ WHEN I click on one of my existing posts in the dashboard
 THEN I am able to delete or update my post and taken back to an updated dashboard
 WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
-WHEN I am idle on the page for more than a set time
-THEN I am automatically signed out of the site 
+WHEN I am idle on the site for more than a set time
+THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
 ## Mock-Up
@@ -64,6 +64,7 @@ Your application’s folder structure must follow the Model-View-Controller para
 
 You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
+**Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
 
 ## Review
 
