@@ -6,7 +6,7 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
-| Day | Topic          | Location    |
+| Day | Topic          | Location  |
 | --- | -------------- | --------- |
 | 1   | CLI            | 1.1       |
 | 1   | HTML           | 1.1 - 1.7 |
@@ -14,14 +14,13 @@ In this week's virtual classes, you will be welcoming our students to their firs
 | 2   | Relative Paths | 1.2       |
 | 2   | GitHub Pages   | 1.1       |
 
-
 ## Overview of Asynchronous Material
 
 Why are students learning HTML, CSS, and Git?
 
 * Git is an essential skill that employers will expect students to have on day one of their new positions. It is important to impart knowledge of the essential Git commands in order to help students save their work and collaborate effectively.
-* HTML is the backbone the entire website. It's important to help students achieve a solid understanding of this markup language so that they have a solid base for everything that comes after.
-* CSS is an important skill for students to have in order to create amazing looking websites. CSS allows students to be artistic but also keep things organized.
+* HTML allows students to scaffold their pages and organize elements on the page. It's important to help students achieve a solid understanding of this markup language so that they have a solid base for everything that comes after.
+* CSS is an important skill for students to have in order to style their pages. It is one of the three fundamental technologies used for web development. CSS allows students to organize their code in such a way that style is separate from content.
 
 Throughout the async module this week, students will use HTML, CSS and Git to do the following:
 
@@ -34,15 +33,15 @@ Throughout the async module this week, students will use HTML, CSS and Git to do
 
 **Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson                                 | Description                                                                 | Key Points                                             |
-| -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------ |
-| 1. Set Up the Project                     | Get up and running with the basics                                           | Review publishing to GitHub pages, common git commands |
+| Lesson                                 | Description                                                                      | Key Points                                             |
+| -------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 1. Set Up the Project                  | Get up and running with the basics                                               | Review publishing to GitHub pages, common git commands |
 | 2. Build the Header and Footer         | Walk through creating the Run Buddy webpage, starting with the header and footer | Relative paths, CSS selectors, HTML attributes         |
-| 3. Create the Hero                     | Walk through creating a hero section for "run buddy"                        | Form elements, block vs .inline, relative vs. absolute |
-| 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of "run buddy"               | Chrome dev tools, multiple CSS classes                 |
-| 5. Meet the Trainers                   | Create section elements to build out the page                               | CSS `float`, CSS classes, specificity in elements      |
-| 6. Build the Contact Section           | Create a contact section for the "run buddy" website                        | Reuseable CSS, columns using `display`, `iframe`       |
-| 7. Add a Privacy Policy                | Add a privacy policy page to the "run buddy" website                        | Linking multiple CSS files                             |
+| 3. Create the Hero                     | Walk through creating a hero section for Run Buddy                               | Form elements, block vs .inline, relative vs. absolute |
+| 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy                      | Chrome dev tools, multiple CSS classes                 |
+| 5. Meet the Trainers                   | Create section elements to build out the page                                    | CSS `float`, CSS classes, specificity in elements      |
+| 6. Build the Contact Section           | Create a contact section for the Run Buddy website                               | Reuseable CSS, columns using `display`, `iframe`       |
+| 7. Add a Privacy Policy                | Add a privacy policy page to the Run Buddy website                               | Linking multiple CSS files                             |
 
 ## Virtual Classes
 
@@ -78,7 +77,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point        | Recommendation                                                                                                                                                   |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SSH Keys          | Refer students to [Generating a new SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) |
-| Needed accounts   | Refer students to [GitHub](https://github.com) and [GitLab](https://gitlab.com/)                                                                                 |
+| Account Setup     | Refer students to [GitHub](https://github.com) and [GitLab](https://gitlab.com/)                                                                                 |
 | Out of class help | Explain how to contact Learning Assistants in Slack, office hour times, tutors, classmates. Encourage study groups.                                              |
 
 ## Career Connection
@@ -91,25 +90,24 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build a landing page using HTML and CSS for a company called "Run Buddy"
+Students will refactor an existing webpage and make it accessible.
 
 [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
-* HTML
-* CSS
-* Git
-* `bash` commands
-* External Stylesheets
-* Relative paths
-* GitHub pages
+* DRY design pattern -- Consolidate CSS selectors
+* Ensuring all links function properly
+* Implementation of semantic structure of HTML elements
+* Well documented code -- include comments
+* Implementation of `alt` attributes for images
+* Ordering elements in sequence
 
 ## Heads-Up
 
-* Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
+Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new or it's been awhile, be sure to review the activities in advance.
 
-**IMPORTANT**: As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
+**Important**: As students start working on their weekly Challenges, they will need to create good professional READMEs for every Challenge they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) as they work on their first Challenge.
 
 ## Resources
 
