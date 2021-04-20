@@ -31,7 +31,6 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-@TODO FILL OUT CHART WITH THE APPROPRIATE NUMBER OF LESSONS, THE ASSOCIATED DESCRIPTION OF THAT LESSON, AND ANY IMPORTANT NOTES OR TIPS FOR THE INSTRUCTOR ABOUT THAT LESSON
 | Lesson | Description      | Key Points                                                                             |
 | ------ | ---------------- | -------------------------------------------------------------------------------------- |
 | 1      | Git workflow     | Versioning with Git, `checkout` branches, sync with remote, resolve merge conflicts    |
