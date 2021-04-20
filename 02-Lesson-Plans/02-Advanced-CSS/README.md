@@ -4,15 +4,17 @@ Creating a skeleton for a website and making it look nice are two entirely diffe
 
 ## Overview
 
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive.
+
 In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
-| Day | Topic          | Module |
-| --- | -------------- | ------ |
-| 1   | Flexbox Cards  | 2.2    |
-| 1   | Media Queries  | 2.3    |
-| 2   | Wireframing    | 2.2    |
-| 2   | Pseudo-classes | 2.4    |
-| 2   | CSS Variables  | 2.5    |
+| Day | Topic          | Location |
+| --- | -------------- | -------- |
+| 1   | Flexbox Cards  | 2.2      |
+| 1   | Media Queries  | 2.3      |
+| 2   | Wireframing    | 2.2      |
+| 2   | Pseudo-classes | 2.4      |
+| 2   | CSS Variables  | 2.5      |
 
 ## Overview of Asynchronous Material
 
