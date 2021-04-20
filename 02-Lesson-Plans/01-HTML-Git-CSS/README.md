@@ -4,6 +4,8 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 ## Overview
 
+In this module, students will learn the foundations of JavaScrip. By learning JavaScript, students will develop the skills needed to understand other programming languages. Learning the fundamentals of JavaScript is an investment in their long-term success as a full-stack web developer.
+
 In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
 | Day | Topic          | Location  |
