@@ -6,7 +6,7 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
-| Day | Topic          | Module    |
+| Day | Topic          | Location    |
 | --- | -------------- | --------- |
 | 1   | CLI            | 1.1       |
 | 1   | HTML           | 1.1 - 1.7 |
@@ -14,7 +14,6 @@ In this week's virtual classes, you will be welcoming our students to their firs
 | 2   | Relative Paths | 1.2       |
 | 2   | GitHub Pages   | 1.1       |
 
----
 
 ## Overview of Asynchronous Material
 
@@ -33,18 +32,17 @@ Throughout the async module this week, students will use HTML, CSS and Git to do
 * Add comments to CSS files to make the code easier to read
 * Use GitHub Pages to publish a webpage to the internet
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson                                 | Description                                                                 | Key Points                                             |
 | -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------ |
-| 1. HTML, CMD, GIT                      | Get up an running with the basics                                           | Review publishing to GitHub pages, common git commands |
-| 2. Build the Header and Footer         | Walk through creating a "run buddy" webpage starting with header and footer | Relative paths, CSS selectors, HTML attributes         |
+| 1. Set Up the Project                     | Get up and running with the basics                                           | Review publishing to GitHub pages, common git commands |
+| 2. Build the Header and Footer         | Walk through creating the Run Buddy webpage, starting with the header and footer | Relative paths, CSS selectors, HTML attributes         |
 | 3. Create the Hero                     | Walk through creating a hero section for "run buddy"                        | Form elements, block vs .inline, relative vs. absolute |
 | 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of "run buddy"               | Chrome dev tools, multiple CSS classes                 |
 | 5. Meet the Trainers                   | Create section elements to build out the page                               | CSS `float`, CSS classes, specificity in elements      |
 | 6. Build the Contact Section           | Create a contact section for the "run buddy" website                        | Reuseable CSS, columns using `display`, `iframe`       |
 | 7. Add a Privacy Policy                | Add a privacy policy page to the "run buddy" website                        | Linking multiple CSS files                             |
----
 
 ## Virtual Classes
 
