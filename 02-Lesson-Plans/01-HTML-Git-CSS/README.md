@@ -1,16 +1,18 @@
-# Module 1 Instructor Overview: HTML, CSS, and Git
+# Module 01 Instructor Overview: HTML, CSS, and Git
+
+Welcome and thank you so much for being a part of our program! Thanks to instructors/TAs like yourself, we're helping thousands of students around the world achieve their professional goals and their creative dreams. You'll have plenty of time to work with these students, and their progress will astound you. Get ready! You're in for a fun ride!
 
 ## Overview
 
 In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
-| Day | Topic          | Location                                                                         | Recommended Location                                                          |
-| --- | -------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 1   | CLI            | [1.1 Required](./01.1-REQUIRED.md#3-instructor-demo-command-line-5-min)          | [1.1 Recommended](./01.1-RECOMMENDED.md#3-instructor-demo-command-line-5-min) |
-| 1   | HTML           | [1.1 Required](./01.1-REQUIRED.md#6-instructor-demo-html-5-min)                  | [1.1 Recommended](./01.1-RECOMMENDED.md#6-instructor-demo-html-5-min)         |
-| 2   | CSS            | [1.2 Required](./01.2-REQUIRED.md#3-instructor-demo-html--css-5-min)             |
-| 2   | Relative Paths | [1.2 Required](./01.2-REQUIRED.md#6-instructor-demo-relative-paths-5-min)        |
-| 2   | GitHub Pages   | [1.2 Required](./01.2-REQUIRED.md#9-instructor-demo-github-pages-personal-5-min) |
+| Day | Topic          | Module    |
+| --- | -------------- | --------- |
+| 1   | CLI            | 1.1       |
+| 1   | HTML           | 1.1 - 1.7 |
+| 2   | CSS            | 1.1 - 1.7 |
+| 2   | Relative Paths | 1.2       |
+| 2   | GitHub Pages   | 1.1       |
 
 ---
 
@@ -18,9 +20,9 @@ In this week's virtual classes, you will be welcoming our students to their firs
 
 Why are students learning HTML, CSS, and Git?
 
-* Learning how to use Git is an essential skill that employers will expect you to have on day one of your new position. It is important to know the essential Git commands in order to save your work and collaborate effectively with your team.
-* HTML is the backbone to your entire website. It's important to have a solid understanding of this markup language so that you have a solid base for everything that comes after.
-* CSS is an important skill to have in order to create amazing looking websites. CSS allows you to be artistic but also keep things organized.
+* Git is an essential skill that employers will expect students to have on day one of their new positions. It is important to impart knowledge of the essential Git commands in order to help students save their work and collaborate effectively.
+* HTML is the backbone the entire website. It's important to help students achieve a solid understanding of this markup language so that they have a solid base for everything that comes after.
+* CSS is an important skill for students to have in order to create amazing looking websites. CSS allows students to be artistic but also keep things organized.
 
 Throughout the async module this week, students will use HTML, CSS and Git to do the following:
 
@@ -129,5 +131,5 @@ Specific skills students will need to implement in order to be successful:
 
 n/a
 
-- - -
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
