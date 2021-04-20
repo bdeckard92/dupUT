@@ -21,12 +21,12 @@ In this week's virtual classes, you will be welcoming our students to their firs
 Why are students learning HTML, CSS, and Git?
 
 * Git is an essential skill that employers will expect students to have on day one of their new positions. It is important to impart knowledge of the essential Git commands in order to help students save their work and collaborate effectively.
-* HTML allows students to scaffold their pages and organize elements on the page. It's important to help students achieve a solid understanding of this markup language so that they have a solid base for everything that comes after.
-* CSS is an important skill for students to have in order to style their pages. It is one of the three fundamental technologies used for web development. CSS allows students to organize their code in such a way that style is separate from content.
+* HTML allows students to scaffold their pages and organize elements on the page. It's important to help students achieve greater understanding of this markup language so that they have a solid foundation for the skills that come later.
+* As one of the three fundamental technologies used for web development, CSS is an important skill for students to have in order to style their pages. CSS allows students to organize their code in such a way that style is separate from content.
 
 Throughout the async module this week, students will use HTML, CSS and Git to do the following:
 
-* Know the difference between HTML and CSS, what each technology does, and how they interact with each other
+* Identify the difference between HTML and CSS, what each technology does, and how they interact with each other
 * Understand semantic HTML and the best practices for structuring HTML files
 * Structure HTML elements to satisfy specific accessibility standards that allow tools such as screen readers to explain the page's content in a meaningful way to those who have a disability such as vision or hearing loss
 * Follow best practices for structuring CSS files
