@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students learn the foundations of JavaScript. This unit instills logical problem-solving skills in the minds of students. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
+In this module, students learn the foundations of JavaScript. This module teaches students logical problem-solving skills. It also introduces students to loops, conditionals, functions and built in JavaScript Objects. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
 
 In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete preparing for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
 
@@ -10,7 +10,7 @@ In this week's virtual classes, you'll introduce **weekly algorithms** that stud
 | --- | ---------------------- | ------ |
 | 1   | Conditional Statements | 3.1    |
 | 1   | For Loops              | 3.2    |
-| 2   | Math.random()          | 3.4    |
+| 2   | `Math.random()`        | 3.4    |
 | 2   | Functions              | 3.1    |
 
 ## Overview of Asynchronous Material
@@ -26,8 +26,8 @@ Why are students learning JavaScript?
 Throughout the async module this week, students will use JavaScript to do the following:
 
 * Identify and declare variables containing primitive and object data types in JavaScript
-* Write for loops to iterate over strings and arrays
-* Write conditional statements using if/else and switch statements
+* Write `for` loops to iterate over strings and arrays
+* Write conditional statements using `if...else` and `switch` statements
 * Explain the importance of objects in JavaScript and create objects that contain both properties and methods
 * Explain and implement the difference between function declarations and expressions
 * Explain and implement comparison and logical operators
@@ -80,7 +80,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build a password generator using JavaScript for this week's challenge.
+Students will build a password generator using JavaScript for this week's challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
 
 [Module 03 Challenge](../../01-Class-Content/03-Javascript/02-Challenge)
 
@@ -88,8 +88,10 @@ Specific skills students will need to implement to be successful:
 
 * Organizing logical operations into functions.
 * Iteration through alphanumeric characters.
-* Pushing to arrays
-* Rendering data to the DOM
+* Dynamically rendering data to the page using JavaScript.
+* Creating event listeners for page elements.
+* Pushing to arrays.
+* Rendering data to the DOM.
 
 ## Heads-Up
 
