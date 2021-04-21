@@ -2,11 +2,9 @@
 
 ## Overview
 
-In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete in order to prepare for technical interviews. In terms of module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
+In this module, students learn the foundations of JavaScript. This unit instills logical problem-solving skills in the minds of students. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
 
-@TODO FILL OUT CHART BELOW WITH TOPICS COVERED IN CLASS EACH DAY AND THEN LINK TO ASSOCIATED LESSON PLAN LOCATION
-<!-- for topics: https://github.com/coding-boot-camp/fullstack-online/tree/master/01-Class-Content -->
-<!-- for module: https://github.com/coding-boot-camp/fullstack-online-internal -->
+In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete preparing for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
 
 | Day | Topic                  | Module |
 | --- | ---------------------- | ------ |
@@ -20,9 +18,9 @@ In this week's virtual classes, you'll introduce **weekly algorithms** that stud
 Why are students learning JavaScript?
 
 * JavaScript is the most important language used in web development.
-* Learning JavaScript primes your brain for understanding computer science concepts.
-* JavaScript makes web applications fully interactive.
-* JavaScript allows us to preform logical operations in the browser.
+* Learning JavaScript prepares students for understanding computer science concepts.
+* JavaScript gives students the tools to build interactive web applications.
+* JavaScript empowers students to solve complex problems with logic.
 * JavaScript is fun!
 
 Throughout the async module this week, students will use JavaScript to do the following:
@@ -66,12 +64,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-@TODO FILL OUT CHART BY LISTING 2-4 PAIN POINTS AND SOLUTIONS
-
-| Pain Point                          | Recommendation       |
-| ----------------------------------- | -------------------- |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
+| Pain Point                        | Recommendation                                                                                                                                                                  |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Scoping                           | Provide examples of function scope vs. global scope. Refer to [MDN Glossary for Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)                                 |
+| Order of operations               | Provide a brief overview of the concurrency model. Refer to [MDN Concurrency and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)                 |
+| Different syntax in Documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Advise students we will start with ES5 and later move into ES6 |
 
 ## Career Connection
 
@@ -87,7 +84,7 @@ Students will build a password generator using JavaScript for this week's challe
 
 [Module 03 Challenge](../../01-Class-Content/03-Javascript/02-Challenge)
 
-Specific skills students will need to implement in order to be successful:
+Specific skills students will need to implement to be successful:
 
 * Organizing logical operations into functions.
 * Iteration through alphanumeric characters.
