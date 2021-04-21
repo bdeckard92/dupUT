@@ -81,10 +81,10 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                          | Recommendation       |
+| Pain Point                          | Recommendation                                                          |
 | ---                                 | ---                  |
 | The `this` keyword                  | Refer to Lesson 1 or the [MDN documentation on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) |
-| Deploying to GitHub Pages          | Refer to Lesson 5 or [Getting Started with GitHub Pages](Getting started with GitHub Pages)
+| Deploying to GitHub Pages          | Refer to Lesson 5 or [Getting Started with GitHub Pages](Getting started with GitHub Pages)|
 
 ## Career Connection
 
