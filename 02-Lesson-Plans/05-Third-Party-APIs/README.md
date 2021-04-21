@@ -20,11 +20,11 @@ Why are students learning third-party APIs?
 
 * Third-party APIs are libraries or frameworks that allow developers to incorporate additional functionality into web applications easily. In addition to gaining practice in implementing these popular APIs, students will also gain skills in reading third-party documentation.
 
-* The Bootstrap API is a CSS framework that allows students to build responsive and functional mobile-first user interfaces easily by using an extensive list of pre-built components and classes. 
+* **Bootstrap** is a CSS framework that allows students to build responsive and functional mobile-first user interfaces easily by using an extensive list of pre-built components and classes. 
 
-* jQuery is a lightweight JavaScript library that simplifies routine JavaScript tasks such as event handling, HTML document manipulation, and animation.
+* **jQuery** is a lightweight JavaScript library that simplifies routine JavaScript tasks such as event handling, HTML document manipulation, and animation.
 
-* Moment.js is JavaScript library that provides easy-to-use documentation and a simple set of methods to easily parse, manipulate and display date data. While no longer being actively maintained, Moment.js is still a great way for students to practice using a third-party API to manipulate their data and learn about the complexities of handling date and time data in their code.  
+* **Moment.js** is JavaScript library that provides easy-to-use documentation and a simple set of methods to easily parse, manipulate and display date data. While no longer being actively maintained, Moment.js is still a great way for students to practice using a third-party API to manipulate their data and learn about the complexities of handling date and time data in their code.  
 
 Throughout the async module this week, students will use third-party APIs to do the following:
 
