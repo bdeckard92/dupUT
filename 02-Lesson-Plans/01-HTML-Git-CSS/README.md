@@ -4,7 +4,7 @@ Welcome and thank you so much for being a part of our program! Thanks to instruc
 
 ## Overview
 
-In this module, students will learn the foundations of JavaScript. By learning JavaScript, students will develop the skills needed to understand other programming languages. Learning the fundamentals of JavaScript is an investment in their long-term success as a full-stack web developer.
+In this module, students learn three web development technologies that are essential to success as a web developer. Students learn HTML through creating the basic structure for web pages. Also, students learn CSS to organize and style elements on the page. Finally, students will become familiar with Git and navigating the file system using the command line.
 
 In this week's virtual classes, you will be welcoming our students to their first module of our Full-Stack Web Development Boot Camp. You'll be walking them through the very basics of HTML, CSS, Git Version Control, and Terminal/Console commands.
 
@@ -21,8 +21,8 @@ In this week's virtual classes, you will be welcoming our students to their firs
 Why are students learning HTML, CSS, and Git?
 
 * Git is an essential skill that employers will expect students to have on day one of their new positions. It is important to impart knowledge of the essential Git commands in order to help students save their work and collaborate effectively.
-* HTML allows students to scaffold their pages and organize elements on the page. It's important to help students achieve greater understanding of this markup language so that they have a solid foundation for the skills that come later.
-* As one of the three fundamental technologies used for web development, CSS is an important skill for students to have in order to style their pages. CSS allows students to organize their code in such a way that style is separate from content.
+* HTML allows students to scaffold pages so that they can display content to the end user. It's important to help students achieve greater understanding of this markup language so that they have a solid foundation for the skills that come later.
+* As one of the three fundamental technologies used for web development, CSS is an important skill for students to have in order to style the content on the page. CSS allows students to organize their code in such a way that style is separate from content.
 
 Throughout the async module this week, students will use HTML, CSS and Git to do the following:
 
@@ -94,7 +94,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will refactor an existing webpage and make it accessible.
+Students will refactor an existing webpage that currently falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding alt attributes to images. These changes will improve SEO and allow technologies like screen readers to properly understand the layout of the page.
 
 [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
