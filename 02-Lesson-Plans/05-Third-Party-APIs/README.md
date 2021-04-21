@@ -47,11 +47,11 @@ Throughout the async module this week, students will use third-party APIs to do 
 
 | Lesson           | Description                    | Key Points                                                                      |
 | ---              | ---                            | ---                                                                             |
-| 1                | Updating Tasks with jQuery     | jQuery methods for DOM Manipulation and event handling, `this` keyword          |
-| 2                | Bootstrap                      | Responsive layouts using Grid; Bootstrap UI components and classes              |   
-| 3                | Drag and Drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     | 
-| 4                | A Matter of Time               | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
-| 5                | Final UI/UX Improvements       | Customizing styles, deploying to GitHub Pages                                   |
+| 1                | Updating Tasks with jQuery     | jQuery methods for DOM Manipulation and event handling; `this` keyword          |
+| 2                | Bootstrap                      | Responsive layouts using grid; Bootstrap UI components and classes              |   
+| 3                | Drag and Drop with jQuery UI   | Draggable elements using jQuery extensions; Using third-party documentation     | 
+| 4                | A Matter of Time               | jQuery UI's Datepicker widget; Moment.js; Implementing third-party API with CDN |
+| 5                | Final UI/UX Improvements       | Customizing styles; Deploying to GitHub Pages                                   |
 
 ## Virtual Classes
 
