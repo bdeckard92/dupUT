@@ -100,7 +100,7 @@ Students will refactor an existing webpage and make it accessible.
 
 Specific skills students will need to implement in order to be successful:
 
-* DRY design pattern -- Consolidate CSS selectors
+* DRY design pattern -- consolidate CSS selectors
 * Ensuring all links function properly
 * Implementation of semantic structure of HTML elements
 * Well documented code -- include comments
