@@ -100,7 +100,7 @@ In this week's Challenge the students will create a simple calendar application 
 
 The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but feel free to encourage students to use a different JavaScript solution to handle this functionality since Moment.js is considered a "legacy" project.
 
-[Module 05 Challenge](../../01-Class-Content/{05-Third-Party-APIs/02-Challenge)
+[Module 05 Challenge](../../01-Class-Content/05-Third-Party-APIs/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
