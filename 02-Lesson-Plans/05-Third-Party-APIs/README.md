@@ -18,7 +18,7 @@ In this week's virtual classes, you will lead the review of the Web APIs used in
 
 Why are students learning third-party APIs?
 
-* Third-party APIs are libraries or frameworks that allow developers to incorporate additional functionality into your web application easily. In addition to gaining practice in implementing these popular APIs, students will also gain skills in reading third-party documentation.
+* Third-party APIs are libraries or frameworks that allow developers to incorporate additional functionality into web applications easily. In addition to gaining practice in implementing these popular APIs, students will also gain skills in reading third-party documentation.
 
 * The Bootstrap API is a CSS framework that allows students to build responsive and functional mobile-first user interfaces easily by using an extensive list of pre-built components and classes. 
 
