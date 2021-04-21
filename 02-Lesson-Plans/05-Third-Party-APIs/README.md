@@ -96,6 +96,10 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
+In this week's challenge the studetns will create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but feel free to encourage students to use a different JavaScript solution to handle this functionality since Moment.js is considered a "legacy" project.
+
 [Module 05 Challenge](../../01-Class-Content/{05-Third-Party-APIs/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
