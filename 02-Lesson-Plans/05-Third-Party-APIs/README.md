@@ -4,7 +4,7 @@
 
 In this module, students will learn how to use two popular APIs: Bootstrap and jQuery. They will also use Moment.js to manipulate and display time and date 
 
-In this week's virtual classes, you will lead the review of implementing Web APIs Bootstrap, jQuery, and Moment.js. 
+In this week's virtual classes, you will lead the review of the Web APIs used in the async content: Bootstrap, jQuery, and Moment.js. 
 
 | Day  | Topic                  | Location |
 | ---  | ---                    | ---      |
