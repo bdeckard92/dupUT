@@ -120,7 +120,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-Next week you will divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that each group consists of a mix of students who are excelling and emerging and remind students that working in a diverse team is a valuable skill as working developer. 
+Next week you will divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that each group consists of a mix of students who are excelling and emerging and remind students that working in a diverse team is a valuable skill as working developer. Additional guidance will also be provided in the next module.  
 
 ## Resources
 
