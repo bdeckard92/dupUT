@@ -94,7 +94,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will refactor an existing webpage that currently falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding alt attributes to images. These changes will improve SEO and allow technologies like screen readers to properly understand the layout of the page.
+Students will refactor an existing webpage that currently falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding `alt` attributes to images. These changes will improve SEO and allow technologies like screen readers to properly understand the layout of the page.
 
 [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge)
 
