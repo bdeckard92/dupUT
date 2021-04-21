@@ -1,6 +1,6 @@
 # Module 02 Instructor Overview: Advanced CSS
 
-Creating a skeleton for a website and making it look nice are two entirely different skill sets. In this unit, students will use CSS to style their web apps and create responsive designs for different screen sizes. Students will also use flexbox to place elements exactly where they want them.
+Creating a website and making it look nice are two entirely different skill sets, but both are important skills to have. In this module, students will use CSS to style their web apps and create responsive designs for different screen sizes. Students will also use flexbox to place elements exactly where they want them.
 
 ## Overview
 
