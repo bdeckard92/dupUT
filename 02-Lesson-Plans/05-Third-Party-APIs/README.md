@@ -75,7 +75,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Ensure that you are using the correct versions of jQuery and Bootstrap (v4).
 
-* The module project and Weekly Challenge both use Moment.js, which is now considered a legacy project. Let students know that it's okay for them to still use it here, but offer suggestions to use native JavaScript functionality or another library for their date and time needs such as (date-fns)[https://date-fns.org/] or the native JavaScript [Date and Intl objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to format dates. The [Moment.js project status page](https://momentjs.com/docs/#/-project-status/) offers direction for other solutions. 
+* The module project and Weekly Challenge both use Moment.js, which is now considered a legacy project. Let students know that it's okay for them to still use it here, but offer suggestions to use native JavaScript functionality or another library for their date and time needs such as [date-fns](https://date-fns.org/) or the native JavaScript [Date and Intl objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to format dates. The [Moment.js project status page](https://momentjs.com/docs/#/-project-status/) offers direction for other solutions. 
 
 ### Common Pain Points
 
