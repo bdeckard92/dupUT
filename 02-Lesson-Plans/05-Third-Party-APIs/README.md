@@ -12,7 +12,7 @@ In this week's virtual classes, you will lead the review of implementing Web API
 | 1    | jQuery Click           | 5.1      |
 | 2    | Bootstrap Card Layout  | 5.2      |
 | 2    | Moment.js              | 5.4      |
-| 2    | jQuery localStorage |  | 5.3      |
+| 2    | jQuery localStorage    | 5.3      |
 
 ## Overview of Asynchronous Material 
 
