@@ -4,7 +4,7 @@ Creating a skeleton for a website and making it look nice are two entirely diffe
 
 ## Overview
 
-In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive.
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
 
 In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
@@ -69,7 +69,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                       | Recommendation                                                                                                      |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Selecting the right element      | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
+| Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
 | Arranging elements using flexbox | Introduce students to the CSS game: [flexbox froggy](https://flexboxfroggy.com/)                                    |
 | Memorizing flexbox properties    | Link students to a flexbox cheat sheet like [Malven Co](https://flexbox.malven.co/)                                 |
 
@@ -83,7 +83,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will be creating their first portfolio page from scratch using advanced CSS and HTML.
+Students will be creating their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding and improving on portfolio page that students will create in this challenge.
 
 [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
@@ -92,6 +92,7 @@ Specific skills students will need to implement in order to be successful:
 * Organize content using flexbox
 * Implement media queries to make the page responsive
 * Style elements on the page using classes and CSS selectors
+* Overlaying text on top of images
 
 ## Heads-Up
 
