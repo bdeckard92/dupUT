@@ -20,7 +20,7 @@ In this week's virtual classes, you'll review flexbox, media queries, and other 
 
 Why are students learning advanced CSS?
 
-* Students need to be able to create responsive designs.
+* Students need to be able to create responsive designs for their web applications.
 * Employers will expect students to know how to use CSS variables and media queries.
 * Employers will expect students to understand and use CSS selectors beyond single classes or elements.
 
@@ -70,8 +70,8 @@ According to our class data, students might experience some of the following pai
 | Pain Point                       | Recommendation                                                                                                      |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
-| Arranging elements using flexbox | Introduce students to the CSS game: [flexbox froggy](https://flexboxfroggy.com/)                                    |
-| Memorizing flexbox properties    | Link students to a flexbox cheat sheet like [Malven Co](https://flexbox.malven.co/)                                 |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game: [flexbox froggy](https://flexboxfroggy.com/)                              |
+| Memorizing flexbox properties    | Link students to a flexbox cheat sheet like the following: [Malven Co](https://flexbox.malven.co/)                  |
 
 ## Career Connection
 
