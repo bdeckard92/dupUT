@@ -96,7 +96,7 @@ Specific skills students will need to implement to be successful:
 
 ## Heads-Up
 
-Next week, you will cover Web APIs in the browser that you can access through JavaScript.
+Next week, you will cover Web APIs in the browser that you can access through JavaScript. You will also cover traversing the DOM and creating elements dynamically.
 
 ## Resources
 
