@@ -82,7 +82,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 Students will build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
 
-[Module 03 Challenge](../../01-Class-Content/03-Javascript/02-Challenge)
+[Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
 Specific skills students will need to implement to be successful:
 
