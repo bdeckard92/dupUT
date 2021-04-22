@@ -1,7 +1,5 @@
 # Module 02 Instructor Overview: Advanced CSS
 
-Creating a website and making it look nice are two entirely different skill sets, but both are important skills to have. In this module, students will use CSS to style their web apps and create responsive designs for different screen sizes. Students will also use flexbox to place elements exactly where they want them.
-
 ## Overview
 
 In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
@@ -21,6 +19,7 @@ In this week's virtual classes, you'll review flexbox, media queries, and other 
 Why are students learning advanced CSS?
 
 * Students need to be able to create responsive designs for their web applications.
+* Employers are looking for candidates with strong CSS skills who don't rely on frameworks.
 * Employers will expect students to know how to use CSS variables and media queries.
 * Employers will expect students to understand and use CSS selectors beyond single classes or elements.
 
@@ -70,8 +69,8 @@ According to our class data, students might experience some of the following pai
 | Pain Point                       | Recommendation                                                                                                      |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
-| Arranging elements using flexbox | Introduce students to a flexbox CSS game: [flexbox froggy](https://flexboxfroggy.com/)                              |
-| Memorizing flexbox properties    | Link students to a flexbox cheat sheet like the following: [Malven Co](https://flexbox.malven.co/)                  |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS. At the time of writing, a popular one is called "Flexbox Froggy"               |
+| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
 
 ## Career Connection
 
@@ -92,7 +91,7 @@ Specific skills students will need to implement in order to be successful:
 * Organize content using flexbox
 * Implement media queries to make the page responsive
 * Style elements on the page using classes and CSS selectors
-* Overlaying text on top of images
+* Place text on top of images using CSS
 
 ## Heads-Up
 
