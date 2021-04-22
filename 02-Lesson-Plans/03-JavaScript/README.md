@@ -6,22 +6,23 @@ In this module, students will learn the foundations of JavaScript, one of the th
 
 In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete to prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
 
-| Day | Topic                  | Module |
-| --- | ---------------------- | ------ |
-| 1   | Conditional Statements | 3.1    |
-| 1   | For Loops              | 3.2    |
-| 2   | `Math.random()`        | 3.4    |
-| 2   | Functions              | 3.1    |
+| Day | Topic                                 | Module    |
+| --- | ------------------------------------- | --------- |
+| 1   | Conditional Statements                | 3.1       |
+| 1   | For Loops                             | 3.2       |
+| 2   | `Math.random()`                       | 3.4       |
+| 2   | Functions                             | 3.1       |
+| 2   | Loops, Functions, and `Math.random()` | 3.1 - 3.4 |
 
 ## Overview of Asynchronous Material
 
 Why are students learning JavaScript?
 
 * JavaScript is the most important language used in web development.
-* Learning JavaScript prepares students for understanding computer science concepts.
+* Learning JavaScript prepares students for understanding computer science concepts by introducing them to loops, conditionals, and functions.
 * JavaScript gives students the tools to build interactive web applications.
 * JavaScript empowers students to solve complex problems with logic.
-* JavaScript is fun!
+* JavaScript prepares students for development using Node.js on the back end.
 
 Throughout the async module this week, students will use JavaScript to do the following:
 
@@ -34,13 +35,13 @@ Throughout the async module this week, students will use JavaScript to do the fo
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson | Description        | Key Points                                                                        |
-| ------ | ------------------ | --------------------------------------------------------------------------------- |
-| 1      | Basics             | JavaScript functions, variables, logical operators, conditional statements        |
-| 2      | Loops              | `for` loops, iteration of arrays of elements, controlling data flow, debugging    |
-| 3      | Multiple Functions | Organize code using functions, control flow with functions, scoping               |
-| 4      | Objects            | Creating objects and methods, JavaScript built-in objects, `return` keyword       |
-| 5      | Bugs               | GitHub issues, sanitizing input, fixing bugs, data persistence with local storage |
+| Lesson | Description                                | Key Points                                                                        |
+| ------ | ------------------------------------------ | --------------------------------------------------------------------------------- |
+| 1      | JavaScript Basics                          | JavaScript functions, variables, logical operators, conditional statements        |
+| 2      | Use Loops to Enable Multiple Battle Rounds | `for` loops, iteration of arrays of elements, controlling data flow, debugging    |
+| 3      | Expand Game Logic into Multiple Functions  | Organize code using functions, control flow with functions, scoping               |
+| 4      | Optimize the Code with Objects             | Creating objects and methods, JavaScript built-in objects, `return` keyword       |
+| 5      | Resolve Bugs and Add Final Enhancements    | GitHub issues, sanitizing input, fixing bugs, data persistence with local storage |
 
 ## Virtual Classes
 
@@ -66,8 +67,8 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                        | Recommendation                                                                                                                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Glossary for Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)                                 |
-| Order of operations               | Provide a brief overview of the concurrency model. Refer to [MDN Concurrency and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)                 |
+| Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Docs for Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)                                 |
+| Order of operations               | Provide a brief overview of the concurrency model. Refer to [MDN Docs on Concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)                        |
 | Different syntax in Documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Advise students we will start with ES5 and later move into ES6 |
 
 ## Career Connection
@@ -80,7 +81,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
+Students will modify some starter code to build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
 
 [Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
@@ -95,7 +96,7 @@ Specific skills students will need to implement to be successful:
 
 ## Heads-Up
 
-Next week, you will review "vanilla JS" Web APIs. If this is new to you or you generally use a library or framework for front-end development, you will want to find time to review activities and research DOM methods.
+Next week, you will cover Web APIs in the browser that you can access through JavaScript.
 
 ## Resources
 
