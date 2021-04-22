@@ -68,7 +68,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                        | Recommendation                                                                                                                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Docs for Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)                                 |
-| Order of operations               | Provide a brief overview of the concurrency model. Refer to [MDN Docs on Concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)                        |
+| Order of operations               | Provide a brief overview of the concurrency model. Refer to the [MDN Docs on Concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)                    |
 | Different syntax in Documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Advise students we will start with ES5 and later move into ES6 |
 
 ## Career Connection
