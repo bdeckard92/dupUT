@@ -22,7 +22,7 @@ Why are students learning JavaScript?
 * Learning JavaScript prepares students for understanding computer science concepts by introducing them to loops, conditionals, and functions.
 * JavaScript gives students the tools to build interactive web applications.
 * JavaScript empowers students to solve complex problems with logic.
-* JavaScript prepares students for development using Node.js on the back end.
+* JavaScript prepares students for an easy transition to back-end development when they begin using Node.js.
 
 Throughout the async module this week, students will use JavaScript to do the following:
 
@@ -81,7 +81,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will modify some starter code to build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
+Students will modify starter code to build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
 
 [Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge)
 
