@@ -4,7 +4,7 @@
 
 In this module, students learn the foundations of JavaScript. This module teaches students logical problem-solving skills. It also introduces students to loops, conditionals, functions and built in JavaScript Objects. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
 
-In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete preparing for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
+In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete to prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
 
 | Day | Topic                  | Module |
 | --- | ---------------------- | ------ |
@@ -36,11 +36,11 @@ Throughout the async module this week, students will use JavaScript to do the fo
 
 | Lesson | Description        | Key Points                                                                        |
 | ------ | ------------------ | --------------------------------------------------------------------------------- |
-| 1.     | Basics             | JavaScript functions, variables, logical operators, conditional statements        |
-| 2.     | Loops              | `for` loops, iteration of arrays of elements, controlling data flow, debugging    |
-| 3.     | Multiple Functions | Organize code using functions, control flow with functions, scoping               |
-| 4.     | Objects            | Creating objects and methods, JavaScript built-in objects, `return` keyword       |
-| 5.     | Bugs               | GitHub issues, sanitizing input, fixing bugs, data persistence with local storage |
+| 1      | Basics             | JavaScript functions, variables, logical operators, conditional statements        |
+| 2      | Loops              | `for` loops, iteration of arrays of elements, controlling data flow, debugging    |
+| 3      | Multiple Functions | Organize code using functions, control flow with functions, scoping               |
+| 4      | Objects            | Creating objects and methods, JavaScript built-in objects, `return` keyword       |
+| 5      | Bugs               | GitHub issues, sanitizing input, fixing bugs, data persistence with local storage |
 
 ## Virtual Classes
 
@@ -80,7 +80,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build a password generator using JavaScript for this week's challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
+Students will build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS powered by the JavaScript code students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
 
 [Module 03 Challenge](../../01-Class-Content/03-Javascript/02-Challenge)
 
