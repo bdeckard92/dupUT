@@ -83,7 +83,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will be creating their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding and improving on portfolio page that students will create in this challenge.
+Students will be creating their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding and improving on a portfolio page that students will create in this Challenge.
 
 [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
