@@ -6,12 +6,13 @@ In this module, students learn about application programming interfaces (APIs). 
 
 In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers, and `localStorage`.
 
-| Day | Topic                | Location |
-| --- | -------------------- | -------- |
-| 1   | DOM Manipulation     | 4.1, 4.3 |
-| 1   | `addEventListener()` | 4.1, 4.2 |
-| 2   | Timers               | 4.1      |
-| 2   | `localStorage`       | 4.4      |
+| Day | Topic                                   | Location |
+| --- | --------------------------------------- | -------- |
+| 1   | DOM Manipulation                        | 4.1, 4.3 |
+| 1   | `addEventListener()`                    | 4.1, 4.2 |
+| 2   | Timers                                  | 4.1      |
+| 2   | `localStorage`                          | 4.4      |
+| 2   | `Math.floor`, `Math.random`, `prompt()` | 4.4      |
 
 ## Overview of Asynchronous Material
 
