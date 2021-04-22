@@ -69,7 +69,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                       | Recommendation                                                                                                      |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
-| Arranging elements using flexbox | Introduce students to a flexbox CSS. At the time of writing, a popular one is called "Flexbox Froggy"               |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.               |
 | Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
 
 ## Career Connection
