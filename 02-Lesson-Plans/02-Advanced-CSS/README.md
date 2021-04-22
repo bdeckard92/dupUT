@@ -2,17 +2,53 @@
 
 ## Overview
 
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
+
 In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
+
+| Day | Topic          | Location |
+| --- | -------------- | -------- |
+| 1   | Flexbox Cards  | 2.2      |
+| 1   | Media Queries  | 2.3      |
+| 2   | Wireframing    | 2.2      |
+| 2   | Pseudo-classes | 2.4      |
+| 2   | CSS Variables  | 2.5      |
+
+## Overview of Asynchronous Material
+
+Why are students learning advanced CSS?
+
+* Students need to be able to create responsive designs for their web applications.
+* Employers are looking for candidates with strong CSS skills who don't rely on frameworks.
+* Employers will expect students to know how to use CSS variables and media queries.
+* Employers will expect students to understand and use CSS selectors beyond single classes or elements.
+
+Throughout the async module this week, students will use advanced CSS to do the following:
+
+* Create a mobile-responsive layout using advanced CSS layout techniques like flexbox.
+* Create a fully mobile-responsive website using media queries.
+* Create an attractive and intuitive user interface using advanced CSS selectors and custom properties.
+* Publish the page to the web using GitHub Pages.
+
+**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+
+| Lesson | Description      | Key Points                                                                             |
+| ------ | ---------------- | -------------------------------------------------------------------------------------- |
+| 1      | Git workflow     | Versioning with Git, `checkout` branches, sync with remote, resolve merge conflicts    |
+| 2      | Flexbox          | Row and column layouts, aligning content using flexbox, spacing elements using flexbox |
+| 3      | Media Queries    | Developing for mobile, `meta` elements to improve UX, CSS rules per screen size        |
+| 4      | Pretty CSS       | Rounded corners, state indicators, shadow properties, opacity                          |
+| 5      | CSS Enhancements | CSS variables, selectors, publishing to GH pages                                       |
 
 ## Virtual Classes
 
-If your class started **AFTER** January 1, 2021, use these lesson plans:
+If your class started AFTER January 1, 2021, use these lesson plans:
 
 * [Virtual Class 02.1](./02.1-REQUIRED.md)
 
 * [Virtual Class 02.2](./02.2-REQUIRED.md)
 
-If your class started **BEFORE** January 1, 2021, use these lesson plans:
+If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * [Virtual Class (Recommended) 02.1](./02.1-RECOMMENDED.md)
 
@@ -26,6 +62,16 @@ If your class started **BEFORE** January 1, 2021, use these lesson plans:
 
 * While flexbox is simple at the surface, this is students' first exposure to CSS. Look over the activities ahead of time to be sure you are familiar with what they will encounter.
 
+### Common Pain Points
+
+According to our class data, students might experience some of the following pain points throughout the week:
+
+| Pain Point                       | Recommendation                                                                                                      |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.               |
+| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
+
 ## Career Connection
 
 During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
@@ -36,11 +82,20 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
+Students will be creating their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding and improving on a portfolio page that students will create in this Challenge.
+
 [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
+
+Specific skills students will need to implement in order to be successful:
+
+* Organize content using flexbox
+* Implement media queries to make the page responsive
+* Style elements on the page using classes and CSS selectors
+* Place text on top of images using CSS
 
 ## Heads-Up
 
-Next week, you will introduce students to JavaScript. This may be a big leap for some students. Be prepared to answer a lot of questions and be available during Office Hours. 
+Next week, you will introduce students to JavaScript. This may be a big leap for some students. Try to imagine how it was for you when you first learned Javascript. What seems obvious now, but wasn't when you started learning? Be prepared to answer a lot of questions and be available during Office Hours.
 
 ## Resources
 
@@ -56,7 +111,6 @@ Next week, you will introduce students to JavaScript. This may be a big leap for
 
 ## Algorithms
 
-N/A
+n/a
 
----
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
