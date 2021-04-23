@@ -93,7 +93,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 This week, the students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Refer students to the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) as a reminder of everything that a high-quality, professional README should contain. 
 
-[Module 09 Challenge](../../01-Class-Content/09-Node/02-Challenge)
+[Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
