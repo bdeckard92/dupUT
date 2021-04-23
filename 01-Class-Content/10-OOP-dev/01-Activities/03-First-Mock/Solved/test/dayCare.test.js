@@ -32,7 +32,7 @@ describe("DayCare", () => {
       dayCare.addChild(child);
 
       expect(dayCare.children.length).toEqual(0);
-      // The following message will NOT be logged in the console. jest.spyOn is instead 'spying on' the value pased into console.log and verifying that the expected message is being run.
+      // The following message will NOT be logged in the console. jest.spyOn is instead 'spying on' the value passed into console.log and verifying that the expected message is being run.
       expect(mock).toBeCalledWith(
         "Unable to add child, they are over the age limit"
       );

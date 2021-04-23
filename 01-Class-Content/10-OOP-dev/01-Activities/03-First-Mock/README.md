@@ -2,7 +2,7 @@
 
 Work with a partner to resolve the following issues:
 
-* As a developer, I want the tests for `dayCare.test.js` when I run `npm run test` in the console.
+* As a developer, I want the tests for `dayCare.test.js` to pass when I run `npm install` and `npm run test` in the console.
 
 ## Expected Behavior
 
