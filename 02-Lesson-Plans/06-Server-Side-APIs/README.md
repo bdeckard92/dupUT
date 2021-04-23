@@ -66,7 +66,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* Be prepared to spend time during this week's classes setting the students up for success for their first projects. 
+* Be prepared to spend time during this week's classes setting the students up for success for their first projects.
 
 * Look over the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md) to prepare for any questions students may have. 
 
