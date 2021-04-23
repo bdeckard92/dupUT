@@ -117,7 +117,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Please be prepared to step in and help groups who may be struggling to identify a project idea or plan.  
 
-* The first virtual class next week is **very important** because it introduces agile project management and sets the students up for success as a team. Please remind students that it is important to attend and be an active participant in group planning and implementation throughout the project. 
+* The first virtual class next week is **very important** because it introduces agile project management and sets the students up for success as a team. Please remind students that it is important to attend and be an active participant in group planning and implementation throughout the project.
 
 ## Resources
 
