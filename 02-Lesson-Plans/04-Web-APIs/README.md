@@ -21,7 +21,7 @@ Why are students learning Web APIs?
 * Web APIs allow students to create dynamic web apps that respond to user input.
 * APIs allow students to interact with the DOM easier.
 * Using Web APIs encourages students to acquaint themselves with reading documentation, which by itself is an important skill for a developer.
-* Learning Web APIs will help students differentiate between a Web API and a third-party API.
+* Learning Web APIs will help students differentiate between APIs that are built-in to the web browser and those that are provided by other libraries or third-party services.
 
 Throughout the async module this week, students will use Web APIs to do the following:
 
@@ -39,7 +39,7 @@ Throughout the async module this week, students will use Web APIs to do the foll
 | ------ | --------------------- | -------------------------------------------------------------------------------------------- |
 | 1      | The DOM               | HTML and CSS, DOM as it relates to HTML, DOM API methods to handle clicks                    |
 | 2      | Work with Forms       | Create forms with select inputs, handle form submission, overriding default browser behavior |
-| 3      | Edit and Delete Tasks | DOM methods create and select HTML elements, DOM traversal                                   |
+| 3      | Edit and Delete Tasks | DOM methods, create and select HTML elements, DOM traversal                                  |
 | 4      | Add Task Persistence  | `localStorage`, data persistence, deployment to GitHub pages                                 |
 
 ## Virtual Classes
@@ -66,11 +66,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point            | Recommendation                                                                                                                          |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Pain Point            | Recommendation                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Timers                | Refer students to the [MDN Docs for `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout). |
-| DOM as an object      | Advise students that the DOM simultaneously refers to the structure of page elements and an object that they can interact with.         |
-| Objects as interfaces | Demonstrate to the students that logging the `window` object in the developer console will help them visualize the available methods.   |
+| DOM as an object      | Advise students that the DOM simultaneously refers to the structure of page elements and an object that they can interact with.             |
+| Objects as interfaces | Demonstrate to the students that logging the `window` object in the developer console will help them visualize the available methods.       |
 
 ## Career Connection
 
@@ -97,7 +97,7 @@ Specific skills students will need to implement to be successful:
 
 ## Heads-Up
 
-Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or it's been a while, you will want to find time to review and/or brush up before class.
+Next week, you will cover Bootstrap, jQuery, and Moment.js. If these are new to you or it's been a while, you may want to find time to review and/or brush up before class.
 
 ## Resources
 
