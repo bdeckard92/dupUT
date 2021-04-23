@@ -53,15 +53,15 @@ Throughout the async module this week, students will use OOP to do the following
 
 If your class started AFTER January 1, 2021, use these lesson plans:
 
-* [Virtual Class 05.1](./05.1-REQUIRED.md)
+* [Virtual Class 10.1](./10.1-REQUIRED.md)
 
-* [Virtual Class 05.2](./05.2-REQUIRED.md)
+* [Virtual Class 10.2](./10.2-REQUIRED.md)
 
 If your class started BEFORE January 1, 2021, use these lesson plans:
 
-* [Virtual Class (Recommended) 05.1](./05.1-RECOMMENDED.md)
+* [Virtual Class (Recommended) 10.1](./10.1-RECOMMENDED.md)
 
-* [Virtual Class (Required) 05.2](./05.2-REQUIRED.md)
+* [Virtual Class (Required) 10.2](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
