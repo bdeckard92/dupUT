@@ -72,7 +72,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Encourage students to use this week to think about project ideas and if you are comfortable doing so, share your struggle and/or personal experiences learning and working on your first projects in a group setting either in a class or in the workplace. 
 
-* Think about how you can group the students into groups of three and plan to have groups assigned before the end of the week. Each group should be a mix of excelling and emerging students. 
+* Think about how you can group the students into groups of three and plan to have groups assigned before the end of the week. Each group should be a mix of excelling and emerging students.
 
 * Students will need and want to install [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) prior to class. 
 
