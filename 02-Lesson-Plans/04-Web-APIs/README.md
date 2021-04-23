@@ -18,20 +18,20 @@ In this week's virtual classes, you'll review DOM manipulation and traversal, ev
 
 Why are students learning Web APIs?
 
-* Web APIs allow students to create dynamic web apps that respond to user input
-* APIs allow students to interact with the DOM easier
-* Using Web APIs encourages students to acquaint themselves with reading documentation, which by itself is an important skill for a developer
-* Learning Web APIs will help students differentiate between a Web API and a third-party API
+* Web APIs allow students to create dynamic web apps that respond to user input.
+* APIs allow students to interact with the DOM easier.
+* Using Web APIs encourages students to acquaint themselves with reading documentation, which by itself is an important skill for a developer.
+* Learning Web APIs will help students differentiate between a Web API and a third-party API.
 
 Throughout the async module this week, students will use Web APIs to do the following:
 
-* Explain and identify the document object and its relationship to HTML
-* Use the window object for local and session storage
-* Use DOM API methods to select and dynamically generate HTML elements and content
-* Use DOM API methods to handle events such as key presses and mouse clicks
-* Set time-based events using time functions
-* Write event-driven functions
-* Research Web API documentation to implement new and unfamiliar interfaces
+* Explain and identify the document object and its relationship to HTML.
+* Use the window object for local and session storage.
+* Use DOM API methods to select and dynamically generate HTML elements and content.
+* Use DOM API methods to handle events such as key presses and mouse clicks.
+* Set time-based events using time functions.
+* Write event-driven functions.
+* Research Web API documentation to implement new and unfamiliar interfaces.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -74,7 +74,7 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will apply to them in their future careers.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
 
 Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
 
