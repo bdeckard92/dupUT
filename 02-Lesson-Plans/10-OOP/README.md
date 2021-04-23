@@ -1,4 +1,4 @@
-# Module 10 Instructor Overview: OOP
+# Module 10 Instructor Overview: Object-Oriented Programming
 
 ## Overview
 
