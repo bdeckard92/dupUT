@@ -10,7 +10,7 @@ In this week's virtual classes, you will review Test Driven Development, mocking
 | ---  | ---                | ---      |
 | 1    | TDD                | 10.1     |
 | 1    | Passing Tests      | 10.1     |
-| 2    | First-Mock         | 10.2     |
+| 2    | First Mock         | 10.2     |
 | 2    | Classes            | 10.5     |
 | 2    | Multiple Classes   | 10.5     |
 
@@ -79,10 +79,10 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                          | Recommendation       |
-| ---                                 | ---                  |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
+| Pain Point                | Recommendation       |
+| ---                       | ---                  |
+| Implementing unit tests   | Refer to Lesson 1 or the[Jest Documentation on Getting Started](https://jestjs.io/docs/getting-started) |
+| ES6 Classes               | Refer to Lesson 5 or the [MDN Web Documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
 
 ## Career Connection
 
