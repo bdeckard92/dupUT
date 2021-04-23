@@ -111,7 +111,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Next week you will introduce object-oriented programming. You will cover Test Driven Development(TDD), ES6 Classes, and [Jest](https://jestjs.io/) for mocking and testing.
 
-* Let your students know that this next module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them employer-competitive. In addition, the idea of writing tests before code may also feel counterintuitive but it is important to help students learn to plan and break down their apps into more manageable chunks.  So reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first. 
+* Let your students know that this next module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them employer-competitive. In addition, the idea of writing tests before code may also feel counterintuitive but it is important to help students learn to plan and break down their apps into more manageable chunks. Reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first. 
 
 * At the same time, do not feel discouraged if your students aren't understanding the concept after you've tried explaining it to them. It takes time to fully grasp object-oriented programming, so keep encouraging your students and reassuring them that with time and practice, they will understand this! If you are comfortable doing so, share your own struggle and/or personal experiences learning and working with OOP.
 
