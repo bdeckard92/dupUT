@@ -4,15 +4,15 @@
 
 In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before you writing code, a practice known as Test Driven Development (TDD).
 
-In this week's virtual classes, you will review Test Driven Development, mocking using Jest, and ES6 Classes.
+In this week's virtual classes, you'll review constructor functions, the `this` keyword, prototypes, ES6 Classes, and TDD.
 
-| Day  | Topic              | Location |
-| ---  | ---                | ---      |
-| 1    | TDD                | 10.1     |
-| 1    | Passing Tests      | 10.1     |
-| 2    | First Mock         | 10.2     |
-| 2    | Classes            | 10.5     |
-| 2    | Multiple Classes   | 10.5     |
+| Day  | Topic              | Location      |
+| ---  | ---                | ---           |
+| 1    | Constructor        | 10.1          |
+| 1    | Mini-Bank          | 10.1          |
+| 2    | Prototypes         | 10.2          |
+| 2    | Classes            | 10.5          |
+| 2    | TDD                | 10.1, 10.2    |
 
 ## Overview of Asynchronous Material 
 
