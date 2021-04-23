@@ -1,4 +1,4 @@
-# Module 05 Instructor Overview: OOP
+# Module 10 Instructor Overview: OOP
 
 ## Overview
 
@@ -22,7 +22,7 @@ Why are students learning OOP?
 
   * Test Driven Development is a programming paradigm that helps developers write leaner, more predictable code. 
 
-  * Being able to write JavaScript in an object-oriented manner and test this code effectively is an important skill set to demonstrate to prospective employers
+  * Being able to write JavaScript in an object-oriented manner and test this code effectively is an important skill set to demonstrate to prospective employers.
 
 Throughout the async module this week, students will use OOP to do the following:
 
@@ -45,7 +45,7 @@ Throughout the async module this week, students will use OOP to do the following
 | 1        | Jest and Constructors      | Jest, TDD Cycle, Constructor Functions                                                |
 | 2        | Methods and Mocks          | Mocking, Prototype Syntax                                                             |
 | 3        | Player and Enemy Methods   | Array prototype methods                                                               |
-| 4        | Build the Game Logic       | [Inquirer NPM package](https://www.npmjs.com/package/inquirer), Constructor Functions |
+| 4        | Build the Game Logic       | Inquirer NPM package, Constructor Functions |
 | 5        | Inheritance                | Method and property inheritance, ES6 Classes                                          |         
 
 
@@ -81,7 +81,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                | Recommendation       |
 | ---                       | ---                  |
-| Implementing unit tests   | Refer to Lesson 1 or the[Jest Documentation on Getting Started](https://jestjs.io/docs/getting-started) |
+| Implementing unit tests   | Refer to Lesson 1 or the [Jest Documentation on Getting Started](https://jestjs.io/docs/getting-started) |
 | ES6 Classes               | Refer to Lesson 5 or the [MDN Web Documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
 
 ## Career Connection
