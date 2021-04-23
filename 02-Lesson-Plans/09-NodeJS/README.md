@@ -97,9 +97,9 @@ This week, the students will create a command-line application that dynamically 
 
 Specific skills students will need to implement in order to be successful:
 
-* Modularize your code into multiple files
+* Modularize code into multiple files
 
-* Write your code using ES6+ concepts, such as `let`, `const`, and arrow functions
+* Write code using ES6+ concepts, such as `let`, `const`, and arrow functions
 
 * Use npm (Node Package Manager) to initialize a project and install and import Node.js modules
 
