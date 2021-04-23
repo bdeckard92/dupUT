@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students learn about application programming interfaces (APIs). The term API can be used to refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this unit, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the document object model, or DOM, and how to traverse through it using built-in methods and objects.
+In this module, students learn about application programming interfaces (APIs). The term API can be used to refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the document object model, or DOM, and how to traverse through it using built-in methods and objects.
 
 In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers, and `localStorage`.
 
