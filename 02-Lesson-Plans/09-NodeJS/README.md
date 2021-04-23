@@ -138,4 +138,4 @@ Specific skills students will need to implement in order to be successful:
 * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
