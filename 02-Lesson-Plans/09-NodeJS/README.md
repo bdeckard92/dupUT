@@ -4,7 +4,7 @@
 
 This week, students will begin writing JavaScript on the server side using Node.js. Students will also learn how to use Node.js and third-party modules to extend their code’s functionality.
 
-In this week's virtual classes, you'll review the `fs` and `inquirer` packages, as well as ES6 features, like arrow functions, functional loops, and object destructuring. 
+In this week's virtual classes, you'll review the `fs` and `inquirer` packages, as well as ES6 features, arrow functions, functional loops, and object destructuring. 
 
 | Day  | Topic                  | Location |
 | ---  | ---                    | ---      |
@@ -44,8 +44,8 @@ Throughout the async module this week, students will use Node.js to do the follo
 | ---              | ---                            | ---                                                                                           |
 | 1                | Introduction to Node.js        | Executing an application build with Node.js, JavaScript ES6                                   |
 | 2                | Generate a Webpage             | ES6 arrow functions, Assignment destructuring, Requiring and exporting modules                |
-| 3                | Node Package Manager           | Install packages from NPM, Chain promises and validate user answers with Inquirer NPM package |
-| 4                | Finish Portfolio HTML Output   | Object destructuring, Array Methods                                                           |
+| 3                | Node Package Manager           | Install packages from npm, Chain promises and validate user answers with Inquirer npm package |
+| 4                | Finish Portfolio HTML Output   | Object destructuring, Array methods                                                           |
 | 5                | Handle Node.js Asynchronicity  | Copy files with `fs` module, JavaScript Promises                                              |
 
 ## Virtual Classes
@@ -68,11 +68,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * If students question why they are learning Node.js, emphasize its role in the client-server model. Full-stack developers must be able to build applications using the client-server model, and they will likely face interview questions about the difference between the client and the server and how they relate to each other.
 
-* Ensure that students have already installed Node.js on their computers before coming to class.
-
-  * Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
-
-* Students will use the `fs` package. Refer to [the Node.js `fs` documentation](https://nodejs.org/api/fs.html) for more information about the methods and their usage. 
+* Students should have have already installed Node.js on their computers before coming to class. If needed, direct students to the Up and Running section in the async materials for details on how to install Node.js on their machine.  
 
 * This module also introduces the Inquirer npm package. Refer to [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer) for installation, examples, and more information on the methods used. 
 
@@ -95,7 +91,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-This wee, the students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Refer students to the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) as a reminder of everything that a high-quality, professional README should contain. 
+This week, the students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Refer students to the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) as a reminder of everything that a high-quality, professional README should contain. 
 
 [Module 09 Challenge](../../01-Class-Content/09-Node/02-Challenge)
 
