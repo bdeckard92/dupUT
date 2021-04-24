@@ -16,7 +16,7 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 ## Overview of Asynchronous Material 
 
-Why are students learning OOP?
+Why are students learning OOP and TDD?
 
   * Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages such as Java and C++.
 
