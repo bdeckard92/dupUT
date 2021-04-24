@@ -8,7 +8,7 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 | Day  | Topic              | Location      |
 | ---  | ---                | ---           |
-| 1    | Constructor        | 10.1          |
+| 1    | Constructors        | 10.1          |
 | 1    | Mini-Bank          | 10.1          |
 | 2    | Prototypes         | 10.2          |
 | 2    | Classes            | 10.5          |
