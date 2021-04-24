@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before you writing code, a practice known as Test Driven Development (TDD).
+In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before writing code, a practice known as Test Driven Development (TDD).
 
 In this week's virtual classes, you'll review constructor functions, the `this` keyword, prototypes, ES6 Classes, and TDD.
 
