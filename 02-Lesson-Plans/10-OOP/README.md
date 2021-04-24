@@ -24,7 +24,7 @@ Why are students learning OOP and TDD?
 
   * Being able to write JavaScript in an object-oriented manner and test this code effectively is an important skill set to demonstrate to prospective employers.
 
-Throughout the async module this week, students will use OOP to do the following:
+Throughout the async module this week, students will use OOP and TDD to do the following:
 
   * Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
 
