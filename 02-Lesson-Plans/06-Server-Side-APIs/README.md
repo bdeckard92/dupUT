@@ -22,7 +22,7 @@ Why are students learning Server-Side APIs?
 
 * Server-Side APIs are widely used at companies to perform a variety of data retrieval tasks, from accessing information from third-party services to collecting information from another server in their own organization.
 
-* Server-Side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the backend. 
+* Server-Side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the back end. 
 
 Throughout the async module this week, students will use Server-Side APIs to do the following:
 
