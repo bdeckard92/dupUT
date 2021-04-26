@@ -10,7 +10,7 @@ In this week's virtual classes, you'll discuss Test Driven Development, mocking 
 | ---  | ---                | ---      |
 | 1    | TDD                | 10.1     |
 | 1    | Passing Tests      | 10.1     |
-| 2    | First Mock         | 10.2     |
+| 2    | Mocking            | 10.2     |
 | 2    | Classes            | 10.5     |
 | 2    | Multiple Classes   | 10.5     |
 
