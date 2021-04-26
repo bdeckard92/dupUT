@@ -2,7 +2,7 @@
 
 ## Overview
 
-This week, students will begin writing JavaScript on the server side using Node.js. Students will also learn how to use Node.js and third-party modules to extend their code’s functionality. Students will also be introduced to ES6 features, like arrow functions, functional loops, and object destructuring. 
+This week, students will begin writing JavaScript on the server side using Node.js. Students will also learn how to use Node.js and third-party modules to extend their code’s functionality. Students will also be introduced to ES6 features, like arrow functions, functional loops, and object destructuring.
 
 In this week's virtual classes, you'll review the `fs` and `inquirer` packages, as well as ES6 features, arrow functions, functional loops, and object destructuring. 
 
