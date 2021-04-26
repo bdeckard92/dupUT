@@ -4,7 +4,7 @@
 
 In this module, students will learn how to retrieve data from third-party servers and use the Fetch API to make requests to server-side APIs.
 
-In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You will also cover using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls. During this week's second virtual class, you will also announce the upcoming group project and the group members.
+In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You will also cover using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls. During this week's second virtual class, you will announce the upcoming group project and the group members.
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
@@ -72,7 +72,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Encourage students to use this week to think about project ideas and if you are comfortable doing so, share your struggle and/or personal experiences learning and working on your first projects in a group setting either in a class or in the workplace. 
 
-* Think about how you can group the students into groups of three and plan to have groups assigned before the end of the week. Each group should be a mix of excelling and emerging students.
+* Start thinking about project groups. Assign 3 students per group: one advanced, one average, one struggling.
 
 * Students will need and want to install [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) prior to class. 
 
@@ -111,7 +111,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will start working on their first group project. Students should already be assigned into groups and be discussing and finalizing project ideas within their groups prior to the first virtual class. As a reminder, groups of three are ideal and it is important to structure groups so that each group consists of a mix of students who are excelling and emerging. If needed, one or two groups can have four if the class cannot be divided by three.
+* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups. 
 
 * Please be prepared to step in and help groups who may be struggling to identify a project idea or plan.  
 
