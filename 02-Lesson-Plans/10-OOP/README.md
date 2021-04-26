@@ -8,7 +8,7 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 
 | Day  | Topic              | Location      |
 | ---  | ---                | ---           |
-| 1    | Constructors        | 10.1          |
+| 1    | Constructors       | 10.1          |
 | 1    | Mini-Bank          | 10.1          |
 | 2    | Prototypes         | 10.2          |
 | 2    | Classes            | 10.5          |
@@ -45,7 +45,7 @@ Throughout the async module this week, students will use OOP and TDD to do the f
 | 1        | Jest and Constructors      | Jest, TDD Cycle, Constructor Functions                                                |
 | 2        | Methods and Mocks          | Mocking, Prototype Syntax                                                             |
 | 3        | Player and Enemy Methods   | Array prototype methods                                                               |
-| 4        | Build the Game Logic       | Inquirer NPM package, Constructor Functions |
+| 4        | Build the Game Logic       | Inquirer NPM package, Constructor Functions                                           |
 | 5        | Inheritance                | Method and property inheritance, ES6 Classes                                          |         
 
 
@@ -81,6 +81,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                | Recommendation       |
 | ---                       | ---                  |
+| Understanding OOP         | Refer to [MDN Web Docs on Object-oriented JavaScript for beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS) |
 | Implementing unit tests   | Refer to Lesson 1 or the [Jest Documentation on Getting Started](https://jestjs.io/docs/getting-started) |
 | ES6 Classes               | Refer to Lesson 5 or the [MDN Web Docs on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
 
@@ -116,11 +117,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
-* [MDN documentation on Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+* [MDN Web Docs on Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 
-* [MDN documentation on Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+* [MDN Web Docs on Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
-* [MDN documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [MDN Web Docs on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 * [Jest documentation](https://jestjs.io/docs/en/using-matchers)
 
