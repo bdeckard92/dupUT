@@ -111,7 +111,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you will introduce [Express.js](https://expressjs.com/) a flexible Node.js web application framework to provide server-side logic to web applications. 
+* Next week you will introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications. 
 
 * You will use a tool called [Insomnia](https://insomnia.rest/products/insomnia) to test APIs, so make sure to have it installed on your machine and be familiar with using it. 
 
