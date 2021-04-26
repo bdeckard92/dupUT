@@ -18,7 +18,7 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 
 Why are students learning Node.js?
 
-* Node.js is well suited for building interactive web applications and using JavaScript for both client-side and server-side functionality
+* Node.js is well-suited for building interactive web applications and allows developers to use JavaScript for both client-side and server-side functionality.
 
 * Node.js offers a rich package ecosystem and easy access to a multitude of libraries and tools, including Express.js. 
 
