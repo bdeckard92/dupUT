@@ -69,7 +69,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Students will use [Jest](https://jestjs.io/) for unit testing. Familiarize yourself with it if you've never used it before.
 
-* Student will also use ES6 Classes. If you need a refresher, [MDN Web Documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) provides a great overview of key concepts. 
+* Student will also use ES6 Classes. If you need a refresher, [MDN Web Docs on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) provides a great overview of key concepts. 
 
 * Let your students know that this module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them employer-competitive. So reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first. 
 
@@ -82,7 +82,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                | Recommendation       |
 | ---                       | ---                  |
 | Implementing unit tests   | Refer to Lesson 1 or the [Jest Documentation on Getting Started](https://jestjs.io/docs/getting-started) |
-| ES6 Classes               | Refer to Lesson 5 or the [MDN Web Documentation on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
+| ES6 Classes               | Refer to Lesson 5 or the [MDN Web Docs on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
 
 ## Career Connection
 
