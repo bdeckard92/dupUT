@@ -18,9 +18,7 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 
 Why are students learning Node.js?
 
-* Node.js is well suited for building interactive web applications 
-
-* Node.js uses JavaScript Javascript on both client-side and server-side
+* Node.js is well suited for building interactive web applications and using JavaScript for both client-side and server-side functionality
 
 * Node.js offers a rich package ecosystem and easy access to a multitude of libraries and tools, including Express.js. 
 
@@ -91,7 +89,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-This week, the students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Refer students to the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) as a reminder of everything that a high-quality, professional README should contain. 
+This week, the students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Refer students to the [Guide to a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
 
 [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge)
 
