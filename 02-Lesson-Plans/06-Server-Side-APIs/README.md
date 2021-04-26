@@ -95,9 +95,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-In this week's Challenge, students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
-
-Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and localStorage to store any persistent data.
+In this week's Challenge, students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and localStorage to store any persistent data.
 
 [Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge)
 
