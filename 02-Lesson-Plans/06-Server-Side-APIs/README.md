@@ -111,7 +111,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups. 
+* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
 * Please be prepared to step in and help groups who may be struggling to identify a project idea or plan.  
 
