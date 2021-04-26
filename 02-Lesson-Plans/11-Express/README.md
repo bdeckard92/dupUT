@@ -40,9 +40,9 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Next week, you will introduce SQL but let the students know that they will be using SQLite for the project they will build in the lessons, but they will be using MySQL in the virtual classes and in their weekly Challenge.
+* Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12.
 
-* Be sure to install MySQL on your machine.
+* Be sure to install MySQL server and the MySQL Shell on your machine.
 
 ## Resources
 
