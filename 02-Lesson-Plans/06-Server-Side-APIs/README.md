@@ -4,7 +4,7 @@
 
 In this module, students will learn how to retrieve data from third-party servers and use the Fetch API to make requests to server-side APIs.
 
-In this week's virtual classes, you'll review using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You will also review using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls.
+In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You will also cover using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls.
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
