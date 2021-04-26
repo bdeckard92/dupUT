@@ -82,8 +82,8 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| Fetch API                           | Refer to Lesson 1 or [MDN documentation on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) |
-| HTTP GET requests | Refer to Lesson XX or [MDN documentation on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
+| Fetch API                           | Refer to Lesson 1 or [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) |
+| HTTP GET requests | Refer to Lesson 2 or [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
 
 ## Career Connection
 
@@ -121,9 +121,9 @@ Specific skills students will need to implement in order to be successful:
 
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
-* [MDN Documentation on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [MDN Web Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-* [MDN Documentation on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+* [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
 * [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
