@@ -92,8 +92,7 @@ var upperCasedCharacters = [
 function getPasswordOptions() {
   // Variable to store length of password from user input
   var length = parseInt(
-    prompt('How many characters would you like your password to contain?'),
-    10
+    prompt('How many characters would you like your password to contain?')
   );
 
   // Conditional statement to check if password length is a number. Prompts end if this evaluates false
