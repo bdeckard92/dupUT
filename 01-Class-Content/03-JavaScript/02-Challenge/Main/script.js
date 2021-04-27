@@ -92,25 +92,26 @@ var upperCasedCharacters = [
 function getPasswordOptions() {
   // Variable to store length of password from user input
   var length = parseInt(
-    prompt('How many characters would you like your password to contain?')
+    prompt('How many characters would you like your password to contain?'),
+    10
   );
 
   // Conditional statement to check if password length is a number. Prompts end if this evaluates false
-  if (isNaN(length) === true) {
+  if (Number.isNaN(length)) {
     alert('Password length must be provided as a number');
-    return;
+    return null;
   }
 
   // Conditional statement to check if password length is at least 8 characters long. Prompts end if this evaluates false
   if (length < 8) {
     alert('Password length must be at least 8 characters');
-    return;
+    return null;
   }
 
   // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
   if (length > 128) {
     alert('Password length must less than 129 characters');
-    return;
+    return null;
   }
 
   // Variable to store boolean regarding the inclusion of special characters
@@ -141,16 +142,16 @@ function getPasswordOptions() {
     hasUpperCasedCharacters === false
   ) {
     alert('Must select at least one character type');
-    return;
+    return null;
   }
 
   // Object to store user input
   var passwordOptions = {
-    length: length,
-    hasSpecialCharacters: hasSpecialCharacters,
-    hasNumericCharacters: hasNumericCharacters,
-    hasLowerCasedCharacters: hasLowerCasedCharacters,
-    hasUpperCasedCharacters: hasUpperCasedCharacters
+    length,
+    hasSpecialCharacters,
+    hasNumericCharacters,
+    hasLowerCasedCharacters,
+    hasUpperCasedCharacters
   };
 
   return passwordOptions;
@@ -175,6 +176,9 @@ function generatePassword() {
 
   // Array to contain one of each type of chosen character to ensure each will be used
   var guaranteedCharacters = [];
+
+  // Check if an options object exists, if not exit the function
+  if (!options) return null;
 
   // Conditional statement that adds array of special characters into array of possible characters based on user input
   // Push new random special character to guaranteedCharacters
