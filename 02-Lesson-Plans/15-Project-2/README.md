@@ -44,7 +44,7 @@ N/A
 
 * [Project Requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 ## Algorithms
 
