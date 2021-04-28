@@ -97,7 +97,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 For this week's Challenge, students will create a technical tutorial explaining regular expression functions. A regular expression, or regex, is a search pattern used by developers. In the tutorial, students will break down each part of the expression and describe what it does. Writing tutorials is a common task for fledgling developers, and practicing how students think and speak about technologies will prepare students for the interview process.
 
-[Module 17 Challenge](../../01-Class-Content/17-Computer-Science/02-Challenge)
+[Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
