@@ -21,8 +21,8 @@ Why are students learning Express.js?
 * Express.js is the most widely used Node.js server framework.
 * Express.js allows students to quickly create routes for static assets and API endpoints.
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
-* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in object oriented programming.
-* Express.js allows students to fully realize how client side requests relate to server side responses.
+* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in object-oriented programming.
+* Express.js allows students to fully realize how client-side requests relate to server-side responses.
 
 Throughout the async module this week, students will use Express.js to do the following:
 
@@ -35,12 +35,12 @@ Throughout the async module this week, students will use Express.js to do the fo
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson | Description                                     | Key Points                                                 |
-| ------ | ----------------------------------------------- | ---------------------------------------------------------- |
-| 1      | Set Up Express.js Server and GET Routes         | Server setup, GET requests, parameters, Heroku deployment  |
-| 2      | Create Data Using POST Routes                   | API POST endpoints, middleware, testing with Insomnia      |
-| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch POST requests |
-| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express router, creating endpoints         |
+| Lesson | Description                                     | Key Points                                                   |
+| ------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| 1      | Set Up Express.js Server and GET Routes         | Server setup, `GET` requests, parameters, Heroku deployment  |
+| 2      | Create Data Using POST Routes                   | API `POST` endpoints, middleware, testing with Insomnia      |
+| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch `POST` requests |
+| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express router, creating endpoints           |
 
 ## Virtual Classes
 
@@ -86,7 +86,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will add features to an existing Note Taker app that uses an Express.js back end. Students will implement the ability to save and retrieve note data from a JSON file using Express routes. Finally students will deploy their finished product to Heroku.
+Students will add features to an existing Note Taker app that uses an Express.js back end. Students will implement the ability to save and retrieve note data from a JSON file using Express routes. Finally, students will deploy their finished product to Heroku.
 
 [Module 11 Challenge](../../01-Class-Content/11-Express/02-Challenge/README.md)
 
