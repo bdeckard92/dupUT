@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice describing your problem-solving process using pseudocoding.
+In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice describing their problem-solving process using pseudocoding.
 
 In this week's virtual classes, you'll go over closures, factory functions, event delegation, and the Fibonacci algorithm. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to Regex, which is not in the async materials, but is needed for the Challenge.
 
@@ -42,14 +42,13 @@ Throughout the async module this week, students will use Computer Science to do 
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson           | Description          | Key Points                                                  |
-| ---              | ---                  | ---                                                         |
-| 1                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 2                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 3                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 4                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 5                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| {ANY ADDITIONAL} | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
+| Lesson           | Description            | Key Points                                                   |
+| ---              | ---                    | ---                                                          |
+| 1                | What Is JavaScript?    | Components of JavaScript, Execution context                  |
+| 2                | Functional Programming | Closures, Factory Functions, Event Handlers                  |
+| 3                | Search Algorithms      | Common search algorithms, Big O notation                     |
+| 4                | Sort Algorithms        | Bubble sort and quick sort algorithms, Big O classifications |
+| 5                | Interview Practice     | Pseudocoding, Refactoring                                    |
 
 ## Virtual Classes
 
@@ -84,8 +83,9 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
+| Closures | Refer to Lesson 2 or [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
+| Factory Functions | Refer to Lesson 2 or this article [JavaScript Factory Functions vs Constructor Functions vs Classes](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e)|
+| Regex | Refer to Challenge, [MDN Web Docs on Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) or the online [RegExr tool](https://regexr.com/) ) |
 
 ## Career Connection
 
