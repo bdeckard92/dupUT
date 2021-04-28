@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students learn to use MySQL, the most popular SQL database. Students learn to store and retrieve data using databases and expand their knowledge of how to build a full stack application with persistent storage.
+In this module, students learn to use MySQL, the most popular SQL database. Students learn to store and retrieve data using databases and expand their knowledge of how to build a full -tack application with persistent storage.
 
 In this week's virtual classes, you'll teach students MySQL schemas, creating databases and tables, and populating tables with data. You will also review `JOIN` statements, the `mysql2` npm package, and prepared statements.
 
@@ -18,8 +18,8 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 
 Why are students learning SQL?
 
-* Learning SQL makes students employer ready by opening them up to more than just front-end positions.
-* Learning SQL allows students to see the connection between front end and back end easier.
+* Learning SQL makes students employer-ready by opening them up to more than just front-end positions.
+* Learning SQL allows students to see the connection between front-end and back-end easier.
 * Learning SQL gives students the ability to join similar sets of data in a meaningful way.
 
 Throughout the async module this week, students will use SQL to do the following:
