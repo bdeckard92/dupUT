@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's module, students learn how to create their server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express will allow students to quickly and easily establish API routes and associated HTTP request methods.
+In this week's module, students learn how to create their server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express allows students to quickly and easily establish API routes and associated HTTP request methods.
 
 In this week's virtual classes, you'll review setting up an Express application using standard GET routes and GET routes with parameters, as well as review Express server basics.
 
