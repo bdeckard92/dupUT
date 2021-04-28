@@ -1,4 +1,4 @@
-# Module 17 Instructor Overview: Computer Science
+# Module 17 Instructor Overview: Computer Science for JavaScript
 
 ## Overview
 
@@ -18,13 +18,13 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 
 Why are students learning Computer Science?
 
-* Computer science fundamentals -- including performance measurement, data structures and algorithms --  are an important for interview success
+* Computer science fundamentals -- including performance measurement, data structures and algorithms --  are an important for interview success.
 
-* Breaking down a coding challenge by using pseudocoding helps prepare students for interviews
+* Breaking down a coding challenge by using pseudocoding helps prepare students for interviews.
 
-* Closures help students better understand scope and functional programming
+* Closures help students better understand scope and functional programming.
 
-* Students will gain experience in object-oriented programming (OOP) design philosophy and be able to contrast it with functional programming
+* Students will gain experience in object-oriented programming (OOP) design philosophy and be able to contrast it with functional programming.
 
 Throughout the async module this week, students will use Computer Science to do the following:
 
@@ -111,7 +111,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will learn about NoSQL databases, and more specifically, MongoDB. They will use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both before the next class. Although they will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, you should provide them with the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
+Next week, students will learn about NoSQL databases, and more specifically, MongoDB. They will use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both before the next class. Although they will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, you should provide them with the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
 
 ## Resources
 
