@@ -81,7 +81,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| Closures | Refer to Lesson 2 or [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
+| Closures | Refer to Lesson 2 or the [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
 | Factory Functions | Refer to Lesson 2 or this article [JavaScript Factory Functions vs Constructor Functions vs Classes](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e)|
 | Regex | Refer to the Challenge, the [MDN Web Docs on Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), or the online [RegExr tool](https://regexr.com/)|
 
