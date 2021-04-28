@@ -79,8 +79,6 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-@TODO FILL OUT CHART BY LISTING 2-4 PAIN POINTS AND SOLUTIONS
-
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
 | Closures | Refer to Lesson 2 or [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
@@ -103,13 +101,13 @@ For this week's Challenge, students will create a technical tutorial explaining 
 
 Specific skills students will need to implement in order to be successful:
 
-* Explain a technical concept in your own words so that a non-technical user can understand it.
+* Explain a technical concept in their own words so that a non-technical user can understand it.
 
 * Parse the different components of a search pattern within a technical tutorial.
 
-* Think about the information a user will need to understand the concept you’re explaining.
+* Think about the information a user will need to understand the concept they are explaining.
 
-* Write about your problem-solving process effectively so that other developers can understand how you solved a problem.
+* Write about their problem-solving process effectively so that other developers can understand how they solved a problem.
 
 ## Heads-Up
 
@@ -119,7 +117,7 @@ Specific skills students will need to implement in order to be successful:
 
 * [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-* [MDN Web Docs on events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+* [MDN Web Docs on Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
 * [RegExr](https://regexr.com/)
 
