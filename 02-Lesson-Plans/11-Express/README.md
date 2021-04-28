@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's module, students learn how to create their own server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express will allow students to quickly and easily establish API routes and associated HTTP request methods.
+In this week's module, students learn how to create their server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express will allow students to quickly and easily establish API routes and associated HTTP request methods.
 
 In this week's virtual classes, you'll review setting up an Express application using standard GET routes and GET routes with parameters, as well as review Express server basics.
 
@@ -21,7 +21,7 @@ Why are students learning Express.js?
 * Express.js is the most widely used Node.js server framework.
 * Express.js allows students to quickly create routes for static assets and API endpoints.
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
-* Modular routes using with Express.js reinforce the concept of separation of concerns, an important skill in for object oriented programming.
+* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in object oriented programming.
 * Express.js allows students to fully realize how client side requests relate to server side responses.
 
 Throughout the async module this week, students will use Express.js to do the following:
