@@ -18,6 +18,8 @@ In this week's virtual classes, you'll go over PWAs, primarily focusing on Webpa
 
 Why are students learning Progressive Web Applications (PWA)?
 
+* PWAs combine the best features of web and mobile apps. While native apps require ongoing updates, reviews, and sharing profits with app stores, PWAs simplify the process by having a single app that works on both web and mobile, all without requiring the user to download an app from an App Store. This greatly reduces user acquisition and maintenance costs while making the app more easily available to a greater number of users.
+
 * Performance optimization is crucial to building apps that reduce lag and provide a good experience for every user.
 
 * Service workers ensure applications work without an internet connection and introduce students to offline caching strategies.
