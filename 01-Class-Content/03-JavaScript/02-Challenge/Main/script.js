@@ -146,11 +146,11 @@ function getPasswordOptions() {
 
   // Object to store user input
   var passwordOptions = {
-    length,
-    hasSpecialCharacters,
-    hasNumericCharacters,
-    hasLowerCasedCharacters,
-    hasUpperCasedCharacters
+    length: length,
+    hasSpecialCharacters: hasSpecialCharacters,
+    hasNumericCharacters: hasNumericCharacters,
+    hasLowerCasedCharacters: hasLowerCasedCharacters,
+    hasUpperCasedCharacters: hasUpperCasedCharacters
   };
 
   return passwordOptions;
