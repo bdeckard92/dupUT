@@ -80,7 +80,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                                    | Recommendation       |
 | ---                                           | ---                  |
-| Implementing CRUD Operations with Mongoose    | Refer to Lesson 1, 2 or [Mongoose Docs on Queries](https://mongoosejs.com/docs/queries.html) |
+| Implementing CRUD Operations with Mongoose    | Refer to Lesson 1, 2 or the [Mongoose Docs on Queries](https://mongoosejs.com/docs/queries.html) |
 | IndexDB                                       | Refer to Lesson 4 or the [MDN Web Docs on the IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
 | Deploying to Heroku                           | Refer to Lesson 5 or supplemental guide on [Deploying with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) |
 
