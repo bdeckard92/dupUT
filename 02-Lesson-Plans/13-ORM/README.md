@@ -101,7 +101,7 @@ Specific skills students will need to implement in order to be successful:
 * Seeding Databases
 * Creating models in Sequelize and syncing them to a MySQL database
 * Building API endpoints and returning JSON data to the client
-* Testing GET, POST, PUT, and DELETE routes using Insomnia Core
+* Testing GET, POST, PUT, and DELETE routes using Insomnia
 * Implementing logic in route handlers to execute CRUD operations
 
 ## Heads-Up
