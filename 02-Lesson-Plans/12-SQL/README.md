@@ -18,9 +18,11 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 
 Why are students learning SQL?
 
-* Learning SQL makes students employer-ready by opening them up to more than just front-end positions.
-* Learning SQL allows students to see the connection between front-end and back-end easier.
-* Learning SQL gives students the ability to join similar sets of data in a meaningful way.
+* Understanding that data is the foundation of modern applications and knowing how to use data from relational databases is one of the most sought-after skills by employers.
+* SQL is used everywhere
+* SQL makes students employer-ready by opening them up to more than just front-end positions.
+* SQL allows students to see the connection between front-end and back-end easier.
+* SQL gives students the ability to join similar sets of data in a meaningful way.
 
 Throughout the async module this week, students will use SQL to do the following:
 
