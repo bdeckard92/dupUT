@@ -98,7 +98,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Initializing environment variables
 * Connecting to databases using Sequelize
-* Seeding Databases
+* Seeding databases
 * Creating models in Sequelize and syncing them to a MySQL database
 * Building API endpoints and returning JSON data to the client
 * Testing GET, POST, PUT, and DELETE routes using Insomnia
