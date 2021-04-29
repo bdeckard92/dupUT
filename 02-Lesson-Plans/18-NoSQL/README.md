@@ -81,7 +81,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                                    | Recommendation       |
 | ---                                           | ---                  |
 | Implementing CRUD Operations with Mongoose    | Refer to Lesson 1, 2 or                  |
-| IndexDB                                       | Refer to Lesson 4 or [MDN Web Docs on IndexDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
+| IndexDB                                       | Refer to Lesson 4 or the [MDN Web Docs on the IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
 | Deploying to Heroku                           | Refer to Lesson 5 or supplemental guide on [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) |
 
 ## Career Connection
