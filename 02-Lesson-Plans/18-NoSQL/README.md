@@ -110,7 +110,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will learn about measuring and optimizing the performance of web applications, as well as learning how to create [Progressive Web Applications (PWAs)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+Next week, students will learn about measuring and optimizing the performance of web applications, as well as learning how to create [Progressive Web Applications (PWAs)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 ## Resources
 
