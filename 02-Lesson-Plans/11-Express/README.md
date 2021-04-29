@@ -21,17 +21,17 @@ Why are students learning Express.js?
 * Express.js is the most widely-used Node.js server framework.
 * Express.js allows students to quickly create routes for static assets and API endpoints.
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
-* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in object-oriented programming.
+* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in Model-View-Controller (MVC) paradigm.
 * Express.js allows students to fully realize how client-side requests relate to server-side responses.
 
 Throughout the async module this week, students will use Express.js to do the following:
 
-* Serve static HTML files.
-* Create an API to handle `GET` and `POST` requests.
-* Parse parameters in server-side routes.
-* Submit form data to a server.
-* Implement separation of concerns for routing.
-* Deploy a server-side application to the Heroku platform.
+* Serve static HTML files
+* Create an API to handle `GET` and `POST` requests
+* Parse parameters in server-side routes
+* Submit form data to a server
+* Implement separation of concerns for routing
+* Deploy a server-side application to the Heroku platform
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -60,21 +60,19 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
-* Install Insomnia on your machine before class starts with the following link: [insomnia.rest/download](https://insomnia.rest/download)
+* Install Insomnia on your machine before class starts with the following link: [insomnia.rest/download](https://insomnia.rest/download) and familiarize yourself with the interface.
 
 * Ensure that you are using the most recent version of Express (^4) by running `npm show express version`.
-
-* Be sure to have Insomnia Core installed on your machine and that you are familiar with using it.
 
 ### Common Pain Points
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                                          | Recommendation                                                                                                                                                 |
-| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Routing terminology (parameters, routes, endpoints) | Advise students to review the [Express Docs on Routing](https://expressjs.com/en/guide/routing.html)                                                           |
-| `express.static` and the idea of sending HTML       | Refer students to the [Express Docs on Static Middleware](https://expressjs.com/en/starter/static-files.html)                                                      |
-| Organization of Routes                              | Refer students to the [MDN Express Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_catalog_route_module) |
+| Pain Point                                | Recommendation                                                                                                                 |
+| --- | --- |
+| Routing terminology                       | Refer students to the [Express Docs on Routing](https://expressjs.com/en/guide/routing.html)                                   |
+| `express.static` and hosting static files | Refer students to the [Express Docs on Static Middleware](https://expressjs.com/en/starter/static-files.html)                  |
+| Organization of Routes                    | Refer students to the [MDN Express Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) |
 
 ## Career Connection
 
