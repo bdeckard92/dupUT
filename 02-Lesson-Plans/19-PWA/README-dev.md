@@ -2,7 +2,7 @@
 
 ## Overview
 
-This week, students will focus on measuring and optimizing the performance of web applications. They will use Chrome DevTools and Google Lighthouse to measure web application performance and perform several optimizations that involve compressing assets—from minifying JavaScript and CSS files to compressing images. They will also use a technique called lazy loading to defer loading certain assets until they're needed by the application. They will also learn about Webpack, a module bundler for JavaScript.
+This week, students will focus on measuring and optimizing the performance of web applications. They will use Chrome DevTools and Google Lighthouse to measure web application performance and perform several optimizations that involve compressing assets—from minifying JavaScript and CSS files to compressing images. They will also use a technique called lazy loading to defer loading certain assets until they're needed by the application. Finally, they will learn about Webpack, a module bundler for JavaScript.
 
 In this week's virtual classes, you'll go over PWAs, primarily focusing on Webpack and service workers.
 
@@ -20,11 +20,11 @@ Why are students learning Progressive Web Applications (PWA)?
 
 * Performance optimization is crucial to building apps that reduce lag and provide a good experience for every user.
 
-* Service workers ensure applications work without an internet connection and introduce students to offline.
+* Service workers ensure applications work without an internet connection and introduce students to offline caching strategies.
 
-* Chrome DevTools and Google Lighthouse introduces students to performance based metrics such as application bundle size, time to interaction, time to first meaningful paint, and more.
+* Chrome DevTools and Google Lighthouse introduces students to performance-based metrics such as application bundle size, time to interaction, time to first meaningful paint, and more.
 
-* Lazy loading is a technique that allows students defer loading certain assets in their apps until they're needed by the application.
+* Lazy loading is a technique that allows students to defer loading certain assets in their apps until they're needed by the application.
 
 * Webpack is a widely used module bundler for JavaScript that allows students to automate optimizations and build more performant apps.
 
@@ -38,7 +38,7 @@ Throughout the async module this week, students will use Progressive Web Applica
 
 * Optimize CSS, JavaScript, and media assets for performance
 
-* Set up webpack in a new front-end project
+* Set up Webpack in a new front-end project
 
 * Use service workers to cache assets for offline functionality
 
@@ -50,7 +50,7 @@ Throughout the async module this week, students will use Progressive Web Applica
 | ---              | ---                                | ---                                                                               |
 | 1                | Auditing Application Performance   | Google's Lighthouse tool, Minifying files, Lazy-Loading files                     |
 | 2                | Introduction to Webpack            | Bundle JavaScript files, Modify `webpack.config` file, Webpack dependency graphs  |
-| 3                | Optimizing JavaScript              | Add reporting tools with plugin, Split code for lazy-loading, Compress images     |
+| 3                | Optimizing JavaScript              | Add reporting tools with plugin, Split code for lazy loading, Compress images     |
 | 4                | Using Service Workers              | Register and activate a service worker, Intercept fetch requests                  | 
 | 5                | Convert the App Into a PWA         | Dynamically create and use `manifest.json` file                                   |
 
@@ -72,9 +72,9 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
 
-* Progressive web apps aim to blend the benefits of a traditional browser experience with those of a mobile application. For an overview on the PWA design pattern see [MDN Web Docs on Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+* Progressive web apps (PWA) aim to blend the benefits of a traditional browser experience with those of a mobile application. For an overview of the PWA design pattern see [MDN Web Docs on Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
-* Let students know that we won't be able to teach them every aspect of Progressive Web Applications in the amount of time allotted. Instead, help students understand PWAs as a valuable design pattern that emphasizes measuring and optimizing the performance of web application and encourage students to further explore the concepts introduced when developing apps on their own.
+* Let students know that we won't be able to teach them every aspect of Progressive Web Applications in the amount of time allotted. Instead, help students understand PWAs as a valuable design pattern that emphasizes measuring and optimizing the performance of web applications and encourage students to further explore the concepts introduced when developing apps on their own.
 
 ### Common Pain Points
 
