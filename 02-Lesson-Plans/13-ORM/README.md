@@ -6,13 +6,13 @@ In this week's module, students will learn about object-relational mapping (ORM)
 
 In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, associations, and eager loading.
 
-| Day | Topic             | Location   |
-| --- | ----------------- | ---------- |
-| 1   | Sequelize Library | 13.1       |
-| 1   | Sequelize CRUD    | 13.1       |
-| 2   | Blog CRUD         | 13.1       |
-| 2   | Blog Association  | 13.3       |
-| 2   | Blog Joins        | 13.4, 13.5 |
+| Day | Topic                        | Location   |
+| --- | ---------------------------- | ---------- |
+| 1   | Sequelize Query Methods      | 13.1       |
+| 1   | Sequelize CRUD Methods       | 13.1       |
+| 2   | Validation and Constraints   | 13.1       |
+| 2   | Sequelize Associations       | 13.3       |
+| 2   | Sequelize "include" Property | 13.4, 13.5 |
 
 ## Overview of Asynchronous Material
 
@@ -36,13 +36,13 @@ Throughout the async module this week, students will use ORM to do the following
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson | Description                                   | Key Points                                                                                 |
+| Lesson | Description                                   | Key Points |
 | ------ | --- | --- |
-| 1      | Set Up a User Model                           | Sequelize set up, environmental variables, creating models, CRUD API routes                |
-| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async`/`await`, user authentication                   |
-| 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                  |
-| 4      | Implement a Voting System                     | Creating the `Vote` model, many-to-many relationships, `POST` route for voting, refactoring      |
-| 5      | Create the Comment Model and Deploy to Heroku | Creating the `Comment` model, double `belongsTo` associations, comment routes, Heroku deployment |
+| 1      | Set Up a User Model                           | Sequelize set up, environment variables, creating models, CRUD API routes                           |
+| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async`/`await`, user authentication                            |
+| 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                           |
+| 4      | Implement a Voting System                     | Creating models, many-to-many relationships, `POST` routes, refactoring                             |
+| 5      | Create the Comment Model and Deploy to Heroku | Double `belongsTo` associations, `hasMany` associations, creating route handlers, Heroku deployment |
 
 ## Virtual Classes
 
@@ -74,11 +74,12 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                 | Recommendation                                                                                                                          |
-| -------------------------- | --- |
-| Connecting to Databases    | Refer students to the [Sequelize Docs on Connecting](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
-| Understanding Associations | Refer students to the [Sequelize Docs on Associations](https://sequelize.org/master/manual/assocs.html)                                 |
-| Data Types with Models     | Refer students to the [Sequelize Docs on Model Basics](https://sequelize.org/master/manual/model-basics.html)                           |
+| Pain Point                   | Recommendation |
+| --- | --- |
+| Navigating the documentation | Encourage students to leverage external resources like Stack Overflow or Google for information regarding Sequelize                     |
+| Connecting to Databases      | Refer students to the [Sequelize Docs on Connecting](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
+| Understanding Associations   | Refer students to the [Sequelize Docs on Associations](https://sequelize.org/master/manual/assocs.html)                                 |
+| Data Types with Models       | Refer students to the [Sequelize Docs on Model Basics](https://sequelize.org/master/manual/model-basics.html)                           |
 
 ## Career Connection
 
@@ -90,7 +91,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build the back end for an e-commerce site starting with a working Express.js API. In this Challenge, students will also configure the application to use Sequelize to interact with a MySQL database.
+In this Challenge, students will build the back end for an e-commerce site starting with a working Express.js API. They will also configure the application to use Sequelize to interact with a MySQL database.
 
 [Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge/README.md)
 
