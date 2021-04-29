@@ -39,7 +39,7 @@ Throughout the async module this week, students will use ORM to do the following
 | Lesson | Description                                   | Key Points                                                                                 |
 | ------ | --- | --- |
 | 1      | Set Up a User Model                           | Sequelize set up, environmental variables, creating models, CRUD API routes                |
-| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async` `await`, user authentication                   |
+| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async`/`await`, user authentication                   |
 | 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                  |
 | 4      | Implement a Voting System                     | Creating the `Vote` model, many-to-many relationships, `POST` route for voting, refactoring      |
 | 5      | Create the Comment Model and Deploy to Heroku | Creating the `Comment` model, double `belongsTo` associations, comment routes, Heroku deployment |
