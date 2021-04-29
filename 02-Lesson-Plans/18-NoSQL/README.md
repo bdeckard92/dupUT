@@ -2,7 +2,7 @@
 
 ## Overview
 
-This week, students will learn about NoSQL databases. Students will use MongoDB, a popular NoSQL database, to store data using documents in the BSON format and Mongoose to map MongoDB’s document representations of data to a virtual object database. As a first step towards creating a Progressive Web Application, students will also use IndexedDB, a NoSQL client-side storage API in the browser, to save data locally to the browser when there’s no internet connection.
+This week, students will learn about NoSQL databases. Students will use MongoDB, a popular NoSQL database, to store data using documents in the BSON format and Mongoose to map MongoDB’s document representations of data to a virtual object database. As a first step towards creating a Progressive Web Application (PWA), students will also use IndexedDB, a NoSQL client-side storage API in the browser, to save data locally to the browser when there’s no internet connection.
 
 In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, schema, CRUD operations, and the `.populate()` method.
 
