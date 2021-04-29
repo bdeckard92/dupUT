@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this week's module, students learn how to create their server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express allows students to quickly and easily establish API routes and associated HTTP request methods.
+In this week's module, students will learn how to create server-side APIs using the Express.js framework. As the most widely-used Node.js server framework, Express.js allows students to quickly and easily establish API routes and associated HTTP request methods.
 
-In this week's virtual classes, you'll review setting up an Express application using standard GET routes and GET routes with parameters, as well as review Express server basics.
+In this week's virtual classes, you'll review setting up an Express.js application using standard GET routes and GET routes with parameters, as well as review Express server basics.
 
 | Day | Topic                | Location   |
 | --- | -------------------- | ---------- |
@@ -18,7 +18,7 @@ In this week's virtual classes, you'll review setting up an Express application 
 
 Why are students learning Express.js?
 
-* Express.js is the most widely used Node.js server framework.
+* Express.js is the most widely-used Node.js server framework.
 * Express.js allows students to quickly create routes for static assets and API endpoints.
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
 * Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in object-oriented programming.
@@ -73,7 +73,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                                          | Recommendation                                                                                                                                                 |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Routing terminology (parameters, routes, endpoints) | Advise students to review the [Express Docs on Routing](https://expressjs.com/en/guide/routing.html)                                                           |
-| `express.static` and the idea of sending HTML       | Refer students to [Express Docs on Static Middleware](https://expressjs.com/en/starter/static-files.html)                                                      |
+| `express.static` and the idea of sending HTML       | Refer students to the [Express Docs on Static Middleware](https://expressjs.com/en/starter/static-files.html)                                                      |
 | Organization of Routes                              | Refer students to the [MDN Express Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_catalog_route_module) |
 
 ## Career Connection
@@ -86,7 +86,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will add features to an existing Note Taker app that uses an Express.js back end. Students will implement the ability to save and retrieve note data from a JSON file using Express routes. Finally, students will deploy their finished product to Heroku.
+Students will add features to an existing Note Taker app that uses an Express.js back end. Students will implement the ability to save and retrieve note data from a JSON file using Express.js routes. Finally, students will deploy their finished product to Heroku.
 
 [Module 11 Challenge](../../01-Class-Content/11-Express/02-Challenge/README.md)
 
