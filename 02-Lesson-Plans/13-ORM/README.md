@@ -96,7 +96,7 @@ Students will build the back end for an e-commerce site starting with a working 
 
 Specific skills students will need to implement in order to be successful:
 
-* Initializing environmental variables
+* Initializing environment variables
 * Connecting to databases using Sequelize
 * Seeding Databases
 * Creating models in Sequelize and syncing them to a MySQL database
