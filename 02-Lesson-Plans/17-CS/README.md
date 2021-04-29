@@ -18,7 +18,7 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 
 Why are students learning Computer Science?
 
-* Computer science fundamentals -- including performance measurement, data structures and algorithms --  are an important for interview success.
+* Computer science fundamentals -- including performance measurement, data structures and algorithms --  are important for interview success.
 
 * Breaking down a coding challenge by using pseudocoding helps prepare students for interviews.
 
