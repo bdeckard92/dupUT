@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this module, students learn to use MySQL, the most popular SQL database. Students learn to store and retrieve data using databases and expand their knowledge of how to build a full -tack application with persistent storage.
+In this module, students will learn to use MySQL, the most popular SQL database. Students will also learn to store and retrieve data using databases and expand their knowledge of how to build a full-stack application with persistent storage.
 
-In this week's virtual classes, you'll teach students MySQL schemas, creating databases and tables, and populating tables with data. You will also review `JOIN` statements, the `mysql2` npm package, and prepared statements.
+In this week's virtual classes, you will cover MySQL schemas, creating databases and tables, and populating tables with data. You will also review `JOIN` statements, the `mysql2` npm package, and prepared statements.
 
 | Day | Topic               | Location         |
 | --- | ------------------- | ---------------- |
@@ -92,10 +92,10 @@ Your challenge this week is to build a command-line application to manage a comp
 
 Specific skills students will need to implement in order to be successful:
 
-* Configure your Node.js application to connect to a MySQL database
+* Configure a Node.js application to connect to a MySQL database
 * Create and drop databases and tables
 * Use CRUD (create, read, update, and delete) methods to work with persistent data
-* Create schema and seed files for the development of your application
+* Create schema and seed files for the development of an application
 * Write join statements to establish relations between data in three separate tables using primary and foreign keys
 
 ## Heads-Up
