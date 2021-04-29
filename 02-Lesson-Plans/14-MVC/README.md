@@ -37,7 +37,7 @@ Throughout the async module this week, students will use MVC to do the following
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                 | Key Points                                                                |
-| ------ | --------------------------- | ------------------------------------------------------------------------- |
+| ------ | --- | --- |
 | 1      | Create the Homepage View    | Code organization, template engines                                       |
 | 2      | Create the User Login       | Building views, fetch requests, leveraging existing Sequelize queries     |
 | 3      | Create the Single-Post View | Utilizing session data in templates, conditional rendering                |
@@ -92,7 +92,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-The student challenge this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
+The student challenge this week is to build a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
 
 [Module 14 Challenge](../../01-Class-Content/14-mvc/02-Challenge/README.md)
 
@@ -107,7 +107,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+Next week, students will start working on their group projects. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
 ## Resources
 
