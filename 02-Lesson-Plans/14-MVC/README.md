@@ -1,4 +1,4 @@
-# Module 14 Instructor Overview: Model-View-Controller (MVC)
+# Module 14 Instructor Overview: MVC
 
 ## Overview
 
@@ -27,12 +27,12 @@ Why are students learning MVC?
 
 Throughout the async module this week, students will use MVC to do the following:
 
-* Render dynamic HTML using the Handlebars.js template engine.
-* Explain and implement MVC design pattern in a full-stack web application.
-* Configure Heroku for deployment of an application using MySQL.
-* Explain the interaction between the Model, View, and Controller.
-* Explain separation of concerns and its benefits.
-* Implement user authentication.
+* Render dynamic HTML using the Handlebars.js template engine
+* Explain and implement MVC design pattern in a full-stack web application
+* Configure Heroku for deployment of an application using MySQL
+* Explain the interaction between the Model, View, and Controller
+* Explain separation of concerns and its benefits
+* Implement user authentication
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -92,7 +92,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-The student challenge this week is to build a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
+The student Challenge this week is to build a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
 
 [Module 14 Challenge](../../01-Class-Content/14-mvc/02-Challenge/README.md)
 
