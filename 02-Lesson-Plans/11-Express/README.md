@@ -60,7 +60,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
-* Install Insomnia on your machine before class starts with the following link: [insomnia.rest/download](https://insomnia.rest/download) and familiarize yourself with the interface.
+* Install Insomnia on your machine before class starts with the following link: [insomnia.rest/download](https://insomnia.rest/download).
 
 * Ensure that you are using the most recent version of Express (^4) by running `npm show express version`.
 
