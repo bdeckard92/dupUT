@@ -76,7 +76,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                   | Recommendation |
 | --- | --- |
-| Navigating the documentation | Encourage students to leverage external resources like Stack Overflow or Google for information regarding Sequelize                     |
+| Navigating technical documentation | Encourage students to leverage external resources like Stack Overflow or Google for information regarding Sequelize                     |
 | Connecting to Databases      | Refer students to the [Sequelize Docs on Connecting](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
 | Understanding Associations   | Refer students to the [Sequelize Docs on Associations](https://sequelize.org/master/manual/assocs.html)                                 |
 | Data Types with Models       | Refer students to the [Sequelize Docs on Model Basics](https://sequelize.org/master/manual/model-basics.html)                           |
