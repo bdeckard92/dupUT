@@ -18,7 +18,7 @@ In this week's virtual classes, you'll go over Mongoose virtuals, subdocuments, 
 
 Why are students learning NoSQL?
 
-* Understanding the keys differences between relational and non-relational databases allows students to make an informed decision on how to best store data for their app's needs.
+* Understanding the key differences between relational and non-relational databases allows students to make an informed decision on how to best store data for their app's needs.
 
 * Students will use Heroku to deploy their Node.js apps in both Challenges and in final projects.
 
