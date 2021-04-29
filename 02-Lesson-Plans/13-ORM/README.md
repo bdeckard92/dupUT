@@ -37,7 +37,7 @@ Throughout the async module this week, students will use ORM to do the following
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                                   | Key Points                                                                                 |
-| ------ | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ------ | --- | --- |
 | 1      | Set Up a User Model                           | Sequelize set up, environmental variables, creating models, CRUD API routes                |
 | 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async` `await`, user authentication                   |
 | 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                  |
