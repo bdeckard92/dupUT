@@ -18,8 +18,10 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 
 Why are students learning ORM?
 
-* Students are learning ORM to become familiar with maintaining relational databases.
+* Students are learning ORM to interact with databases using their language of choice.
+* Learning ORM will allow students to create relationships between data automatically.
 * Learning ORM allows students to interface with different kinds of databases with a single interface.
+* By learning ORM students can write lots of complex CRUD operations that would otherwise be tedious with plain SQL.
 * ORMs allow students to work with data in plain JavaScript objects.
 * ORMs allow students to translate code into database schemas and queries using SQL.
 
@@ -39,8 +41,8 @@ Throughout the async module this week, students will use ORM to do the following
 | 1      | Set Up a User Model                           | Sequelize set up, environmental variables, creating models, CRUD API routes                |
 | 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async` `await`, user authentication                   |
 | 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                  |
-| 4      | Implement a Voting System                     | Create `Vote` model, many-to-many relationships, `POST` route for voting, refactoring      |
-| 5      | Create the Comment Model and Deploy to Heroku | Create `Comment` model, double `belongsTo` associations, comment routes, Heroku deployment |
+| 4      | Implement a Voting System                     | Creating the `Vote` model, many-to-many relationships, `POST` route for voting, refactoring      |
+| 5      | Create the Comment Model and Deploy to Heroku | Creating the `Comment` model, double `belongsTo` associations, comment routes, Heroku deployment |
 
 ## Virtual Classes
 
@@ -73,7 +75,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 According to our class data, students might experience some of the following pain points throughout the week:
 
 | Pain Point                 | Recommendation                                                                                                                          |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------- | --- |
 | Connecting to Databases    | Refer students to the [Sequelize Docs on Connecting](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
 | Understanding Associations | Refer students to the [Sequelize Docs on Associations](https://sequelize.org/master/manual/assocs.html)                                 |
 | Data Types with Models     | Refer students to the [Sequelize Docs on Model Basics](https://sequelize.org/master/manual/model-basics.html)                           |
@@ -100,13 +102,13 @@ Specific skills students will need to implement in order to be successful:
 * Creating models in Sequelize and syncing them to a MySQL database
 * Building API endpoints and returning JSON data to the client
 * Testing GET, POST, PUT, and DELETE routes using Insomnia Core
-* Implementing logic in route handlers to to execute CRUD operations
+* Implementing logic in route handlers to execute CRUD operations
 
 ## Heads-Up
 
-* Next week you will divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that their team members consist of students all at the same skill level.
+Next week you will divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that their team members consist of students all at the same skill level.
 
-* Next week you will review Handlebars, a template engine, as well as authentication.
+Next week you will review Handlebars, a template engine, as well as authentication.
 
 ## Resources
 
