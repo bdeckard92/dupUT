@@ -26,12 +26,12 @@ Why are students learning Express.js?
 
 Throughout the async module this week, students will use Express.js to do the following:
 
-* Serve static HTML files
-* Create an API to handle `GET` and `POST` requests
-* Parse parameters in server-side routes
-* Submit form data to a server
-* Implement separation of concerns for routing
-* Deploy a server-side application to the Heroku platform
+* Serve static HTML files.
+* Create an API to handle `GET` and `POST` requests.
+* Parse parameters in server-side routes.
+* Submit form data to a server.
+* Implement separation of concerns for routing.
+* Deploy a server-side application to the Heroku platform.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -98,9 +98,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12.
+* Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12
 
-* Be sure to install MySQL server and the MySQL Shell on your machine.
+* Be sure to install MySQL server and the MySQL Shell on your machine
 
 ## Resources
 
