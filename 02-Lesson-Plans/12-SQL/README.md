@@ -88,7 +88,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Your challenge this week is to build a command-line application to manage a company's database of employees using Node.js, Inquirer, and MySQL. This challenge asks students to demonstrate their knowledge of MySQL and relational databases, while also exercising their knowledge of Node.js and Javascript.
+Your Challenge this week is to build a command-line application to manage a company's database of employees using Node.js, Inquirer, and MySQL. This Challenge asks students to demonstrate their knowledge of MySQL and relational databases, while also exercising their knowledge of Node.js and Javascript.
 
 [Module 12 Challenge](../../01-Class-Content/12-SQL/02-Challenge/README.md)
 
