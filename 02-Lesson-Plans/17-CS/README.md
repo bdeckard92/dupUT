@@ -22,6 +22,10 @@ Why are students learning Computer Science?
 
 * Breaking down a coding challenge by using pseudocoding helps prepare students for interviews.
 
+* Big O notation describes the code complexity using mathematical terms and introduces students to measuring efficiency of their code.
+
+* Data structures help students understand how data is stored, organized, and accessed in their code.
+
 * Closures help students better understand scope and functional programming.
 
 * Students will gain experience in object-oriented programming (OOP) design philosophy and be able to contrast it with functional programming.
