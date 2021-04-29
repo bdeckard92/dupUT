@@ -133,4 +133,4 @@ Next week, students will learn about measuring and optimizing the performance of
 * [03-smallest-difference](../../01-Class-Content/18-NoSQL/03-Algorithms/03-smallest-difference)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
