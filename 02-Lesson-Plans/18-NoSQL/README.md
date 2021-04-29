@@ -20,8 +20,6 @@ Why are students learning NoSQL?
 
 * Understanding the key differences between relational and non-relational databases allows students to make an informed decision on how to best store data for their app's needs.
 
-* Students will use Heroku to deploy their Node.js apps in both Challenges and in final projects.
-
 * MongoDB is a widely used database built for internet and business applications that allows students to store and manipulate data quickly and easily.
 
 * Mongoose is an Object Data Modeling (ODM) library for MongoDB that provides schema validation and allows students to have more control over their data. 
