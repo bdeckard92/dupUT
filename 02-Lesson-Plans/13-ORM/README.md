@@ -90,7 +90,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will build the back end for an e-commerce site starting with a working Express.js API and configuring it to use Sequelize to interact with a MySQL database.
+Students will build the back end for an e-commerce site starting with a working Express.js API. In this Challenge, students will also configure the application to use Sequelize to interact with a MySQL database.
 
 [Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge/README.md)
 
