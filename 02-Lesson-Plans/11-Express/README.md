@@ -98,9 +98,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12
+Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12.
 
-* Be sure to install MySQL server and the MySQL Shell on your machine
+Be sure to install MySQL server and the MySQL Shell on your machine.
 
 ## Resources
 
