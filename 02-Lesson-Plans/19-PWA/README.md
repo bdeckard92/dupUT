@@ -106,7 +106,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Convert an existing web application to a PWA.
 
-* Add a web manifest to your application.
+* Add a web manifest to their application.
 
 ## Heads-Up
 
