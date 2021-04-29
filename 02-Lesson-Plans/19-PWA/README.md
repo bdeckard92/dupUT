@@ -52,7 +52,7 @@ Throughout the async module this week, students will use Progressive Web Applica
 | 2                | Introduction to Webpack            | Bundle JavaScript files, Modify the `webpack.config` file, Webpack dependency graphs  |
 | 3                | Optimizing JavaScript              | Add reporting tools with plugin, Split code for lazy loading, Compress images     |
 | 4                | Using Service Workers              | Register and activate a service worker, Intercept fetch requests                  | 
-| 5                | Convert the App Into a PWA         | Dynamically create and use `manifest.json` file                                   |
+| 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                   |
 
 ## Virtual Classes
 
