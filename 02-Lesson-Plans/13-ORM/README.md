@@ -17,28 +17,30 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 ## Overview of Asynchronous Material
 
 Why are students learning ORM?
-You’ll work with Sequelize, an ORM library that creates a virtual object database that can be used within your code while managing a relational database. This will allow you to set up and completely manage objects using JavaScript, while Sequelize translates your code into database schema and queries using SQL.
 
-* Students are learning ORM to become familiar with maintaining relational databases
-* Learning ORM allows students to interface with different kinds of databases without needing to write complex queries
-* ORMs allow students to work with data in plan JavaScript objects
+* Students are learning ORM to become familiar with maintaining relational databases.
+* Learning ORM allows students to interface with different kinds of databases with a single interface.
+* ORMs allow students to work with data in plain JavaScript objects.
+* ORMs allow students to translate code into database schemas and queries using SQL.
 
-<!-- TODO LIST REASONS WHY THIS MODULE'S TOPIC IS IMPORTANT FOR STUDENTS' CAREERS -->
+Throughout the async module this week, students will use ORM to do the following:
 
-Throughout the async module this week, students will use {MODULE TOPIC} to do the following:
-
-<!-- TODO LIST HOW STUDENTS WILL USE ASYNC CONTENT IN THIS WEEK'S MODULE -->
+* Implement the Sequelize ORM in a Node.js application
+* Define models that use datatype validations
+* Implement CRUD methods using Sequelize
+* Implement Sequelize associations to join one or more tables
+* Configure Heroku for the deployment of an application using Sequelize & MySQL
+* Use the `bcrypt` package to hash password information and use environment variables to protect sensitive data
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-<!-- TODO FILL OUT CHART WITH THE APPROPRIATE NUMBER OF LESSONS, THE ASSOCIATED DESCRIPTION OF THAT LESSON, AND ANY IMPORTANT NOTES OR TIPS FOR THE INSTRUCTOR ABOUT THAT LESSON -->
-| Lesson | Description          | Key Points |
-| ------ | -------------------- | ---------- |
-| 1      | {LESSON DESCRIPTION} | {notes}    |
-| 2      | {LESSON DESCRIPTION} | {notes}    |
-| 3      | {LESSON DESCRIPTION} | {notes}    |
-| 4      | {LESSON DESCRIPTION} | {notes}    |
-| 5      | {LESSON DESCRIPTION} | {notes}    |
+| Lesson | Description                                   | Key Points                                                                                 |
+| ------ | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 1      | Set Up a User Model                           | Sequelize set up, environmental variables, creating models, CRUD API routes                |
+| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async` `await`, user authentication                   |
+| 3      | Create a Post Model                           | Model associations, `include` statements, creating API endpoints for CRUD                  |
+| 4      | Implement a Voting System                     | Create `Vote` model, many-to-many relationships, `POST` route for voting, refactoring      |
+| 5      | Create the Comment Model and Deploy to Heroku | Create `Comment` model, double `belongsTo` associations, comment routes, Heroku deployment |
 
 ## Virtual Classes
 
@@ -70,12 +72,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-<!-- TODO FILL OUT CHART BY LISTING 2-4 PAIN POINTS AND SOLUTIONS -->
-
-| Pain Point                          | Recommendation       |
-| ----------------------------------- | -------------------- |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
+| Pain Point                 | Recommendation                                                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Connecting to Databases    | Refer students to the [Sequelize Docs on Connecting](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
+| Understanding Associations | Refer students to the [Sequelize Docs on Associations](https://sequelize.org/master/manual/assocs.html)                                 |
+| Data Types with Models     | Refer students to the [Sequelize Docs on Model Basics](https://sequelize.org/master/manual/model-basics.html)                           |
 
 ## Career Connection
 
@@ -87,13 +88,19 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-<!-- TODO WHAT WILL THE STUDENTS BUILD FOR THEIR HOMEWORK? -->
+Students will build the back end for an e-commerce site starting with a working Express.js API and configuring it to use Sequelize to interact with a MySQL database.
 
-[Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge)
+[Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge/README.md)
 
 Specific skills students will need to implement in order to be successful:
 
-<!-- TODO LIST SKILLS THAT STUDENTS NEED TO COMPLETE THE CHALLENGE AND WHERE THEY LEARN THEM IN ASYNC CONTENT AT THE LESSON LEVEL (E.G., 1.3) -->
+* Initializing environmental variables
+* Connecting to databases using Sequelize
+* Seeding Databases
+* Creating models in Sequelize and syncing them to a MySQL database
+* Building API endpoints and returning JSON data to the client
+* Testing GET, POST, PUT, and DELETE routes using Insomnia Core
+* Implementing logic in route handlers to to execute CRUD operations
 
 ## Heads-Up
 
