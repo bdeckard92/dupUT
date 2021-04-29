@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this week's module, students will modularize their code using the Model-View-Controller (MVC) paradigm. Students will learn to dynamically generate HTML using Handlebars.js as the View layer. Students will use Express.js to create the Controller and use an ORM to create the Model.
+In this week's module, students will modularize their code using the Model-View-Controller (MVC) paradigm. Students will learn to dynamically generate HTML using Handlebars.js as the View layer, use Express.js to create the Controller, and use the Sequelize ORM to create the Model.
 
-In this week's virtual classes, you'll mainly review Handlebars.js, including helper functions and partials. You will also review implementing sessions using `express-session`.
+In this week's virtual classes, you'll cover Handlebars.js, including helper functions and partials. You will also review implementing sessions using `express-session`.
 
 You will also announce the upcoming group project and the group members during this week's second virtual class.
 
@@ -70,7 +70,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Instead of setting up a MySQL database for this week's activities, students will be given dummy data to use.
 
-* Although we just finished learning Sequelize, these activities only use Express so students can focus simply on Handlebars.js and `express-session`.
+* Although we just finished learning Sequelize, these activities only use Express.js so students can focus simply on Handlebars.js and `express-session`.
 
 ### Common Pain Points
 
@@ -79,8 +79,8 @@ According to our class data, students might experience some of the following pai
 | Pain Point                               | Recommendation                                                                                                        |
 | --- | --- |
 | Understanding the MVC architecture       | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) |
-| Passing data from controller to the view | Refer students to the [Express Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)   |
-| Handlebars syntax                        | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                          |
+| Passing data from controller to the view | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)   |
+| Handlebars.js syntax                        | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                          |
 
 ## Career Connection
 
@@ -92,9 +92,9 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-The student Challenge this week is to build a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
+This week's Challenge is to build a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers’ posts as well. Students build this site completely from scratch and deploy it to Heroku.
 
-[Module 14 Challenge](../../01-Class-Content/14-mvc/02-Challenge/README.md)
+[Module 14 Challenge](../../01-Class-Content/14-MVC/02-Challenge/README.md)
 
 Specific skills students will need to implement in order to be successful:
 
