@@ -21,7 +21,7 @@ Why are students learning Express.js?
 * Express.js is the most widely-used Node.js server framework.
 * Express.js allows students to quickly create routes for static assets and API endpoints.
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
-* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in Model-View-Controller (MVC) paradigm.
+* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in the Model-View-Controller (MVC) paradigm.
 * Express.js allows students to fully realize how client-side requests relate to server-side responses.
 
 Throughout the async module this week, students will use Express.js to do the following:
