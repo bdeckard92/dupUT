@@ -8,13 +8,13 @@ In this week's virtual classes, you'll mainly review Handlebars.js, including he
 
 You will also announce the upcoming group project and the group members during this week's second virtual class.
 
-| Day | Topic           | Location         |
-| --- | --------------- | ---------------- |
-| 1   | Ben and Jerry's | 14.1             |
-| 1   | Pets or Animals | 14.1             |
-| 2   | Library Books   | 14.1, 14.3, 14.4 |
-| 2   | Read Books      | 14.3, 14.4       |
-| 2   | Count Visits    | 14.5             |
+| Day | Topic                             | Location         |
+| --- | --------------------------------- | ---------------- |
+| 1   | Rendering Content with Handlebars | 14.1             |
+| 1   | Handlebars Helper Methods                   | 14.1             |
+| 2   | Library Books                     | 14.1, 14.3, 14.4 |
+| 2   | Read Books                        | 14.3, 14.4       |
+| 2   | Count Visits                      | 14.5             |
 
 ## Overview of Asynchronous Material
 
@@ -37,7 +37,7 @@ Throughout the async module this week, students will use MVC to do the following
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                 | Key Points                                                                |
-| ------ | --- | --- |
+| ------ | --------------------------- | ------------------------------------------------------------------------- |
 | 1      | Create the Homepage View    | Code organization, template engines                                       |
 | 2      | Create the User Login       | Building views, fetch requests, leveraging existing Sequelize queries     |
 | 3      | Create the Single-Post View | Utilizing session data in templates, conditional rendering                |
@@ -77,7 +77,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 According to our class data, students might experience some of the following pain points throughout the week:
 
 | Pain Point                               | Recommendation                                                                                                        |
-| --- | --- |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Understanding the MVC architecture       | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) |
 | Passing data from controller to the view | Refer students to the [Express Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)   |
 | Handlebars syntax                        | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                          |
@@ -113,11 +113,11 @@ Next week, students will start working on their group projects. Before this week
 
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
-* [Express Handlebars.js docs](https://www.npmjs.com/package/express-handlebars#usage)
+* [Express Handlebars docs](https://www.npmjs.com/package/express-handlebars#usage)
 
-* [Express Handlebars.js Helpers docs](https://www.npmjs.com/package/express-handlebars#helpers)
+* [Express Handlebars Helpers docs](https://www.npmjs.com/package/express-handlebars#helpers)
 
-* [Express Handlebars.js Partials docs](https://handlebarsjs.com/guide/partials.html#basic-partials)
+* [Express Handlebars Partials docs](https://handlebarsjs.com/guide/partials.html#basic-partials)
 
 * [Express-Session docs](https://www.npmjs.com/package/express-session)
 
