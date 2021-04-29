@@ -72,7 +72,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * Students will use [Insomnia](https://support.insomnia.rest/) to test their API routes instead of relying on a front end in this week's virtual classes.
 
-* Although students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, ensure that they have the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md).
+* Although students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons, ensure that they have the supplemental guides on [Setting Up MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and [Deploying with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas).
 
 ### Common Pain Points
 
@@ -82,7 +82,7 @@ According to our class data, students might experience some of the following pai
 | ---                                           | ---                  |
 | Implementing CRUD Operations with Mongoose    | Refer to Lesson 1, 2 or [Mongoose Docs on Queries](https://mongoosejs.com/docs/queries.html) |
 | IndexDB                                       | Refer to Lesson 4 or the [MDN Web Docs on the IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) |
-| Deploying to Heroku                           | Refer to Lesson 5 or supplemental guide on [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) |
+| Deploying to Heroku                           | Refer to Lesson 5 or supplemental guide on [Deploying with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) |
 
 ## Career Connection
 
