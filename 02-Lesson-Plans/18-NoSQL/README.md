@@ -22,7 +22,7 @@ Why are students learning NoSQL?
 
 * MongoDB is a widely used database built for internet and business applications that allows students to store and manipulate data quickly and easily.
 
-* Mongoose is an Object Data Modeling (ODM) library for MongoDB that provides schema validation and allows students to have more control over their data. 
+* Mongoose is an Object Document Mapping (ODM) library for MongoDB that provides schema validation and allows students to have more control over their data. 
 
 * IndexDB introduces the students to persistent offline storage and is a first step to prepare them for Progressive Web Applications.
 
