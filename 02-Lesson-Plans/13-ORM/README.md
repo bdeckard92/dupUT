@@ -1,4 +1,4 @@
-# Module 13 Instructor Overview: ORM
+# Module 13 Instructor Overview: Object Relational Mapping (ORM)
 
 ## Overview
 
