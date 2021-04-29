@@ -19,9 +19,9 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 Why are students learning ORM?
 
 * Students are learning ORM to interact with databases using their language of choice.
-* Learning ORM will allow students to create relationships between data with relative ease.
-* Learning ORM allows students to interface with different kinds of databases with a single interface.
-* By learning ORM students can write lots of complex CRUD operations that would otherwise be tedious with plain SQL.
+* Learning an ORM will allow students to create relationships between data with relative ease.
+* Learning an ORM will allow students to interface with different kinds of databases with a single interface.
+* By learning an ORM, students can write lots of complex CRUD operations that would otherwise be tedious with plain SQL.
 * ORMs allow students to work with data in plain JavaScript objects.
 * ORMs allow students to translate code into database schemas and queries using SQL.
 
