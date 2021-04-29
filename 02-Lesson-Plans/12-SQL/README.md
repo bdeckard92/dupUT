@@ -18,7 +18,8 @@ In this week's virtual classes, you will cover MySQL schemas, creating databases
 
 Why are students learning SQL?
 
-* Understanding that data is the foundation of modern applications and knowing how to use data from relational databases is one of the most sought-after skills by employers.
+* Data is the foundation of modern applications.
+* Knowing how to use relational databases is one of the most sought-after skills by employers.
 * SQL is one of the cornerstone technologies used in all of web development.
 * SQL is still used by some of the biggest tech companies in the world, like Uber, Netflix, Airbnb, and many more.
 * SQL gives students the ability to join similar sets of data in a meaningful way.
