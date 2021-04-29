@@ -10,7 +10,7 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 | ---  | ---                | ---          |
 | 1    | Closures           | 17.2         |
 | 1    | Event Delegation   | 17.2         |
-| 2    | Factory Function   | 17.2         |
+| 2    | Factory Functions   | 17.2         |
 | 2    | Fibonacci          | 17.5         |
 | 2    | Regex              | Challenge    |
 
