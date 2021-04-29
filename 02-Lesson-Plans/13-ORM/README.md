@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's module, students learn about object-relational mapping (ORM), a technique that allows developers to convert data between incompatible type systems using object-oriented programming principles.
+In this week's module, students will learn about object-relational mapping (ORM), a technique that allows developers to convert data between incompatible type systems using object-oriented programming principles.
 
 In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, associations, and eager loading.
 
