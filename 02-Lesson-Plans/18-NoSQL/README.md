@@ -122,7 +122,7 @@ Next week, students will learn about measuring and optimizing the performance of
 
 * [Mongoose Docs on Populate](https://mongoosejs.com/docs/populate.html)
 
-* [MDN Web Docs on IndexDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+* [MDN Web Docs on IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 ## Algorithms
 
