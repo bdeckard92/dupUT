@@ -23,7 +23,7 @@ Why are students learning SQL?
 * SQL is still used by some of the biggest tech companies in the world, like Uber, Netflix, Airbnb, and many more.
 * SQL gives students the ability to join similar sets of data in a meaningful way.
 * SQL makes students employer-ready by opening them up to more than just front-end positions.
-* SQL allows students to see the connection between front-end and back-end easier.
+* SQL allows students to see the connection between the front end and the back end easier.
 
 Throughout the async module this week, students will use SQL to do the following:
 
