@@ -19,10 +19,11 @@ In this week's virtual classes, you will cover MySQL schemas, creating databases
 Why are students learning SQL?
 
 * Understanding that data is the foundation of modern applications and knowing how to use data from relational databases is one of the most sought-after skills by employers.
-* SQL is still the top language for
+* SQL is one of the cornerstone technologies used in all of web development.
+* SQL is still used by some of the biggest tech companies in the world, like Uber, Netflix, Airbnb, and many more.
+* SQL gives students the ability to join similar sets of data in a meaningful way.
 * SQL makes students employer-ready by opening them up to more than just front-end positions.
 * SQL allows students to see the connection between front-end and back-end easier.
-* SQL gives students the ability to join similar sets of data in a meaningful way.
 
 Throughout the async module this week, students will use SQL to do the following:
 
@@ -35,13 +36,13 @@ Throughout the async module this week, students will use SQL to do the following
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson | Description                   | Key Points                                                                                    |
-| ------ | ----------------------------- | --------------------------------------------------------------------------------------------- |
-| 1      | Introduction to SQL           | Create db, create and populate tables, creating schemas                                       |
-| 2      | Create Candidate Routes       | Use `mysql2` to connect MySQL to a Node.js server, execute queries, test routes with Insomnia |
-| 3      | Join with Parties Table       | Updating schemas, adding new fields, combining two data from two tables, constraints          |
-| 4      | Create Voter Table and Routes | Modularize routes, adding timestamps to new data, sorting data                                |
-| 5      | Populate and Tally Votes      | SQL commands to count values, implementing constraints to avoid duplicate or null values      |
+| Lesson | Description                   | Key Points                                                                                       |
+| ------ | ----------------------------- | --- |
+| 1      | Introduction to SQL           | Creating databases, creating and populating tables, creating schemas                             |
+| 2      | Create Candidate Routes       | Using `mysql2` to connect MySQL to a Node.js server, execute queries, test routes with Insomnia    |
+| 3      | Join with Parties Table       | Updating schemas, adding new fields, combining two data from two tables, introducing constraints |
+| 4      | Create Voter Table and Routes | Modularizing routes, adding timestamps to new data, sorting data                                 |
+| 5      | Populate and Tally Votes      | Using SQL commands to count values, implementing constraints to avoid duplicate or `null` values |
 
 ## Virtual Classes
 
@@ -71,10 +72,10 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                       | Recommendation                                                                                                           |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| How MySQL deals with constraints | Refer students to the [MySQL Docs on Constraints](https://dev.mysql.com/doc/refman/8.0/en/constraints.html)              |
-| Inability to access MySQL shell  | Refer students to the [MySQL Docs on Password Reset](https://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html) |
+| Pain Point                       | Recommendation                                                                                                                  |
+| -------------------------------- | --- |
+| How MySQL deals with constraints | Refer students to the [MySQL Docs on Constraints](https://dev.mysql.com/doc/refman/8.0/en/constraints.html)                     |
+| Inability to access MySQL shell  | Refer students to the [MySQL Docs on Resetting Permissions](https://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html) |
 
 ## Career Connection
 
