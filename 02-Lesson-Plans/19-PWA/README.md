@@ -13,7 +13,7 @@ In this week's virtual classes, you'll go over PWAs, primarily focusing on Webpa
 | 1    | Webpack                    | 19.2       |
 | 2    | Service Workers            | 19.4       |
 | 2    | Caching Fetching Files     | 19.4       |
-| 2    | Manifest, Service Workers  | 19.4, 19.5 |
+| 2    | Service Workers, Manifest  | 19.4, 19.5 |
 
 ## Overview of Asynchronous Material 
 
