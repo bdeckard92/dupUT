@@ -1,41 +1,58 @@
-# Module XX Instructor Overview: { Title }
+# Module 19 Instructor Overview: Progressive Web Applications (PWA)
 
 ## Overview
 
-@TODO In this module, students will { OUTLINE THE GOALS FOR THE STUDENTS }.
+This week, students will focus on measuring and optimizing the performance of web applications. They will use Chrome DevTools and Google Lighthouse to measure web application performance and perform several optimizations that involve compressing assets—from minifying JavaScript and CSS files to compressing images. They will also use a technique called lazy loading to defer loading certain assets until they're needed by the application. They will also learn about Webpack, a module bundler for JavaScript.
 
-@TODO In this week's virtual classes, you will { OUTLINE THE GOALS FOR THE INSTRUCTOR }.
+In this week's virtual classes, you'll go over PWAs, primarily focusing on Webpack and service workers.
 
-@TODO FILL OUT CHART BELOW WITH TOPICS COVERED IN CLASS EACH DAY AND THEN LINK TO ASSOCIATED LESSON PLAN LOCATION
 
-| Day  | Topic   | Location                                  |
-| ---  | ---     | ---                                       |
-| 1    | {TOPIC} | {ASYNC LOCATION AT LESSON LEVEL (EG 1.3)} |
-| 1    | {TOPIC} | {ASYNC LOCATION AT LESSON LEVEL (EG 1.3)} |
-| 2    | {TOPIC} | {ASYNC LOCATION AT LESSON LEVEL (EG 1.3)} |
-| 2    | {TOPIC} | {ASYNC LOCATION AT LESSON LEVEL (EG 1.3)} |
+| Day  | Topic                  | Location   |
+| ---  | ---                    | ---        |
+| 1    | Webpack                | 19.2       |
+| 2    | Service Workers        | 19.4       |
+| 2    | Caching Fetching Files | 19.4       |
+| 2    | Notetaker PWA          | 19.4, 19.5 |
 
 ## Overview of Asynchronous Material 
 
-Why are students learning {MODULE TOPIC}?
+Why are students learning Progressive Web Applications (PWA)?
 
-* @TODO LIST REASONS WHY THIS MODULE'S TOPIC IS IMPORTANT FOR STUDENTS' CAREERS
+* Performance optimization is crucial to building apps that reduce lag and provide a good experience for every user.
 
-Throughout the async module this week, students will use {MODULE TOPIC} to do the following:
+* Service workers ensure applications work without an internet connection and introduce students to offline.
 
-* @TODO LIST HOW STUDENTS WILL USE ASYNC CONTENT IN THIS WEEK'S MODULE
+* Chrome DevTools and Google Lighthouse introduces students to performance based metrics such as application bundle size, time to interaction, time to first meaningful paint, and more.
+
+* Lazy loading is a technique that allows students defer loading certain assets in their apps until they're needed by the application.
+
+* Webpack is a widely used module bundler for JavaScript that allows students to automate optimizations and build more performant apps.
+
+Throughout the async module this week, students will use Progressive Web Applications (PWA) to do the following:
+
+* Identify performance bottlenecks in web applications
+
+* Explain how performance can be measured in web applications
+
+* Explain the five main categories measured in a Lighthouse audit
+
+* Optimize CSS, JavaScript, and media assets for performance
+
+* Set up webpack in a new front-end project
+
+* Use service workers to cache assets for offline functionality
+
+* Convert an existing web application to a PWA
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-@TODO FILL OUT CHART WITH THE APPROPRIATE NUMBER OF LESSONS, THE ASSOCIATED DESCRIPTION OF THAT LESSON, AND ANY IMPORTANT NOTES OR TIPS FOR THE INSTRUCTOR ABOUT THAT LESSON 
-| Lesson           | Description          | Key Points                                                  |
-| ---              | ---                  | ---                                                         |
-| 1                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 2                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 3                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 4                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| 5                | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
-| {ANY ADDITIONAL} | {LESSON DESCRIPTION} | {LESSON NOTES (EG STUDENTS NEED REFRESHER ON GIT WORKFLOW)} |
+| Lesson           | Description                        | Key Points                                                                        |
+| ---              | ---                                | ---                                                                               |
+| 1                | Auditing Application Performance   | Google's Lighthouse tool, Minifying files, Lazy-Loading files                     |
+| 2                | Introduction to Webpack            | Bundle JavaScript files, Modify `webpack.config` file, Webpack dependency graphs  |
+| 3                | Optimizing JavaScript              | Add reporting tools with plugin, Split code for lazy-loading, Compress images     |
+| 4                | Using Service Workers              | Register and activate a service worker, Intercept fetch requests                  | 
+| 5                | Convert the App Into a PWA         | Dynamically create and use `manifest.json` file                                   |
 
 ## Virtual Classes
 
@@ -63,12 +80,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-@TODO FILL OUT CHART BY LISTING 2-4 PAIN POINTS AND SOLUTIONS
-
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
-| {COMMON PAIN POINT FOR THIS MODULE} | {RECOMMENDED ACTION} |
+| Understanding PWAs                  | Refer to Lesson 5 or [MDN Web Docs on PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)                 |
+| Service Workers                     | Refer to Lesson 4 or [MDN Web Docs on Using Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) |
+| Webpack | Refer to Lesson 2 or [Webpack Getting Started Guide](https://webpack.js.org/guides/getting-started/) |
 
 ## Career Connection
 
@@ -98,7 +114,7 @@ Next week, students will learn about [React](https://reactjs.org/), a JavaScript
 
 ## Resources
 
-* [MDN web docs on PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+* [MDN Web Docs on PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 
 * [Webpack Getting Started Guide](https://webpack.js.org/guides/getting-started/)
 
