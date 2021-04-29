@@ -108,7 +108,7 @@ Specific skills students will need to implement in order to be successful:
 
 Next week you will divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that their team members consist of students all at the same skill level.
 
-Next week you will review Handlebars, a template engine, as well as authentication.
+Next week you will review Handlebars.js, a template engine, as well as authentication.
 
 ## Resources
 
