@@ -19,7 +19,7 @@ In this week's virtual classes, you'll teach students MySQL schemas, creating da
 Why are students learning SQL?
 
 * Understanding that data is the foundation of modern applications and knowing how to use data from relational databases is one of the most sought-after skills by employers.
-* SQL is used everywhere
+* SQL is still the top language for
 * SQL makes students employer-ready by opening them up to more than just front-end positions.
 * SQL allows students to see the connection between front-end and back-end easier.
 * SQL gives students the ability to join similar sets of data in a meaningful way.
@@ -100,9 +100,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you will introduce ORMs, more specifically Sequelize. BE VERY CAREFUL NOT TO GO TOO IN DEPTH. There are a ton of components that make Sequelize work, but much of it is boilerplate that doesn't need much explanation.
+Next week you will introduce ORMs, more specifically Sequelize. BE VERY CAREFUL NOT TO GO TOO IN DEPTH. There are a ton of components that make Sequelize work, but much of it is boilerplate that doesn't need much explanation.
 
-* THIS IS TOUGH STUFF! Tell your class to not feel discouraged if there are concepts that they can't nail down completely. Tell them to try their best, but to speak with you or a TA if they're unsure of anything.
+THIS IS TOUGH STUFF! Tell your class to not feel discouraged if there are concepts that they can't nail down completely. Tell them to try their best, but to speak with you or a TA if they're unsure of anything.
 
 ## Resources
 
