@@ -49,7 +49,7 @@ Throughout the async module this week, students will use Progressive Web Applica
 | Lesson           | Description                        | Key Points                                                                        |
 | ---              | ---                                | ---                                                                               |
 | 1                | Auditing Application Performance   | Google's Lighthouse tool, Minifying files, Lazy-Loading files                     |
-| 2                | Introduction to Webpack            | Bundle JavaScript files, Modify `webpack.config` file, Webpack dependency graphs  |
+| 2                | Introduction to Webpack            | Bundle JavaScript files, Modify the `webpack.config` file, Webpack dependency graphs  |
 | 3                | Optimizing JavaScript              | Add reporting tools with plugin, Split code for lazy loading, Compress images     |
 | 4                | Using Service Workers              | Register and activate a service worker, Intercept fetch requests                  | 
 | 5                | Convert the App Into a PWA         | Dynamically create and use `manifest.json` file                                   |
