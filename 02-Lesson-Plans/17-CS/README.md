@@ -86,7 +86,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
 | Closures | Refer to Lesson 2 or the [MDN Web Docs on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
-| Factory Functions | Refer to Lesson 2 or the resources in the Dessert Menu|
+| Factory Functions | Refer to Lesson 2 or the “How JavaScript Works” resources in the Dessert Menu|
 | Regex | Refer to the Challenge or the [MDN Web Docs on Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)|
 
 ## Career Connection
