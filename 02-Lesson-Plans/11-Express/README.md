@@ -90,11 +90,11 @@ Students will add features to an existing Note Taker app that uses an Express.js
 
 Specific skills students will need to implement in order to be successful:
 
-* Create new routes and route handlers for an Express.js back end
-* Parse parameters in server-side routes
-* Submit form data to a server
-* Implement separation of concerns for routing
-* Deploy a server-side application to the Heroku platform
+* Create new routes and route handlers for an Express.js back end.
+* Parse parameters in server-side routes.
+* Submit form data to a server.
+* Implement separation of concerns for routing.
+* Deploy a server-side application to the Heroku platform.
 
 ## Heads-Up
 
