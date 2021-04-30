@@ -33,7 +33,7 @@ Throughout the async module this week, students will use React to do the followi
 * Set up a test environment, write and run unit tests.
 * Use conditional rendering in a React template.
 * Manage state in controlled components.
-* Use some of most common React hooks.
+* Use some of the most common React hooks.
 * Write functions for syncing form input values with state, submitting form data, and validating that data.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
@@ -62,13 +62,13 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp".
+* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after Boot Camp".
 
 * Let students know that we won't be able to teach them all of React in the amount of time we have. Our role is essentially to give them the high points so they understand the terms and know how to proceed.
 
 * Students may feel a little overwhelmed with the new unusual syntax. Remind them that at the end of the day, we're still just working with JavaScript. Prioritize making sure they understand concepts, rather than worrying about them perfectly memorizing syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
-* **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: To avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Use the given React app [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 ### Common Pain Points
 
@@ -77,7 +77,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                                | Recommendation                                                                                                      |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Class attributes                          | Remind students to use `className` rather than `class` in JSX elements to avoid namespace conflicts                 |
-| Returning more than one component         | Explain that components are just functions, and that functions can only have on return value. Explain alternatives. |
+| Returning more than one component         | Explain that components are just functions and that functions can only have one return value. Explain alternatives. |
 | Mapped elements require a `key` attribute | Explain that React needs a unique `key` so it can keep track of similar elements.                                   |
 | Managing state within forms               | Explain that in controlled components, the form reflects state. User input updates state.                           |
 
