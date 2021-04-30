@@ -8,13 +8,13 @@ In this week's virtual classes, you'll cover Handlebars.js, including helper fun
 
 You will also announce the upcoming group project and the group members during this week's second virtual class.
 
-| Day | Topic             | Location         |
-| --- | ----------------- | ---------------- |
-| 1   | Rendering Content | 14.1             |
-| 1   | Helper Methods    | 14.1             |
-| 2   | Handlebars.js Loops  | 14.1, 14.3, 14.4 |
-| 2   | Partials          | 14.3, 14.4       |
-| 2   | `express-session` | 14.5             |
+| Day | Topic               | Location         |
+| --- | ------------------- | ---------------- |
+| 1   | Rendering Content   | 14.1             |
+| 1   | Helper Methods      | 14.1             |
+| 2   | Handlebars.js Loops | 14.1, 14.3, 14.4 |
+| 2   | Partials            | 14.3, 14.4       |
+| 2   | `express-session`   | 14.5             |
 
 ## Overview of Asynchronous Material
 
@@ -23,7 +23,7 @@ Why are students learning MVC?
 * Learning the MVC paradigm allows students to collaborate efficiently. One student can work on the view, while another student can work on the business logic of the application.
 * The MVC design pattern encourages students to embrace the separation of concerns philosophy.
 * Knowing how to create user interfaces using the MVC pattern will make students a prime candidate for employers, as the MVC model is becoming increasingly popular for web development.
-* The MVC pattern will allow students to keep their business logic for the applications intact if they decide to change the view or template engine. It is important for students to understand that the MVC pattern revolves around template engines as a concept, not just a single technology like Handlebars.
+* The MVC pattern will allow students to keep their business logic for the applications intact if they decide to change the view or template engine. It is important for students to understand that the MVC pattern revolves around template engines as a concept, not just a single technology like Handlebars.js.
 
 Throughout the async module this week, students will use MVC to do the following:
 
@@ -76,12 +76,12 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                                         | Recommendation                                                                                                                           |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Pain Point                                        | Recommendation                                                                                                                           |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Understanding why they should learn Handlebars.js | Remind students that the point of this unit is to learn the MVC pattern and template engines as a concept, not necessarily Handlebars.js |
-| Understanding the MVC architecture                 | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)                    |
-| Passing data from controller to the view           | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)                   |
-| Handlebars.js syntax                               | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                                             |
+| Understanding the MVC architecture                | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)                    |
+| Passing data from controller to the view          | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)                   |
+| Handlebars.js syntax                              | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                                             |
 
 ## Career Connection
 
