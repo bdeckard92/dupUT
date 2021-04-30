@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will become introduced to what React is and what problems it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Finally, students will be introduced to React hooks and how to manage local state inside components.
+In this module, students will be introduced to what React is and what problems it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Finally, students will be introduced to React hooks and how to manage local state inside components.
 
 In this week's virtual classes, you will help students understand what React is, and the key improvements it makes to web development over older methods. You will also help students learn to create reusable components rather than monolithic pages. You will introduce students to JSX and conditional rendering. Most importantly, you will emphasize the need to understand props and state, two pillars of being a successful React developer.
 
