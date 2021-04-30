@@ -75,7 +75,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 According to our class data, students might experience some of the following pain points throughout the week:
 
 | Pain Point                                | Recommendation                                                                                                      |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------- | --- |
 | Class attributes                          | Remind students to use `className` rather than `class` in JSX elements to avoid namespace conflicts                 |
 | Returning more than one component         | Explain that components are just functions and that functions can only have one return value. Explain alternatives. |
 | Mapped elements require a `key` attribute | Explain that React needs a unique `key` so it can keep track of similar elements.                                   |
