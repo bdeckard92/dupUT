@@ -11,7 +11,7 @@ You will also announce the upcoming group project and the group members during t
 | Day | Topic                             | Location         |
 | --- | --------------------------------- | ---------------- |
 | 1   | Rendering Content with Handlebars | 14.1             |
-| 1   | Handlebars Helper Methods                   | 14.1             |
+| 1   | Handlebars Helper Methods         | 14.1             |
 | 2   | Library Books                     | 14.1, 14.3, 14.4 |
 | 2   | Read Books                        | 14.3, 14.4       |
 | 2   | Count Visits                      | 14.5             |
@@ -76,11 +76,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                               | Recommendation                                                                                                        |
-| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Understanding the MVC architecture       | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) |
-| Passing data from controller to the view | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)   |
-| Handlebars.js syntax                        | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                          |
+| Pain Point                               | Recommendation                                                                                                         |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Understanding the MVC architecture       | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  |
+| Passing data from controller to the view | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html) |
+| Handlebars.js syntax                     | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                           |
 
 ## Career Connection
 
