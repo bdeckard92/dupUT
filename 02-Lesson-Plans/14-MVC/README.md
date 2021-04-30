@@ -12,7 +12,7 @@ You will also announce the upcoming group project and the group members during t
 | --- | ----------------- | ---------------- |
 | 1   | Rendering Content | 14.1             |
 | 1   | Helper Methods    | 14.1             |
-| 2   | Handlebars Loops  | 14.1, 14.3, 14.4 |
+| 2   | Handlebars.js Loops  | 14.1, 14.3, 14.4 |
 | 2   | Partials          | 14.3, 14.4       |
 | 2   | `express-session` | 14.5             |
 
