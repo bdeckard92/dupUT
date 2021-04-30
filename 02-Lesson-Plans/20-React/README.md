@@ -30,7 +30,7 @@ Throughout the async module this week, students will use React to do the followi
 * Compose a React application with components.
 * Construct the elements of a webpage using JSX.
 * Map over collections of data to render multiple instances of a component.
-* Set up a test environment, write and run unit tests.
+* Set up a test environment and write and run unit tests.
 * Use conditional rendering in a React template.
 * Manage state in controlled components.
 * Use some of the most common React hooks.
