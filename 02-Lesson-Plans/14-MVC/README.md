@@ -78,7 +78,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                                         | Recommendation                                                                                                                           |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Understanding why they should learn Handlebars.js? | Remind students that the point of this unit is to learn the MVC pattern and template engines as a concept, not necessarily Handlebars.js |
+| Understanding why they should learn Handlebars.js | Remind students that the point of this unit is to learn the MVC pattern and template engines as a concept, not necessarily Handlebars.js |
 | Understanding the MVC architecture                 | Refer students to the [Wikipedia article on MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)                    |
 | Passing data from controller to the view           | Refer students to the [Express.js Docs on Template Engines](http://expressjs.com/en/guide/using-template-engines.html)                   |
 | Handlebars.js syntax                               | Refer students to the [Handlebars.js Docs](https://www.npmjs.com/package/express-handlebars)                                             |
