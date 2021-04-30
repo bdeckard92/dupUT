@@ -1,4 +1,4 @@
-# Module 14 Instructor Overview: MVC
+# Module 14 Instructor Overview: Model-View-Controller (MVC)
 
 ## Overview
 
