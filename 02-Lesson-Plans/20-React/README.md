@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will be introduced to what React is and what problems it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Finally, students will be introduced to React hooks and how to manage local state inside components.
+In this module, students will be introduced to what React is and what problems it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Students will also be introduced to React hooks and how to manage local state inside components. Finally, students will be introduced to the concept of single page applications that allow for a full web app experience a without ever reloading or leaving the page.
 
 In this week's virtual classes, you will help students understand what React is, and explain the key improvements it makes to web development over older methods. You will also help students learn to create reusable components rather than monolithic pages. You will introduce students to JSX and conditional rendering. Most importantly, you will emphasize the need to understand props and state, two pillars of being a successful React developer.
 
@@ -109,7 +109,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-Next week, students will learn about GraphQL. Familiarize yourself with GraphQL, as well as Apollo and the GraphQL Playground.
+Next week, students will learn about GraphQL. Familiarize yourself with GraphQL, as well as [Apollo](https://www.apollographql.com/) and the GraphQL Playground.
 
 ## Resources
 
