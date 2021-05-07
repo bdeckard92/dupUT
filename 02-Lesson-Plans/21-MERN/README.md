@@ -28,7 +28,7 @@ Why are students learning MERN?
 
 * GraphQL is an up-and-coming technology. Students with experience in it will be able to offer employers expertise they likely don't already have in-house.
 
-* JSON Web Tokens provides a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
+* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
 
 * React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their apps. 
 
