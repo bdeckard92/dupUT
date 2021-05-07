@@ -34,6 +34,18 @@ Why are students learning MERN?
 
 Throughout the async module this week, students will use MERN to do the following:
 
+* Explain the difference between GraphQL and RESTful APIs
+
+* Configure a proxy server for local development of a MERN application
+
+* Implement client-side routing using React Router
+
+* Build API endpoints with GraphQL in a MERN application
+
+* Successfully configure and deploy a MERN application to Heroku
+
+* Implement authentication with JWT
+
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson           | Description                   | Key Points                                                                                          |
