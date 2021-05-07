@@ -12,7 +12,7 @@ In this week's virtual classes, you'll cover GraphQL, including using the Apollo
 | 1    | JSON Web Token     | 21.2       |
 | 2    | GraphQL Mutations  | 21.2       |
 | 2    | GraphQL Client     | 21.3       |
-| 2    | useEffect Hook     | Challenge  |
+| 2    | `useEffect` Hook     | Challenge  |
 
 ## Overview of Asynchronous Material 
 
