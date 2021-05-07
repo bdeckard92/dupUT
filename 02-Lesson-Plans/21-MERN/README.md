@@ -41,7 +41,7 @@ Throughout the async module this week, students will use MERN to do the followin
 | 1                | Set Up Apollo Server          | Apollo Server GraphQL library integration, Type Definitions, Resolvers, GraphQL Playground          |
 | 2                | GraphQL Mutations             | GraphQL mutations, Signing and verifying JWTs                                                       |
 | 3                | Integrate the Client          | Client-side React application files, Using the Apollo Client library to consume the GraphQL API.    |
-| 4                | Using React Router            | Client-side routing, URL parameters, useQuery Hook                                                  |
+| 4                | Using React Router            | Client-side routing, URL parameters, `useQuery` Hook                                                  |
 | 5                | Front-End User Authentication | Front-end authentication, Use of mutations to log in and create user, Queries to display login data |
 | 6                |  Forms and Buttons            | Read and write to the Apollo Client cache, Configure a MERN app to deploy to Heroku                 |
 
