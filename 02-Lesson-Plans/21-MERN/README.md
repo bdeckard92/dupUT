@@ -22,7 +22,7 @@ Why are students learning MERN?
 
 * MERN is a full-stack JavaScript framework ideal for developing dynamic and interactive websites.
 
-* The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the fullstack architecture using a language they know.
+* The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
 * The fundamental skills learned with MERN are easily transferable to other popular stacks including MEAN. 
 
