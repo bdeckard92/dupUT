@@ -20,17 +20,17 @@ Why are students learning MERN?
 
 * Full-stack developers are in demand for their skillset and versatility. 
 
-* MERN is a full-stack JavaScript framework ideal for developing dynamic and interactive websites.
+* MERN is a full-stack JavaScript tech stack ideal for developing dynamic and interactive websites.
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
 * The fundamental skills learned with MERN are easily transferable to other popular stacks including MEAN. 
 
-* GraphQL is an up-and-coming technology. Students with experience in it will be able to offer employers expertise they likely don't already have in-house.
+* GraphQL is an up-and-coming technology that solves one of the fundamental problems of REST, which is the overfetching and underfetching of data at scale.
 
 * JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
 
-* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their apps. 
+* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps. 
 
 Throughout the async module this week, students will use MERN to do the following:
 
