@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutation and implement GraphQL on both the client and server. Students will also work with JSON Web Tokens (JWT) as a means of handling user authentication. Finally, students will bring together all four technologies of the MERN (Mongo, Express, React, Node) stack to build a full-stack application.
+In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutation and implement GraphQL on both the client and server. Students will also work with JSON Web Tokens (JWT) as a means of handling user authentication. Finally, students will bring together all four technologies of the MERN (Mongo, Express, React, Node) stack to build a fullstack application.
 
 In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
 
@@ -36,14 +36,14 @@ Throughout the async module this week, students will use MERN to do the followin
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson           | Description          | Key Points                                                  |
-| ---              | ---                  | ---                                                         |
-| 1                | Set Up Apollo Server | Apollo Server GraphQL library integration, Type Definitions, Resolvers, GraphQL Playground |
-| 2                | GraphQL Mutations | GraphQL mutations, Signing and verifying JWTs|
-| 3                | Integrate the Client | Client-side React application files, Using the Apollo Client library to consume the GraphQL API. |
-| 4                | Using React Router | Client-side routing, URL parameters, useQuery Hook  |
-| 5                | Add Front-End User Authentication | Front-end authentication, Use of mutations to log in and create user, Queries to display login data |
-| 6 |  Forms and Buttons | Read and write to the Apollo Client cache, Configure a MERN app to deploy to Heroku|
+| Lesson           | Description                   | Key Points                                                                                          |
+| ---              | ---                           | ---                                                                                                 |
+| 1                | Set Up Apollo Server          | Apollo Server GraphQL library integration, Type Definitions, Resolvers, GraphQL Playground          |
+| 2                | GraphQL Mutations             | GraphQL mutations, Signing and verifying JWTs                                                       |
+| 3                | Integrate the Client          | Client-side React application files, Using the Apollo Client library to consume the GraphQL API.    |
+| 4                | Using React Router            | Client-side routing, URL parameters, useQuery Hook                                                  |
+| 5                | Front-End User Authentication | Front-end authentication, Use of mutations to log in and create user, Queries to display login data |
+| 6                |  Forms and Buttons            | Read and write to the Apollo Client cache, Configure a MERN app to deploy to Heroku                 |
 
 ## Virtual Classes
 
@@ -73,12 +73,12 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                          | Recommendation       |
-| ---                                 | ---                  |
-| Structure of GraphQL Queries and Mutations | Refer to Lesson 1, 2 or [GraphQL Docs on Queries and Mutations](https://graphql.org/learn/queries/) |
-| Implementing JWT Authentication  | Refer to Lesson 2 or [JWT Docs on Introduction to JSON Web Tokens](https://jwt.io/introduction) |
-| Optional chaining | [Refer MDN Web Docs on Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  |
-| `eslint` preflight check error in Challenge app | add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true` |
+| Pain Point                                      | Recommendation       |
+| ---                                             | ---                  |
+| Structure of GraphQL Queries and Mutations      | Refer to Lesson 1, 2 or [GraphQL Docs on Queries and Mutations](https://graphql.org/learn/queries/) |
+| Implementing JWT Authentication                 | Refer to Lesson 2 or [JWT Docs on Introduction to JSON Web Tokens](https://jwt.io/introduction) |
+| Optional chaining                               | [Refer MDN Web Docs on Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  |
+| `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true` |
 
 ## Career Connection
 
