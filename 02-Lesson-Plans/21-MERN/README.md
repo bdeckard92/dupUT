@@ -18,7 +18,7 @@ In this week's virtual classes, you'll cover GraphQL, including using the Apollo
 
 Why are students learning MERN?
 
-* Fullstack developers are in demand for their skillset and versatility. 
+* Full-stack developers are in demand for their skillset and versatility. 
 
 * MERN is a fullstack JavaScript framework ideal for developing dynamic and interactive websites.
 
