@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutation and implement GraphQL on both the client and server. Students will also work with JSON Web Tokens (JWT) as a means of handling user authentication. Finally, students will bring together all four technologies of the MERN (Mongo, Express, React, Node) stack to build a fullstack application.
+In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutations and implement GraphQL on both the client and server. Students will also work with JSON Web Tokens (JWT) as a means of handling user authentication. Finally, students will bring together all four technologies of the MERN (Mongo, Express.js, React, Node.js) stack to build a full-stack application.
 
 In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server to set up `typeDefs` and `resolvers`, making queries and mutations, and utilizing GraphQL Playground. You will also go over JSON Web Tokens and the `useEffect` Hook.
 
