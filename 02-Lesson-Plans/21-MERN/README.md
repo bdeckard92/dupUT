@@ -76,7 +76,7 @@ According to our class data, students might experience some of the following pai
 | Pain Point                                      | Recommendation       |
 | ---                                             | ---                  |
 | Structure of GraphQL Queries and Mutations      | Refer to Lesson 1, 2, or the [GraphQL Docs on Queries and Mutations](https://graphql.org/learn/queries/) |
-| Implementing JWT Authentication                 | Refer to Lesson 2 or [JWT Docs on Introduction to JSON Web Tokens](https://jwt.io/introduction) |
+| Implementing JWT Authentication                 | Refer to Lesson 2 or the [JWT Docs on Introduction to JSON Web Tokens](https://jwt.io/introduction) |
 | Optional chaining                               | [Refer MDN Web Docs on Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  |
 | `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true` |
 
