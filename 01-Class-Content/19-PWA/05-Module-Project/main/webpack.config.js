@@ -28,7 +28,6 @@ const config = {
                 return '[path][name].[ext]';
               },
               publicPath(url) {
-                console.log(url);
                 return url.replace('../', '/assets/');
               }
             }
