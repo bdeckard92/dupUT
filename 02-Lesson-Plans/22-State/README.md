@@ -24,7 +24,7 @@ Why are students learning state management?
 * State management expands on the students existing knowledge of state within React applications.
 * Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
 
-Throughout the async module this week, students will use React to do the following:
+Throughout the async module this week, students will use state management to do the following:
 
 * Use the React Context API to implement a Redux-like store to manage state globally.
 * Write Redux-like actions and reducers with the necessary tests in place.
@@ -59,7 +59,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after Boot Camp". Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
+This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after the Boot Camp". Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
 **Important**: to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
