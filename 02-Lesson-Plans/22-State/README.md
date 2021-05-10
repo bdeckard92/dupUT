@@ -2,47 +2,38 @@
 
 ## Overview
 
-In this module, students will be working with State Management in React, specifically with the Reacxt Context API. Students will create actions and reducers, test the reducers, implement global state, and also be exposed to Redux.
+In this module, students expand their knowledge of state management by implementing Redux, a popular state-management framework, into a React application. Additionally, students will use the React Context API to implement a Redux-like store to manage the state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React hooks like `useEffect()`, and finally learn how to dispatch actions to update the state.
 
-In this week's virtual classes, you will help students understand how to implement actions and reducers, test reducers, and then how to reactor global state from the React Context API to Redux.
+In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
-| Day | Topic                                           | Location         |
-| --- | ------------------------------------------------| ---------------- |
-| 1   | Actions and Reducers                            | 22.1             |
-| 1   | `useReducers` hook                              | 22.1             |
-| 1   | Test Reducers                                   | 22.2             |
-| 2   | Global State                                    | 22.3, 22.4, 20.5 |
-| 2   | `createContext` and `useContext` hooks          | 22.3             |
-| 2   | Global State refactor                           | 22.6             |
-| 2   | Redux Docs                                      | 22.9             |
+| Day | Topic                                                | Location    |
+| --- | ---------------------------------------------------- | ----------- |
+| 1   | Actions, Reducers, `useReducer` hook                 | 22.1        |
+| 1   | Testing Reducers                                     | 22.2        |
+| 2   | Global State, `createContext` and `useContext` hooks | 22.3 - 20.5 |
+| 2   | Global State Refactor                                | 22.6        |
+| 2   | Redux Documentation                                  | 22.9        |
 
 ## Overview of Asynchronous Material
 
-Why are students learning State Management?
+Why are students learning State management?
 
-* State Management is critical to effectively managing the flow of data through a large application. Other solutions, such as prop-drilling, are extremely limited when applied to larger-scope projects and can introduce errors. 
+* State Management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered.
+* When working on larger-scale or enterprise-level React projects, managing global state using React Context API or a third-party solution like Redux is a critical part of the application's success.
+* The initial time investment in setting up global state management pays dividends the larger an application becomes.
+* State Management expands on the students existing knowledge of state within React applications.
+* Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
 
-* When working on larger-scale or enterprise-level React projects, managing global state -- either with the React Context API or a third-party solution like Redux -- is a critical part of the application's success.
-
-Throughout the async module this week, students will use React to do the following:
-
-* Use the React Context API to implement a Redux-like store to manage state globally.
-* Write Redux-like actions and reducers with the necessary tests in place.
-* Use global state across multiple React components.
-* Write reducers that update and delete array items.
-* Use IndexedDB within a React component
-* Generate a checkout session with the Stripe API.
-* Use the `useLazyQuery` Hook to handle delayed requests.
+Throughout the async module this week, students will use state management to do the following:
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson | Description                                    | Key Points                                                                   |
-| ------ | ---------------------------------------------- | --- |
-| 1      | Use Reducers and Context API to refactor state | Create actions and reducers; implement Context API                           |
-| 2      | Global state; advanced reducers                | Implement state globally; update & delete arrays w/ reducers                 |
-| 3      | Use IndexedDB within a React component         | Use IndexedDB for caching within a component                                 |
-| 4      | Handling checkout and payment processing       | Generate checkout session via Stripe API, handle delayed requests            |
-
+| Lesson | Description                                  | Key Points                                                        |
+| ------ | -------------------------------------------- | ----------------------------------------------------------------- |
+| 1      | Create a Global Store                        | Create actions and reducers, implement Context API                |
+| 2      | Build the Shopping Cart UI                   | Implement state globally; update & delete arrays w/ reducers      |
+| 3      | Add Shopping Cart Persistence with IndexedDB | Use IndexedDB for caching within a component                      |
+| 4      | Add Checkout with Stripe                     | Generate checkout session via Stripe API, handle delayed requests |
 
 ## Virtual Classes
 
@@ -60,24 +51,20 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after Boot Camp".
+This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after Boot Camp". Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
 
-* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have. 
-
-* **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
-
-* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. In order to prepare the students for the Challenge and also their career, the activity is about examining the official Redux Documentation. Emphasize to the students how important it is for them to be able to sift through documentation to find the right information that addresses the specific problem they're trying to solve at their jobs.
+**Important**: to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 ### Common Pain Points
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                                | Recommendation                                                                                                      |
-| ----------------------------------------- | --- |
-| What is the Context API?                   | Explain that the Context API is React's built-in method of providing global state management. |
-| What is a reducer?                          | Explain that a reducer is a function that acceptw two arguments: the current state, and an action. It then returns a new state based on the action specified.                 |
-| What is a pure function?         | Explain that pure functions do not mutate the data passed into them; instead they make a copy, change that, and return a new set of data |
-| What is Redux? | Explain that Redux is a third-party library that uses reducers as a mechanism for managing state. We pass state into Redux along with am action we want to dispatch, and Redux returns a new state for our app  |
+| Pain Point                | Recommendation                                                                                                                                                                                                 |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Understanding Context API | Explain that the Context API is React's built-in method of providing global state management.                                                                                                                  |
+| Understanding reducers    | Explain that a reducer is a function that accepts two arguments: the current state, and an action. It then returns a new state based on the action specified.                                                  |
+| Pure vs. Impure functions | Explain that pure functions do not mutate the data passed into them; instead they make a copy, change that, and return a new set of data                                                                       |
+| What is Redux?            | Explain that Redux is a third-party library that uses reducers as a mechanism for managing state. We pass state into Redux along with am action we want to dispatch, and Redux returns a new state for our app |
 
 ## Career Connection
 
@@ -95,13 +82,14 @@ Students will refactor the e-commerce platform they created in this module, repl
 
 Specific skills students will need to implement in order to be successful:
 
-* Refactor a Context API site to one using Redux
-* Create actions and reducers
-* Use reducers to update state
+* Ability to read and understand third-party documentation to understand how to use a new technology
+* Ability to refactor an existing application to use Redux
+* Ability to refactor components that use React's Context API, to instead use Redux
+* Ability to implement actions and reducers to update state
 
 ## Heads-Up
 
-Make sure students understand that, in the Module Challenge, they are not refactoring the core functionality; just the state management.
+* Next week, students will start working on their last group project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
 
 ## Resources
 
