@@ -69,7 +69,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                             | Recommendation |
 | -------------------------------------- | --- |
-| Understanding what React Hook to use   | Refer students to the [React Docs on Hooks](https://reactjs.org/docs/hooks-intro.html). |
+| Understanding which React Hook to use   | Refer students to the [React Docs on Hooks](https://reactjs.org/docs/hooks-intro.html). |
 | Knowing when to use global state       | Advise students that not all applications call for the use of global state management. Refer students to the [React Docs on Context](https://reactjs.org/docs/context.html#before-you-use-context).|
 | Pure vs. Impure functions              | Advise students that pure functions do not mutate the data that is passed to them, while impure functions do. Refer students to the [Wikipedia Article on Pure Functions](https://en.wikipedia.org/wiki/Pure_function).|
 | Choosing between Redux and Context API | Advise students that while Redux and the Context API have some similarities, they are different tools that have differences in their capabilities. If the only thing you need to do is avoid prop-drilling, then the Context API is probably your best choice. When you need to track changes in state over a long period of time, Redux is the better choice. |
