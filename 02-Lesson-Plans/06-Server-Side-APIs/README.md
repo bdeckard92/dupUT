@@ -125,7 +125,7 @@ Specific skills students will need to implement in order to be successful:
 
 * [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
-* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+* [Project 1 Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ## Algorithms
 
