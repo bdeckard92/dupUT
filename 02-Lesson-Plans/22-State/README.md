@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will expand their knowledge of state management by implementing Redux, a popular state-management framework, into a React application. Additionally, students will use the React Context API to implement a Redux-like store to manage the state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React hooks like `useEffect()`, and finally learn how to dispatch actions to update the state.
+In this module, students will expand their knowledge of state by making use of React's Context API to implement a Redux-like store to manage the state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React hooks like `useEffect()`, and finally learn how to dispatch actions to update the state.
 
 In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
