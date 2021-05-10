@@ -6,13 +6,13 @@ In this module, students will expand their knowledge of state management by impl
 
 In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
-| Day | Topic                                                | Location    |
-| --- | ---------------------------------------------------- | ----------- |
-| 1   | Actions, Reducers, `useReducer` hook                 | 22.1        |
-| 1   | Testing Reducers                                     | 22.2        |
-| 2   | Global State, `createContext` and `useContext` hooks | 22.3 - 20.5 |
-| 2   | Global State Refactor                                | 22.6        |
-| 2   | Redux Documentation                                  | 22.9        |
+| Day | Topic                                                | Location   |
+| --- | ---------------------------------------------------- | ---------- |
+| 1   | Actions, Reducers, `useReducer` hook                 | 22.1       |
+| 1   | Testing Reducers                                     | 22.1, 22.2 |
+| 2   | Global State, `createContext` and `useContext` hooks | 22.1, 22.2 |
+| 2   | Global State Refactor                                | 22.1       |
+| 2   | Redux Documentation                                  | n/a        |
 
 ## Overview of Asynchronous Material
 
@@ -26,13 +26,13 @@ Why are students learning state management?
 
 Throughout the async module this week, students will use state management to do the following:
 
-* Use the React Context API to implement a Redux-like store to manage state globally.
-* Write Redux-like actions and reducers with the necessary tests in place.
-* Use global state across multiple React components.
-* Write reducers that update and delete array items.
+* Use the React Context API to implement a Redux-like store to manage state globally
+* Write Redux-like actions and reducers with the necessary tests in place
+* Use global state across multiple React components
+* Write reducers that update and delete array items
 * Use IndexedDB within a React component
-* Generate a checkout session with the Stripe API.
-* Use the `useLazyQuery` Hook to handle delayed requests.
+* Generate a checkout session with the Stripe API
+* Use the `useLazyQuery` Hook to handle delayed requests
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -67,12 +67,12 @@ This last phase of the boot camp is more about being employer-ready, improving t
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                | Recommendation                                                                                                                                                                                                 |
-| ------------------------- | --- |
-| Understanding Context API | Explain that the Context API is React's built-in method of providing global state management.                                                                                                                  |
-| Understanding reducers    | Explain that a reducer is a function that accepts two arguments: the current state, and an action. It then returns a new state based on the action specified.                                                  |
-| Pure vs. Impure functions | Explain that pure functions do not mutate the data passed into them; instead they make a copy, change that, and return a new set of data                                                                       |
-| What is Redux?            | Explain that Redux is a third-party library that uses reducers as a mechanism for managing state. We pass state into Redux along with am action we want to dispatch, and Redux returns a new state for our app |
+| Pain Point                             | Recommendation |
+| -------------------------------------- | --- |
+| Understanding what React Hook to use   | Refer students to the [React Docs on Hooks](https://reactjs.org/docs/hooks-intro.html). |
+| Knowing when to use global state       | Advise students that not all applications call for the use of global state management. Refer students to the [React Docs on Context](https://reactjs.org/docs/context.html#before-you-use-context).|
+| Pure vs. Impure functions              | Advise students that pure functions do not mutate the data that is passed to them, while impure functions do. Refer students to the [Wikipedia Article on Pure Functions](https://en.wikipedia.org/wiki/Pure_function).|
+| Choosing between Redux and Context API | Advise students that while Redux and the Context API have some similarities, they are different tools that have differences in their capabilities. If the only thing you need to do is avoid prop-drilling, then the Context API is probably your best choice. When you need to track changes in state over a long period of time, Redux is the better choice. |
 
 ## Career Connection
 
@@ -90,18 +90,18 @@ Students will refactor the e-commerce platform they created in this module, repl
 
 Specific skills students will need to implement in order to be successful:
 
-* Ability to read and understand third-party documentation to understand how to use a new technology
-* Ability to refactor an existing application to use Redux
-* Ability to refactor components that use React's Context API, to instead use Redux
-* Ability to implement actions and reducers to update state
+* Read and understand third-party documentation to understand how to use a new technology
+* Refactor an existing application to use Redux
+* Refactor components that use React's Context API, to instead use Redux
+* Implement actions and reducers to update state
 
 ## Heads-Up
 
-* Next week, students will start working on their last group project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
+Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
 
 ## Resources
 
-* [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
+* [Project 3 requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
 * [React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
