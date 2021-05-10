@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students expand their knowledge of state management by implementing Redux, a popular state-management framework, into a React application. Additionally, students will use the React Context API to implement a Redux-like store to manage the state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React hooks like `useEffect()`, and finally learn how to dispatch actions to update the state.
+In this module, students will expand their knowledge of state management by implementing Redux, a popular state-management framework, into a React application. Additionally, students will use the React Context API to implement a Redux-like store to manage the state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React hooks like `useEffect()`, and finally learn how to dispatch actions to update the state.
 
 In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
@@ -16,12 +16,12 @@ In this week's virtual classes, you'll go over state management, particularly us
 
 ## Overview of Asynchronous Material
 
-Why are students learning State management?
+Why are students learning state management?
 
 * State Management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered when using other solutions like prop-drilling.
 * When working on larger-scale or enterprise-level React projects, managing global state using React Context API or a third-party solution like Redux is a critical part of the application's success.
 * The initial time investment in setting up global state management pays dividends the larger an application becomes.
-* State Management expands on the students existing knowledge of state within React applications.
+* State management expands on the students existing knowledge of state within React applications.
 * Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
 
 Throughout the async module this week, students will use React to do the following:
