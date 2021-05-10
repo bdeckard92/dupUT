@@ -24,7 +24,7 @@ Why are students learning State management?
 * State Management expands on the students existing knowledge of state within React applications.
 * Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
 
-Throughout the async module this week, students will use React to do the following:
+Throughout the async module this week, students will use state management to do the following:
 
 * Use the React Context API to implement a Redux-like store to manage state globally.
 * Write Redux-like actions and reducers with the necessary tests in place.
@@ -68,7 +68,7 @@ This last phase of the boot camp is more about being employer-ready, improving t
 According to our class data, students might experience some of the following pain points throughout the week:
 
 | Pain Point                | Recommendation                                                                                                                                                                                                 |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------- | --- |
 | Understanding Context API | Explain that the Context API is React's built-in method of providing global state management.                                                                                                                  |
 | Understanding reducers    | Explain that a reducer is a function that accepts two arguments: the current state, and an action. It then returns a new state based on the action specified.                                                  |
 | Pure vs. Impure functions | Explain that pure functions do not mutate the data passed into them; instead they make a copy, change that, and return a new set of data                                                                       |
