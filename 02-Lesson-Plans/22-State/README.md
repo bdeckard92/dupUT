@@ -6,10 +6,6 @@ In this module, students expand their knowledge of state management by implement
 
 In this week's virtual classes, you'll go over state management, particularly using the React Context API. You will review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
-@TODO FILL OUT CHART BELOW WITH TOPICS COVERED IN CLASS EACH DAY AND THEN LINK TO ASSOCIATED LESSON PLAN LOCATION
-<!-- for topics: https://github.com/coding-boot-camp/fullstack-online/tree/master/01-Class-Content -->
-<!-- for module: https://github.com/coding-boot-camp/fullstack-online-internal -->
-
 | Day | Topic                                                | Location    |
 | --- | ---------------------------------------------------- | ----------- |
 | 1   | Actions, Reducers, `useReducer` hook                 | 22.1        |
