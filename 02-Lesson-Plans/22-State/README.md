@@ -12,7 +12,7 @@ In this week's virtual classes, you'll go over state management, particularly us
 | 1   | Testing Reducers                                     | 22.1, 22.2 |
 | 2   | Global State, `createContext` and `useContext` hooks | 22.1, 22.2 |
 | 2   | Global State Refactor                                | 22.1       |
-| 2   | Redux Documentation                                  | n/a        |
+| 2   | Redux Documentation                                  | Challenge        |
 
 ## Overview of Asynchronous Material
 
