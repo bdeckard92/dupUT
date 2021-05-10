@@ -18,13 +18,21 @@ In this week's virtual classes, you'll go over state management, particularly us
 
 Why are students learning State management?
 
-* State Management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered.
+* State Management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered when using other solutions like prop-drilling.
 * When working on larger-scale or enterprise-level React projects, managing global state using React Context API or a third-party solution like Redux is a critical part of the application's success.
 * The initial time investment in setting up global state management pays dividends the larger an application becomes.
 * State Management expands on the students existing knowledge of state within React applications.
 * Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
 
-Throughout the async module this week, students will use state management to do the following:
+Throughout the async module this week, students will use React to do the following:
+
+* Use the React Context API to implement a Redux-like store to manage state globally.
+* Write Redux-like actions and reducers with the necessary tests in place.
+* Use global state across multiple React components.
+* Write reducers that update and delete array items.
+* Use IndexedDB within a React component
+* Generate a checkout session with the Stripe API.
+* Use the `useLazyQuery` Hook to handle delayed requests.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
