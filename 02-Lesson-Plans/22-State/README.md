@@ -59,7 +59,9 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after the Boot Camp". Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
+* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Students will focus on "Life after the Boot Camp". 
+*Be sure to prepare and read over the activities before your class begins. 
+*Think about the questions you had when preparing your job search, and try to anticipate any questions students may have.
 
 * **Important**: to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
