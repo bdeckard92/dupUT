@@ -112,7 +112,7 @@ Next week, students will start working on their group projects. Before this week
 
 ## Resources
 
-* [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+* [Project 2 requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
 * [Express Handlebars docs](https://www.npmjs.com/package/express-handlebars#usage)
 
