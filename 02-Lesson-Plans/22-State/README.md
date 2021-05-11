@@ -18,7 +18,7 @@ In this week's virtual classes, you'll go over state management, particularly us
 
 Why are students learning state management?
 
-* State Management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered when using other solutions like prop-drilling.
+* State management is critical to effectively managing the flow of data through a large application to reduce the number of errors encountered when using other solutions like prop-drilling.
 * When working on larger-scale or enterprise-level React projects, managing global state using React Context API or a third-party solution like Redux is a critical part of the application's success.
 * The initial time investment in setting up global state management pays dividends the larger an application becomes.
 * State management expands on the students existing knowledge of state within React applications.
