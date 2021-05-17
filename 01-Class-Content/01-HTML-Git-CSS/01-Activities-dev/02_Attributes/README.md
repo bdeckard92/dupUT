@@ -1,22 +1,24 @@
-# 🏗️ Add Global Attributes to HTML Elements for Use With CSS
+# 🐛 Images and Styles Not Appearing on Page
 
-Work with a partner to implement the following user story:
+Work with a partner to resolve the following issues:
 
-* As a developer, I want to add global attributes to my HTML elements so that I can add styling with CSS.
+* As a user, I should be able to see an image on the page and alternative text describing the image should be provided. 
 
-## Acceptance Criteria
+* As a user, I should see background colors applied to each section and list item and the header text should be dark blue.
 
-* It's done when a single attribute named `section` is added to all semantic `<section>` HTML elements.
+## Expected Behavior
 
-* It's done when the email list item is given a unique attribute named `email`.
+When a user opens the page, an image should appear and alternative text describing the image should be provided. 
 
-* It's done when the GitHub list item is given a unique attribute named `github`.
+When a user opens the page, each section and list item should have a background color applied and the header text should be dark blue.
 
-* It's done when the portfolio list item is given a unique attribute named `portfolio`.
+## Actual Behavior
 
-* It's done when the existing image's `src` attribute specifies the relative path to the `image-1.jpg` file found in the `assets` directory and the `alt` attribute describes the image.  
+When a user opens the page, no image appears and alternative text decribing the image is not shown. 
 
-* It's done when the finished page matches the mockup. 
+When a user opens the page, the header text is is not navy blue.
+
+When a user opens the page, each section and list item does not have a background color applied. 
 
 ## Assets
 
