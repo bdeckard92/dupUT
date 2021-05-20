@@ -1,25 +1,65 @@
-<!-- Media Query Demo (check the CSS page) -->
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Variables</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>CSS Box Styling</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
+  <!-- Header -->
   <header>
-    <div class="header-wrapper">
-      <h1>
-        <a href="#">CSS Variables!</a>
-      </h1>
-    </div>
+    <h1>Welcome to the store!</h1>
+    <p>
+      Add some box styling to the product cards to make them POP!
+    </p>
   </header>
-  <div class="wrapper">
-    <section id="main-content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita praesentium, in nesciunt ab, cupiditate commodi quis sunt voluptates consequatur eos natus harum. Inventore aliquam impedit, excepturi asperiores iure fugiat.</p>
-    </section>
-  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#">Camera</a>
+    <a href="#">Tablet</a>
+    <a href="#">Toilet Paper</a>
+    <a href="#">Wooden Spoons</a>
+  </nav>
+
+  <!-- Body -->
+  <main>
+    <!-- Product Cards -->
+    <div class="products">
+      <section class="card">
+        <header>Camera</header>
+        <img src="./assets/images/camera.jpg" alt="camera" />
+        <p>Price: $300</p>
+      </section>
+      <section class="card">
+        <header>Tablet</header>
+        <img src="./assets/images/tablet.jpg" alt="tablet" />
+        <p>Price: $150</p>
+      </section>
+      <section class="card">
+        <header>Toilet Paper</header>
+        <img src="./assets/images/toilet-paper.jpg" alt="toilet paper" />
+        <p>Price: $30</p>
+      </section>
+      <section class="card">
+        <header>Wooden Spoons</header>
+        <img src="./assets/images/wooden-spoons.jpg" alt="wooden spoons" />
+        <p>Price: $10</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>
+      Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
+      window!
+    </h3>
+  </footer>
 </body>
 
 </html>
