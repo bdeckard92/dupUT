@@ -12,7 +12,7 @@ To fulfill the Challenge, you’ll need to do the following:
 
 3. Use Apollo Client to create an Apollo Provider so that requests can communicate with an Apollo Server.
 
-4. Deploy the application to Heroku with a MongoDB database hosted at MongoDB Atlas.
+4. Deploy the application to Heroku using a MongoDB database hosted at MongoDB Atlas.
 
 Before you start, [clone the starter code](https://github.com/coding-boot-camp/solid-broccoli).
 
@@ -167,7 +167,7 @@ You'll need to create the following front-end files:
 
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 
-* `App.js`: Use `ApolloClient`, `InMemoryCache`, `createHttpLink`, and `setContext` from the Apollo Client library to create an Apollo Provider to make every request work with the Apollo server.
+* `App.js`: Using `ApolloClient`, `InMemoryCache`, `createHttpLink`, and `setContext` from the Apollo Client library, create an Apollo Provider to make every request work with the Apollo server.
 	
 * `SearchBooks.js`:
 
