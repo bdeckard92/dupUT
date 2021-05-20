@@ -18,11 +18,11 @@ The following image shows a wireframe that depicts the web application's appeara
 
 ### Instructions
 
-1. Navigate to [Google Slides](https://docs.google.com/presentation/u/0/?tgif=d) and create a new presentation using the blank template.
+1. Navigate to [Google Slides](https://docs.google.com/presentation/u/0/create?usp=slides_home&ths=true) and create a new presentation using the blank template.
 
 2. Using the tools highlighted in the following image, create a wireframe that includes all the elements that you need for the project:
 
-   ![Google Slide tools outlined in red.](./Images/02-google-slides-tool-highlight.png)
+![Google Slide tools outlined in red.](./Images/02-google-slides-tool-highlight.png)
 
 ---
 
