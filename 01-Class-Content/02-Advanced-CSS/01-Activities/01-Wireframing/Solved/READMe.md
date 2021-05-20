@@ -1,4 +1,4 @@
-## Activity 22: Wireframing Solved
+# Activity 2: Wireframing Solved
 
 ## Explanation and Result
 

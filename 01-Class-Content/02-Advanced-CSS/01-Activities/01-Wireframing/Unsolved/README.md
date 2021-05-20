@@ -1,4 +1,4 @@
-## Activity 22: Wireframing Unsolved
+# Activity 2: Wireframing Unsolved
 
 * The rows are highlighted in red and the columns are highlighted in blue.
 
