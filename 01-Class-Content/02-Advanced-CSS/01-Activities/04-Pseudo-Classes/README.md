@@ -1,36 +1,48 @@
-# Pseudo-classes
+# 🏗️ Implement an Interactive Resources List
 
-In this activity, you will take a webpage and style specific elements using pseudo-classes.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a user, I want additional resource links at the bottom of the article.
 
-* Open [index.html](Unsolved/index.html) in your browser and look at the current styling.
+## Acceptance Criteria
 
-* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code.
+* It's done when the resource links are initially hidden on page load.
 
-* Using the comments to guide you, add the following styles using only CSS:
+* It's done when the user moves the mouse over the text "Show Resources," and the resource links display.
 
-  * On hover, the list items will change colors, become bolded, and drop a shadow.
+## Assets
 
-  * Also on hover, the list item icon will change from a potato emoji (🥔) to a heart emoji (❤️).
+The following image demonstrates the web application's default appearance and functionality:
 
-  * Style the list with alternate background colors.
+![The text "Show Resources" appears below an article titled "Building Responsive Layouts."](./Images/01-resources-closed.png)
 
-  * The first line of the first paragraph should be bold.
+The following image demonstrates the web application's appearance and functionality when the cursor is over the "Show Resources" text:
 
-  * The first letter in the second paragraph should have the following style:
+![Three links to the MDN Web Docs appear under the text "Show Resources."](./Images/02-resources-open.png)
 
-    * font weight of `900`
+You can use the following resource links for the content:
 
-    * font size of `x-large`
+* [MDN Web Docs on responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
-    * color of `red`
+* [MDN Web Docs on using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-    * font family of `cursive`
+* [MDN Web Docs on flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
-* Your end result should resemble the style in the following mockup:
+---
 
-  ![The mockup shows that different styles are applied to specific HTML elements on the page](./Images/100-mockup.png)
+## 💡 Hints
+
+* How would the CSS `display` property help?
+
+* What examples can you find of other developers using the `:hover` pseudo-class in creative ways?
+
+## 🏆 Bonus
+
+If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
+
+* How can you force pseudo-class styles to display using Chrome DevTools?
+
+Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
