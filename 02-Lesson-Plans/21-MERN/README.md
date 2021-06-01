@@ -50,7 +50,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * [Apollo Server Docs on Mutation type](https://www.apollographql.com/docs/apollo-server/schema/schema/#the-mutation-type)
 
-* [Apollo Docs on Apollo Boost](https://www.apollographql.com/docs/react/get-started/#apollo-boost)
+* [Apollo Docs on Apollo Client](https://www.apollographql.com/docs/react/)
 
 * [Introduction to JSON Web Tokens Docs](https://jwt.io/introduction/)
 

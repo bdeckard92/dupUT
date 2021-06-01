@@ -22,19 +22,21 @@ If your class started **BEFORE** January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
+* This last phase of the boot camp is more about being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
-* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have. 
+* Be sure to prepare and review the activities before class. Try to anticipate any questions that students might have.
 
 * **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Similar to Module 20, use the given web application [00-React-App](../../01-Class-Content/22-State/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
-* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. In order to prepare the students for the Challenge and also their career, the activity is about examining the official Redux Documentation. Emphasize to the students how important it is for them to be able to sift through documentation to find the right information that addresses the specific problem they're trying to solve at their jobs. 
+* Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
+
+* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. To prepare the students for the Challenge and also their career, the activity requires them to examine the official Redux documentation. Emphasize to the students how important it will be on the job for them to be able to sift through documentation to find information that addresses the specific problem that they're trying to solve.
 
 * Information about the upcoming group project must go out during this week's second virtual class!
 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
-  * Look over the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md). 
+  * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
 
 * All of the topics that the activities cover are from Lesson 1 in the async material.
 
@@ -67,7 +69,6 @@ If you'd like more information on Career Services, visit the [Career Services re
 * [React Docs on useEffect](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
 
 * [Redux Documentation](https://redux.js.org/)
-
 
 ## Algorithms
 
