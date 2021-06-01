@@ -1,49 +1,38 @@
-# SQL Schema
+# 📖 Create Schema With Tables
 
-In this activity, you will create a MySQL database and tables.
+Implement the following user story:
 
-## Instructions
+* As a developer, I want to add two tables to my MySQL database. 
 
-* In the [Unsolved](Unsolved/) folder, create a `schema.sql` file for a database named `books_db`.
+## Acceptance Criteria
 
-    * Add these commands to the top of the file to create the database:
+* It's done when the schema includes two tables.
 
-    ```sql
-    DROP DATABASE IF EXISTS books_db;
-    CREATE DATABASE books_db;
-    USE books_db;
-    ```
+* It's done when each table has at least three columns and each column has an assigned data type.
 
-    * Create two tables, one for `books` and one for `authors`. 
+* It's done when each table includes an `id` column that does not accept `NULL` values.
 
-        * In the `books` table, add columns for the following:
+## 📝 Notes
 
-            * `id`
+For this activity, feel free to choose the name of each table and column as well as the assigned data type. 
 
-            * `authorId` 
+Refer to the documentation: 
 
-            * `title`
+[MySQL documentation on creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
 
-            * `PRIMARY KEY`
+[MySQL documentation on data types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
-        * In the `authors` table, add columns for the following: 
+## 💡 Hints
 
-            * `id`
+Which MySQL command do we use to display a table and information about each column's data types? 
 
-            * `firstName`
+## 🏆 Bonus
 
-            * `lastName`
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-            * `PRIMARY KEY`
+* What issues can we avoid by having a well-designed schema?
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
+Use [Google](https://www.google.com) or another search engine to research this.
 
-* To execute the `schema.sql` file, type into the MySQL command line: `source schema.sql`
-
-* To check if everything was done correctly, type `show databases;` and `show tables;` in the MySQL command line. Don't forget the semicolon!
-
-* To exit the MySQL command line, type `quit;` or `exit;`
-
-## Hint(s)
-
-* You may need to consult the MySQL documentation on [creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

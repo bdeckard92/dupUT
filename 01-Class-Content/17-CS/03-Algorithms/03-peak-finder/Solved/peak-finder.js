@@ -1,32 +1,23 @@
-// Write a function that takes an array of integers containing exactly one peak. A peak is defined as a location in the array where the value is greater than every number to the left and every number to the right. Return the value found at the array's peak
-
-var peakFinder = function(nums) {
+const peakFinder = function(nums) {
+  let testIndex = 0, compareIndex = nums.length - 1;
+  
+  // If the length of the array is zero, return 0
+  if (nums.length < 1) {
+    return 0;
+  }
+  // If length of array is one, return number in array
   if (nums.length === 1) {
     return nums[0];
   }
 
-  if (nums[0] > nums[1]) {
-    return nums[0];
+  // If has more than one number, compare the numbers
+  while (testIndex < compareIndex) {
+    // Find middle index of array
+    const midIndex = parseInt((testIndex + compareIndex)/2);
+      // If number is greater than one to right
+      // Then the set the compareIndex to equal the middle index
+      // Else, set the testIndex to equal middle index plus one or one to the right of the middle
+      nums[midIndex] > nums[midIndex + 1] ? compareIndex = midIndex : testIndex = midIndex + 1;
   }
-
-  if (nums[nums.length - 1] > nums[nums.length - 2]) {
-    return nums[nums.length - 1];
-  }
-
-  var min = 0;
-  var max = nums.length - 1;
-
-  while (min < max) {
-    const middle = Math.floor((max - min) / 2) + min;
-
-    if (nums[middle - 1] < nums[middle] && nums[middle] > nums[middle + 1]) {
-      return nums[middle];
-    }
-
-    if (nums[middle - 1] > nums[middle]) {
-      max = middle;
-    } else {
-      min = middle;
-    }
-  }
+  return nums[testIndex];
 };

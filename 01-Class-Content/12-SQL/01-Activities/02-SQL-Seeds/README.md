@@ -1,45 +1,30 @@
-# SQL Seeds 
+# 🏗️ Seed Table Data
 
-In this activity, you will populate the `books_db` database with data.
+Implement the following user story:
 
-## Instructions
+* As a developer, I want to add data to my database tables.
 
-* In the [Unsolved](Unsolved/) folder, create a `seeds.sql` file.
+## Acceptance Criteria
 
-  * Insert the following names, in this order, into their corresponding columns in `authors`:
+* It's done when the `books` table has five rows of data.
 
-    1. Jane Austen
-    
-    2. Mark Twain
-    
-    3. Lewis Carroll
-    
-    4. Andre Asselin
+* It's done when the `categories` table has at least two rows of data.
 
-  * Insert the following titles and `authorId` into their corresponding columns in `books`:
+* It's done when the `prices` table has at least one row of data. 
 
-    * 'Pride and Prejudice', 1
+* It's done when the tables do not include `NULL` values. 
 
-    * 'Emma', 1
+## 💡 Hints
 
-    * 'The Adventures of Tom Sawyer', 2
+Which MySQL command do we use to select and display a table and its populated data? 
 
-    * 'Adventures of Huckleberry Finn', 2
+## 🏆 Bonus
 
-    * 'Alice''s Adventures in Wonderland', 3
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-    * 'Dracula', null 
+* Which MySQL command do we use to add data to a table?
 
-* To initiate the MySQL command line, type: `mysql -u root -p` in your command line and then your MySQL password. Be sure your MySQL Server is running!
+Use [Google](https://www.google.com) or another search engine to research this.
 
-* To set up the database, type into the MySQL command line: `source schema.sql`
-
-* To seed the database, type into the MySQL command line: `source seeds.sql`
-
-* To check if everything was done correctly, type into the MySQL command line: `SELECT * FROM authors;` or `SELECT * FROM books;`
-
-* To exit the MySQL command line, type `quit;` or `exit;`
-
-## Hint(s)
-
-* You may need to consult the MySQL documentation on [loading data into a table](https://dev.mysql.com/doc/refman/8.0/en/loading-tables.html).
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

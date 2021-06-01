@@ -640,20 +640,24 @@
                   status: false
                 },
                 {
-                  title: "Repository contains quality README with description and a link to walkthrough video",
+                  title: "Repository contains quality README with description, screenshot, and link to deployed application",
                   score: 5,
                   type: "likert",
                   options: [
                     {
-                      message: "Repo doesn't contain a quality README with description and a link to walkthrough video",
+                      message: "Repo doesn't include a high quality README with screenshots, a description, or link to deployed application",
                       score: 0
                     },
                     {
-                      message: "Repository README is missing either the  description or the link to the walkthrough video",
+                      message: "Repository README is missing 2 of the following: description, screenshot, or link to deployed application",
                       score: 2
                     },
                     {
-                      message: "Repository contains quality README with description and a link to walkthrough video",
+                      message: "Repository README is missing 1 of the following: description, screenshot, or link to deployed application",
+                      score: 4
+                    },
+                    {
+                      message: "Repository contains quality README with description, screenshot, and link to deployed application",
                       score: 5
                     }
                   ],

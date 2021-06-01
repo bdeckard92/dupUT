@@ -12,7 +12,7 @@ In this week's virtual classes, students will continue working on their projects
 
 * There is no lesson plan for the first virtual class this week. Use the entirety of the class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
-* Share the [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit) with students early in the week to give them ample time to prepare for their presentations.
+* Share the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students early in the week to give them ample time to prepare for their presentations.
 
 * Prepare a slide deck of superlative awards to give to each group. Use [this example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing), and feel free to customize it as you see fit for your cohort.
 
@@ -24,7 +24,7 @@ In this week's virtual classes, students will continue working on their projects
 
 Now that you are in the last week of boot camp, it's more important than ever that students meet with their Career Director more than ever.  Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
 
 ## Heads-Up
 
@@ -38,7 +38,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 * [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 

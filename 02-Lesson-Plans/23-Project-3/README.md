@@ -26,7 +26,7 @@ During each lesson that students work through, they will also view a Career Conn
 
 Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](http://bit.ly/CodingCS).
+If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
 
 ## Module Challenge
 
@@ -44,7 +44,7 @@ N/A
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 ## Algorithms
 

@@ -16,9 +16,9 @@ At the end of this week, your group will present the application to your classma
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Employer-Ready vs Employer-Competitive](https://sites.google.com/2u.com/careerservices-webdev/coding-milestones/intro-to-career-services#h.p_GO4NbPlPwbTh)
+* [Employer-Ready vs Employer-Competitive](https://mycareerspot.org/intro)
 
 * [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 
