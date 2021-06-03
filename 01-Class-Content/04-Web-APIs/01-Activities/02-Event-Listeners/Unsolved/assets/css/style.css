@@ -8,6 +8,15 @@ h4 {
   font-weight: 700;
 }
 
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+}
+
 .container {
   display: block;
   margin: 80px auto;
@@ -24,13 +33,4 @@ h4 {
 
 .card-contents {
   padding: 5px 5px 10px 5px;
-}
-
-button {
-  padding: 10px;
-  margin: 24px;
-  cursor: pointer;
-  font-size: 24px;
-  background-color: #247BA0;
-  color: white;
 }

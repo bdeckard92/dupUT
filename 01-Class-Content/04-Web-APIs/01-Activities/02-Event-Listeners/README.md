@@ -1,26 +1,16 @@
-# 🏗️ Implement Event Handler on Mouse Click
+# 📐 Add Comments to Implementation of Event Handlers on Mouse Clicks
 
-Work with a partner to implement the following user story:
+Work with a partner to add comments describing the functionality of the code found in [Unsolved](./Unsolved/assets/js/script.js).
 
-* As a developer, I want to increment or decrement a count when a user clicks on a button.
+## 📝 Notes
 
-## Acceptance Criteria
+Refer to the documentation:
 
-* It's done when a user clicks on the increment button and the count is increased by `1`.
+[MDN Documentation on Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-* It's done when a user clicks on the decrement button and, if the count is greater than `0`, the count is decreased by `1`.
-
-## Assets
-
-The following animation demonstrates the web application's appearance and functionality:
-
-![As the user selects the Decrement and Increment buttons, the Current Count number decreases and increases respectively.](./images/01-demo.gif)
+[MDN Documentation on Query Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 ---
-
-## 💡 Hints
-
-What method can we use to listen for an mouse click?
 
 ## 🏆 Bonus
 
@@ -31,4 +21,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+2021 © YEAR Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
