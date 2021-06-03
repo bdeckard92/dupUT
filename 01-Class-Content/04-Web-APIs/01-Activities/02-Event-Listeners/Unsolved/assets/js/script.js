@@ -5,7 +5,7 @@ var incrementEl = document.querySelector('#increment');
 var decrementEl = document.querySelector('#decrement');
 var countEl = document.querySelector('#count');
 
-// TODO: Add a comment describing the functionality of the following function:
+// TODO: Add a comment describing the functionality of the following code:
 function setCounterText() {
   countEl.textContent = count;
 }
