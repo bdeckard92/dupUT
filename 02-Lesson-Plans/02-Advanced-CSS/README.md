@@ -6,13 +6,13 @@ In this module, students will build on their foundational HTML, CSS, and Git ski
 
 In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
-| Day | Topic          | Location |
-| --- | -------------- | -------- |
-| 1   | Flexbox Cards  | 2.2      |
-| 1   | Media Queries  | 2.3      |
-| 2   | Wireframing    | 2.2      |
-| 2   | Pseudo-Classes | 2.4      |
-| 2   | CSS Variables  | 2.5      |
+| Day | Topic             | Location |
+| --- | ----------------- | -------- |
+| 1   | Wireframing       | 2.1      |
+| 1   | Flexbox-Layout    | 2.2      |
+| 2   | Responsive Design | 2.2, 2.3 |
+| 2   | Pseudo-Classes    | 2.4      |
+| 2   | CSS Variables     | 2.5      |
 
 ## Overview of Asynchronous Material
 
@@ -74,9 +74,9 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                       | Recommendation                                                                                                      |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Selecting elements               | Refer to the [MDN Web Docs on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors). |
-| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.               |
-| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. You can find a great example on the [CSS Tricks flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). |
+| Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                   |
+| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
 
 ## Career Connection
 

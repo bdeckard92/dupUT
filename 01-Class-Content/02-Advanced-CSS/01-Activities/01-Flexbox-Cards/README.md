@@ -1,4 +1,4 @@
-# Flexbox Card Layout
+# gi Card Layout
 
 In this activity, you will use flexbox to organize the cards into two columns and center the contents of the card.
 
