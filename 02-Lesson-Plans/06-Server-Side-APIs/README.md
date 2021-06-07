@@ -4,7 +4,7 @@
 
 In this module, students will learn how to retrieve data from third-party servers and use the Fetch API to make requests to server-side APIs.
 
-In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You will also cover using user input to make specific API calls, using multiple query params in a single API call, and using nested API calls. During this week's second virtual class, you will announce the upcoming group project and the group members.
+In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You'll also cover implementing user input to make specific API calls, using multiple query params in a single API call, and using nested API calls. During this week's second virtual class, you'll announce the upcoming group project and the group members.
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
@@ -16,39 +16,39 @@ In this week's virtual classes, you'll discuss using `fetch()` to make requests 
 
 ## Overview of Asynchronous Material 
 
-Why are students learning Server-Side APIs?
+Why are students learning server-side APIs?
 
-* Server-Side APIs allow students to build fully functional web applications by pulling in new data from different providers.
+* Server-side APIs allow students to build fully functional web applications by pulling in new data from different providers.
 
-* Server-Side APIs are widely used at companies to perform a variety of data retrieval tasks, from accessing information from third-party services to collecting information from another server in their own organization.
+* Server-side APIs are widely used to perform a variety of data retrieval tasks, like accessing information from third-party services or collecting information from another server within the same organization.
 
-* Server-Side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the back end. 
+* Server-side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the back end. 
 
-Throughout the async module this week, students will use Server-Side APIs to do the following:
+Throughout the async module this week, students will use server-side APIs to do the following:
 
-* Explain the difference between a client-side API and a server-side API
+* Explain the difference between a client-side API and a server-side API.
 
-* Explain the client-server model and request-response pattern
+* Explain the client-server model and the request-response pattern.
 
-* Explain and implement the differences between HTTP GET requests using XMLHTTPRequest, jQuery AJAX, and the fetch API
+* Explain and implement the differences between using `XMLHttpRequest`, jQuery AJAX, and the Fetch API for HTTP GET requests.
 
-* Explain HTTP response codes and handle response metadata with fetch API
+* Explain HTTP response codes and handle response metadata using the Fetch API.
 
-* Parse JSON to dynamically generate HTML
+* Parse JSON to dynamically generate HTML.
 
-* Explain the benefits and challenges of working with asynchronous JavaScript
+* Explain the benefits and challenges of working with asynchronous JavaScript.
 
-* Explain and implement query string parameters
+* Explain and implement query string parameters.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson           | Description                | Key Points                                                                         |
 | ---              | ---                        | ---                                                                                |
-| 1                | Get Started with Requests  | Server-Side API documentation, Fetch API                                           |
-| 2                | Display API Response Data  | Dynamic HTTP requests, Display data, Error handing                                 |
-| 3                | Display Issues             | Request and Response headers, Optional `?` string                                  |
-| 4                | Query Parameter            | Query parameters, Dynamic API calls                                                |
-| 5                | Adding Complex Queries     |  GitHub API endpoints options, Multiple parameters, Dynamically updating API call  |
+| 1                | Get Started with Requests  | Server-side API documentation, Fetch API                                           |
+| 2                | Display API Response Data  | Dynamic HTTP requests, display data, error handling                                 |
+| 3                | Display Issues             | Request and response headers, optional `?` string                                  |
+| 4                | Query Parameter            | Query parameters, dynamic API calls                                                |
+| 5                | Adding Complex Queries     |  GitHub API endpoints options, multiple parameters, dynamically updating API call  |
 
 ## Virtual Classes
 
@@ -66,15 +66,15 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* Be prepared to spend time during this week's classes setting the students up for success for their first projects.
+* Be prepared to spend class time this week setting up students for success in their first project.
 
-* Look over the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md) to prepare for any questions students may have. 
+* Review the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md) to prepare for any questions that students might have. 
 
-* Encourage students to use this week to think about project ideas and if you are comfortable doing so, share your struggle and/or personal experiences learning and working on your first projects in a group setting either in a class or in the workplace. 
+* Encourage students to use this week to think about project ideas. If you're comfortable doing so, share your personal experiences or struggles working on group projects, either in a class or in the workplace, early in your career. 
 
-* Start thinking about project groups. Assign 3 students per group: one advanced, one average, one struggling.
+* Start thinking about project groups. Assign three students per group: one advanced, one average, one struggling.
 
-* Students will need and want to install [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) prior to class. 
+* Students should install the [JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) before class. 
 
 ### Common Pain Points
 
@@ -82,8 +82,8 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| Fetch API                           | Refer to Lesson 1 or [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) |
-| HTTP GET requests | Refer to Lesson 2 or [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
+| Fetch API                           | Refer to Lesson 1 or the [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) |
+| HTTP GET requests | Refer to Lesson 2 or the [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
 
 ## Career Connection
 
@@ -95,37 +95,37 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-In this week's Challenge, students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and localStorage to store any persistent data.
+In this week's Challenge, students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and use `localStorage` to store any persistent data.
 
 [Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
-* Use the fetch API to send requests to a server-side API
+* Send requests to a server-side API using the Fetch API.
 
-* Receive and parse data in the JSON format
+* Receive and parse data in the JSON format.
 
-* Use returned data to dynamically generate HTML
+* Dynamically generate HTML using returned data.
 
-* Handle response codes and metadata, including headers, status, and URL
+* Handle response codes and metadata, including headers, status, and URL.
 
 ## Heads-Up
 
-* Next week, students will start working on their group project. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+* Students will start working on their group project next week, so they must be assigned into groups and start talking about project ideas within their groups by this weekend.
 
-* Please be prepared to step in and help groups who may be struggling to identify a project idea or plan.  
+* Be prepared to intervene and help groups that are struggling to identify a project idea or plan.  
 
-* The first virtual class next week is **very important** because it introduces agile project management and sets the students up for success as a team. Please remind students that it is important to attend and be an active participant in group planning and implementation throughout the project.
+* The first virtual class next week is crucial because it introduces agile project management and sets students up for success as a team. Remind students that it is important to attend this class and actively participate in group planning and implementation throughout the project.
 
 ## Resources
 
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
+* [Download page for JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
 * [MDN Web Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 * [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
-* [Project 1 Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ## Algorithms
 

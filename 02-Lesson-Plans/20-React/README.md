@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will be introduced to what React is and what problems it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Students will also be introduced to React hooks and how to manage local state inside components. Finally, students will be introduced to the concept of single-page applications that allow for a full web app experience without ever reloading or leaving the page.
+In this module, students will be introduced to React and the problems that it solves. Students will learn what the virtual DOM is and how it helps make React so performant. Students are also introduced to the concept of reusable component-based development. Students will be introduced to JSX, conditional rendering, and two of the most critical aspects of React development -- props and state. Students will also be introduced to React Hooks and how to manage local state inside components. Finally, students will be introduced to the concept of single-page applications that allow for a full web app experience without ever reloading or leaving the page.
 
 In this week's virtual classes, you will help students understand what React is, and explain the key improvements it makes to web development over older methods. You will also help students learn to create reusable components rather than monolithic pages. You will introduce students to JSX and conditional rendering. Most importantly, you will emphasize the need to understand props and state, two pillars of being a successful React developer.
 
@@ -18,22 +18,34 @@ In this week's virtual classes, you will help students understand what React is,
 
 Why are students learning React?
 
-* Learning React is important for students because of its proliferation throughout much of the modern web, being used by the likes of Netflix, Dropbox, Airbnb, and of course, Facebook
+* Learning React is important for students because of its proliferation throughout much of the modern web, being used by the likes of Netflix, Dropbox, Airbnb, and of course, Facebook.
+
 * Students will learn React because, while it isn't the only front-end framework, it is certainly the most popular. As a result, React developers are in high demand.
+
 * Students need to learn to React to complete the last component in the MERN stack that they have been incrementally mastering.
+
 * Students will learn React to solve the problem of rendering lots of data without slowing down the UI.
+
 * Learning React will allow students to build professional single-page applications that they can add to their resumes.
+
 * Learning React will allow students to address performance issues associated with making frequent updates to the traditional DOM.
 
 Throughout the async module this week, students will use React to do the following:
 
 * Compose a React application with components.
+
 * Construct the elements of a webpage using JSX.
+
 * Map over collections of data to render multiple instances of a component.
+
 * Set up a test environment and write and run unit tests.
+
 * Use conditional rendering in a React template.
+
 * Manage state in controlled components.
+
 * Use some of the most common React hooks.
+
 * Write functions for syncing form input values with state, submitting form data, and validating that data.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
