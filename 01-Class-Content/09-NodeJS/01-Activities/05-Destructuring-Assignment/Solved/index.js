@@ -1,12 +1,12 @@
 // 1. Object
 const nodejs = {
-  name: 'Node.js',
-  type: 'JavaScript runtime environment',
+  title: 'Node.js',
+  type: 'JavaScript runtime environment'
 };
 
-const { name, type } = nodejs;
+const { title, type } = nodejs;
 
-console.log(name); // <= Node.js
+console.log(title); // <= Node.js
 console.log(type); // <= JavaScript runtime environment
 
 // 2. Nested Object
@@ -17,13 +17,13 @@ const js = {
   tools: {
     frameworks: {
       framework1: 'AngularJS',
-      framework2: 'Vue.js',
+      framework2: 'Vue.js'
     },
     libraries: {
       library1: 'jQuery',
-      library2: 'React',
-    },
-  },
+      library2: 'React'
+    }
+  }
 };
 
 const { framework1, framework2 } = js.tools.frameworks;

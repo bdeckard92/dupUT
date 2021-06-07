@@ -1,5 +1,5 @@
-// Helper function to output text in the terminal in a cyan color
-const outputCyanText = (text) => console.log(`\x1b[36m${text}\x1b[0m`);
+// Helper function to output text in the terminal in a color
+const outputColor = text => console.log(`\x1b[36m${text}\x1b[0m`);
 
 // Top 10 Spotify songs in an array
 const songs = [
@@ -12,12 +12,12 @@ const songs = [
   '7. Levitating (feat. DaBaby)',
   '8. Leave The Door Open',
   '9. Botella Tras Botella',
-  '10. Fiel',
+  '10. Fiel'
 ];
 
 console.log('Spotify top 10:\n');
 
-// `for .. of` loop to iterate over each song and log it to terminal using the `outputCyanText()` method
+// `for .. of` loop to iterate over each song and log it to terminal using the `outputColor()` method
 for (const song of songs) {
-  outputCyanText(song);
+  outputColor(song);
 }
