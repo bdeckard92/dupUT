@@ -32,7 +32,7 @@ console.log(doubled);
 
 // --------------------------------------------------------------------------
 
-// 3. filter lets you loop over an array and remove elements
+// 3. Filter lets you loop over an array and remove elements
 const filter = (arr, cb) => {
   const result = [];
   for (let index = 0; index < arr.length; index++) {
@@ -51,7 +51,7 @@ console.log(evenNumbers);
 
 // --------------------------------------------------------------------------
 
-// 4. netflixQueue is an object for managing your netflix queue
+// 4. netflixQueue is an object for managing your Netflix queue
 const netflixQueue = {
   queue: [
     'Mr. Nobody',
