@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this week's module, students will learn how to create server-side APIs using the Express.js framework. As the most widely-used Node.js server framework, Express.js allows students to quickly and easily establish API routes and associated HTTP request methods.
+In this week's module, students will learn how to create server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express.js allows us to quickly and easily establish API routes and associated HTTP request methods.
 
-In this week's virtual classes, you'll review setting up an Express.js application using standard GET routes and GET routes with parameters, as well as review Express server basics.
+In this week's virtual classes, you'll review setting up an Express.js application using both standard GET routes and GET routes with parameters, as well as review Express.js server basics.
 
 | Day | Topic                | Location   |
 | --- | -------------------- | ---------- |
@@ -18,29 +18,38 @@ In this week's virtual classes, you'll review setting up an Express.js applicati
 
 Why are students learning Express.js?
 
-* Express.js is the most widely-used Node.js server framework.
-* Express.js allows students to quickly create routes for static assets and API endpoints.
+* Express.js is the most widely used Node.js server framework.
+
+* Express.js allows us to quickly create routes for static assets and API endpoints.
+
 * Express.js allows students to respond to requests using different `HTTP` methods and response codes.
-* Modular routes using Express.js reinforce the concept of separation of concerns, an important concept in the Model-View-Controller (MVC) paradigm.
+
+* Modular routes using Express.js reinforce separation of concerns, an important concept in the Model-View-Controller (MVC) paradigm.
+
 * Express.js allows students to fully realize how client-side requests relate to server-side responses.
 
 Throughout the async module this week, students will use Express.js to do the following:
 
 * Serve static HTML files.
-* Create an API to handle `GET` and `POST` requests.
+
+* Create an API to handle GET and POST requests.
+
 * Parse parameters in server-side routes.
+
 * Submit form data to a server.
+
 * Implement separation of concerns for routing.
+
 * Deploy a server-side application to the Heroku platform.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                                     | Key Points                                                   |
 | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
-| 1      | Set Up Express.js Server and GET Routes         | Server setup, `GET` requests, parameters, Heroku deployment  |
-| 2      | Create Data Using POST Routes                   | API `POST` endpoints, middleware, testing with Insomnia      |
-| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch `POST` requests |
-| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express router, creating endpoints           |
+| 1      | Set Up Express.js Server and GET Routes         | Server setup, GET requests, parameters, Heroku deployment  |
+| 2      | Create Data Using POST Routes                   | API POST endpoints, middleware, testing with Insomnia      |
+| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch POST requests |
+| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express.js Router, creating endpoints           |
 
 ## Virtual Classes
 
@@ -58,11 +67,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* Be sure to prepare and read over the activities before your class begins. Try to anticipate any questions students may have.
+* Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
-* Install Insomnia on your machine before class starts with the following link: [insomnia.rest/download](https://insomnia.rest/download).
+* Install Insomnia on your machine before class. For more information, visit the [Insomnia download page](https://insomnia.rest/download).
 
-* Ensure that you are using the most recent version of Express (^4) by running `npm show express version`.
+* Ensure that you're using the most recent version of Express.js (version 4) by running `npm show express version`.
 
 ### Common Pain Points
 
@@ -70,9 +79,9 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                                | Recommendation                                                                                                                 |
 | --- | --- |
-| Routing terminology                       | Refer students to the [Express Docs on Routing](https://expressjs.com/en/guide/routing.html)                                   |
-| `express.static` and hosting static files | Refer students to the [Express Docs on Static Middleware](https://expressjs.com/en/starter/static-files.html)                  |
-| Organization of Routes                    | Refer students to the [MDN Express Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) |
+| Routing terminology                       | Refer students to the [Express.js documentation on routing](https://expressjs.com/en/guide/routing.html)                                   |
+| `express.static` and hosting static files | Refer students to the [Express.js documentation on serving static files](https://expressjs.com/en/starter/static-files.html)                  |
+| Organization of routes                    | Refer students to the [MDN Web Docs tutorial on Express.js](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) |
 
 ## Career Connection
 
@@ -91,22 +100,26 @@ Students will add features to an existing Note Taker app that uses an Express.js
 Specific skills students will need to implement in order to be successful:
 
 * Create new routes and route handlers for an Express.js back end.
+
 * Parse parameters in server-side routes.
+
 * Submit form data to a server.
+
 * Implement separation of concerns for routing.
+
 * Deploy a server-side application to the Heroku platform.
 
 ## Heads-Up
 
-Next week, you will introduce SQL. Let the students know that they will need to install both MySQL server and the MySQL Shell before they begin Module 12.
+Next week, you'll introduce SQL. Tell students that they'll need to install both the MySQL server and MySQL Shell before they begin Module 12.
 
-Be sure to install MySQL server and the MySQL Shell on your machine.
+Be sure to install the MySQL server and MySQL Shell on your machine.
 
 ## Resources
 
-* [Express.js Docs](https://expressjs.com/en/api.html)
+* [Express.js documentation](https://expressjs.com/en/api.html)
 
-* [Heroku Deployment Blog Post](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
+* [Full-Stack Blog guide to Heroku deployment](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
 
 ## Algorithms
 
