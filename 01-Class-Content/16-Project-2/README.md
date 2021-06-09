@@ -18,7 +18,7 @@ Once you get an interview, you must then be able to present your project and dem
 
 * [Project Requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

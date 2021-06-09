@@ -67,7 +67,19 @@ Throughout the async module this week, students will use state management to do 
 
 * Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
+* Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
+
+* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. To prepare the students for the Challenge and also their career, the activity requires them to examine the official Redux documentation. Emphasize to the students how important it will be on the job for them to be able to sift through documentation to find information that addresses the specific problem that they're trying to solve.
+
 * **Important:** To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+
+* Information about the upcoming group project must go out during this week's second virtual class!
+
+  * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
+
+  * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
+
+
 
 ### Common Pain Points
 

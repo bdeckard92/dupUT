@@ -12,7 +12,7 @@ In this week's virtual classes, students will continue working on their projects
 
 * There is no lesson plan for the first virtual class this week. Use the entirety of the class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
-* Share the [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit) with students early in the week to give them ample time to prepare for their presentations.
+* Share the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students early in the week to give them ample time to prepare for their presentations.
 
 * Prepare a slide deck of superlative awards to give to each group. Use [this example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing), and feel free to customize it as you see fit for your cohort.
 
@@ -46,7 +46,7 @@ N/A
 
 * [Project Requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 ## Algorithms
 

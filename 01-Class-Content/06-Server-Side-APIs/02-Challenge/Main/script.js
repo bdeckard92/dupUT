@@ -10,6 +10,10 @@ var todayContainer = document.querySelector('#today');
 var forecastContainer = document.querySelector('#forecast');
 var searchHistoryContainer = document.querySelector('#history');
 
+// Add timezone plugins to day.js
+dayjs.extend(window.dayjs_plugin_utc);
+dayjs.extend(window.dayjs_plugin_timezone);
+
 // Function to display the search history list.
 function renderSearchHistory() {
   searchHistoryContainer.innerHTML = '';
@@ -50,8 +54,8 @@ function initSearchHistory() {
 }
 
 // Function to display the current weather data fetched from OpenWeather api.
-function renderCurrentWeather(city, weather) {
-  var date = dayjs().format('M/D/YYYY');
+function renderCurrentWeather(city, weather, timezone) {
+  var date = dayjs().tz(timezone).format('M/D/YYYY');
 
   // Store response data from our fetch request in variables
   var tempF = weather.temp;
@@ -111,7 +115,7 @@ function renderCurrentWeather(city, weather) {
 
 // Function to display a forecast card given an object from open weather api
 // daily forecast.
-function renderForecastCard(forecast) {
+function renderForecastCard(forecast, timezone) {
   // variables for data from api
   var unixTs = forecast.dt;
   var iconUrl = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
@@ -144,7 +148,7 @@ function renderForecastCard(forecast) {
   humidityEl.setAttribute('class', 'card-text');
 
   // Add content to elements
-  cardTitle.textContent = dayjs.unix(unixTs).format('M/D/YYYY');
+  cardTitle.textContent = dayjs.unix(unixTs).tz(timezone).format('M/D/YYYY');
   weatherIcon.setAttribute('src', iconUrl);
   weatherIcon.setAttribute('alt', iconDescription);
   tempEl.textContent = `Temp: ${tempF} °F`;
@@ -155,10 +159,10 @@ function renderForecastCard(forecast) {
 }
 
 // Function to display 5 day forecast.
-function renderForecast(dailyForecast) {
+function renderForecast(dailyForecast, timezone) {
   // Create unix timestamps for start and end of 5 day forecast
-  var startDt = dayjs().add(1, 'day').startOf('day').unix();
-  var endDt = dayjs().add(6, 'day').startOf('day').unix();
+  var startDt = dayjs().tz(timezone).add(1, 'day').startOf('day').unix();
+  var endDt = dayjs().tz(timezone).add(6, 'day').startOf('day').unix();
 
   var headingCol = document.createElement('div');
   var heading = document.createElement('h4');
@@ -175,14 +179,14 @@ function renderForecast(dailyForecast) {
     // information on the behavior for including the same day. Results may have
     // 7 or 8 items.
     if (dailyForecast[i].dt >= startDt && dailyForecast[i].dt < endDt) {
-      renderForecastCard(dailyForecast[i]);
+      renderForecastCard(dailyForecast[i], timezone);
     }
   }
 }
 
 function renderItems(city, data) {
-  renderCurrentWeather(city, data.current);
-  renderForecast(data.daily);
+  renderCurrentWeather(city, data.current, data.timezone);
+  renderForecast(data.daily, data.timezone);
 }
 
 // Fetches weather data for given location from the Weather Geolocation

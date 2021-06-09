@@ -122,7 +122,7 @@ Specific skills students will need to implement in order to be successful:
 
 * [Apollo Docs on mutation type](https://www.apollographql.com/docs/apollo-server/schema/schema/#the-mutation-type)
 
-* [Apollo Docs on Apollo Boost](https://www.apollographql.com/docs/react/get-started/#apollo-boost)
+* [Apollo Docs on Apollo Client](https://www.apollographql.com/docs/react/)
 
 * [JSON Web Tokens documentation introduction](https://jwt.io/introduction/)
 
