@@ -44,7 +44,7 @@ Throughout the async module this week, students will use state management to do 
 
 * Handle delayed requests using the `useLazyQuery` Hook.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                                  | Key Points                                                        |
 | ------ | -------------------------------------------- | ----------------------------------------------------------------- |
@@ -71,7 +71,7 @@ Throughout the async module this week, students will use state management to do 
 
 * The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. To prepare the students for the Challenge and also their career, the activity requires them to examine the official Redux documentation. Emphasize to the students how important it will be on the job for them to be able to sift through documentation to find information that addresses the specific problem that they're trying to solve.
 
-* **Important:** To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 * Information about the upcoming group project must go out during this week's second virtual class!
 

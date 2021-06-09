@@ -48,7 +48,7 @@ Throughout the async module this week, students will use React to do the followi
 
 * Write functions for syncing form input values with state, submitting form data, and validating that data.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                                    | Key Points                                                                   |
 | ------ | ---------------------------------------------- | --- |
@@ -72,7 +72,7 @@ Throughout the async module this week, students will use React to do the followi
 
 * Students might feel a little overwhelmed with the new, unusual syntax. Remind them that ultimately we're still just working with JavaScript. Make sure they understand concepts rather than perfectly memorize syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
-* **Important:** To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
 ### Common Pain Points
 

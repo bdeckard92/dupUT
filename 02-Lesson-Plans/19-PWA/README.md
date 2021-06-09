@@ -47,7 +47,7 @@ Throughout the async module this week, students will use PWAs to do the followin
 
 * Convert an existing web application to a PWA.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson           | Description                        | Key Points                                                                            |
 | ---              | ---                                | ---                                                                                   |

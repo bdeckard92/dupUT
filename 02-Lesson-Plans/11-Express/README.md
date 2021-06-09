@@ -42,7 +42,7 @@ Throughout the async module this week, students will use Express.js to do the fo
 
 * Deploy a server-side application to the Heroku platform.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description                                     | Key Points                                                   |
 | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
