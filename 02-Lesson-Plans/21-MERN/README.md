@@ -9,10 +9,10 @@ In this week's virtual classes, you'll cover GraphQL, including using the Apollo
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
 | 1    | GraphQL Schema     | 21.1       |
-| 1    | JSON Web Tokens     | 21.2       |
+| 1    | JSON Web Tokens    | 21.2       |
 | 2    | GraphQL Mutations  | 21.2       |
 | 2    | GraphQL Client     | 21.3       |
-| 2    | `useEffect` Hook     | Challenge  |
+| 2    | `useEffect` Hook   | Challenge  |
 
 ## Overview of Asynchronous Material 
 
@@ -52,10 +52,10 @@ Throughout the async module this week, students will use MERN to do the followin
 | ---              | ---                           | ---                                                                                                 |
 | 1                | Set Up Apollo Server          | Apollo Server GraphQL library integration, type definitions, resolvers, GraphQL Playground          |
 | 2                | GraphQL Mutations             | GraphQL mutations, signing and verifying JWTs                                                       |
-| 3                | Integrate the Client          | Client-side React application files, using the Apollo Client library to consume the GraphQL API    |
+| 3                | Integrate the Client          | Client-side React application files, using the Apollo Client library to consume the GraphQL API     |
 | 4                | Using React Router            | Client-side routing, URL parameters, `useQuery` Hook                                                |
 | 5                | Front-End User Authentication | Front-end authentication, use of mutations to log in and create user, queries to display login data |
-| 6                |  Forms and Buttons            | Reading and writing to the Apollo Client cache, configuring a MERN app to deploy to Heroku            |
+| 6                |  Forms and Buttons            | Reading and writing to the Apollo Client cache, configuring a MERN app to deploy to Heroku          |
 
 ## Virtual Classes
 
@@ -85,12 +85,12 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                                      | Recommendation       |
-| ---                                             | ---                  |
-| Structure of GraphQL queries and mutations      | Refer to Lesson 1, 2, or the [GraphQL Docs on queries and mutations](https://graphql.org/learn/queries/) |
-| Implementing JWT authentication                 | Refer to Lesson 2 or the [JSON Web Tokens documentation introduction](https://jwt.io/introduction) |
-| Optional chaining                               | Refer to the [MDN Web Docs on optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  |
-| `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true` |
+| Pain Point                                      | Recommendation                                                                                                                                      |
+| ---                                             | ---                                                                                                                                                 |
+| Structure of GraphQL queries and mutations      | Refer to Lesson 1, 2, or the [GraphQL Docs on queries and mutations](https://graphql.org/learn/queries/)                                            |
+| Implementing JWT authentication                 | Refer to Lesson 2 or the [JSON Web Tokens documentation introduction](https://jwt.io/introduction)                                                  |
+| Optional chaining                               | Refer to the [MDN Web Docs on optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)     |
+| `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true`                                                                 |
 
 ## Career Connection
 

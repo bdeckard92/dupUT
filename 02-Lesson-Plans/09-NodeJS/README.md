@@ -38,12 +38,12 @@ Throughout the async module this week, students will use Node.js to do the follo
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson           | Description                    | Key Points                                                                                    |
-| ---              | ---                            | ---                                                                                           |
-| 1                | Introduction to Node.js        | Executing an application build with Node.js, JavaScript ES6                                   |
-| 2                | Generate a Webpage             | ES6 arrow functions, assignment destructuring, requiring and exporting modules                |
-| 3                | Node.js Package Manager           | Install packages from npm, chain Promises and validate user answers using Inquirer npm package |
-| 4                | Finish Portfolio HTML Output   | Object destructuring, array methods                                                           |
+| Lesson           | Description                    | Key Points                                                                                     |
+| ---              | ---                            | ---                                                                                            |
+| 1                | Introduction to Node.js        | Executing an application build with Node.js, JavaScript ES6                                    |
+| 2                | Generate a Webpage             | ES6 arrow functions, assignment destructuring, requiring and exporting modules                 |
+| 3                | Node.js Package Manager        | Install packages from npm, chain Promises and validate user answers using Inquirer npm package |
+| 4                | Finish Portfolio HTML Output   | Object destructuring, array methods                                                            |
 | 5                | Handle Node.js Asynchronicity  | Copy files using `fs` module, JavaScript Promises                                              |
 
 ## Virtual Classes

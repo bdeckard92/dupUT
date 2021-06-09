@@ -49,13 +49,13 @@ Throughout the async module this week, students will use PWAs to do the followin
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson           | Description                        | Key Points                                                                        |
-| ---              | ---                                | ---                                                                               |
-| 1                | Auditing Application Performance   | Google Lighthouse, minifying files, lazy-loading files                     |
+| Lesson           | Description                        | Key Points                                                                            |
+| ---              | ---                                | ---                                                                                   |
+| 1                | Auditing Application Performance   | Google Lighthouse, minifying files, lazy-loading files                                |
 | 2                | Introduction to Webpack            | Bundle JavaScript files, modify the `webpack.config` file, Webpack dependency graphs  |
-| 3                | Optimizing JavaScript              | Add reporting tools with plugin, split code for lazy loading, compress images     |
-| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                  | 
-| 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                   |
+| 3                | Optimizing JavaScript              | Add reporting tools with plugin, split code for lazy loading, compress images         |
+| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      | 
+| 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                     |
 
 ## Virtual Classes
 
@@ -83,11 +83,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                          | Recommendation       |
-| ---                                 | ---                  |
-| Understanding PWAs                  | Refer to Lesson 5 or the [MDN Web Docs on progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)                 |
+| Pain Point                          | Recommendation                                                                                                                                              |
+| ---                                 | ---                                                                                                                                                         |
+| Understanding PWAs                  | Refer to Lesson 5 or the [MDN Web Docs on progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)                          |
 | Service workers                     | Refer to Lesson 4 or the [MDN Web Docs on using service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) |
-| Webpack | Refer to Lesson 2 or the [Webpack documentation on getting started](https://webpack.js.org/guides/getting-started/) |
+| Webpack                             | Refer to Lesson 2 or the [Webpack documentation on getting started](https://webpack.js.org/guides/getting-started/)                                         |
 
 ## Career Connection
 

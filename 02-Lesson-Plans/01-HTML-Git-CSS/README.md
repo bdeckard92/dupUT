@@ -42,12 +42,12 @@ Throughout the async module this week, students will use HTML, CSS, and Git to d
 
 **Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
-| Lesson                                 | Description                                                                      | Key Points                                             |
-| -------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Lesson                                 | Description                                                                       | Key Points                                             |
+| -------------------------------------- | --------------------------------------------------------------------------------  | ------------------------------------------------------ |
 | 1. Set Up the Project                  | Get up and running with the basics.                                               | Review publishing to GitHub pages, common Git commands |
 | 2. Build the Header and Footer         | Work through creating the Run Buddy webpage, starting with the header and footer. | Relative paths, CSS selectors, HTML attributes         |
 | 3. Create the Hero                     | Work through creating a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
-| 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy                      | Chrome dev tools, multiple CSS classes                 |
+| 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy                       | Chrome dev tools, multiple CSS classes                 |
 | 5. Meet the Trainers                   | Create section elements to build out the page.                                    | CSS `float`, CSS classes, specificity in elements      |
 | 6. Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reuseable CSS, columns using `display`, `iframe`       |
 | 7. Add a Privacy Policy                | Add a privacy policy page to the Run Buddy website.                               | Linking multiple CSS files                             |

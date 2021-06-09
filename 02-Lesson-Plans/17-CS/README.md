@@ -10,7 +10,7 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 | ---  | ---                | ---          |
 | 1    | Closures           | 17.2         |
 | 1    | Event Delegation   | 17.2         |
-| 2    | Factory Functions   | 17.2         |
+| 2    | Factory Functions  | 17.2         |
 | 2    | Fibonacci          | 17.5         |
 | 2    | Regex              | Challenge    |
 
@@ -83,11 +83,11 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
-| Pain Point                          | Recommendation       |
-| ---                                 | ---                  |
-| Closures | Refer to Lesson 2 or the [MDN Web Docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) |
-| Factory functions | Refer to Lesson 2 or the resources on how JavaScript works in the Dessert Menu|
-| Regex | Refer to the Challenge or the [MDN Web Docs on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)|
+| Pain Point                            | Recommendation                                                                                                                                        |
+| ---                                   | ---                                                                                                                                                   |
+| Closures                              | Refer to Lesson 2 or the [MDN Web Docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)                                 |
+| Factory functions                     | Refer to Lesson 2 or the resources on how JavaScript works in the Dessert Menu                                                                        |
+| Regex                                 | Refer to the Challenge or the [MDN Web Docs on regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)|
 
 ## Career Connection
 

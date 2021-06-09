@@ -48,7 +48,7 @@ Throughout the async module this week, students will use MVC to do the following
 | ------ | --------------------------- | ------------------------------------------------------------------------- |
 | 1      | Create the Homepage View    | Code organization, template engines                                       |
 | 2      | Create the User Login       | Building views, fetch requests, leveraging existing Sequelize queries     |
-| 3      | Create the Single-Post View | Using session data in templates, conditional rendering                |
+| 3      | Create the Single-Post View | Using session data in templates, conditional rendering                    |
 | 4      | Partials and Helpers        | Helper functions in Handlebars.js, using partials to avoid duplicate HTML |
 | 5      | Create the Dashboard View   | Authenticated routes, custom middleware, templates and partials           |
 

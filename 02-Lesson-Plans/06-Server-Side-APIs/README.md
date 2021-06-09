@@ -45,7 +45,7 @@ Throughout the async module this week, students will use server-side APIs to do 
 | Lesson           | Description                | Key Points                                                                         |
 | ---              | ---                        | ---                                                                                |
 | 1                | Get Started with Requests  | Server-side API documentation, Fetch API                                           |
-| 2                | Display API Response Data  | Dynamic HTTP requests, display data, error handling                                 |
+| 2                | Display API Response Data  | Dynamic HTTP requests, display data, error handling                                |
 | 3                | Display Issues             | Request and response headers, optional `?` string                                  |
 | 4                | Query Parameter            | Query parameters, dynamic API calls                                                |
 | 5                | Adding Complex Queries     |  GitHub API endpoints options, multiple parameters, dynamically updating API call  |
