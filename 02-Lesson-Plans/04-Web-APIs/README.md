@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn about application programming interfaces (APIs). The term API can be used to refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the document object model, or DOM, and how to traverse through it using built-in methods and objects.
+In this module, students will learn about **application programming interfaces (APIs)**. The term API can refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the **Document Object Model, or DOM**, and how to traverse through it using built-in methods and objects.
 
 In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers, and `localStorage`.
 
@@ -19,21 +19,30 @@ In this week's virtual classes, you'll review DOM manipulation and traversal, ev
 Why are students learning Web APIs?
 
 * Web APIs allow students to create dynamic web apps that respond to user input.
+
 * APIs allow students to interact with the DOM easier.
-* Using Web APIs encourages students to acquaint themselves with reading documentation, which by itself is an important skill for a developer.
-* Learning Web APIs will help students differentiate between APIs that are built-in to the web browser and those that are provided by other libraries or third-party services.
+
+* Using Web APIs encourages students to acquaint themselves with reading documentation, which in itself is an important skill for a developer.
+
+* Learning Web APIs will help students differentiate between APIs that are built into the web browser and those that are provided by other libraries or third-party services.
 
 Throughout the async module this week, students will use Web APIs to do the following:
 
-* Explain and identify the document object and its relationship to HTML.
-* Use the window object for local and session storage.
+* Explain and identify the `document` object and its relationship to HTML.
+
+* Use the `window` object for local and session storage.
+
 * Use DOM API methods to select and dynamically generate HTML elements and content.
+
 * Use DOM API methods to handle events such as key presses and mouse clicks.
+
 * Set time-based events using time functions.
+
 * Write event-driven functions.
+
 * Research Web API documentation to implement new and unfamiliar interfaces.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
 | Lesson | Description           | Key Points                                                                                   |
 | ------ | --------------------- | -------------------------------------------------------------------------------------------- |
@@ -58,9 +67,9 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 ## Instructor Notes
 
-* This week's content will help students understand the purpose of JavaScript in front-end web development. But the DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
+* This week's content will help students understand the purpose of JavaScript in front-end web development. But the DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection, and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
 
-* Students do not use timers in the module project, but they will need to use timers for the module Challenge. Be prepared to help the students if they have questions as they do the activity on timers.
+* Students do not use timers in the Module Project, but they will need to use timers for the module Challenge. Be prepared to help the students if they have questions as they do the activity on timers.
 
 ### Common Pain Points
 
@@ -68,7 +77,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point            | Recommendation                                                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Timers                | Refer students to the [MDN Docs for `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout). |
+| Timers                | Refer students to the [MDN Docs for setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout). |
 | DOM as an object      | Advise students that the DOM simultaneously refers to the structure of page elements and an object that they can interact with.             |
 | Objects as interfaces | Demonstrate to the students that logging the `window` object in the developer console will help them visualize the available methods.       |
 
@@ -89,21 +98,26 @@ Students will build a multiple-choice quiz that runs in the browser and features
 Specific skills students will need to implement to be successful:
 
 * Selecting elements on the page using the methods available on the `document` object
+
 * Creating timers using `setInterval()`
+
 * Clearing interval timers
+
 * Creating content using JavaScript with `createElement()`
+
 * Dynamically updating the content on the pages
+
 * Storing data in the browser's local storage
 
 ## Heads-Up
 
-Next week, you will cover Bootstrap, jQuery, and Moment.js. If these are new to you or it's been a while, you may want to find time to review and/or brush up before class.
+Next week, you will cover Bootstrap, jQuery, and Moment.js. If these are new to you or it's been a while, you might want to find time to review before class.
 
 ## Resources
 
 * [MDN Web Docs on the Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-* [MDN Web Docs on addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+* [MDN Web Docs on addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 * [MDN Web Docs on setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
