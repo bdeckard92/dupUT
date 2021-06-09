@@ -56,17 +56,9 @@ Throughout the async module this week, students will use Computer Science to do 
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 17.1](./17.1-REQUIRED.md)
 
 * [Virtual Class 17.2](./17.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 17.1](./17.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 17.2](./17.2-REQUIRED.md)
 
 ## Instructor Notes
 

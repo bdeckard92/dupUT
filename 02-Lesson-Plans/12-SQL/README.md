@@ -56,17 +56,9 @@ Throughout the async module this week, students will use SQL to do the following
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 12.1](./12.1-REQUIRED.md)
 
 * [Virtual Class 12.2](./12.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 12.1](./12.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 12.2](./12.2-REQUIRED.md)
 
 ## Instructor Notes
 

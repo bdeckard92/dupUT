@@ -55,17 +55,9 @@ Throughout the async module this week, students will use state management to do 
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 22.1](./22.1-REQUIRED.md)
 
 * [Virtual Class 22.2](./22.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 22.1](./22.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 22.2](./22.2-REQUIRED.md)
 
 ## Instructor Notes
 

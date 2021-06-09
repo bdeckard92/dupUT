@@ -54,17 +54,9 @@ Throughout the async module this week, students will use JavaScript to do the fo
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 03.1](./03.1-REQUIRED.md)
 
 * [Virtual Class 03.2](./03.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 03.1](./03.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 03.2](./03.2-REQUIRED.md)
 
 ## Instructor Notes
 

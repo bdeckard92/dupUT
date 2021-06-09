@@ -48,17 +48,9 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 02.1](./02.1-REQUIRED.md)
 
 * [Virtual Class 02.2](./02.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 02.1](./02.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 02.2](./02.2-REQUIRED.md)
 
 ## Instructor Notes
 

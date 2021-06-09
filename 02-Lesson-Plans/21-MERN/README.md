@@ -59,17 +59,9 @@ Throughout the async module this week, students will use MERN to do the followin
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 21.1](./21.1-REQUIRED.md)
 
 * [Virtual Class 21.2](./21.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 21.1](./21.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 21.2](./21.2-REQUIRED.md)
 
 ## Instructor Notes
 

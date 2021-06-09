@@ -8,7 +8,7 @@ In this week's virtual classes, you'll help students understand what React is an
 
 | Day | Topic                    | Location         |
 | --- | ------------------------ | ---------------- |
-| 1   | Create React App       | 20.1             |
+| 1   | Create React App         | 20.1             |
 | 1   | Lists and Keys           | 20.1, 20.3       |
 | 2   | `useState` Hook          | 20.3, 20.4, 20.5 |
 | 2   | `useEffect` Hook         | 20.3             |
@@ -60,17 +60,9 @@ Throughout the async module this week, students will use React to do the followi
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 20.1](./20.1-REQUIRED.md)
 
 * [Virtual Class 20.2](./20.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 20.1](./20.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 20.2](./20.2-REQUIRED.md)
 
 ## Instructor Notes
 
