@@ -54,17 +54,9 @@ Throughout the async module this week, students will use HTML, CSS, and Git to d
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 01.1](./01.1-REQUIRED.md)
 
 * [Virtual Class 01.2](./01.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 01.1](./01.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 01.2](./01.2-REQUIRED.md)
 
 ## Instructor Notes
 

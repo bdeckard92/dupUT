@@ -6,13 +6,7 @@ In this week's virtual classes, you'll introduce agile project management and wo
 
 ## Virtual Classes
 
-If your class started **AFTER** January 1, 2021, use these lesson plans:
-
 * [Virtual Class 07.1](./07.1-REQUIRED.md)
-
-If your class started **BEFORE** January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 07.1](./07.1-RECOMMENDED.md)
 
 ## Instructor Notes
 

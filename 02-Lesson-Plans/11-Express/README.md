@@ -53,17 +53,9 @@ Throughout the async module this week, students will use Express.js to do the fo
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 11.1](./11.1-REQUIRED.md)
 
 * [Virtual Class 11.2](./11.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 11.1](./11.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 11.2](./11.2-REQUIRED.md)
 
 ## Instructor Notes
 

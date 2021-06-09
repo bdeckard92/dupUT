@@ -52,17 +52,9 @@ Throughout the async module this week, students will use NoSQL to do the followi
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 18.1](./18.1-REQUIRED.md)
 
 * [Virtual Class 18.2](./18.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 18.1](./18.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 18.2](./18.2-REQUIRED.md)
 
 ## Instructor Notes
 

@@ -6,13 +6,7 @@ In this week's virtual classes, you will provide support for the students as the
 
 ## Virtual Classes
 
-If your class started **AFTER** January 1, 2021, use these lesson plans:
-
 * [Virtual Class 23.1](./23.1-REQUIRED.md)
-
-If your class started **BEFORE** January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 23.1](./23.1-RECOMMENDED.md)
 
 ## Instructor Notes
 
