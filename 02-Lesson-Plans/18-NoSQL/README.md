@@ -72,7 +72,7 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
 
 * In this week's virtual classes, students will use Insomnia to test their API routes instead of relying on a front end. For more information, refer to the [Insomnia documentation](https://support.insomnia.rest/).
 
-* Students will learn in their asynchronous lessons how to deploy MongoDB applications to Heroku using MongoDB Atlas.  But for more information, refer them to the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md).
+* Students will learn in their asynchronous lessons how to deploy MongoDB applications to Heroku using MongoDB Atlas. But for more information, refer them to the [Full-Stack Blog on setting up MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and the [Full-Stack blog on deploying with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas).
 
 ### Common Pain Points
 
