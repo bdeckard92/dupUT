@@ -6,13 +6,13 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have written code for a reverse algorithm that takes in a string such as "Hello World!" and returns a reversed string such as "!dlroW olleH".
+* It's done when I have written code for a reverse algorithm that takes in a string such as `"Hello World!"` and returns a reversed string such as `"!dlroW olleH"`.
 
-* It's done when I have written code for a palindrome algorithm that uses the reverse method and checks if the string is a [palindrome](https://www.merriam-webster.com/dictionary/palindrome). 
+* It's done when I have written code for a palindrome algorithm that uses the `reverse()` method and checks whether the string is a [palindrome](https://www.merriam-webster.com/dictionary/palindrome).
 
-* It's done when I have written code for a capitalize algorithm that converts the first letter in each word of a string to an upper case letter.
+* It's done when I have written code for a capitalize algorithm that converts the first letter in each word of a string to an uppercase letter.
 
-* It's done when I can run `npm run test` in the command line and verify that I correctly implemented each method and each test passes.
+* It's done when I can run `npm run test` in the command line and verify that I correctly implemented each method, and each test passes.
 
 ---
 
@@ -29,5 +29,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
