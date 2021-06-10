@@ -2,27 +2,76 @@
 
 ## Overview
 
+In this module, students will learn about **application programming interfaces (APIs)**. The term API can refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the **Document Object Model, or DOM**, and how to traverse through it using built-in methods and objects.
+
 In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers, and `localStorage`.
 
-## Virtual Classes
+| Day | Topic                                   | Location |
+| --- | --------------------------------------- | -------- |
+| 1   | DOM Manipulation                        | 4.1, 4.3 |
+| 1   | `addEventListener()`                    | 4.1, 4.2 |
+| 2   | Timers                                  | 4.1      |
+| 2   | `localStorage`                          | 4.4      |
+| 2   | `Math.floor`, `Math.random`, `prompt()` | 4.4      |
 
-If your class started **AFTER** January 1, 2021, use these lesson plans:
+## Overview of Asynchronous Material
+
+Why are students learning Web APIs?
+
+* Web APIs allow students to create dynamic web apps that respond to user input.
+
+* APIs allow students to interact with the DOM easier.
+
+* Using Web APIs encourages students to acquaint themselves with reading documentation, which in itself is an important skill for a developer.
+
+* Learning Web APIs will help students differentiate between APIs that are built into the web browser and those that are provided by other libraries or third-party services.
+
+Throughout the async module this week, students will use Web APIs to do the following:
+
+* Explain and identify the `document` object and its relationship to HTML.
+
+* Use the `window` object for local and session storage.
+
+* Use DOM API methods to select and dynamically generate HTML elements and content.
+
+* Use DOM API methods to handle events such as key presses and mouse clicks.
+
+* Set time-based events using time functions.
+
+* Write event-driven functions.
+
+* Research Web API documentation to implement new and unfamiliar interfaces.
+
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+
+| Lesson | Description           | Key Points                                                                                   |
+| ------ | --------------------- | -------------------------------------------------------------------------------------------- |
+| 1      | The DOM               | HTML and CSS, DOM as it relates to HTML, DOM API methods to handle clicks                    |
+| 2      | Work with Forms       | Create forms with select inputs, handle form submission, overriding default browser behavior |
+| 3      | Edit and Delete Tasks | DOM methods, create and select HTML elements, DOM traversal                                  |
+| 4      | Add Task Persistence  | `localStorage`, data persistence, deployment to GitHub pages                                 |
+
+## Virtual Classes
 
 * [Virtual Class 04.1](./04.1-REQUIRED.md)
 
 * [Virtual Class 04.2](./04.2-REQUIRED.md)
 
-If your class started **BEFORE** January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 04.1](./04.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 04.2](./04.2-REQUIRED.md)
-
 ## Instructor Notes
 
-* This week's content will help students understand the purpose of JavaScript in front-end web development. But the DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
+* This week's content will help students understand the purpose of JavaScript in front-end web development. But the DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection, and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
 
-* Students do not use timers in the module project, but they will need to use timers for the module Challenge. Be prepared to help the students if they have questions as they do the activity on timers. 
+* Students do not use timers in the Module Project, but they will need to use timers for the module Challenge. Be prepared to help the students if they have questions as they do the activity on timers.
+
+### Common Pain Points
+
+According to our class data, students might experience some of the following pain points throughout the week:
+
+| Pain Point            | Recommendation                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Timers                | Refer students to the [MDN Docs for setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout). |
+| DOM as an object      | Advise students that the DOM simultaneously refers to the structure of page elements and an object that they can interact with.             |
+| Objects as interfaces | Demonstrate to the students that logging the `window` object in the developer console will help them visualize the available methods.       |
 
 ## Career Connection
 
@@ -34,19 +83,37 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-[Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge)
+Students will build a multiple-choice quiz that runs in the browser and features dynamically updated HTML. It also uses CSS for styling and is powered by JavaScript code. Students will ensure that the app features a polished user interface that adapts to multiple screen sizes.
+
+[Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge/README.md)
+
+Specific skills students will need to implement to be successful:
+
+* Selecting elements on the page using the methods available on the `document` object
+
+* Creating timers using `setInterval()`
+
+* Clearing interval timers
+
+* Creating content using JavaScript with `createElement()`
+
+* Dynamically updating the content on the pages
+
+* Storing data in the browser's local storage
 
 ## Heads-Up
 
-Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or it's been awhile, you will want to find time to review and/or brush up prior to class.
+Next week, you will cover Bootstrap, jQuery, and Moment.js. If these are new to you or it's been a while, you might want to find time to review before class.
 
 ## Resources
 
 * [MDN Web Docs on the Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-* [MDN Web Docs on addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+* [MDN Web Docs on addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-*  MDN Web Docs on [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
+* [MDN Web Docs on setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+
+* [MDN Web Docs on clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 
 * [MDN Web Docs on localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
@@ -59,4 +126,4 @@ Next week, you will review Bootstrap, jQuery, and Moment.js. If these are new or
 * [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
