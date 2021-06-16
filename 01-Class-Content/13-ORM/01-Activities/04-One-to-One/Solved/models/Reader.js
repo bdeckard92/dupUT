@@ -10,31 +10,31 @@ Reader.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
       validate: {
-        isEmail: true,
-      },
+        isEmail: true
+      }
     },
     password: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1],
-      },
-    },
+        len: [1]
+      }
+    }
   },
   {
     hooks: {
-      beforeCreate: async (newReader) => {
+      beforeCreate: async newReader => {
         try {
           newReader.password = await bcrypt.hash(newReader.password, 10);
           return newReader;
@@ -43,7 +43,7 @@ Reader.init(
           return err;
         }
       },
-      beforeUpdate: async (updatedReader) => {
+      beforeUpdate: async updatedReader => {
         try {
           updatedReader.password = await bcrypt.hash(
             updatedReader.password,
@@ -54,13 +54,13 @@ Reader.init(
           console.log(err);
           return err;
         }
-      },
+      }
     },
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'reader',
+    modelName: 'reader'
   }
 );
 

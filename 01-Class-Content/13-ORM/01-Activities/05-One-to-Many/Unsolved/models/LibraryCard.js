@@ -9,26 +9,26 @@ LibraryCard.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
     card_number: {
       type: DataTypes.UUID,
-      defaultValue: UUIDV4,
+      defaultValue: UUIDV4
     },
     reader_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'reader',
-        key: 'id',
-      },
-    },
+        key: 'id'
+      }
+    }
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'library_card',
+    modelName: 'library_card'
   }
 );
 

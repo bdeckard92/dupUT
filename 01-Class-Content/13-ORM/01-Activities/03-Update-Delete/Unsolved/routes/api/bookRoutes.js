@@ -2,15 +2,10 @@ const router = require('express').Router();
 const Book = require('../../models/Book');
 
 // TODO finish the PUT route to UPDATE a book in the database with a matching book_id
-router.put('/:book_id', (req, res) => {
-  
-  
-});
+router.put('/:book_id', (req, res) => {});
 
 // TODO finish the DELETE route to DELETE a book in the database with a matching book_id
-router.delete('/:book_id', (req, res) => {
-  
-});
+router.delete('/:book_id', (req, res) => {});
 
 router.post('/seed', (req, res) => {
   Book.bulkCreate([
@@ -20,7 +15,7 @@ router.post('/seed', (req, res) => {
       isbn: '9780674729018',
       pages: 336,
       edition: 1,
-      is_paperback: false,
+      is_paperback: false
     },
     {
       title:
@@ -29,7 +24,7 @@ router.post('/seed', (req, res) => {
       isbn: '9780137043293',
       pages: 500,
       edition: 1,
-      is_paperback: true,
+      is_paperback: true
     },
     {
       title:
@@ -38,7 +33,7 @@ router.post('/seed', (req, res) => {
       isbn: '9780807047415',
       pages: 192,
       edition: 2,
-      is_paperback: true,
+      is_paperback: true
     },
     {
       title: 'The Pragmatic Programmer: Your Journey To Mastery',
@@ -46,7 +41,7 @@ router.post('/seed', (req, res) => {
       isbn: '9780135957059',
       pages: 352,
       edition: 2,
-      is_paperback: false,
+      is_paperback: false
     },
     {
       title: 'The Art of Computer Programming, Vol. 1: Fundamental Algorithms',
@@ -54,7 +49,7 @@ router.post('/seed', (req, res) => {
       isbn: '9780201896831',
       pages: 672,
       edition: 3,
-      is_paperback: false,
+      is_paperback: false
     },
     {
       title: 'Algorithms of Oppression: How Search Engines Reinforce Racism',
@@ -62,8 +57,8 @@ router.post('/seed', (req, res) => {
       isbn: '9781479837243',
       pages: 256,
       edition: 1,
-      is_paperback: true,
-    },
+      is_paperback: true
+    }
   ]).then(() => {
     res.send('Seeding Success!');
   });

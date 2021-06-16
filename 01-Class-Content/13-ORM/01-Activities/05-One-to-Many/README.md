@@ -50,7 +50,7 @@ Work with a partner to implement the following user story:
 
 ## 💡 Hints
 
-When you associate these models, what will the relationship look like? Would users belong to books, or would books belong to users? 
+When you associate these models, what will the relationship look like? Would users belong to books, or would books belong to users?
 
 ## 🏆 Bonus
 

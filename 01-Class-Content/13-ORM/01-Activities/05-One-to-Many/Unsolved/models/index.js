@@ -4,11 +4,11 @@ const LibraryCard = require('./LibraryCard');
 
 Reader.hasOne(LibraryCard, {
   foreignKey: 'reader_id',
-  onDelete: 'CASCADE',
+  onDelete: 'CASCADE'
 });
 
 LibraryCard.belongsTo(Reader, {
-  foreignKey: 'reader_id',
+  foreignKey: 'reader_id'
 });
 
 module.exports = { Reader, Book, LibraryCard };

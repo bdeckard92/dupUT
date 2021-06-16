@@ -6,7 +6,7 @@ router.get('/', async (req, res) => {
   try {
     const readerData = await Reader.findAll({
       // TODO: Add a comment describing the functionality of this property
-      include: [{ model: LibraryCard }],
+      include: [{ model: LibraryCard }]
     });
     res.status(200).json(readerData);
   } catch (err) {
@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const readerData = await Reader.findByPk(req.params.id, {
-      include: [{ model: LibraryCard }],
+      include: [{ model: LibraryCard }]
     });
 
     if (!readerData) {
@@ -47,8 +47,8 @@ router.delete('/:id', async (req, res) => {
   try {
     const readerData = await Reader.destroy({
       where: {
-        id: req.params.id,
-      },
+        id: req.params.id
+      }
     });
 
     if (!readerData) {

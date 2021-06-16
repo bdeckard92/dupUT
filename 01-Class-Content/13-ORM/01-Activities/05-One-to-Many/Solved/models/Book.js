@@ -9,23 +9,23 @@ Book.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
     title: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     author: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     isbn: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     pages: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: false
     },
     edition: {
       type: DataTypes.INTEGER,
@@ -40,9 +40,9 @@ Book.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'reader',
-        key: 'id',
-      },
-    },
+        key: 'id'
+      }
+    }
   },
   {
     sequelize,

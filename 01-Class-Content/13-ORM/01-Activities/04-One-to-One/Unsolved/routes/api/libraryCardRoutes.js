@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
   try {
     // find all library cards and perform a JOIN to include all associated Readers
     const libraryCardData = await LibraryCard.findAll({
-      include: [{ model: Reader }],
+      include: [{ model: Reader }]
     });
     res.status(200).json(libraryCardData);
   } catch (err) {
@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const libraryCardData = await LibraryCard.findByPk(req.params.id, {
-      include: [{ model: Reader }],
+      include: [{ model: Reader }]
     });
 
     if (!libraryCardData) {
@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
   try {
     const locationData = await LibraryCard.create({
       // TODO: Add a comment describing where the value of `req.body.reader_id` comes from
-      reader_id: req.body.reader_id,
+      reader_id: req.body.reader_id
     });
     res.status(200).json(locationData);
   } catch (err) {
@@ -51,8 +51,8 @@ router.delete('/:id', async (req, res) => {
   try {
     const libraryCardData = await LibraryCard.destroy({
       where: {
-        id: req.params.id,
-      },
+        id: req.params.id
+      }
     });
 
     if (!libraryCardData) {
