@@ -28,7 +28,7 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's second virtual class.
+* Students will submit and present their group projects during next week's second virtual class.
 
 * Remind students that they should connect their repository to Heroku for automatic deployment. Students can refer to Module 21 Lesson 6 on how to do this.
 
