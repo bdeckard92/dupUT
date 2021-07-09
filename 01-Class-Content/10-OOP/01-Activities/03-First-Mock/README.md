@@ -1,4 +1,4 @@
-# 🐛 Running npm run Test Results in Errors
+# 🐛 Running npm run test Results in Errors
 
 Work with a partner to resolve the following issue:
 
