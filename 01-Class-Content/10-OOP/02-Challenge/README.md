@@ -47,7 +47,7 @@ The following image shows the generated HTML’s appearance and functionality. T
 
 This Challenge will combine many of the skills you’ve learned over the first ten weeks of this course. To help you get started, we’ve provided some guidelines in addition to the User Story and Acceptance Criteria.
 
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+Your application should use [Jest](https://www.npmjs.com/package/jest) to run the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) to collect input from the user. The application will be invoked by using the following command:
 
 ```bash
 node index.js
@@ -61,15 +61,15 @@ __tests__/			// jest tests
   Engineer.test.js
   Intern.test.js
   Manager.test.js
-dist/               			// rendered output (HTML) and CSS style sheet
+dist/  			// rendered output (HTML) and CSS style sheet
 lib/				// classes
 src/				// template helper code
-index.js			// runs the application
+index.js		// runs the application
 ```
 
 The application must have these classes: `Employee`, `Manager`, `Engineer`, and `Intern`. The tests for these classes (in the `_tests_` directory) **must all pass**.
 
-The first class is an Employee parent class with the following properties and methods:
+The first class is an `Employee` parent class with the following properties and methods:
 
 * `name`
 
@@ -91,7 +91,7 @@ In addition to `Employee`'s properties and methods, `Manager` will also have:
 
 * `officeNumber`
 
-* `getRole()`   // Overridden to return 'Manager'
+* `getRole()`   // Overridden to return `Manager`
 
 In addition to `Employee`'s properties and methods, `Engineer` will also have:
 
@@ -99,7 +99,7 @@ In addition to `Employee`'s properties and methods, `Engineer` will also have:
 
 * `getGithub()`
 
-* `getRole()`   // Overridden to return 'Engineer'
+* `getRole()`   // Overridden to return `Engineer`
 
 In addition to `Employee`'s properties and methods, `Intern` will also have:
 
@@ -107,9 +107,9 @@ In addition to `Employee`'s properties and methods, `Intern` will also have:
 
 * `getSchool()`
 
-* `getRole()`   // Overridden to return 'Intern'
+* `getRole()`   // Overridden to return `Intern`
 
-Finally, although it’s not a requirement, you should consider adding validation to ensure that user input provided is in the proper expected format.
+Finally, although it’s not a requirement, you should consider adding validation to ensure that the user input provided is in the proper expected format.
 
 
 ## Review

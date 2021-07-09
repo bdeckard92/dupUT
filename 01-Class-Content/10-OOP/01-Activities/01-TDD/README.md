@@ -16,7 +16,7 @@ Work with a partner to implement the following user story:
 
 For this activity, no code has been added to the `algo.js` test. As a result, all of the tests will fail. This is the expected behavior. Later, we will build on these skills to write tests that define the expectations of actual code.
 
-Refer to the documentation:
+Refer to the documentation: 
 
 [Jest API documentation](https://jestjs.io/docs/en/api)
 
@@ -24,7 +24,7 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-How can we use the `describe()`, `it()`, and `expect()` functions in Jest to check for expected behavior?
+How can we use the `describe()`, `it()`, and `expect()` functions in Jest to check for the expected behavior?
 
 ## 🏆 Bonus
 
