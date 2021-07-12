@@ -1,10 +1,10 @@
-# 📐 Add Comments to Implementation of Git It Done Application: Part Two
+# 📐 Add Comments to Implementation of Git It Done Application
 
 Work with a partner to add comments describing the functionality of the code found in [single.js](./Unsolved/assets/js/single.js).
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 * [GitHub API documentation](https://docs.github.com/en/rest/overview/resources-in-the-rest-api)
 

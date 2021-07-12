@@ -2,11 +2,11 @@
 
 Work with a partner to implement the following user story:
 
-  * As a user, I want to see a list of my GitHub repositories.
+* As a user, I want to see a list of my GitHub repositories.
 
 ## Acceptance Criteria
 
-  * It's done when I click the "Fetch Your User Repos" button, and a list of my GitHub repositories displays on the page.
+* It's done when I click the "Fetch Your User Repos" button, and a list of my GitHub repositories displays on the page.
 
 ## Assets
 
@@ -26,7 +26,7 @@ The following image demonstrates the web application's appearance and functional
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* In `fetch()` requests we use the URL. What is the difference between a URL and URI? 
+* In `fetch()` requests we use the URL. What is the difference between a URL and URI?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

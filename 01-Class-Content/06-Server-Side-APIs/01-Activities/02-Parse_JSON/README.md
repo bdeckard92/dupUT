@@ -2,17 +2,17 @@
 
 Work with a partner to implement the following user story:
 
-  * As a developer, I want to log issues from Twitter's Chill repository.
+* As a developer, I want to log issues from Twitter's Chill repository.
 
 ## Acceptance Criteria
 
-  * It's done when I open Chrome DevTools, and five issues from the Chill repository are logged in the console.
+* It's done when I open Chrome DevTools, and five issues from the Chill repository are logged in the console.
 
-  * It's done when the issue's URL and username are logged in the DevTools console.
+* It's done when the issue's URL and username are logged in the DevTools console.
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [GitHub API documentation on listing repository issues](https://docs.github.com/en/rest/reference/issues#list-repository-issues)
 

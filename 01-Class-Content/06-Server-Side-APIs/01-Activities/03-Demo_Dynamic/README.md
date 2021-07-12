@@ -2,13 +2,13 @@
 
 Work with a partner to implement the following user story:
 
-  * As a user, I want to see a list of GitHub users and links to their profiles.
+* As a user, I want to see a list of GitHub users and links to their profiles.
 
 ## Acceptance Criteria
 
-  * It's done when I press the "Click Me" button, and a list of five GitHub users appears underneath on the page.
+* It's done when I press the "Click Me" button, and a list of five GitHub users appears underneath on the page.
 
-  * It's done when each user includes their login name and a URL to their GitHub profile.
+* It's done when each user includes their login name and a URL to their GitHub profile.
 
 ---
 
