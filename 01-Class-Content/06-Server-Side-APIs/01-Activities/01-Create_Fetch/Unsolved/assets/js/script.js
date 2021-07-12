@@ -8,10 +8,10 @@ function getApi() {
   var requestUrl = '';
 
   fetch(requestUrl)
-    .then(function (response) {
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       //looping over the fetch response and inserting the URL of your repos into a list
       for (var i = 0; i < data.length; i++) {
         //Create a list element
