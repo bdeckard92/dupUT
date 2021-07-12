@@ -1,14 +1,38 @@
-# 📐 Add Comments to Implementation of API Parameters
+# 🐛  Fetch request lacks query parameters
 
-Work with a partner to add comments describing the functionality of the code found in [Unsolved/assets/js/script.js](./Unsolved/assets/js/script.js).
+Work with a partner to resolve the following issue(s):
+
+* As a user, I want to be able to customize the parameters of a fetch request.
+
+## Expected Behavior
+
+When a user names a request, a list of 10 open issues is returned in descending order by creation date.
+
+## Actual Behavior
+
+When a user makes a request, a list of issues is returned regardless of the issue status, creation date, or number of items per page.
+
+## Steps to Reproduce the Problem
+
+1. Open `index.html` in a browser.
+
+2. Open the developer console.
+
+3. Notice that the array in the develop console does not contain the expected number or order of items.
 
 ---
+
+## 💡 Hints
+
+How can we use the GitHub Issues API documentation to help us refine our query parameters?
+
+What other parameters can you add to the fetch request when using the GitHub Issues API?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What are query strings, and how are they used to create parameters for APIs?
+* What do the `&` and `=` characters mean in a query string?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
