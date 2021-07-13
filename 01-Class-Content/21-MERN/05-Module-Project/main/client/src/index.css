@@ -127,6 +127,11 @@ nav a:hover {
   background-color: var(--dark);
 }
 
+.btn:hover a,
+.pill:hover a {
+  color: var(--secondary);
+}
+
 .btn-inline {
   display: inline;
 }
