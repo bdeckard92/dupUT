@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { useParams } from 'react-router-dom';
 
 import Book from '../components/Book';
@@ -21,12 +21,12 @@ const Detail = () => {
     if (data && !currentBook) {
       dispatch({
         type: UPDATE_BOOKS,
-        books: data.books
+        books: data.books,
       });
     } else if (currentBook) {
       dispatch({
         type: UPDATE_CURRENT_BOOK,
-        currentBook
+        currentBook,
       });
     }
 
@@ -34,7 +34,7 @@ const Detail = () => {
     return () => {
       dispatch({
         type: UPDATE_CURRENT_BOOK,
-        currentBook: {}
+        currentBook: {},
       });
     };
   }, [loading, currentBook, dispatch, data]);
