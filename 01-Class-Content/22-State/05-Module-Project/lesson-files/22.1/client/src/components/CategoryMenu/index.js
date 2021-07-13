@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { useStoreContext } from '../../utils/GlobalState';
-import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
+import {
+  UPDATE_CATEGORIES,
+  UPDATE_CURRENT_CATEGORY,
+} from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 
 function CategoryMenu() {
@@ -15,22 +18,22 @@ function CategoryMenu() {
     if (categoryData) {
       dispatch({
         type: UPDATE_CATEGORIES,
-        categories: categoryData.categories
+        categories: categoryData.categories,
       });
     }
   }, [categoryData, dispatch]);
 
-  const handleClick = id => {
+  const handleClick = (id) => {
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id
+      currentCategory: id,
     });
   };
 
   return (
     <div>
       <h2>Choose a Category:</h2>
-      {categories.map(item => (
+      {categories.map((item) => (
         <button
           key={item._id}
           onClick={() => {

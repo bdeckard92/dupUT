@@ -6,7 +6,7 @@ In this week's virtual classes, students will continue working on their projects
 
 ## Virtual Classes
 
-[Required](./08.2-REQUIRED.md)
+[Virtual Class 08.2](./08.2-REQUIRED.md)
 
 ## Instructor Notes
 
