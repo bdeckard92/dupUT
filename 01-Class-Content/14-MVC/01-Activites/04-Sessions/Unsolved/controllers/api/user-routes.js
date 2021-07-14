@@ -10,9 +10,9 @@ router.post('/', async (req, res) => {
       password: req.body.password,
     });
 
-    // TODO: Set up sessions with the 'loggedIn' variable
+    // Set up sessions with a 'loggedIn' variable set to `true`
     req.session.save(() => {
-      // TODO: Set the 'loggedIn' session variable to 'true'
+      req.session.loggedIn = true;
 
       res.status(200).json(dbUserData);
     });
@@ -47,8 +47,9 @@ router.post('/login', async (req, res) => {
       return;
     }
 
+    // Once the user successfully logs in, set up the sessions variable 'loggedIn'
     req.session.save(() => {
-      // TODO: Once the user successfully logs in, set up sessions with the 'loggedIn' variable
+      req.session.loggedIn = true;
 
       res
         .status(200)
@@ -62,7 +63,7 @@ router.post('/login', async (req, res) => {
 
 // Logout
 router.post('/logout', (req, res) => {
-  // When the user logs out, the session is destroyed
+  // When the user logs out, destroy the session
   if (req.session.loggedIn) {
     req.session.destroy(() => {
       res.status(204).end();
