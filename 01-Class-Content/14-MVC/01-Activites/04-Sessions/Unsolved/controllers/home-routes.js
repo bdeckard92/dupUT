@@ -62,7 +62,6 @@ router.get('/painting/:id', async (req, res) => {
 
     const painting = dbPaintingData.get({ plain: true });
     // TODO: Add a comment describing how we pass the session to the painting view.
-    // Send over the 'loggedIn' session variable to the 'homepage' template
     res.render('painting', { painting, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);

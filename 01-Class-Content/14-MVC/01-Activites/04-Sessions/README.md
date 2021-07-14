@@ -1,6 +1,6 @@
 # 📐 Add Comments to Sessions in the Login Route
 
-Work with a partner to add comments describing the functionality of the code found in [Unsolved](./Unsolved).
+Work with a partner to add comments describing the functionality of the code found in [home-routes.js](./Unsolved/controllers/home-routes.js) and [painting.handlebars](./Unsolved/views/painting.handlebars).
 
 ## 📝 Notes
 
