@@ -12,9 +12,9 @@ Additionally, you'll announce the upcoming group project and assign the groups d
 | --- | ------------------- | ---------------- |
 | 1   | Rendering Content   | 14.1             |
 | 1   | Helper Methods      | 14.1             |
-| 2   | Handlebars.js Loops | 14.1, 14.3, 14.4 |
 | 2   | Partials            | 14.3, 14.4       |
 | 2   | `express-session`   | 14.5             |
+| 2   | Middleware for Authentication | 14.5 |
 
 ## Overview of Asynchronous Material
 

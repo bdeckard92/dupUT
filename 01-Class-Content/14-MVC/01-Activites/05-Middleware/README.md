@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [Express.js documentation on using middleware](https://expressjs.com/en/guide/using-middleware.html)
 
