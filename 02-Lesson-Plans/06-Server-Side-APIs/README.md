@@ -4,17 +4,17 @@
 
 In this module, students will learn how to retrieve data from third-party servers and use the Fetch API to make requests to server-side APIs.
 
-In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You'll also cover implementing user input to make specific API calls, using multiple query params in a single API call, and using nested API calls. During this week's second virtual class, you'll announce the upcoming group project and the group members.
+In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You'll also cover implementing user input to make specific API calls, and using multiple query params in a single API call. During this week's second virtual class, you'll announce the upcoming group project and the group members.
 
-| Day  | Topic              | Location   |
-| ---  | ---                | ---        |
-| 1    | Console Fetch      | 6.1        |
-| 1    | Display Response   | 6.1, 6.2   |
-| 2    | GIF Search         | 6.3        |
-| 2    | Query Params       | 6.4        |
-| 2    | Nested API Calls   | 6.2        |
+| Day  | Topic                           | Location   |
+| ---  | ---                             | ---        |
+| 1    | Create Fetch                    | 6.1        |
+| 1    | Parse JSON                      | 6.1, 6.2   |
+| 2    | Dynamic HTML                    | 6.3, 6.5   |
+| 2    | Deconstructing Parameters       | 6.3, 6.5   |
+| 2    | Fetch GitHub Issues             | 6.2        |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning server-side APIs?
 
@@ -22,7 +22,7 @@ Why are students learning server-side APIs?
 
 * Server-side APIs are widely used to perform a variety of data retrieval tasks, like accessing information from third-party services or collecting information from another server within the same organization.
 
-* Server-side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the back end. 
+* Server-side APIs introduce students to interacting with data stored on a server, providing students a first glimpse at working with the back end.
 
 Throughout the async module this week, students will use server-side APIs to do the following:
 
@@ -60,13 +60,13 @@ Throughout the async module this week, students will use server-side APIs to do 
 
 * Be prepared to spend class time this week setting up students for success in their first project.
 
-* Review the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md) to prepare for any questions that students might have. 
+* Review the [project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md) to prepare for any questions that students might have.
 
-* Encourage students to use this week to think about project ideas. If you're comfortable doing so, share your personal experiences or struggles working on group projects, either in a class or in the workplace, early in your career. 
+* Encourage students to use this week to think about project ideas. If you're comfortable doing so, share your personal experiences or struggles working on group projects, either in a class or in the workplace, early in your career.
 
 * Start thinking about project groups. Assign three students per group: one advanced, one average, one struggling.
 
-* Students should install the [JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) before class. 
+* Students should install the [JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) before class.
 
 ### Common Pain Points
 
