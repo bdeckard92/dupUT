@@ -4,15 +4,15 @@
 
 In this week's module, students will learn about **object-relational mapping (ORM)**, a technique that allows developers to convert data between incompatible type systems using object-oriented programming principles.
 
-In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, associations, and eager loading.
+In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, and associations.
 
 | Day | Topic                        | Location   |
 | --- | ---------------------------- | ---------- |
-| 1   | Sequelize Query Methods      | 13.1       |
-| 1   | Sequelize CRUD Methods       | 13.1       |
-| 2   | Validation and Constraints   | 13.1       |
-| 2   | Sequelize Associations       | 13.3       |
-| 2   | Sequelize include Property | 13.4, 13.5 |
+| 1   | Sequelize Models             | 13.1       |
+| 1   | Create/Read Methods          | 13.1       |
+| 2   | Update/Delete Methods        | 13.1       |
+| 2   | One-to-One Associations      | 13.3       |
+| 2   | Many-to-Many Associations    | 13.4, 13.5 |
 
 ## Overview of Asynchronous Material
 
