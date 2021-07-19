@@ -49,7 +49,7 @@ Throughout the async module this week, students will use HTML, CSS, and Git to d
 | 3. Create the Hero                     | Work through creating a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
 | 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy                       | Chrome dev tools, multiple CSS classes                 |
 | 5. Meet the Trainers                   | Create section elements to build out the page.                                    | CSS `float`, CSS classes, specificity in elements      |
-| 6. Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reuseable CSS, columns using `display`, `iframe`       |
+| 6. Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reusable CSS, columns using `display`, `iframe`       |
 | 7. Add a Privacy Policy                | Add a privacy policy page to the Run Buddy website.                               | Linking multiple CSS files                             |
 
 ## Virtual Classes
