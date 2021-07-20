@@ -2,7 +2,7 @@
 
 Work with a partner to implement the following user story:
 
-* As a user, I want a command-line RPG that allows two characters to battle each other.
+* As a user, I want a command-line role-playing game (RPG) that allows two characters to battle each other.
 
 ## Acceptance Criteria
 
@@ -24,7 +24,7 @@ Work with a partner to implement the following user story:
     console.log(`${this.name} has ${this.hitPoints} hit points remaining`)
     ```
 
-  * `isAlive()` returns a Boolean based on whether or not a character's hit points are less than or equal to zero.
+  * `isAlive()` returns a Boolean value based on whether or not a character's hit points are less than or equal to zero.
 
   * `attack()` accepts an opposing `Character` object and subtracts the current character's `strength` from the opponent's `hitPoints`.
 
@@ -34,7 +34,7 @@ Work with a partner to implement the following user story:
 
 ## 💡 Hints
 
-How can we start small? Can we benefit from first trying to make one character attack another until the game is over?
+How can you start small? Can you benefit from first trying to make one character attack another until the game is over?
 
 ## 🏆 Bonus
 
@@ -44,6 +44,5 @@ If you have completed this activity, work through the following challenge with y
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
----
-
+- - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

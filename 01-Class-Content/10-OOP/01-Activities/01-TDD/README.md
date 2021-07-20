@@ -10,12 +10,11 @@ Work with a partner to implement the following user story:
 
 * It's done when the `isPalindrome()` test is written to expect the string `"racecar"` to return `true` and the string `"neon"` to return `false` after calling `new Algo().isPalindrome()`.
 
-* It's done when the `capitalize()` test is written to expect the string `"capitalize the first letter of each word in a string."` to become `"Capitalize The First Letter Of Each Word In A String." after calling `new Algo().capitalize()`.
-
+* It's done when the `capitalize()` test is written to expect the string `"capitalize the first letter of each word in a string."` to become `"Capitalize The First Letter Of Each Word In A String."` after calling `new Algo().capitalize()`.
 
 ## 📝 Notes
 
-For this activity, no code has been added to the `algo.js` test. As a result, all the tests will fail. This is the expected behavior. In the next activities, we will build on these skills to write tests that define the expectations of actual code. 
+For this activity, no code has been added to the `algo.js` test. As a result, all of the tests will fail. This is the expected behavior. Later, we will build on these skills to write tests that define the expectations of actual code.
 
 Refer to the documentation: 
 
@@ -25,7 +24,7 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-How can we use the `describe()`, `it()`, and `expect()` functions in Jest to check for expected behavior?
+How can we use the `describe()`, `it()`, and `expect()` functions in Jest to check for the expected behavior?
 
 ## 🏆 Bonus
 
@@ -36,5 +35,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
