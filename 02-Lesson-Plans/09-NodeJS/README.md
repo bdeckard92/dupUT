@@ -6,75 +6,70 @@ In this module, students will learn how to use the Node.js platform to use JavaS
 
 In this week's virtual classes, you'll review the `fs` and `inquirer` packages, as well as ES6 features, like arrow functions, functional loops, and object destructuring.
 
-| Day | Topic                    | Location      |
-| --- | ------------------------ | ------------- |
-| 1   | Arrow Functions          | 9.1, 9.2      |
-| 1   | Inquirer                 | 9.3. 9.4, 9.5 |
-| 2   | `fs` Module              | 9.2           |
-| 2   | Functional Loops         | 9.1           |
-| 2   | Destructuring Assignment | 9.4           |
+| Day  | Topic                  | Location |
+| ---  | ---                    | ---      |
+| 1    | File System            | 9.2      |
+| 1    | Inquirer Users         | 9.3      |
+| 2    | Arrow Functions        | 9.1, 9.2 |
+| 2    | Functional Loops       | 9.4      |
+| 2    | Object Destructuring   | 9.4      |
 
 ## Overview of Asynchronous Material
 
 Why are students learning Node.js?
 
-* To use JavaScript outside of the browser
-* To manipulate the file system using the `fs` module
-* To make use of open source `npm` packages in their projects
-* To set them up for success when creating web servers in the future
+* Node.js helps us build interactive web applications and allows us to use JavaScript for both client-side and server-side functionality.
+
+* Node.js offers a rich package ecosystem and easy access to a multitude of libraries and tools, including Express.js.
+
+* Node.js is a sought-after development skill and is widely used at both large and small companies.
 
 Throughout the async module this week, students will use Node.js to do the following:
 
-* Identify the purpose Node.js serves in modern web development and when to use it.
-* Create and execute a Node.js application from the command line.
-* Outline the differences between the JavaScript syntax we've used and the new ES6 syntax.
-* Execute a Node.js application that accepts arguments from the command line.
-* Understand the purpose of `npm` and navigate its ecosystem.
-* Learn npm commands to initiate projects and install packages using the command-line utility.
-* Learn how to use new JavaScript features and array methods.
-* Use code modularity to keep the functionality clean and easy to read.
+* Build interactive command-line applications that process user input.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+* Explain modularization and how it relates to npm and the standard Node.js library.
 
-| Lesson | Description                   | Key Points   |
-| ------ | ----------------------------- | ---          |
-| 1      | Introduction to Node.js       | Purpose of Node.js, Setting up a project, Capturing user input               |
-| 2      | Generate Webpage              | ES6, Template literals, Generating HTML files, Modularizing code             |
-| 3      | Node Package Manager          | Installing packages, npm ecosystem, package.json, .gitignore                 |
-| 4      | Finish Portfolio HTML Output  | Refactoring template functions, Promise chaining, Destructuring, Spread/Rest |
-| 5      | Handle Node.js Asynchronicity | Writing files using `fs`, Creating promises, Copying files, Resolve/Reject   |
+* Initialize new Node.js projects using npm, and install and import dependencies.
+
+* Explain the importance and usefulness of ES6+ concepts such as `let`, `const`, and arrow functions.
+
+* Handle asynchronicity using callbacks and Promises.
+
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+
+| Lesson           | Description                    | Key Points                                                                                     |
+| ---              | ---                            | ---                                                                                            |
+| 1                | Introduction to Node.js        | Executing an application build with Node.js, JavaScript ES6                                    |
+| 2                | Generate a Webpage             | ES6 arrow functions, assignment destructuring, requiring and exporting modules                 |
+| 3                | Node.js Package Manager        | Install packages from npm, chain Promises and validate user answers using Inquirer npm package |
+| 4                | Finish Portfolio HTML Output   | Object destructuring, array methods                                                            |
+| 5                | Handle Node.js Asynchronicity  | Copy files using `fs` module, JavaScript Promises                                              |
 
 ## Virtual Classes
-
-If your class started AFTER January 1, 2021, use these lesson plans:
 
 * [Virtual Class 09.1](./09.1-REQUIRED.md)
 
 * [Virtual Class 09.2](./09.2-REQUIRED.md)
 
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 09.1](./09.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 09.2](./09.2-REQUIRED.md)
-
 ## Instructor Notes
 
-* Be sure to have students ensure that they have Node.js installed on their machines before the class starts. This can be done by installing Node.js using the LTS version from [nodejs.org](https://nodejs.org/en/), or for macOS users, by running `brew install node`.
+* The transition from client-side development to Node.js can be challenging for students.
 
-* This week's challenge introduces Node.js and newer ES6 syntax. Encourage students to ask questions about the syntax they are using if they are confused about it.
+* If students question why they're learning Node.js, emphasize its role in the client-server model. Full-stack developers must be able to build applications using the client-server model. They'll likely face interview questions about the difference between the client and the server and how they relate to each other.
+
+* Students should have already installed Node.js on their computers before coming to class. If they haven't done that yet, direct them to the Up and Running section in the async materials for details on how to install it.  
+
+* This module also introduces the npm package Inquirer. Refer to the [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer) for installation, examples, and more information on the methods used.
 
 ### Common Pain Points
 
 According to our class data, students might experience some of the following pain points throughout the week:
 
 | Pain Point                          | Recommendation       |
-| ----------------------------------- | -------------------- |
-| Quitting a Node.js CLI application | Advise students to the the `control + c` command |
-| Code modularity | Use VSCode's "Go to definition" feature to help mentally map how files are linked |
-| `fs.writeFile()` options | Refer to the nodejs.org documentation for the `fs` module for more information: [fs](https://nodejs.org/api/fs.html) |
-| Understanding promises | Refer to the MDN documentation for [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) |
-| How to configure `package.json` | Refer to the [npm documentation](https://docs.npmjs.com/files/package.json) |
+| ---                                 | ---                  |
+| Arrow functions                     | Refer to Lesson 1 and 2 or the [MDN Web Docs on arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  |
+| Object destructuring                | Refer to Lesson 4 or the [MDN Web Docs on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) |
 
 ## Career Connection
 
@@ -86,41 +81,43 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Module Challenge
 
-Students will create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). This CLI application will be something that students can use with their own projects.
+This week, the students will use starter code to build a command-line application that dynamically generates a professional README.md file from a user's input, using the [Inquirer package](https://www.npmjs.com/package/inquirer). For more help, refer students to the [Full-Stack Blog guide to a professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide).
 
 [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
 
-* Using the `fs` module to read and write files
-* Using the `inquirer` package to gather user input
-* Ability to implement ES6 arrow functions and array methods
-* Ability to use the `.then()` method to chain promises together
-* Modularize your code into multiple files
-* Ability to use `npm` (Node Package Manager) to initialize a project and install and import Node.js modules
-* Ability to use template literals to dynamically generate markdown from the command line
+* Modularize code into multiple files.
 
-## Heads Up
+* Write code using ES6+ concepts like `let`, `const`, and arrow functions.
 
-* Next week you will introduce object-oriented programming. You will cover constructor functions, the `this` keyword, prototypes, ES6 Classes, and `jest` for testing.
+* Initialize a project and install and import Node.js modules using npm.
 
-* Let your students know that this next module is very concept-heavy! Object-oriented programming can be very difficult to understand at first, but it is crucial in making them employer-competitive. So reassure them that they are not alone in struggling with this topic and that it is perfectly normal to feel a little lost at first.
+* Build an interactive command-line application that processes user input using a third-party Node.js module.
 
-* At the same time, do not feel discouraged if your students aren't understanding the concept after you've tried explaining it to them. It takes time to fully grasp object-oriented programming, so keep encouraging your students and reassuring them that with time and practice, they will understand this! If you are comfortable doing so, share your own struggle and/or personal experiences learning and working with OOP.
+* Dynamically generate Markdown from the command line using string literals.
+
+## Heads-Up
+
+* Next week you'll introduce object-oriented programming. You'll cover test-driven development (TDD), ES6 classes, and [Jest](https://jestjs.io/) for mocking and testing.
+
+* Warn your students that this next module is very concept-heavy! Object-oriented programming can be difficult at first, but understanding it is crucial in becoming employer-competitive. Although writing tests before code might feel counterintuitive, this approach can help developers plan and break down their apps into more manageable chunks. Reassure students that they aren't alone in struggling with this topic; it's perfectly normal to feel a little lost at first.
+
+* Likewise, don't feel discouraged if your students don't immediately understand object-oriented programming, even after you've tried to explain it. It takes time to fully grasp the concept, so keep encouraging your students and reassuring them that they'll understand it with time and practice! If you're comfortable doing so, share your own experiences or struggles learning and working with OOP.
 
 ## Resources
 
-* [fs documentation](https://nodejs.org/api/fs.html)
+* [Node.js documentation on fs](https://nodejs.org/api/fs.html)
 
-* [inquirer.js documentation](https://www.npmjs.com/package/inquirer)
+* [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer)
 
-* [MDN documentation on arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [MDN Web Docs on arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-* [MDN documentation for .map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* [MDN Web Docs on map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-* [MDN documentation for .filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* [MDN Web Docs on filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-* [MDN documentation on destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+* [MDN Web Docs on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 ## Algorithms
 
@@ -131,4 +128,4 @@ Specific skills students will need to implement in order to be successful:
 * [03-camel-case](../../01-Class-Content/09-NodeJS/03-Algorithms/03-camel-case)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
