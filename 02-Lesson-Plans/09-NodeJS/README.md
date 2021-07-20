@@ -6,13 +6,13 @@ In this module, students will learn how to use the Node.js platform to use JavaS
 
 In this week's virtual classes, you'll review the `fs` and `inquirer` packages, as well as ES6 features, like arrow functions, functional loops, and object destructuring.
 
-| Day  | Topic                  | Location |
-| ---  | ---                    | ---      |
-| 1    | File System            | 9.2      |
-| 1    | Inquirer Users         | 9.3      |
-| 2    | Arrow Functions        | 9.1, 9.2 |
-| 2    | Functional Loops       | 9.4      |
-| 2    | Object Destructuring   | 9.4      |
+| Day | Topic                    | Location      |
+| --- | ------------------------ | ------------- |
+| 1   | Arrow Functions          | 9.1, 9.2      |
+| 1   | Inquirer                 | 9.3. 9.4, 9.5 |
+| 2   | `fs` Module              | 9.2           |
+| 2   | Functional Loops         | 9.1           |
+| 2   | Destructuring Assignment | 9.4           |
 
 ## Overview of Asynchronous Material
 
@@ -70,6 +70,11 @@ According to our class data, students might experience some of the following pai
 | ---                                 | ---                  |
 | Arrow functions                     | Refer to Lesson 1 and 2 or the [MDN Web Docs on arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  |
 | Object destructuring                | Refer to Lesson 4 or the [MDN Web Docs on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) |
+| Quitting a Node.js CLI application | Advise students to the the `control + c` command |
+| Code modularity | Use VSCode's "Go to definition" feature to help mentally map how files are linked |
+| `fs.writeFile()` options | Refer to the nodejs.org documentation for the `fs` module for more information: [Node.js Documentation for `fs`](https://nodejs.org/api/fs.html) |
+| Understanding promises | Refer to the [MDN documentation for promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) |
+| How to configure `package.json` | Refer to the [npm documentation](https://docs.npmjs.com/files/package.json) |
 
 ## Career Connection
 
