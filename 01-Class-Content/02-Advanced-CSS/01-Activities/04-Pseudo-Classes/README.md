@@ -1,4 +1,4 @@
-# 📖 Implement an Interactive Resources List
+# 🏗️ Implement an Interactive Resources List
 
 Work with a partner to implement the following user story:
 
@@ -20,9 +20,7 @@ The following image demonstrates the web application's appearance and functional
 
 ![Three links to the MDN Web Docs appear under the text "Show Resources."](./Images/02-resources-open.png)
 
-## 📝 Notes
-
-Refer to the documentation:
+You can use the following resource links for the content:
 
 * [MDN Web Docs on responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
