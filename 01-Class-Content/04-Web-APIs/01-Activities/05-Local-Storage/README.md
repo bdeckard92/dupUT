@@ -1,4 +1,4 @@
-# 🐛 Save Object Using localStorage
+# 🐛 Object Not Saving as String Using localStorage
 
 Work with a partner to implement the following user story:
 
@@ -6,7 +6,7 @@ Work with a partner to implement the following user story:
 
 ## Expected Behavior
 
-* When a user clicks the Sign Up button the form's current values are stored in a object as a string using `localStorage`.
+When a user clicks the Sign Up button the form's current values are stored in a object as a string using `localStorage`.
 
 ## Actual Behavior
 
