@@ -25,7 +25,6 @@ When a user clicks the Sign Up button the form's current values are not stored i
 The following image demonstrates the web application's appearance and functionality:
 
 ![Image showing data inputted in form and saved as a string LocalStorage.](./assets/image_1.png)
-)
 
 ---
 ## 💡 Hints
