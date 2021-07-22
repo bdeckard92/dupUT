@@ -1,23 +1,32 @@
-# 📖 Save Object Using localStorage
+# 🐛 Object Not Saving as String Using localStorage
 
 Work with a partner to implement the following user story:
 
 * As a developer, I want to save the information from a form as an object using `localStorage`.
 
-## Acceptance Criteria
+## Expected Behavior
 
-* It's done when I click the Save button and the form's current values are stored in a object.
+When a user clicks the Sign Up button the form's current values are stored in a object as a string using `localStorage`.
 
-* It's done when the object is saved as a string using `localStorage`.
+## Actual Behavior
 
-## 📝 Notes
+When a user clicks the Sign Up button the form's current values are not stored in `localStorage`.
 
-Refer to the documentation:
+## Steps to Reproduce the Problem
 
-[MDN Documentation on Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+1. Open `index.html` in your browser.
 
-[MDN Documentation on JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+2. Enter data in the form field and click the Save button.
 
+3. Navigate to Google Dev Tool's Application tab and note that no data has been saved as a string in `localStorage`.
+
+## Assets
+
+The following image demonstrates the web application's appearance and functionality:
+
+![Image showing data inputted in form and saved as a string LocalStorage.](./assets/image_1.png)
+
+---
 ## 💡 Hints
 
 What JSON method can you use to return a string?
