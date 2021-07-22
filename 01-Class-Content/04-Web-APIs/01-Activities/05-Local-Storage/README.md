@@ -18,7 +18,7 @@ When a user clicks the Sign Up button the form's current values are not stored i
 
 2. Enter data in the form field and click the Save button.
 
-3. Navigate to Google Dev Tool's Application tab to view the data saved as a string in `localStorage`.
+3. Navigate to Google Dev Tool's Application tab and note that no data has been saved as a string in `localStorage`.
 
 ## Assets
 
