@@ -4,15 +4,15 @@
 
 In this module, students will learn the foundations of JavaScript, one of the three core technologies of web development. Whereas HTML is used for the content of a website and CSS is used for styling, JavaScript handles logic. This module teaches students logical problem-solving skills, and it also introduces them to loops, conditionals, functions, and built-in JavaScript Objects. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
 
-In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete to prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, arrays, generating random values, prompts, and alerts.
+In this week's virtual classes, you'll introduce **weekly algorithms** that students will complete to prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, scope and objects.
 
 | Day | Topic                                 | Module    |
 | --- | ------------------------------------- | --------- |
 | 1   | Conditional Statements                | 3.1       |
 | 1   | Iteration                             | 3.2       |
 | 2   | Functions                             | 3.1       |
-| 2   | Scope                                 | 3.1       |
-| 2   | Object-This                           | 3.1 - 3.4 |
+| 2   | Scope                                 | 3.3       |
+| 2   | Object-This                           | 3.4       |
 
 ## Overview of Asynchronous Material
 
