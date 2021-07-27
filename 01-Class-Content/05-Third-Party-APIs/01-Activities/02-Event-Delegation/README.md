@@ -1,4 +1,4 @@
-# 📖 Implement Shopping List Item Deletion
+# 🏗️ Implement Shopping List Item Deletion
 
 Work with a partner to implement the following user story:
 
@@ -7,12 +7,6 @@ Work with a partner to implement the following user story:
 ## Acceptance Criteria
 
 * It's done when each item's Remove button can be clicked to remove its respective shopping list item. 
-
-## 📝 Notes
-
-Refer to the following documentation: 
-
-[jQuery Docs on Event Delegation](https://learn.jquery.com/events/event-delegation/)
 
 ## 💡 Hints
 
