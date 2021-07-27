@@ -1,31 +1,28 @@
-# 📖 Implement a Sortable List with Drag and Drop
+# 📐 Add Comments to Implementation of jQuery User Interface Interactions
 
-Work with a partner to implement the following user story:
-
-* As a user, I want to be able to sort my list of skills using the cursor to drag and drop them.
-
-## Acceptance Criteria
-
-* It's done when the list of skills can be reorganized and sorted using drag-and-drop functionality.
-
-* It's done when a placeholder is filling empty space.
+Work with a partner to add comments describing the functionality of the code found in [Unsolved](./Unsolved/assets/js/script.js).
 
 ## 📝 Notes
 
-Refer to the following documentation: 
+Refer to the documentation: 
 
-[jQuery UI Demos](https://jqueryui.com/demos/)
+[jQuery User Interface docs on sortable](https://jqueryui.com/sortable/)
 
-## 💡 Hint
+[jQuery User Interface docs on autocomplete](https://jqueryui.com/autocomplete/)
 
-* Think about which interaction will allow a user to drag an element to a new spot on the list.
+[jQuery User Interface docs on datepicker](https://jqueryui.com/datepicker/)
 
-## 🏆 Bonus
-
-If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
-
-* Can we implement drag-and-drop functionality without jQuery? Use [Google](https://www.google.com) or another search engine to research how this works.
+[jQuery User Interface docs on disable selection](https://api.jqueryui.com/disableselection/)
 
 ---
 
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* { @TODO Refer to the Activity Planner for the bonus question. Always phrase it as a question! } 
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

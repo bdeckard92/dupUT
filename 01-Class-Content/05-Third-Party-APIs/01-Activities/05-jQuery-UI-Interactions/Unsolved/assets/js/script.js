@@ -29,7 +29,6 @@ var handleFormSubmit = function (event) {
 
 formEl.on('submit', handleFormSubmit);
 
-// Autocomplete widget
 $(function () {
   var skillNames = [
     'Bootstrap',
@@ -56,7 +55,6 @@ $(function () {
   });
 });
 
-// Datepicker widget
 $(function () {
   $('#datepicker').datepicker({
     changeMonth: true,
@@ -64,5 +62,9 @@ $(function () {
   });
 });
 
-// Add interaction here
-//
+$(function () {
+  $('#skills-list').sortable({
+    placeholder: 'ui-state-highlight',
+  });
+  $('#skills-list').disableSelection();
+});
