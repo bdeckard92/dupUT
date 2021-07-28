@@ -5,10 +5,6 @@ const express = require('express');
 const app = express();
 const PORT = 3001;
 
-// Sets up the Express app to handle data parsing
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
 // Data
 // ===========================================================
 const characters = [
@@ -29,8 +25,8 @@ const characters = [
   {
     routeName: 'obiwankenobi',
     name: 'Obi Wan Kenobi',
-    role: 'Jedi Master',
-    age: 55,
+    role: 'Jedi Knight',
+    age: 60,
     forcePoints: 1350
   }
 ];
@@ -41,22 +37,14 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Star Wars Page!');
 });
 
-app.get('/api/characters', (req, res) => {
-  return res.json(characters);
-});
+// Create a GET route `/api/characters` that returns all of the characters
+//
+// YOUR CODE HERE
+//
 
-app.get('/api/characters/:character', (req, res) => {
-  const chosen = req.params.character;
-
-  for (let i = 0; i < characters.length; i++) {
-    if (chosen === characters[i].routeName) {
-      return res.json(characters[i]);
-    }
-  }
-  return res.send('No character found');
-});
-
-// Create a POST route that adds new characters
+// Create just one GET route that returns any given specific character
+// Iterate through the characters' routeNames to check if it matches `req.params.character`
+// If there is no such character, send back a message "No character found"
 //
 // YOUR CODE HERE
 //

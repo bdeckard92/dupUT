@@ -1,6 +1,8 @@
 // Dependencies
-// ===========================================================
+// =============================================================
 const express = require('express');
+// Import the 'path' module
+const path = require('path');
 
 const app = express();
 const PORT = 3001;
@@ -10,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Data
-// ===========================================================
+// =============================================================
 const characters = [
   {
     routeName: 'yoda',
@@ -36,9 +38,11 @@ const characters = [
 ];
 
 // Routes
-// ===========================================================
+// =============================================================
+
+// Update the home route to return `index.html`
 app.get('/', (req, res) => {
-  res.send('Welcome to the Star Wars Page!');
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.get('/api/characters', (req, res) => {
@@ -48,21 +52,29 @@ app.get('/api/characters', (req, res) => {
 app.get('/api/characters/:character', (req, res) => {
   const chosen = req.params.character;
 
+  console.log(chosen);
+
   for (let i = 0; i < characters.length; i++) {
     if (chosen === characters[i].routeName) {
       return res.json(characters[i]);
     }
   }
-  return res.send('No character found');
+
+  return res.json(false);
 });
 
-// Create a POST route that adds new characters
-//
-// YOUR CODE HERE
-//
+app.post('/api/characters', (req, res) => {
+  const newCharacter = req.body;
+
+  console.log(newCharacter);
+
+  characters.push(newCharacter);
+
+  res.json(newCharacter);
+});
 
 // Listener
-// ===========================================================
+// =============================================================
 app.listen(PORT, () => {
   console.log(`App listening on PORT ${PORT}`);
 });
