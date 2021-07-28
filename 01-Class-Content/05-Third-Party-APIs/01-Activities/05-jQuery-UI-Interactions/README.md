@@ -20,7 +20,7 @@ Refer to the documentation:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* { @TODO Refer to the Activity Planner for the bonus question. Always phrase it as a question! } 
+* Can we implement drag-and-drop functionality without jQuery? 
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
