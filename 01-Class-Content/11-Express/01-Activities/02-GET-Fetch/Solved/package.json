@@ -1,5 +1,5 @@
 {
-  "name": "07-Ins_GET-Fetch",
+  "name": "GET-Fetch",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
