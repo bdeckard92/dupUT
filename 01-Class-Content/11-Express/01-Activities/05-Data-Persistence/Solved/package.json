@@ -1,7 +1,7 @@
 {
-  "name": "POST-Requests",
+  "name": "20-Stu_Data-Persistence",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
