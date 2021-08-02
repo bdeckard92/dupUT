@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 | ---  | ---                    | ---      |
 | 1    | File System            | 9.2      |
 | 1    | Inquirer Users         | 9.3      |
+| 1    | Git Guide              | N/A      |
 | 2    | Arrow Functions        | 9.1, 9.2 |
 | 2    | Functional Loops       | 9.4      |
 | 2    | Object Destructuring   | 9.4      |
