@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review setting up an Express.js applicati
 | --- | -------------------- | ---------- |
 | 1   | Express Routes       | 11.1       |
 | 1   | Express Parameters   | 11.1       |
+| 1   | Git Guide            | N/A        |
 | 2   | POST Requests        | 11.2, 11.3 |
 | 2   | Serving Static Files | 11.3       |
 | 2   | Post Client          | 11.3       |
