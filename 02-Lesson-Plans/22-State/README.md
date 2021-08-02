@@ -10,6 +10,7 @@ In this week's virtual classes, you'll cover state management, particularly usin
 | --- | ---------------------------------------------------- | ---------- |
 | 1   | Actions, Reducers, `useReducer` Hook                 | 22.1       |
 | 1   | Testing Reducers                                     | 22.1, 22.2 |
+| 1   | Git Guide                                            | N/A        |
 | 2   | Global State, `createContext` and `useContext` Hooks | 22.1, 22.2 |
 | 2   | Global State Refactor                                | 22.1       |
 | 2   | Redux Documentation                                  | Challenge  |
@@ -136,7 +137,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* Students will be busy with their final project, so there are no algorithms for this week.
+* [01-roman-to-int](../../01-Class-Content/22-State/03-Algorithms/01-roman-to-int)
+
+* [02-rotation-point](../../01-Class-Content/22-State/03-Algorithms/02-rotation-point)
+
+* [03-simplify-path](../../01-Class-Content/22-State/03-Algorithms/03-simplify-path)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
