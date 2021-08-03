@@ -11,11 +11,12 @@ In this week's virtual classes, you'll cover PWAs, primarily focusing on Webpack
 | ---  | ---                        | ---        |
 | 1    | PWA                        | 19.4, 19.5 |
 | 1    | Webpack                    | 19.2       |
+| 1    | Git Guide                  | N/A        |
 | 2    | Service Workers            | 19.4       |
 | 2    | Caching Fetching Files     | 19.4       |
 | 2    | Service Workers, Manifest  | 19.4, 19.5 |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning progressive web applications (PWAs)?
 
@@ -54,7 +55,7 @@ Throughout the async module this week, students will use PWAs to do the followin
 | 1                | Auditing Application Performance   | Google Lighthouse, minifying files, lazy-loading files                                |
 | 2                | Introduction to Webpack            | Bundle JavaScript files, modify the `webpack.config` file, Webpack dependency graphs  |
 | 3                | Optimizing JavaScript              | Add reporting tools with plugin, split code for lazy loading, compress images         |
-| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      | 
+| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      |
 | 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                     |
 
 ## Virtual Classes
@@ -117,11 +118,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-maximum-continuous-subarray](../../01-Class-Content/19-PWA/03-Algorithms/01-maximum-continuous-subarray)
+* [01-is-armstrong](../../01-Class-Content/19-PWA/03-Algorithms/01-is-armstrong)
 
-* [02-merge-meeting-times](../../01-Class-Content/19-PWA/03-Algorithms/02-merge-meeting-times)
+* [02-max-profit](../../01-Class-Content/19-PWA/03-Algorithms/02-max-profit)
 
-* [03-int-to-roman](../../01-Class-Content/19-PWA/03-Algorithms/03-int-to-roman)
+* [03-smallest-difference](../../01-Class-Content/19-PWA/03-Algorithms/03-smallest-difference)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
