@@ -8,11 +8,12 @@ In this week's virtual classes, you'll help students understand what React is an
 
 | Day | Topic                    | Location         |
 | --- | ------------------------ | ---------------- |
-| 1   | Create React App         | 20.1             |
-| 1   | Lists and Keys           | 20.1, 20.3       |
-| 2   | `useState` Hook          | 20.3, 20.4, 20.5 |
-| 2   | `useEffect` Hook         | 20.3             |
-| 2   | Mapping Over Data in JSX | 20.3             |
+| 1   | Component Map            | 20.3             |
+| 1   | `useState` Counter       | 20.3, 20.4, 20.5 |
+| 1   | Git Guide                | N/A              |
+| 2   | `useEffect` Thermostat   | 20.3             |
+| 2   | Conditional Render       | 20.3, 20.4, 20.5 |
+| 2   | Friends List             | 20.3             |
 
 ## Overview of Asynchronous Material
 
@@ -137,11 +138,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-roman-to-int](../../01-Class-Content/20-React/03-Algorithms/01-roman-to-int)
+* [01-maximum-continuous-subarray](../../01-Class-Content/20-React/03-Algorithms/01-maximum-continuous-subarray)
 
-* [02-rotation-point](../../01-Class-Content/20-React/03-Algorithms/02-rotation-point)
+* [02-merge-meeting-times](../../01-Class-Content/20-React/03-Algorithms/02-merge-meeting-times)
 
-* [03-simplify-path](../../01-Class-Content/20-React/03-Algorithms/03-simplify-path)
+* [03-int-to-roman](../../01-Class-Content/20-React/03-Algorithms/03-int-to-roman)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
