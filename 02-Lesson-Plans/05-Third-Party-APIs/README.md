@@ -10,6 +10,7 @@ In this week's virtual classes, you'll lead the review of the Web APIs used in t
 | ---  | ---                    | ---      |
 | 1    | Bootstrap Text Layout  | 5.2      |
 | 1    | jQuery Click           | 5.1      |
+| 1    | Git Guide              | N/A      |
 | 2    | Bootstrap Card Layout  | 5.2      |
 | 2    | Moment.js              | 5.4      |
 | 2    | jQuery localStorage    | 5.3      |
