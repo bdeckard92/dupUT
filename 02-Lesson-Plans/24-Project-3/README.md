@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, students will finish their projects, deploy and submit their projects, and present their projects as groups to their classmates. 
+In this week's virtual classes, students will finish their projects, deploy and submit their projects, and present their projects as groups to their classmates.
 
 ## Virtual Classes
 
@@ -28,23 +28,19 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **this week's second Virtual Class**. 
+* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **this week's second Virtual Class**.
 
 * Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Student Success Manager for the link.
 
 ## Resources
 
-* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) 
+* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 * [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
-
-## Algorithms
-
-N/A
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
