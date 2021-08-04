@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates. 
+In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates.
 
 ## Virtual Classes
 
@@ -40,21 +40,11 @@ N/A
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) 
+* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
 
 * [Example of free APIs that don't require CORS](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for students to use in their project
 
 * [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
-
-## Algorithms
-
-* [01-reverse-no-built-in](../../01-Class-Content/08-Project-1/03-Algorithms/01-reverse-no-built-in)
-
-* [02-reverse-in-place](../../01-Class-Content/08-Project-1/03-Algorithms/02-reverse-in-place)
-
-* [03-look-say-sequence](../../01-Class-Content/08-Project-1/03-Algorithms/03-look-say-sequence)
-
-* [04-is-numeric](../../01-Class-Content/08-Project-1/03-Algorithms/04-is-numeric)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
