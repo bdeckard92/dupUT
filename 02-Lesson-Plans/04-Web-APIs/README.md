@@ -10,7 +10,7 @@ In this week's virtual classes, you'll review DOM manipulation and traversal, ev
 | --- | --------------------------------------- | -------- |
 | 1   | DOM Manipulation                        | 4.1, 4.3 |
 | 1   | `addEventListener()`                    | 4.1, 4.2 |
-| 1   | Git Guide                               | N/a      |
+| 1   | Git Guide                               | N/A      |
 | 2   | Timers                                  | 4.1      |
 | 2   | `localStorage`                          | 4.4      |
 | 2   | `Math.floor`, `Math.random`, `prompt()` | 4.4      |
@@ -120,11 +120,11 @@ Next week, you will cover Bootstrap, jQuery, and Moment.js. If these are new to 
 
 ## Algorithms
 
-* [01-arithmetic](../../01-Class-Content/04-Web-APIs/03-Algorithms/01-arithmetic)
+* [01-log-even-nums](../../01-Class-Content/04-Web-APIs/03-Algorithms/01-log-even-nums)
 
-* [02-odd-or-even](../../01-Class-Content/04-Web-APIs/03-Algorithms/02-odd-or-even)
+* [02-countdown](../../01-Class-Content/04-Web-APIs/03-Algorithms/02-countdown)
 
-* [03-log-nums](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-log-nums)
+* [03-sum-array](../../01-Class-Content/04-Web-APIs/03-Algorithms/03-sum-array)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
