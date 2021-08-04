@@ -40,13 +40,5 @@ N/A
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-## Algorithms
-
-* [01-square-root](../../01-Class-Content/15-Project-2/03-Algorithms/01-square-root)
-
-* [02-needle-in-the-haystack](../../01-Class-Content/15-Project-2/03-Algorithms/02-needle-in-the-haystack)
-
-* [03-remove-duplicates](../../01-Class-Content/15-Project-2/03-Algorithms/03-remove-duplicates)
-
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

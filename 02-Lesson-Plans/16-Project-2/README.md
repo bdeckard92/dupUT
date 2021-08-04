@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates. 
+In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates.
 
 ## Virtual Classes
 
@@ -34,27 +34,19 @@ N/A
 
 ## Heads-Up
 
-* Next week, students will learn Computer Science fundamentals as they apply to JavaScript. Let the students know that this next module will look very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare them for interviews. 
+* Next week, students will learn Computer Science fundamentals as they apply to JavaScript. Let the students know that this next module will look very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare them for interviews.
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp". 
+* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp".
 
 ## Resources
 
-* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) 
+* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
 
 * [Guide on how to connect a GitHub repo to Heroku](../../01-Class-Content/15-Project-2/04-Supplemental/GitHubHerokuConnect.md)
 
 * [Project Requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
-
-## Algorithms
-
-* [01-missing-number](../../01-Class-Content/16-Project-2/03-Algorithms/01-missing-number)
-
-* [02-left-rotation](../../01-Class-Content/16-Project-2/03-Algorithms/02-left-rotation)
-
-* [03-ransom-note](../../01-Class-Content/16-Project-2/03-Algorithms/03-ransom-note)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
