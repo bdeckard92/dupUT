@@ -10,33 +10,34 @@ In this week's virtual classes, you'll review constructor functions, the `this` 
 | ---  | ---                | ---           |
 | 1    | Constructors       | 10.1          |
 | 1    | Mini-Bank          | 10.1          |
+| 1    | Git Guide          | N/A           |
 | 2    | Prototypes         | 10.2          |
 | 2    | Classes            | 10.5          |
 | 2    | TDD                | 10.1, 10.2    |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning OOP and TDD?
 
-  * Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
+* Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
 
-  * Test-driven development is a programming paradigm that helps developers write leaner, more predictable code. 
+* Test-driven development is a programming paradigm that helps developers write leaner, more predictable code.
 
-  * Being able to write object-oriented JavaScript and test this code effectively is an important skill set to demonstrate to prospective employers.
+* Being able to write object-oriented JavaScript and test this code effectively is an important skill set to demonstrate to prospective employers.
 
 Throughout the async module this week, students will use OOP and TDD to do the following:
 
-  * Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
+* Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
 
-  * Build entire applications using OOP, separating data and functionality into distinct constructor functions.
+* Build entire applications using OOP, separating data and functionality into distinct constructor functions.
 
-  * Verify that their code works as intended by using automated tests.
+* Verify that their code works as intended by using automated tests.
 
-  * Build applications using test-driven development, writing tests before implementing functionality.
+* Build applications using test-driven development, writing tests before implementing functionality.
 
-  * Implement more advanced OOP patterns, like inheritance, using modern ES6 class syntax.
+* Implement more advanced OOP patterns, like inheritance, using modern ES6 class syntax.
 
-  * Create more scalable applications that follow the OOP paradigm.
+* Create more scalable applications that follow the OOP paradigm.
 
 **Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
@@ -46,8 +47,7 @@ Throughout the async module this week, students will use OOP and TDD to do the f
 | 2        | Methods and Mocks          | Mocking, prototype syntax                                                             |
 | 3        | Player and Enemy Methods   | Array prototype methods                                                               |
 | 4        | Build the Game Logic       | Inquirer npm package, constructor functions                                           |
-| 5        | Inheritance                | Method and property inheritance, ES6 classes                                          |         
-
+| 5        | Inheritance                | Method and property inheritance, ES6 classes                                          |
 
 ## Virtual Classes
 
@@ -61,7 +61,7 @@ Throughout the async module this week, students will use OOP and TDD to do the f
 
 * Students will use Jest for unit testing. Familiarize yourself with it if you've never used it before. To learn more, refer to the [Jest website](https://jestjs.io/).
 
-* Student will also use ES6 classes. If you need a refresher, refer to the [MDN Web Docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). 
+* Student will also use ES6 classes. If you need a refresher, refer to the [MDN Web Docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
 
 * Warn your students know that this module is very concept-heavy! Object-oriented programming can be difficult at first, but understanding it is crucial in becoming employer-competitive. Reassure students that they aren't alone in struggling with this topic; it's perfectly normal to feel a little lost at first.
 
@@ -103,9 +103,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you'll introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications. 
+* Next week you'll introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications.
 
-* You'll use a tool called [Insomnia](https://insomnia.rest/products/insomnia) to test APIs, so make sure to install it on your machine and be familiar with using it. 
+* You'll use a tool called [Insomnia](https://insomnia.rest/products/insomnia) to test APIs, so make sure to install it on your machine and be familiar with using it.
 
 ## Resources
 
