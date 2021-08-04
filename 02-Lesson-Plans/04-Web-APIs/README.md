@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review DOM manipulation and traversal, ev
 | --- | --------------------------------------- | -------- |
 | 1   | DOM Manipulation                        | 4.1, 4.3 |
 | 1   | `addEventListener()`                    | 4.1, 4.2 |
+| 1   | Git Guide                               | N/A      |
 | 2   | Timers                                  | 4.1      |
 | 2   | `localStorage`                          | 4.4      |
 | 2   | `Math.floor`, `Math.random`, `prompt()` | 4.4      |

@@ -4,13 +4,13 @@ In this activity you will be writing code to create a function that prints even 
 
 ## Instructions
 
-- Open [Unsolved/log-even-nums.js](Unsolved/log-even-nums.js) in your code editor -- **this is the only file you will modify in this activity.**
+- Open [Unsolved/log-even-nums.js](Unsolved/log-even-nums.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
   - In this file you will be writing code in the body of the `logEvenNums` function to achieve the following:
 
-    - Print all even numbers from `0` up to the given `nums` argument inclusive.
+    - Print all even numbers from `0` up to the given `nums` argument, inclusive.
 
-      - e.g. given the number `6` as the `num` argument, the following should be printed to the console, one log at a time:
+      - For example, given the number `6` as the `num` argument, the following should be printed to the console, one log at a time:
 
         ```bash
         0
@@ -21,6 +21,10 @@ In this activity you will be writing code to create a function that prints even 
 
 - You can check to see if your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-  - Functions that _pass_ the tests will be denoted with a **green check mark**.
+  - Functions that pass the tests will be denoted with a green check mark.
 
-  - Functions that _fail_ the tests will be denoted with a **red x and an error message**.
+  - Functions that fail the tests will be denoted with a red X and an error message.
+
+---
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
