@@ -18,7 +18,7 @@ In this activity, you will use the Bootstrap grid layout with Navbar and Card co
 
     * Create one row and within that create a column. Add a heading "About Me".
 
-    * Add a row and within that create a column. Add an image using [http://placehold.it](http://placehold.it) to generate a placeholder image of 150x150 pixels.
+    * Add a row and within that create a column. Add an image using [https://placeholder.com](https://placeholder.com) to generate a placeholder image of 150x150 pixels.
 
     * Within that same row, add one more column. Add a paragraph using `Lorem ipsum` for dummy text.
 

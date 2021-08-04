@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import Book from '../components/Book';
 
 import { QUERY_BOOKS } from '../utils/queries';
@@ -15,7 +15,7 @@ const BookList = () => {
     if (data) {
       dispatch({
         type: UPDATE_BOOKS,
-        books: data.books
+        books: data.books,
       });
     }
   }, [data, loading, dispatch]);
@@ -28,7 +28,7 @@ const BookList = () => {
 
   return (
     <div>
-      {books.map(book => (
+      {books.map((book) => (
         <Book
           key={book._id}
           bookId={book._id}

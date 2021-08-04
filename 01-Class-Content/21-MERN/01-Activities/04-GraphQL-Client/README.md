@@ -30,4 +30,4 @@ In this activity, you will make a GraphQL query request from the client side to 
 
 ## Hint(s)
 
-* You can refer to the [Apollo Docs on Apollo Boost](https://www.apollographql.com/docs/react/get-started/#apollo-boost).
+* You can refer to the [Apollo Docs on Apollo Client](https://www.apollographql.com/docs/react/).
