@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates. 
+In this week's virtual classes, students will finish their projects, deploy and submit their projects, and present their projects as groups to their classmates. 
 
 ## Virtual Classes
 
@@ -28,7 +28,7 @@ If you'd like more information on Career Services, visit the [Career Services re
 
 ## Heads-Up
 
-* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **the Sunday after the Required Class**. 
+* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **this week's second Virtual Class**. 
 
 * Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Student Success Manager for the link.
 

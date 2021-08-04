@@ -8,9 +8,9 @@ In this week's virtual classes, you'll review flexbox, media queries, and other 
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
-| 1   | Wireframing       | 2.1      |
-| 1   | Flexbox-Layout    | 2.2      |
-| 2   | Responsive Design | 2.2, 2.3 |
+| 1   | Flexbox-Cards     | 2.2      |
+| 1   | Media queries     | 2.3      |
+| 2   | Wireframing       | 2.2      |
 | 2   | Pseudo-Classes    | 2.4      |
 | 2   | CSS Variables     | 2.5      |
 
