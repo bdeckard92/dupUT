@@ -10,6 +10,7 @@ In this week's virtual classes, you will cover MySQL schemas, creating databases
 | --- | ------------------- | ---------------- |
 | 1   | Schemas             | 12.1, 12.3       |
 | 1   | Seeds               | 12.1, 12.3, 12.4 |
+| 1   | Git Guide           | N/A              |
 | 2   | Constraints         | 12.1, 12.2, 12.3 |
 | 2   | Joins               | 12.3             |
 | 2   | Prepared Statements | 12.4             |
