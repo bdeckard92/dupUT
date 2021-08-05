@@ -6,7 +6,7 @@ Welcome, and thank you so much for being a part of our program! Thanks to instru
 
 In this module, students learn three web development technologies that are essential to success as a web developer. Students learn HTML as they create the basic structure for webpages. They also learn CSS so that they can organize and style elements on the page. Finally, students will become familiar with Git and with navigating the file system using the command line.
 
-In this week's virtual classes, you will welcome students to their first module of the Full-Stack Web Development Boot Camp. You'll walk them through the very basics of HTML, attributes, CSS Selectors, the Box Model and CSS Positioning. 
+In this week's virtual classes, you will welcome students to their first module of the Full-Stack Web Development Boot Camp. You'll walk them through the very basics of HTML, attributes, CSS Selectors, the Box Model and CSS Positioning.
 
 | Day | Topic               | Location  |
 | --- | --------------      | --------- |
@@ -49,22 +49,14 @@ Throughout the async module this week, students will use HTML, CSS, and Git to d
 | 3. Create the Hero                     | Work through creating a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
 | 4. Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy                       | Chrome dev tools, multiple CSS classes                 |
 | 5. Meet the Trainers                   | Create section elements to build out the page.                                    | CSS `float`, CSS classes, specificity in elements      |
-| 6. Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reusable CSS, columns using `display`, `iframe`       |
+| 6. Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reuseable CSS, columns using `display`, `iframe`       |
 | 7. Add a Privacy Policy                | Add a privacy policy page to the Run Buddy website.                               | Linking multiple CSS files                             |
 
 ## Virtual Classes
 
-If your class started AFTER January 1, 2021, use these lesson plans:
-
 * [Virtual Class 01.1](./01.1-REQUIRED.md)
 
 * [Virtual Class 01.2](./01.2-REQUIRED.md)
-
-If your class started BEFORE January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 01.1](./01.1-RECOMMENDED.md)
-
-* [Virtual Class (Required) 01.2](./01.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -75,17 +67,17 @@ If your class started BEFORE January 1, 2021, use these lesson plans:
   * Slack
 
   * Chrome/Firefox
-  
+
   * Insomnia
-  
+
   * VS Code
-  
+
   * `zsh` (macOS)
-  
+
   * `brew` (macOS)
-  
+
   * Git Bash (Windows)
-  
+
   * SSH keys
 
 ### Common Pain Points
