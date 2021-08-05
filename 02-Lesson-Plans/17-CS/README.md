@@ -10,6 +10,7 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 | ---  | ---                | ---          |
 | 1    | Closures           | 17.2         |
 | 1    | Event Delegation   | 17.2         |
+| 1    | Git Guide          | N/A          |
 | 2    | Factory Functions  | 17.2         |
 | 2    | Fibonacci          | 17.5         |
 | 2    | Regex              | Challenge    |
@@ -121,11 +122,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-valid-brackets](../../01-Class-Content/17-CS/03-Algorithms/01-valid-brackets)
+* [01: Reverse Words](../../01-Class-Content/17-CS/03-Algorithms/01-reverse-no-built-in)
 
-* [02-min-increment-for-unique](../../01-Class-Content/17-CS/03-Algorithms/02-min-increment-for-unique)
+* [02: Left Rotation](../../01-Class-Content/17-CS/03-Algorithms/02-left-rotation)
 
-* [03-peak-finder](../../01-Class-Content/17-CS/03-Algorithms/03-peak-finder)
+* [03: Reverse in Place](../../01-Class-Content/17-CS/03-Algorithms/03-reverse-in-place)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
