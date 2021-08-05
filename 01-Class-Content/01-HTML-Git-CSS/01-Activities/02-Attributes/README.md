@@ -2,23 +2,23 @@
 
 Work with a partner to resolve the following issues:
 
-* As a user, I should be able to see an image on the page and alternative text describing the image should be provided. 
+* As a user, I should be able to see an image on the page and alternative text describing the image should be provided.
 
 * As a user, I should see background colors applied to each section and list item and the header text should be dark blue.
 
 ## Expected Behavior
 
-When a user opens the page, an image should appear and alternative text describing the image should be provided. 
+When a user opens the page, an image should appear and alternative text describing the image should be provided.
 
 When a user opens the page, each section and list item should have a background color applied and the header text should be dark blue.
 
 ## Actual Behavior
 
-When a user opens the page, no image appears and alternative text decribing the image is not shown. 
+When a user opens the page, no image appears and alternative text describing the image is not shown.
 
-When a user opens the page, the header text is is not navy blue.
+When a user opens the page, the header text is not navy blue.
 
-When a user opens the page, each section and list item does not have a background color applied. 
+When a user opens the page, each section and list item does not have a background color applied.
 
 ## Assets
 
@@ -30,7 +30,7 @@ The following image demonstrates the web application's appearance and functional
 
 ## 💡 Hints
 
-Why is it important that each global attribute is given a unique name? 
+Why is it important that each global attribute is given a unique name?
 
 ## 🏆 Bonus
 
