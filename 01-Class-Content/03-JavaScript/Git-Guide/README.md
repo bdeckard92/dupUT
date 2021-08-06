@@ -124,5 +124,4 @@ git commit -m "creating a top level readme"
 * More information can be found in these [Atlassian tutorials on branching](https://www.atlassian.com/git/tutorials/using-branches).
 
 ---
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
