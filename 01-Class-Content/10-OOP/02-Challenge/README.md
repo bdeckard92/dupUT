@@ -61,10 +61,10 @@ __tests__/			// jest tests
   Engineer.test.js
   Intern.test.js
   Manager.test.js
-dist/               			// rendered output (HTML) and CSS style sheet
-lib/				// classes
-src/				// template helper code
-index.js			// runs the application
+dist/          // rendered output (HTML) and CSS style sheet
+lib/				   // classes
+src/				   // template helper code
+index.js		 	 // runs the application
 .gitignore     // indicates which folders and files Git should ignore
 ```
 
