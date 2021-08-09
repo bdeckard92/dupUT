@@ -4,12 +4,12 @@
 
 In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
 
-In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
+In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties, like pseudo-classes and CSS variables.
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
 | 1   | Wireframing       | 2.1      |
-| 1   | Flexbox-Layout    | 2.2      |
+| 1   | Flexbox Layout    | 2.2      |
 | 2   | Responsive Design | 2.2, 2.3 |
 | 2   | Pseudo-Classes    | 2.4      |
 | 2   | CSS Variables     | 2.5      |
@@ -100,11 +100,11 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Resources
 
+* [Wikipedia Page on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
+
 * [MDN Web Docs on flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
-* [MDN Web Docs on media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-
-* [Wikipedia Page on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
+* [MDN Web Docs on the CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 
 * [MDN Web Docs on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
@@ -112,6 +112,7 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Algorithms
 
-n/a
+N/A
 
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
