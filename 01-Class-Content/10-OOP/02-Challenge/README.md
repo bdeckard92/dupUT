@@ -66,6 +66,7 @@ lib/				   // classes
 src/				   // template helper code
 index.js		 	 // runs the application
 .gitignore     // indicates which folders and files Git should ignore
+
 ```
 
 **Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
