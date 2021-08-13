@@ -8,6 +8,8 @@ In this module, students learn three web development technologies that are essen
 
 In this week's virtual classes, you will welcome students to the first module of the course. You'll also teach them about the basics of HTML, attributes, CSS selectors, the CSS Box Model, and CSS positioning.
 
+The following table lists this module's key topics and where they are taught in the asynchronous content:
+
 | Day | Topic               | Location  |
 | --- | --------------      | --------- |
 | 1   | HTML                | 1.1 - 1.7 |
@@ -58,6 +60,8 @@ The following table contains a description of each lesson's portion of the modul
 
 ## Virtual Classes
 
+Use the following links to access the lesson plans for this week's virtual classes:
+
 * [Virtual Class 01.1](./01.1-REQUIRED.md)
 
 * [Virtual Class 01.2](./01.2-REQUIRED.md)
@@ -98,7 +102,7 @@ According to our class data, students might experience some of the following pai
 
 Every lesson contains a Career Connection section that links the academic content with Career Services and students' future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for Career Services workshops](https://careerservicesonlineevents.splashthat.com/).
 
 If you want to learn more about Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
 
@@ -122,7 +126,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new to you or it's been a while since you used them, be sure to review the activities in advance.
+Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new to you or it's been a while since you've used them, be sure to review the activities in advance.
 
 **Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
