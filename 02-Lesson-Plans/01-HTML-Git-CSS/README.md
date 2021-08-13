@@ -60,7 +60,7 @@ The following table contains a description of each lesson's portion of the modul
 
 ## Virtual Classes
 
-Use the following links to access the lesson plans for this week's virtual classes:
+Here are the lesson plans for this week's virtual classes:
 
 * [Virtual Class 01.1](./01.1-REQUIRED.md)
 
