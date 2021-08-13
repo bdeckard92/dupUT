@@ -18,7 +18,7 @@ At the end of this week, your group will present the application to your classma
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Employer-Ready vs Employer-Competitive](https://github.com/coding-boot-camp/fullstack-prework/pull/80/intro)
+* [Employer-Ready vs Employer-Competitive](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp)
 
 * [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 

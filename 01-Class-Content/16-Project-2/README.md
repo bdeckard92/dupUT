@@ -12,7 +12,7 @@ Once you get an interview, you must then be able to present your project and dem
 
 ## Helpful Links
 
-* [Employer-Ready vs Employer-Competitive](https://github.com/coding-boot-camp/fullstack-prework/pull/80/intro)
+* [Employer-Ready vs Employer-Competitive](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp)
 
 * [Guide on how to connect a GitHub repo to Heroku](../../01-Class-Content/15-Project-2/04-Supplemental/GitHubHerokuConnect.md)
 
