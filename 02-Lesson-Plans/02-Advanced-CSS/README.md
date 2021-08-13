@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn how to use powerful layout capabilities, such as media queries and flexbox, to make webpages mobile-responsive. This module teaches Git workflow, including moving among branches and resolving merge conflicts.
 
-In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties, like pseudo-classes and CSS variables.
+In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties such as pseudo-classes and CSS variables.
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
@@ -28,7 +28,7 @@ Why are students learning advanced CSS?
 
 Throughout the async module this week, students will use advanced CSS to do the following:
 
-* Create a mobile-responsive layout using advanced CSS layout techniques like flexbox.
+* Create a mobile-responsive layout using advanced CSS layout techniques, including flexbox.
 
 * Create a fully mobile-responsive website using media queries.
 
@@ -36,7 +36,7 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 * Publish the page to the web using GitHub Pages.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
 
 | Lesson | Description      | Key Points                                                                             |
 | ------ | ---------------- | -------------------------------------------------------------------------------------- |
