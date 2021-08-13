@@ -6,6 +6,8 @@ In this module, students will build on their foundational HTML, CSS, and Git ski
 
 In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties such as pseudo-classes and CSS variables.
 
+The following table lists this module's key topics and where they are taught in the asynchronous content:
+
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
 | 1   | Wireframing       | 2.1      |
@@ -38,6 +40,8 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 **Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
 
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
+
 | Lesson | Description      | Key Points                                                                             |
 | ------ | ---------------- | -------------------------------------------------------------------------------------- |
 | 1      | Git Workflow     | Versioning with Git, `checkout` branches, sync with remote, resolve merge conflicts    |
@@ -47,6 +51,8 @@ Throughout the async module this week, students will use advanced CSS to do the 
 | 5      | CSS Enhancements | CSS variables, selectors, publishing to GH pages                                       |
 
 ## Virtual Classes
+
+Here are the lesson plans for this week's virtual classes:
 
 * [Virtual Class 02.1](./02.1-REQUIRED.md)
 
@@ -62,21 +68,21 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 ### Common Pain Points
 
-According to our class data, students might experience some of the following pain points throughout the week:
+According to our class data, students might experience some of the following pain points this week:
 
-| Pain Point                       | Recommendation                                                                                                      |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
-| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                   |
-| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
+| Pain Point                       | Recommendation                                                                                                                                 |
+| -------------------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Selecting elements               | Refer to [MDN Web Docs on CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)                         |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                                              |
+| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website [CSS Tricks](https://css-tricks.com/). |
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+Every lesson contains a Career Connection section that links the academic content with Career Services and students' future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for Career Services workshops](https://careerservicesonlineevents.splashthat.com/).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you want to learn more about Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
 
 ## Module Challenge
 
@@ -84,7 +90,7 @@ Students will be creating their first portfolio page from scratch using advanced
 
 [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
 
-Specific skills that students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Organizing content using flexbox
 
@@ -100,6 +106,8 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
 * [Wikipedia Page on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
 
 * [MDN Web Docs on flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -112,7 +120,7 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Algorithms
 
-N/A
+There are no algorithms for Module 2.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
