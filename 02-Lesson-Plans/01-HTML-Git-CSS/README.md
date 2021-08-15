@@ -68,9 +68,9 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Review the difference between a module project and the Challenge. The Challenge can be thought of as homework, whereas the module project is what students build as they work through the asynchronous lessons in Canvas. Even though completion of the module project is not required, students are advised to be familiar with the material before attending class.
+* Review the difference between the module project and the Challenge. The Challenge can be thought of as homework, whereas the module project is what students build as they work through the asynchronous lessons in Canvas. Even though completion of the module project is not required, students are advised to be familiar with the material before attending class, and working on it teaches them the skills they need in order to complete the Challenge. Encourage them to complete as much of it as they can!
 
-* Students will likely struggle to get all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for success in this module:
+* Students might struggle to get all of their development tools installed and configured. Use Office Hours to assist students in troubleshooting installations and configurations. The following tools take top priority for this module (and the remainder of the course):
 
   * Slack
 
@@ -108,7 +108,7 @@ If you want to learn more about Career Services, visit the [Career Services reso
 
 ## Module Challenge
 
-For the [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge), students will refactor an existing webpage that currently falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding `alt` attributes to images. These changes will improve SEO and allow accessibility tools, such as screen readers, to effectively parse and communicate the page's layout and contents.
+For the [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge), students will refactor an existing webpage that falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding `alt` attributes to images. These changes will improve SEO and allow accessibility tools, such as screen readers, to effectively parse and communicate the page's layout and contents.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 

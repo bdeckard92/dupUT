@@ -1,5 +1,4 @@
 # 📖 Implement CSS Box Model Properties to Design Layout
-
 Work with a partner to implement the following user story:
 
 * As a developer, I want to use the CSS box model properties to position four boxes inside a frame.
@@ -16,9 +15,9 @@ Work with a partner to implement the following user story:
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
-[MDN Web Docs on CSS basic box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+[MDN Web Docs on CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
 
 [MDN Web Docs on padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 
@@ -36,7 +35,7 @@ The following image demonstrates the web application's appearance and functional
 
 ## 💡 Hints
 
-How can we use the `margin` property to define space between elements?
+How can we use the `margin` property to define the space between elements?
 
 ## 🏆 Bonus
 
