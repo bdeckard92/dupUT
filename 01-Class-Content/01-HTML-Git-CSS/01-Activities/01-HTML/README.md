@@ -26,13 +26,13 @@ You can use this [placeholder image](https://via.placeholder.com/200).
 
 ## 💡 Hints
 
-How can you use header elements to define the most important heading and the subheaders? How will using different header elements impact the size of the text?
+How can you use header elements to define the most important heading and the subheaders? How does using different header elements impact the size of the text?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What are the advantages of using semantic elements in your HTML?
+* What are the advantages of using semantic HTML elements?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

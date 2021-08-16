@@ -2,7 +2,7 @@
 
 Work with a partner to implement the following user story:
 
-* As a developer, I want to use the CSS position property to change the layout of my page.
+* As a developer, I want to use the CSS `position` property to change the layout of my page.
 
 ## Acceptance Criteria
 
