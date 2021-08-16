@@ -96,7 +96,7 @@ According to our class data, students might experience some of the following pai
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SSH keys          | Refer students to [Generating a New SSH Key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). |
 | Account setup     | Refer students to [GitHub](https://github.com) and [GitLab](https://gitlab.com/).                                                                                 |
-| GitHub Pages      | Refer students to the "Publish with GitHub Pages" section of Lesson 1 or [GitHub Pages](https://pages.github.com/).                                               |
+| GitHub Pages      | Refer students to the "Publish with GitHub Pages" section of Lesson 1 or the official documentation for [GitHub Pages](https://pages.github.com/).                |
 | Out-of-class help | Explain how to contact Learning Assistants using Slack, the value of Office Hours, and the role of tutors and classmates as sources of support. Encourage study groups. |
 
 ## Career Connection
