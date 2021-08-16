@@ -126,7 +126,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, you will review flexbox, CSS Grid, and other advanced CSS topics. If these are new to you or it's been a while since you've used them, be sure to review the activities in advance.
+Next unit, you will review wireframing, CSS Flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
 
 **Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
