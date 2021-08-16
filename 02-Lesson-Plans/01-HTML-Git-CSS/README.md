@@ -101,11 +101,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-Every lesson contains a Career Connection section that links the academic content with Career Services and students' future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for Career Services workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you want to learn more about Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
@@ -127,7 +127,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next unit, you will review wireframing, CSS Flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
+Next unit, you will review wireframing, flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
 
 **Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
