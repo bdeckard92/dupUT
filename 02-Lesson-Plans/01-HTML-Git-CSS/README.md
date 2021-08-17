@@ -48,15 +48,15 @@ Throughout the async module this week, students will use HTML, CSS, and Git to d
 
 The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
-| Lesson                                 | Description                                                                       | Key Points                                             |
-| -------------------------------------- | --------------------------------------------------------------------------------  | ------------------------------------------------------ |
-| 1 - Set Up the Project                  | Get up and running with the basics.                                               | Publishing to GitHub Pages, common Git commands |
-| 2 - Build the Header and Footer         | Create the Run Buddy webpage, starting with the header and footer. | Relative paths, CSS selectors, HTML attributes         |
-| 3 - Create the Hero                     | Create a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
-| 4 - Build the Two Main Content Sections | Create "What We Do" and "What You Do" sections of Run Buddy.                       | Chrome dev tools, multiple CSS classes                 |
-| 5 - Meet the Trainers                   | Create section elements to build out the page.                                    | CSS `float`, CSS classes, specificity in elements      |
-| 6 - Build the Contact Section           | Create a contact section for the Run Buddy website.                               | Reusable CSS, columns using `display`, `iframe`       |
-| 7 - Add a Privacy Policy                | Add a privacy policy page to the Run Buddy website.                               | Linking multiple CSS files                             |
+| Lesson | Description | Key Points |
+| ------ | ----------  | -----------|
+| 1      | Get up and running with the basics.   | Publishing to GitHub Pages, common Git commands |
+| 2      | Create the Run Buddy webpage, starting with the header and footer. | Relative paths, CSS selectors, HTML attributes         |
+| 3      | Create a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
+| 4      | Create "What We Do" and "What You Do" sections of Run Buddy.   | Chrome dev tools, multiple CSS classes                 |
+| 5      | Create section elements to build out the page.                  | CSS `float`, CSS classes, specificity in elements      |
+| 6      | Create a contact section for the Run Buddy website.             | Reusable CSS, columns using `display`, `iframe`       |
+| 7      | Add a privacy policy page to the Run Buddy website.             | Linking multiple CSS files                             |
 
 ## Virtual Classes
 
