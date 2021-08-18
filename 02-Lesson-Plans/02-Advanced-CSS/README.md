@@ -11,10 +11,10 @@ The following table lists this module's key topics and where they are taught in 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
 | 1   | Wireframing       | 2.1      |
-| 1   | Flexbox Layout    | 2.2      |
-| 2   | Responsive Design | 2.2, 2.3 |
-| 2   | Pseudo-Classes    | 2.4      |
-| 2   | CSS Variables     | 2.5      |
+| 1   | Flexbox layout    | 2.2      |
+| 2   | Responsive design | 2.2, 2.3 |
+| 2   | Pseudo-classes    | 2.4      |
+| 2   | CSS variables     | 2.5      |
 
 ## Overview of Asynchronous Material
 
@@ -44,11 +44,11 @@ The following table contains a description of each lesson's portion of the modul
 
 | Lesson | Description      | Key Points                                                                             |
 | ------ | ---------------- | -------------------------------------------------------------------------------------- |
-| 1      | Git Workflow     | Versioning with Git, `checkout` branches, sync with remote, resolve merge conflicts    |
+| 1      | Git workflow     | Versioning with Git, `checkout` branches, syncing with remote, resolving merge conflicts    |
 | 2      | Flexbox          | Row and column layouts, aligning content using flexbox, spacing elements using flexbox |
-| 3      | Media Queries    | Developing for mobile, `meta` elements to improve UX, CSS rules per screen size        |
+| 3      | Media queries    | Developing for mobile, `meta` elements to improve UX, CSS rules for screen size        |
 | 4      | Pretty CSS       | Rounded corners, state indicators, shadow properties, opacity                          |
-| 5      | CSS Enhancements | CSS variables, selectors, publishing to GitHub pages                                   |
+| 5      | CSS enhancements | CSS variables, selectors, publishing to GitHub Pages                                   |
 
 ## Virtual Classes
 
@@ -60,9 +60,9 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is expected, and that it's not essential to master CSS at this point, if ever.
+* This module is long and covers a lot of ground. Students might be feeling overwhelmed. Ensure them that this feeling is expected, and that it's not essential to master CSS at this point, if ever.
 
-* Students will be at an early stage in their work on the module, so be prepared to answer questions related to the first few lessons.
+* At the time of this class, students will be at an early stage in their module project, so be prepared to answer questions related to the first few lessons.
 
 * Even though flexbox seems simple at first glance, this is students' first exposure to CSS. Review the activities ahead of time to be sure that you are familiar with what they will encounter.
 
@@ -72,17 +72,17 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                       | Recommendation                                                                                                                                 |
 | -------------------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------|
-| Selecting elements               | Refer to [MDN Web Docs on CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).                        |
+| Selecting elements               | Refer to the [MDN Web Docs on CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).                    |
 | Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                                              |
 | Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. A great example can be found on the website [CSS Tricks](https://css-tricks.com/).   |
 
 ## Career Connection
 
-Every lesson contains a Career Connection section that links the academic content with Career Services and students' future career.
+Every lesson contains a Career Connection section that links the academic content with career services and students' future careers.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for Career Services workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you want to learn more about Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
