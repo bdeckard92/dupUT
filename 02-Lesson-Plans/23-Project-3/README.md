@@ -6,13 +6,7 @@ In this week's virtual classes, you will provide support for the students as the
 
 ## Virtual Classes
 
-If your class started **AFTER** January 1, 2021, use these lesson plans:
-
 * [Virtual Class 23.1](./23.1-REQUIRED.md)
-
-If your class started **BEFORE** January 1, 2021, use these lesson plans:
-
-* [Virtual Class (Recommended) 23.1](./23.1-RECOMMENDED.md)
 
 ## Instructor Notes
 
@@ -22,11 +16,11 @@ If your class started **BEFORE** January 1, 2021, use these lesson plans:
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
@@ -34,7 +28,7 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's second virtual class.
+* Students will submit and present their group projects during next week's second virtual class.
 
 * Remind students that they should connect their repository to Heroku for automatic deployment. Students can refer to Module 21 Lesson 6 on how to do this.
 
