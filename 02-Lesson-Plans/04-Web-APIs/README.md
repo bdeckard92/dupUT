@@ -4,15 +4,15 @@
 
 In this module, students will learn about **application programming interfaces (APIs)**. The term API can refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, but it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the **Document Object Model, or DOM**, and how to traverse through it using built-in methods and objects.
 
-In this week's virtual classes, you'll review DOM manipulation and traversal, event handling, timers, and `localStorage`.
+In this week's virtual classes, you'll review creating and appending to the DOM using JavaScript, initializing event listeners, timers, data attributes, and `localStorage`.
 
 | Day | Topic                                   | Location |
 | --- | --------------------------------------- | -------- |
-| 1   | DOM Manipulation                        | 4.1, 4.3 |
-| 1   | `addEventListener()`                    | 4.1, 4.2 |
-| 2   | Timers                                  | 4.1      |
+| 1   | Create and Append to the DOM            | 4.1 - 4.3|
+| 1   | `addEventListener()`                    | 4.1 - 4.3|
+| 2   | Timers                                  | N/A      |
+| 2   | Data Attributes                         | 4.3      |
 | 2   | `localStorage`                          | 4.4      |
-| 2   | `Math.floor`, `Math.random`, `prompt()` | 4.4      |
 
 ## Overview of Asynchronous Material
 
