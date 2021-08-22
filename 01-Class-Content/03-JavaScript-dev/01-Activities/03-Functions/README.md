@@ -6,20 +6,19 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I provide two values in function arguments and the function evaluates the values' equality. 
+* It is done when I provide two values in function arguments and the function evaluates the values' equality. 
 
-* It's done if, when the values are strictly equal, the message "They are equal in type and value" is logged. 
+* It is done if, when the values are strictly equal, the message "They are equal in type and value" is logged. 
 
-* It's done if, when the two values are equal but not strictly equal, the message "They are equal in value" is logged.
+* It is done if, when the two values are equal but not strictly equal, the message "They are equal in value" is logged.
 
-* It's done if, when the values are not equal or strictly equal, the message "The values are not equal" is logged.
+* It is done if, when the values are not equal or strictly equal, the message "The values are not equal" is logged.
 
 ## 📝 Notes
 
 Refer to the documentation: 
 
 [MDN Web Docs on functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-
 
 ## 💡 Hints
 
@@ -34,5 +33,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

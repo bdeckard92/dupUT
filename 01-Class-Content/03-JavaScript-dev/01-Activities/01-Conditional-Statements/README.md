@@ -6,13 +6,13 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when the message "True ✅ True ✅" is logged when both `expression1` and `expression2` are true.
+* It is done when the message "True ✅ True ✅" is logged when both `expression1` and `expression2` are true.
 
-* It's done when the message "True ✅ False ❌" is logged when `expression1` is true. 
+* It is done when the message "True ✅ False ❌" is logged when `expression1` is true. 
 
-* It's done when the message "False ❌ True ✅" is logged when `expression2` is true. 
+* It is done when the message "False ❌ True ✅" is logged when `expression2` is true. 
 
-* It's done when the message "False ❌ False ❌" is logged when both `expression1` and `expression2` are false. 
+* It is done when the message "False ❌ False ❌" is logged when both `expression1` and `expression2` are false. 
 
 ## 💡 Hints
 
@@ -27,5 +27,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
