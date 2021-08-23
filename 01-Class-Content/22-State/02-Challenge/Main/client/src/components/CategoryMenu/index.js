@@ -1,13 +1,16 @@
 import React, { useEffect } from 'react';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { useDispatch, useSelector } from 'react-redux';
-import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
+import {
+  UPDATE_CATEGORIES,
+  UPDATE_CURRENT_CATEGORY,
+} from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
   const dispatch = useDispatch();
-  const state = useSelector(state => state);
+  const state = useSelector((state) => state);
 
   const { categories } = state;
 
@@ -17,32 +20,32 @@ function CategoryMenu() {
     if (categoryData) {
       dispatch({
         type: UPDATE_CATEGORIES,
-        categories: categoryData.categories
+        categories: categoryData.categories,
       });
-      categoryData.categories.forEach(category => {
+      categoryData.categories.forEach((category) => {
         idbPromise('categories', 'put', category);
       });
     } else if (!loading) {
-      idbPromise('categories', 'get').then(categories => {
+      idbPromise('categories', 'get').then((categories) => {
         dispatch({
           type: UPDATE_CATEGORIES,
-          categories: categories
+          categories: categories,
         });
       });
     }
   }, [categoryData, loading, dispatch]);
 
-  const handleClick = id => {
+  const handleClick = (id) => {
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id
+      currentCategory: id,
     });
   };
 
   return (
     <div>
       <h2>Choose a Category:</h2>
-      {categories.map(item => (
+      {categories.map((item) => (
         <button
           key={item._id}
           onClick={() => {
