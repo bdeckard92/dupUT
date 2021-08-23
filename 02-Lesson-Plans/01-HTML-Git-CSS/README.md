@@ -8,7 +8,7 @@ In this module, students learn three web development technologies that are essen
 
 In this week's virtual classes, you will welcome students to the first module of the course. You'll also teach them about the basics of HTML, attributes, CSS selectors, the CSS Box Model, and CSS positioning.
 
-The following table lists this module's key topics and where they are taught in the asynchronous content:
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day | Topic               | Location  |
 | --- | --------------      | --------- |
@@ -62,9 +62,9 @@ The following table contains a description of each lesson's portion of the modul
 
 Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 01.1](./01.1-REQUIRED.md)
+* [01.1 Virtual Class](./01.1-REQUIRED.md)
 
-* [Virtual Class 01.2](./01.2-REQUIRED.md)
+* [01.2 Virtual Class](./01.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -101,11 +101,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+Each virtual lesson contains a Career Connection section that links the academic content with career services and students' future careers.
 
-Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
@@ -127,7 +127,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next unit, you will review wireframing, flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
+Next week, you will review wireframing, flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
 
 **Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
