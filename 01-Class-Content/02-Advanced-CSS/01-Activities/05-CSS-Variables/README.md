@@ -6,9 +6,9 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when any repeated color values are defined once as a CSS variable.
+* It is done when any repeated color values are defined once as a CSS variable.
 
-* It's done when any repeated border radius values are defined once as a CSS variable.
+* It is done when any repeated border radius values are defined once as a CSS variable.
 
 ---
 
@@ -16,7 +16,7 @@ Work with a partner to implement the following user story:
 
 * How can we declare CSS variables, also known as CSS custom properties, on the `:root` pseudo-class?
 
-* How can we use those custom property values instead of using values that are repeated throughout the style sheet such as `#fff`?
+* How can we use those custom property values instead of using values that are repeated throughout the style sheet, such as `#fff`?
 
 ## 🏆 Bonus
 

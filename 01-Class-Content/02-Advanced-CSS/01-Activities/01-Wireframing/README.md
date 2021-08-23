@@ -8,7 +8,7 @@ Work with a partner to implement the following user story:
 
 * It is done when I have created a wireframe using Google Slides that has the correct elements grouped together based on the web app's columns and rows.
 
-* It is done when I have completed the wireframe of the CSS snippet cheat sheet mini-project.
+* It is done when I have completed the wireframe of the CSS snippet cheat-sheet mini-project.
 
 ## Assets
 
@@ -22,7 +22,7 @@ The following image shows a wireframe that depicts the web application's appeara
 
 2. Using the tools highlighted in the following image, create a wireframe that includes all the elements that you need for the project:
 
-![Google Slide tools outlined in red.](./Images/02-google-slides-tool-highlight.png)
+   ![Google Slide tools outlined in red.](./Images/02-google-slides-tool-highlight.png)
 
 ---
 

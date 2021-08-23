@@ -8,7 +8,7 @@ Work with a partner to resolve the following issues:
 
 ## Expected Behavior
 
-  Product cards that don't fit within the first row should display on the next row.
+Product cards that don't fit within the first row should display in the next row.
 
 ## Actual Behavior
 
@@ -18,7 +18,7 @@ Product cards run off the page in a single row.
 
 The following image demonstrates the web application's appearance:
 
-![On an online store's webpage, products are spread over two stacked rows of three cards each.](./Images/01-product-grid.png)
+![In an online store's webpage, products are spread over two stacked rows of three cards each.](./Images/01-product-grid.png)
 
 ---
 
