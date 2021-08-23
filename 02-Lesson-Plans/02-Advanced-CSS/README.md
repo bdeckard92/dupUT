@@ -2,11 +2,11 @@
 
 ## Overview
 
-In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn how to use powerful layout capabilities, such as media queries and flexbox, to make webpages mobile-responsive. This module teaches Git workflow, including moving among branches and resolving merge conflicts.
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn how to use powerful CSS layout tools, such as media queries and flexbox, to make their webpages mobile-responsive. This module also teaches Git workflow, including moving among branches and resolving merge conflicts.
 
 In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties such as pseudo-classes and CSS variables.
 
-The following table lists this module's key topics and where they are taught in the asynchronous content:
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
@@ -54,9 +54,9 @@ The following table contains a description of each lesson's portion of the modul
 
 Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 02.1](./02.1-REQUIRED.md)
+* [02.1 Virtual Class](./02.1-REQUIRED.md)
 
-* [Virtual Class 02.2](./02.2-REQUIRED.md)
+* [02.2 Virtual Class](./02.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -86,7 +86,7 @@ If you'd like more information about career services, visit the [career services
 
 ## Module Challenge
 
-For the [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge), students will create their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding to and improving the portfolio page that they create in this Challenge.
+For the [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge), students will create their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding to and improving the portfolio page.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
