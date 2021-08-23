@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this module, students will learn the foundations of JavaScript, one of the three core technologies of web development. While HTML is used for the content of a website and CSS is used for styling, JavaScript handles the computational logic. This module teaches students logical problem-solving skills, and it also introduces them to loops, conditionals, functions, and built-in JavaScript Objects. These skills are needed not only for a solid understanding of JavaScript but other programming languages as well.
+In this module, students learn the foundations of JavaScript, one of the three core technologies of web development. While HTML is used for the content of a website and CSS is used for styling, JavaScript handles the computational logic. This module gives students a lot of practice with logical problem-solving, and it also introduces them to loops, conditionals, functions, and built-in JavaScript objects. These skills lend themselves to a solid understanding of JavaScript, and to other object-oriented programming languages as well.
 
-In this week's virtual classes, you'll introduce **weekly algorithms** which students will complete to prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, scope, objects, and the `this` keyword.
+In this week's virtual classes, you'll introduce **weekly algorithms**, which students will complete to help prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, scope, objects, and the `this` keyword.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
@@ -26,13 +26,13 @@ Why are students learning JavaScript?
 
 * JavaScript gives students the tools to build interactive web applications.
 
-* JavaScript empowers students to solve complex problems with logic.
+* JavaScript empowers students to solve complex problems using logic.
 
 * JavaScript prepares students for an easy transition to back-end development when they begin using Node.js.
 
 Throughout the async module this week, students will use JavaScript to do the following:
 
-* Identify and declare variables containing primitive and object data types in JavaScript.
+* Identify and declare variables that contain primitive and object data types in JavaScript.
 
 * Write `for` loops to iterate over strings and arrays.
 
@@ -44,7 +44,9 @@ Throughout the async module this week, students will use JavaScript to do the fo
 
 * Explain and implement comparison and logical operators.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson | Description                                | Key Points                                                                        |
 | ------ | ------------------------------------------ | --------------------------------------------------------------------------------- |
@@ -88,7 +90,7 @@ If you'd like more information about career services, visit the [career services
 
 ## Module Challenge
 
-In the [Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge), students will modify starter code to build a password generator using JavaScript for this week's Challenge. This app will run in the browser and feature dynamically updated HTML and CSS, powered by the JavaScript code that students create. It will also feature a clean, responsive user interface, ensuring compatibility with multiple screen sizes.
+In the [Module 03 Challenge](../../01-Class-Content/03-JavaScript/02-Challenge), students will modify JavaScript starter code to build a password generator. This app will run in the browser and feature dynamically updated HTML and CSS, powered by the JavaScript code that students create. It will also feature a clean, responsive user interface to ensure compatibility with multiple screen sizes.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
@@ -106,7 +108,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, you will cover in-browser Web APIs that you can access through JavaScript. You will also cover traversing the DOM and creating elements dynamically.
+Next week, you will cover in-browser Web APIs that can be accessed through JavaScript. You will also cover traversing the DOM and creating elements dynamically.
 
 ## Resources
 
