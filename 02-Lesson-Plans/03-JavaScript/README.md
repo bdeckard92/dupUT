@@ -60,13 +60,11 @@ The following table contains a description of each lesson's portion of the modul
 
 Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 03.1](./03.1-REQUIRED.md)
+* [03.1 Virtual Class](./03.1-REQUIRED.md)
 
-* [Virtual Class 03.2](./03.2-REQUIRED.md)
+* [03.2 Virtual Class](./03.2-REQUIRED.md)
 
 ## Instructor Notes
-
-Here are some things to keep in mind as you prepare for this week's virtual classes:
 
 * The jump from HTML and CSS to JavaScript can be challenging for students. Be prepared to answer a lot of questions and use Office Hours to review programming fundamentals.
 
@@ -108,7 +106,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, you will cover in-browser Web APIs that can be accessed through JavaScript. You will also cover traversing the DOM and creating elements dynamically.
+Next week, you will cover in-browser Web APIs that can be accessed through JavaScript. You will also review how to traverse the DOM and create elements dynamically.
 
 ## Resources
 
