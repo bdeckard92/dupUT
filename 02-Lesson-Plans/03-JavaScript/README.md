@@ -76,13 +76,13 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                        | Recommendation                                                                                                                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Web Docs on scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)..                                 |
-| Order of operations               | Provide a brief overview of the concurrency model. Refer to the [MDN Web Docs on concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)..                    |
+| Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Web Docs on scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope).                                 |
+| Order of operations               | Provide a brief overview of the concurrency model. Refer to the [MDN Web Docs on concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop).                    |
 | Varying syntax in documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Let them know that we will start with ES5 and later move into ES6. |
 
 ## Career Connection
 
-Every lesson contains a Career Connection section that links the academic content with career services and students' future careers.
+Each virtual lesson contains a Career Connection section that links the academic content with career services and students' future careers.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
