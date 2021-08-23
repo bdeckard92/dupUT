@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students learn the foundations of JavaScript, one of the three core technologies of web development. While HTML is used for the content of a website and CSS is used for styling, JavaScript handles the computational logic. This module gives students a lot of practice with logical problem-solving, and it also introduces them to loops, conditionals, functions, and built-in JavaScript objects. These skills lend themselves to a solid understanding of JavaScript, and to other object-oriented programming languages as well.
+In this module, students learn the foundations of JavaScript, one of the three core technologies of web development (HTML, CSS, and JavaScript). While HTML is used for the content of a website and CSS is used for styling, JavaScript handles the computational logic. This module gives students a lot of practice with logical problem-solving, and it also introduces them to loops, conditionals, functions, and built-in JavaScript objects. These skills will not only give students a solid understanding of JavaScript, they will allow them to more easily learn other object-oriented programming languages as well.
 
 In this week's virtual classes, you'll introduce **weekly algorithms**, which students will complete to help prepare for technical interviews. In terms of the module content, you will review conditional statements, iteration, functions, scope, objects, and the `this` keyword.
 
@@ -22,7 +22,7 @@ Why are students learning JavaScript?
 
 * JavaScript is the most important language used in web development.
 
-* Learning JavaScript prepares students for understanding computer science concepts by introducing them to loops, conditionals, and functions.
+* Learning JavaScript prepares students to understand computer science concepts by introducing them to loops, conditionals, and functions.
 
 * JavaScript gives students the tools to build interactive web applications.
 
@@ -78,7 +78,7 @@ According to our class data, students might experience some of the following pai
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Scoping                           | Provide examples of function scope vs. global scope. Refer to the [MDN Web Docs on scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)..                                 |
 | Order of operations               | Provide a brief overview of the concurrency model. Refer to the [MDN Web Docs on concurrency](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)..                    |
-| Different syntax in documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Advise students that we will start with ES5 and later move into ES6. |
+| Varying syntax in documentation | Advise students that they will see different syntax for the same operation as a result of ECMAScript versioning. Let them know that we will start with ES5 and later move into ES6. |
 
 ## Career Connection
 
