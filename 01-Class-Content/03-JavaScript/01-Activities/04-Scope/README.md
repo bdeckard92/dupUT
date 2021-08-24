@@ -2,11 +2,11 @@
 
 Work with a partner to resolve the following issue:
 
-* As a developer, I want to log messages to the console using variables declared in both global and local scope. 
+* As a developer, I want to log messages to the console using variables declared in both global and local scope.
 
 ## Expected Behavior
 
-When the console is opened, a series of messages should log to the console. 
+When the console is opened, a series of messages should log to the console.
 
 ## Actual Behavior
 
@@ -14,7 +14,7 @@ When the console is opened, an error message indicates that at least one variabl
 
 ## 💡 Hints
 
-Think about how the variable is being used. Is it being made available to all functions, or is it only being used by one function? 
+Think about how the variable is being used. Is it being made available to all functions, or is it only being used by one function?
 
 ## 🏆 Bonus
 

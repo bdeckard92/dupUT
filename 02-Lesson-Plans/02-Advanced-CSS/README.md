@@ -8,9 +8,9 @@ In this week's virtual classes, you'll review flexbox, media queries, and other 
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
-| 1   | Wireframing       | 2.1      |
-| 1   | Flexbox-Layout    | 2.2      |
-| 2   | Responsive Design | 2.2, 2.3 |
+| 1   | Flexbox-Cards     | 2.2      |
+| 1   | Media queries     | 2.3      |
+| 2   | Wireframing       | 2.2      |
 | 2   | Pseudo-Classes    | 2.4      |
 | 2   | CSS Variables     | 2.5      |
 
@@ -72,11 +72,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 

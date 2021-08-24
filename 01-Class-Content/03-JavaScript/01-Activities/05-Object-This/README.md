@@ -12,7 +12,7 @@ Refer to the documentation:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What does the `window` object represent? Is the global object always the `window` object? 
+* What does the `window` object represent? Is the global object always the `window` object?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
