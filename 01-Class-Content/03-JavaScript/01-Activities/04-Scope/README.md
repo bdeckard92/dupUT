@@ -1,6 +1,6 @@
 # 🐛 Messages Not Logging to Console Due to Undefined Variables
 
-Work with a partner to resolve the following issue(s):
+Work with a partner to resolve the following issue:
 
 * As a developer, I want to log messages to the console using variables declared in both global and local scope.
 

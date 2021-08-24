@@ -6,11 +6,11 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when the names of five classmates are stored in a single variable named `students`.
+* It is done when the names of five classmates are stored in a single variable named `students`.
 
-* It's done when the total number of elements in the `students` array is logged to the console.
+* It is done when the total number of elements in the `students` array is logged to the console.
 
-* It's done when, using a `for` loop, the greeting "Great to see you, CLASSMATE_NAME!" logs to the console for each classmate's name in the `students` array.
+* It is done when, using a `for` loop, the greeting "Great to see you, CLASSMATE_NAME!" logs to the console for each classmate's name in the `students` array.
 
 ## 💡 Hints
 
@@ -20,7 +20,7 @@ How can you access each element using the element's index and the array name?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What’s a `while` loop?
+* What is a `while` loop?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

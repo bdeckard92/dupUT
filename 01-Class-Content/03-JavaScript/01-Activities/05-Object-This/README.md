@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of this
 
-Work with a partner to add comments describing the functionality of the code found in [Unsolved](./Unsolved/script.js).
+Work with a partner to add comments that describe the functionality of the code found in [Unsolved](./Unsolved/script.js).
 
 ## Notes
 
