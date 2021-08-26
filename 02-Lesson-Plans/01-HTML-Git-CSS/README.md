@@ -101,7 +101,7 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-Each virtual lesson contains a Career Connection section that links the academic content with career services and students' future careers.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
