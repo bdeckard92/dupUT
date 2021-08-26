@@ -42,16 +42,20 @@ Throughout the async module this week, students will use Web APIs to do the foll
 
 * Research Web API documentation to implement new and unfamiliar interfaces.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson | Description           | Key Points                                                                                   |
 | ------ | --------------------- | -------------------------------------------------------------------------------------------- |
 | 1      | The DOM               | HTML and CSS, DOM as it relates to HTML, DOM API methods to handle clicks                    |
-| 2      | Work with Forms       | Create forms with select inputs, handle form submission, overriding default browser behavior |
-| 3      | Edit and Delete Tasks | DOM methods, create and select HTML elements, DOM traversal                                  |
-| 4      | Add Task Persistence  | `localStorage`, data persistence, deployment to GitHub pages                                 |
+| 2      | Work with forms       | Creating forms with select inputs, handling form submission, overriding default browser behavior |
+| 3      | Edit and delete tasks | DOM methods, creating and selecting HTML elements, DOM traversal                                  |
+| 4      | Add task persistence  | `localStorage`, data persistence, deploying to GitHub Pages                                 |
 
 ## Virtual Classes
+
+Here are the lesson plans for this week's virtual classes:
 
 * [Virtual Class 04.1](./04.1-REQUIRED.md)
 
@@ -75,7 +79,7 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
@@ -83,9 +87,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-Students will build a multiple-choice quiz that runs in the browser and features dynamically updated HTML. It also uses CSS for styling and is powered by JavaScript code. Students will ensure that the app features a polished user interface that adapts to multiple screen sizes.
-
-[Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge/README.md)
+In the [Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge/README.md), students will build a multiple-choice quiz that runs in the browser and features dynamically updated HTML. It also uses CSS for styling and is powered by JavaScript code. Students will ensure that the app features a polished user interface that adapts to multiple screen sizes.
 
 Specific skills students will need to implement to be successful:
 
