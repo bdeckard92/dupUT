@@ -4,9 +4,9 @@ Welcome, and thank you so much for being a part of our program! Thanks to instru
 
 ## Overview
 
-In this module, students learn three web development technologies that are essential to their success as a web developer. Students learn HTML as they create the basic structure for webpages. They learn CSS so that they can organize and style elements on the page. Finally, they learn how ot use Git and navigate the file system using the command line.
+In this module, students learn three web development technologies that are essential to their success as a web developer. Students learn HTML as they create the basic structure for webpages. They learn CSS so that they can organize and style elements on the page. Finally, they learn how to use Git and navigate the file system using the command line.
 
-In this week's virtual classes, you will welcome students to the first module of the course. You'll also teach them about the basics of HTML, attributes, CSS selectors, the CSS Box Model, and CSS positioning.
+In this week's virtual classes, you will welcome students to the first module of the course. You'll also teach them about the basics of HTML, attributes, CSS selectors, the CSS box model, and CSS positioning.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
@@ -14,9 +14,9 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | --------------      | --------- |
 | 1   | HTML                | 1.1 - 1.7 |
 | 1   | Attributes          | 1.2 - 1.7 |
-| 2   | CSS Selectors       | 1.1 - 1.7 |
-| 2   | Box Model           | 1.3       |
-| 2   | CSS Positioning     | 1.3       |
+| 2   | CSS selectors       | 1.1 - 1.7 |
+| 2   | Box model           | 1.3       |
+| 2   | CSS positioning     | 1.3       |
 
 ## Overview of Asynchronous Material
 
@@ -50,13 +50,13 @@ The following table contains a description of each lesson's portion of the modul
 
 | Lesson | Description | Key Points |
 | ------ | ----------  | -----------|
-| 1      | Get up and running with the basics.   | Publishing to GitHub Pages, common Git commands |
+| 1      | Get up and running with the basics.                                | Publishing to GitHub Pages, common Git commands        |
 | 2      | Create the Run Buddy webpage, starting with the header and footer. | Relative paths, CSS selectors, HTML attributes         |
 | 3      | Create a hero section for Run Buddy.                               | Form elements, block vs. inline, relative vs. absolute |
-| 4      | Create "What We Do" and "What You Do" sections of Run Buddy.   | Chrome dev tools, multiple CSS classes                 |
-| 5      | Create section elements to build out the page.                  | CSS `float`, CSS classes, specificity in elements      |
-| 6      | Create a contact section for the Run Buddy website.             | Reusable CSS, columns using `display`, `iframe`       |
-| 7      | Add a privacy policy page to the Run Buddy website.             | Linking multiple CSS files                             |
+| 4      | Create "What We Do" and "What You Do" sections of Run Buddy.       | Chrome dev tools, multiple CSS classes                 |
+| 5      | Create section elements to build out the page.                     | CSS `float`, CSS classes, specificity in elements      |
+| 6      | Create a contact section for the Run Buddy website.                | Reusable CSS, columns using `display`, `iframe`        |
+| 7      | Add a privacy policy page to the Run Buddy website.                | Linking multiple CSS files                             |
 
 ## Virtual Classes
 
@@ -109,7 +109,7 @@ If you'd like more information about career services, visit the [career services
 
 ## Module Challenge
 
-For the [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge), students will refactor an existing webpage that falls short of acceptable accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding `alt` attributes to images. These changes will improve SEO and allow accessibility tools, such as screen readers, to effectively parse and communicate the page's layout and contents.
+For the [Module 01 Challenge](../../01-Class-Content/01-HTML-Git-CSS/02-Challenge), students will refactor an existing webpage that does not meet accessibility standards for web development. Students will make the page easier to access by implementing a semantic structure of HTML elements and adding `alt` attributes to images. These changes will improve SEO and allow accessibility tools, such as screen readers, to effectively parse and communicate the page's layout and contents.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
@@ -127,7 +127,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, you will review wireframing, flexbox, responsive web design and advanced CSS topics, such as pseudo-classes and CSS variables.
+Next week, you will review wireframing, flexbox, responsive web design, and advanced CSS topics such as pseudo-classes and CSS variables.
 
 **Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](../../01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
