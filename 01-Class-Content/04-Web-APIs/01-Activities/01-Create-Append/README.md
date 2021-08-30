@@ -6,7 +6,7 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when an ordered list containing four favorite foods is visible in the HTML below the text "My favorite foods are:"
+* It's done when an ordered list containing four favorite foods is visible in the HTML below the text "My favorite foods are:".
 
 * It's done when the ordered list has a background color of `#333333` and padding of `20px`.
 
@@ -18,7 +18,7 @@ Work with a partner to implement the following user story:
 
 The following image demonstrates the web application's appearance and functionality:
 
-![The text "Welcome to my page," appears above a centered kitten photo, above the text "My favorite foods are:" and a list of four foods.](./images/01-screenshot.png)
+![The text "Welcome to my page" appears above a centered kitten photo, above the text "My favorite foods are:" and a list of four foods.](./images/01-screenshot.png)
 
 ---
 

@@ -14,7 +14,7 @@ SO THAT I can gauge my progress compared to my peers
 
 ```
 GIVEN I am taking a code quiz
-WHEN I click the start button
+WHEN I click the Start button
 THEN a timer starts and I am presented with a question
 WHEN I answer a question
 THEN I am presented with another question
