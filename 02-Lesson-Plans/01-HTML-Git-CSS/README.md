@@ -14,6 +14,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | --------------      | --------- |
 | 1   | HTML                | 1.1 - 1.7 |
 | 1   | Attributes          | 1.2 - 1.7 |
+| 1   | Git Guide           | N/A       |
 | 2   | CSS selectors       | 1.1 - 1.7 |
 | 2   | Box model           | 1.3       |
 | 2   | CSS positioning     | 1.3       |
