@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn about **application programming interfaces (APIs)**. The term API can refer to an interface that allows students to fetch data from a third-party like GitHub and IMDB, and it can also refer to the interface that is exposed via modern web browsers. For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the **Document Object Model, or DOM**, and how to traverse through it using built-in methods and objects.
+In this module, students learn about application programming interfaces, or APIs. The term "API" can refer to an interface that allows students to fetch data from a third party, such as GitHub or IMDB. "API" can also refer to the web interface that is exposed via modern web browsers (i.e., the Web API). For this module, students will use Web APIs to create dynamic, interactive web applications by taking advantage of objects included with modern web browsers. Students will also learn about the Document Object Model, or DOM, and how to traverse it using built-in methods and objects.
 
 In this week's virtual classes, you'll review creating and appending to the DOM using JavaScript, initializing event listeners, timers, data attributes, and `localStorage`.
 
@@ -24,7 +24,7 @@ Why are students learning Web APIs?
 
 * APIs allow students to interact with the DOM easier.
 
-* Using Web APIs encourages students to acquaint themselves with reading documentation, which is an important skill for a developer.
+* Using Web APIs encourages students to acquaint themselves with reading documentation, which is an important skill for all developers.
 
 * Learning Web APIs will help students differentiate between APIs that are built into the web browser and those that are provided by other libraries or third-party services.
 
@@ -36,7 +36,7 @@ Throughout the async module this week, students will use Web APIs to do the foll
 
 * Use DOM API methods to select and dynamically generate HTML elements and content.
 
-* Use DOM API methods to handle events such as key presses and mouse clicks.
+* Use DOM API methods to handle events, such as key presses and mouse clicks.
 
 * Set time-based events using time functions.
 
@@ -67,7 +67,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * This week's content will help students understand the purpose of JavaScript in front-end web development. The DOM can be a challenging concept to immediately understand. Emphasize the role of objects in both the DOM and JavaScript to reinforce the connection, and feel free to modify and improvise activities to demonstrate the dozens of methods and approaches available.
 
-* Students do not use timers in the module project, but they will need to use timers for the Challenge. Therefore, they might need extra guidance during the virtual classes on this topic. Be prepared to help the students if they have questions when they do the activity on timers.
+* Students do not use timers in the module project, but they do need to use timers for the Challenge. Therefore, they might need extra guidance during the virtual classes on this topic. Be prepared to help the students if they have questions when they do the activity on timers.
 
 ### Common Pain Points
 
@@ -89,7 +89,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-For the [Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge/README.md), students will build a multiple-choice quiz that runs in the browser and features dynamically updated HTML. It also uses CSS for styling and is powered by JavaScript code. Students will ensure that the app features a polished user interface that adapts to multiple screen sizes.
+For the [Module 04 Challenge](../../01-Class-Content/04-Web-APIs/02-Challenge/README.md), students will build a multiple-choice quiz that runs in the browser and features dynamically updated HTML. The quiz uses CSS for styling and is powered by JavaScript code. Students will ensure that the app features a polished user interface that adapts to multiple screen sizes.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
