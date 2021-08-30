@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of Event Handlers on Mouse Clicks
 
-Work with a partner to add comments describing the functionality of the code found in [Unsolved](./Unsolved/assets/js/script.js).
+Work with a partner to add comments that describe the functionality of the code found in [Unsolved](./Unsolved/assets/js/script.js).
 
 ## 📝 Notes
 
