@@ -12,6 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | ----------------- | -------- |
 | 1   | Wireframing       | 2.1      |
 | 1   | Flexbox layout    | 2.2      |
+| 1   | Git Guide         | N/A      |
 | 2   | Responsive design | 2.2, 2.3 |
 | 2   | Pseudo-classes    | 2.4      |
 | 2   | CSS variables     | 2.5      |
