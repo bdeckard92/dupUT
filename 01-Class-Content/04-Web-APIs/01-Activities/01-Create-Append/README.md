@@ -6,13 +6,13 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when an ordered list containing four favorite foods is visible in the HTML below the text "My favorite foods are:".
+* It is done when an ordered list containing four favorite foods is visible in the HTML below the text "My favorite foods are:".
 
-* It's done when the ordered list has a background color of `#333333` and padding of `20px`.
+* It is done when the ordered list has a background color of `#333333` and padding of `20px`.
 
-* It's done when each list item has a font color of `white`, padding of `5px`, and `margin-left` of `35px`.
+* It is done when each list item has a font color of `white`, padding of `5px`, and `margin-left` of `35px`.
 
-* It's done when each list item has a different background color.
+* It is done when each list item has a different background color.
 
 ## Assets
 
