@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review flexbox, media queries, and other 
 | --- | ----------------- | -------- |
 | 1   | Flexbox-Cards     | 2.2      |
 | 1   | Media queries     | 2.3      |
+| 1   | Git Guide         | N/A      |
 | 2   | Wireframing       | 2.2      |
 | 2   | Pseudo-Classes    | 2.4      |
 | 2   | CSS Variables     | 2.5      |
@@ -112,6 +113,7 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Algorithms
 
-n/a
+N/A
 
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
