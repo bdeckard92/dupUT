@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 import { ADD_THOUGHT } from '../../utils/mutations';
 import { QUERY_THOUGHTS, QUERY_ME } from '../../utils/queries';
 
@@ -16,7 +16,7 @@ const ThoughtForm = () => {
         const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
         cache.writeQuery({
           query: QUERY_THOUGHTS,
-          data: { thoughts: [addThought, ...thoughts] }
+          data: { thoughts: [addThought, ...thoughts] },
         });
       } catch (e) {
         console.error(e);
@@ -26,13 +26,13 @@ const ThoughtForm = () => {
       const { me } = cache.readQuery({ query: QUERY_ME });
       cache.writeQuery({
         query: QUERY_ME,
-        data: { me: { ...me, thoughts: [...me.thoughts, addThought] } }
+        data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
       });
-    }
+    },
   });
 
   // update state based on form input changes
-  const handleChange = event => {
+  const handleChange = (event) => {
     if (event.target.value.length <= 280) {
       setText(event.target.value);
       setCharacterCount(event.target.value.length);
@@ -40,12 +40,12 @@ const ThoughtForm = () => {
   };
 
   // submit form
-  const handleFormSubmit = async event => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
 
     try {
       await addThought({
-        variables: { thoughtText }
+        variables: { thoughtText },
       });
 
       // clear form value
@@ -58,7 +58,9 @@ const ThoughtForm = () => {
 
   return (
     <div>
-      <p className={`m-0 ${characterCount === 280 || error ? 'text-error' : ''}`}>
+      <p
+        className={`m-0 ${characterCount === 280 || error ? 'text-error' : ''}`}
+      >
         Character Count: {characterCount}/280
         {error && <span className="ml-2">Something went wrong...</span>}
       </p>
