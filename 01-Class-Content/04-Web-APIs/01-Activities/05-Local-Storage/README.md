@@ -18,7 +18,7 @@ Use the following steps to reproduce the problem:
 
 1. Open `index.html` in your browser.
 
-2. Enter data in the form field and click the Save button.
+2. Enter data in the form field and click the Sign Up button.
 
 3. Navigate to Google DevTool's Application tab and note that no data has been saved as a string in `localStorage`.
 
