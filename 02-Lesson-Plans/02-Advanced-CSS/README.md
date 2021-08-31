@@ -107,7 +107,7 @@ Next week, you will introduce students to JavaScript. This might be a big leap f
 
 The following resources can help you prepare for this week's classes:
 
-* [Wikipedia on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
+* [Wikipedia entry on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
 
 * [MDN Web Docs on flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
