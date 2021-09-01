@@ -6,9 +6,9 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I click on a card and the hidden number is revealed.
+* It is done when I click on a card and the hidden number is revealed.
 
-* It's done when the number is visible if the card is clicked.
+* It is done when the number is visible if the card is clicked.
 
 ## Assets
 

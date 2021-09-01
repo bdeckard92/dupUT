@@ -26,13 +26,13 @@ The following animation demonstrates the web application's appearance and functi
 
 ## 💡 Hints
 
-How is `displayMessage()` utilizing the `setInterval()` and `clearInterval()` methods to display the words at an interval of 1000 milliseconds?
+How does `displayMessage()` use the `setInterval()` and `clearInterval()` methods to display the words at an interval of 1000 milliseconds?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What `window` method is used to delay an action for a set number of milliseconds? Why might this method be useful?
+* Which `window` method is used to delay an action for a set number of milliseconds? Why might this method be useful?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

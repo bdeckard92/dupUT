@@ -6,30 +6,32 @@ Work with a partner to implement the following user story:
 
 ## Expected Behavior
 
-When a user clicks the Sign Up button the form's current values are stored in a object as a string using `localStorage`.
+When a user clicks a Sign Up button, the form's current values are stored in an object as a string using `localStorage`.
 
 ## Actual Behavior
 
-When a user clicks the Sign Up button the form's current values are not stored in `localStorage`.
+When a user clicks a Sign Up button, the form's current values are not stored in `localStorage`.
 
 ## Steps to Reproduce the Problem
 
+Use the following steps to reproduce the problem:
+
 1. Open `index.html` in your browser.
 
-2. Enter data in the form field and click the Save button.
+2. Enter data in the form field and click the Sign Up button.
 
-3. Navigate to Google Dev Tool's Application tab and note that no data has been saved as a string in `localStorage`.
+3. Navigate to Google DevTool's Application tab and note that no data has been saved as a string in `localStorage`.
 
 ## Assets
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Image showing data inputted in form and saved as a string LocalStorage.](./assets/image_1.png)
+![Image showing data inputted in form and saved as a string in LocalStorage.](./assets/image_1.png)
 
 ---
 ## 💡 Hints
 
-What JSON method can you use to return a string?
+Which JSON method can you use to return a string?
 
 ## 🏆 Bonus
 
