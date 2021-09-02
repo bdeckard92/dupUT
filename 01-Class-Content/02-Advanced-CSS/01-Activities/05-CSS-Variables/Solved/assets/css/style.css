@@ -1,91 +1,107 @@
-* {
-  box-sizing: border-box;
-}
-
+/* Create CSS variables at the root of the document to be used throughout the style sheet */
 :root {
-  --light: #f9eded;
-  --light-blue: #337eaa;
-  --sapphire: #1d6768;
-  --dark-blue: #29364f;
-  --dark: #181b26;
+  --white: #fff;
+  --dark-blue: #13293d;
+  --tan: #d8a47f;
+  /* You can use it with any value that is repeated throughout the sheet */
+  --border-radius: 50px;
 }
 
 body {
-  background-color: var(--light);
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: cursive;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 header {
-  background-color: var(--dark-blue);
+  padding: 40px;
+  text-align: center;
+  /* Refer to CSS values by the name of the custom property we assigned it */
+  background: var(--dark-blue);
+  color: var(--white);
 }
 
-.header-wrapper {
-  width: 90%;
-  margin: 0 auto;
+nav {
+  display: flex;
+  background-color: var(--tan);
+}
+
+nav a {
+  color: var(--dark-blue);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+main {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
-.header-wrapper h1 {
-  margin: 0;
-  background-color: var(--sapphire);
-  padding: 20px 15px;
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--dark-blue);
+  color: var(--white);
+  margin-top: auto;
 }
 
-.header-wrapper h1 a {
-  color: var(--light);
-  text-decoration: none;
-}
-
-.header-wrapper nav {
-  margin-left: auto;
+.products {
+  flex: 1;
+  background-color: var(--white);
+  padding: 50px;
   display: flex;
-  flex-wrap: auto;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.header-wrapper nav a {
-  color: var(--light);
-  padding: 0 15px;
-  font-size: 20px;
-  text-decoration: none;
-  border-right: 2px solid var(--light-blue);
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  transform: rotate(8deg);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
 }
 
-.header-wrapper nav a:last-child {
-  border-right: none;
+.card > header {
+  /* This is the same as `border-radius: 50px 50px 0 0 */
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: 20px;
 }
 
-.wrapper {
-  width: 1024px;
-  margin: 40px auto;
+.card > p {
+  text-align: center;
 }
 
-#main-content {
-  width: 80%;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid rgba(0, 240, 248, 0.76);
-  border-radius: 5px;
-  font-size: 35px;
+.card > img {
+  width: 100%;
 }
 
-#main-content {
-  float: left;
-  color: var(--light);
-  background: var(--dark);
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
 }
