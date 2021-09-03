@@ -2,29 +2,29 @@
 
 ## Overview
 
-In this module, students will learn how to use Bootstrap and jQuery, two popular APIs. They'll also use Moment.js to manipulate and display time and date.
+In this module, students will learn how to use third-party APIs. Third-party APIs are libraries or frameworks that allow you to incorporate additional functionality into your web application. Students will learn how to use two popular APIs: Bootstrap and jQuery.
 
-In this week's virtual classes, you'll lead the review of the Web APIs used in the async content (Bootstrap, jQuery, and Moment.js).
+In this week's virtual classes, you'll lead the review of click events, event delegation, Bootstrap, and jQuery UI.
 
 | Day  | Topic                  | Location |
 | ---  | ---                    | ---      |
-| 1    | Bootstrap Text Layout  | 5.2      |
-| 1    | jQuery Click           | 5.1      |
-| 2    | Bootstrap Card Layout  | 5.2      |
-| 2    | Moment.js              | 5.4      |
-| 2    | jQuery localStorage    | 5.3      |
+| 1    | Click Events           | 5.1      |
+| 1    | Event Delegation       | 5.1      |
+| 2    | Bootstrap Layout       | 5.2      |
+| 2    | Bootstrap Utilities    | 5.2      |
+| 2    | jQuery UI              | 5.3      |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning third-party APIs?
 
 * **Third-party APIs** are libraries or frameworks that allow developers to easily incorporate additional functionality into their web applications. Students will not only practice implementing these popular APIs but also learn how to read third-party documentation.
 
-* **Bootstrap** is a CSS framework that allows us to easily build responsive and functional mobile-first user interfaces using an extensive list of prebuilt components and classes. 
+* **Bootstrap** is a CSS framework that allows us to easily build responsive and functional mobile-first user interfaces using an extensive list of prebuilt components and classes.
 
 * **jQuery** is a lightweight JavaScript library that simplifies routine JavaScript tasks like event handling, HTML document manipulation, and animation.
 
-* **Moment.js** is a JavaScript library that provides easy-to-use documentation and a simple set of methods to easily parse, manipulate, and display date data. While it is no longer actively maintained, Moment.js is still a great way for students to practice using a third-party API to manipulate their data and learn about the complexities of handling date and time data in their code.  
+* **Moment.js** is a JavaScript library that provides easy-to-use documentation and a simple set of methods to easily parse, manipulate, and display date data. While it is no longer actively maintained, Moment.js is still a great way for students to practice using a third-party API to manipulate their data and learn about the complexities of handling date and time data in their code.
 
 Throughout the async module this week, students will use third-party APIs to do the following:
 
@@ -47,8 +47,8 @@ Throughout the async module this week, students will use third-party APIs to do 
 | Lesson           | Description                    | Key Points                                                                      |
 | ---              | ---                            | ---                                                                             |
 | 1                | Updating Tasks with jQuery     | jQuery methods for DOM manipulation and event handling, `this` keyword          |
-| 2                | Bootstrap                      | Responsive layouts using the Bootstrap grid, Bootstrap UI components and classes              |   
-| 3                | Drag and Drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     | 
+| 2                | Bootstrap                      | Responsive layouts using the Bootstrap grid, Bootstrap UI components and classes              |
+| 3                | Drag and Drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     |
 | 4                | A Matter of Time               | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
 | 5                | Final UI/UX Improvements       | Customizing styles, deploying to GitHub Pages                                   |
 
@@ -60,13 +60,15 @@ Throughout the async module this week, students will use third-party APIs to do 
 
 ## Instructor Notes
 
-* Be sure to review the activities before class. Try to anticipate any questions that students might have.
+* Take a few minutes before class to get familiar with the [jQuery API documentation](https://api.jquery.com/), [Bootstrap documentation](https://getbootstrap.com/) and [jQuery UI documentation](https://jqueryui.com/), as students will rely heavily on it in class and might need help finding answers. Emphasize that whenever we use a new library, framework, or technology, it's best that we familiarize ourselves with the official documentation as much as possible.
 
-* Students might struggle with the shift from plain JavaScript to jQuery in this module. They might also struggle to acclimate to a CSS framework. If you're comfortable doing so, share your personal experiences of learning and working with the concepts covered in this lesson.
+* If students continually question why they are learning jQuery even though they have already learned how to manipulate the DOM with vanilla JavaScript, tell them that it is due to the longstanding prevalence and popularity of jQuery on the web. Also, knowing how to learn new libraries and measure their benefits is an important skill to have.
+
+* It's important that students understand that Bootstrap is simply a large stylesheet and that it uses a lot of skills they already have. If students are struggling with certain concepts, try and jog their memory of learning CSS and emphasize the use of DevTools to break down styles being used.
 
 * Ensure that you're using the correct versions of jQuery and Bootstrap (v4).
 
-* The Module Project and Weekly Challenge both use Moment.js, now considered a legacy project. Tell students that they can still use it here, but suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions. 
+* The Module Project and Weekly Challenge both use Moment.js, now considered a legacy project. Tell students that they can still use it here, but suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions.
 
 ### Common Pain Points
 
@@ -111,27 +113,31 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include the following: 
+* Next week you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include the following:
 
-  * One advanced student 
-  
+  * One advanced student
+
   * One average student
-  
+
   * One struggling student
 
 * Next week you'll introduce server-side APIs using `fetch()`. If you're unfamiliar with `fetch()`, review it before class.
 
 ## Resources
 
-* [Bootstrap documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [jQuery documentation on mouse events](https://api.jquery.com/category/events/mouse-events/)
 
-* [jQuery documentation on on()](https://api.jquery.com/on/)
+* [jQuery documentation on event delegation](https://learn.jquery.com/events/event-delegation/)
 
-* [jQuery documentation on html()](https://api.jquery.com/html/)
+* [Bootstrap documentation on the grid](https://getbootstrap.com/docs/4.5/layout/grid/)
 
-* [MDN Web Docs on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+* [Bootstrap documentation on Utilities](https://getbootstrap.com/docs/4.5/utilities)
 
-* [Moment.js documentation on project status](https://momentjs.com/docs/)
+* [jQuery UI documentation on autocomplete](https://jqueryui.com/autocomplete/)
+
+* [jQuery UI documentation on datepicker](https://jqueryui.com/datepicker/)
+
+* [jQuery UI documentation on sortable](https://jqueryui.com/sortable)
 
 ## Algorithms
 
