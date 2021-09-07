@@ -9,7 +9,8 @@ In this week's virtual classes, you'll introduce **weekly algorithms** that stud
 | Day | Topic                                 | Module    |
 | --- | ------------------------------------- | --------- |
 | 1   | Conditional Statements                | 3.1       |
-| 1   | `for` Loops                             | 3.2       |
+| 1   | `for` Loops                           | 3.2       |
+| 1   | Git Guide                             | N/A       |
 | 2   | `Math.random()`                       | 3.4       |
 | 2   | Functions                             | 3.1       |
 | 2   | Loops, Functions, and `Math.random()` | 3.1 - 3.4 |
