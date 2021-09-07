@@ -1,12 +1,12 @@
 # Log Nums
 
-In this activity you will be writing code to create a function that prints all whole numbers from 1 to a given number.
+In this activity, you will write code to create a function that prints all whole numbers from 1 to a given number.
 
 ## Instructions
 
-* Open [Unsolved/log-nums.js](Unsolved/log-nums.js) in your code editor&mdash;this is the only file you will modify in this activity.
+* Open [Unsolved/log-nums.js](Unsolved/log-nums.js) in your code editor; this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `logNums` function to achieve the following:
+  * In this file, you will write code in the body of the `logNums` function to achieve the following:
 
     * Print all numbers from `1` up to the given `nums` argument inclusive. For example, given the number `5` as the `num` argument, the following should be printed to the console, one log at a time:
 
