@@ -12,7 +12,7 @@ In this week's virtual classes, you'll introduce agile project management and wo
 
 * There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
-* Students can use the [API_Resources](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for ideas on free APIs that don't require CORS to use in their projects.
+* Students can use the [Full-Stack Blog Post on API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources) for ideas on free APIs that don't require CORS to use in their projects.
 
 ## Career Connection
 
@@ -34,7 +34,7 @@ N/A
 
 ## Resources
 
-* [Example of free APIs that don't require CORS](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for students to use in their project
+* [Full-Stack Blog Post on API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources) for students to use in their project.
 
 * [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
