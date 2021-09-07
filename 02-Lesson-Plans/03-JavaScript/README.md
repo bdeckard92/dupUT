@@ -12,6 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | ------------------------------------- | --------- |
 | 1   | Conditional statements                | 3.1       |
 | 1   | Iteration                             | 3.2       |
+| 1   | Git Guide                             | N/A       |
 | 2   | Functions                             | 3.1       |
 | 2   | Scope                                 | 3.3       |
 | 2   | Object-this                           | 3.4       |
