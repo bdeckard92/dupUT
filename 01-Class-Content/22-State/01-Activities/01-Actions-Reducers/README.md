@@ -36,4 +36,4 @@ In this activity, you will create actions and reducers in order to implement a g
 
 ## Hint(s)
 
-* You can refer to the [React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer).
+* You can refer to the [React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
