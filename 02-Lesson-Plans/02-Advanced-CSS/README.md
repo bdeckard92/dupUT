@@ -2,17 +2,20 @@
 
 ## Overview
 
-In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn powerful layout capabilities like media queries and flexbox to make pages mobile-responsive. This module teaches students Git workflow and shows them how to handle situations like changing between branches and resolving merge conflicts.
+In this module, students will build on their foundational HTML, CSS, and Git skills as they learn advanced CSS. Students will learn how to use powerful CSS layout tools, such as media queries and flexbox, to make their webpages mobile-responsive. This module also teaches Git workflow, including moving among branches and resolving merge conflicts.
 
-In this week's virtual classes, you'll review flexbox, media queries, and other advanced CSS properties, like pseudo-classes and CSS variables.
+In this week's virtual classes, you'll review wireframing, flexbox, responsive design, and other advanced CSS properties such as pseudo-classes and CSS variables.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day | Topic             | Location |
 | --- | ----------------- | -------- |
-| 1   | Flexbox-Cards     | 2.2      |
-| 1   | Media queries     | 2.3      |
-| 2   | Wireframing       | 2.2      |
-| 2   | Pseudo-Classes    | 2.4      |
-| 2   | CSS Variables     | 2.5      |
+| 1   | Wireframing       | 2.1      |
+| 1   | Flexbox layout    | 2.2      |
+| 1   | Git Guide         | N/A      |
+| 2   | Responsive design | 2.2, 2.3 |
+| 2   | Pseudo-classes    | 2.4      |
+| 2   | CSS variables     | 2.5      |
 
 ## Overview of Asynchronous Material
 
@@ -28,7 +31,7 @@ Why are students learning advanced CSS?
 
 Throughout the async module this week, students will use advanced CSS to do the following:
 
-* Create a mobile-responsive layout using advanced CSS layout techniques like flexbox.
+* Create a mobile-responsive layout using advanced CSS layout techniques, including flexbox.
 
 * Create a fully mobile-responsive website using media queries.
 
@@ -36,39 +39,43 @@ Throughout the async module this week, students will use advanced CSS to do the 
 
 * Publish the page to the web using GitHub Pages.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson | Description      | Key Points                                                                             |
 | ------ | ---------------- | -------------------------------------------------------------------------------------- |
-| 1      | Git Workflow     | Versioning with Git, `checkout` branches, sync with remote, resolve merge conflicts    |
+| 1      | Git workflow     | Versioning with Git, `checkout` branches, syncing with remote, resolving merge conflicts    |
 | 2      | Flexbox          | Row and column layouts, aligning content using flexbox, spacing elements using flexbox |
-| 3      | Media Queries    | Developing for mobile, `meta` elements to improve UX, CSS rules per screen size        |
+| 3      | Media queries    | Developing for mobile, `meta` elements to improve UX, CSS rules for screen size        |
 | 4      | Pretty CSS       | Rounded corners, state indicators, shadow properties, opacity                          |
-| 5      | CSS Enhancements | CSS variables, selectors, publishing to GH pages                                       |
+| 5      | CSS enhancements | CSS variables, selectors, publishing to GitHub Pages                                   |
 
 ## Virtual Classes
 
-* [Virtual Class 02.1](./02.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 02.2](./02.2-REQUIRED.md)
+* [02.1 Virtual Class](./02.1-REQUIRED.md)
+
+* [02.2 Virtual Class](./02.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* This module is long and covers a lot of ground. Students are likely feeling overwhelmed. Ensure them that this feeling is normal and expected and that it's not essential to master CSS at this point, if ever.
+* This module is long and covers a lot of ground. Students might be feeling overwhelmed. Ensure them that this feeling is expected, and that it's not essential to master CSS at this point, if ever.
 
-* Students will be at an early stage in their work on the module, so be prepared to answer questions related to the first few lessons.
+* At the time of this class, students will be at an early stage in their module project, so be prepared to answer questions related to the first few lessons.
 
-* While flexbox seems simple on the surface, this is students' first exposure to CSS. Review the activities ahead of time to be sure that you are familiar with what they will encounter.
+* Even though flexbox seems simple at first glance, this is students' first exposure to CSS. Review the activities ahead of time to be sure that you are familiar with what they will encounter.
 
 ### Common Pain Points
 
-According to our class data, students might experience some of the following pain points throughout the week:
+According to our class data, students might experience some of the following pain points this week:
 
-| Pain Point                       | Recommendation                                                                                                      |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Selecting elements               | Refer to [MDN guide on CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) |
-| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                   |
-| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. One great example can be found on the website CSS Tricks. |
+| Pain Point                       | Recommendation                                                                                                                                 |
+| -------------------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------|
+| Selecting elements               | Refer to the [MDN Web Docs on CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).                    |
+| Arranging elements using flexbox | Introduce students to a flexbox CSS game. You should be able to find several examples via Google.                                              |
+| Memorizing flexbox properties    | Ask students to use Google to find a flexbox cheat sheet. A great example can be found on the website [CSS Tricks](https://css-tricks.com/).   |
 
 ## Career Connection
 
@@ -80,11 +87,9 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-Students will be creating their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding and improving on a portfolio page that they will create in this Challenge.
+For the [Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge), students will create their first portfolio page from scratch using advanced CSS and HTML. This project allows students to show off their skills by incrementally adding to and improving the portfolio page.
 
-[Module 02 Challenge](../../01-Class-Content/02-Advanced-CSS/02-Challenge)
-
-Specific skills that students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Organizing content using flexbox
 
@@ -96,15 +101,17 @@ Specific skills that students will need to implement in order to be successful:
 
 ## Heads-Up
 
-Next week you will introduce students to JavaScript. This might be a big leap for some students. Try to recall your experience when you first learned JavaScript. What concepts seem obvious now but weren't when you started learning? Be prepared to answer a lot of questions and be available during Office Hours.
+Next week, you will introduce students to JavaScript. This might be a big leap for some students. Try to recall your experience when you first learned JavaScript. What concepts seem obvious now but weren't when you started learning? Be prepared to answer a lot of questions and be available during Office Hours.
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
+* [Wikipedia entry on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
+
 * [MDN Web Docs on flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
-* [MDN Web Docs on media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-
-* [Wikipedia Page on website wireframes](https://en.wikipedia.org/wiki/Website_wireframe)
+* [MDN Web Docs on the CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 
 * [MDN Web Docs on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
@@ -112,6 +119,7 @@ Next week you will introduce students to JavaScript. This might be a big leap fo
 
 ## Algorithms
 
-n/a
+There are no algorithms for Module 2.
 
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
