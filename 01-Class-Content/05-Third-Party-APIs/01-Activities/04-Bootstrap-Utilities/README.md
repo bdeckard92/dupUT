@@ -2,25 +2,25 @@
 
 Work with a partner to implement the following user stories:
 
-* As a developer, I want to be able to center the form on the page horizontally and vertically using no custom CSS.
+* As a developer, I want to be able to center the form on the page horizontally and vertically without writing any custom CSS.
 
 * As a developer, I want to be able to adjust and add style to the page without writing any custom CSS.
 
 ## Acceptance Criteria
 
-* It's done when the main content on the page is centered horizontally and vertically on the page.
+* It is done when the main content on the page is centered horizontally and vertically.
 
-* It's done when the background color of the page is dark.
+* It is done when the background color of the page is dark.
 
-* It's done when the background color of the form is white.
+* It is done when the background color of the form is white.
 
-* It's done when the text color of the header on the page is white.
+* It is done when the text color of the page header is white.
 
 ## 📝 Notes
 
-Refer to the following documentation (look for Utilities in the left navigation menu): 
+Refer to the following documentation:
 
-[Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)(look for Utilities in the left navigation menu)
 
 ## Assets
 
@@ -32,11 +32,11 @@ The following image demonstrates the web application's appearance and functional
 
 ## 💡 Hint
 
-* Don't forget to use the previous examples and activities as a guide to how the classes can be used!
+* Don't forget to use the previous examples and activities as a guide to how the utility classes can be used!
 
 ## 🏆 Bonus
 
-If you have completed the activity and want to further your knowledge, work through the following challenge with your partner: 
+If you have completed the activity, work through the following challenge with your partner to further your knowledge:
 
 * Using Chrome DevTools, what can you do to make this look more personalized? Try updating some of the more generic styles to use different colors or font sizes.
 

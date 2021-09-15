@@ -2,21 +2,23 @@
 
 ## Overview
 
-In this module, students will learn how to use third-party APIs. Third-party APIs are libraries or frameworks that allow you to incorporate additional functionality into your web application. Students will learn how to use two popular APIs: Bootstrap and jQuery.
+In this module, students will learn how to use third-party APIs. Third-party APIs are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use two popular APIs: Bootstrap and jQuery.
 
-In this week's virtual classes, you'll lead the review of click events, event delegation, Bootstrap, and jQuery UI.
+In this week's virtual classes, you'll lead a review of click events, event delegation, Bootstrap, and jQuery UI.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic                  | Location |
 | ---  | ---                    | ---      |
-| 1    | Click Events           | 5.1      |
-| 1    | Event Delegation       | 5.1      |
-| 2    | Bootstrap Layout       | 5.2      |
-| 2    | Bootstrap Utilities    | 5.2      |
+| 1    | Click events           | 5.1      |
+| 1    | Event delegation       | 5.1      |
+| 2    | Bootstrap layout       | 5.2      |
+| 2    | Bootstrap utilities    | 5.2      |
 | 2    | jQuery UI              | 5.3      |
 
 ## Overview of Asynchronous Material
 
-Why are students learning third-party APIs?
+This week in the asynchronous content, students are introduced to third-party APIs, Bootstrap, jQuery, and Moment.js. These skills are important for the following reasons:
 
 * **Third-party APIs** are libraries or frameworks that allow developers to easily incorporate additional functionality into their web applications. Students will not only practice implementing these popular APIs but also learn how to read third-party documentation.
 
@@ -38,37 +40,41 @@ Throughout the async module this week, students will use third-party APIs to do 
 
 * Create a UI using Bootstrap's prebuilt CSS styles.
 
-* Learn about the complexities of date and time functionality in JavaScript and implement a Web API to make date handling and manipulation easier.
+* Learn about the complexities of date and time functionality in JavaScript, and implement a Web API to make date handling and manipulation easier.
 
 * Implement timed events in JavaScript and use callback functions in `setTimeout()` and `setInterval()`.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson           | Description                    | Key Points                                                                      |
 | ---              | ---                            | ---                                                                             |
-| 1                | Updating Tasks with jQuery     | jQuery methods for DOM manipulation and event handling, `this` keyword          |
+| 1                | Updating tasks with jQuery     | jQuery methods for DOM manipulation and event handling, `this` keyword          |
 | 2                | Bootstrap                      | Responsive layouts using the Bootstrap grid, Bootstrap UI components and classes              |
-| 3                | Drag and Drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     |
-| 4                | A Matter of Time               | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
-| 5                | Final UI/UX Improvements       | Customizing styles, deploying to GitHub Pages                                   |
+| 3                | Drag-and-drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     |
+| 4                | A matter of time               | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
+| 5                | Final UI/UX improvements       | Customizing styles, deploying to GitHub Pages                                   |
 
 ## Virtual Classes
 
-* [Virtual Class 05.1](./05.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 05.2](./05.2-REQUIRED.md)
+* [05.1 Virtual Class](./05.1-REQUIRED.md)
+
+* [05.2 Virtual Class](./05.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* Take a few minutes before class to get familiar with the [jQuery API documentation](https://api.jquery.com/), [Bootstrap documentation](https://getbootstrap.com/) and [jQuery UI documentation](https://jqueryui.com/), as students will rely heavily on it in class and might need help finding answers. Emphasize that whenever we use a new library, framework, or technology, it's best that we familiarize ourselves with the official documentation as much as possible.
+* Take a few minutes before class to get familiar with the [jQuery API documentation](https://api.jquery.com/), [Bootstrap documentation](https://getbootstrap.com/), and [jQuery UI documentation](https://jqueryui.com/), as students will rely heavily on these in class and might need help finding answers. Emphasize that whenever we use a new library, framework, or technology, it's best that we familiarize ourselves with the official documentation as much as possible.
 
 * If students continually question why they are learning jQuery even though they have already learned how to manipulate the DOM with vanilla JavaScript, tell them that it is due to the longstanding prevalence and popularity of jQuery on the web. Also, knowing how to learn new libraries and measure their benefits is an important skill to have.
 
-* It's important that students understand that Bootstrap is simply a large stylesheet and that it uses a lot of skills they already have. If students are struggling with certain concepts, try and jog their memory of learning CSS and emphasize the use of DevTools to break down styles being used.
+* It's important that students understand that Bootstrap is simply a large stylesheet and that it uses a lot of skills they already have. If students are struggling with certain concepts, try to jog their memory of learning CSS and emphasize the use of DevTools to break down styles being used.
 
 * Ensure that you're using the correct versions of jQuery and Bootstrap (v4).
 
-* The Module Project and Weekly Challenge both use Moment.js, now considered a legacy project. Tell students that they can still use it here, but suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions.
+* The module project and weekly Challenge both use Moment.js, now considered a legacy project. Tell students that they can still use it here, but suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions.
 
 ### Common Pain Points
 
@@ -76,8 +82,8 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation                                                          |
 | ---                                 | ---                  |
-| Using the `this` keyword                  | Refer to Lesson 1 or the [MDN Web Docs on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) |
-| Deploying to GitHub Pages          | Refer to Lesson 5 or the [GitHub Docs on getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages) |
+| Using the `this` keyword            | Refer to Lesson 1 or the [MDN Web Docs on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) |
+| Deploying to GitHub Pages           | Refer to Lesson 5 or the [GitHub Docs on getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages) |
 
 ## Career Connection
 
@@ -89,13 +95,11 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-In this week's Challenge, the students will use starter code to build a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+For the [Module 05 Challenge](../../01-Class-Content/05-Third-Party-APIs/02-Challenge), students will use starter code to build a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-The starter code uses the [Moment.js](https://momentjs.com/) library to handle date and time, but because Moment.js is considered a legacy project, feel free to encourage students to use a different JavaScript solution.
+The starter code uses the [Moment.js](https://momentjs.com/) library to handle date and time. However, because Moment.js is considered a legacy project, feel free to encourage students to use a different JavaScript solution.
 
-[Module 05 Challenge](../../01-Class-Content/05-Third-Party-APIs/02-Challenge)
-
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Implement third-party libraries such as Bootstrap, jQuery, and Moment.js.
 
@@ -113,7 +117,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include the following:
+* Next week you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. 
+
+Structure groups so that they include the following:
 
   * One advanced student
 
@@ -121,9 +127,11 @@ Specific skills students will need to implement in order to be successful:
 
   * One struggling student
 
-* Next week you'll introduce server-side APIs using `fetch()`. If you're unfamiliar with `fetch()`, review it before class.
+* Next week, you'll introduce server-side APIs using `fetch()`. If you're unfamiliar with `fetch()`, review it before class.
 
 ## Resources
+
+The following resources can help you prepare for this week's classes:
 
 * [jQuery documentation on mouse events](https://api.jquery.com/category/events/mouse-events/)
 
@@ -131,7 +139,7 @@ Specific skills students will need to implement in order to be successful:
 
 * [Bootstrap documentation on the grid](https://getbootstrap.com/docs/4.5/layout/grid/)
 
-* [Bootstrap documentation on Utilities](https://getbootstrap.com/docs/4.5/utilities)
+* [Bootstrap documentation on utilities](https://getbootstrap.com/docs/4.5/utilities)
 
 * [jQuery UI documentation on autocomplete](https://jqueryui.com/autocomplete/)
 
@@ -140,6 +148,8 @@ Specific skills students will need to implement in order to be successful:
 * [jQuery UI documentation on sortable](https://jqueryui.com/sortable)
 
 ## Algorithms
+
+Here are the algorithms for this week:
 
 * [01-fizz-buzz](../../01-Class-Content/05-Third-Party-APIs/03-Algorithms/01-fizz-buzz)
 
