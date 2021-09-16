@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn how to use third-party APIs. Third-party APIs are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use two popular APIs: Bootstrap and jQuery.
+In this module, students will learn how to use third-party APIs, which are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use three popular APIs: Bootstrap, jQuery, and Moment.js.
 
 In this week's virtual classes, you'll lead a review of click events, event delegation, Bootstrap, and jQuery UI.
 
@@ -18,15 +18,15 @@ The following table maps the key topics covered in the virtual lessons to where 
 
 ## Overview of Asynchronous Material
 
-This week in the asynchronous content, students are introduced to third-party APIs, Bootstrap, jQuery, and Moment.js. These skills are important for the following reasons:
+This week in the asynchronous content, students are introduced to third-party APIs, including Bootstrap, jQuery, and Moment.js. These tools are important for the following reasons:
 
-* **Third-party APIs** are libraries or frameworks that allow developers to easily incorporate additional functionality into their web applications. Students will not only practice implementing these popular APIs but also learn how to read third-party documentation.
+* **Third-party APIs** are libraries or frameworks that allow developers to easily incorporate additional functionality into their web applications. Students will practice implementing these popular APIs and learn how to read third-party documentation.
 
 * **Bootstrap** is a CSS framework that allows us to easily build responsive and functional mobile-first user interfaces using an extensive list of prebuilt components and classes.
 
-* **jQuery** is a lightweight JavaScript library that simplifies routine JavaScript tasks like event handling, HTML document manipulation, and animation.
+* **jQuery** is a lightweight JavaScript library that simplifies routine JavaScript tasks such as event handling, HTML document manipulation, and animation.
 
-* **Moment.js** is a JavaScript library that provides easy-to-use documentation and a simple set of methods to easily parse, manipulate, and display date data. While it is no longer actively maintained, Moment.js is still a great way for students to practice using a third-party API to manipulate their data and learn about the complexities of handling date and time data in their code.
+* **Moment.js** is a JavaScript library with easy-to-use documentation and a simple set of methods to parse, manipulate, and display date data. Even though Moment.js is no longer actively maintained, using it allows students to practice using a third-party API to manipulate data and to learn about the complexities of handling date and time data in their code.
 
 Throughout the async module this week, students will use third-party APIs to do the following:
 
@@ -48,13 +48,13 @@ Throughout the async module this week, students will use third-party APIs to do 
 
 The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
-| Lesson           | Description                    | Key Points                                                                      |
-| ---              | ---                            | ---                                                                             |
-| 1                | Updating tasks with jQuery     | jQuery methods for DOM manipulation and event handling, `this` keyword          |
-| 2                | Bootstrap                      | Responsive layouts using the Bootstrap grid, Bootstrap UI components and classes              |
-| 3                | Drag-and-drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     |
-| 4                | A matter of time               | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
-| 5                | Final UI/UX improvements       | Customizing styles, deploying to GitHub Pages                                   |
+| Lesson      | Description                    | Key Points                                                                      |
+| ---         | ---                            | ---                                                                             |
+| 1           | Updating tasks with jQuery     | jQuery methods for DOM manipulation and event handling, `this` keyword          |
+| 2           | Bootstrap                      | Responsive layouts using the Bootstrap grid, Bootstrap UI components and classes|
+| 3           | Drag-and-drop with jQuery UI   | Draggable elements using jQuery extensions, using third-party documentation     |
+| 4           | Working with date and time     | jQuery UI's Datepicker widget, Moment.js, implementing third-party API with CDN |
+| 5           | Final UI/UX improvements       | Customizing styles, deploying to GitHub Pages                                   |
 
 ## Virtual Classes
 
