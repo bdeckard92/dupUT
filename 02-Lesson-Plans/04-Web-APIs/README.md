@@ -12,6 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | --------------------------------------- | -------- |
 | 1   | Create and append to the DOM            | 4.1 - 4.3|
 | 1   | `addEventListener()`                    | 4.1 - 4.3|
+| 1   | Git Guide                               | N/A      |
 | 2   | Timers                                  | n/a      |
 | 2   | Data attributes                         | 4.3      |
 | 2   | `localStorage`                          | 4.4      |
