@@ -70,7 +70,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * If students question why they are learning jQuery when they have already learned how to manipulate the DOM using plain JavaScript, tell them that it is due to the longstanding prevalence and popularity of jQuery on the web. Also, knowing how to learn new libraries and measure their benefits is an important skill to have as a developer.
 
-* It's important that students understand that Bootstrap is simply a large stylesheet, and that they already have a lot of the skills needed to use it. If they struggle with certain concepts, try to jog their memory of learning CSS and suggest that they use Chrome DevTools to decipher the styles being used.
+* It's important that students understand that Bootstrap is simply a large stylesheet, and that they already have a lot of the skills needed to use it. If they struggle with certain concepts, jog their memory of learning CSS and suggest that they use Chrome DevTools to decipher the styles being used.
 
 * Make sure you're using the correct versions of jQuery and Bootstrap (v4).
 
