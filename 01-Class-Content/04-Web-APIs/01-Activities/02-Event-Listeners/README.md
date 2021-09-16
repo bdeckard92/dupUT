@@ -10,6 +10,12 @@ Refer to the documentation:
 
 [MDN Documentation on Query Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
+## Assets
+
+The following animation demonstrates the web application's appearance and functionality:
+
+![The current count number increases when the Increment button is clicked and decreases when the Decrement button is clicked.](./images/01-demo.gif)
+
 ---
 
 ## 🏆 Bonus

@@ -1,6 +1,6 @@
 # 🐛 Object Not Saving as String Using localStorage
 
-Work with a partner to implement the following user story:
+Work with a partner to resolve the following issue(s):
 
 * As a developer, I want to save the information from a form as an object using `localStorage`.
 
@@ -26,7 +26,7 @@ Use the following steps to reproduce the problem:
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Image showing data inputted in form and saved as a string in LocalStorage.](./assets/image_1.png)
+![Image showing data inputted in form and saved as a string in LocalStorage.](./images/image_1.png)
 
 ---
 ## 💡 Hints
