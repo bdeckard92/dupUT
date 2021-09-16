@@ -26,7 +26,7 @@ The following image demonstrates the web application's appearance and functional
 
 ## 💡 Hint
 
-* Don't forget to use the previous activity as a guide to how the classes can be used!
+* Don't forget to use the previous activity as a guide to how the Bootstrap classes can be used.
 
 ## 🏆 Bonus
 

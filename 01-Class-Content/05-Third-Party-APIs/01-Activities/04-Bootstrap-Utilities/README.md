@@ -32,7 +32,7 @@ The following image demonstrates the web application's appearance and functional
 
 ## 💡 Hint
 
-* Don't forget to use the previous examples and activities as a guide to how the utility classes can be used!
+* Don't forget to use the previous examples and activities as a guide to how the utility classes can be used.
 
 ## 🏆 Bonus
 
