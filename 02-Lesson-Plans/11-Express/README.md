@@ -6,13 +6,13 @@ In this week's module, students will learn how to create server-side APIs using 
 
 In this week's virtual classes, you'll review setting up an Express.js application using both standard GET routes and GET routes with parameters, as well as review Express.js server basics.
 
-| Day | Topic                | Location   |
-| --- | -------------------- | ---------- |
-| 1   | Express Routes       | 11.1       |
-| 1   | Express Parameters   | 11.1       |
-| 2   | POST Requests        | 11.2, 11.3 |
-| 2   | Serving Static Files | 11.3       |
-| 2   | Post Client          | 11.3       |
+| Day | Topic                                | Location   |
+| --- | --------------------                 | ---------- |
+| 1   | API Endpoints and HTML Routes        | 11.1, 11.3 |
+| 1   | GET Fetch Requests                   | 11.3, 11.4 |
+| 2   | POST Requests                        | 11.2, 11.3 |
+| 2   | POST Fetch Requests                  | 11.3       |
+| 2   | Data Persistence                     | 11.4       |
 
 ## Overview of Asynchronous Material
 
