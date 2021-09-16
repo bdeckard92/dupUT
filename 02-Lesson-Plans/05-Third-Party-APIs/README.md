@@ -4,7 +4,7 @@
 
 In this module, students will learn how to use third-party APIs, which are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use three popular APIs: Bootstrap, jQuery, and Moment.js.
 
-In this week's virtual classes, you'll lead a review of click events, event delegation, Bootstrap, and jQuery UI.
+In this week's virtual classes, you'll review click events, event delegation, Bootstrap, and jQuery UI.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
@@ -68,13 +68,13 @@ Here are the lesson plans for this week's virtual classes:
 
 * Take a few minutes before class to get familiar with the [jQuery API documentation](https://api.jquery.com/), [Bootstrap documentation](https://getbootstrap.com/), and [jQuery UI documentation](https://jqueryui.com/), as students will rely heavily on these in class and might need help finding answers. Emphasize that whenever we use a new library, framework, or technology, it's best that we familiarize ourselves with the official documentation as much as possible.
 
-* If students continually question why they are learning jQuery even though they have already learned how to manipulate the DOM with vanilla JavaScript, tell them that it is due to the longstanding prevalence and popularity of jQuery on the web. Also, knowing how to learn new libraries and measure their benefits is an important skill to have.
+* If students question why they are learning jQuery when they have already learned how to manipulate the DOM using plain JavaScript, tell them that it is due to the longstanding prevalence and popularity of jQuery on the web. Also, knowing how to learn new libraries and measure their benefits is an important skill to have as a developer.
 
-* It's important that students understand that Bootstrap is simply a large stylesheet and that it uses a lot of skills they already have. If students are struggling with certain concepts, try to jog their memory of learning CSS and emphasize the use of DevTools to break down styles being used.
+* It's important that students understand that Bootstrap is simply a large stylesheet, and that they already have a lot of the skills needed to use it. If they struggle with certain concepts, try to jog their memory of learning CSS and suggest that they use Chrome DevTools to decipher the styles being used.
 
-* Ensure that you're using the correct versions of jQuery and Bootstrap (v4).
+* Make sure you're using the correct versions of jQuery and Bootstrap (v4).
 
-* The module project and weekly Challenge both use Moment.js, now considered a legacy project. Tell students that they can still use it here, but suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions.
+* The module project and weekly Challenge both use Moment.js, which is now considered a legacy project. Tell students that they can still use it, and also suggest alternatives for their date and time needs. You can direct them to the [date-fns website](https://date-fns.org/) or the [MDN Web Docs on Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date). The [Moment.js documentation on project status](https://momentjs.com/docs/#/-project-status/) also provides other solutions.
 
 ### Common Pain Points
 
@@ -82,16 +82,16 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation                                                          |
 | ---                                 | ---                  |
-| Using the `this` keyword            | Refer to Lesson 1 or the [MDN Web Docs on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) |
-| Deploying to GitHub Pages           | Refer to Lesson 5 or the [GitHub Docs on getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages) |
+| Using the `this` keyword            | Refer to Lesson 1 or the [MDN Web Docs on this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this). |
+| Deploying to GitHub Pages           | Refer to Lesson 5 or the [GitHub Docs on getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages). |
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
-Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
@@ -117,9 +117,9 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-* Next week you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. 
+* Next week, you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided evenly by three. 
 
-Structure groups so that they include the following:
+Structure groups so that they include the following mix of students:
 
   * One advanced student
 
