@@ -10,9 +10,10 @@ In this week's virtual classes, you'll discuss using `fetch()` to make requests 
 | ---  | ---                             | ---        |
 | 1    | Create Fetch                    | 6.1        |
 | 1    | Parse JSON                      | 6.1, 6.2   |
+| 1    | Git Guide                       | N/A        |
 | 2    | Dynamic HTML                    | 6.3, 6.5   |
-| 2    | Deconstructing Parameters       | 6.3, 6.5   |
-| 2    | Fetch GitHub Issues             | 6.2        |
+| 2    | Deconstructing Parameters       | 6.4        |
+| 2    | Fetch GitHub Issues             | 6.4        |
 
 ## Overview of Asynchronous Material
 
@@ -64,7 +65,7 @@ Throughout the async module this week, students will use server-side APIs to do 
 
 * Encourage students to use this week to think about project ideas. If you're comfortable doing so, share your personal experiences or struggles working on group projects, either in a class or in the workplace, early in your career.
 
-* Start thinking about project groups. Assign three students per group: one advanced, one average, one struggling.
+* Start thinking about project groups. Assign three students per group: one advanced, one average, one struggling. If students complain about group configurations, remind them that in the real-world, no one gets to choose their co-workers and working collaboratively is an important skill to acquire as a developer. Let them know that they can choose their own project groups for their final project.
 
 * Students should install the [JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) before class.
 
@@ -105,7 +106,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Students will start working on their group project next week, so they must be assigned into groups and start talking about project ideas within their groups by this weekend.
 
-* Be prepared to intervene and help groups that are struggling to identify a project idea or plan.  
+* Be prepared to intervene and help groups that are struggling to identify a project idea or plan.
 
 * The first virtual class next week is crucial because it introduces agile project management and sets students up for success as a team. Remind students that it is important to attend this class and actively participate in group planning and implementation throughout the project.
 
