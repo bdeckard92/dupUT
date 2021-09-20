@@ -3,15 +3,15 @@
 var titleCase = function(str) {
   var result = [];
 
-  var words = str.split(" ");
+  var words = str.split(' ');
 
   for (var i = 0; i < words.length; i++) {
-    var word = words[i].split("");
+    var word = words[i].split('');
 
     word[0] = word[0].toUpperCase();
 
-    result.push(word.join(""));
+    result.push(word.join(''));
   }
 
-  return result.join(" ");
+  return result.join(' ');
 };
