@@ -2,23 +2,23 @@
 
 Work with a partner to implement the following user story:
 
-* As an online shopper, I want to have the ability to remove items from my list.
+* As an online shopper, I want to be able to remove items from my list.
 
 ## Acceptance Criteria
 
-* It's done when each item's Remove button can be clicked to remove its respective shopping list item. 
+* It is done when each item's Remove button can be clicked to remove its respective shopping list item.
 
 ## 💡 Hints
 
 * Use your knowledge in DOM traversal to select an element's parent.
-  
+
 * The jQuery method for deleting an element is `.remove()`.
 
 ## 🏆 Bonus
 
-If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
+If you have completed the activity, work through the following challenge with your partner to further your knowledge:
 
-* What are some alternatives to using jQuery? Discuss the merits with your partner. You can read this [guide to whether you need jQuery](http://youmightnotneedjquery.com/) to see some alternatives. 
+* What are some alternatives to using jQuery? Discuss the merits with your partner. You can read this [guide to whether you need jQuery](http://youmightnotneedjquery.com/) to learn about some alternatives.
 
 ---
 
