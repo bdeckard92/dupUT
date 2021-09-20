@@ -10,6 +10,16 @@ function Thermostat() {
     document.title = `${temp}° Fahrenheit`;
   });
 
+  // Handler for increasing the temp by 1
+  const increaseTemp = () => {
+    setTemp(temp + 1);
+  };
+
+  // Handler for decreasing the temp by 1
+  const decreaseTemp = () => {
+    setTemp(temp - 1);
+  };
+
   return (
     <div className="card text-center">
       <div className="card-header bg-warning text-white">
@@ -19,10 +29,18 @@ function Thermostat() {
         <p className="card-text">
           Current temperature: {temp} degrees Fahrenheit
         </p>
-        <button className="btn btn-danger" onClick={() => setTemp(temp + 1)}>
+        <button
+          type="button"
+          className="btn btn-danger"
+          onClick={increaseTemp}
+        >
           Raise temperature
         </button>{' '}
-        <button className="btn btn-primary" onClick={() => setTemp(temp - 1)}>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={decreaseTemp}
+        >
           Lower temperature
         </button>
       </div>
