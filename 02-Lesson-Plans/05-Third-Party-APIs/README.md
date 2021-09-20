@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn how to use third-party APIs, which are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use three popular APIs: Bootstrap, jQuery, and Moment.js.
+In this module, students will learn how to use third-party APIs, which are libraries or frameworks that allow us to incorporate additional functionality into our web applications. Students will learn how to use two popular APIs: Bootstrap and jQuery. They'll also learn Moment.js, which is no longer actively maintained but still provides practical instructional value.
 
 In this week's virtual classes, you'll review click events, event delegation, Bootstrap, and jQuery UI.
 
@@ -26,7 +26,7 @@ This week in the asynchronous content, students are introduced to third-party AP
 
 * **jQuery** is a lightweight JavaScript library that simplifies routine JavaScript tasks such as event handling, HTML document manipulation, and animation.
 
-* **Moment.js** is a JavaScript library with easy-to-use documentation and a simple set of methods to parse, manipulate, and display date data. Even though Moment.js is no longer actively maintained, using it allows students to practice using a third-party API to manipulate data and to learn about the complexities of handling date and time data in their code.
+* **Moment.js** is a JavaScript library with easy-to-use documentation and a simple set of methods that parse, manipulate, and display date data. Even though Moment.js is no longer actively maintained, using it allows students to practice using a third-party API to manipulate data and to learn about the complexities of handling date and time data in their code.
 
 Throughout the async module this week, students will use third-party APIs to do the following:
 
