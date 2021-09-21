@@ -1,4 +1,4 @@
-# 🏗️ Create a Counter Function That Uses a Private Variable
+# 📖 Create a Counter Function That Uses a Private Variable
 
 Work with a partner to implement the following user story:
 
@@ -14,15 +14,17 @@ Work with a partner to implement the following user story:
 
 * It's done when all of the unit tests pass using `npm test`.
 
-## 💡 Hints
+## 📝 Notes
 
-When is a closure created? 
+Refer to the documentation:
+
+[MDN web docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What is the lexical environment? 
+* What is the lexical environment?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
