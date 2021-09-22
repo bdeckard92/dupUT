@@ -1,22 +1,26 @@
-# Regex
+# 🏗️ Implement Regex to Validate a Username
 
-In this activity, you will write a regex (regular expression) to find certain patterns of characters within a string to validate a username. This activity will help you understand and practice using regex in order for you to succeed in this week's Challenge.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a developer, I want to find certain patterns of characters within a string to validate a username.
 
-* Open the [regex.md](Unsolved/regex.md) file. 
+## Acceptance Criteria
 
-* Create a regex that fulfills the following requirements for a username:
+  * It's done when the username can contain any lowercase letter between a-z.
 
-  * can contain any lowercase letter between a-z
+  * It's done when the username can contain any number between 0-9.
 
-  * can contain any number between 0-9
+  * It's done when the username can contain an underscore or hyphen.
 
-  * can contain an underscore or hyphen
+  * It's done when the username can be between 3 - 16 characters long.
 
-  * is between 3 - 16 characters long
+  * It's done when you use [RegExr](https://regexr.com/) to test out your regex.
 
-* You can use [RegExr](https://regexr.com/) to test out your regex.
+## 💡 Hints
+
+* Use the "RegEx Reference" section on [RegExr](https://regexr.com/) to familiarize yourself with the patterns to make your regex.
+
+* To test your regex using [RegExr](https://regexr.com/), do the following:
 
   * In the `Text` section, type a username that does fulfill the requirements, i.e. `janedoe_123`.
 
@@ -24,6 +28,13 @@ In this activity, you will write a regex (regular expression) to find certain pa
 
   * You can also test it out by changing the `Text` to a username that does NOT follow the requirements, i.e. `JaneDoe_123`. Notice it will say "No match" if your regex is correct.
 
-## Hint(s)
+## 🏆 Bonus
 
-* Use the "RegEx Reference" section on [RegExr](https://regexr.com/) to familiarize yourself with the patterns to make your regex.
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* How do you use special characters in regex to conduct a search that requires more than an exact match?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
