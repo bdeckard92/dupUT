@@ -6,13 +6,13 @@ In this week's module, students will learn how to create server-side APIs using 
 
 In this week's virtual classes, you'll review setting up an Express.js application using both standard GET routes and GET routes with parameters, as well as review Express.js server basics.
 
-| Day | Topic                | Location   |
-| --- | -------------------- | ---------- |
-| 1   | Express Routes       | 11.1       |
-| 1   | Express Parameters   | 11.1       |
-| 2   | POST Requests        | 11.2, 11.3 |
-| 2   | Serving Static Files | 11.3       |
-| 2   | Post Client          | 11.3       |
+| Day | Topic                                | Location   |
+| --- | --------------------                 | ---------- |
+| 1   | API Endpoints and HTML Routes        | 11.1, 11.3 |
+| 1   | GET Fetch Requests                   | 11.3, 11.4 |
+| 2   | POST Requests                        | 11.2, 11.3 |
+| 2   | POST Fetch Requests                  | 11.3       |
+| 2   | Data Persistence                     | 11.4       |
 
 ## Overview of Asynchronous Material
 
@@ -46,16 +46,16 @@ Throughout the async module this week, students will use Express.js to do the fo
 
 | Lesson | Description                                     | Key Points                                                   |
 | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
-| 1      | Set Up Express.js Server and GET Routes         | Server setup, GET requests, parameters, Heroku deployment  |
-| 2      | Create Data Using POST Routes                   | API POST endpoints, middleware, testing with Insomnia      |
-| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch POST requests |
-| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express.js Router, creating endpoints           |
+| 1      | Set Up Express.js Server and GET Routes         | Server setup, GET requests, parameters, Heroku deployment    |
+| 2      | Create Data Using POST Routes                   | API POST endpoints, middleware, testing with Insomnia        |
+| 3      | Serving a Front End                             | Static HTML routes, static middleware, fetch POST requests   |
+| 4      | Add Zookeeper Endpoints and Modularize the Code | Modular routes, Express.js Router, creating endpoints        |
 
 ## Virtual Classes
 
-* [Virtual Class 11.1](./11.1-REQUIRED.md)
+* [11.1 Virtual Class](./11.1-REQUIRED.md)
 
-* [Virtual Class 11.2](./11.2-REQUIRED.md)
+* [11.2 Virtual Class](./11.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -64,6 +64,20 @@ Throughout the async module this week, students will use Express.js to do the fo
 * Install Insomnia on your machine before class. For more information, visit the [Insomnia download page](https://insomnia.rest/download).
 
 * Ensure that you're using the most recent version of Express.js (version 4) by running `npm show express version`.
+
+* Each activity will require starting up a new Express.js server. Students might encounter a common error with the code `EADDRINUSE`, due to the port being used. They can easily fix this error by running one of the following commands based on their operating system:
+
+  * MacOS:
+
+    ```bash
+    killall node
+    ```
+
+  * Windows:
+
+    ```bash
+    taskkill /im node.exe
+    ```
 
 ### Common Pain Points
 
@@ -89,7 +103,7 @@ Students will add features to an existing Note Taker app that uses an Express.js
 
 [Module 11 Challenge](../../01-Class-Content/11-Express/02-Challenge/README.md)
 
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Create new routes and route handlers for an Express.js back end.
 
@@ -103,15 +117,19 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-Next week, you'll introduce SQL. Tell students that they'll need to install both the MySQL server and MySQL Shell before they begin Module 12.
-
-Be sure to install the MySQL server and MySQL Shell on your machine.
+In the next unit, students will work with MySQL databases. They will need to install MySQL Server on their machine prior to class. Be sure to provide students with the [MySQL installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide) by the end of this unit to minimize installation time next unit.
 
 ## Resources
 
 * [Express.js documentation](https://expressjs.com/en/api.html)
 
-* [Full-Stack Blog guide to Heroku deployment](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
+* [MDN Web Docs on using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+* [Node.js documentation on fs](https://nodejs.org/api/fs.html)
+
+* [Insomnia download page](https://insomnia.rest/download)
+
+* [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
 
 ## Algorithms
 
