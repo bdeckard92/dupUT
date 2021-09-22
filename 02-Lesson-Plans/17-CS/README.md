@@ -4,17 +4,17 @@
 
 In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice describing their problem-solving process using pseudocoding.
 
-In this week's virtual classes, you'll go over closures, factory functions, event delegation, and the Fibonacci algorithm. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to Regex, which is not in the async materials, but is needed for the Challenge.
+In this week's virtual classes, you'll go over closures, callbacks and queues, recursion, and binary searches. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to regex, which is not in the async materials, but is needed for the Challenge.
 
-| Day  | Topic              | Location     |
-| ---  | ---                | ---          |
-| 1    | Closures           | 17.2         |
-| 1    | Event Delegation   | 17.2         |
-| 2    | Factory Functions  | 17.2         |
-| 2    | Fibonacci          | 17.5         |
-| 2    | Regex              | Challenge    |
+| Day  | Topic                  | Location     |
+| ---  | ---                    | ---          |
+| 1    | Closures               | 17.2         |
+| 1    | Callbacks and Queues   | 17.1         |
+| 2    | Recursion              | 17.1         |
+| 2    | Binary Search          | 17.3         |
+| 2    | Regex                  | Challenge    |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning computer science?
 
