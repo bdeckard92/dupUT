@@ -12,6 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | ---  | ---                    | ---      |
 | 1    | Click events           | 5.1      |
 | 1    | Event delegation       | 5.1      |
+| 1    | Git Guide              | N/A      |
 | 2    | Bootstrap layout       | 5.2      |
 | 2    | Bootstrap utilities    | 5.2      |
 | 2    | jQuery UI              | 5.3      |
@@ -117,7 +118,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-* Next week, you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided evenly by three. 
+* Next week, you'll divide students into groups for their first project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided evenly by three.
 
 Structure groups so that they include the following mix of students:
 
