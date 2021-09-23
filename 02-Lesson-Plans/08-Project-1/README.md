@@ -8,9 +8,9 @@ In this module, students will continue to work on their projects and will presen
 
 Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 08.1](./08.1-REQUIRED.md)
+* [08.1 Virtual Class](./08.1-REQUIRED.md)
 
-* [Virtual Class 08.2](./08.2-REQUIRED.md)
+* [08.2 Virtual Class](./08.2-REQUIRED.md)
 
 ## Instructor Notes
 

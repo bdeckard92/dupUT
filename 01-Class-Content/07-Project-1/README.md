@@ -1,4 +1,4 @@
-# Unit 07: Project 1
+# Module 07: Project 1
 
 ## Overview
 
@@ -8,7 +8,7 @@ Because you will be working collaboratively, you will learn agile development me
 
 ## Key Topics
 
-The following topics will be covered in this unit:
+The following topics will be covered in this module:
 
 * [Server-side APIs](https://en.wikipedia.org/wiki/Web_API)
 
@@ -34,7 +34,7 @@ You will be employer-ready if you are able to:
 
 ## Resources
 
-Here are some additional resources to help solidify the topics covered in this unit.
+Here are some additional resources to help solidify the topics covered in this module.
 
 ### Full-Stack Blog Posts
 
@@ -44,7 +44,7 @@ Check out the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) 
 
 ### General
 
-Refer to these resources for additional information about topics covered in this unit.
+Refer to these resources for additional information about topics covered in this module.
 
   * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 

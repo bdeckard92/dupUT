@@ -8,9 +8,9 @@ In this module, you will introduce agile project management and help students wi
 
 Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 07.1](./07.1-REQUIRED.md)
+* [07.1 Virtual Class](./07.1-REQUIRED.md)
 
-* [Virtual Class 07.2](./07.2-REQUIRED.md)
+* [07.2 Virtual Class](./07.2-REQUIRED.md)
 
 ## Instructor Notes
 
