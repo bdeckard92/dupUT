@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this unit, you will introduce agile project management and help students with their first project, an API-powered interactive front-end web application that pulls data from multiple sources in a creative way. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub Issues and GitHub Projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, you will introduce agile project management and help students with their first project, an API-powered interactive front-end web application that pulls data from multiple sources in a creative way. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub Issues and GitHub Projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
 
 ## Virtual Classes
 
@@ -14,7 +14,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Prepare a list of project group members prior to the first class for this unit. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this unit's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
+* Prepare a list of project group members prior to the first class for this module. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
 
 * If students complain about group configurations, remind them of the following:
 
@@ -40,11 +40,11 @@ N/A
 
 ## Heads-Up
 
-* In the next unit, students will present their group project on the last day of class.
+* In the next module, students will present their group project on the last day of class.
 
 * Students must have a deployed project by presentation day, so encourage students to work on deploying their projects by the class prior to presentation day at the latest. Since you can always update deployed projects, it is recommended that students deploy early on and update their live version with every new feature.
 
-* Prepare a slide deck of superlative awards to give to each group on presentation day. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
+* Prepare a slide deck of superlative awards to give to each group on presentation day. Here is an [example](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing) of superlative awards.
 
 ## Resources
 
