@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review setting up an Express.js applicati
 | --- | --------------------                 | ---------- |
 | 1   | API Endpoints and HTML Routes        | 11.1, 11.3 |
 | 1   | GET Fetch Requests                   | 11.3, 11.4 |
+| 1   | Git Guide                            | N/A        |
 | 2   | POST Requests                        | 11.2, 11.3 |
 | 2   | POST Fetch Requests                  | 11.3       |
 | 2   | Data Persistence                     | 11.4       |
