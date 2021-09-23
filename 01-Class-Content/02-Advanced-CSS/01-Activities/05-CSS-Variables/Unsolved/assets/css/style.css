@@ -1,86 +1,95 @@
-* {
-  box-sizing: border-box;
-}
-
-/* TODO: Extract colors to CSS Variables */
-
 body {
-  background-color: #f9eded;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: cursive;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-/* TODO: Replace the color hex codes with CSS variables */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
 header {
-  background-color: #29364f;
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
 }
 
-.header-wrapper {
-  width: 90%;
-  margin: 0 auto;
+nav {
+  display: flex;
+  background-color: #d8a47f;
+}
+
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #fff;
+}
+
+main {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
-.header-wrapper h1 {
-  margin: 0;
-  background-color: #1d6768;
-  padding: 20px 15px;
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
 }
 
-.header-wrapper h1 a {
-  color: #f9eded;
-  text-decoration: none;
-}
-
-.header-wrapper nav {
-  margin-left: auto;
+.products {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
   display: flex;
-  flex-wrap: auto;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.header-wrapper nav a {
-  color: #f9eded;
-  padding: 0 15px;
-  font-size: 20px;
-  text-decoration: none;
-  border-right: 2px solid #337eaa;
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  flex: 0 0 300px;
+  transform: rotate(8deg);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
 }
 
-.header-wrapper nav a:last-child {
-  border-right: none;
+.card > header {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
 }
 
-.wrapper {
-  width: 1024px;
-  margin: 40px auto;
+.card > p {
+  text-align: center;
 }
 
-#main-content {
-  width: 80%;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid rgba(0, 240, 248, 0.76);
-  border-radius: 5px;
-  font-size: 35px;
+.card > img {
+  width: 100%;
 }
 
-#main-content {
-  float: left;
-  color: #f9eded;
-  background: #181b26;
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
 }
