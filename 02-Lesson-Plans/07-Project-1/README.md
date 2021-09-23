@@ -2,25 +2,37 @@
 
 ## Overview
 
-In this week's virtual classes, you'll introduce agile project management and working collaboratively with git branching.
+In this unit, you will introduce agile project management and help students with their first project, an API-powered interactive front-end web application that pulls data from multiple sources in a creative way. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub Issues and GitHub Projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
 
 ## Virtual Classes
 
+Here are the lesson plans for this week's virtual classes:
+
 * [Virtual Class 07.1](./07.1-REQUIRED.md)
+
+* [Virtual Class 07.2](./07.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
+* Prepare a list of project group members prior to the first class for this unit. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this unit's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
 
-* Students can use the [Full-Stack Blog Post on API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources) for ideas on free APIs that don't require CORS to use in their projects.
+* If students complain about group configurations, remind them of the following:
+
+  * In the real-world, you don't get to choose your co-workers.
+
+  * Working collaboratively is an important skill to acquire as a developer.
+
+* The Instructor Demo activities on the first day ask you to create a project repository. You can create one on-the-fly or you may want to create on in advance.
+
+* Be sure to spend plenty of time making sure that students can follow best practices while collaborating with git.
+
+* Students can use the [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources) for ideas on free APIs that don't require CORS to use in their projects.
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
-
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
@@ -28,13 +40,15 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's second virtual class.
+* In the next unit, students will present their group project on the last day of class.
 
-* Prepare a slide deck of superlative awards to give to each group. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
+* Students must have a deployed project by presentation day, so encourage students to work on deploying their projects by the class prior to presentation day at the latest. Since you can always update deployed projects, it is recommended that students deploy early on and update their live version with every new feature.
+
+* Prepare a slide deck of superlative awards to give to each group on presentation day. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
 
 ## Resources
 
-* [Full-Stack Blog Post on API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources) for students to use in their project.
+* [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
 * [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
