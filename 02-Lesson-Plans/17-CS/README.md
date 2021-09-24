@@ -10,7 +10,7 @@ In this week's virtual classes, you'll go over closures, callbacks and queues, r
 | ---  | ---                    | ---          |
 | 1    | Closures               | 17.2         |
 | 1    | Callbacks and Queues   | 17.1         |
-| 2    | Recursion              | 17.1         |
+| 2    | Recursion              | 17.5         |
 | 2    | Binary Search          | 17.3         |
 | 2    | Regex                  | Challenge    |
 
