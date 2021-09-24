@@ -8,7 +8,7 @@ Work with a partner to resolve the following issue:
 
 * When the page loads, a user can interact with the form elements.
 
-* A user must still wait 8 seconds before they can submit the form, though.
+* After 8 seconds, the submit button appears.
 
 ## Actual Behavior
 

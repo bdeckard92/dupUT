@@ -8,11 +8,11 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when the `Counter` function correctly increments by 1.
+* It's done when the `counter` function correctly increments by 1.
 
-* It's done when I can only access the `count` variable from within the `Counter` function.
+* It's done when I can only access the `count` variable from within the `counter` function.
 
-* It's done when all of the unit tests pass when I enter `npm install` and `npm test` in the console.
+* It's done when I enter `npm install` and `npm test` in the terminal and all the tests pass.
 
 ## 📝 Notes
 
