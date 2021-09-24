@@ -12,7 +12,7 @@ Work with a partner to implement the following user story:
 
 * It's done when I can only access the `count` variable from within the `Counter` function.
 
-* It's done when all of the unit tests pass using `npm test`.
+* It's done when all of the unit tests pass when I enter `npm install` and `npm test` in the console.
 
 ## 📝 Notes
 
@@ -24,7 +24,7 @@ Refer to the documentation:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What is the lexical environment?
+* What is dynamic scoping? How is it different than lexical scoping?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

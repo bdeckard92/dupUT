@@ -6,9 +6,13 @@ function counter() {
   return {
     increment: function () {
       // Increment the outer function's 'count' variable by one.
-      return ++count;
+      return ++count
     },
   };
 }
+
+console.dir(counter());
+
+console.log("The count variable in the outer scope is " + count);
 
 module.exports = counter;
