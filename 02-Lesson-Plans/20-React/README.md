@@ -13,6 +13,7 @@ In this week's virtual classes, you'll help students understand what React is an
 | 2   | `useState` Hook          | 20.3, 20.4, 20.5 |
 | 2   | `useEffect` Hook         | 20.3             |
 | 2   | Mapping Over Data in JSX | 20.3             |
+| 2   | React forms              | 20.4             |
 
 ## Overview of Asynchronous Material
 
@@ -73,6 +74,12 @@ Throughout the async module this week, students will use React to do the followi
 * Students might feel a little overwhelmed with the new, unusual syntax. Remind them that ultimately we're still just working with JavaScript. Make sure they understand concepts rather than perfectly memorize syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
 * **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+
+* **Important:** To avoid errors due to conflicting versions of ESLint in `fullstack-ground`, navigate to `00-practice-app` in the command line and run the following command:
+
+   ```sh
+   echo "SKIP_PREFLIGHT_CHECK=true" > .env
+   ```
 
 ### Common Pain Points
 
