@@ -4,7 +4,9 @@
 
 In this module, students will learn how to retrieve data from third-party servers and use the Fetch API to make requests to server-side APIs.
 
-In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You'll also cover implementing user input to make specific API calls, and using multiple query params in a single API call. During this week's second virtual class, you'll announce the upcoming group project and the group members.
+In this week's virtual classes, you'll discuss using `fetch()` to make requests to APIs and using plain JavaScript to display the responses to the browser. You'll also review how to implement user input to make specific API calls, and using multiple query params in a single API call. During this week's second virtual class, you'll announce the upcoming group project and the group members.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic                           | Location   |
 | ---  | ---                             | ---        |
@@ -40,7 +42,9 @@ Throughout the async module this week, students will use server-side APIs to do 
 
 * Explain and implement query string parameters.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson           | Description                | Key Points                                                                         |
 | ---              | ---                        | ---                                                                                |
@@ -52,9 +56,11 @@ Throughout the async module this week, students will use server-side APIs to do 
 
 ## Virtual Classes
 
-* [Virtual Class 06.1](./06.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 06.2](./06.2-REQUIRED.md)
+* [06.1 Virtual Class](./06.1-REQUIRED.md)
+
+* [06.2 Virtual Class](./06.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -74,24 +80,22 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| Fetch API                           | Refer to Lesson 1 or the [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) |
-| HTTP GET requests | Refer to Lesson 2 or the [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
+| Fetch API                           | Refer to Lesson 1 or the [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). |
+| HTTP GET requests | Refer to Lesson 2 or the [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest).|
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
-In this week's Challenge, students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and use `localStorage` to store any persistent data.
+For the [Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge), students will build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Students will use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and use `localStorage` to store any persistent data.
 
-[Module 06 Challenge](../../01-Class-Content/06-Server-Side-APIs/02-Challenge)
-
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Send requests to a server-side API using the Fetch API.
 
@@ -111,15 +115,19 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
 * [Download page for JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
 * [MDN Web Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 * [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
-* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+* [Module 06 Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ## Algorithms
+
+Here are the algorithms for this week:
 
 * [01-is-palindrome](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/01-is-palindrome)
 

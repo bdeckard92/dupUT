@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
 ## 💡 Hints
 
-Use the previous three exercises as references if needed to put this together.
+* Use the previous three exercises as references if needed to put this together.
 
 ## 🏆 Bonus
 
