@@ -1,6 +1,6 @@
 # Factorial
 
-In this activity, you will write code to create a function returns the [factorial](https://en.wikipedia.org/wiki/Factorial) of a given number.
+In this activity, you will write code to create a function that returns the [factorial](https://en.wikipedia.org/wiki/Factorial) of a given number.
 
 ## Instructions
 
