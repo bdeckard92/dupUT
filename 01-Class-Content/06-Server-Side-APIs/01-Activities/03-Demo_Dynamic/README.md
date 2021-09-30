@@ -6,9 +6,9 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I press the "Click Me" button, and a list of five GitHub users appears underneath on the page.
+* It is done when I press the "Click Me" button, and a list of five GitHub users appears underneath on the page.
 
-* It's done when each user includes their login name and a URL to their GitHub profile.
+* It is done when each user includes their login name and a URL to their GitHub profile.
 
 ---
 
