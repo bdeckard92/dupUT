@@ -10,11 +10,11 @@ The following table maps the key topics covered in the virtual lessons to where 
 
 | Day  | Topic                           | Location   |
 | ---  | ---                             | ---        |
-| 1    | Create Fetch                    | 6.1        |
+| 1    | Create fetch                    | 6.1        |
 | 1    | Parse JSON                      | 6.1, 6.2   |
 | 2    | Dynamic HTML                    | 6.3, 6.5   |
-| 2    | Deconstructing Parameters       | 6.3, 6.5   |
-| 2    | Fetch GitHub Issues             | 6.2        |
+| 2    | Deconstructing parameters       | 6.3, 6.5   |
+| 2    | Fetch GitHub issues             | 6.2        |
 
 ## Overview of Asynchronous Material
 
