@@ -1,5 +1,7 @@
 # Project Requirements
 
+The following are the Module 06 project requirements"
+
 * Use a CSS framework other than Bootstrap.
 
 * Be deployed to GitHub Pages.
@@ -22,4 +24,7 @@
 
 * Finally, you must add your project to the portfolio that you created in Module 2.
 
-**More details about the project will be provided in the lessons for Module 7 in Canvas.**
+**More details about the project will be provided in the online lessons for Module 7.**
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
