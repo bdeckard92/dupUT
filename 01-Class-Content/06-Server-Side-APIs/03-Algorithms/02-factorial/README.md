@@ -1,35 +1,37 @@
 # Factorial
 
-In this activity, you will be writing code to create a function that returns the factorial of a given number. A **factorial** of a number is the product of all positive integers less than or equal to the number. For more information, see the [Wikipedia page on factorials](https://en.wikipedia.org/wiki/Factorial).
+In this activity, you will write code to create a function that returns the [factorial](https://en.wikipedia.org/wiki/Factorial) of a given number.
 
 ## Instructions
 
-* Open [Unsolved/factorial.js](Unsolved/factorial.js) in your code editor&mdash;this is the only file you will modify in this activity.
+- Open [02-factorial/Unsolved/factorial.js](Unsolved/factorial.js) in your code editor; this is the only file you will modify in this activity.
 
-* In this file, you will be writing code in the body of the `factorial` function to achieve the following:
+  - In this file, you will write code in the body of the `factorial` function to achieve the following:
 
-  * Return the factorial of the given `num` integer.
+    - Return the factorial of the given `num` integer.
 
-* See the following code for an example:
+    - A factorial of a number is the product of all of all positive integers less than or equal to the number.
 
-  ```js
-  var num = 3;
-  ```
+    - For example, given the following number:
 
-* Given the preceding number, the following should be returned:
+      ```js
+      var num = 3;
+      ```
 
-  ```js
-  6;
-  // 1 x 2 x 3 === 6
-  ```
+    - The following number should be returned:
 
-  * If given `0`, the factorial should be `1`. Otherwise, assume that the given number will be a whole positive number.
+      ```js
+      6;
+      // 1 x 2 x 3 === 6
+      ```
 
-* You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
+    - If given `0`, the factorial should be `1`. Otherwise, assume the given number will be a whole positive number.
 
-  * Functions that pass the tests will be denoted with a green check mark.
+- You can check to see if your function works properly by opening [02-factorial/Unsolved/test.html](Unsolved/test.html) in your web browser:
 
-  * Functions that fail the tests will be denoted with a red X and an error message.
+  - Functions that pass the tests will be denoted with a green check mark.
+
+  - Functions that fail the tests will be denoted with a red x and an error message.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
