@@ -3,10 +3,10 @@ import {
   REMOVE_STUDENT,
   UPDATE_STUDENT,
   ADD_MAJOR,
-  REMOVE_MAJOR,
+  REMOVE_MAJOR
 } from './actions';
 
-// TODO: Add a comment explaining what a reducer is
+// TODO: Add a comment explaining what the reducer function will do
 // Your comment here
 export default function reducer(state, action) {
   switch (action.type) {
@@ -17,29 +17,29 @@ export default function reducer(state, action) {
 
       return {
         ...state,
-        students: [...state.students, newStudent],
+        students: [...state.students, newStudent]
       };
     }
     case REMOVE_STUDENT: {
       return {
         ...state,
         students: [...state.students].filter(
-          (student) => student.id !== action.payload
-        ),
+          student => student.id !== action.payload
+        )
       };
     }
     case UPDATE_STUDENT: {
       // TODO: Add a comment describing how we get the student index
       // Your comment here
       const studentIndex = state.students.findIndex(
-        (student) => student.id === action.payload.id
+        student => student.id === action.payload.id
       );
 
       // TODO: Add a comment describing what the spread operator is doing
       // Your code here
       const updatedStudent = {
         ...state.students[studentIndex],
-        ...action.payload,
+        ...action.payload
       };
 
       const newStudentsList = [...state.students];
@@ -48,21 +48,21 @@ export default function reducer(state, action) {
 
       return {
         ...state,
-        students: newStudentsList,
+        students: newStudentsList
       };
     }
     case ADD_MAJOR: {
       // TODO: Add a comment explaining what this case is returning
       return {
         ...state,
-        majors: [...state.majors, action.payload],
+        majors: [...state.majors, action.payload]
       };
     }
     case REMOVE_MAJOR: {
       // TODO: Add a comment explaining what this case is returning
       return {
         ...state,
-        majors: [...state.majors].filter((major) => major !== action.payload),
+        majors: [...state.majors].filter(major => major !== action.payload)
       };
     }
     default:

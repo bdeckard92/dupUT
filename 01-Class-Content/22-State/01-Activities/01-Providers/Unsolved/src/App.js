@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>22.1 State</h1>
+      <h1>State</h1>
       <h4 style={{ color: 'lightseagreen' }}>{title}</h4>
 
       <StudentProvider>
