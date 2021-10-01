@@ -4,14 +4,14 @@
 
 In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutations and implement GraphQL on both the client and server. Students will also work with **JSON Web Tokens (JWT)** as a means of handling user authentication. Finally, they'll bring together all four technologies of the MERN stack (Mongo, Express.js, React, Node.js) to build a full-stack application.
 
-In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server to set up `typeDefs` and `resolvers`, making queries and mutations, and using GraphQL Playground. You'll also review JSON Web Tokens and the `useEffect` Hook.
+In this week's virtual classes, you'll cover GraphQL, including making queries arguments and mutations. These activities will also give students an opportunity to practice using the GraphQL Playground. You'll also review react Router, JSON Web Tokens, and the `useEffect` Hook.
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
-| 1    | GraphQL Schema     | 21.1       |
-| 1    | JSON Web Tokens    | 21.2       |
-| 2    | GraphQL Mutations  | 21.2       |
-| 2    | GraphQL Client     | 21.3       |
+| 1    | Query Arguments    | 21.1       |
+| 1    | Mutations          | 21.2       |
+| 2    | React Router       | 21.2       |
+| 2    | JWT Signing        | 21.3       |
 | 2    | `useEffect` Hook   | Challenge  |
 
 ## Overview of Asynchronous Material 
@@ -24,13 +24,13 @@ Why are students learning MERN?
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
-* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN. 
+* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN.
 
 * GraphQL is an up-and-coming technology that solves one of the fundamental problems of REST, which is the overfetching and underfetching of data at scale.
 
-* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
+* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties.
 
-* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps. 
+* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps.
 
 Throughout the async module this week, students will use MERN to do the following:
 
