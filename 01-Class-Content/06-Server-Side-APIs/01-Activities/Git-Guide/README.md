@@ -8,6 +8,8 @@ Having multiple developers work with code in a single repository can be hectic. 
 
 ## Instructions
 
+The following instructions describe how to establish a Git and GitHub collaboration flow, sometimes known as a "Gitflow."
+
 ### Create Repository and Set Up .gitignore File
 
 * Like with all projects, we need to start by creating a repository. Navigate to [GitHub](https://github.com) and create a new repository for your project. Ensure that the option to add a `README.md` file is checked.
