@@ -6,9 +6,9 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I open Chrome DevTools, and five issues from the Chill repository are logged in the console.
+* It is done when I open Chrome DevTools, and five issues from the Chill repository are logged in the console.
 
-* It's done when the issue's URL and username are logged in the DevTools console.
+* It is done when the issue's URL and username are logged in the DevTools console.
 
 ## 📝 Notes
 
@@ -20,7 +20,7 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-How do you add parameters to an API endpoint URL?
+* How do you add parameters to an API endpoint URL?
 
 ## 🏆 Bonus
 

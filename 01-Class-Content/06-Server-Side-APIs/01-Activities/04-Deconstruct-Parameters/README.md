@@ -1,6 +1,6 @@
 # 🐛  Fetch request lacks query parameters
 
-Work with a partner to resolve the following issue(s):
+Work with a partner to resolve the following issue:
 
 * As a user, I want to be able to customize the parameters of a fetch request.
 
@@ -14,6 +14,8 @@ When a user makes a request, a list of issues is returned regardless of the issu
 
 ## Steps to Reproduce the Problem
 
+Follow these steps to reproduce the problem:
+
 1. Open `index.html` in a browser.
 
 2. Open the developer console.
@@ -24,9 +26,9 @@ When a user makes a request, a list of issues is returned regardless of the issu
 
 ## 💡 Hints
 
-How can we use the GitHub Issues API documentation to help us refine our query parameters?
+* How can we use the GitHub Issues API documentation to help us refine our query parameters?
 
-What other parameters can you add to the fetch request when using the GitHub Issues API?
+* What other parameters can you add to the fetch request when using the GitHub Issues API?
 
 ## 🏆 Bonus
 
