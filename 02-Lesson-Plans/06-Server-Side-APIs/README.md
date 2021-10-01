@@ -81,7 +81,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                          | Recommendation       |
 | ---                                 | ---                  |
-| Fetch API                           | Refer to Lesson 1 or the [MDN Web Docs on Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). |
+| Fetch API                           | Refer to Lesson 1 or the [MDN Web Docs on Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). |
 | HTTP GET requests | Refer to Lesson 2 or the [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest).|
 
 ## Career Connection
@@ -120,7 +120,7 @@ The following resources can help you prepare for this week's classes:
 
 * [Download page for JSON Formatter Google Chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
-* [MDN Web Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [MDN Web Docs on Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 * [MDN Web Docs on XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
