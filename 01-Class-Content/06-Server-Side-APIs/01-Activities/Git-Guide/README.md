@@ -1,4 +1,4 @@
-# Git Collaboration Flow
+# Practice Collaborating with Other Developers Using Git and GitHub
 
 In this activity, we will walk through a situation that allows you to practice effectively collaborating with other developers on a web application that is hosted on GitHub. When working with a team, it's crucial for all members of the team to agree on a workflow that ensures both the team's ease of working together and the application's integrity. In web development, this workflow typically revolves around the use of Git and GitHub.
 
