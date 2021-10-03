@@ -14,8 +14,8 @@ The following table maps the key topics covered in the virtual lessons to where 
 | 1    | Parse JSON                      | 6.1, 6.2   |
 | 1    | Git Guide                       | N/A        |
 | 2    | Dynamic HTML                    | 6.3, 6.5   |
-| 2    | Deconstructing parameters       | 6.3, 6.5   |
-| 2    | Fetch GitHub issues             | 6.2        |
+| 2    | Deconstructing parameters       | 6.4        |
+| 2    | Fetch GitHub issues             | 6.4        |
 
 ## Overview of Asynchronous Material
 

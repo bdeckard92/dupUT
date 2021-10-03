@@ -1,4 +1,4 @@
-# 🏗️ Implement a fetch() Request to Display User Repositories
+# 🏗️ Implement a `fetch()` Request to Display User Repositories
 
 Work with a partner to implement the following user story:
 

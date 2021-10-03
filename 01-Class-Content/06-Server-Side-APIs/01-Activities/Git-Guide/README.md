@@ -6,19 +6,19 @@ Having multiple developers work with code in a single repository can be hectic. 
 
 In this activity, we will walk through a situation that allows you to practice effectively collaborating with other developers on a web application that is hosted on GitHub.
 
-> **Important:** Because this is a group-based application, only one person in the group needs to create the repository. That person will then invite the other developers to join the repository as collaborators.
+> **Important:** Because this is a group-based workflow, only one person in the group needs to create the repository. That person will then invite the other developers to join the repository as collaborators.
 
 ## Instructions
 
 The following instructions describe how to establish a Git and GitHub collaboration flow.
 
-### Create Repository and Set Up .gitignore File
+### Create Repository and Set Up `.gitignore` File
 
 In this step, you'll create a repository and set up a `.gitignore` file.
 
 1. As with all projects, we need to start by creating a repository. Navigate to [GitHub](https://github.com) and create a new repository for your project. Ensure that the option to add a `README.md` file is checked.
 
-2. Once the repository has been created, clone it to your machine using `git clone <repository-name>` and open the entire application in VS Code.
+2. Once the repository has been created, clone it to your machine using the `git clone <repository-name>` command and open the entire application in VS Code.
 
 3. At the root of the application, use VS Code or the command line to create a file named `.gitignore`. This file will store a list of files or folders that may end up in the application but that we don't want to keep on GitHub.
 
@@ -40,7 +40,7 @@ In this step, you'll create a repository and set up a `.gitignore` file.
 
 Great&mdash;now the application is ready for other developers! Before we add those developers, however, let's add some protective measures to the repo on GitHub.
 
-### Protect the main Branch
+### Protect the `main` Branch by Adding Branch Protection Rule
 
 When you work alone on a project, it's a safe assumption that any code that is pushed to the `main` branch will come from one course, so it's easy to keep track of who added what code and whether it works or not. When working with others, however, certain rules need to be put in place to keep every developer in sync and in agreement on what code is ready for production.
 
@@ -54,21 +54,19 @@ Luckily, GitHub has some features we can add to a repo to stay in sync more easi
 
 	![The branch settings page in the repository shows a button to add a rule to a branch.](./Images/02-branch-rules.png)
 
-### Add Branch Protection Rule
-
 After we select Add Rule, a page titled "Branch protection rule" will appear. On this page, we'll set up the repository so that no code can be pushed to the `main` branch by any member of the developer team. All code that is to be merged into the `main` branch MUST be merged through a GitHub pull request. Let's add the following to this page:
 
-1. For the "Branch name pattern" input field, enter the branch `main`.
+3. For the "Branch name pattern" input field, enter the branch `main`.
 
-2. Next, check the box next to the option for "Require pull request reviews before merging". This will open another set of options asking if we want multiple reviewers before allowing a pull request to be merged, but we can leave it at just one for now.
+4. Next, check the box next to the option for "Require pull request reviews before merging". This will open another set of options asking if we want multiple reviewers before allowing a pull request to be merged, but we can leave it at just one for now.
 
-3. Finally, select the option to "Include administrators". This way, even the repository owner cannot push to `main` and has to follow all of the same rules as the rest of the developers.
+5. Finally, select the option to "Include administrators". This way, even the repository owner cannot push to `main` and has to follow all of the same rules as the rest of the developers.
 
-4. Confirm that the correct rules are in place by comparing your repo's settings with the following image:
+6. Confirm that the correct rules are in place by comparing your repo's settings with the following image:
 
 	![The branch protection rule page shows all of the options in place to protect the main branch.](./Images/03-branch-rules-done.png)
 
-5. Make sure to select the Create button at the bottom of the page. The page will refresh and inform us that the rules have been created.
+7. Make sure to select the Create button at the bottom of the page. The page will refresh and inform us that the rules have been created.
 
 Great! Now the repository's `main` branch cannot have code added to it without a pull request, and that pull request must be reviewed and approved by at least one other developer on the project. Let's go add those other developers now!
 
@@ -136,7 +134,7 @@ Now that you have a new feature branch, it is time to make some changes to it by
 
 	```bash
 	git add -A
-	git commit -m "This is committing the  changes I made locally"
+	git commit -m "This is committing the changes I made locally"
 	```
 
 4. With `git add`, we move the changes to a staging area, which tells Git that we want to group these changes in Git. It is important to know that `add` does not change the repository. The repository will change once you `commit` the changes.
@@ -179,11 +177,11 @@ When you are happy with your new feature and you have tested it, it is time to o
 
 	![The page to create a pull request includes a field for a description and a green "Create pull request" button at the bottom.](./Images/03-create-pull-request.png)
 
-	> **Important:** Before submitting a pull request, make sure that you are comparing your branch to `main`. This means that the `base:` branch should be `main`.
+	> **Important:** Before submitting a pull request, make sure that you are comparing your branch to `main`. This means that the `base` branch should be `main`.
 
 ### Review Pull Request
 
-Okay, you now have a pull request, but it is important that one of the team members (in this case, you) carefully reviews the pull request for any mistakes that could potentially break the `main` branch.
+You now have a pull request, but it is important that one of the team members carefully reviews the pull request for any mistakes that could potentially break the `main` branch.
 
 Earlier, we created a rule that requires developers to open a pull request and have that pull request reviewed before merging a branch with `main`. The following image shows how this is enforced in GitHub:
 

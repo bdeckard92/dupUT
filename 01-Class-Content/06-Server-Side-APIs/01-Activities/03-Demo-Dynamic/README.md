@@ -1,4 +1,4 @@
-# 🏗️ Implement a fetch() Request to Display GitHub Data as HTML
+# 🏗️ Implement a `fetch()` Request to Display GitHub Data as HTML
 
 Work with a partner to implement the following user story:
 
