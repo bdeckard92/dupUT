@@ -5,7 +5,7 @@ import './jass.css';
 import './app.css';
 
 function App() {
-  const title = 'Activity 2: Providers';
+  const title = ' Providers';
   useEffect(() => {
     document.title = title;
   }, []);
