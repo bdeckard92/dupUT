@@ -15,7 +15,7 @@ In this week's virtual classes, you'll cover PWAs, primarily focusing on Webpack
 | 2    | Caching Fetching Files     | 19.4       |
 | 2    | Service Workers, Manifest  | 19.4, 19.5 |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning progressive web applications (PWAs)?
 
@@ -54,7 +54,7 @@ Throughout the async module this week, students will use PWAs to do the followin
 | 1                | Auditing Application Performance   | Google Lighthouse, minifying files, lazy-loading files                                |
 | 2                | Introduction to Webpack            | Bundle JavaScript files, modify the `webpack.config` file, Webpack dependency graphs  |
 | 3                | Optimizing JavaScript              | Add reporting tools with plugin, split code for lazy loading, compress images         |
-| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      | 
+| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      |
 | 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                     |
 
 ## Virtual Classes
