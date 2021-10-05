@@ -8,11 +8,12 @@ In this week's virtual classes, you'll cover state management, particularly usin
 
 | Day | Topic                                                | Location   |
 | --- | ---------------------------------------------------- | ---------- |
-| 1   | Actions, Reducers, `useReducer` Hook                 | 22.1       |
-| 1   | Testing Reducers                                     | 22.1, 22.2 |
-| 2   | Global State, `createContext` and `useContext` Hooks | 22.1, 22.2 |
-| 2   | Global State Refactor                                | 22.1       |
-| 2   | Redux Documentation                                  | Challenge  |
+| 1   | Providers                                            | 22.1       |
+| 1   | Consumers                                            | 22.1, 22.2 |
+| 2   | Reducers                                             | 22.1, 22.2 |
+| 2   | Actions                                              | 22.2       |
+| 2   | `useReducer` Hook                                    | 22.2       |
+| n/a | Redux                                                | Challenge  |
 
 ## Overview of Asynchronous Material
 
@@ -78,8 +79,6 @@ Throughout the async module this week, students will use state management to do 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
   * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
-
-
 
 ### Common Pain Points
 
