@@ -76,3 +76,6 @@ package-lock.json
 canvas/
 canvas-tools/
 tagger/
+
+# Practice react app
+00-practice-app/
