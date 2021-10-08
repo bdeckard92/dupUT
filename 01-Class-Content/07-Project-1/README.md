@@ -34,11 +34,11 @@ You will be employer-ready if you are able to:
 
 ## Resources
 
-This section contains some additional resources to help solidify the topics covered in this module.
+This section contains some additional resources to help you understand the topics covered in this module.
 
 ### Full-Stack Blog Posts
 
-Check out [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, such as walkthroughs, articles, and installation guides, including the following post:
+Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, such as walkthroughs, articles, and installation guides:
 
   * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 

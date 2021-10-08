@@ -42,7 +42,7 @@ N/A
 
 * In the next module, students will present their group project on the last day of class.
 
-* Students must have a deployed project by presentation day, so encourage students to work on deploying their projects by the class prior to presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
+* Students must have a deployed project by presentation day, so encourage students to deploy their projects by the class before presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
 
 * Prepare a slide deck of superlative awards to give to each group on presentation day. Here is an [example slide deck of superlative awards](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing).
 

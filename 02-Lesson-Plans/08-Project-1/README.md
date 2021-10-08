@@ -14,9 +14,9 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Share the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students early in the week to give them ample time to prepare for their presentations.
+* Early in the week, share the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students so they have ample time to prepare for their presentations.
 
-* Students must have a deployed project by presentation day, so encourage students to work on deploying their projects by the class prior to presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
+* Students must have a deployed project by presentation day, so encourage students to deploy their projects by the class before presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
 
 * Prepare a slide deck of superlative awards to give to each group. Use this [example of a superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing), and feel free to customize it for your cohort.
 
@@ -38,7 +38,7 @@ N/A
 
 ## Heads-Up
 
-* In the next module, students will begin learning Node.js. Advise the students to have Node.js installed before coming to the first class of the module! Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
+* In the next module, students will begin learning Node.js. Remind the students to have Node.js installed before coming to the first class of the module! Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 ## Resources
 
