@@ -2,9 +2,9 @@
 
 ## Overview
 
-Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build web application from scratch. With your team, you will conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests.
+Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build a web application from scratch. Along with your group, you will conceive and execute a design that solves a real-world problem by integrating data that is received from multiple server-side API requests.
 
-Because you will be working collaboratively, you will learn agile development methodologies and implement feature and bug fixes using Git branch workflow and pull requests.
+Because you will be working collaboratively, you will learn agile development methodologies as you go. You'll also implement feature and bug fixes by using the Git branch workflow and pull requests.
 
 ## Key Topics
 
@@ -20,7 +20,7 @@ The following topics will be covered in this module:
 
 You will be employer-ready if you are able to:
 
-* Speak technically about a feature you implemented in your project.
+* Speak technically about a feature that you implemented in your project.
 
 * Explain and execute Git branching workflow in a collaborative project.
 
@@ -38,13 +38,13 @@ This section contains some additional resources to help you understand the topic
 
 ### Full-Stack Blog Posts
 
-Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, such as walkthroughs, articles, and installation guides:
+Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
   * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
 ### General
 
-Refer to the following resources for additional information about topics covered in this module:
+Refer to the following general resources for more information about topics covered in this module:
 
   * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 

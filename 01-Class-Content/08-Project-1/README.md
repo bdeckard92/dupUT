@@ -20,7 +20,7 @@ The following topics will be covered in this module:
 
 You will be employer-ready if you are able to:
 
-* Speak technically about a feature you implemented in your project.
+* Speak technically about a feature that you implemented in your project.
 
 * Explain and execute Git branching workflow in a collaborative project.
 
@@ -38,7 +38,7 @@ This section contains some additional resources to help you understand the topic
 
 ### Full-Stack Blog Posts
 
-Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, such as walkthroughs, articles, and installation guides:
+Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
   * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
@@ -46,7 +46,7 @@ Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) f
 
 ### General
 
-Refer to the following resources for additional information about topics covered in this module:
+Refer to the following resources for more information about topics covered in this module:
 
   * 📖 [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 

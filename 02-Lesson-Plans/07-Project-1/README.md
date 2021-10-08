@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, you will introduce agile project management and help students with their first project, an API-powered interactive front-end web application that pulls data from multiple sources in a creative way. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub Issues and GitHub Projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, you will introduce agile project management and help students with their first project, which is an API-powered interactive front-end web application that pulls data from multiple sources. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub issues and projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
 
 ## Virtual Classes
 
@@ -24,7 +24,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * The Instructor Demo activities on the first day ask you to create a project repository. You can create one on-the-fly or you may want to create one in advance.
 
-* Be sure to spend plenty of time making sure that students can follow best practices while collaborating using Git.
+* Be sure to spend plenty of time making sure that students follow best practices while collaborating with Git.
 
 * For ideas on free APIs that don't require CORS to use in their project, students can refer to the [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
 
@@ -32,7 +32,7 @@ Here are the lesson plans for this week's virtual classes:
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 

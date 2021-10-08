@@ -20,7 +20,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * Prepare a slide deck of superlative awards to give to each group. Use this [example of a superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing), and feel free to customize it for your cohort.
 
-* Divide this week's second virtual class time by the number of groups presenting in order to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
+* Divide this week's second virtual class time by the number of groups presenting in order to give each group enough time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
 * Be prepared to demonstrate the [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge) at the end of the second virtual class, after presentations.
 
@@ -38,7 +38,7 @@ N/A
 
 ## Heads-Up
 
-* In the next module, students will begin learning Node.js. Remind the students to have Node.js installed before coming to the first class of the module! Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
+* In the next module, students will begin learning Node.js. Remind them to install Node.js before coming to the first class of the module! Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 ## Resources
 
