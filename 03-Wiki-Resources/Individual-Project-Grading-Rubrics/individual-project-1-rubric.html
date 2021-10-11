@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- @TODO: UPDATE RUBRIC TO USE WITH INDIVIDUAL PROJECT REQUIREMENTS -->
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.css" rel="stylesheet" />
-  <title>Group Project 1 Rubric</title>
+  <title>Individual Project 1 Rubric</title>
   <style>
     *,
     *::before,
@@ -523,7 +524,7 @@
         "use strict";
 
         function Model() {
-          this.title = `Group Project 1 Rubric (Coding)`;
+          this.title = `Individual Project 1 Rubric (Coding)`;
           this.categories = [
             {
               title: "Technical Acceptance Criteria",
@@ -531,7 +532,7 @@
               questions: [
                 {
                   title: "Application uses at least 2 server-side APIs",
-                  score: 5,
+                  score: 10,
                   type: "true false",
                   message:
                     "Application doesn't use at least 2 server-side APIs",
@@ -539,7 +540,7 @@
                 },
                 {
                   title: "Application uses client-side storage to store persistent data",
-                  score: 5,
+                  score: 10,
                   type: "true false",
                   message:
                     "Application doesn't use client-side storage to store persistent data",
@@ -547,25 +548,8 @@
                 },
                 {
                   title:
-                    "Application doesn't use JS alerts, prompts, or confirms (uses modals instead)",
-                  score: 5,
-                  type: "true false",
-                  message:
-                    "Application should use modals instead JS alerts, prompts, and confirms",
-                  status: false
-                },
-                {
-                  title: "Application uses CSS framework other than Bootstrap",
-                  score: 5,
-                  type: "true false",
-                  message:
-                    "Application should use CSS framework other than Bootstrap",
-                  status: false
-                },
-                {
-                  title:
                     "Application is interactive (ie accepts and responds to user input)",
-                  score: 5,
+                  score: 10,
                   type: "true false",
                   message:
                     "Application should be interactive (ie should accept and respond to user input)",
@@ -579,17 +563,17 @@
               score: 0,
               questions: [
                 {
-                  title: "Group presented unique and novel project idea",
+                  title: "Individual presented unique and novel project idea",
                   score: 5,
                   type: "true false",
                   message: "The project concept could have been more novel",
                   status: false
                 },
                 {
-                  title: "Group clearly and concisely articulated project idea",
+                  title: "Individual clearly and concisely articulated project idea",
                   score: 5,
                   type: "true false",
-                  message: "Group could have more clearly and concisely articulated project idea",
+                  message: "Individual could have more clearly and concisely articulated project idea",
                   status: false
                 }
               ]
@@ -600,26 +584,17 @@
               score: 0,
               questions: [
                 {
-                  title:
-                    "Group demoed application using deployed live application URL",
+                  title: "Individual demoed application using deployed live application URL",
                   score: 10,
                   type: "true false",
-                  message:
-                    "Group did not demo project using live application URL",
+                  message: "Individual did not demo project using live application URL",
                   status: false
                 },
                 {
                   title: "Student submitted application GitHub URL",
-                  score: 3,
+                  score: 10,
                   type: "true false",
                   message: "Missing GitHub submission URL",
-                  status: false
-                },
-                {
-                  title: "Student submitted portfolio featuring deployed project at live URL",
-                  score: 7,
-                  type: "true false",
-                  message: "Student did not submit portfolio featuring deployed project at live URL",
                   status: false
                 }
               ]
@@ -700,56 +675,29 @@
               score: 0,
               questions: [
                 {
-                  title: "Group presented using Powerpoint or similar presentation software",
-                  score: 3,
+                  title: "Individual presented using Powerpoint or similar presentation software",
+                  score: 5,
                   type: "true false",
-                  message: "Group did not present using Powerpoint or similar presentation software",
+                  message: "Individual did not present using Powerpoint or similar presentation software",
                   status: false
                 },
                 {
-                  title: "Every group member spoke during presentation",
-                  score: 4,
+                  title: "Student presented during Office Hours if possible, or via a recorded video presentation, as determined by your instructor and SSM",
+                  score: 5,
                   type: "true false",
-                  message: "Not every group member spoke during the presentation",
+                  message: "Student did not present during Office Hours if possible, or via a recorded video presentation, as determined by your instructor and SSM",
                   status: false
                 },
                 {
                   title: "Presentation followed Project Presentation Template",
-                  score: 3,
+                  score: 5,
                   type: "true false",
                   message: "Presentation didn't follow Project Presentation Template",
                   status: false
                 }
               ]
             },
-            {
-              title: "Collaboration",
-              subtitle: null,
-              score: 0,
-              questions: [
-                {
-                  title: "GitHub contributions",
-                  score: 10,
-                  type: "likert",
-                  options: [
-                    {
-                      message: "There are major disparities in the number of GitHub contributions between group members",
-                      score: 0
-                    },
-                    {
-                      message: "There are some disparities in the number of GitHub contributions between group members",
-                      score: 5
-                    },
-                    {
-                      message: "There are no major disparities in the number of GitHub contributions between group members",
-                      score: 10
-                    }
-                  ],
-                  message: "",
-                  status: false
-                }
-              ]
-            },
+          
             {
               title: "Academic Integrity",
               subtitle: "If any of of the following are true, partner with your instructor to investigate plagiarism. Contact your SSM if you believe plagiarism has occurred.",
