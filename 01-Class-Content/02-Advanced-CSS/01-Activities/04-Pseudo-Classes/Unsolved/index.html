@@ -3,72 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Pseudo Elements & Classes</title>
+    <title>CSS Resets</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body>
     <header>
-      <nav></nav>
+      <h1>The CSS Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
       <section>
-        <h2>Pseudo Element Selectors</h2>
-        <h3>Notable Tubers</h3>
-        <ul class="tubers">
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Rutabaga" target="_blank"
-              >Rutabaga</a
-            >
-          </li>
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Celery_root" target="_blank"
-              >Celery Root</a
-            >
-          </li>
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Parsnip" target="_blank"
-              >Parsnip</a
-            >
-          </li>
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Sweet_potato" target="_blank"
-              >Sweet Potato</a
-            >
-          </li>
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Yam" target="_blank">Yam</a>
-          </li>
-          <li>
-            <a href="https://en.wikipedia.org/wiki/Cassava" target="_blank"
-              >Cassava</a
-            >
-          </li>
-        </ul>
-        <p class="intro">
-          Man braid jean shorts venmo butcher 90's, single-origin coffee PBR&B.
-          Tacos chia chartreuse live-edge, raw denim narwhal tumeric squid. Ugh
-          vice roof party readymade woke lomo forage tbh whatever shoreditch
-          vinyl. Polaroid four dollar toast subway tile kickstarter.
-          Dreamcatcher la croix irony cred austin put a bird on it fam, celiac
-          direct trade biodiesel. Wolf food truck butcher mixtape, forage
-          activated charcoal occupy enamel pin fashion axe salvia hexagon.
-        </p>
+        <article>
+          <h2>Building Responsive Layouts</h2>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              natus recusandae amet nostrum odit, ut unde non sint, quia sed
+              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
+              accusamus tempore!
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+              <li>Nihil natus recusandae amet nostrum odit</li>
+              <li>Eligendi vitae fuga blanditiis accusamus tempore</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              natus recusandae amet nostrum odit, ut unde non sint, quia sed
+              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
+              accusamus tempore! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur
+              esse voluptatum, dolores dolor aspernatur neque laborum dolorum
+              dolorem repudiandae. Dignissimos eveniet sequi corporis tempore
+              ullam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              natus recusandae amet nostrum odit, ut unde non sint, quia sed
+              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
+              accusamus tempore!
+            </p>
+          </div>
+          <div class="resources">
+            <!-- TODO: Add resource links -->
+          </div>
+        </article>
       </section>
-
-      <section>
-        <p class="conclusion">
-          Shaman put a bird on it next level 3 wolf moon venmo deep v. Cliche
-          umami chicharrones poke waistcoat snackwave tattooed gastropub
-          succulents vinyl four dollar toast. Actually pork belly hashtag tacos
-          man bun. Banh mi blue bottle quinoa, shoreditch meditation cronut
-          hella literally cloud bread wolf photo booth. Affogato viral vape
-          mustache, pinterest intelligentsia craft beer echo park asymmetrical
-          portland ennui. Cred cloud bread vegan, franzen master cleanse cliche
-          wolf. Cloud bread literally distilery raclette, tilde gluten-free air
-          plant raw denim mixtape.
-        </p>
-      </section>
+      <aside>
+        <h2>Sign up to Learn More!</h2>
+        <form>
+          <input type="text" placeholder="E-mail address" />
+          <button>Submit</button>
+        </form>
+      </aside>
     </main>
+
+    <footer>
+      <span>Thanks for visiting!</span>
+    </footer>
   </body>
 </html>

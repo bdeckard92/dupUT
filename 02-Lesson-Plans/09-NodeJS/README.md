@@ -58,7 +58,7 @@ Throughout the async module this week, students will use Node.js to do the follo
 
 * If students question why they're learning Node.js, emphasize its role in the client-server model. Full-stack developers must be able to build applications using the client-server model. They'll likely face interview questions about the difference between the client and the server and how they relate to each other.
 
-* Students should have already installed Node.js on their computers before coming to class. If they haven't done that yet, direct them to the Up and Running section in the async materials for details on how to install it.  
+* Students should have already installed Node.js on their computers before coming to class. If they haven't done that yet, direct them to the Up and Running section in the async materials for details on how to install it.
 
 * This module also introduces the npm package Inquirer. Refer to the [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer) for installation, examples, and more information on the methods used.
 
@@ -73,11 +73,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
