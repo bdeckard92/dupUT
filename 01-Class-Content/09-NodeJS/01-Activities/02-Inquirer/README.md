@@ -1,36 +1,35 @@
-# 🐛 Fix Implementation of Arrow Functions
+# 🏗️ Build CLI App with Inquirer
 
-Work with a partner to resolve the following issue(s):
+Work with a partner to implement the following user story:
 
-* As a user, I want to run a script that will update a movie queue.
+* As a developer, I want to create a command-line application that takes in input from the user and does something with it.
 
-## Expected Behavior
+## Acceptance Criteria
 
-When a user runs the script, it will add and remove movies from the queue and display the movies currently in the queue.
+* It's done when I have initialized my repository with a `package.json` file by running `npm init -y`.
 
-## Actual Behavior
+* It's done when I have installed inquirer and added it to my list of dependencies by running `npm i inquirer --save`.
 
-The script exits out with an error message.
+* It's done when the application asks the user, "What is your name?"
 
-## Steps to Reproduce the Problem
+* It's done when the application asks the user, "What languages do you know?"
 
-1. Navigate to the `Unsolved` folder from the command line.
+* It's done when the application asks the user, “What is your preferred method of communication?"
 
-2. Run `node index.js`.
-
-3. Note the error that is printed.
+* It's done after I have written those responses to a file.
 
 ## 💡 Hints
 
-What is an example of when we shouldn't use arrow functions?
+Why do we need to use `JSON.stringify`? How can we use the npm page for `inquirer` to see how to use checkboxes and lists?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How can you shorten the arrow function syntax even further with implicit return statements?
-  
+* How would you format your JSON? Can you generate the name of your user file from the user input?
+
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
+
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

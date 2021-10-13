@@ -1,12 +1,12 @@
 // 1. Object
 const nodejs = {
-  title: 'Node.js',
+  name: 'Node.js',
   type: 'JavaScript runtime environment'
 };
 
-const { title, type } = nodejs;
+const { name, type } = nodejs;
 
-console.log(title); // <= Node.js
+console.log(name); // <= Node.js
 console.log(type); // <= JavaScript runtime environment
 
 // 2. Nested Object
