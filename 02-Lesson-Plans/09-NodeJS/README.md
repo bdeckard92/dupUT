@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 | --- | ------------------------ | ------------- |
 | 1   | Arrow Functions          | 9.1 - 9.2     |
 | 1   | Inquirer                 | 9.3 - 9.5     |
+| 1   | Git Guide                | N/A           |
 | 2   | `fs` Module              | 9.2           |
 | 2   | Functional Loops         | 9.1           |
 | 2   | Destructuring Assignment | 9.4           |
