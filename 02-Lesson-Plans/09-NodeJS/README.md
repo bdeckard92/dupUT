@@ -12,7 +12,7 @@ In this week's virtual classes, you'll review the `fs` and `inquirer` packages, 
 | 1   | Inquirer                 | 9.3 - 9.5     |
 | 1   | Git Guide                | N/A           |
 | 2   | `fs` Module              | 9.2           |
-| 2   | Functional Loops         | 9.1           |
+| 2   | Functional Loops         | 9.4           |
 | 2   | Destructuring Assignment | 9.4           |
 
 ## Overview of Asynchronous Material
@@ -59,7 +59,7 @@ Throughout the async module this week, students will use Node.js to do the follo
 
 * If students question why they're learning Node.js, emphasize its role in the client-server model. Full-stack developers must be able to build applications using the client-server model. They'll likely face interview questions about the difference between the client and the server and how they relate to each other.
 
-* Students should have already installed Node.js on their computers before coming to class. If they haven't done that yet, direct them to the Up and Running section in the async materials for details on how to install it.
+* Students will be expected to have Node.js installed, but if they don't, be sure to tell them that they can install it using the resources found on the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 * This module also introduces the npm package Inquirer. Refer to the [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer) for installation, examples, and more information on the methods used.
 
