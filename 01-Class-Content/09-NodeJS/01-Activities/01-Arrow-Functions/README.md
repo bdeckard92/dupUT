@@ -29,7 +29,7 @@ What is an example of when we shouldn't use arrow functions?
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
 * How can you shorten the arrow function syntax even further with implicit return statements?
-  
+
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
