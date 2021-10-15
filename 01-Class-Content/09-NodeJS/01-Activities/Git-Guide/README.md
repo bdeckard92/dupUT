@@ -1,12 +1,12 @@
 # Git Fork
 
-Now that you have become familiar with Git and Github, you may find yourself wanting to contribute to an open source project. You may also want to use a project as a starting point for your own, in the case of something like a boilerplate application. Luckily, there is a feature in Github and many other version control systems called forking.
+Now that you have become familiar with Git and Github, you may find yourself wanting to contribute to an open source project. You may also want to use a project as a starting point for your own, in the case of something like a boilerplate application. Luckily, there is a feature in GitHub and many other version control systems that allows you to do this: forking.
 
 Forking a repository makes an exact copy another project that resides on your personal account. This acts as a connection between your own repo and the owner's repo. Additionally, this allows the owner to protect their own code by preventing users from pushing to it directly but still giving developers a way to contribute in a non-intrusive way. Forking is very common in open-source software development.
 
-In this activity we will be using a test repository to help you grasp the fork and pull request workflow
+In this activity, we will use a test repository to help you understand the fork and pull-request workflow.
 
-* Getting started: visit [forking-tutorial](https://github.com/coding-boot-camp/forking-tutorial)
+Before you get started, take a moment to review the GitHub forking tutorialGetting started: visit [forking-tutorial](https://github.com/coding-boot-camp/forking-tutorial)
 
 ## Fork and Clone
 
