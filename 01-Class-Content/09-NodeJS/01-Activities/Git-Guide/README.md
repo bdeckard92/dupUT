@@ -6,17 +6,19 @@ Forking a repository makes an exact copy another project that resides on your pe
 
 In this activity, we will use a test repository to help you understand the fork and pull-request workflow.
 
-Before you get started, take a moment to review the GitHub forking tutorialGetting started: visit [forking-tutorial](https://github.com/coding-boot-camp/forking-tutorial)
+Before you get started, take a moment to review the [GitHub forking tutorial](https://github.com/coding-boot-camp/forking-tutorial).
 
 ## Fork and Clone
 
-1. To fork this project, click the "fork" button at the top of the repository
+The first step is to fork and clone a project by following these steps:
 
-2. Choose your personal account when asked `Where should we fork?"
+1. To fork this project, click the "fork" button at the top of the repository.
 
-3. After a few seconds you will be taken to *your* copy of the repository
+2. Choose your personal account when asked "Where should we fork?"
 
-4. Visit the fork that you just created on GitHub can copy the URL of your fork.
+3. After a few seconds, you will be taken to your copy of the repository.
+
+4. Visit the fork that you just created on GitHub and copy the URL of your fork.
 
 5. Clone your fork of the repository to your local machine and move into that directory:
 
@@ -24,7 +26,7 @@ Before you get started, take a moment to review the GitHub forking tutorialGetti
     git clone git@github.com:<YOUR_GITHUB_USERNAME>/forking-tutorial.git && cd forking-tutorial
     ```
 
-6. Run the following command to see that the remote URL for the repository is set to your own personal Github
+6. Run the following command to see that the remote URL for the repository is set to your own personal GitHub:
 
     ```sh
     git remote -v
@@ -32,20 +34,22 @@ Before you get started, take a moment to review the GitHub forking tutorialGetti
 
 ## Contribute and Pull Request
 
-1. Create a branch of your own
+Next, you will create a branch, contribute to the project, and create a pull request by following these steps:
+
+1. Create a branch of your own:
 
     ```sh
     git checkout -b <branch name>
     ```
 
-2. Make some additions or changes to the readme file and stage and commit your work.
+2. Make some additions or changes to the README file, and stage and commit your work:
 
     ```sh
     git add readme.md
     git commit -m "make it better"
     ```
 
-3. Push your changes to the remote branch
+3. Push your changes to the remote branch:
 
     ```sh
     git push origin <branch name>
@@ -53,14 +57,19 @@ Before you get started, take a moment to review the GitHub forking tutorialGetti
 
 4. Back on the forked repository page, you should see a yellow bar at the top with a button to "Compare and Pull Request". Click that button.
 
-   * After clicking that button, take some time to enter in a good description to help the owner of the project decide what it is we are trying to contribute.
+   * After clicking that button, enter a description to help the owner of the project understand what you want to contribute.
 
-   * We will see a list of commit messages and that our branch is "ahead" of the master branch.
+   * You will see a list of commit messages and that your branch is "ahead" of the master branch.
 
 5. Click "Create Pull Request". The owner of the project will get an email notification that some changes have been made and that a pull request is ready for their review.
 
-   * The owner can approve or reject the pull request and optionally add some additional comments for your review. While this is a simple edit we are making to the `readme.md` file, you can imagine a situation where your code would require some additional review.
+6. The owner can approve or reject the pull request and optionally add some additional comments for your review. 
+
+While this was a simple edit to the `README.md` file, you can imagine a situation where your code would require some additional review and back-and-forth with the project owner.
 
 ## Review
 
-You have successfully created your own fork, cloned it to your local machine, made some changes and created a pull request to the owner's repository. This is a workflow that you will become familiar with as you get deeper into your experience as a software engineer. It may seem a little confusing at first, but now you can move forward with confidence knowing that you have forked and contributed to a repository yourself.
+You have successfully created your own fork, cloned it to your local machine, made some changes, and created a pull request to the owner's repository. This is a workflow that you will become familiar with as you get deeper into your experience as a software engineer. It may seem a little confusing at first, but now you can move forward with confidence knowing that you have forked and contributed to a repository yourself.
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
