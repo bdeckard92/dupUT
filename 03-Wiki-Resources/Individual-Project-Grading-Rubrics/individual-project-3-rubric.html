@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- @TODO: UPDATE RUBRIC TO USE WITH INDIVIDUAL PROJECT REQUIREMENTS -->
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -541,32 +539,38 @@
                   status: false
                 },
                 {
-                  title: "Application has a GraphQL API with a Node and Express server and uses queries and mutations for retrieving, adding, updating, and deleting data",
+                  title:
+                    "Application has a Node.js and Express.js server",
+                  score: 5,
+                  type: "true false",
+                  message:
+                    "Application does not have a Node.js and Express.js server",
+                  status: false
+                },
+                {
+                  title: "Application implements CRUD methods for retrieving, adding, updating, and deleting data",
                   score: 10,
                   type: "likert",
                   options: [
                     {
-                      message: "Application doesn't have a GraphQL API with a Node and Express server and doesn't use queries and mutations for retrieving, adding, updating, and deleting data",
+                      message: "Application does not implement CRUD methods for retrieving, adding, updating, and deleting data",
                       score: 0
                     },
                     {
-                      message: "Application has a Node and Express backend for retrieving, adding, updating, and deleting data but doesn't use GraphQL",
-                      score: 1
+                      message: "Application has one of the following CRUD methods for retrieving, adding, updating, and deleting data",
+                      score: 3
                     },
                     {
-                      message: "Application has a GraphQL API with a Node and Express server but is missing 3 of the following: queries and mutations for retrieving, adding, updating, and deleting data",
-                      score: 4
+                      message: "Application has two of the following CRUD methods for retrieving, adding, updating, and deleting data",
+                      score: 5
                     },
                     {
-                      message: "Application has a GraphQL API with a Node and Express server but is missing 2 of the following: queries and mutations for retrieving, adding, updating, and deleting data",
-                      score: 6
-                    },
-                    {
-                      message: "Application has a GraphQL API with a Node and Express server but is missing 1 of the following: queries and mutations for retrieving, adding, updating, and deleting data",
+                      message: "Application has three of the following CRUD methods for retrieving, adding, updating, and deleting data",
                       score: 8
                     },
+
                     {
-                      message: "Application has a GraphQL API with a Node and Express server and uses queries and mutations for retrieving, adding, updating, and deleting data",
+                      message: "Application implements CRUD methods for retrieving, adding, updating, and deleting data.",
                       score: 10
                     }
                   ],
@@ -575,7 +579,7 @@
                 },
                 {
                   title: "Application is backed by a MongoDB database with a Mongoose ODM and protects sensitive API key information on the server",
-                  score: 5,
+                  score: 10,
                   type: "likert",
                   options: [
                     {
@@ -584,25 +588,17 @@
                     },
                     {
                       message: "Application is backed by a MongoDB database with a Mongoose ODM but doesn't protect sensitive API key information on the server",
-                      score: 2
+                      score: 5
                     },
                     {
                       message: "Application is backed by a MongoDB database with a Mongoose ODM and protects sensitive API key information on the server",
-                      score: 5
+                      score: 10
                     }
                   ],
                   message: "",
                   status: false
                 },
-                {
-                  title:
-                    "Application includes user authentication using JWT",
-                  score: 5,
-                  type: "true false",
-                  message:
-                    "Application doesn't include user authentication using JWT",
-                  status: false
-                }
+
               ]
             },
             {
@@ -611,7 +607,7 @@
               score: 0,
               questions: [
                 {
-                  title: "Group presented unique and novel project idea",
+                  title: "Individual presented unique and novel project idea",
                   score: 5,
                   type: "likert",
                   options: [
@@ -628,7 +624,7 @@
                       score: 3
                     },
                     {
-                      message: "Group presented unique and novel project idea",
+                      message: "Individual presented unique and novel project idea",
                       score: 5
                     }
                   ],
@@ -636,7 +632,7 @@
                   status: false
                 },
                 {
-                  title: "Group clearly and concisely articulated project idea",
+                  title: "Individual clearly and concisely articulated project idea",
                   score: 5,
                   type: "likert",
                   options: [
@@ -653,7 +649,7 @@
                       score: 3
                     },
                     {
-                      message: "Group clearly and concisely articulated project idea",
+                      message: "Individual clearly and concisely articulated project idea",
                       score: 5
                     }
                   ],
@@ -667,31 +663,22 @@
               subtitle: null,
               score: 0,
               questions: [
-                {
-                  title:
-                    "Group demoed application using deployed live application URL",
-                  score: 10,
-                  type: "true false",
-                  message:
-                    "Group did not demo project using live application URL",
-                  status: false
-                },
-                {
-                  title: "Student submitted application GitHub URL",
-                  score: 3,
-                  type: "true false",
-                  message: "Missing GitHub submission URL",
-                  status: false
-                },
-                {
-                  title: "Student submitted deployed live application URL",
-                  score: 7,
-                  type: "true false",
-                  message: "Student did not submit deployed live application URL",
-                  status: false
-                }
+                  {
+                      title: "Student submitted an application GitHub URL",
+                      score: 10,
+                      type: "true false",
+                      message: "Student didn't submit an application GitHub URL",
+                      status: false
+                  },
+                  {
+                      title: "Student submitted a deployed live application URL",
+                      score: 10,
+                      type: "true false",
+                      message: "Student did not submit a deployed live application URL",
+                      status: false
+                  }
               ]
-            },
+          },
             {
               title: "Repository Quality",
               subtitle: null,
@@ -701,7 +688,7 @@
                   title: "Repository has a unique name",
                   score: 2,
                   type: "true false",
-                  message: "Repo doesn't have a unique name",
+                  message: "Repository doesn't have a unique name",
                   status: false
                 },
                 {
@@ -710,7 +697,7 @@
                   score: 2,
                   type: "true false",
                   message:
-                    "Code doesn't follow recommended file/folder structure",
+                    "Repository doesn't follow best practices for file structure and naming conventions",
                   status: false
                 },
                 {
@@ -719,7 +706,7 @@
                   score: 2,
                   type: "true false",
                   message:
-                    "Code doesn't follow good practices for class/id names, indentation, lacks quality comments",
+                    "Repository doesn't follow best practices for class/id names, indentation, quality comments",
                   status: false
                 },
                 {
@@ -728,16 +715,16 @@
                   score: 2,
                   type: "true false",
                   message:
-                    "Repo doesn't contain multiple descriptive commit messages",
+                    "Repository doesn't contain multiple descriptive commit messages",
                   status: false
                 },
                 {
                   title:
-                    "Repository contains quality README with description, screenshot, link to deployed application",
+                    "Repository contains a quality README with description, screenshot, and link to deployed application",
                   score: 2,
                   type: "true false",
                   message:
-                    "Repo doesn't include a high quality README with screenshots, a description, link to deployed application",
+                    "Repository doesn't contain a quality README with description, screenshot, and link to deployed application",
                   status: false
                 }
               ]
@@ -814,60 +801,29 @@
               questions: [
                 {
                   title:
-                    "Group presented using Powerpoint or similar presentation software",
-                  score: 3,
+                    "Individual presented using a presentation program, such as Google Slides or Microsoft PowerPoint",
+                  score: 5,
                   type: "true false",
                   message:
-                    "Group did not present using Powerpoint or similar presentation software"
+                    "Individual did not present using a presentation program, such as Google Slides or Microsoft PowerPoint"
                 },
                 {
-                  title: "Every group member spoke during presentation",
-                  score: 4,
+                  title: "Student presented during Office Hours or via a recorded video presentation",
+                  score: 5,
                   type: "true false",
-                  message:
-                    "Not every group member spoke during the presentation"
+                  message: "Student did not present during Office Hours via a recorded video presentation",
+                  status: false
                 },
                 {
                   title: "Presentation followed Project Presentation Template",
-                  score: 3,
+                  score: 5,
                   type: "true false",
                   message:
                     "Presentation didn't follow Project Presentation Template"
                 }
               ]
             },
-            {
-              title: "Collaboration",
-              subtitle: null,
-              score: 0,
-              questions: [
-                {
-                  title: "There are no major disparities in the number of GitHub contributions between group members",
-                  score: 10,
-                  type: "likert",
-                  options: [
-                    {
-                      message: "There are major disparities in the number of GitHub contributions between group members",
-                      score: 0
-                    },
-                    {
-                      message: "There are several disparities in the number of GitHub contributions between group members",
-                      score: 4
-                    },
-                    {
-                      message: "There are minor disparities in the number of GitHub contributions between group members",
-                      score: 7
-                    },
-                    {
-                      message: "There are no major disparities in the number of GitHub contributions between group members",
-                      score: 10
-                    }
-                  ],
-                  message: "",
-                  status: false
-                }
-              ]
-            },
+
             {
               title: "Bonus",
               subtitle: null,
