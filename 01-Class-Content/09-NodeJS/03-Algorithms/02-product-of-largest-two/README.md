@@ -1,12 +1,12 @@
 # Product of Largest Two
 
-In this activity you will be writing code to create a function that finds the largest two numbers in an array and returns the product of both numbers.
+In this activity, you will write code to create a function that finds the largest two numbers in an array and returns the product of both numbers.
 
 ## Instructions
 
 * Open [Unsolved/product-of-largest-two.js](Unsolved/product-of-largest-two.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `productOfLargestTwo` function to achieve the following:
+  * In this file, you will write code in the body of the `productOfLargestTwo` function to achieve the following:
 
     * Find the largest and the second largest numbers in the given array.
 
