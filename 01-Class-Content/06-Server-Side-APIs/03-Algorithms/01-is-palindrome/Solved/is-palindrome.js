@@ -2,9 +2,9 @@
 
 var isPalindrome = function(str) {
   var reversedString = str
-    .split("")
+    .split('')
     .reverse()
-    .join("");
+    .join('');
 
   if (reversedString === str) {
     return true;

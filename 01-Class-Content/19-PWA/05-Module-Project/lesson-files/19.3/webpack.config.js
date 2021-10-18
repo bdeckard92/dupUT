@@ -1,9 +1,9 @@
-const webpack = require("webpack");
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const webpack = require('webpack');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin;
 // const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 // const WebpackPwaManifest = require("webpack-pwa-manifest");
-const path = require("path");
-
+const path = require('path');
 
 const config = {
   entry: {
@@ -24,10 +24,11 @@ const config = {
           {
             loader: 'file-loader',
             options: {
+              esModule: false,
               name(file) {
                 return '[path][name].[ext]';
               },
-              publicPath: function(url) {
+              publicPath(url) {
                 return url.replace('../', '/assets/');
               }
             }

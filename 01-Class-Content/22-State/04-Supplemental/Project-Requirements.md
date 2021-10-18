@@ -10,14 +10,6 @@
 
 * Be deployed using Heroku (with data).
 
-* Meet the minimum requirements of a PWA:
-
-	* Uses a web manifest
-	
-	* Uses a service worker for offline functionality
-	
-	* Is installable
-
 * Have a polished UI.
 
 * Be responsive.
@@ -51,5 +43,15 @@ Ultimately, it doesn't matter which of these options you choose&mdash;it just ne
 ## Payment Platform
 
 Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
+
+## Bonus
+
+Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
+
+* Uses a web manifest
+
+* Uses a service worker for offline functionality
+
+* Is installable
 
 **More details about the project will be provided in the lessons for Module 23 in Canvas.**

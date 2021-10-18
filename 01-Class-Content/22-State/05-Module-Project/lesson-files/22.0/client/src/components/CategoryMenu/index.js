@@ -1,6 +1,6 @@
-import React from "react";
-import { useQuery } from '@apollo/react-hooks';
-import { QUERY_CATEGORIES } from "../../utils/queries";
+import React from 'react';
+import { useQuery } from '@apollo/client';
+import { QUERY_CATEGORIES } from '../../utils/queries';
 
 function CategoryMenu({ setCategory }) {
   const { data: categoryData } = useQuery(QUERY_CATEGORIES);
@@ -9,7 +9,7 @@ function CategoryMenu({ setCategory }) {
   return (
     <div>
       <h2>Choose a Category:</h2>
-      {categories.map(item => (
+      {categories.map((item) => (
         <button
           key={item._id}
           onClick={() => {

@@ -10,9 +10,9 @@ To fulfill the Challenge, you’ll need to do the following:
 
 2. Modify the existing authentication middleware so that it works in the context of a GraphQL API.
 
-3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
+3. Use Apollo Client to create an Apollo Provider so that requests can communicate with an Apollo Server.
 
-4. Deploy the application to Heroku.
+4. Deploy the application to Heroku using a MongoDB database hosted at MongoDB Atlas.
 
 Before you start, [clone the starter code](https://github.com/coding-boot-camp/solid-broccoli).
 
@@ -86,11 +86,11 @@ In order for this application to use a GraphQL API, you’ll need to refactor th
 
 You’ll need to complete the following tasks in each of these back-end files:
 
-* `server.js`: Implement the Apollo Server and apply it to the Express server as middleware.
-
 * `auth.js`: Update the auth middleware function to work with the GraphQL API.
 
-	> **Hint:** Refer to the module project as a refresher on how to do this.
+* `server.js`: Implement the Apollo Server and apply it to the Express server as middleware.
+
+	> **Important:** Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. To implement Apollo Server 2 as demonstrated in the activities, you **MUST** use the following script `npm install apollo-server-express@2.15.0` to install Apollo Server 2. Alternately, to migrate to the latest version of Apollo Server, please refer to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that if you are using Apollo Server 3 you are required use `await server.start()` before calling `server.applyMiddleware`.
 
 * `Schemas` directory:
 
@@ -167,11 +167,11 @@ You'll need to create the following front-end files:
 
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 
-* `App.js`: Create an Apollo Provider to make every request work with the Apollo server.
+* `App.js`: Using `ApolloClient`, `InMemoryCache`, `createHttpLink`, and `setContext` from the Apollo Client library, create an Apollo Provider to make every request work with the Apollo server.
 	
 * `SearchBooks.js`:
 
-	* Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file.
+	* Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file. Define and export the `SAVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`.
 
 	* Make sure you keep the logic for saving the book's ID to state in the `try...catch` block! 
 
@@ -179,19 +179,19 @@ Additionally, you’ll need to complete the following tasks in each of these fro
 
 	* Remove the `useEffect()` Hook that sets the state for `UserData`.
 
-	* Instead, use the `useQuery()` Hook to execute the `GET_ME` query on load and save it to a variable named `userData`.
+	* Instead, use the `useQuery()` Hook to execute the `GET_ME` query on load and save it to a variable named `userData`. Define and export the `GET_ME` query in a new file at `/client/src/utils/queries.js`.
 
-	* Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. (Make sure you keep the `removeBookId()` function in place!)
+	* Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. Define and export the `REMOVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`. (Make sure you keep the `removeBookId()` function in place!)
 
-* `SignupForm.js`: Replace the `addUser()` functionality imported from the `API` file with the `ADD_USER` mutation functionality.
+* `SignupForm.js`: Replace the `addUser()` functionality imported from the `API` file with the `ADD_USER` mutation functionality. Define and export the `ADD_USER` mutation in a new file at `/client/src/utils/mutations.js`.
 
-* `LoginForm.js`: Replace the `loginUser()` functionality imported from the `API` file with the `LOGIN_USER` mutation functionality.
+* `LoginForm.js`: Replace the `loginUser()` functionality imported from the `API` file with the `LOGIN_USER` mutation functionality. Define and export the `LOGIN_USER` mutation in a new file at `/client/src/utils/mutations.js`.
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application on Heroku.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 

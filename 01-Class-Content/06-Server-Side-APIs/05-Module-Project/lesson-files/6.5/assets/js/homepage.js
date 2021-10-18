@@ -49,7 +49,7 @@ var getUserRepos = function(user) {
           displayRepos(data, user);
         });
       } else {
-        alert("Error: " + response.statusText);
+        alert('Error: GitHub User Not Found');
       }
     })
     .catch(function(error) {
