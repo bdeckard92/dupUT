@@ -109,7 +109,9 @@ Students will need to use the following skills in order to be successful at the 
 
 * Next week, you will introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications.
 
-* You will use [Insomnia](https://insomnia.rest/products/insomnia) to test APIs, so make sure to install it on your machine and be familiar with using it.
+* The next unit will introduce students to Express.js and creating server-side routes. To test these routes, students will use an app called Insomnia. Be sure to have Insomnia installed on your computer before class. To install, visit the [Insomnia installation page](https://insomnia.rest/download)
+
+* Students will also start using Heroku to host their web applications in the next unit. Be sure to install the Heroku CLI on your computer. For extra guidance, you can follow the [Heroku CLI installation guide on the Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli).
 
 ## Resources
 
