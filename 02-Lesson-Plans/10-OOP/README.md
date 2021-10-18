@@ -10,6 +10,7 @@ In this week's virtual classes, you'll discuss Test Driven Development, mocking 
 | ---  | ---                | ---      |
 | 1    | TDD                | 10.1     |
 | 1    | Passing Tests      | 10.1     |
+| 1    | Git Guide          | N/A      |
 | 2    | Mocking            | 10.2     |
 | 2    | Classes            | 10.5     |
 | 2    | Multiple Classes   | 10.5     |
@@ -18,25 +19,25 @@ In this week's virtual classes, you'll discuss Test Driven Development, mocking 
 
 Why are students learning OOP and TDD?
 
-  * Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages such as Java and C++.
+* Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
 
-  * Test Driven Development is a programming paradigm that helps developers write leaner, more predictable code.
+* Test-driven development is a programming paradigm that helps developers write leaner, more predictable code.
 
-  * Being able to write JavaScript in an object-oriented manner and test this code effectively is an important skill set to demonstrate to prospective employers.
+* Being able to write object-oriented JavaScript and test this code effectively is an important skill set to demonstrate to prospective employers.
 
 Throughout the async module this week, students will use OOP and TDD to do the following:
 
-  * Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
+* Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
 
-  * Build entire applications using OOP, separating data and functionality into distinct constructor functions that can be composed together.
+* Build entire applications using OOP, separating data and functionality into distinct constructor functions.
 
-  * Verify that their code works as intended by using automated tests.
+* Verify that their code works as intended by using automated tests.
 
-  * Build applications using test-driven development, writing tests before implementing functionality.
+* Build applications using test-driven development, writing tests before implementing functionality.
 
-  * Use modern ES6 class syntax to implement more advanced OOP patterns, like inheritance.
+* Implement more advanced OOP patterns, like inheritance, using modern ES6 class syntax.
 
-  * Create more scalable applications that follow the OOP paradigm.
+* Create more scalable applications that follow the OOP paradigm.
 
 **Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
 
