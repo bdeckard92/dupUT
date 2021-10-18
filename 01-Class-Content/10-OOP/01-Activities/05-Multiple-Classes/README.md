@@ -1,11 +1,10 @@
-
 # 📐 Add Comments to Implementation of Multiple Classes
 
 Work with a partner to add comments that describe the functionality of the code found in [store.js](./Unsolved/store.js), [toy.js](./Unsolved/toy.js), and [index.js](./Unsolved/index.js).
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [MDN Web Docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 

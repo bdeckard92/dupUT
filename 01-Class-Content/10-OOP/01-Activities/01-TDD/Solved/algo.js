@@ -1,4 +1,4 @@
-// Currently these functions are empty. As a result, all tests will fail. 
+// Currently these functions are empty. As a result, all tests will fail.
 function Algo() {}
 
 Algo.prototype.reverse = function(str) {};

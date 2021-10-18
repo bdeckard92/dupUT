@@ -1,4 +1,4 @@
-const Child = require("./child");
+const Child = require('./child');
 
 function DayCare() {
   this.children = [];
@@ -12,12 +12,12 @@ DayCare.prototype.addChild = function(child) {
   }
 
   if (this.children.length >= this.capacity) {
-    console.log("At capacity, unable to add more children");
+    console.log('At capacity, unable to add more children');
     return;
   }
 
   if (child.age > this.ageLimit) {
-    console.log("Unable to add child, they are over the age limit");
+    console.log('Unable to add child, they are over the age limit');
     return;
   }
 
@@ -25,12 +25,12 @@ DayCare.prototype.addChild = function(child) {
 };
 
 DayCare.prototype.pickupChild = function(name) {
-  const index = this.children.findIndex((child) => {
+  const index = this.children.findIndex(child => {
     return child.name === name;
   });
 
   if (index === -1) {
-    console.log("Child not found");
+    console.log('Child not found');
     return;
   }
 
