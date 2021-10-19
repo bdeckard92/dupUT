@@ -1,10 +1,10 @@
-# Module 07: Project 1
+# Module 08: Project 1 Continued
 
 ## Overview
 
-Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build a web application from scratch. Along with your group, you will conceive and execute a design that solves a real-world problem by integrating data that is received from multiple server-side API requests.
+Welcome to the second week of Project 1! This week, you will continue to work on your group project to build a front-end web application from scratch. As you wrap up your project, be prepared to give a presentation during the last class day of this module. Use the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to prepare for the presentation.
 
-Because you will be working collaboratively, you will learn agile development methodologies as you go. You'll also implement feature and bug fixes by using the Git branch workflow and pull requests.
+You will also update your professional materials, including your portfolio, GitHub profile, resume, and LinkedIn profile.
 
 ## Key Topics
 
@@ -42,11 +42,15 @@ Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) f
 
   * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
+  * 📖 [Node.js Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
+
 ### General
 
-Refer to the following general resources for more information about topics covered in this module:
+Refer to the following resources for more information about topics covered in this module:
 
-  * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
+  * 📖 [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+
+  * 📖 [Node.js](https://nodejs.org/en/)
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
