@@ -4,11 +4,11 @@ You've been using Git for some time now, adding new tools to your Git skills eac
 
 Imagine that you're busy implementing a sign-up component on your team's web application when your manager asks you to stop what you're doing and add a notification to the homepage. You'll need to checkout to a different feature branch to change tasks, but you don't want to commit your half-completed work on the sign-up page. You also don't want to cause any errors by trying to checkout to a different branch with unsaved changes.
 
-That's where `git stash` comes in! As the name suggests, this command adds your uncommited changes to a stash that you can access later. This stash is stored locally on your machine and doesn't get pushed up to Github or any other version control system.
+That's where `git stash` comes in! As the name suggests, this command adds your uncommited changes to a stash that you can access later. This stash is stored locally on your machine and doesn't get pushed up to GitHub or any other version control system.
 
 ## Use git stash in a Demo
 
-**Important:** If you haven't done so already, change your default branch name to `main` with the following command:
+**Important:** If you haven't done so already, change your default branch name to `main` by using the following command:
 
 ```sh
 git config --global init.defaultBranch main

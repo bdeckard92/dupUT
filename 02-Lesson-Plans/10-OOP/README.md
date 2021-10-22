@@ -2,22 +2,24 @@
 
 ## Overview
 
-In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before writing code, a practice known as Test Driven Development (TDD).
+In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before writing code, a practice known as test-driven development (TDD).
 
-In this week's virtual classes, you'll discuss Test Driven Development, mocking using Jest, and ES6 classes.
+In this week's virtual classes, you'll discuss test-driven development, mocking using Jest, and ES6 classes.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic              | Location |
 | ---  | ---                | ---      |
 | 1    | TDD                | 10.1     |
-| 1    | Passing Tests      | 10.1     |
+| 1    | Passing tests      | 10.1     |
 | 1    | Git Guide          | N/A      |
 | 2    | Mocking            | 10.2     |
 | 2    | Classes            | 10.5     |
-| 2    | Multiple Classes   | 10.5     |
+| 2    | Multiple classes   | 10.5     |
 
 ## Overview of Asynchronous Material
 
-Why are students learning OOP and TDD?
+This week in the asynchronous content, students are introduced to OOP and TDD, which are important for the following reasons:
 
 * Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
 
@@ -39,21 +41,25 @@ Throughout the async module this week, students will use OOP and TDD to do the f
 
 * Create more scalable applications that follow the OOP paradigm.
 
-**Reminder:** If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson   | Description                | Key Points                                                                            |
 | ---      | ---                        | ---                                                                                   |
-| 1        | Jest and Constructors      | Jest, TDD Cycle, Constructor Functions                                                |
-| 2        | Methods and Mocks          | Mocking, Prototype Syntax                                                             |
-| 3        | Player and Enemy Methods   | Array prototype methods                                                               |
-| 4        | Build the Game Logic       | Inquirer NPM package, Constructor Functions                                           |
+| 1        | Jest and constructors      | Jest, TDD cycle, Constructor functions                                                |
+| 2        | Methods and mocks          | Mocking, Prototype syntax                                                             |
+| 3        | Player and enemy methods   | Array prototype methods                                                               |
+| 4        | Build the game logic       | Inquirer NPM package, Constructor functions                                           |
 | 5        | Inheritance                | Method and property inheritance, ES6 classes                                          |
 
 ## Virtual Classes
 
-* [Virtual Class 10.1](./10.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 10.2](./10.2-REQUIRED.md)
+* [10.1 Virtual Class](./10.1-REQUIRED.md)
+
+* [10.2 Virtual Class](./10.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -83,7 +89,7 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 

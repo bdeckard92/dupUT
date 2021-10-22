@@ -6,11 +6,11 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when the `reverse()` test is written to expect the string `"Hello World!"` to become `"!dlroW olleH"` after calling `new Algo().reverse()`.
+* It is done when the `reverse()` test is written to expect the string `"Hello World!"` to become `"!dlroW olleH"` after calling `new Algo().reverse()`.
 
-* It's done when the `isPalindrome()` test is written to expect the string `"racecar"` to return `true` and the string `"neon"` to return `false` after calling `new Algo().isPalindrome()`.
+* It is done when the `isPalindrome()` test is written to expect the string `"racecar"` to return `true` and the string `"neon"` to return `false` after calling `new Algo().isPalindrome()`.
 
-* It's done when the `capitalize()` test is written to expect the string `"capitalize the first letter of each word in a string."` to become `"Capitalize The First Letter Of Each Word In A String."` after calling `new Algo().capitalize()`.
+* It is done when the `capitalize()` test is written to expect the string `"capitalize the first letter of each word in a string."` to become `"Capitalize The First Letter Of Each Word In A String."` after calling `new Algo().capitalize()`.
 
 ## 📝 Notes
 
