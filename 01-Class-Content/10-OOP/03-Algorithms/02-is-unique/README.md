@@ -1,12 +1,12 @@
 # Is Unique
 
-In this activity you will write code to create a function that takes an array of numbers and returns `true` if no number appears more than once in the given array; else, it returns `false`.
+In this activity, you will write code to create a function that takes an array of numbers and returns `true` if no number appears more than once in the given array; else, it returns `false`.
 
 ## Instructions
 
-* Open [Unsolved/is-unique.js](Unsolved/is-unique.js) in your code editor&mdash;this is the only file that you will modify in this activity.
+* Open [Unsolved/is-unique.js](Unsolved/is-unique.js) in your code editor; this is the only file that you will modify in this activity.
 
-* In this file you will write code in the body of the `isUnique()` function to achieve the following:
+* In this file, you will write code in the body of the `isUnique()` function to achieve the following:
 
   * Return `true` if no number appears more than once in the given array; else, return `false`.
 

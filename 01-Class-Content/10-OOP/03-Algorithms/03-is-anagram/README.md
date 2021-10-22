@@ -1,10 +1,10 @@
 # Is Anagram
 
-In this activity you will write code to create a function that takes in two strings and returns `true` if one string is an anagram of another string and otherwise returns `false`.
+In this activity, you will write code to create a function that takes in two strings and returns `true` if one string is an anagram of another string and otherwise returns `false`.
 
 ## Instructions
 
-* Open [Unsolved/is-anagram.js](Unsolved/is-anagram.js) in your code editor&mdash;this is the only file that you will modify in this activity.
+* Open [Unsolved/is-anagram.js](Unsolved/is-anagram.js) in your code editor; this is the only file that you will modify in this activity.
 
 * In this file, you will write code in the body of the `isAnagram()` function to achieve the following:
 
