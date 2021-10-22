@@ -14,84 +14,88 @@ That's where `git stash` comes in! As the name suggests, this command adds your 
 git config --global init.defaultBranch main
 ```
 
-Create a new repository called `stashPop` using the following commands:
+Let's practice using `git stash` by following these steps:
 
-```sh
-mkdir stashPop
-cd stashPop
-git init
-```
+1. Create a new repository called `stashPop` using the following commands:
 
-Create and commit a new `README.md` file with the following commands:
+   ```sh
+   mkdir stashPop
+   cd stashPop
+   git init
+   ```
 
-```sh
-touch README.md
-git add -A
-git commit -m "initial commit"
-```
+2. Create and commit a new `README.md` file with the following commands:
 
-Checkout a new branch called `dev` and create a new file with the following commands:
+   ```sh
+   touch README.md
+   git add -A
+   git commit -m "initial commit"
+   ```
 
-```sh
-git checkout -b dev
-touch newFile.js
-```
+3. Checkout a new branch called `dev` and create a new file with the following commands:
 
-Add and commit the new file with the following commands:
+  ```sh
+   git checkout -b dev
+   touch newFile.js
+   ```
 
-```sh
-git add newFile.js
-git commit -m "newFile is tracked in dev"
-```
+4. Add and commit the new file with the following commands:
 
-Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files with the following commands:
+   ```sh
+   git add newFile.js
+   git commit -m "newFile is tracked in dev"
+   ```
 
-```sh
-git checkout main
-ls
-```
+5. Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files with the following commands:
 
-Notice that we don't have a `newFile.js` file in `main`, so let's create one with the following command:
+   ```sh
+   git checkout main
+   ls
+   ```
 
-```sh
-touch newFile.js
-```
+6. Notice that we don't have a `newFile.js` file in `main`, so let's create one with the following command:
 
-Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so with the following command:
+   ```sh
+   touch newFile.js
+   ```
 
-```sh
-git checkout dev
-```
+7. Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so with the following command:
 
-Git will prevent you from switching branches, displaying the following error message:
+   ```sh
+   git checkout dev
+   ```
 
-```text
-error: The following untracked working tree files would be overwritten by checkout: newFile.js
-Please move or remove them before you switch branches.
-Aborting
-```
+8. Git will prevent you from switching branches, displaying the following error message:
 
-This happens because we have a conflicting file (`newFile.js`) that would be overwritten by the checkout. If we were to commit `newFile.js`, then Git would know to swap them out, but we're not ready to commit yet.
+   ```text
+   error: The following untracked working tree files would be overwritten by checkout: newFile.js
+   Please move or remove them before you switch branches.
+   Aborting
+   ```
 
-We will use `git stash` to put away our changes so that we can checkout the `dev` branch. Run the following commands to discover what happens:
+   This happens because we have a conflicting file (`newFile.js`) that would be overwritten by the checkout. If we were to commit `newFile.js`, then Git would know to swap them out, but we're not ready to commit yet.
 
-```sh
-git stash -u
-ls
-```
+9. We will use `git stash` to put away our changes so that we can checkout the `dev` branch. Run the following commands to discover what happens:
 
-The `-u` flag tells Git to include untracked files in our stash. `newFile.js` has now been put away, so we can safely checkout to `dev` with the following command:
+   ```sh
+   git stash -u
+   ls
+   ```
 
-```sh
-git checkout dev
-```
+   The `-u` flag tells Git to include untracked files in our stash. 
 
-Don't worry, the stash isn't lost. We can use additional commands to bring those changes back. Run the following commands to see this in action:
+10. `newFile.js` has now been put away, so we can safely checkout to `dev` with the following command:
 
-```sh
-git checkout main
-git stash pop
-```
+   ```sh
+   git checkout dev
+   ```
+
+11. Don't worry, the stash isn't lost. We can use additional commands to bring those changes back. Run the following commands to see this in action:
+
+   ```sh
+   git checkout main
+   git stash pop
+   ```
 
 The command `git stash pop` will pull the latest stash off the stack and reapply its changes. Other useful `stash` commands include the following:
 
@@ -103,7 +107,7 @@ The command `git stash pop` will pull the latest stash off the stack and reapply
 
 ## Review
 
-Nice work! You've used the `git stash` command to set aside some untracked files so that you could checkout to a different branch. The most common use case for the `stash` command will likely be when you're working with a group and performing a `git pull`. Now you're ready to use this powerful command.
+Nice work! You've used the `git stash` command to set aside some untracked files so that you could checkout to a different branch. The most common use case for the `stash` command will likely be when you're working with a group and performing a `git pull`. Now you're ready to use this powerful command!
 
 ---
 
