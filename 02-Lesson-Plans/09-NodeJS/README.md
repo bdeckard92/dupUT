@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this module, students will learn how to use the Node.js platform to use JavaScript outside of the browser. Students will use the `fs` module to read and write files, and gather input using the `inquirer` npm package.
+In this module, students will learn how to use the Node.js platform to use JavaScript outside of the browser. Students will use the `fs` module to read and write files, and gather input using the Inquirer npm package.
 
-In this week's virtual classes, you'll review the `fs` and `inquirer` packages; as well as ES6 features, including arrow functions, functional loops, and object destructuring.
+In this week's virtual classes, you'll review the `fs` and Inquirer packages. You'll also cover ES6 features, including arrow functions, functional loops, and object destructuring.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
@@ -65,7 +65,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * If students question why they're learning Node.js, emphasize its role in the client-server model. Full-stack developers must be able to build applications using the client-server model. They'll likely face interview questions about the difference between the client and the server and how they relate to each other.
 
-* Students will be expected to have Node.js installed, but if they don't, be sure to tell them that they can install it using the resources found on the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
+* Students will be expected to have Node.js installed. If they don't, remind them that they can install it using the resources found in the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 * This module also introduces the npm package, Inquirer. Refer to the [npm documentation on Inquirer](https://www.npmjs.com/package/inquirer) for installation, examples, and more information on the methods used.
 
@@ -88,7 +88,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-For the [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge), students will use starter code to build a command-line application that dynamically generates a professional README.md file from a user's input, using the [Inquirer package](https://www.npmjs.com/package/inquirer). For more help, refer students to the [Full-Stack Blog guide to a professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide).
+For the [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge), students will use starter code to build a command-line application that dynamically generates a professional README.md file from a user's input, using the [Inquirer package](https://www.npmjs.com/package/inquirer). For more help, refer students to [The Full-Stack Blog guide to a professional README file](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide).
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
@@ -104,7 +104,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-* Next week you'll introduce object-oriented programming (OOP). You'll cover test-driven development (TDD), ES6 classes, and [Jest](https://jestjs.io/) for mocking and testing.
+* Next week, you'll introduce object-oriented programming (OOP). You'll cover test-driven development (TDD), ES6 classes, and using [Jest](https://jestjs.io/) for mocking and testing.
 
 * Warn students that the next module is very concept-heavy! Object-oriented programming can be difficult at first, but understanding it is crucial in becoming employer-competitive. Although writing tests before code might feel counterintuitive, this approach can help developers plan and break down their apps into more manageable chunks. Reassure students that they aren't alone in struggling with this topic; it's perfectly normal to feel a little lost at first.
 

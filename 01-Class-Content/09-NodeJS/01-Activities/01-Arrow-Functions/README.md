@@ -1,6 +1,6 @@
 # 🐛 Fix Implementation of Arrow Functions
 
-Work with a partner to resolve the following issue(s):
+Work with a partner to resolve the following issue:
 
 * As a user, I want to run a script that will update a movie queue.
 
@@ -14,7 +14,9 @@ The script exits out with an error message.
 
 ## Steps to Reproduce the Problem
 
-1. Navigate to the `Unsolved` folder from the command line.
+To reproduce this problem, follow these steps:
+
+1. At the command line, navigate to the `Unsolved` folder.
 
 2. Run `node index.js`.
 
@@ -28,7 +30,7 @@ What is an example of when we shouldn't use arrow functions?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How can you shorten the arrow function syntax even further with implicit return statements?
+* How can you shorten the arrow function syntax even further by using implicit return statements?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

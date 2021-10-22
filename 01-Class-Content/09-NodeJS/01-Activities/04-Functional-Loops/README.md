@@ -1,14 +1,14 @@
 # 📐 Add Comments to Implementation of Functional Loops
 
-Work with a partner to add comments describing the functionality of the code found in [filter.js](./Unsolved/filter.js) and [map.js](./Unsolved/map.js).
+Work with a partner to add comments that describe the functionality of the code found in [filter.js](./Unsolved/filter.js) and [map.js](./Unsolved/map.js).
 
 ## 📝 Notes
 
 Refer to the documentation:
 
-* [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* [MDN Web Docs on filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-* [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* [MDN Web Docs on map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ---
 

@@ -6,11 +6,11 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have destructured the objects to pull out the data that is logged in the console.
+* It is done when I have destructured the objects to pull out the data that is logged in the console.
 
-* It's done when I have destructured the array to pull out the data that is logged in the console.
+* It is done when I have destructured the array to pull out the data that is logged in the console.
 
-* It's done when I have run `node index.js` after destructuring to confirm the values logged in the console.
+* It is done when I have run `node index.js` after destructuring to confirm the values logged in the console.
 
 ## 📝 Notes
 
