@@ -83,7 +83,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                | Recommendation       |
 | ---                       | ---                  |
-| Understanding OOP         | Refer to the [MDN Web Docs on Object-oriented JavaScript for beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS) |
+| Understanding OOP         | Refer to the [MDN Web Docs on object-oriented JavaScript for beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS) |
 | Implementing unit tests   | Refer to Lesson 1 or the [Jest Documentation on getting started](https://jestjs.io/docs/getting-started) |
 | ES6 classes               | Refer to Lesson 5 or the [MDN Web Docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)|
 
@@ -97,9 +97,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-This week, students will build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, students will also write unit tests for each part of their code and ensure that it passes all of them.
-
-[Module 10 Challenge](../../01-Class-Content/10-OOP/02-Challenge)
+For the [Module 10 Challenge](../../01-Class-Content/10-OOP/02-Challenge), students will build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, students will also write unit tests for each part of their code and ensure that it passes all of them.
 
 Students will need to use the following skills in order to be successful at the Challenge:
 
@@ -109,27 +107,31 @@ Students will need to use the following skills in order to be successful at the 
 
 * Take user input and use template literals to dynamically generate an entire HTML page directly from the command line.
 
-* Implement the [Inquirer NPM package](https://www.npmjs.com/package/inquirer) to provide a command-line user interface and the inquiry session flow.
+* Implement the [Inquirer npm package](https://www.npmjs.com/package/inquirer) to provide a command-line user interface and the inquiry session flow.
 
 ## Heads-Up
 
 * Next week, you will introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications.
 
-* The next unit will introduce students to Express.js and creating server-side routes. To test these routes, students will use an app called Insomnia. Be sure to have Insomnia installed on your computer before class. To install, visit the [Insomnia installation page](https://insomnia.rest/download)
+* The next module will introduce students to Express.js and creating server-side routes. To test these routes, students will use an app called Insomnia. Be sure to have Insomnia installed on your computer before class. To install, visit the [Insomnia installation page](https://insomnia.rest/download)
 
-* Students will also start using Heroku to host their web applications in the next unit. Be sure to install the Heroku CLI on your computer. For extra guidance, you can follow the [Heroku CLI installation guide on the Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli).
+* Students will also start using Heroku to host their web applications in the next unit. Be sure to install the Heroku CLI on your computer. For extra guidance, you can follow the [Heroku CLI installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli).
 
 ## Resources
 
-* [MDN Web Docs on Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+The following resources can help you prepare for this week's classes:
 
-* [MDN Web Docs on Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+* [MDN Web Docs on object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 
-* [MDN Web Docs on Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [MDN Web Docs on object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+
+* [MDN Web Docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 * [Jest documentation on using matchers](https://jestjs.io/docs/en/using-matchers)
 
 ## Algorithms
+
+Here are the algorithms for this week:
 
 * [01-linear-search](../../01-Class-Content/10-OOP/03-Algorithms/01-linear-search)
 
