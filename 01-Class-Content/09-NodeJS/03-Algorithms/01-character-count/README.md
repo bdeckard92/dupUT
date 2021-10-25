@@ -1,12 +1,12 @@
 # Character Count
 
-In this activity, you will be writing code to create a function that takes a string and returns an object containing the characters in the string and the number of times they appear.
+In this activity, you will write code to create a function that takes a string and returns an object that contains the characters in the string and the number of times they appear.
 
 ## Instructions
 
 - Open [Unsolved/character-count.js](Unsolved/character-count.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  - In this file you will be writing code in the body of the `characterCount` function to achieve the following:
+  - In this file, you will write code in the body of the `characterCount` function to achieve the following:
 
     - Create a new object.
 
