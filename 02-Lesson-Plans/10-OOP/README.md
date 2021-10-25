@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this module, students will learn about an important programming paradigm, object-oriented programming (OOP). They will also learn how to write tests before writing code, a practice known as test-driven development (TDD).
+In this module, students will learn about an important programming paradigm: object-oriented programming (OOP). They will also learn how to write tests before writing code, a practice known as test-driven development (TDD).
 
-In this week's virtual classes, you'll discuss test-driven development, mocking using Jest, and ES6 classes.
+In this week's virtual classes, you'll discuss TDD, mocking using Jest, and ES6 classes.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
@@ -21,9 +21,9 @@ The following table maps the key topics covered in the virtual lessons to where 
 
 This week in the asynchronous content, students are introduced to OOP and TDD, which are important for the following reasons:
 
-* Object-oriented programming principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
+* OOP principles are language-agnostic and help prepare students to learn other in-demand languages, such as Java and C++.
 
-* Test-driven development is a programming paradigm that helps developers write leaner, more predictable code.
+* TDD is a programming paradigm that helps developers write leaner, more predictable code.
 
 * Being able to write object-oriented JavaScript and test that code effectively is an important skill to demonstrate to prospective employers.
 
@@ -35,7 +35,7 @@ Throughout the async module this week, students will use OOP and TDD to do the f
 
 * Verify that their code works as intended by using automated tests.
 
-* Build applications using test-driven development, which means writing tests before implementing functionality.
+* Build applications using TDD, which means writing tests before implementing functionality.
 
 * Implement more advanced OOP patterns, like inheritance, using modern ES6 class syntax.
 
