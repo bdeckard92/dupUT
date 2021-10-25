@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will learn about one of the most important programming paradigms, Object-Oriented Programming (OOP). Students will also learn how to write tests before writing code, a practice known as test-driven development (TDD).
+In this module, students will learn about an important programming paradigm, object-oriented programming (OOP). They will also learn how to write tests before writing code, a practice known as test-driven development (TDD).
 
 In this week's virtual classes, you'll discuss test-driven development, mocking using Jest, and ES6 classes.
 
@@ -12,7 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | ---  | ---                | ---      |
 | 1    | TDD                | 10.1     |
 | 1    | Passing tests      | 10.1     |
-| 1    | Git Guide          | N/A      |
+| 1    | Git Guide          | n/a      |
 | 2    | Mocking            | 10.2     |
 | 2    | Classes            | 10.5     |
 | 2    | Multiple classes   | 10.5     |
@@ -25,17 +25,17 @@ This week in the asynchronous content, students are introduced to OOP and TDD, w
 
 * Test-driven development is a programming paradigm that helps developers write leaner, more predictable code.
 
-* Being able to write object-oriented JavaScript and test this code effectively is an important skill set to demonstrate to prospective employers.
+* Being able to write object-oriented JavaScript and test that code effectively is an important skill to demonstrate to prospective employers.
 
 Throughout the async module this week, students will use OOP and TDD to do the following:
 
-* Integrate constructor functions into their applications, adding structure to their code and reducing the amount of code that must be written.
+* Integrate constructor functions into their applications, adding structure to their code, and reducing the amount of code that must be written.
 
 * Build entire applications using OOP, separating data and functionality into distinct constructor functions.
 
 * Verify that their code works as intended by using automated tests.
 
-* Build applications using test-driven development, writing tests before implementing functionality.
+* Build applications using test-driven development, which means writing tests before implementing functionality.
 
 * Implement more advanced OOP patterns, like inheritance, using modern ES6 class syntax.
 
@@ -47,10 +47,10 @@ The following table contains a description of each lesson's portion of the modul
 
 | Lesson   | Description                | Key Points                                                                            |
 | ---      | ---                        | ---                                                                                   |
-| 1        | Jest and constructors      | Jest, TDD cycle, Constructor functions                                                |
-| 2        | Methods and mocks          | Mocking, Prototype syntax                                                             |
+| 1        | Jest and constructors      | Jest, TDD cycle, constructor functions                                                |
+| 2        | Methods and mocks          | Mocking, prototype syntax                                                             |
 | 3        | Player and enemy methods   | Array prototype methods                                                               |
-| 4        | Build the game logic       | Inquirer NPM package, Constructor functions                                           |
+| 4        | Build the game logic       | Inquirer npm package, constructor functions                                           |
 | 5        | Inheritance                | Method and property inheritance, ES6 classes                                          |
 
 ## Virtual Classes
@@ -113,7 +113,7 @@ Students will need to use the following skills in order to be successful at the 
 
 * Next week, you will introduce [Express.js](https://expressjs.com/), a flexible Node.js web application framework to provide server-side logic to web applications.
 
-* The next module will introduce students to Express.js and creating server-side routes. To test these routes, students will use an app called Insomnia. Be sure to have Insomnia installed on your computer before class. To install, visit the [Insomnia installation page](https://insomnia.rest/download)
+* The next module will introduce students to Express.js and creating server-side routes. To test these routes, students will use an app called Insomnia. Be sure to have Insomnia installed on your computer before class. To install, visit the [Insomnia installation page](https://insomnia.rest/download).
 
 * Students will also start using Heroku to host their web applications in the next unit. Be sure to install the Heroku CLI on your computer. For extra guidance, you can follow the [Heroku CLI installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli).
 
