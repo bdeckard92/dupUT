@@ -16,7 +16,7 @@ git config --global init.defaultBranch main
 
 Let's practice using `git stash` by following these steps:
 
-1. Create a new repository called `stashPop` using the following commands:
+1. Create a new repository called `stashPop` by using the following commands:
 
    ```sh
    mkdir stashPop
@@ -24,7 +24,7 @@ Let's practice using `git stash` by following these steps:
    git init
    ```
 
-2. Create and commit a new `README.md` file using the following commands:
+2. Create and commit a new `README.md` file by using the following commands:
 
    ```sh
    touch README.md
@@ -32,34 +32,34 @@ Let's practice using `git stash` by following these steps:
    git commit -m "initial commit"
    ```
 
-3. Checkout a new branch called `dev` and create a new file using the following commands:
+3. Checkout a new branch called `dev` and create a new file by using the following commands:
 
   ```sh
    git checkout -b dev
    touch newFile.js
    ```
 
-4. Add and commit the new file with the following commands:
+4. Add and commit the new file by using the following commands:
 
    ```sh
    git add newFile.js
    git commit -m "newFile is tracked in dev"
    ```
 
-5. Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files using the following commands:
+5. Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files by using the following commands:
 
    ```sh
    git checkout main
    ls
    ```
 
-6. Notice that we don't have a `newFile.js` file in `main`, so let's create one using the following command:
+6. Notice that we don't have a `newFile.js` file in `main`, so let's create one by using the following command:
 
    ```sh
    touch newFile.js
    ```
 
-7. Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so using the following command:
+7. Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so by using the following command:
 
    ```sh
    git checkout dev
@@ -97,7 +97,7 @@ Let's practice using `git stash` by following these steps:
    git stash pop
    ```
 
-The command `git stash pop` will pull the latest stash off the stack and reapply its changes. Other useful `stash` commands include the following:
+The command `git stash pop` pulls the latest stash off the stack and reapply its changes. Other useful `stash` commands include the following:
 
   * `git stash drop`: Delete the latest stash from the stack.
 
