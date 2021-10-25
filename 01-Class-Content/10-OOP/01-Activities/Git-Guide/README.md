@@ -1,6 +1,6 @@
 # Git Stash
 
-You've been using Git for some time now, adding new tools to your Git skills each week. Now you'll learn how to take advantage of the useful `git stash` feature.
+You've been using Git for some time now and adding new tools to your Git skills each week. Now you'll learn how to take advantage of the useful `git stash` feature.
 
 Imagine that you're busy implementing a sign-up component on your team's web application when your manager asks you to stop what you're doing and add a notification to the homepage. You'll need to checkout to a different feature branch to change tasks, but you don't want to commit your half-completed work on the sign-up page. You also don't want to cause any errors by trying to checkout to a different branch with unsaved changes.
 
@@ -24,7 +24,7 @@ Let's practice using `git stash` by following these steps:
    git init
    ```
 
-2. Create and commit a new `README.md` file with the following commands:
+2. Create and commit a new `README.md` file using the following commands:
 
    ```sh
    touch README.md
@@ -32,7 +32,7 @@ Let's practice using `git stash` by following these steps:
    git commit -m "initial commit"
    ```
 
-3. Checkout a new branch called `dev` and create a new file with the following commands:
+3. Checkout a new branch called `dev` and create a new file using the following commands:
 
   ```sh
    git checkout -b dev
@@ -46,26 +46,26 @@ Let's practice using `git stash` by following these steps:
    git commit -m "newFile is tracked in dev"
    ```
 
-5. Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files with the following commands:
+5. Now that we have a `newFile.js` file that is being tracked in the `dev` branch, let's checkout to `main` and verify the files using the following commands:
 
    ```sh
    git checkout main
    ls
    ```
 
-6. Notice that we don't have a `newFile.js` file in `main`, so let's create one with the following command:
+6. Notice that we don't have a `newFile.js` file in `main`, so let's create one using the following command:
 
    ```sh
    touch newFile.js
    ```
 
-7. Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so with the following command:
+7. Let's say that we're not ready to commit this file to `main` yet, but we need to switch to the `dev` branch again. Try to do so using the following command:
 
    ```sh
    git checkout dev
    ```
 
-8. Git will prevent you from switching branches, displaying the following error message:
+8. Git will prevent you from switching branches and display the following error message:
 
    ```text
    error: The following untracked working tree files would be overwritten by checkout: newFile.js
@@ -75,7 +75,7 @@ Let's practice using `git stash` by following these steps:
 
    This happens because we have a conflicting file (`newFile.js`) that would be overwritten by the checkout. If we were to commit `newFile.js`, then Git would know to swap them out, but we're not ready to commit yet.
 
-9. We will use `git stash` to put away our changes so that we can checkout the `dev` branch. Run the following commands to discover what happens:
+9. We will use `git stash` to put away our changes so that we can checkout the `dev` branch. Enter the following commands to discover what happens:
 
    ```sh
    git stash -u
@@ -84,13 +84,13 @@ Let's practice using `git stash` by following these steps:
 
    The `-u` flag tells Git to include untracked files in our stash. 
 
-10. `newFile.js` has now been put away, so we can safely checkout to `dev` with the following command:
+10. `newFile.js` has now been put away, so we can safely checkout to `dev` by using the following command:
 
    ```sh
    git checkout dev
    ```
 
-11. Don't worry, the stash isn't lost. We can use additional commands to bring those changes back. Run the following commands to see this in action:
+11. Don't worry, the stash isn't lost. We can use additional commands to bring those changes back. Enter the following commands to see this in action:
 
    ```sh
    git checkout main
@@ -99,11 +99,11 @@ Let's practice using `git stash` by following these steps:
 
 The command `git stash pop` will pull the latest stash off the stack and reapply its changes. Other useful `stash` commands include the following:
 
-  * `git stash drop`&mdash;Delete the latest stash from the stack.
+  * `git stash drop`: Delete the latest stash from the stack.
 
-  * `git stash apply`&mdash;Apply your stashed changes, but also keep a copy in the stack.
+  * `git stash apply`: Apply your stashed changes, but also keep a copy in the stack.
 
-  * `git stash clear`&mdash;Clear all stashed entries from the stack.
+  * `git stash clear`: Clear all stashed entries from the stack.
 
 ## Review
 
