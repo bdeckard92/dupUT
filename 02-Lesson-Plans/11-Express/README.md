@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week's module, students will learn how to create server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express.js allows us to quickly and easily establish API routes and associated HTTP request methods.
+In this module, students will learn how to create server-side APIs using the Express.js framework. As the most widely used Node.js server framework, Express.js allows us to quickly and easily establish API routes and associated HTTP request methods.
 
 In this week's virtual classes, you'll review setting up an Express.js application using both standard GET routes and GET routes with parameters, as well as review Express.js server basics.
 
@@ -19,7 +19,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 
 ## Overview of Asynchronous Material
 
-This week in the asynchronous content, students are introdcued to Express.js, which is important for the following reasons:
+This week in the asynchronous content, students are introduced to Express.js, which is important for the following reasons:
 
 * Express.js is the most widely used Node.js server framework.
 
@@ -45,7 +45,7 @@ Throughout the async module this week, students will use Express.js to do the fo
 
 * Deploy a server-side application to the Heroku platform.
 
-Reminder: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
 
 The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
@@ -54,7 +54,7 @@ The following table contains a description of each lesson's portion of the modul
 | 1      | Set Up Express.js Server and GET routes         | Server setup, GET requests, parameters, Heroku deployment    |
 | 2      | Create data using POST routes                   | API POST endpoints, middleware, testing with Insomnia        |
 | 3      | Serving a front end                             | Static HTML routes, static middleware, fetch POST requests   |
-| 4      | Add Zookeeper endpoints and modularize the code | Modular routes, Express.js Router, creating endpoints        |
+| 4      | Add Zookeeper endpoints and modularize the code | Modular routes, Express.js router, creating endpoints        |
 
 ## Virtual Classes
 
@@ -72,9 +72,9 @@ Here are the lesson plans for this week's virtual classes:
 
 * Ensure that you're using the most recent version of Express.js (version 4) by running `npm show express version`.
 
-* Each activity will require starting up a new Express.js server. Students might encounter a common error with the code `EADDRINUSE`, due to the port being used. They can easily fix this error by running one of the following commands based on their operating system:
+* Each activity require that students create a new Express.js server. Students might encounter a common error with the code `EADDRINUSE`, due to the port being used. They can easily resolve this by running one of the following commands depending on their operating system:
 
-  * MacOS:
+  * macOS:
 
     ```bash
     killall node
@@ -100,7 +100,7 @@ According to our class data, students might experience some of the following pai
 
 The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
-Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
