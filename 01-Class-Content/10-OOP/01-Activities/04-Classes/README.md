@@ -6,7 +6,7 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when a new `Character` can be created with the following properties:
+* It is done when a new `Character` can be created with the following properties:
 
   * `name` is a string that contains the character's name.
 
@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
   * `hitPoints` is a number that indicates how many hit points the character has.
 
-* It's done when each `Character` has the following methods:
+* It is done when each `Character` has the following methods:
 
   * `printStats()` logs the character's name, strength, and hit points, as follows:
 
@@ -28,7 +28,7 @@ Work with a partner to implement the following user story:
 
   * `attack()` accepts an opposing `Character` object and subtracts the current character's `strength` from the opponent's `hitPoints`.
 
-* It's done when I can run `node character.js` and see two instances of `Character` battle each other until one of them is defeated.
+* It is done when I can run `node character.js` and see two instances of `Character` battle each other until one of them is defeated.
 
 ---
 

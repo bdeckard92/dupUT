@@ -4,9 +4,9 @@ In this activity, you will write code to create a function that takes an array o
 
 ## Instructions
 
-* Open [Unsolved/linear-search.js](Unsolved/linear-search.js) in your code editor&mdash;this is the only file that you will modify in this activity.
+* Open [Unsolved/linear-search.js](Unsolved/linear-search.js) in your code editor; this is the only file that you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `linearSearch()` function to achieve the following:
+  * In this file, you will write code in the body of the `linearSearch()` function to achieve the following:
 
     * Return the index of the given `target` number in the given `arr` array.
 

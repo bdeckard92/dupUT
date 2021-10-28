@@ -6,13 +6,13 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have written code for a reverse algorithm that takes in a string such as `"Hello World!"` and returns a reversed string such as `"!dlroW olleH"`.
+* It is done when I have written code for a reverse algorithm that takes in a string such as `"Hello World!"` and returns a reversed string such as `"!dlroW olleH"`.
 
-* It's done when I have written code for a palindrome algorithm that uses the `reverse()` method and checks whether the string is a [palindrome](https://www.merriam-webster.com/dictionary/palindrome).
+* It is done when I have written code for a palindrome algorithm that uses the `reverse()` method and checks whether the string is a [palindrome](https://www.merriam-webster.com/dictionary/palindrome).
 
-* It's done when I have written code for a capitalize algorithm that converts the first letter in each word of a string to an uppercase letter.
+* It is done when I have written code for a capitalize algorithm that converts the first letter in each word of a string to an uppercase letter.
 
-* It's done when I can run `npm run test` in the command line and verify that I have correctly implemented each method, and each test passes.
+* It is done when I can run `npm run test` in the command line and verify that I have correctly implemented each method, and each test passes.
 
 ---
 

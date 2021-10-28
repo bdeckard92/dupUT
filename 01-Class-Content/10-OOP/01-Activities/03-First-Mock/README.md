@@ -18,6 +18,8 @@ Work with a partner to resolve the following issue:
 
 ## Steps to Reproduce the Problem
 
+To reproduce the problem, follow these steps:
+
 1. Navigate to the `Unsolved` folder in this activity.
 
 2. In the console, run `npm install`.
