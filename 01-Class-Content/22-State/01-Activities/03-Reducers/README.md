@@ -20,7 +20,7 @@ The suite that tests the reducer is failing for adding and removing student func
 
 ## Steps to Reproduce the Problem
 
-1. Navigate to the `06-Stu-Reducers/Unsolved` folder and run `npm install`.
+1. Navigate to the `Unsolved/` folder and run `npm install`.
 
 2. Run `npm run test`.
 
