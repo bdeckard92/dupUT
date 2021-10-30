@@ -1,8 +1,8 @@
-# 🏗️ Pass Data Using Props 
+# 🏗️ Pass Data Using Props
 
 Initializing a React application by using the `create-react-app` command-line utility can take some time. To save time throughout this unit, we will create one React application and only replace the `/src` files for each subsequent activity as we work on them. Before you add comments to the code, you will practice the workflow for creating a React app and updating your practice app for subsequent activities.
 
-  To do this, follow these steps:
+To do this, follow these steps:
 
   1. In the command line, navigate to `20-React/01-Activities`.
 
@@ -32,7 +32,7 @@ The activity is done when it meets the following criteria:
 
 * It's done when I have passed data for each dog's `name` and `description` as props to the `Card`.
 
-* It's done when I have added a unique `key` property to each `Card` that gets rendered.  
+* It's done when I have added a unique `key` property to each `Card` that gets rendered.
 
 ## 💡 Hints
 

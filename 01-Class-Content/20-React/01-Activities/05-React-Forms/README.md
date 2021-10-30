@@ -13,7 +13,7 @@ Before you begin this activity, complete the following steps:
 Work with a partner to implement the following user story:
 
 * As a developer, I want to prevent empty input for the email and username fields of a form.
-  
+
 * As a developer, I want to improve the user experience by automatically clearing the input fields after the user clicks submit.
 
 * As a developer, I want to make the application more robust by adding a password input field.

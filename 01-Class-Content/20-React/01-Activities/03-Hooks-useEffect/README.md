@@ -2,12 +2,12 @@
 
 ## Before We Begin
 
-Before you begin this activity, complete the following steps:  
+Before you begin this activity, complete the following steps:
 
 1. Delete the `/src` folder in [00-practice-app](../00-practice-app/).
 
 2. Copy the `/src` folder from [Unsolved](./Unsolved/) and paste it into [00-practice-app](../00-practice-app/).
-   
+
 ## Activity
 
 Work with a partner to implement the following user story:
@@ -16,15 +16,15 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have imported `useEffect` into [Thermostat.js](../00-React-App/src/components/Thermostat.js).
+* It's done when I have imported `useEffect` into `Thermostat.js`.
 
 * It's done when I have set a value for the `temp` variable.
 
-* It's done when I have used the `useEffect` Hook to set the `document.title` to the current temperature. 
+* It's done when I have used the `useEffect` Hook to set the `document.title` to the current temperature.
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [React Docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 

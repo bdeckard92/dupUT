@@ -10,15 +10,15 @@ Before you begin this activity, complete the following steps:
 
 3. This project uses Bootstrap, so don't forget to import it inside `index.js`:
 
-     `import 'bootstrap/dist/css/bootstrap.min.css'`
-   
+  `import 'bootstrap/dist/css/bootstrap.min.css'`
+
 ## Activity
 
-Work with a partner to add comments that describe the functionality of the code found in the [PortfolioContainer](../00-practice-app/src/components/PortfolioContainer.js) and [NavTabs](../00-practice-app/src/components/NavTabs.js) components.
+Work with a partner to add comments that describe the functionality of the code found in the `PortfolioContainer` and `NavTabs` components.
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 * [React Docs on conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
 
