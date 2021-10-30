@@ -10,6 +10,7 @@ In this week's virtual classes, you'll review Sequelize query methods, CRUD meth
 | --- | ---------------------------- | ---------- |
 | 1   | Sequelize Models             | 13.1       |
 | 1   | Create/Read Methods          | 13.1       |
+| 1   | Git Guide                    | N/A        |
 | 2   | Update/Delete Methods        | 13.1       |
 | 2   | One-to-One Associations      | 13.3       |
 | 2   | Many-to-Many Associations    | 13.4, 13.5 |
@@ -133,11 +134,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-common-element](../../01-Class-Content/13-ORM/03-Algorithms/01-common-element)
+* [01-double-triple-map](../../01-Class-Content/13-ORM/03-Algorithms/01-double-triple-map)
 
-* [02-permutation-substring](../../01-Class-Content/13-ORM/03-Algorithms/02-permutation-substring)
+* [02-array-intersection](../../01-Class-Content/13-ORM/03-Algorithms/02-array-intersection)
 
-* [03-string-map](../../01-Class-Content/13-ORM/03-Algorithms/03-string-map)
+* [03-squares-of-a-sorted-array](../../01-Class-Content/13-ORM/03-Algorithms/03-squares-of-a-sorted-array)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
