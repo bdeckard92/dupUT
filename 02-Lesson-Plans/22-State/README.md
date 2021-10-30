@@ -2,17 +2,18 @@
 
 ## Overview
 
-In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React Hooks like `useEffect()`, and finally learn how to dispatch actions to update state.
+In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, and finally learn how to dispatch actions to update state.
 
 In this week's virtual classes, you'll cover state management, particularly using the React Context API. You'll review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
 
 | Day | Topic                                                | Location   |
 | --- | ---------------------------------------------------- | ---------- |
-| 1   | Actions, Reducers, `useReducer` Hook                 | 22.1       |
-| 1   | Testing Reducers                                     | 22.1, 22.2 |
-| 2   | Global State, `createContext` and `useContext` Hooks | 22.1, 22.2 |
-| 2   | Global State Refactor                                | 22.1       |
-| 2   | Redux Documentation                                  | Challenge  |
+| 1   | Providers                                            | 22.1       |
+| 1   | Consumers                                            | 22.1, 22.2 |
+| 2   | Reducers                                             | 22.1, 22.2 |
+| 2   | Actions                                              | 22.2       |
+| 2   | `useReducer` Hook                                    | 22.2       |
+| n/a | Redux                                                | Challenge  |
 
 ## Overview of Asynchronous Material
 
@@ -78,8 +79,6 @@ Throughout the async module this week, students will use state management to do 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
   * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
-
-
 
 ### Common Pain Points
 
