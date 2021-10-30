@@ -14,6 +14,8 @@ When a user adds a review, the entire JSON file gets overwritten with the new re
 
 ## Steps to Reproduce the Problem
 
+To reproduce the problem, follow these steps:
+
 1. Run the back-end server by running `npm install` and `npm start`.
 
 2. Click the link in the terminal to visit `http://localhost:3001/`.

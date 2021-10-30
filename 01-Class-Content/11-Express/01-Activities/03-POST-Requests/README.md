@@ -6,11 +6,11 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have created a route that logs when a user has made a GET request.
+* It is done when I have created a route that logs when a user has made a GET request.
 
-* It's done when I have created a route that logs when a user has made a POST request.
+* It is done when I have created a route that logs when a user has made a POST request.
 
-* It's done when, if I test my route using Insomnia, GET and POST requests are logged.
+* It is done when, if I test my route using Insomnia, GET and POST requests are logged.
 
 ---
 
