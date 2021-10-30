@@ -8,8 +8,8 @@ Work with a partner to resolve the following issue(s):
 
 ## Setup
 
-Copy the `src` directory from the unsolved folder into `00-practice-app` before you begin.
-  
+Copy the `src` directory from the activity folder into `00-practice-app` before you begin.
+
 ## Expected Behavior
 
 When the tests are run, all of them should pass.

@@ -1,18 +1,20 @@
 # 🏗️ Implement Global State with React Context API
 
+Initializing a React application by using the `create-react-app` command-line utility can take some time. To save time throughout this unit, we will create one React application and only replace the `/src` files for each subsequent activity as we work on them. Before you add comments to the code, you will practice the workflow for creating a React app and updating your practice app for subsequent activities.
+
+To do this, follow these steps:
+
+  1. In the command line, navigate to `22-State/01-Activities`.
+
+  2. Run the command `npx create-react-app 00-practice-app`.
+
+  3. After `create-react-app` has completed (which can take a few minutes), copy the `/src` folder from each activity and paste it into [00-practice-app](../00-practice-app/).
+
+## Activity
+
 Work with a partner to implement the following user story:
 
 * As a developer, I want to consume data/values from a single, global source across my entire React application.
-
-## Setup
-
-Create a new React app called `00-practice-app` by running the following command:
-
-```bash
-npx create-react-app 00-practice-app
-```
-
-Copy the `src` directory from the `Unsolved` folder into `00-practice-app` before you begin.
 
 ## Acceptance Criteria
 

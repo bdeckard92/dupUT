@@ -4,16 +4,15 @@
 
 In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, and finally learn how to dispatch actions to update state.
 
-In this week's virtual classes, you'll cover state management, particularly using the React Context API. You'll review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
+In this week's virtual classes, you'll cover state management, particularly using the React Context API. You'll review how to use providers, consumers, reducers, and actions.
 
 | Day | Topic                                                | Location   |
 | --- | ---------------------------------------------------- | ---------- |
 | 1   | Providers                                            | 22.1       |
-| 1   | Consumers                                            | 22.1, 22.2 |
-| 2   | Reducers                                             | 22.1, 22.2 |
-| 2   | Actions                                              | 22.2       |
-| 2   | `useReducer` Hook                                    | 22.2       |
-| n/a | Redux                                                | Challenge  |
+| 1   | Consumers                                            | 22.1       |
+| 2   | Reducers                                             | 22.1       |
+| 2   | Actions                                              | 22.1       |
+| 2   | `useReducer` Hook                                    | 22.1       |
 
 ## Overview of Asynchronous Material
 
@@ -62,17 +61,23 @@ Throughout the async module this week, students will use state management to do 
 
 ## Instructor Notes
 
-* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
+* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp. Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
-* Be sure to review the activities before class.
+* Be sure to prepare and read over the activities before your class begins.
 
-* Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
+* Many of the activities this week allow students to review the skills needed for final projects. Because the code and activities will be familiar, encourage students to use activity time to explore the code, ask questions, and build on their existing skills. Encourage students who need an additional challenge to explore the Bonus.
 
-* Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
+* The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
 
-* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. To prepare the students for the Challenge and also their career, the activity requires them to examine the official Redux documentation. Emphasize to the students how important it will be on the job for them to be able to sift through documentation to find information that addresses the specific problem that they're trying to solve.
+* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Swap out the `src` folder for each activity in `00-practice-app`. It's recommended that you completely restart the dev server between activities.
 
-* **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* To avoid errors due to conflicting versions of ESLint in the repo, navigate to `00-practice-app` in the command line and run the following command:
+
+  ```sh
+  echo "SKIP_PREFLIGHT_CHECK=true" > .env
+  ```
+
+* In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documention to find information on specific issues and then apply that information to their own code.
 
 * Information about the upcoming group project must go out during this week's second virtual class!
 
@@ -117,25 +122,23 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
+* Next week, students will begin work on their final projects. These projects are student-driven; they will be responsible for forming their own teams, brainstorming app ideas, and developing a full-stack app. Encourage students to start forming groups and brainstorming ideas for their apps, and be prepared to help anyone who is struggling to find a group or project idea.
 
 ## Resources
 
 * [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
+* [React documentation on Context.Provider](https://reactjs.org/docs/context.html#contextprovider)
+
+* [React documentation on useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+* [Redux Docs on reducers](https://redux.js.org/faq/reducers/)
+
+* [Redux Docs on actions](https://redux.js.org/faq/actions/)
+
 * [React documentation on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
-* [Create React App documentation on running tests](https://create-react-app.dev/docs/running-tests/)
-
-* [React documentation on Context](https://reactjs.org/docs/context.html)
-
-* [React documentation on useEffect](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
-
 * [Redux documentation](https://redux.js.org/)
-
-## Algorithms
-
-* Students will be busy with their final project, so there are no algorithms for this week.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
