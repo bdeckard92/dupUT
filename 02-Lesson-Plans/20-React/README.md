@@ -8,11 +8,11 @@ In this week's virtual classes, you'll help students understand what React is an
 
 | Day | Topic                    | Location         |
 | --- | ------------------------ | ---------------- |
-| 1   | Create React App         | 20.1             |
-| 1   | Lists and Keys           | 20.1, 20.3       |
-| 2   | `useState` Hook          | 20.3, 20.4, 20.5 |
+| 1   | Props                    | 20.3             |
+| 1   | State                    | 20.3 - 20.5      |
 | 2   | `useEffect` Hook         | 20.3             |
-| 2   | Mapping Over Data in JSX | 20.3             |
+| 2   | Conditional Rendering    | 20.3             |
+| 2   | React forms              | 20.4             |
 
 ## Overview of Asynchronous Material
 
@@ -72,7 +72,17 @@ Throughout the async module this week, students will use React to do the followi
 
 * Students might feel a little overwhelmed with the new, unusual syntax. Remind them that ultimately we're still just working with JavaScript. Make sure they understand concepts rather than perfectly memorize syntax. Memorization will come with practice and repetition, so work on instilling concepts early on.
 
-* **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
+
+* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Swap out the `src` folder for each activity in `00-practice-app`. It's recommended that you completely restart the dev server between activities.
+
+* To avoid errors due to conflicting versions of ESLint in the repo, navigate to `00-practice-app` in the command line and run the following command:
+
+  ```sh
+  echo "SKIP_PREFLIGHT_CHECK=true" > .env
+  ```
+
+* Several activities in this unit require students to import Bootstrap into the `/src/index.js` file. If students ask why their activities do not match the solution, check whether they've done this.
 
 ### Common Pain Points
 
@@ -121,19 +131,21 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will learn about GraphQL. Familiarize yourself with GraphQL, as well as [Apollo](https://www.apollographql.com/) and the GraphQL Playground.
+During the next unit, you will build on React foundations, and guide students through application development using three-layer MERN architecture.  You will also introduce students to the GraphQL Playground and Apollo Server. If you are new to the GraphQL and the GraphQL Playground or Apollo Server, please refer to the Apollo Docs on GraphQL Playground and the [Apollo Docs on introduction to Apollo Server](https://www.apollographql.com/docs/apollo-server/).
+
+>> Important: The GraphQL activities require a minimum npm version of 7.0.0 or greater. Prior to class, please be sure to check your npm version and update if needed. Refer to the [NPM docs on updating to latest stable version.](https://docs.npmjs.com/try-the-latest-stable-version-of-npm).
 
 ## Resources
 
-* [React Docs on lists and keys](https://facebook.github.io/react/docs/lists-and-keys.html) 
-
-* [React Docs on Hooks](https://reactjs.org/docs/hooks-overview.html)
+* [React Docs on props](https://reactjs.org/docs/components-and-props.html)
 
 * [React Docs on using the State Hook](https://reactjs.org/docs/hooks-state.html)
 
 * [React Docs on using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 * [React Docs on conditional rendering](https://facebook.github.io/react/docs/conditional-rendering.html)
+
+* [React Docs on forms](https://reactjs.org/docs/forms.html)
 
 ## Algorithms
 
