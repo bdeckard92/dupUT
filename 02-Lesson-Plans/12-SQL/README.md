@@ -63,17 +63,19 @@ Throughout the async module this week, students will use SQL to do the following
 
 ## Instructor Notes
 
-* Be sure to install the [MySQL server](https://dev.mysql.com/downloads/mysql/) before this week's classes, and run the server to initialize MySQL Shell.
+* Be sure to install the MySQL Server on your computer before this week's classes and be able to initialize MySQL Shell. For installation instructions, refer to the [MySQL installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide).
 
-* After starting the MySQL server, make sure that students can initialize the MySQL command-line prompt, using the command `mysql -u root -p`. They will need their MySQL password.
+* Make sure that students can initialize the MySQL Shell using the command `mysql -u root -p`. They will need their MySQL password. Students should also be encouraged to use a MySQL password that is not used for any other personal accounts.
 
   * If Mac users get a `command not found` error, set up a `.zshrc` file in your home directory and add the `mysql` command to it. To do this, navigate to the home directory and type the following command in the command line: echo `export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.zshrc`. Mac users who install using Homebrew should not face this issue. Refer to [MySQL Installation Guide](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide) for installation instructions.
 
-  * If Windows users get the `command not found` error, refer them to the [MySQL documentation on customizing the PATH](https://dev.mysql.com/doc/mysql-windows-excerpt/5.7/en/mysql-installation-windows-path.html).
+  * If Windows users get a `command not found` error, refer them to the [MySQL documentation on customizing the PATH](https://dev.mysql.com/doc/mysql-windows-excerpt/5.7/en/mysql-installation-windows-path.html).
 
 * Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
-* Make sure that students have installed MySQL. Detailed instructions are provided in the Up and Running section of this module.
+* For the activities that use an Express.js server, you will be required to pass your username and SQL password as a parameter of `createConnection()`. Make sure to change the provided user -- if you are not using the default `root` -- and add your personal SQL password before running each demo or activity. The changes will need to be made in the `server.js` file.
+
+* **Important**: You will be demonstrating with a file that contains your database credentials. Be sure that your MySQL password is not used for any other personal accounts, because it will be visible during the demonstrations.
 
 * Remind students to complete the Midpoint Survey coming up. Clarify that this survey is NOT about the current module but is about the entire course until this point! It’s important that they're aware of this in advance and that they take their time to complete the survey. This will ultimately help us understand how we can improve the program, curriculum, instruction, and support!
 
@@ -120,11 +122,19 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
-* [MySQL documentation on getting information about databases and tables](https://dev.mysql.com/doc/refman/8.0/en/getting-information.html)
+* [MySQL documentation on schemas](https://dev.mysql.com/doc/refman/8.0/en/getting-information.html)
 
-* [npm documentation on MySQL2](https://www.npmjs.com/package/mysql2)
+* [MySQL documentation on loading data into a table](https://dev.mysql.com/doc/refman/8.0/en/loading-tables.html)
+
+* [MySQL documentation on foreign key constraints](https://dev.mysql.com/doc/refman/5.7/en/constraint-foreign-key.html)
+
+* [MySQL documentation on primary keys](https://dev.mysql.com/doc/refman/5.7/en/partitioning-limitations-partitioning-keys-unique-keys.html)
+
+* [MySQL documentation on the JOIN clause](https://dev.mysql.com/doc/refman/5.7/en/join.html)
 
 * [npm documentation on using prepared statements](https://www.npmjs.com/package/mysql2#using-prepared-statements)
+
+* [npm documentation on MySQL2](https://www.npmjs.com/package/mysql2)
 
 ## Algorithms
 
