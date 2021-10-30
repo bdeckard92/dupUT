@@ -10,11 +10,11 @@ In this week's virtual classes, you'll cover Mongoose virtuals, subdocuments, sc
 | ---  | ---                | ---               |
 | 1    | Mongoose Virtuals  | 18.2, 18.3        |
 | 1    | Subdocuments       | 18.3              |
-| 2    | Mongoose Schema    | 18.1, 18.2, 18.5  | 
+| 2    | Mongoose Schema    | 18.1, 18.2, 18.5  |
 | 2    | Mongoose CRUD      | 18.1, 18.2        |
 | 2    | Mongoose Populate  | 18.1, 18.2        |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning NoSQL?
 
