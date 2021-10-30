@@ -1,10 +1,10 @@
 # Git History 📜
 
-Git is a powerful tool with tons of features that can handle projects spanning weeks, months, and even years. Today we will explore a collection of lesser-known commands that help us navigate, rewrite, reference, and clean up the history of a Git repository.
+Git is a powerful tool with tons of features that can handle projects that span weeks, months, and even years. Today we will explore a collection of lesser-known commands that help us navigate, rewrite, reference, and clean up the history of a Git repository.
 
-## Introduction to git log 📒
+## Introduction to git log
 
-`git log` lists each commit made to the repo in reverse chronological order, with the most recent commits showing at the top. `git log` lists a hash for each commit, the author's name and email, and the date the commit took place -- like in the following example:
+`git log` lists each commit made to the repo in reverse chronological order, with the most recent commits showing at the top. `git log` lists a hash for each commit, the author's name and email, and the date the commit took place, as shown in the following example:
 
 ```bash
 git log
@@ -20,7 +20,7 @@ You've likely heard the software development term **hash** before. A hash functi
 
 `git log` also provides a commit message that explains the changes being made to the codebase. So when you start your work again on a new day, `git log` can give you a quick peek at where you left off.
 
-## Exploring git log Options ⚙️
+## Exploring git log Options
 
 When you run `git log` inside an established repository, you'll notice that you get a list of all commits on the current branch. This command includes all commits from users who are part of the same branch. But sometimes you might want to see the log for changes that took place inside a specific directory!
 
@@ -37,15 +37,15 @@ First, let's restrict the `git log` output to only commits that affect a specifi
 git log packages
 ```
 
-* 🔑 To exit the `git log` output, enter `q` in the terminal.
+To exit the `git log` output, enter `q` in the terminal.
 
-The next command allows you to view commits that happened on a different branch than the one you're currently checked out to. All you need to do is provide the branch name after the command `git log`. This is useful when you want to see what happened in a different branch without having to completely leave the branch you are on. In this case, you're viewing commits that happened inside `origin/typescript`, even though you're currently checked out to `master` -- as shown in the following example:
+The next command allows you to view commits that happened on a different branch than the one you're currently checked out to. All you need to do is provide the branch name after the command `git log`. This is useful when you want to see what happened in a different branch without having to completely leave the branch you are on. In this case, you're viewing commits that happened inside `origin/typescript`, even though you're currently checked out to `master`, as shown in the following example:
 
 ```sh
 git log origin/typescript
 ```
 
-* **Note**: By the time you read this, the branch `origin/typescript` might have been renamed or deleted, so feel free to run `git branch -r` and choose a different branch.
+> **Note**: By the time you read this, the branch `origin/typescript` might have been renamed or deleted, so feel free to run `git branch -r` and choose a different branch.
 
 You might have noticed the first time you ran the `git log` command that a lot of the commit messages were typical merges. These kinds of commits can create a lot of noise in your repository and make it hard to see what was actually changed. Luckily, the `git log` command has a flag for this, called `--no-merges`, as shown in the following example:
 
@@ -55,13 +55,13 @@ git log --no-merges
 
 Let's say we want to get commit messages from a specific time frame. The `since` flag will allow us to filter commits that have happened after a specific time. This could be useful if we wanted to see only commits that happened since that morning. We can filter the results even further by using the `--author` flag.
 
-In the following example, adding this flag to the command limits the results to not only commits that have happened since 8 o'clock in the morning but also solely those that were authored by someone named Simon:
+In the following example, adding this flag to the command limits the results to not only commits that have happened since 8:00 AM but also solely those that were authored by someone named Simon:
 
 ```sh
 git log --since=8am --author=Simon
 ```
 
-We can add the `--before` flag to make the time frame even more specific. For instance, we could look at all the commits that happened between the years `2016` and `2020` with the `--before` and `--after` flags, as shown in the following example:
+We can add the `--before` flag to make the timecframe even more specific. For instance, we could look at all the commits that happened between the years 2016 and 2020 by using the `--before` and `--after` flags, as shown in the following example:
 
 ```sh
 git log --before={2020-12-31} --after={2016-12-31}
@@ -73,15 +73,15 @@ You might recognize the `--grep` flag. This flag is based on a Unix command-line
 git log --grep="prompts"
 ```
 
-With all these options available, you can find exactly what you need by using `git log` and creating your own kind of query. You might not use it every day, but it will definitely come in handy sometimes. Just another tool for your tool belt!
+With all these options available, you can find exactly what you need by using `git log` and creating your own kind of query. You might not use it every day, but it will definitely come in handy sometimes. This is just another tool for your tool belt!
 
 ## Introduction to git blame 👉
 
-The commands `git log` and `git blame` both help developers gain insight on the changes that were made to a codebase, who made those changes, and when those changes occurred. The `git blame` command, though, can give developers insights into specific files -- as well as specific lines within those files.
+The commands `git log` and `git blame` both help developers gain insight on the changes that were made to a codebase, who made those changes, and when those changes occurred. The `git blame` command can give developers insights into specific files, as well as specific lines within those files.
 
-For example, you might want to find out who exactly added a dependency to your project. You might also want to know why or what feature or bug was being fixed at the time.
+For example, you might want to find out who added a dependency to your project. You might also want to know why or what feature or bug was being fixed at the time.
 
-The `git blame` command can show us exactly what revision was made to each line in a given file. To explore some of the uses for this command, let's first make sure that we're checked out to the `master` branch inside the Inquirer.js repository. Then we'll run `git blame` against one of the most important files in any web application -- `package.json`.
+The `git blame` command can show us exactly what revision was made to each line in a given file. To explore some of the uses for this command, let's first make sure that we're checked out to the `master` branch inside the Inquirer.js repository. Then we'll run `git blame` against one of the most important files in any web application, `package.json`.
 
 Run the following command:
 
@@ -124,7 +124,7 @@ Date:   Mon Jan 28 04:23:00 2019 +0100
 
 While this is just an example, imagine a situation in which you want to know who was working on a feature before you joined a company. Maybe you want to get some insight into a developer's reason for adding something to the codebase. All of this is possible! Using the powerful `git log` and `git blame` commands just might make you feel like a detective.
 
-## Other Useful Git Commands ⚒️
+## Other Useful Git Commands
 
 You might also find the following commands useful:
 
@@ -140,7 +140,7 @@ You might also find the following commands useful:
 
 * `git commit --amend` allows you to rewrite history. On the surface, this might seem counter to what Git was designed for in the first place: to track every single change in the repository, intentional or otherwise. However, Git also gives you complete control over your codebase and therefore enables you to modify your most recent commit. This is handy if you need to fix a mistake, like using a mixture of single and double quotes in a commit message. You can go back in time and rewrite your commit message.
 
-## Conclusion 🎓
+## Conclusion
 
 Today you learned how to navigate the expanse of Git History using commands like `git log` and `git blame`. As you continue growing as a developer and take on larger personal or professional projects, you'll begin to find opportunities to use these commands. Just knowing that these commands exist can make you a better developer!
 

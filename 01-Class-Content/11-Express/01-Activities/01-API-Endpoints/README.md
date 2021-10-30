@@ -6,13 +6,13 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have imported Express.js into my project.
+* It is done when I have imported Express.js into my project.
 
-* It's done when I have created an `app` variable set to the value of `express()`.
+* It is done when I have created an `app` variable set to the value of `express()`.
 
-* It's done when I have created an API endpoint to `/api/` that returns the contents of the `terms.json` file.
+* It is done when I have created an API endpoint to `/api/` that returns the contents of the `terms.json` file.
 
-* It's done when GET requests made using the browser to the API endpoint return the content found in `terms.json`.
+* It is done when GET requests made using the browser to the API endpoint return the content found in `terms.json`.
 
 ---
 

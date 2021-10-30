@@ -2,23 +2,25 @@
 
 Work with a partner to resolve the following issues:
 
-* As a user, I want to be able to view pet data on the page by pressing a **Fetch pets** button.
+* As a user, I want to be able to view pet data on the page by pressing a "Fetch Pets" button.
 
 ## Expected Behavior
 
-When the user clicks the **Fetch Pets** button from the front end, each pet is rendered in a card on the screen.
+When the user clicks the "Fetch Pets" button from the front end, each pet is rendered in a card on the screen.
 
 ## Actual Behavior
 
-When a user requests the terms by clicking **Fetch Pets**, nothing is rendered to the page and an error appears in the developer console.
+When a user requests the terms by clicking "Fetch Pets", nothing is rendered to the page and an error appears in the developer console.
 
 ## Steps to Reproduce the Problem
 
-1. Open the page by visiting [http://localhost:3001](http://localhost:3001)
+To reproduce the problem, follow these steps:
 
-2. Open the developer console by pressing Command+Option+K (Mac), or Ctrl+Shift+J (Windows).
+1. Open the page by visiting [http://localhost:3001](http://localhost:3001).
 
-3. Click **Fetch Pets**, then note the lack of results on the page and the error in the develop console.
+2. Open the developer console by pressing Command+Option+K (macOS) or Ctrl+Shift+J (Windows).
+
+3. Click "Fetch Pets", and note the lack of results on the page and the error in the developer console.
 
 ---
 
