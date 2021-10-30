@@ -65,7 +65,13 @@ Throughout the async module this week, students will use ORM to do the following
 
 * Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
+* You will use MySQL in all of the activities for this module, so be sure to have your MySQL server up and running. You can create the databases listed in each activity ahead of time, or you can prepare to demonstrate it live in class.
+
 * Also before class, create the databases required for the activities (if you don't want to do it live in class).
+
+* The `02-Create-Read` and `03-Update-Delete` activities includes a `/seed` POST route simply to make it easier to populate the database with books quickly. For the other activities, don't forget to run `node seeds/seed.js` before each demo or activity review, to seed the database. Remind students of the seed file too.
+
+* Instead of relying on a front end, all of the activities will use Insomnia Core to test the routes. Be sure to have it installed and set up for class.
 
 * It is crucial that you do NOT go too in depth. Although many components make Sequelize work, much of it is boilerplate that doesn't need detailed explanation.
 
@@ -116,21 +122,21 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you'll divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include students all at the same skill level.
+* In the next module, students will combine everything they've learned so far to create their first full-stack application&mdash;with Handlebars.js, MVC architecture, and front-end authentication.
 
-* Next week you'll review the template engine Handlebars.js, as well as authentication.
+* At the end of next week you'll divide students into groups for their second group project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include students all at the same skill level.
 
 ## Resources
 
-* [Sequelize documentation on querying](https://sequelize.org/v5/manual/querying.html)
+* [Sequelize documentation on model basics](https://sequelize.org/master/manual/model-basics.html)
 
-* [Sequelize documentation on models](https://sequelize.org/v5/class/lib/model.js~Model.html)
+* [Sequelize documentation on model querying basics](https://sequelize.org/master/manual/model-querying-basics.html)
 
-* [Sequelize documentation on validations & constraints](https://sequelize.org/master/manual/validations-and-constraints.html)
+* [Sequelize documentation on associations](https://sequelize.org/master/manual/assocs.html)
 
-* [Sequelize documentation on associations](https://sequelize.org/v5/manual/associations.html)
+* [Sequelize documentation on one-to-one relationships](https://sequelize.org/master/manual/assocs.html#one-to-one-relationships)
 
-* [Sequelize documentation on eager loading](https://sequelize.org/master/manual/eager-loading.html)
+* [Sequelize documentation on one-to-many relationships](https://sequelize.org/master/manual/assocs.html#one-to-many-relationships)
 
 ## Algorithms
 
