@@ -16,7 +16,7 @@ const resolvers = {
     },
     thought: async (parent, { thoughtId }) => {
       return Thought.findOne({ _id: thoughtId });
-    },
+    }
   },
 
   Mutation: {
@@ -65,11 +65,11 @@ const resolvers = {
       return Thought.findOneAndUpdate(
         { _id: thoughtId },
         {
-          $addToSet: { comments: { commentText, commentAuthor } },
+          $addToSet: { comments: { commentText, commentAuthor } }
         },
         {
           new: true,
-          runValidators: true,
+          runValidators: true
         }
       );
     },
@@ -82,8 +82,8 @@ const resolvers = {
         { $pull: { comments: { _id: commentId } } },
         { new: true }
       );
-    },
-  },
+    }
+  }
 };
 
 module.exports = resolvers;

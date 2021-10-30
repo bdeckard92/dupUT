@@ -30,7 +30,7 @@ How can you optimize performance by running effects once?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How can you build your own hook? 
+* How can you build your own hook?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
