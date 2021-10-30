@@ -4,33 +4,33 @@
 
 In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutations and implement GraphQL on both the client and server. Students will also work with **JSON Web Tokens (JWT)** as a means of handling user authentication. Finally, they'll bring together all four technologies of the MERN stack (Mongo, Express.js, React, Node.js) to build a full-stack application.
 
-In this week's virtual classes, you'll cover GraphQL, including using the Apollo Server to set up `typeDefs` and `resolvers`, making queries and mutations, and using GraphQL Playground. You'll also review JSON Web Tokens and the `useEffect` Hook.
+In this week's virtual classes, you'll cover GraphQL, including making queries arguments and mutations. These activities will also give students an opportunity to practice using the GraphQL Playground. You'll also review react Router, JSON Web Tokens, and the `useEffect` Hook.
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
-| 1    | GraphQL Schema     | 21.1       |
-| 1    | JSON Web Tokens    | 21.2       |
-| 2    | GraphQL Mutations  | 21.2       |
-| 2    | GraphQL Client     | 21.3       |
+| 1    | Query Arguments    | 21.1       |
+| 1    | Mutations          | 21.2       |
+| 2    | React Router       | 21.4       |
+| 2    | JWT Signing        | 21.2       |
 | 2    | `useEffect` Hook   | Challenge  |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning MERN?
 
-* Full-stack developers are in demand for their skill set and versatility. 
+* Full-stack developers are in demand for their skill set and versatility.
 
 * MERN is a full JavaScript tech stack ideal for developing dynamic and interactive websites.
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
-* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN. 
+* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN.
 
 * GraphQL is an up-and-coming technology that solves one of the fundamental problems of REST, which is the overfetching and underfetching of data at scale.
 
-* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
+* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties.
 
-* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps. 
+* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps.
 
 Throughout the async module this week, students will use MERN to do the following:
 
@@ -67,9 +67,15 @@ Throughout the async module this week, students will use MERN to do the followin
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
-* Be sure to review the activities before class. Try to anticipate any questions that students might have. 
+* It is highly recommended that prior to class, you go through each demo and activity so that you are familiar with the code and can anticipate issues that students new to GraphQL and the MERN framework may face.
 
-* For a refresher on how to use the GraphQL Playground, refer to the [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
+* Some activities rely on the GraphQL Playground. Students do not need to install a separate tool to access this technology. To use the GraphQL Playground, simply start the app using `npm install`, `npm run seed`, and `npm start`and point to `localhost:3001/graphql` in the browser.
+
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Homework, students must **MUST** use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class.  Alternately, students can complete the Homework using the latest version of Apollo Server. Please refer them to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
+
+* The GraphQL activities and instructor demonstrations require a minimum npm version of 7.0.0 or greater. Prior to class, please be sure to check your npm version and update if needed. Refer to the [NPM docs on updating to latest stable version.](https://docs.npmjs.com/try-the-latest-stable-version-of-npm).
+
+* For a refresher on how to use the GraphQL Playground, see the [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
 * The `useEffect` Hook wasn't covered in the async material; however, it's used in the Challenge. Use the class time to explain the activity and help students understand it so that they can succeed in the Challenge.
 
@@ -96,6 +102,8 @@ If you'd like more information on career services, visit the [career services re
 
 This week, students will take a fully functioning Google Books API search engine that was built with a RESTful API, and they'll refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
+If you get an `eslint` preflight check error when running the Challenge, add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true`. The error can also be avoided by running the Challenge from the class repo to avoid conflicting `eslint` installations.
+
 [Module 21 Challenge](../../01-Class-Content/21-MERN/02-Challenge)
 
 Specific skills students will need to implement in order to be successful:
@@ -118,13 +126,21 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
+* [Apollo docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
+
 * [Apollo Docs on schemas](https://www.apollographql.com/docs/apollo-server/schema/schema/)
+
+* [GraphQL docs on mutations](https://graphql.org/learn/queries/#mutations)
 
 * [Apollo Docs on mutation type](https://www.apollographql.com/docs/apollo-server/schema/schema/#the-mutation-type)
 
 * [Apollo Docs on Apollo Client](https://www.apollographql.com/docs/react/)
 
+* [React Router Docs on Getting Started](https://reactrouter.com/web/guides/quick-start)
+
 * [JSON Web Tokens documentation introduction](https://jwt.io/introduction/)
+
+* [Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 
 * [React documentation on using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
