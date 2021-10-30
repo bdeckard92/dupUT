@@ -1,14 +1,30 @@
-# Conditional Statements
+# 🏗️ Create an Algorithm Using Conditional Statements
 
-In this activity, you will use conditional statements to determine which alert will pop up on the screen.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a developer, I want to write an algorithm that takes in two expressions and evaluates whether both expressions evaluate to `true`, only one expression evaluates to `true`, or both expressions evaluate to `false`.
 
-* Open [index.html](Unsolved/index.html) in your IDE and create a website from scratch that asks users if they eat meat.
+## Acceptance Criteria
 
-  * If they respond with "OK", alert the following to the page: "Here’s a cheese burger!"
+* It is done when the message "True ✅ True ✅" is logged when both `expression1` and `expression2` are true.
 
-  * If they respond with "Cancel", alert the following to the page: "Here’s a veggie burger!"
+* It is done when the message "True ✅ False ❌" is logged when `expression1` is true.
+
+* It is done when the message "False ❌ True ✅" is logged when `expression2` is true.
+
+* It is done when the message "False ❌ False ❌" is logged when both `expression1` and `expression2` are false.
+
+## 💡 Hints
+
+Before you start writing your algorithm, do you have a plan documented in plain language that describes how you will use JavaScript to get it done?
+
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* What is a switch case?
+
+Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
