@@ -65,6 +65,8 @@ Throughout the async module this week, students will use state management to do 
 
 * Be sure to review the activities before class.
 
+* **Important**: React Router recentedly [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
+
 * Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
 * Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
