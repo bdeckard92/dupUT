@@ -14,23 +14,23 @@ In this week's virtual classes, you'll cover GraphQL, including using the Apollo
 | 2    | GraphQL Client     | 21.3       |
 | 2    | `useEffect` Hook   | Challenge  |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning MERN?
 
-* Full-stack developers are in demand for their skill set and versatility. 
+* Full-stack developers are in demand for their skill set and versatility.
 
 * MERN is a full JavaScript tech stack ideal for developing dynamic and interactive websites.
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
-* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN. 
+* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN.
 
 * GraphQL is an up-and-coming technology that solves one of the fundamental problems of REST, which is the overfetching and underfetching of data at scale.
 
-* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
+* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties.
 
-* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps. 
+* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps.
 
 Throughout the async module this week, students will use MERN to do the following:
 
@@ -67,9 +67,9 @@ Throughout the async module this week, students will use MERN to do the followin
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
-* Be sure to review the activities before class. Try to anticipate any questions that students might have. 
+* Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
-* **Important**: React Router recentedly [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
+* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
 * For a refresher on how to use the GraphQL Playground, refer to the [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
