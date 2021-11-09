@@ -6,11 +6,11 @@ In this activity you will be writing code to create a function that takes in a s
 
 * Open [Unsolved/zeroes-and-ones.js](Unsolved/zeroes-and-ones.js) in your code editor -- this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `zeroesAndOnes()` function to achieve the following:
+  * In this file, you will be writing code in the body of the `zeroesAndOnes()` function to achieve the following:
 
     * Returns `true` if there are an equal number of `0` and `1` values; else return false.
 
-    * See the following string for an example:
+    * Refer to the following string for an example:
 
       ```js
       var str = "00110011"; // 4 0s, 4 1s
@@ -22,7 +22,7 @@ In this activity you will be writing code to create a function that takes in a s
       true
       ```
 
-    * See the following array for another example:
+    * Refer to the following array for another example:
 
       ```js
       var str = "11110"; // 4 1s, 1 0
