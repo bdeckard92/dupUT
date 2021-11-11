@@ -8,11 +8,11 @@ In this activity you will be writing code to create a function that takes in two
 
 * Open [Unsolved/merge-sorted.js](Unsolved/merge-sorted.js) in your code editor -- this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `mergeSorted()` function to achieve the following:
+  * In this file, you will be writing code in the body of the `mergeSorted()` function to achieve the following:
 
     * Return a new sorted array containing the contents of `arr1` and `arr2`.
 
-    * See the following array for an example:
+    * Refer to the following array for an example:
 
       ```js
       var arr1 = [4, 8, 15, 16, 23, 42];
@@ -25,7 +25,7 @@ In this activity you will be writing code to create a function that takes in two
       [1, 2, 3, 4, 6, 8, 15, 16, 20, 21, 23, 42];
       ```
 
-    * See the following array for an example:
+    * Refer to the following array for an example:
 
       ```js
       var arr1 = [13, 15, 31, 99];
