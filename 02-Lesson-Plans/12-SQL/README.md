@@ -74,7 +74,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * Make sure that students can initialize the MySQL Shell using the command `mysql -u root -p`. They will need their MySQL password. Students should also be encouraged to use a MySQL password that is not used for any other personal accounts.
 
-  * If Mac users get a `command not found` error, set up a `.zshrc` file in your home directory and add the `mysql` command to it. To do this, navigate to the home directory and type the following command in the command line: echo `export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.zshrc`. Mac users who install using Homebrew should not face this issue. Refer to [MySQL Installation Guide](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide) for installation instructions.
+  * If Mac users get a `command not found` error, set up a `.zshrc` file in your home directory and add the `mysql` command to it. To do this, navigate to the home directory and type the following command in the command line: `echo export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.zshrc`. Mac users who install using Homebrew should not face this issue. Refer to [MySQL Installation Guide](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide) for installation instructions.
 
   * If Windows users get a `command not found` error, refer them to the [MySQL documentation on customizing the PATH](https://dev.mysql.com/doc/mysql-windows-excerpt/5.7/en/mysql-installation-windows-path.html).
 
@@ -124,8 +124,6 @@ Students must know how to implement the following skills in order to succeed in 
 Next week you'll introduce ORMs, specifically Sequelize. It is crucial to NOT go too in depth on this; although many components make Sequelize work, much of it is boilerplate that doesn't need detailed explanation.
 
 This is tough stuff! Tell students not to feel discouraged if they struggle to fully comprehend some concepts. Encourage them to try their best but to speak with you or a TA if they're unsure of anything.
-
-**Important**: Students must create a professional README file for every Challenge that they complete. Refer them to this [Professional README Guide](https://github.com/coding-boot-camp/fullstack-online/blob/main/01-Class-Content/01-HTML-Git-CSS/04-Supplemental/professional-readme-guide/README.md) and remind them of its importance.
 
 ## Resources
 
