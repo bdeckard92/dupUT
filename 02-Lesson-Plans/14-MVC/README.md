@@ -69,9 +69,11 @@ Throughout the async module this week, students will use MVC to do the following
 
 * Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
-* Instead of setting up a MySQL database for this week's activities, students will be given dummy data.
+* This unit introduces students to the template engine **Handlebars.js**. Students might not use Handlebars.js in their careers, but learning this tool will help introduce them to template engines, prepare them to work with React.js, and demonstrate the MVC framework.
 
-* Although we just finished learning Sequelize, these activities only use Express.js so that students can focus on Handlebars.js and `express-session`.
+* The first Virtual Class's activities include hardcoded data in the `dish-routes.js` file to ease the students into using Handlebars. The next class will actually use Sequelize and MySQL to handle data logic on the back end. Be sure to have your MySQL server up and running and modify the `.env.EXAMPLE` file to include your MySQL user and password information before demonstrating each activity.
+
+* The `04-Sessions` activity is aimed at providing an **introduction** to sessions as students may encounter them in the workplace. Aim to keep your explanations simple to fit in the alloted timeframe and remind students that on the job when they encounter similar, challenging codebases they will often have to refer to the documentation and do more research on their own.
 
 ### Common Pain Points
 
@@ -127,6 +129,8 @@ Specific skills students will need to implement in order to be successful:
 * [Handlebars.js documentation on partials](https://handlebarsjs.com/guide/partials.html#basic-partials)
 
 * [npm documentation on express-session](https://www.npmjs.com/package/express-session)
+
+* [Express.js documentation on using middleware](https://expressjs.com/en/guide/using-middleware.html)
 
 ## Algorithms
 
