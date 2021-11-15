@@ -12,6 +12,7 @@ Additionally, you'll announce the upcoming group project and assign the groups d
 | --- | ------------------- | ---------------- |
 | 1   | Rendering Content   | 14.1             |
 | 1   | Helper Methods      | 14.1             |
+| 1   | Git Guide           | N/A              |
 | 2   | Partials            | 14.3, 14.4       |
 | 2   | `express-session`   | 14.5             |
 | 2   | Middleware for Authentication | 14.5 |
@@ -62,7 +63,7 @@ Throughout the async module this week, students will use MVC to do the following
 
 * Information about the upcoming group project must be distributed during this week's second virtual class!
 
-  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.  
+  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.
 
   * Review the [project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md).
 
@@ -129,11 +130,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-double-triple-map](../../01-Class-Content/14-MVC/03-Algorithms/01-double-triple-map)
+* [01-common-element](../../01-Class-Content/14-MVC/03-Algorithms/01-common-element)
 
-* [02-array-intersection](../../01-Class-Content/14-MVC/03-Algorithms/02-array-intersection)
+* [02-permutation-substring](../../01-Class-Content/14-MVC/03-Algorithms/02-permutation-substring)
 
-* [03-squares-of-a-sorted-array](../../01-Class-Content/14-MVC/03-Algorithms/03-squares-of-a-sorted-array)
+* [03-concert-flyer](../../01-Class-Content/14-MVC/03-Algorithms/03-concert-flyer)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
