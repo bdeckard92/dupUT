@@ -1,26 +1,30 @@
-# CSS Variables
+# 🏗️ Implement CSS Variables in Style Sheet
 
-In this activity, you will take a CSS stylesheet and extract the colors into CSS Variables.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a developer, I want to manage CSS values that are used in multiple CSS rules in a more efficient manner.
 
-* Open the [style.css](Unsolved/assets/css/style.css) file in your IDE and examine the code. 
+## Acceptance Criteria
 
-* Create five CSS variables at the root of the document, extracting the appropriate color hex codes from the CSS provided. The five variables should be named:
+* It is done when any repeated color values are defined once as a CSS variable.
 
-  * light
+* It is done when any repeated border radius values are defined once as a CSS variable.
 
-  * light-blue
+---
 
-  * sapphire
+## 💡 Hints
 
-  * dark-blue
+* How can we declare CSS variables, also known as CSS custom properties, on the `:root` pseudo-class?
 
-  * dark
+* How can we use those custom property values instead of using values that are repeated throughout the style sheet, such as `#fff`?
 
-* Open [index.html](Unsolved/index.html) in your browser to see which colors corresponds with each CSS variable.
+## 🏆 Bonus
 
-* Replace the corresponding occurrences of the color hex codes with the new CSS variables.
+If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
+
+* What does the term DRY mean in web development?
+
+Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

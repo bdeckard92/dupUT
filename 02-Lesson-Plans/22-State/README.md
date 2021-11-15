@@ -65,6 +65,8 @@ Throughout the async module this week, students will use state management to do 
 
 * Be sure to review the activities before class.
 
+* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
+
 * Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
 * Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
@@ -94,11 +96,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
