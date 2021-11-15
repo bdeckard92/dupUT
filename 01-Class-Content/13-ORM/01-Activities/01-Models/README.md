@@ -18,7 +18,7 @@ The table name is `books`, and the primary key is `id`.
 
 1. Run `npm start` from the command line to start the server and sync the database.
 
-2. Run `mysql -u root -p` to log into the MySQL shell.
+2. Run `mysql -u root -p` to log in to the MySQL shell.
 
 3. In the MySQL shell, run `USE library_db;` to switch to the library database.
 
