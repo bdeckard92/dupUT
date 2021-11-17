@@ -1,32 +1,36 @@
-# Module 08 Instructor Overview: Project 1 (Continued)
+# Module 08 Instructor Overview: Project 1
 
 ## Overview
 
-In this week's virtual classes, students will continue working on their projects, deploy their projects, and present their projects as groups to their classmates. 
+In this module, students will continue to work on their projects and then will present them to the class. They'll also update their professional materials, including their portfolio, GitHub profile, resume, and LinkedIn profile.
 
 ## Virtual Classes
 
-[Virtual Class 08.2](./08.2-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
+
+* [08.1 Virtual Class](./08.1-REQUIRED.md)
+
+* [08.2 Virtual Class](./08.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* There is no lesson plan for the first virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
+* Early in the week, share the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students so they have ample time to prepare for their presentations.
 
-* Share the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) with students early in the week to give them ample time to prepare for their presentations.
+* Students must have a deployed project by presentation day, so encourage students to deploy their projects by the class before presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
 
-* Prepare a slide deck of superlative awards to give to each group. Use [this example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing), and feel free to customize it as you see fit for your cohort.
+* Prepare a slide deck of superlative awards to give to each group. Use this [example of a superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing), and feel free to customize it for your cohort.
 
-* Divide this week's second virtual class time by the number of groups presenting to give each group sufficient time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
+* Divide this week's second virtual class time by the number of groups presenting in order to give each group enough time to discuss their projects. Be sure to leave time for you and the TAs to present superlatives at the end of class.
 
 * Be prepared to demonstrate the [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge) at the end of the second virtual class, after presentations.
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+Remind students that this module's Career Connection consists of updating their portfolio with this project as well as updating their GitHub profile, resume, and LinkedIn profile.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
@@ -34,27 +38,19 @@ N/A
 
 ## Heads-Up
 
-* Next week, students will begin learning Node.js. Be prepared to demonstrate the [Module 09 Challenge](../../01-Class-Content/09-NodeJS/02-Challenge). You may want to use this week to check and troubleshoot installations.
+* In the next module, students will begin learning Node.js. Remind them to install Node.js before coming to the first class of the module! Direct students to the [Node.js installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 ## Resources
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+The following resources can help you prepare for this week:
 
-* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) 
+* [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Example of free APIs that don't require CORS](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for students to use in their project
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing)
 
-* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+* [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
-## Algorithms
-
-* [01-reverse-no-built-in](../../01-Class-Content/08-Project-1/03-Algorithms/01-reverse-no-built-in)
-
-* [02-reverse-in-place](../../01-Class-Content/08-Project-1/03-Algorithms/02-reverse-in-place)
-
-* [03-look-say-sequence](../../01-Class-Content/08-Project-1/03-Algorithms/03-look-say-sequence)
-
-* [04-is-numeric](../../01-Class-Content/08-Project-1/03-Algorithms/04-is-numeric)
+* [Project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
