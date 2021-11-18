@@ -22,7 +22,7 @@ In this activity, you will create notes as a subdocument array for notebooks.
 
 * To test it out, run `npm start` in your command line to start the server.
 
-* Open Insomnia Core and make a POST request to `/api/notebooks` with data for a new notebook in JSON format.
+* Open Insomnia and make a POST request to `/api/notebooks` with data for a new notebook in JSON format.
 
   * Using the `_id` of the notebook, make a POST request to `/api/notebooks/:notebookId/notes` with data for a new note in JSON format.
 
