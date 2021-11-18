@@ -14,7 +14,7 @@ Work with a partner to add comments describing the functionality of the code fou
 
 Refer to the documentation:
 
-[Sequelize Documentation on Associations](https://sequelize.org/master/manual/assocs.html)
+[Sequelize documentation on associations](https://sequelize.org/master/manual/assocs.html)
 
 ---
 

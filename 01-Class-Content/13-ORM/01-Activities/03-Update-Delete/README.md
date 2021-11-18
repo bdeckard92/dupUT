@@ -20,7 +20,7 @@ Which option do you need to use on the method call?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What SQL operators does Sequelize support?
+* Which SQL operators does Sequelize support?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

@@ -8,9 +8,9 @@ Open [Unsolved/array-intersection.js](Unsolved/array-intersection.js) in your co
 
 * In this file you will be writing code in the body of the `arrayIntersection` function to achieve the following:
 
-  * Return a new array containing the intersection of both passed-in arrays.
+  * Return a new array that contains the intersection of both passed-in arrays.
 
-  * See the following array for an example:
+  * Refer to the following array for an example:
 
     ```js
     var arr1 = [1, 2, 3, 4];
@@ -23,7 +23,7 @@ Open [Unsolved/array-intersection.js](Unsolved/array-intersection.js) in your co
     [3, 4];
     ```
 
-  * See the following array for another example:
+  * Refer to the following array for another example:
 
     ```js
     var arr1 = [8, 88, 8, 90, 91, 8];
@@ -38,7 +38,7 @@ Open [Unsolved/array-intersection.js](Unsolved/array-intersection.js) in your co
 
   > **Important:** You don't need to worry about the order of the elements in the returned array.
 
-* You can check to see if your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
+* You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
   * Functions that PASS the tests will be denoted with a green check mark.
 
