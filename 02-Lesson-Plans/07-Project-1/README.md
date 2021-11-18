@@ -22,6 +22,8 @@ Here are the lesson plans for this week's virtual classes:
 
   * Working collaboratively is an important skill to acquire as a developer.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 * The Instructor Demo activities on the first day ask you to create a project repository. You can create one on-the-fly or you may want to create one in advance.
 
 * Be sure to spend plenty of time making sure that students follow best practices while collaborating with Git.
