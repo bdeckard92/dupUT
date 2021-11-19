@@ -13,8 +13,8 @@ const config = {
     tickets: './assets/js/tickets.js'
   },
   output: {
-    filename: '[name].bundle.js',
-    path: __dirname + '/dist'
+    path: path.join(__dirname + "/dist"),
+    filename: "main.bundle.js"
   },
   module: {
     rules: [
