@@ -62,7 +62,7 @@ Throughout the async module this week, students will use MVC to do the following
 
 * Information about the upcoming group project must be distributed during this week's second virtual class!
 
-  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.  
+  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.
 
   * Review the [project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md).
 
@@ -114,6 +114,8 @@ Specific skills students will need to implement in order to be successful:
 ## Heads-Up
 
 * Next week, students will start working on their group projects. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
 ## Resources
 

@@ -122,6 +122,8 @@ Specific skills students will need to implement in order to be successful:
 
 * Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 ## Resources
 
 * [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
