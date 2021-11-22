@@ -10,7 +10,7 @@ Work with a partner to implement the following user story:
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
 [Handlebars.js documentation on built-in helpers](https://handlebarsjs.com/guide/builtin-helpers.html#if)
 
@@ -22,7 +22,7 @@ Which built-in helper conditionally renders a block?
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* Which built-in helper method is the inverse of `#if`? What is a use case for rendering a block if an expression is a falsy value? 
+* Which built-in helper method is the inverse of `#if`? What is a use case for rendering a block if an expression is a falsy value?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

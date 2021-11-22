@@ -2,7 +2,7 @@
 
 Work with a partner to implement the following user story:
 
-* As a party guest, I want to see a description of one food item that will be at the potluck when I visit `http://localhost:3001/dish/:num`.
+* As a party guest, I want to find a description of one food item that will be at the potluck when I visit `http://localhost:3001/dish/:num`.
 
 ## Acceptance Criteria
 
@@ -14,7 +14,7 @@ Work with a partner to implement the following user story:
 
 The following image demonstrates the web application's appearance and functionality:
 
-![A webpage with the header "Potluck Party!" displays the name and description for a Pork Gyoza dish.](images/dish-description.png)
+![A screenshot displays a "Potluck Party!" webpage, including the name and description for a pork gyoza dish.](images/dish-description.png)
 
 ---
 
