@@ -14,17 +14,17 @@ Implement the following user story:
 
 ## 📝 Notes
 
-For this activity, feel free to choose the name of each table and column as well as the assigned data type. 
+For this activity, feel free to choose the name of each table and column as well as the assigned data type.
 
-Refer to the documentation: 
+Refer to the documentation:
 
-[MySQL documentation on creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html).
+[MySQL documentation on creating a table](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html)
 
 [MySQL documentation on data types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 ## 💡 Hints
 
-Which MySQL command do we use to display a table and information about each column's data types? 
+Which MySQL command do we use to display a table and information about each column's data types?
 
 ## 🏆 Bonus
 

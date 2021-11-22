@@ -75,7 +75,7 @@ Here are the lesson plans for this week's virtual classes:
 
 * The `02-Create-Read` and `03-Update-Delete` activities include a `/seed` POST route simply to make it easier to quickly populate the database with books. For the other activities, don't forget to run `node seeds/seed.js` before each demo or activity review, to seed the database. Remind students of the seed file too.
 
-* Instead of relying on a front end, all of the activities will use Insomnia Core to test the routes. Be sure to have it installed and set up for class.
+* Instead of relying on a front end, all of the activities will use Insomnia to test the routes. Be sure to have it installed and set up for class.
 
 * It is crucial that you do NOT go too in depth. Although many components make Sequelize work, much of it is boilerplate that doesn't need detailed explanation.
 
