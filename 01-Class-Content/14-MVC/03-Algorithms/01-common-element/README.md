@@ -6,11 +6,11 @@ In this activity you will be writing code to create a function that takes in two
 
 * Open [Unsolved/common-element.js](Unsolved/common-element.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `commonElement` function to achieve the following:
+  * In this file you will be writing code in the body of the `commonElement` function, to achieve the following:
 
     * Return the number in common between the two given arrays.
 
-    * See the following arrays for an example:
+    * Refer to the following arrays for an example:
 
       ```js
       // The number 1 is present in both arrays

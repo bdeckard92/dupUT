@@ -4,25 +4,25 @@ Work with a partner to add comments describing the functionality of the code fou
 
 ## 📝 Notes
 
-Refer to the documentation: express-session [documentation](http://expressjs.com/en/advanced/best-practice-security.html#use-cookies-securely)
+Refer to the documentation:
+  
+[Express.js documentation on express-session](http://expressjs.com/en/advanced/best-practice-security.html#use-cookies-securely)
 
-* Visitors are able to view gallary's paintings after they login.
+Note the following:
 
-* Visitors are able to maintain a session between visits to the site.
+* Visitors can view gallery's paintings after they login.
+
+* Visitors can maintain a session between visits to the site.
 
 * To test the routes, feel free to either create your own user or use the following credentials:
 
-  * `username`: "Sam"
-  
-  * `email`: "sam@email.com"
-  
-  * `password`: "password1234"
+  * Username: "Sam"
 
-* If the session variables are set up when the user is created or logged in, which file would hold that info?
+  * Email: "sam@email.com"
 
-* How can the templates know if the user is logged in or not?
+  * Password: "password1234"
 
-* What built-in helper method will help us render specific content depending on whether the user is logged in or not?
+If the session variables are set up when the user is created or logged in, which file would hold that info? How can the templates know whether the user is logged in or not? What built-in helper method will help us render specific content depending on whether the user is logged in or not?
 
 ---
 

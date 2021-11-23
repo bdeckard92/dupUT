@@ -6,13 +6,13 @@ In this activity you will be writing code to create a function that takes in two
 
 * Open [Unsolved/permutation-substring.js](Unsolved/permutation-substring.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `permuationSubstring` function to achieve the following:
+  * In this file you will be writing code in the body of the `permuationSubstring` function, to achieve the following:
 
     * Return true if the second string (`sub`) is a substring of any permutation (combination of characters in) the first string. Otherwise return false.
 
     * In other words, if all of the characters and their quantities in the second string exist in the first string, return true, else return false.
 
-    * See the following strings for an example:
+    * Refer to the following strings for an example:
 
       ```js
       var str = "smapnuer";
