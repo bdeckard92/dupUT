@@ -1,16 +1,16 @@
 # Concert Flyer
 
-In this activity you will be writing code to create a function that takes in two strings: a concert flyer and a magazine. You will be checking if the words in the concert flyer could have been clipped from the magazine, e.g. if every instance of each word in the second string is found in the first string, return `true`, else return `false`.
+In this activity you will be writing code to create a function that takes in two strings: a concert flyer and a magazine. You will be checking whether the words in the concert flyer could have been clipped from the magazine (for example, if every instance of each word in the second string is found in the first string, return `true`; else, return `false`).
 
 ## Instructions
 
 * Open [Unsolved/concert-flyer.js](Unsolved/concert-flyer.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `concertFlyer` function to achieve the following:
+  * In this file you will be writing code in the body of the `concertFlyer` function, to achieve the following:
 
     * If every instance of each word in the second string is found in the first string, return `true`, else return `false`.
 
-    * See the following strings for an example:
+    * Refer to the following strings for an example:
 
       ```js
       var magazine = 'hello world';
@@ -23,7 +23,7 @@ In this activity you will be writing code to create a function that takes in two
       true;
       ```
 
-    * For another example, see the following strings:
+    * For another example, refer to the following strings:
 
       ```js
       var magazine = 'Whats so amazing that keeps us stargazing';
@@ -43,7 +43,6 @@ In this activity you will be writing code to create a function that takes in two
   * Functions that pass the tests will be denoted with a green check mark.
 
   * Functions that fail the tests will be denoted with a red X and an error message.
-
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

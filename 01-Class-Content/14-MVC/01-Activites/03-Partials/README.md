@@ -16,9 +16,9 @@ Work with a partner to implement the following user story:
 
 ## Assets
 
-The following image demonstrates how the painting's details should be rendered on the page:
+The following image shows how the painting's details should be rendered on the page:
 
-![On a museum webpage, one card displays a photo of a sandy beach with the title and artist name underneath it.](./Images/01-painting-details.jpg)
+![A screenshot of a museum webpage displays a piece of art along with the title and artist name underneath it.](./Images/01-painting-details.jpg)
 
 ---
 

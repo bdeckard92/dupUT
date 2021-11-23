@@ -22,7 +22,9 @@ Refer to the documentation:
 
 ## 💡 Hints
 
-How can you keep the current logic being used in the routes to check whether a user is logged in or not and rewrite it as a middleware function? Where can you write the code for the custom middleware so that it is separate but accessible from the routes? (Where did you put the custom helper functions?)
+* How can you keep the current logic being used in the routes to check whether or not a user is logged in? Could this be rewritten as a middleware function?
+
+* Where can you write the code for the custom middleware so that it is separate but accessible from the routes? (Where did you put the custom helper functions?)
 
 ## 🏆 Bonus
 
