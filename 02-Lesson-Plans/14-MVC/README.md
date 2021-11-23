@@ -62,7 +62,7 @@ Throughout the async module this week, students will use MVC to do the following
 
 * Information about the upcoming group project must be distributed during this week's second virtual class!
 
-  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.  
+  * Start thinking about project groups. Assign three students per group, all around the SAME skill level.
 
   * Review the [project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md).
 
@@ -85,11 +85,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
@@ -114,6 +114,8 @@ Specific skills students will need to implement in order to be successful:
 ## Heads-Up
 
 * Next week, students will start working on their group projects. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
+
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
 ## Resources
 

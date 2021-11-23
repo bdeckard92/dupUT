@@ -5,9 +5,19 @@ function Thermostat() {
   // Set the starting temperature
   const [temp, setTemp] = useState(0);
 
-  // Use the `useEffect` Hook to set the `document.title` to the current temperature
+  // TODO: Use the `useEffect` Hook to set the `document.title` to the current temperature
   // YOUR CODE HERE
   //
+
+  // Handler for increasing the temp by 1
+  const increaseTemp = () => {
+    setTemp(temp + 1);
+  };
+
+  // Handler for decreasing the temp by 1
+  const decreaseTemp = () => {
+    setTemp(temp - 1);
+  };
 
   return (
     <div className="card text-center">
@@ -18,10 +28,18 @@ function Thermostat() {
         <p className="card-text">
           Current temperature: {temp} degrees Fahrenheit
         </p>
-        <button className="btn btn-danger" onClick={() => setTemp(temp + 1)}>
+        <button
+          type="button"
+          className="btn btn-danger"
+          onClick={increaseTemp}
+        >
           Raise temperature
         </button>{' '}
-        <button className="btn btn-primary" onClick={() => setTemp(temp - 1)}>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={decreaseTemp}
+        >
           Lower temperature
         </button>
       </div>

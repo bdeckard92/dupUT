@@ -2,21 +2,24 @@
 
 ## Overview
 
-In this week's module, students will learn about **object-relational mapping (ORM)**, a technique that allows developers to convert data between incompatible type systems using object-oriented programming principles.
+In this module, students learn about **object-relational mapping (ORM)**, a technique that allows developers to convert data between incompatible type systems using object-oriented programming principles.
 
-In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, associations, and eager loading.
+In this week's virtual classes, you'll review Sequelize query methods, CRUD methods, and associations.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day | Topic                        | Location   |
 | --- | ---------------------------- | ---------- |
-| 1   | Sequelize Query Methods      | 13.1       |
-| 1   | Sequelize CRUD Methods       | 13.1       |
-| 2   | Validation and Constraints   | 13.1       |
-| 2   | Sequelize Associations       | 13.3       |
-| 2   | Sequelize include Property | 13.4, 13.5 |
+| 1   | Sequelize Models             | 13.1       |
+| 1   | Create/Read Methods          | 13.1       |
+| 1   | Git Guide                    | N/A        |
+| 2   | Update/Delete Methods        | 13.1       |
+| 2   | One-to-One Associations      | 13.3       |
+| 2   | Many-to-Many Associations    | 13.4, 13.5 |
 
 ## Overview of Asynchronous Material
 
-Why are students learning object-relational mapping?
+This week in the asynchronous content, students are introduced to object-relational mapping. These skills are important for the following reasons:
 
 * ORM allows us to interact with databases using a preferred language.
 
@@ -24,7 +27,7 @@ Why are students learning object-relational mapping?
 
 * ORM allows students to interface with different kinds of databases using a single interface.
 
-* It enables us to write lots of complex CRUD operations that would otherwise be tedious with plain SQL.
+* It enables us to write lots of complex CRUD operations that would be tedious using plain SQL.
 
 * ORM allows students to work with data in plain JavaScript objects.
 
@@ -44,27 +47,35 @@ Throughout the async module this week, students will use ORM to do the following
 
 * Use the `bcrypt` package to hash password information and use environment variables to protect sensitive data.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson | Description                                   | Key Points |
 | ------ | --- | --- |
-| 1      | Set Up a User Model                           | Sequelize setup, environment variables, creating models, CRUD API routes                           |
-| 2      | Create the Login Route                        | Hashing passwords, Sequelize hooks, `async/await`, user authentication                            |
-| 3      | Create a POST Model                           | Model associations, `include` statements, creating API endpoints for CRUD                           |
-| 4      | Implement a Voting System                     | Creating models, many-to-many relationships, POST routes, refactoring                             |
-| 5      | Create the Comment Model and Deploy to Heroku | Double `belongsTo` associations, `hasMany` associations, creating route handlers, Heroku deployment |
+| 1      | Set up a user model                           | Sequelize setup, environment variables, creating models, CRUD API routes                           |
+| 2      | Create the login route                        | Hashing passwords, Sequelize hooks, `async/await`, user authentication                            |
+| 3      | Create a POST model                           | Model associations, `include` statements, creating API endpoints for CRUD                           |
+| 4      | Implement a voting system                     | Creating models, many-to-many relationships, POST routes, refactoring                             |
+| 5      | Create the comment model and deploy to Heroku | Double `belongsTo` associations, `hasMany` associations, creating route handlers, Heroku deployment |
 
 ## Virtual Classes
 
-* [Virtual Class 13.1](./13.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 13.2](./13.2-REQUIRED.md)
+* [13.1 Virtual Class](./13.1-REQUIRED.md)
+
+* [13.2 Virtual Class](./13.2-REQUIRED.md)
 
 ## Instructor Notes
 
 * Be sure to review the activities before class. Try to anticipate any questions that students might have.
 
-* Also before class, create the databases required for the activities (if you don't want to do it live in class).
+* You will use MySQL in all of the activities for this module, so be sure to have your MySQL server up and running. You can create the databases listed in each activity ahead of time, or you can prepare to demonstrate it live in class.
+
+* The `02-Create-Read` and `03-Update-Delete` activities include a `/seed` POST route simply to make it easier to quickly populate the database with books. For the other activities, don't forget to run `node seeds/seed.js` before each demo or activity review, to seed the database. Remind students of the seed file too.
+
+* Instead of relying on a front end, all of the activities will use Insomnia to test the routes. Be sure to have it installed and set up for class.
 
 * It is crucial that you do NOT go too in depth. Although many components make Sequelize work, much of it is boilerplate that doesn't need detailed explanation.
 
@@ -78,26 +89,24 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                   | Recommendation |
 | --- | --- |
-| Navigating technical documentation | Encourage students to leverage external resources like Stack Overflow or Google for information regarding Sequelize                     |
-| Connecting to databases      | Refer students to the [Sequelize documentation on connecting to a database](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database) |
-| Understanding associations   | Refer students to the [Sequelize documentation on associations](https://sequelize.org/master/manual/assocs.html)                                 |
-| Data types with models       | Refer students to the [Sequelize documentation on model basics](https://sequelize.org/master/manual/model-basics.html)                           |
+| Navigating technical documentation | Encourage students to leverage external resources like Stack Overflow or Google for information regarding Sequelize.                     |
+| Connecting to databases      | Refer students to the [Sequelize documentation on connecting to a database](https://sequelize.org/master/manual/getting-started.html#connecting-to-a-database). |
+| Understanding associations   | Refer students to the [Sequelize documentation on associations](https://sequelize.org/master/manual/assocs.html).                                 |
+| Data types with models       | Refer students to the [Sequelize documentation on model basics](https://sequelize.org/master/manual/model-basics.html).                           |
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information about career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
-In this Challenge, students will build the back end for an e-commerce site, starting with a working Express.js API. They will also configure the application to use Sequelize to interact with a MySQL database.
+For the [Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge/README.md), students will build the back end for an e-commerce site, starting with a working Express.js API. They will also configure the application to use Sequelize to interact with a MySQL database.
 
-[Module 13 Challenge](../../01-Class-Content/13-ORM/02-Challenge/README.md)
-
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Initialize environment variables.
 
@@ -115,29 +124,33 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week you'll divide students into groups for their second project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include students all at the same skill level.
+Next week, students will combine everything they've learned so far to create their first full-stack application&mdash;with Handlebars.js, MVC architecture, and front-end authentication.
 
-* Next week you'll review the template engine Handlebars.js, as well as authentication.
+At the end of next week, you'll divide students into groups for their second group project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include students all at the same skill level.
 
 ## Resources
 
-* [Sequelize documentation on querying](https://sequelize.org/v5/manual/querying.html)
+The following resources can help you prepare for this week's classes:
 
-* [Sequelize documentation on models](https://sequelize.org/v5/class/lib/model.js~Model.html)
+* [Sequelize documentation on model basics](https://sequelize.org/master/manual/model-basics.html)
 
-* [Sequelize documentation on validations & constraints](https://sequelize.org/master/manual/validations-and-constraints.html)
+* [Sequelize documentation on model querying basics](https://sequelize.org/master/manual/model-querying-basics.html)
 
-* [Sequelize documentation on associations](https://sequelize.org/v5/manual/associations.html)
+* [Sequelize documentation on associations](https://sequelize.org/master/manual/assocs.html)
 
-* [Sequelize documentation on eager loading](https://sequelize.org/master/manual/eager-loading.html)
+* [Sequelize documentation on one-to-one relationships](https://sequelize.org/master/manual/assocs.html#one-to-one-relationships)
+
+* [Sequelize documentation on one-to-many relationships](https://sequelize.org/master/manual/assocs.html#one-to-many-relationships)
 
 ## Algorithms
 
-* [01-common-element](../../01-Class-Content/13-ORM/03-Algorithms/01-common-element)
+Here are the algorithms for this week:
 
-* [02-permutation-substring](../../01-Class-Content/13-ORM/03-Algorithms/02-permutation-substring)
+* [01-double-triple-map](../../01-Class-Content/13-ORM/03-Algorithms/01-double-triple-map)
 
-* [03-string-map](../../01-Class-Content/13-ORM/03-Algorithms/03-string-map)
+* [02-array-intersection](../../01-Class-Content/13-ORM/03-Algorithms/02-array-intersection)
+
+* [03-squares-of-a-sorted-array](../../01-Class-Content/13-ORM/03-Algorithms/03-squares-of-a-sorted-array)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
