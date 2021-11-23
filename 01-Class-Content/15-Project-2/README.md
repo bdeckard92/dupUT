@@ -1,4 +1,4 @@
-# Unit 15: Project 2
+# Module 15: Project 2
 
 ## Overview
 
@@ -6,7 +6,7 @@ Welcome to Project 2! This is yet another important milestone in your full-stack
 
 ## Key Topics
 
-The following topics will be covered in this unit:
+The following topics will be covered in this module:
 
 * Full-stack applications
 
@@ -34,17 +34,17 @@ You will be employer-ready if you are able to:
 
 ## Resources
 
-Here are some additional resources to help solidify the topics covered in this unit.
+This section contains some additional resources to help you understand the topics covered in this module.
 
 ### Full-Stack Blog Posts
 
-Check out the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, like walkthroughs, articles, and installation guides.
+Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
   * 📖 [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ### General
 
-Refer to these resources for additional information about topics covered in this unit.
+Refer to the following general resources for more information about topics covered in this module:
 
   * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 
