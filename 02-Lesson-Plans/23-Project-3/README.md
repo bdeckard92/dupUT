@@ -12,6 +12,8 @@ In this week's virtual classes, you will provide support for the students as the
 
 * There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 * Students can refer to Module 21 Lesson 6 on how to connect a GitHub repository to Heroku for automatic deployment.
 
 ## Career Connection
