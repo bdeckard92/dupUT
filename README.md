@@ -16,7 +16,7 @@ Please see the [FullStack-Online Wiki](https://github.com/coding-boot-camp/fulls
 
 For information about onboarding and training, please consult your Onboarding course in Canvas. If you don't have access or a Canvas account, please email support@bootcampspot.com and provide your name and university.
 
-In case of emergency, message the Full-Stack Online Program Support Manager, Xander Rapstine, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
+In case of emergency, message the Full-Stack Online Program Support Manager, Courtney Mathena, in [#05-coding-online](https://trilogyed-instruction.slack.com/archives/CTDADCHD2).
 
 ## How to Use This Repository
 
