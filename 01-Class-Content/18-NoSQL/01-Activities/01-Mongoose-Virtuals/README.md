@@ -12,11 +12,11 @@ In this activity, you will use Mongoose virtuals to add a property to a user tha
 
 * To test it out, run `npm start` in your command line to start the server.
 
-* Open Insomnia Core and make a POST request to `/submit` with data for a new user in JSON format.
+* Open Insomnia and make a POST request to `/submit` with data for a new user in JSON format.
 
   * You should see the response in JSON that includes a `username` virtual property.
 
-  * If you make a few more users and then make a GET request to `/users` in Insomnia Core, you should see all of the users in the database with `username` as a virtual property.
+  * If you make a few more users and then make a GET request to `/users` in Insomnia, you should see all of the users in the database with `username` as a virtual property.
 
 ## Hint(s)
 

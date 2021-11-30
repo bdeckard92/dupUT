@@ -122,6 +122,8 @@ Students must know how to implement the following skills in order to succeed in 
 
 Next week, students will start working on their group projects. Before this weekend, students must be assigned into groups and be talking about project ideas within their groups.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 ## Resources
 
 The following resources can help you prepare for this week's classes:
