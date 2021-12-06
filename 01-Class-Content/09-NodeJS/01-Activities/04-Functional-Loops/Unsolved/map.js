@@ -1,22 +1,23 @@
-const originalArray = [1, 7, 4, 5, 10];
+const originalArray = [1, 3, 2, 5, 10];
 
+// doubledArray is equal to a new array of numbers multiplied by 2 and returned by map(). map() will use an anonymous function as a condition.
 const doubledArray = originalArray.map(function(data) {
+  // The anonymous function returns each number multiplied by 2. The returned result is added to a new array.
   return data * 2;
 });
 
 console.log(originalArray);
+
 console.log(doubledArray);
 
-// 1. A map that triples the `originalArray` and sets the result equal to a new array `tripledArray`
-//
-// YOUR CODE HERE
-//
-console.log(tripledArray);
+// TODO: Describe how map is working in the example below. What will the value of tripledArray be?
+const tripledArray = originalArray.map(data => data * 3);
 
-// 2. A map that takes the `originalArray` and returns a new array `oddOrEven` containing the text "even" if the number is even and the text "odd" if the number is odd
-//
-// YOUR CODE HERE
-//
-console.log(oddOrEven);
-
-// Bonus: Use arrow functions as callbacks!
+// TODO: Describe how map is working in the example below. What will the value of oddOrEven be?
+const oddOrEven = originalArray.map(num => {
+  if (num % 2 === 0) {
+    return 'even';
+  } else {
+    return 'odd';
+  }
+});

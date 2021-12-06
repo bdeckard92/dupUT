@@ -15,7 +15,7 @@ In this week's virtual classes, you'll cover PWAs, primarily focusing on Webpack
 | 2    | Caching Fetching Files     | 19.4       |
 | 2    | Service Workers, Manifest  | 19.4, 19.5 |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning progressive web applications (PWAs)?
 
@@ -54,7 +54,7 @@ Throughout the async module this week, students will use PWAs to do the followin
 | 1                | Auditing Application Performance   | Google Lighthouse, minifying files, lazy-loading files                                |
 | 2                | Introduction to Webpack            | Bundle JavaScript files, modify the `webpack.config` file, Webpack dependency graphs  |
 | 3                | Optimizing JavaScript              | Add reporting tools with plugin, split code for lazy loading, compress images         |
-| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      | 
+| 4                | Using Service Workers              | Register and activate a service worker, intercept fetch requests                      |
 | 5                | Convert the App Into a PWA         | Dynamically create and use a `manifest.json` file                                     |
 
 ## Virtual Classes
@@ -68,6 +68,10 @@ Throughout the async module this week, students will use PWAs to do the followin
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
 * Progressive web apps aim to blend the benefits of a traditional browser experience with those of a mobile application. For an overview of the PWA design pattern, refer to the [MDN Web Docs on progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+* The async content uses an older version of Bootstrap. If students are having issues with the module project, please make sure that they have installed Bootstrap 4.3.1 using the following command: `npm install Bootstrap@4.3.1 -- save`. Students should also install Popper 1.16.0 using `npm install popper@1.16.0 -- save`. 
+
+* If students receive an error when trying to run the module project solution code, instruct them to use the command `npm install --save --legacy-peer-deps`. 
 
 * Warn students that we won't be able to teach them every aspect of progressive web applications in the amount of time allotted. Instead, help students understand PWAs as a valuable design pattern that emphasizes measuring and optimizing the performance of web applications, and encourage students to further explore these concepts when they develop apps on their own.
 
@@ -83,11 +87,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 

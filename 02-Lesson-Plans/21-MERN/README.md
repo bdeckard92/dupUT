@@ -14,23 +14,23 @@ In this week's virtual classes, you'll cover GraphQL, including using the Apollo
 | 2    | GraphQL Client     | 21.3       |
 | 2    | `useEffect` Hook   | Challenge  |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning MERN?
 
-* Full-stack developers are in demand for their skill set and versatility. 
+* Full-stack developers are in demand for their skill set and versatility.
 
 * MERN is a full JavaScript tech stack ideal for developing dynamic and interactive websites.
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
-* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN. 
+* The fundamental skills learned with MERN are easily transferable to other popular stacks, including MEAN.
 
 * GraphQL is an up-and-coming technology that solves one of the fundamental problems of REST, which is the overfetching and underfetching of data at scale.
 
-* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties. 
+* JSON Web Tokens provide a user-friendly introduction to validation, data security, and securely transmitting information between parties.
 
-* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps. 
+* React Router is a user-friendly routing library for React that allows students to implement simple, component-based declarative routing for their single-page apps.
 
 Throughout the async module this week, students will use MERN to do the following:
 
@@ -67,11 +67,15 @@ Throughout the async module this week, students will use MERN to do the followin
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
-* Be sure to review the activities before class. Try to anticipate any questions that students might have. 
+* Be sure to review the activities before class. Try to anticipate any questions that students might have.
+
+* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
 * For a refresher on how to use the GraphQL Playground, refer to the [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
 * The `useEffect` Hook wasn't covered in the async material; however, it's used in the Challenge. Use the class time to explain the activity and help students understand it so that they can succeed in the Challenge.
+
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Challenge, students must MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class. Alternately, students can complete the Challenge using the latest version of Apollo Server. Please refer them to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
 
 ### Common Pain Points
 
@@ -86,11 +90,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
