@@ -71,7 +71,6 @@ Throughout the async module this week, students will use Computer Science to do 
 
 * You will spend some time in this week's second virtual class covering how to create a GitHub gist. Before class, review the [Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge) and the [GitHub Docs on creating gists](https://help.github.com/en/github/writing-on-github/creating-gists).
 
-
 ### Common Pain Points
 
 According to our class data, students might experience some of the following pain points throughout the week:
@@ -108,7 +107,9 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will learn about NoSQL databases, specifically MongoDB. They'll use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both MongoDB and Mongoose before the next class. Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
+* Next week, students will learn about NoSQL databases, specifically MongoDB. They'll use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both MongoDB and Mongoose before the next class.
+
+* Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the [Set Up MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and [Deploy with Heroku and MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on the Full-Stack Blog at the end of this week's second virtual class.
 
 ## Resources
 
