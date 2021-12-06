@@ -10,6 +10,7 @@ In this week's virtual classes, you'll go over closures, callback queues, recurs
 | ---  | ---                    | ---          |
 | 1    | Closures               | 17.2         |
 | 1    | Callbacks and Queues   | 17.1         |
+| 1    | Git Guide              | N/A          |
 | 2    | Recursion              | 17.5         |
 | 2    | Binary Search          | 17.3         |
 | 2    | Regex                  | Challenge    |
@@ -62,7 +63,7 @@ Throughout the async module this week, students will use Computer Science to do 
 
 ## Instructor Notes
 
-* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews. 
+* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews.
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
@@ -121,11 +122,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-valid-brackets](../../01-Class-Content/17-CS/03-Algorithms/01-valid-brackets)
+* [01: Reverse Words](../../01-Class-Content/17-CS/03-Algorithms/01-reverse-no-built-in)
 
-* [02-min-increment-for-unique](../../01-Class-Content/17-CS/03-Algorithms/02-min-increment-for-unique)
+* [02: Left Rotation](../../01-Class-Content/17-CS/03-Algorithms/02-left-rotation)
 
-* [03-peak-finder](../../01-Class-Content/17-CS/03-Algorithms/03-peak-finder)
+* [03: Reverse in Place](../../01-Class-Content/17-CS/03-Algorithms/03-reverse-in-place)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
