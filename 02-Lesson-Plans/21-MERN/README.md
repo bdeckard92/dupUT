@@ -120,6 +120,8 @@ Specific skills students will need to implement in order to be successful:
 
 * Next week, students will learn about state management using the React Context API. They'll also learn about the Stripe payment platform. For more information, refer to the [React documentation on the Context API](https://reactjs.org/docs/context.html) and the [Stripe Docs](https://stripe.com/docs).
 
+* Module 22 Challenge will be extra credit for cohorts who start Module 17 on or after December 24, 2021. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03.
+
 ## Resources
 
 * [Apollo Docs on schemas](https://www.apollographql.com/docs/apollo-server/schema/schema/)

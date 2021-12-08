@@ -81,7 +81,7 @@ Throughout the async module this week, students will use state management to do 
 
   * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
 
-
+* This module's Challenge will be optional for cohorts who start Module 17 on or after December 24, 2021. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03.
 
 ### Common Pain Points
 
@@ -117,6 +117,8 @@ Specific skills students will need to implement in order to be successful:
 * Refactor components that use the React Context API, to instead use Redux.
 
 * Implement actions and reducers to update state.
+
+> **Important:** Let students know this Challenge is extra credit.
 
 ## Heads-Up
 
