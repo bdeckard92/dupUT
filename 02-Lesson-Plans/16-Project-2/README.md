@@ -38,9 +38,9 @@ N/A
 
 ## Heads-Up
 
-* Next week, students will learn Computer Science fundamentals as they apply to JavaScript. Let the students know that this next module will look very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare them for interviews.
+* Next week, students will learn computer science fundamentals as they apply to JavaScript. Warn the students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare them for interviews.
 
-* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on "Life after Boot Camp".
+* This last phase of the boot camp is more about being employer-ready, improving the skills they have already learned, and making their web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
 ## Resources
 
@@ -52,7 +52,7 @@ The following resources can help you prepare for this week:
 
 * [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
-* [Project Requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+* [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
