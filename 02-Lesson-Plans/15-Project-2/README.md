@@ -14,13 +14,13 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Prepare a list of project group members prior to the first class for this unit. This time, assign three students per group, all around the same skill level. You can add a slide to this unit's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
+* Prepare a list of project group members prior to the first class for this module. This time, assign three students per group, all around the same skill level. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
 
 * There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
 * Be sure to spend plenty of time making sure that students follow best practices while collaborating with Git.
 
-* Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code. Remind them that they already have code they can reuse for authentication from the previous unit.
+* Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code. Remind them that they already have code they can reuse for authentication from the previous module.
 
 ## Career Connection
 
