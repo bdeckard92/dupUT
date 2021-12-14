@@ -4,7 +4,7 @@ In this activity, you will write code to create a function that takes a given st
 
 ## Instructions
 
-1. Open [Unsolved/reverse-no-built-in.js](Unsolved/reverse-no-built-in.js) in your code editor **This is the only file you will modify in this activity.**
+1. Open [Unsolved/reverse-no-built-in.js](Unsolved/reverse-no-built-in.js) in your code editor. **This is the only file you will modify in this activity.**
 
 2. In this file, write code in the body of the `reverse` function that returns a new string that has all of the characters in the given string in reversed order.
 

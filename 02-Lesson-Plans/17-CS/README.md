@@ -4,7 +4,9 @@
 
 In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice describing their problem-solving process using pseudocoding.
 
-In this week's virtual classes, you'll go over closures, callback queues, recursion, and binary searches. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to regex, which is not in the async materials, but is needed for the Challenge.
+In this week's virtual classes, you'll review closures, callback queues, recursion, and binary searches. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to regex, which is not in the async materials, but is needed for the Challenge.
+
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic                  | Location     |
 | ---  | ---                    | ---          |
@@ -17,7 +19,7 @@ In this week's virtual classes, you'll go over closures, callback queues, recurs
 
 ## Overview of Asynchronous Material
 
-Why are students learning computer science?
+This week in the asynchronous content, students are introduced to computer science fundamentals. This knowledge is important for the following reasons:
 
 * Computer science fundamentals like performance measurement, data structures, and algorithms are important for interview success.
 
@@ -31,7 +33,7 @@ Why are students learning computer science?
 
 * Students will gain experience in object-oriented programming (OOP) design philosophy and be able to contrast it with functional programming.
 
-Throughout the async module this week, students will use Computer Science to do the following:
+Throughout the async module this week, students will use their knowledge of computer science fundamentals to do the following:
 
 * Explain and identify the order of common search and sort algorithms.
 
@@ -45,7 +47,9 @@ Throughout the async module this week, students will use Computer Science to do 
 
 * Explain the historical and contemporary importance of performance in computer science.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson           | Description            | Key Points                                                   |
 | ---              | ---                    | ---                                                          |
@@ -57,13 +61,15 @@ Throughout the async module this week, students will use Computer Science to do 
 
 ## Virtual Classes
 
+Here are the lesson plans for this week's virtual classes:
+
 * [Virtual Class 17.1](./17.1-REQUIRED.md)
 
 * [Virtual Class 17.2](./17.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews.
+* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews.
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
@@ -83,19 +89,17 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
-Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
-For this week's Challenge, students will create a technical tutorial that explains regular expression functions. A **regular expression**, or **regex**, is a search pattern used by developers. In the tutorial, students will break down each part of an expression and describe what it does. Writing tutorials is a common task for fledgling developers, and practicing how to think and speak about technologies will prepare students for the interview process.
+For the [Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge), students will create a technical tutorial that explains regular expression functions. A **regular expression**, or **regex**, is a search pattern used by developers. In the tutorial, students will break down each part of an expression and describe what it does. Writing tutorials is a common task for fledgling developers, and practicing how to think and speak about technologies will prepare students for the interview process.
 
-[Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge)
-
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Explain a technical concept in their own words so that a non-technical user can understand it.
 
@@ -113,6 +117,8 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
 * [MDN Web Docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 * [MDN Web Docs on events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
@@ -123,6 +129,8 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
+Here are the algorithms for this week:
+
 * [01: Reverse Words](../../01-Class-Content/17-CS/03-Algorithms/01-reverse-no-built-in)
 
 * [02: Left Rotation](../../01-Class-Content/17-CS/03-Algorithms/02-left-rotation)
@@ -130,4 +138,4 @@ Specific skills students will need to implement in order to be successful:
 * [03: Reverse in Place](../../01-Class-Content/17-CS/03-Algorithms/03-reverse-in-place)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
