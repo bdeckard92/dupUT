@@ -14,7 +14,9 @@ When we run unit tests to test the binary search function, the defined tests do 
 
 ## Steps to Reproduce the Problem
 
-1. In the command line, from the [Unsolved](./Unsolved) directory, run `npm install`.
+To reproduce the problem, follow these steps:
+
+1. In the command line, from the [04-Binary-Search/Unsolved](./Unsolved) directory, run `npm install`.
 
 2. Run `npm run test` to run the unit tests.
 
@@ -30,7 +32,7 @@ How can the unit test descriptions help us determine what the function is or is 
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What is worst possible Big-O complexity that an algorithm can have? What is the best?
+* What is the worst possible Big-O complexity that an algorithm can have? What is the best?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

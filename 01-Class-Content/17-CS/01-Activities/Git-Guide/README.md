@@ -4,11 +4,11 @@
 
 Throughout our work, we've used the command line to perform important tasks. These tasks include actions built into our computers, performing Git commands and interacting with GitHub and Heroku, and running Node.js applications and installing modules using `npm`. Luckily for us, most of the commands that we use on a daily basis serve their purpose well enough. But we still haven't learned exactly _how_ they work. In this activity, we'll get a formal introduction to what's known as the Unix shell environment, and write a few small programs that we can execute from the command line.
 
-The **Unix shell environment** serves as a layer between ourselves and our computers and gives us access to commands that are built into our systems. We actually know this already because we've been using some of these all along; commands such as `touch`, `mkdir`, and `cd` are all Unix shell commands that allow us to communicate with our computers. However, interactivity like this is just one part of the shell environment. We can also use the shell environment to run programs, much like Node.js, in the form of shell scripts.
+The **Unix shell environment** serves as a layer between ourselves and our computers and gives us access to commands that are built into our systems. We actually know this already because we've been using some of these all along. Commands such as `touch`, `mkdir`, and `cd` are all Unix shell commands that allow us to communicate with our computers. 
 
-A Unix shell script has its own syntax, which might feel familiar to commands we've written using JavaScript. While Node.js has many modules that allow us to execute similar commands, shell scripts allow us to write more universal and lightweight functionality to perform and automate tasks that JavaScript may not be as well-suited for. 
+However, interactivity like this is just one part of the shell environment. We can also use the shell environment to run programs, much like Node.js, in the form of shell scripts. A Unix shell script has its own syntax, which might feel familiar to commands we've written using JavaScript. While Node.js has many modules that allow us to execute similar commands, shell scripts allow us to write more universal and lightweight functionality to perform and automate tasks that JavaScript may not be as well-suited for. 
 
-> **Important**: Windows computers and Apple computers running older macOS versions use the **Bash shell environment**. Apple computers with newer versions of macOS use the **Z shell environment** (known as **ZSH**), which is backwards-compatible with Bash. All the commands that we introduce today work in both environments, with only a few differences which we'll address as we go.
+> **Important**: Windows computers and Apple computers that are running older macOS versions use the **Bash shell environment**. Apple computers with newer versions of macOS use the **Z shell environment** (known as **ZSH**), which is backwards-compatible with Bash. All the commands that we introduce today work in both environments, with only a few differences which we'll address as we go.
 
 ## Build a Simple Shell Script
 
@@ -26,7 +26,7 @@ Once that file is created, open it in VS Code and add the following line to the 
 #!/bin/bash
 ```
 
-This line of code&mdash;known as the [shebang interpreter directive](https://en.wikipedia.org/wiki/Shebang_(Unix))&mdash;is crucial. Without it, the file will not execute correctly on the command line. The **shebang interpreter directive** instructs the machine that's running the file how the following syntax in the file should be interpreted and executed. In this case, we're telling the machine that the file's contents should be interpreted and executed using the `bash` program.
+This line of code, known as the [shebang interpreter directive](https://en.wikipedia.org/wiki/Shebang_(Unix)), is crucial. Without it, the file will not execute correctly on the command line. The **shebang interpreter directive** instructs the machine that's running the file how the following syntax in the file should be interpreted and executed. In this case, we're telling the machine that the file's contents should be interpreted and executed using the `bash` program.
 
 While the shebang interpreter directive is important, it has nothing to do with the actual functionality of our script, so let's add that now with the following code:
 
