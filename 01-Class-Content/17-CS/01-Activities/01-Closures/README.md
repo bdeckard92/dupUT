@@ -8,17 +8,17 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when the `counter` function correctly increments by 1.
+* It is done when the `counter` function correctly increments by 1.
 
-* It's done when I can only access the `count` variable from within the `counter` function.
+* It is done when I can only access the `count` variable from within the `counter` function.
 
-* It's done when I enter `npm install` and `npm test` in the terminal and all the tests pass.
+* It is done when I enter `npm install` and `npm test` in the terminal and all the tests pass.
 
 ## 📝 Notes
 
 Refer to the documentation:
 
-[MDN web docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+[MDN Web Docs on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ## 🏆 Bonus
 
