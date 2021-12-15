@@ -14,7 +14,7 @@ In this week's virtual classes, you'll go over closures, factory functions, even
 | 2    | Fibonacci          | 17.5         |
 | 2    | Regex              | Challenge    |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning computer science?
 
@@ -62,7 +62,7 @@ Throughout the async module this week, students will use Computer Science to do 
 
 ## Instructor Notes
 
-* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews. 
+* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this next module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews.
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
 
@@ -108,6 +108,8 @@ Specific skills students will need to implement in order to be successful:
 ## Heads-Up
 
 * Next week, students will learn about NoSQL databases, specifically MongoDB. They'll use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both MongoDB and Mongoose before the next class. Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
+
+* The Module 22 Challenge will be an extra credit opportunity for students. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03 that week. Please let students know about this ahead of time as they enter Phase 3 of the boot camp.
 
 ## Resources
 

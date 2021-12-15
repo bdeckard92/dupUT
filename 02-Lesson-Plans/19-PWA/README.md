@@ -70,6 +70,10 @@ Throughout the async module this week, students will use PWAs to do the followin
 
 * Progressive web apps aim to blend the benefits of a traditional browser experience with those of a mobile application. For an overview of the PWA design pattern, refer to the [MDN Web Docs on progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
+* The async content uses an older version of Bootstrap. If students are having issues with the module project, please make sure that they have installed Bootstrap 4.3.1 using the following command: `npm install Bootstrap@4.3.1 -- save`. Students should also install Popper 1.16.0 using `npm install popper@1.16.0 -- save`. 
+
+* If students receive an error when trying to run the module project solution code, instruct them to use the command `npm install --save --legacy-peer-deps`. 
+
 * Warn students that we won't be able to teach them every aspect of progressive web applications in the amount of time allotted. Instead, help students understand PWAs as a valuable design pattern that emphasizes measuring and optimizing the performance of web applications, and encourage students to further explore these concepts when they develop apps on their own.
 
 ### Common Pain Points

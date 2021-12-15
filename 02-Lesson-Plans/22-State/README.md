@@ -61,13 +61,11 @@ Throughout the async module this week, students will use state management to do 
 
 ## Instructor Notes
 
-* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
+* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp. Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
-* Be sure to review the activities before class.
+* This module's Challenge is **extra credit**. It is not required for submission, nor will it count towards one of the two assignments that students can skip. If students choose to submit this Challenge, they will receive extra credit points on their final grade. However, if they choose not to submit it, their final grade will not be affected in any way. This Challenge is an opportunity for students to further practice their skills and get feedback on it, with the added incentive of receiving extra credit for the work. Please let students know about this extra credit opportunity!
 
 * **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
-
-* Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
 * Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
 
@@ -75,13 +73,11 @@ Throughout the async module this week, students will use state management to do 
 
 * **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
-* Information about the upcoming group project must go out during this week's second virtual class!
+* Information about the final group project, Project 03, must go out during this week's second virtual class!
 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
   * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
-
-
 
 ### Common Pain Points
 
@@ -102,7 +98,7 @@ Remind students that they should reach out to their Career Coach and meet with t
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-## Module Challenge
+## Module Challenge (Extra Credit)
 
 Students will refactor the e-commerce platform they created in this module, updating the way it handles complex state management using the Context API and changing it to Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much to refactor the application, but they'll need to read through the Redux documentation to find the right information.
 
@@ -118,9 +114,13 @@ Specific skills students will need to implement in order to be successful:
 
 * Implement actions and reducers to update state.
 
+> **Important:** Let students know that this Challenge is extra credit!
+
 ## Heads-Up
 
 * Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
+
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
 ## Resources
 

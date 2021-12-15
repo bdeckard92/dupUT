@@ -18,7 +18,7 @@ In this activity, you will create, update, and delete notes from the database co
 
 * To test it out, run `npm install` and `npm start` in your command line to start the server.
 
-  * Open Insomnia Core and make a POST request to `/submit` with data for a new note in JSON format.
+  * Open Insomnia and make a POST request to `/submit` with data for a new note in JSON format.
 
   * Now make a GET request to `/all`, POST request to `/update/:id`, and DELETE request to `/delete/:id` to check the rest of your routes.
 
