@@ -14,7 +14,7 @@ In this activity, you will use the `.populate()` method to return a user with al
 
 * To test it out, run `npm install` and `npm start` in your command line to start the server.
 
-  * Open Insomnia Core and make a POST request to `/submit` with data for a new note in JSON format.
+  * Open Insomnia and make a POST request to `/submit` with data for a new note in JSON format.
 
   * Make a GET request to `/populate`. You should see the user "Ernest Hemingway" with the note you just created.
 
