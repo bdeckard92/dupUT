@@ -115,6 +115,8 @@ Students must know how to implement the following skills in order to succeed in 
 
 * Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the [Set Up MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and [Deploy with Heroku and MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on the Full-Stack Blog at the end of the second virtual class.
 
+* The Module 22 Challenge will be an extra credit opportunity for students. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03 that week. Please let students know about this ahead of time as they enter Phase 3 of the boot camp.
+
 ## Resources
 
 The following resources can help you prepare for this week's classes:
