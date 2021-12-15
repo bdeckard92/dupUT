@@ -10,13 +10,13 @@ Implement the following user story:
 
 * It's done when the `categories` table has at least two rows of data.
 
-* It's done when the `prices` table has at least one row of data. 
+* It's done when the `prices` table has at least one row of data.
 
-* It's done when the tables do not include `NULL` values. 
+* It's done when the tables do not include `NULL` values.
 
 ## 💡 Hints
 
-Which MySQL command do we use to select and display a table and its populated data? 
+Which MySQL command do we use to select and display a table and its populated data?
 
 ## 🏆 Bonus
 
