@@ -109,7 +109,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Next week, students will learn about NoSQL databases, specifically MongoDB. They'll use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both MongoDB and Mongoose before the next class. Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the supplemental guides on [Setting Up MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Setup.md) and [Deploying with Heroku and MongoDB Atlas](../../01-Class-Content/18-NoSQL/04-Supplemental/MongoAtlas-Deploy.md) at the end of this week's second virtual class.
 
-* The Module 22 Challenge will be an extra credit opportunity for students. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03 that week. Please let students know about this ahead of time as we enter Phase 3 of the boot camp.
+* The Module 22 Challenge will be an extra credit opportunity for students. This change comes from student and instructor feedback on the amount of work and time required to complete both the Module 22 Challenge and Project 03 that week. Please let students know about this ahead of time as they enter Phase 3 of the boot camp.
 
 ## Resources
 

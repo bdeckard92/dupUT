@@ -63,7 +63,7 @@ Throughout the async module this week, students will use state management to do 
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp. Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
-* This module's Challenge will be **extra credit**. It is not required for submission, nor will it count towards one of the two assignments that students can skip. If students choose to submit this Challenge, they will receive extra credit points on their final grade. However, if they choose not to submit it, their final grade will not be affected in any way. This Challenge is an opportunity for students to further practice their skills and get feedback on it, with the added incentive of receiving extra credit for the work. Please let students know about this extra credit opportunity!
+* This module's Challenge is **extra credit**. It is not required for submission, nor will it count towards one of the two assignments that students can skip. If students choose to submit this Challenge, they will receive extra credit points on their final grade. However, if they choose not to submit it, their final grade will not be affected in any way. This Challenge is an opportunity for students to further practice their skills and get feedback on it, with the added incentive of receiving extra credit for the work. Please let students know about this extra credit opportunity!
 
 * **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
@@ -73,7 +73,7 @@ Throughout the async module this week, students will use state management to do 
 
 * **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
 
-* Information about the final group project, Project 3, must go out during this week's second virtual class!
+* Information about the final group project, Project 03, must go out during this week's second virtual class!
 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
@@ -114,7 +114,7 @@ Specific skills students will need to implement in order to be successful:
 
 * Implement actions and reducers to update state.
 
-> **Important:** Let students know this Challenge is extra credit!
+> **Important:** Let students know that this Challenge is extra credit!
 
 ## Heads-Up
 
