@@ -1,6 +1,6 @@
 # 📐 Add Comments to Implementation of a Fibonacci Sequence Algorithm
 
-Work with a partner to add comments that describe the functionality of the code found in [Unsolved](./Unsolved).
+Work with a partner to add comments that describe the functionality of the code found in [03-Recursion/Unsolved](./Unsolved).
 
 ## 📝 Notes
 

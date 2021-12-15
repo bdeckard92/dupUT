@@ -16,6 +16,8 @@ Work with a partner to resolve the following issue:
 
 ## Steps to Reproduce the Problem
 
+To reproduce the problem, follow these steps:
+
 1. Open the `index.html` file in the browser.
 
 2. The page takes an extended length of time to load.

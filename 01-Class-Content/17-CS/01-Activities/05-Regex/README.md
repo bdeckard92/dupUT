@@ -6,15 +6,15 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-  * It's done when the username can contain any lowercase letter between a-z.
+  * It is done when the username can contain any lowercase letter between a to z.
 
-  * It's done when the username can contain any number between 0-9.
+  * It is done when the username can contain any number between 0 and 9.
 
-  * It's done when the username can contain an underscore or hyphen.
+  * It is done when the username can contain an underscore or hyphen.
 
-  * It's done when the username can be between 3 - 16 characters long.
+  * It is done when the username can be between 3-16 characters long.
 
-  * It's done when you use [RegExr](https://regexr.com/) to test out your regex.
+  * It is done when you use [RegExr](https://regexr.com/) to test out your regex.
 
 ## 💡 Hints
 
@@ -22,17 +22,17 @@ Work with a partner to implement the following user story:
 
 * To test your regex using [RegExr](https://regexr.com/), do the following:
 
-  * In the `Text` section, type a username that does fulfill the requirements, i.e. `janedoe_123`.
+  * In the `Text` section, type a username that does fulfill the requirements (for example, `janedoe_123`).
 
-  * In the `Expression` section, test out your regex that will match that username. You will know your regex is correct if it shows a match.
+  * In the `Expression` section, test whether your regex will match that username. You will know your regex is correct if it shows a match.
 
-  * You can also test it out by changing the `Text` to a username that does NOT follow the requirements, i.e. `JaneDoe_123`. Notice it will say "No match" if your regex is correct.
+  * You can also test it by changing the `Text` to a username that does NOT follow the requirements, such as `JaneDoe_123`. Notice that it will say "No match" if your regex is correct.
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* How do you use special characters in regex to conduct a search that requires more than an exact match?
+* How do you use special characters in a regex to conduct a search that requires more than an exact match?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
