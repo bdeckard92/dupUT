@@ -2,30 +2,30 @@
 
 ## Overview
 
-In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice describing their problem-solving process using pseudocoding.
+In this module, students will prepare for job interviews by learning about the computer science behind JavaScript, including performance measurement, data structures, and algorithms. Students will also practice using pseudocde to describe their problem-solving process.
 
-In this week's virtual classes, you'll review closures, callback queues, recursion, and binary searches. You will also spend a good amount of time in this week's second virtual class going over the Challenge, which will look a bit different from what students are used to seeing. Students will also be introduced to regex, which is not in the async materials, but is needed for the Challenge.
+In this week's virtual classes, you'll review closures, callback queues, recursion, and binary searches. You will also spend a good amount of time in the second virtual class reviewing the Challenge, which is a bit different from what students are used to seeing in previous modules. You will also introduce regex, which is not taught in the async materials but is needed for the Challenge.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic                  | Location     |
 | ---  | ---                    | ---          |
 | 1    | Closures               | 17.2         |
-| 1    | Callbacks and Queues   | 17.1         |
+| 1    | Callbacks and queues   | 17.1         |
 | 1    | Git Guide              | N/A          |
 | 2    | Recursion              | 17.5         |
-| 2    | Binary Search          | 17.3         |
+| 2    | Binary search          | 17.3         |
 | 2    | Regex                  | Challenge    |
 
 ## Overview of Asynchronous Material
 
 This week in the asynchronous content, students are introduced to computer science fundamentals. This knowledge is important for the following reasons:
 
-* Computer science fundamentals like performance measurement, data structures, and algorithms are important for interview success.
+* In order to succeed in interviews, students must understand computer science fundamentals such as performance measurement, data structures, and algorithms.
 
 * Breaking down a coding challenge by using pseudocoding helps prepare students for interviews.
 
-* Big O notation describes the code complexity using mathematical terms and introduces students to measuring efficiency of their code.
+* Big O notation describes the code complexity using mathematical terms and introduces students to measuring the efficiency of their code.
 
 * Data structures help students understand how data is stored, organized, and accessed in their code.
 
@@ -53,11 +53,11 @@ The following table contains a description of each lesson's portion of the modul
 
 | Lesson           | Description            | Key Points                                                   |
 | ---              | ---                    | ---                                                          |
-| 1                | What Is JavaScript?    | Components of JavaScript, execution context                  |
-| 2                | Functional Programming | Closures, factory functions, event handlers                  |
-| 3                | Search Algorithms      | Common search algorithms, Big O notation                     |
-| 4                | Sort Algorithms        | Bubble sort and quick sort algorithms, Big O classifications |
-| 5                | Interview Practice     | Pseudocoding, refactoring                                    |
+| 1                | What is JavaScript?    | Components of JavaScript, execution context                  |
+| 2                | Functional programming | Closures, factory functions, event handlers                  |
+| 3                | Search algorithms      | Common search algorithms, Big O notation                     |
+| 4                | Sort algorithms        | Bubble sort and quick sort algorithms, Big O classifications |
+| 5                | Interview practice     | Pseudocoding, refactoring                                    |
 
 ## Virtual Classes
 
@@ -69,11 +69,11 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* This week, students will learn computer science fundamentals as they apply to JavaScript. Tell students that this module will be very different from what they're used to! It is heavier on concepts, but it will help them think like a developer and prepare for interviews.
+* This week, students will learn computer science fundamentals as they apply to JavaScript. Let students know that this module will be very different from what they're used to! It is heavier on concepts, which will help them think like a developer and prepare for interviews.
 
-* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
+* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. It helps students start to focus on life after boot camp.
 
-* Regex was not covered in the async lessons, but it is the topic of this week's Challenge. Students might struggle with the `05-Regex` activity because it is their first time seeing it, but encourage them to research online and use this activity as practice for their Challenge.
+* Regex is not covered in the async lessons, but it is the topic of this week's Challenge. Students might struggle with the `05-Regex` activity because it is their first time seeing it, but encourage them to research online and use this activity as practice for the Challenge.
 
 * You will spend some time in this week's second virtual class covering how to create a GitHub gist. Before class, review the [Module 17 Challenge](../../01-Class-Content/17-CS/02-Challenge) and the [GitHub Docs on creating gists](https://help.github.com/en/github/writing-on-github/creating-gists).
 
@@ -113,7 +113,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 * Next week, students will learn about NoSQL databases, specifically MongoDB. They'll use [Mongoose](https://mongoosejs.com/docs/) as their ODM, so be sure to familiarize yourself with both MongoDB and Mongoose before the next class.
 
-* Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the [Set Up MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and [Deploy with Heroku and MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on the Full-Stack Blog at the end of this week's second virtual class.
+* Students will learn how to deploy MongoDB applications to Heroku using MongoDB Atlas in their asynchronous lessons. But for more information, refer them to the [Set Up MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas) and [Deploy with Heroku and MongoDB Atlas blog post](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on the Full-Stack Blog at the end of the second virtual class.
 
 ## Resources
 
