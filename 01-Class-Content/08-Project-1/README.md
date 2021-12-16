@@ -1,8 +1,8 @@
-# Module 08: Project 1 Continued
+# Module 08: Project 01 Continued
 
 ## Overview
 
-Welcome to the second week of Project 1! This week, you will continue to work on your group project to build a front-end web application from scratch. As you wrap up your project, be prepared to give a presentation during the last class day of this module. Use the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to prepare for the presentation.
+Welcome to the second week of Project 01! This week, you will continue to work on your group project to build a front-end web application from scratch. As you wrap up your project, be prepared to give a presentation during the last class day of this module. Use the [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to prepare for the presentation.
 
 You will also update your professional materials, including your portfolio, GitHub profile, resume, and LinkedIn profile.
 

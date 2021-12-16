@@ -1,6 +1,6 @@
 # Coding Online Course Overview
 
-Welcome to the Coding Online Boot Camp! Many factors influence how well and how quickly you learn something new. These include how you structure and sequence your learning, stay motivated and curious about the material, and leverage prior knowledge to build new knowledge that you can apply in different situations. 
+Welcome to the Coding Online Boot Camp! Many factors influence how well and how quickly you learn something new. These include how you structure and sequence your learning, stay motivated and curious about the material, and leverage prior knowledge to build new knowledge that you can apply in different situations.
 
 Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
 
@@ -10,7 +10,7 @@ The first third of the course is focused on the front end of web development. Th
 
 ### Project 1: Modules 7–8
 
-The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application after the first several weeks&mdash;and this is exactly what you'll do for your first group project! 
+The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application after the first several weeks&mdash;and this is exactly what you'll do for your first group project!
 
 To do this, you'll develop the front end yourself and leverage other people’s servers and APIs. Past students have created some pretty cool projects, including Food Finder, an app that helps you find recipes, and Fourth and Lawn, an app that helps you find parking at sporting events.
 
@@ -26,13 +26,13 @@ This project will help you reinforce your existing front-end abilities and solid
 
 ## Section 3: Performance (Modules 17–22)
 
-The third section of the course primarily focuses on React and computer science fundamentals. React is a front-end advanced library that has become very popular in recent years. Why do we go back to the front end at the very end? Well, unlike jQuery, React brings a certain level of abstraction that's harder to grasp without a working understanding of the back end. 
+The third section of the course primarily focuses on React and computer science fundamentals. React is a front-end advanced library that has become very popular in recent years. Why do we go back to the front end at the very end? Well, unlike jQuery, React brings a certain level of abstraction that's harder to grasp without a working understanding of the back end.
 
 React lets us create highly reusable components. Instead of having to create the same element multiple times, React allows us to create it once and render it as many times as necessary for our application. We can even dynamically render these components to populate information only as needed and not take up more memory than necessary.
 
 We’ll also cover computer science fundamentals, which are essential to web development. Though this content is no replacement for a computer science degree, you'll learn what you need to know to work efficiently and create optimized code, including sorting algorithms and Big O notation.
 
-### Final Project: Modules 23–24
+### Project 3: Modules 23–24
 
 As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
 

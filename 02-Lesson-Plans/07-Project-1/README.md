@@ -1,4 +1,4 @@
-# Module 07 Instructor Overview: Project 1
+# Module 07 Instructor Overview: Project 01
 
 ## Overview
 
@@ -14,7 +14,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Prepare a list of project group members prior to the first class for this module. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
+* Prepare a list of project group members prior to the first class for this module. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the Project 03.
 
 * If students complain about group configurations, remind them of the following:
 

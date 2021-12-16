@@ -1,4 +1,4 @@
-# Module 24 Instructor Overview: Project 3 (Continued)
+# Module 24 Instructor Overview: Project 03 (Continued)
 
 ## Overview
 

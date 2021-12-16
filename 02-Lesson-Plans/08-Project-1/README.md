@@ -1,4 +1,4 @@
-# Module 08 Instructor Overview: Project 1
+# Module 08 Instructor Overview: Project 01
 
 ## Overview
 

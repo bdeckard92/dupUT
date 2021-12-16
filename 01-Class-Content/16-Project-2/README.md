@@ -1,8 +1,8 @@
-# Module 16: Project 2 Continued
+# Module 16: Project 02 Continued
 
 ## Overview
 
-Welcome to the second week of Project 2! You'll continue to collaborate with your fellow developers to create a real-world full-stack application that you’ll be able to showcase to potential employers.
+Welcome to the second week of Project 02! You'll continue to collaborate with your fellow developers to create a real-world full-stack application that you’ll be able to showcase to potential employers.
 
 At the end of this module, you and your group will present your application to your fellow students in a group presentation. Use the [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to prepare for the presentation.  Because this is a full-stack web application, you and your fellow developers can concentrate on specific aspects of the project in your presentation, following the principle of the separation of concerns.
 
