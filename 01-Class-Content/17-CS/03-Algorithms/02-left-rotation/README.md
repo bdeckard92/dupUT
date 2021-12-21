@@ -38,4 +38,4 @@ In this activity, you will write code to create a function that takes an array o
 * In order to "rotate" an array to the left by one position, remove the first element of the array and add it to the end of the array.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

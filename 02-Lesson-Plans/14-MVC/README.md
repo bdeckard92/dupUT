@@ -151,4 +151,4 @@ Here are the algorithms for this week:
 * [03-concert-flyer](../../01-Class-Content/14-MVC/03-Algorithms/03-concert-flyer)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

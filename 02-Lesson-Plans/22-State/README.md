@@ -141,4 +141,4 @@ Specific skills students will need to implement in order to be successful:
 * Students will be busy with their final project, so there are no algorithms for this week.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

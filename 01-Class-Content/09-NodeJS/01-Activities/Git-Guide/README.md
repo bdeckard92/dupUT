@@ -70,4 +70,4 @@ Next, you will create a branch, contribute to the project, and create a pull req
 You have successfully created your own fork, cloned it to your local machine, made some changes, and created a pull request to the owner's repository. This is a workflow that you will become familiar with as you get deeper into your experience as a software engineer. It may seem a little confusing at first, but now you can move forward with confidence knowing that you have forked and contributed to a repository yourself.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -128,4 +128,4 @@ Specific skills students will need to implement in order to be successful:
 * [03-int-to-roman](../../01-Class-Content/19-PWA/03-Algorithms/03-int-to-roman)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

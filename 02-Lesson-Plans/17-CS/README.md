@@ -140,4 +140,4 @@ Here are the algorithms for this week:
 * [03: Reverse in Place](../../01-Class-Content/17-CS/03-Algorithms/03-reverse-in-place)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
