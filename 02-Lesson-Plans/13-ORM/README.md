@@ -153,4 +153,4 @@ Here are the algorithms for this week:
 * [03-squares-of-a-sorted-array](../../01-Class-Content/13-ORM/03-Algorithms/03-squares-of-a-sorted-array)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

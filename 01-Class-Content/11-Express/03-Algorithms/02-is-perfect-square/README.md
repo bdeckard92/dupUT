@@ -49,4 +49,4 @@ In this activity, you will write code to create a function that takes in a whole
 * If you aren't allowed to check the square root of the given number, maybe you can check if the [square of a number](http://www.math.com/school/subject1/lessons/S1U1L9GL.html) is the given number?
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

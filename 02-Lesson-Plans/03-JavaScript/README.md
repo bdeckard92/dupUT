@@ -132,4 +132,4 @@ Here are the algorithms for this week:
 * [03-log-nums](../../01-Class-Content/03-JavaScript/03-Algorithms/03-log-nums)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
