@@ -145,4 +145,4 @@ You might also find the following commands useful:
 Today you learned how to navigate the expanse of Git History using commands like `git log` and `git blame`. As you continue growing as a developer and take on larger personal or professional projects, you'll begin to find opportunities to use these commands. Just knowing that these commands exist can make you a better developer!
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

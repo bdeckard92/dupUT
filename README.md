@@ -61,4 +61,4 @@ Each module contains a README.md overview containing tips, alerts, and resources
 📝 The lesson plans in this repo are instructor-facing only and should **not** be shared with students. 
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

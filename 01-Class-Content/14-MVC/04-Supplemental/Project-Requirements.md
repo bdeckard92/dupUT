@@ -35,4 +35,4 @@ Finally, you must add your project to the portfolio that you created in Module 2
 **More details about the project will be provided in the lessons for Module 15 in Canvas.**
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

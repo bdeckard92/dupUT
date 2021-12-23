@@ -59,4 +59,4 @@ You will be employer-competitive if you are able to:
 * [GraphQL course](https://www.youtube.com/watch?v=ed8SzALpx1Q)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
