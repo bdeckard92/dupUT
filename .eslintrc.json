@@ -9,7 +9,8 @@
     "react/jsx-filename-extension": 0,
     "no-undef": 0,
     "no-plusplus": 0,
-    "react/jsx-one-expression-per-line": 0,
+    "react/no-newline-before-fragment": 0,
+    "react/one-jsx-expression-per-line": 0
   },
   "overrides": [
     {
