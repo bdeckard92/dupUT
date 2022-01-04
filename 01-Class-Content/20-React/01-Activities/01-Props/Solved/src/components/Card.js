@@ -12,7 +12,7 @@ export default function Card(props) {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="card" style={cardStyle}>
         <img
           className="card-img-top"
@@ -20,8 +20,9 @@ export default function Card(props) {
           alt="Card cap"
         />
         <div className="card-body">
-          <h5 className="card-title">{props.name}</h5>
-          <p className="card-text">{props.description}</p>
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
           <a href="#" className="btn btn-primary">
             Adopt {props.name}
           </a>
