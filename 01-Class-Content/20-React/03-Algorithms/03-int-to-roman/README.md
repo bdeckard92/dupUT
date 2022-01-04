@@ -58,4 +58,4 @@ In this activity, you will create a function that takes in an integer and return
 * Start by making sure that you understand Roman numerals and that your function works with the simplest inputs.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

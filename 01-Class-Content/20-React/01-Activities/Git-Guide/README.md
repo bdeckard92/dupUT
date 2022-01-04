@@ -1,6 +1,6 @@
 # Deploy React App to GitHub Pages
 
-At this point in the course, you have spent some time immersed in React and have even created some React apps of your own. React can seem confusing at first, but the good news is that `create-react-app` gives you the tools to build applications from scratch. This guide will show you how to deploy your React app to GitHub Pages while preserving the file structure of your source files. 
+At this point in the course, you have spent some time immersed in React and have even created some React apps of your own. React can seem confusing at first, but the good news is that `create-react-app` gives you the tools to build applications from scratch. This guide will show you how to deploy your React app to GitHub Pages while preserving the file structure of your source files.
 
 Here are a few details to prepare you for this activity:
 
@@ -12,13 +12,11 @@ Here are a few details to prepare you for this activity:
 
 Now that we understand a little bit about what this command will do, let's put it into action and get the React app ready for GitHub Pages!
 
-# Prepare the Repo
-
 ## Add Homepage to package.json
 
-First we need to open the `package.json` file for the client and add an entry called `homepage`. The value of `homepage` should have `{username}` as your GitHub username, and `{repo-name}` as the name of the GitHub repository you created: 
+First we need to open the `package.json` file for the client and add an entry called `homepage`. The value of `homepage` should have `{username}` as your GitHub username, and `{repo-name}` as the name of the GitHub repository you created:
 
-```
+```text
 https://{username}.github.io/{repo-name}
 ```
 
@@ -39,9 +37,10 @@ To publish your app, you need to install the `gh-pages` npm package. Additionall
 ```sh
 npm i gh-pages
 ```
+
 **Note:** You will see another package manager called `yarn` suggested by `create-react-app`. `yarn` is very similar to `npm`, but for the sake of consistency we will stick with `npm`.
 
-Now lets add the `predeploy` and `deploy` scripts to `package.json`. 
+Now lets add the `predeploy` and `deploy` scripts to `package.json`.
 
 ```text
   "scripts": {
@@ -51,7 +50,7 @@ Now lets add the `predeploy` and `deploy` scripts to `package.json`.
     "build": "react-scripts build",
 ```
 
-# Deploy the Site
+## Deploy the Site
 
 Now is the time to deploy the React app to GitHub Pages. To do this, run the following command:
 
@@ -59,7 +58,7 @@ Now is the time to deploy the React app to GitHub Pages. To do this, run the fol
 npm run deploy
 ```
 
-# Check Project Settings
+## Check Project Settings
 
 Go to the GitHub project settings by clicking the link shown in the following image:
 
@@ -82,4 +81,4 @@ Click on the URL to check that everything looks good.
 You have successfully deployed your React application to GitHub Pages with just a few simple steps. While doing so, you learned about how the React deploy scripts work and how to prepare your repos for a `gh-page` deployment.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

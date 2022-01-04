@@ -53,4 +53,4 @@ In this activity, you will create a function that takes in a 2D array of meeting
 * You should begin this problem by sorting the provided 2D array by start times.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

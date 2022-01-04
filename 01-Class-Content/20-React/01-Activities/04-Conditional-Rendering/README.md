@@ -14,7 +14,7 @@ Before you begin this activity, complete the following steps:
 
 ## Activity
 
-Work with a partner to add comments that describe the functionality of the code found in the `PortfolioContainer` and `NavTabs` components.
+Work with a partner to add comments that describe the functionality of the code found in the [PortfolioContainer](../00-practice-app/src/components/PortfolioContainer.js) and [NavTabs](../00-practice-app/src/components/NavTabs.js) components.
 
 ## 📝 Notes
 
@@ -33,4 +33,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
