@@ -10,6 +10,7 @@ In this week's virtual classes, you'll help students understand what React is an
 | --- | ------------------------ | ---------------- |
 | 1   | Props                    | 20.3             |
 | 1   | State                    | 20.3 - 20.5      |
+| 1   | Git Guide                | N/A              |
 | 2   | `useEffect` Hook         | 20.3             |
 | 2   | Conditional Rendering    | 20.3             |
 | 2   | React forms              | 20.4             |
@@ -149,11 +150,11 @@ During the next unit, you will build on React foundations, and guide students th
 
 ## Algorithms
 
-* [01-roman-to-int](../../01-Class-Content/20-React/03-Algorithms/01-roman-to-int)
+* [01-maximum-continuous-subarray](../../01-Class-Content/20-React/03-Algorithms/01-maximum-continuous-subarray)
 
-* [02-rotation-point](../../01-Class-Content/20-React/03-Algorithms/02-rotation-point)
+* [02-merge-meeting-times](../../01-Class-Content/20-React/03-Algorithms/02-merge-meeting-times)
 
-* [03-simplify-path](../../01-Class-Content/20-React/03-Algorithms/03-simplify-path)
+* [03-int-to-roman](../../01-Class-Content/20-React/03-Algorithms/03-int-to-roman)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
