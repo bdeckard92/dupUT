@@ -110,6 +110,8 @@ Students must know how to implement the following skills in order to succeed in 
 
 * Students will start working on their group project next week, so they must be assigned into groups and start talking about project ideas within their groups by this weekend.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 * Be prepared to intervene and help groups that are struggling to identify a project idea or plan.
 
 * The first virtual class next week is crucial because it introduces agile project management and sets students up for success as a team. Remind students that it is important to attend this class and actively participate in group planning and implementation throughout the project.
@@ -137,4 +139,4 @@ Here are the algorithms for this week:
 * [03-title-case](../../01-Class-Content/06-Server-Side-APIs/03-Algorithms/03-title-case)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

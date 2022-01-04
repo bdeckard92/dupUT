@@ -1,76 +1,45 @@
-// Dependencies
-// ===========================================================
 const express = require('express');
 
-const app = express();
 const PORT = 3001;
 
-// Sets up the Express app to handle data parsing
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+const app = express();
 
-// Data
-// ===========================================================
-const characters = [
-  {
-    routeName: 'yoda',
-    name: 'Yoda',
-    role: 'Jedi Master',
-    age: 900,
-    forcePoints: 2000
-  },
-  {
-    routeName: 'darthmaul',
-    name: 'Darth Maul',
-    role: 'Sith Lord',
-    age: 200,
-    forcePoints: 1200
-  },
-  {
-    routeName: 'obiwankenobi',
-    name: 'Obi Wan Kenobi',
-    role: 'Jedi Master',
-    age: 55,
-    forcePoints: 1350
-  }
-];
+// GET request for reviews
+app.get('/api/reviews', (req, res) => {
+  // Inform the client
+  res.json(`${req.method} request received to get reviews`);
 
-// Routes
-// ===========================================================
-app.get('/', (req, res) => {
-  res.send('Welcome to the Star Wars Page!');
+  // Log our request to the terminal
+  console.info(`${req.method} request received to get reviews`);
 });
 
-app.get('/api/characters', (req, res) => {
-  return res.json(characters);
+// POST request for reviews
+app.post('/api/reviews', (req, res) => {
+  // Inform the client that their POST request was received
+  res.json(`${req.method} request received to add a review`);
+
+  // Log our request to the terminal
+  console.info(`${req.method} request received to add a review`);
 });
 
-app.get('/api/characters/:character', (req, res) => {
-  const chosen = req.params.character;
+// GET request for upvotes
+app.get('/api/upvotes', (req, res) => {
+  // Inform the client
+  res.json(`${req.method} request received to retrieve upvote count`);
 
-  console.log(chosen);
-
-  for (let i = 0; i < characters.length; i++) {
-    if (chosen === characters[i].routeName) {
-      return res.json(characters[i]);
-    }
-  }
-  return res.send('No character found');
+  // Log our request to the terminal
+  console.info(`${req.method} request received to retrieve upvote count`);
 });
 
-// Create a POST route that adds new characters
-app.post('/api/characters', (req, res) => {
-  const newCharacter = req.body;
+// POST request
+app.post('/api/upvotes', (req, res) => {
+  // Inform the client that their POST request was received
+  res.json(`${req.method} request received to upvote`);
 
-  console.log(newCharacter);
-
-  characters.push(newCharacter);
-
-  res.json(newCharacter);
+  // Log our request to the terminal
+  console.info(`${req.method} request received to upvote`);
 });
 
-// Listener
-// ===========================================================
-app.listen(PORT, () => {
-  console.log(`App listening on PORT ${PORT}`);
-});
+app.listen(PORT, () =>
+  console.log(`Express server listening on port ${PORT}!`)
+);

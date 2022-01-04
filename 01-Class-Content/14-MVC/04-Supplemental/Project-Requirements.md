@@ -1,16 +1,18 @@
 # Project Requirements
 
-* Use Node.js and Express.js to create a RESTful API
+Your project must meet the following criteria:
 
-* Use a template engine, such as Handlebars.js
+* Use Node.js and Express.js to create a RESTful API.
 
-* Use MySQL and the Sequelize ORM for the database
+* Use a template engine such as Handlebars.js.
 
-* Have both GET and POST routes for retrieving and adding new data
+* Use MySQL and the Sequelize ORM for the database.
 
-* Be deployed using Heroku (with data)
+* Have both GET and POST routes for retrieving and adding new data.
 
-* Utilize at least one new library, package, or technology that we haven’t discussed
+* Deploy using Heroku (with data).
+
+* Use at least one new library, package, or technology that we haven’t discussed.
 
 * Have a polished UI.
 
@@ -18,11 +20,11 @@
 
 * Be interactive (i.e., accept and respond to user input).
 
-* Must have a folder structure that meets the MVC paradigm
+* Must have a folder structure that meets the MVC paradigm.
 
-* Must include authentication (cookies and express-session)
+* Must include authentication (cookies and express-session).
 
-* Must protect API keys and sensitive information with environment variables
+* Must protect API keys and sensitive information with environment variables.
 
 * Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 
@@ -31,3 +33,6 @@
 Finally, you must add your project to the portfolio that you created in Module 2.
 
 **More details about the project will be provided in the lessons for Module 15 in Canvas.**
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

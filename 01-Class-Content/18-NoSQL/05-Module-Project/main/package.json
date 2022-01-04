@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.7"
+    "mongoose": "^6.0.13"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.1.5",

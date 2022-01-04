@@ -1,8 +1,8 @@
 # 12 SQL: Employee Tracker
 
-Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. These interfaces are known as Content Management Systems (CMS). Your challenge this week is to build a command-line application to manage a company's database of employees using Node.js, Inquirer, and MySQL.
+Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria below being met. You’ll need to submit a link to the video and add it to the README of your project.
+Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
 
 ## User Story
 
@@ -29,75 +29,74 @@ THEN I am prompted to enter the name of the department and that department is ad
 WHEN I choose to add a role
 THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
 WHEN I choose to add an employee
-THEN I am prompted to enter the employee’s first name, last name, role, and manager and that employee is added to the database
+THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
-THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
+THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
 
 ## Mock-Up
 
-The following animation shows an example of the application being used from the command line:
+The following video shows an example of the application being used from the command line:
 
-![Command Line demo](./Assets/12-sql-homework-demo-01.gif)
-
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
 
 ## Getting Started
 
-You’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries, the [Inquirer package](https://www.npmjs.com/package/inquirer) to interact with the user via the command-line, and the [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
+You’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries, the [Inquirer package](https://www.npmjs.com/package/inquirer) to interact with the user via the command line, and the [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
 
-**Important**: You will be committing a file that contains your database credentials. Make sure your MySQL password is not used for any other personal accounts, because it will be visible on GitHub. In upcoming lessons, you will learn how to better secure this password, or you can start researching npm packages now that could help you.
+**Important**: You will be committing a file that contains your database credentials. Make sure that your MySQL password is not used for any other personal accounts, because it will be visible on GitHub. In upcoming lessons, you will learn how to better secure this password, or you can start researching npm packages now that could help you.
 
-You might also want to make your queries asynchronous. MySQL2 exposes a `.promise()` function on Connections to "upgrade" an existing non-promise connection to use promises. Look into [MySQL2's documentation](https://www.npmjs.com/package/mysql2) in order to make your queries asynchronous.
+You might also want to make your queries asynchronous. MySQL2 exposes a `.promise()` function on Connections to upgrade an existing non-Promise connection to use Promises. To learn more and make your queries asynchronous, refer to the [npm documentation on MySQL2](https://www.npmjs.com/package/mysql2).
 
-Design the following database schema containing three tables:
+Design the database schema as shown in the following image:
 
-![Database Demo](./Assets/12-sql-homework-demo-02.png)
+![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/12-sql-homework-demo-01.png)
 
-* **department:**
+As the image illustrates, your schema should contain the following three tables:
 
-    * `id` - INT PRIMARY KEY
+* `department`
 
-    * `name` - VARCHAR(30) to hold department name
+  * `id`: `INT PRIMARY KEY`
 
-* **role:**
+  * `name`: `VARCHAR(30)` to hold department name
 
-    * `id` - INT PRIMARY KEY
+* `role`
 
-    * `title` - VARCHAR(30) to hold role title
+  * `id`: `INT PRIMARY KEY`
 
-    * `salary` - DECIMAL to hold role salary
+  * `title`: `VARCHAR(30)` to hold role title
 
-    * `department_id` - INT to hold reference to department role belongs to
+  * `salary`: `DECIMAL` to hold role salary
 
-* **employee:**
+  * `department_id`: `INT` to hold reference to department role belongs to
 
-    * `id` - INT PRIMARY KEY
+* `employee`
 
-    * `first_name` - VARCHAR(30) to hold employee first name
+  * `id`: `INT PRIMARY KEY`
 
-    * `last_name` - VARCHAR(30) to hold employee last name
+  * `first_name`: `VARCHAR(30)` to hold employee first name
 
-    * `role_id` - INT to hold reference to employee role
+  * `last_name`: `VARCHAR(30)` to hold employee last name
 
-    * `manager_id` - INT to hold reference to another employee that is manager of the current employee. This field may be null if the employee has no manager
+  * `role_id`: `INT` to hold reference to employee role
 
-You may want to use a separate file containing functions for performing specific SQL queries you'll need to use. A constructor function or Class could be helpful for organizing these. You may also want to include a `seeds.sql` file to pre-populate your database. This will make the development of individual features much easier.
+  * `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
 
+You might want to use a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a `seeds.sql` file to pre-populate your database, making the development of individual features much easier.
 
 ## Bonus
 
-See if you can add some additional functionality to your application, such as the ability to:
+Try to add some additional functionality to your application, such as the ability to do the following:
 
-* Update employee managers
+* Update employee managers.
 
-* View employees by manager
+* View employees by manager.
 
-* View employees by department
+* View employees by department.
 
-* Delete departments, roles, and employees
+* Delete departments, roles, and employees.
 
-* View the total utilized budget of a department -- ie the combined salaries of all employees in that department
-
+* View the total utilized budget of a department&mdash;in other words, the combined salaries of all employees in that department.
 
 ## Review
 
@@ -105,7 +104,7 @@ You are required to submit BOTH of the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository, with a unique name and a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

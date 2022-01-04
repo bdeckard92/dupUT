@@ -156,4 +156,4 @@ During the next unit, you will build on React foundations, and guide students th
 * [03-simplify-path](../../01-Class-Content/20-React/03-Algorithms/03-simplify-path)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
