@@ -47,4 +47,4 @@ In this activity, you will create a function that takes in an array of digits re
 * How will you handle the case where a digit overflows (i.e., becomes more than 9)?
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -16,7 +16,7 @@ The returned object still shows the old building number.
 
 Follow these steps to reproduce the problem:
 
-1. In the command line, navigate to `10-Stu_Mutations/Unsolved`.
+1. In the command line, navigate to `02-Mutations/Unsolved`.
 
 2. Run `npm install`, `npm run seed`, and `npm start`.
 
@@ -54,9 +54,9 @@ Follow these steps to reproduce the problem:
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* What tools will you need to run GraphQL queries in your own front end? 
+* What tools will you need to run GraphQL queries in your own front end?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

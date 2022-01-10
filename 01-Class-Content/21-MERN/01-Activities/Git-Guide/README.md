@@ -47,7 +47,7 @@ To begin, start by creating a boilerplate React application and putting it on Gi
     git push -u origin main
     ```
 
-# Create the Workflow
+## Create the Workflow
 
 Now that we have some code in our remote repository, let's create the workflow that will contain the actions we want to preform after each pull request.
 
@@ -59,13 +59,13 @@ Now that we have some code in our remote repository, let's create the workflow t
 
 The folder structure should look something like this:
 
-```
+```text
 .github
 └── workflows
     └── main.yml
 ```
 
-# Actions
+## Actions
 
 Our actions will be defined inside of our `main.yml` file. To begin, let's open up `main.yml` in our code editor. YAML is a recursive acronym that stands for "YAML Ain't Markup Language". YAML is human-readable syntax for data that is being stored or transmitted.
 
@@ -75,88 +75,85 @@ Our actions will be defined inside of our `main.yml` file. To begin, let's open 
 
 * The `steps` section contains what actions or tasks we want to run on our container. In our case we are checking out the branch, using node v12, installing dependencies, and finally running our `eslint` script.
 
-
-```yml
-#  Name of workflow
-name: Lint workflow
-# Trigger workflow on all pull requests
-on:
-    pull_request:
-        branches:
-            - dev
-            - main
-# Jobs to carry out
-jobs:
-    test:
-        # Operating system to run job on
-        runs-on: ubuntu-latest
-        # Steps in job
-        steps:
-            # Get code from repo
-            - name: Checkout code
-              uses: actions/checkout@v1
-            # Install NodeJS
-            - name: Use Node.js 12.x
-              uses: actions/setup-node@v1
-              with:
-                  node-version: 12.x
-            # Build the app
-            - name: 🧰 install deps
-              run: npm install
-            - name: Run lint
-              run: npm run eslint
-
-```
+    ```yml
+    #  Name of workflow
+    name: Lint workflow
+    # Trigger workflow on all pull requests
+    on:
+        pull_request:
+            branches:
+                - dev
+                - main
+    # Jobs to carry out
+    jobs:
+        test:
+            # Operating system to run job on
+            runs-on: ubuntu-latest
+            # Steps in job
+            steps:
+                # Get code from repo
+                - name: Checkout code
+                  uses: actions/checkout@v1
+                # Install NodeJS
+                - name: Use Node.js 12.x
+                  uses: actions/setup-node@v1
+                  with:
+                      node-version: 12.x
+                # Build the app
+                - name: 🧰 install deps
+                  run: npm install
+                - name: Run lint
+                  run: npm run eslint
+    ```
 
 * Save the content of the snippet above to your `main.yml` file, then add and commit all your files and push them to Github on the main branch
 
-```sh
-git add .
-git commit -m "Add workflow"
-git push origin main
-```
+    ```sh
+    git add .
+    git commit -m "Add workflow"
+    git push origin main
+    ```
 
-# Create a Pull Request
+## Create a Pull Request
 
 Now it's time to give our linter something to complain about! We will make some changes to our main `App` component and then create a pull request.
 
 1. First let's make a new feature branch to create a pull request from:
 
-```sh
-git checkout -b feat/linting-test
-```
+    ```sh
+    git checkout -b feat/linting-test
+    ```
 
 2. Open `src/App.js` and add another variable called `App` just before our functional component of the same name is declared
 
-```js
-const App = 12
-function App() { ... }
-```
+    ```js
+    const App = 12
+    function App() { ... }
+    ```
 
 3. Add and commit your changes, then push them to our `feat/linting-test` branch
 
-```
-git add .
-git commit -m "Creating a PR for testing"
-git push origin feat/linting-test
-```
+    ```bash
+    git add .
+    git commit -m "Creating a PR for testing"
+    git push origin feat/linting-test
+    ```
 
 4. Head to GitHub and click "Create pull request" next to the yellow indicator for our recent change to `feat/linting-test`.
 
-![Pull Request](Images/01-pr.png)
-
+    ![Pull Request](Images/01-pr.png)
 
 5. Click "Create pull request" and then click on "details".
 
-![PR details](Images/02-details.png)
+    ![PR details](Images/02-details.png)
 
 6. In this view we can see the output of our workflow
 
-![Workflow](Images/03-output.png)
+    ![Workflow](Images/03-output.png)
 
-1. The PR should be automatically marked as having failed checks, indicating the author needs to refactor some of the code.
+7. The PR should be automatically marked as having failed checks, indicating the author needs to refactor some of the code.
 
-![Failed checks](Images/04-failed.png)
+    ![Failed checks](Images/04-failed.png)
 
 ## Conclusion
 

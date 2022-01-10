@@ -68,4 +68,4 @@ In this activity, you will create a function that takes in a string and an offse
 * Before writing any code, pseudocode the logic you'll need for different parts of this activity.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
