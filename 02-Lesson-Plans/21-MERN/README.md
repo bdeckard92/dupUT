@@ -10,6 +10,7 @@ In this week's virtual classes, you'll cover GraphQL, including making queries a
 | ---  | ---                | ---        |
 | 1    | Query Arguments    | 21.1       |
 | 1    | Mutations          | 21.2       |
+| 1    | Git Guide          | N/A        |
 | 2    | React Router       | 21.4       |
 | 2    | JWT Signing        | 21.2       |
 | 2    | `useEffect` Hook   | Challenge  |
@@ -154,11 +155,9 @@ Specific skills students will need to implement in order to be successful:
 
 * [01-plus-one](../../01-Class-Content/21-MERN/03-Algorithms/01-plus-one)
 
-* [02-sum-array-digits](../../01-Class-Content/21-MERN/03-Algorithms/02-sum-array-digits)
+* [02-one-edit-away](../../01-Class-Content/21-MERN/03-Algorithms/02-one-edit-away)
 
-* [03-one-edit-away](../../01-Class-Content/21-MERN/03-Algorithms/03-one-edit-away)
-
-* [04-caesar-cipher](../../01-Class-Content/21-MERN/03-Algorithms/04-caesar-cipher)
+* [03-caesar-cipher](../../01-Class-Content/21-MERN/03-Algorithms/03-caesar-cipher)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
