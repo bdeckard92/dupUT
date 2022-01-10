@@ -140,4 +140,4 @@ This specific type of conflict is not as common as others you will face througho
 * Check the [Atlassian guide on Git merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts) for reference.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

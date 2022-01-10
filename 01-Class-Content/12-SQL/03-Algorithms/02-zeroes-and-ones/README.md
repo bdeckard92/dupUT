@@ -1,41 +1,44 @@
 # Zeroes and Ones
 
-In this activity you will be writing code to create a function that takes in a string containing only 0s and 1s, and returning true if there are an equal number of 0s and 1s, else returning false.
+In this activity you will be writing code to create a function that takes in a string containing only `0` and `1` values and returns `true` if there are an equal number of `0` and `1` values; else returns false.
 
 ## Instructions
 
-* Open [Unsolved/zeroes-and-ones.js](Unsolved/zeroes-and-ones.js) in your code editor -- **this is the only file you will modify in this activity.**
+* Open [Unsolved/zeroes-and-ones.js](Unsolved/zeroes-and-ones.js) in your code editor -- this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `zeroesAndOnes` function to achieve the following:
+  * In this file, you will be writing code in the body of the `zeroesAndOnes()` function to achieve the following:
 
-    * Return true if there are an equal number of 0s and 1s in the given string.
+    * Returns `true` if there are an equal number of `0` and `1` values; else return false.
 
-    * For example, given the following string:
+    * Refer to the following string for an example:
 
-    ```js
-    var str = "00110011"; // 4 0s, 4 1s
-    ```
+      ```js
+      var str = "00110011"; // 4 0s, 4 1s
+      ```
 
-    * The following should be returned:
+    * Given the preceding string, the following should be returned:
 
-    ```js
-    true
-    ```
+      ```js
+      true
+      ```
 
-    * Given the following string:
+    * Refer to the following array for another example:
 
-    ```js
-    var str = "11110"; // 4 1s, 1 0
-    ```
+      ```js
+      var str = "11110"; // 4 1s, 1 0
+      ```
 
-    * The following should be returned:
+    * Given the preceding string, the following should be returned:
 
-    ```js
-    false
-    ```
+      ```js
+      false
+      ```
 
-* You can check to see if your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
+* You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-  * Functions that _pass_ the tests will be denoted with a **green check mark**.
+  * Functions that pass the tests will be denoted with a green check mark.
 
-  * Functions that _fail_ the tests will be denoted with a **red x and an error message**.
+  * Functions that fail the tests will be denoted with a red X and an error message.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

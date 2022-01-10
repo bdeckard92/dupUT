@@ -8,7 +8,6 @@ The application’s front end has already been created. It's your job to build t
 
 Before you start, clone [the starter code](https://github.com/coding-boot-camp/miniature-eureka).
 
-
 ## User Story
 
 ```
@@ -16,7 +15,6 @@ AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
-
 
 ## Acceptance Criteria
 
@@ -36,7 +34,6 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-
 ## Mock-Up
 
 The following images show the web application's appearance and functionality: 
@@ -45,10 +42,9 @@ The following images show the web application's appearance and functionality:
 
 ![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
 
-
 ## Getting Started
 
-The application should have a `db.json` file on the back end that will be used to store and retrieve notes using the `fs` module.
+The application should have a `db.json` file on the back end, which will be used to store and retrieve notes using the `fs` module.
 
 The following HTML routes should be created:
 
@@ -68,7 +64,6 @@ You haven’t learned how to handle DELETE requests, but this application has th
 
 * `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
-
 ## Review
 
 You are required to submit BOTH of the following for review:
@@ -78,4 +73,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

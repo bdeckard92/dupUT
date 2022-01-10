@@ -6,7 +6,6 @@ Your challenge this week is to refactor the e-commerce platform that you created
 
 > **On the Job:** Web developers are frequently asked to dive into a new technology, sifting through documentation to find the right information that matches the specific problem they’re trying to solve. As you get ready to enter into your first development role, use this Challenge as a transition into a skill you’ll be using all the time over the course of your career.
 
-
 ## User Story
 
 ```md
@@ -37,7 +36,7 @@ THEN I find that the app uses Redux instead of the Context API
 
 The following animations show the web application's appearance and functionality:
 
-![Demo](./Assets/22-state-homework-demo-01.gif) 
+![Demo](./Assets/22-state-homework-demo-01.gif)
 
 ![Demo](./Assets/22-state-homework-demo-02.gif)
 
@@ -60,4 +59,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -27,4 +27,4 @@ In this activity, you will write code to create functions capable of different a
 * Remember to `return` a value from each function.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

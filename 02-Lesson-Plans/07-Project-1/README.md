@@ -2,25 +2,39 @@
 
 ## Overview
 
-In this week's virtual classes, you'll introduce agile project management and working collaboratively with git branching.
+In this module, you will introduce agile project management and help students with their first project, which is an API-powered interactive front-end web application that pulls data from multiple sources. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub issues and projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
 
 ## Virtual Classes
 
-* [Virtual Class 07.1](./07.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
+
+* [07.1 Virtual Class](./07.1-REQUIRED.md)
+
+* [07.2 Virtual Class](./07.2-REQUIRED.md)
 
 ## Instructor Notes
 
-* There is no lesson plan for the second virtual class this week. Use the entirety of class time as office hours to assist students with their projects. In place of lecture and activities, hold stand-up meetings with each group to gauge progress and advise as necessary.
+* Prepare a list of project group members prior to the first class for this module. Assign three students per group: one advanced, one average, one struggling. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
 
-* Students can use the [API_Resources](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for ideas on free APIs that don't require CORS to use in their projects.
+* If students complain about group configurations, remind them of the following:
+
+  * In the real world, you don't get to choose your coworkers.
+
+  * Working collaboratively is an important skill to acquire as a developer.
+
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
+* The Instructor Demo activities on the first day ask you to create a project repository. You can create one on-the-fly or you may want to create one in advance.
+
+* Be sure to spend plenty of time making sure that students follow best practices while collaborating with Git.
+
+* For ideas on free APIs that don't require CORS to use in their project, students can refer to the [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
-
-If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
 
 ## Module Challenge
 
@@ -28,25 +42,19 @@ N/A
 
 ## Heads-Up
 
-* Students will present their group projects during next week's second virtual class.
+* In the next module, students will present their group project on the last day of class.
 
-* Prepare a slide deck of superlative awards to give to each group. Here is an [example](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing) of superlative awards.
+* Students must have a deployed project by presentation day, so encourage students to deploy their projects by the class before presentation day at the latest. Deployed projects can always be updated, so it is recommended that students deploy early on and update their live version with every new feature.
+
+* Prepare a slide deck of superlative awards to give to each group on presentation day. Here is an [example slide deck of superlative awards](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing).
 
 ## Resources
 
-* [Example of free APIs that don't require CORS](../../01-Class-Content/07-Project-1/04-Supplemental/API_Resources.md) for students to use in their project
+The following resources can help you prepare for this week:
 
-* [Project Requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+* [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
-## Algorithms
-
-  * [01-swap-case](../../01-Class-Content/07-Project-1/03-Algorithms/01-swap-case)
-
-  * [02-longest-word](../../01-Class-Content/07-Project-1/03-Algorithms/02-longest-word)
-
-  * [03-acronym-builder](../../01-Class-Content/07-Project-1/03-Algorithms/03-acronym-builder)
-
-  * [04-reverse-words](../../01-Class-Content/07-Project-1/03-Algorithms/04-reverse-words)
+* [Project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
