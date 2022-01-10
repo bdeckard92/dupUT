@@ -4,6 +4,7 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const DATA_CACHE_NAME = "data-cache-" + VERSION;
 
 const FILES_TO_CACHE = [
+  "/",
   "./index.html",
   "./css/styles.css",
   "./js/idb.js",

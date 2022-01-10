@@ -10,11 +10,12 @@ In this week's virtual classes, you'll cover Mongoose virtuals, subdocuments, sc
 | ---  | ---                | ---               |
 | 1    | Mongoose Virtuals  | 18.2, 18.3        |
 | 1    | Subdocuments       | 18.3              |
-| 2    | Mongoose Schema    | 18.1, 18.2, 18.5  | 
+| 1    | Git Guide          | N/A               |
+| 2    | Mongoose Schema    | 18.1, 18.2, 18.5  |
 | 2    | Mongoose CRUD      | 18.1, 18.2        |
 | 2    | Mongoose Populate  | 18.1, 18.2        |
 
-## Overview of Asynchronous Material 
+## Overview of Asynchronous Material
 
 Why are students learning NoSQL?
 
@@ -78,11 +79,11 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with Career Services and how this material will be applicable to them in their future career.
+During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
 
-Remind students that they should reach out to their Career Director and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careerservicesonlineevents.splashthat.com/).
+Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-If you'd like more information on Career Services, visit the [Career Services resources page](https://mycareerspot.org/).
+If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Module Challenge
 
@@ -120,11 +121,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-is-armstrong](../../01-Class-Content/18-NoSQL/03-Algorithms/01-is-armstrong)
+* [01-valid-brackets](../../01-Class-Content/18-NoSQL/03-Algorithms/01-valid-brackets)
 
-* [02-max-profit](../../01-Class-Content/18-NoSQL/03-Algorithms/02-max-profit)
+* [02-min-increment-for-unique](../../01-Class-Content/18-NoSQL/03-Algorithms/02-min-increment-for-unique)
 
-* [03-smallest-difference](../../01-Class-Content/18-NoSQL/03-Algorithms/03-smallest-difference)
+* [03-peak-finder](../../01-Class-Content/18-NoSQL/03-Algorithms/03-peak-finder)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

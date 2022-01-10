@@ -1,29 +1,40 @@
-# useEffect Thermostat
+# 📖 Implement the useEffect Hook
 
-In this activity, you will use the `useEffect` Hook to update the browser tab to reflect the current temperature.
+## Before We Begin
 
-## Instructions
+Before you begin this activity, complete the following steps:  
 
-* **Note** You will be using the same React application, [00-React-App](../00-React-App), for all of our activities today.
+1. Delete the `/src` folder in [00-practice-app](../00-practice-app/).
 
-* Copy the [src](Unsolved/src) folder and paste it into the [00-React-App](../00-React-App/) app. 
+2. Copy the `/src` folder from [Unsolved](./Unsolved/) and paste it into [00-practice-app](../00-practice-app/).
 
-* Navigate to [01-Activities/00-React-App](../00-React-App) and start the app in dev mode by running `npm start` from your command line.
+## Activity
 
-* Check out the application running on <http://localhost:3000> in your browser. The browser tab says "React App" but we want it to show our current temperature, which right now is set to 0.
+Work with a partner to implement the following user story:
 
-* Open [Thermostat.js](../00-React-App/src/components/Thermostat.js) and do the following:
+* As a developer, I want to be able to use the `useEffect` Hook to update the browser tab to reflect the current temperature.
 
-  * Import `useEffect` Hook from React.
+## Acceptance Criteria
 
-  * Set the `temp` variable to any starting temperature of your choice.
+* It's done when I have imported `useEffect` into [Thermostat.js](../00-React-App/src/components/Thermostat.js).
 
-  * Use the `useEffect` Hook to set the `document.title` to the current temperature.
+* It's done when I have set a value for the `temp` variable.
 
-* Check the application in your browser to see if the browser tab now reflects the current temperature. Raise and lower the temperature to see the browser tab automatically updated!
+* It's done when I have used the `useEffect` Hook to set the `document.title` to the current temperature.
 
-* Press `CTRL + C` to stop the server before moving on to the next activity.
+## 📝 Notes
 
-## Hint(s)
+Refer to the documentation:
 
-* You can refer to the React Docs on [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html).
+[React Docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* What are some other use cases for the `useEffect()` Hook?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

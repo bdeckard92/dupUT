@@ -63,4 +63,4 @@ In this activity, you will create a function that takes in an array and returns 
 * Why is it important if the array has only positive, only negative, or both positive and negative numbers?
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

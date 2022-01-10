@@ -4,9 +4,9 @@ Add comments describing the functionality of the code found in [query.sql](./Uns
 
 ## 📝 Notes
 
-Refer to the documentation: 
+Refer to the documentation:
 
-[MySQL documentation on JOIN clause](https://dev.mysql.com/doc/refman/8.0/en/join.html)
+[MySQL documentation on the JOIN clause](https://dev.mysql.com/doc/refman/8.0/en/join.html)
 
 ---
 
@@ -19,4 +19,4 @@ If you have completed this activity, work through the following challenge with y
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
