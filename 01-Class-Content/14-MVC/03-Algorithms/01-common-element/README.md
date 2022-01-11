@@ -37,4 +37,4 @@ In this activity you will be writing code to create a function that takes in two
 You might want to use the code from the previous `zeroes-and-ones` activity in your solution for this problem.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

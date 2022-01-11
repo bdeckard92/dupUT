@@ -40,4 +40,4 @@ In this activity, you will write code to create a function that takes in a 2-dim
 * Check out this article on [multi-dimensional arrays in JavaScript](http://www.javascripttutorial.net/javascript-multidimensional-array/)
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -140,4 +140,4 @@ Here are the algorithms for this week:
 * [03-is-anagram](../../01-Class-Content/10-OOP/03-Algorithms/03-is-anagram)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -149,4 +149,4 @@ Here are the algorithms for this week:
 * [03-array-search-2d](../../01-Class-Content/11-Express/03-Algorithms/03-array-search-2d)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
