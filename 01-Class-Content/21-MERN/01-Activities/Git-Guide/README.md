@@ -1,18 +1,18 @@
 # GitHub Actions
 
-At this point in the course, you are well aware that GitHub is a very powerful tool for collaborating with multiple users on the same project. Collaboration inevitably will cause some conflicts whether that be within the code itself or with your overall workflow. On occasion some errors will slip past a local linter and make their way into pull requests. Wouldn't it be nice to automate something like linting before each pull request?
+At this point in the course, you are well aware that GitHub is a very powerful tool for collaborating with multiple users on the same project. Collaboration inevitably will cause some conflicts, whether that be within the code itself or with your overall workflow. On occasion, some errors will slip past a local linter and make their way into pull requests. Wouldn't it be nice to automate something like linting before each pull request?
 
-GitHub Actions is a great solution to this problem. For example, you could create a GitHub action to automatically run a linter against every pull request to ensure the code meets your agreed upon standards. Today, we are going to create such an action.
+GitHub Actions is a great solution to this problem. For example, you could create a GitHub action to automatically run a linter against every pull request to ensure the code meets your standards. Today, we are going to create such an action.
 
-* Before we begin, check out the [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) to get a grasp on some of the core concepts.
+* Before we begin, read the [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) to get a grasp on some of the core concepts.
 
 ## Initial Project Setup
 
-To begin, start by creating a boilerplate React application and putting it on Github. While you are probably already familiar with this process, let's go through it together.
+To begin, start by creating a boilerplate React application and putting it on Github. While you are probably already familiar with this process, let's go through it together:
 
 1. Run `npx create-react-app gh-actions-demo` from your workspace directory.
 
-2. Once the app has been created make sure to change into that directory.Additionally, let's add `eslint` as a dependency to our project:
+2. Once the app has been created, make sure to change into that directory. Additionally, let's add `eslint` as a dependency to our project:
 
     ```sh
     npm i eslint --save-dev
@@ -30,7 +30,7 @@ To begin, start by creating a boilerplate React application and putting it on Gi
     },
     ```
 
-4. Create a new repository on your personal GitHub and name it `gh-actions-demo` for consistency. Also, make sure to **not** initialize your repository with a `README.md` or `.gitignore`
+4. Create a new repository on your personal GitHub and name it `gh-actions-demo` for consistency. Also, make sure to **not** initialize your repository with a `README.md` or `.gitignore`.
 
 5. Copy the first two lines of the snippet from GitHub for adding to an existing repo and paste it in the terminal:
 
@@ -39,7 +39,7 @@ To begin, start by creating a boilerplate React application and putting it on Gi
     git branch -M main
     ```
 
-6. Once we have added the remote to your local repository, we will add and commit all the files in the repository:
+6. Once you have added the remote to your local repository, add and commit all the files in the repository:
 
     ```sh
     git add -A
@@ -49,29 +49,29 @@ To begin, start by creating a boilerplate React application and putting it on Gi
 
 ## Create the Workflow
 
-Now that we have some code in our remote repository, let's create the workflow that will contain the actions we want to preform after each pull request.
+Now that we have some code in our remote repository, let's create the workflow that will contain the actions we want to perform after each pull request:
 
 1. In your terminal create a new directory called `.github`. GitHub will automatically look for this directory when it's pushed to your repository.
 
 2. Create a `workflows` directory inside `.github`.
 
-3. Finally, create a `main.yml` file inside your `workflows` directory
+3. Create a `main.yml` file inside your `workflows` directory.
 
-The folder structure should look something like this:
+     The folder structure should look something like this:
 
-```text
-.github
-└── workflows
-    └── main.yml
-```
+     ```text
+     .github
+     └── workflows
+         └── main.yml
+     ```
 
 ## Actions
 
-Our actions will be defined inside of our `main.yml` file. To begin, let's open up `main.yml` in our code editor. YAML is a recursive acronym that stands for "YAML Ain't Markup Language". YAML is human-readable syntax for data that is being stored or transmitted.
+Our actions will be defined inside the `main.yml` file. To begin, let's open `main.yml` in our code editor. YAML is a recursive acronym that stands for "YAML Ain't Markup Language". YAML is human-readable syntax for data that is being stored or transmitted.
 
 * Note that the first part of this file simply gives a name to our workflow. The `on` portion specifies what should trigger the workflow. We also want our actions to run whenever someone creates a pull request to the `dev` or `main` branches.
 
-* Next we specify the `jobs` that can run sequentially or in parallel. We are specifying that we want our job `test` to run on a container that uses Ubuntu as it's operating system. This container will be spun up by GitHub when our workflow is invoked.
+* Next, we specify the `jobs` that can run sequentially or in parallel. We are specifying that we want our job `test` to run on a container that uses Ubuntu as its operating system. This container will be spun up by GitHub when our workflow is invoked.
 
 * The `steps` section contains what actions or tasks we want to run on our container. In our case we are checking out the branch, using node v12, installing dependencies, and finally running our `eslint` script.
 
@@ -106,7 +106,7 @@ Our actions will be defined inside of our `main.yml` file. To begin, let's open 
                   run: npm run eslint
     ```
 
-* Save the content of the snippet above to your `main.yml` file, then add and commit all your files and push them to Github on the main branch
+* Save the content of the snippet above to your `main.yml` file, then add and commit all your files and push them to Github on the main branch:
 
     ```sh
     git add .
@@ -124,14 +124,14 @@ Now it's time to give our linter something to complain about! We will make some 
     git checkout -b feat/linting-test
     ```
 
-2. Open `src/App.js` and add another variable called `App` just before our functional component of the same name is declared
+2. Open `src/App.js` and add another variable called `App` just before our functional component of the same name is declared:
 
     ```js
     const App = 12
     function App() { ... }
     ```
 
-3. Add and commit your changes, then push them to our `feat/linting-test` branch
+3. Add and commit your changes, then push them to the `feat/linting-test` branch:
 
     ```bash
     git add .
@@ -139,22 +139,25 @@ Now it's time to give our linter something to complain about! We will make some 
     git push origin feat/linting-test
     ```
 
-4. Head to GitHub and click "Create pull request" next to the yellow indicator for our recent change to `feat/linting-test`.
+4. Head to GitHub and click "Create pull request" next to the yellow indicator for our recent change to `feat/linting-test`:
 
     ![Pull Request](Images/01-pr.png)
 
-5. Click "Create pull request" and then click on "details".
+5. Click "Create pull request" and then click on "details":
 
     ![PR details](Images/02-details.png)
 
-6. In this view we can see the output of our workflow
+6. In this view, we can see the output of our workflow:
 
     ![Workflow](Images/03-output.png)
 
-7. The PR should be automatically marked as having failed checks, indicating the author needs to refactor some of the code.
+7. The PR should be automatically marked as having failed checks, indicating that the author needs to refactor some of the code:
 
     ![Failed checks](Images/04-failed.png)
 
 ## Conclusion
 
-Congratulations on getting some experience with GitHub actions! This is a very powerful feature that extends all the way into your CI/CD pipeline if you so choose to implement it. While you might not make use of it for every project, it can be especially useful for group projects or large organizations.
+Congratulations on getting some experience with GitHub actions! This is a very powerful feature that can extend all the way into your CI/CD pipeline if you choose to implement it. While you might not make use of it for every project, it can be especially useful for group projects and large organizations.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
