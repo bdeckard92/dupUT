@@ -20,7 +20,7 @@ Work with a partner to add comments that describe the functionality of the code 
 
 Refer to the documentation:
 
-* [React Docs on conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
+* [React docs on conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
 
 ---
 

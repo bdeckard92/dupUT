@@ -26,7 +26,7 @@ Work with a partner to implement the following user story:
 
 Refer to the documentation:
 
-[React Docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+[React docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 ## 🏆 Bonus
 

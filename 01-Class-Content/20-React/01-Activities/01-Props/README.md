@@ -30,7 +30,7 @@ The activity is done when it meets the following criteria:
 
 ## 💡 Hints
 
-* How can we use the [React Docs on components and props](https://facebook.github.io/react/docs/components-and-props.html) to understand props better?
+* How can we use the [React docs on components and props](https://facebook.github.io/react/docs/components-and-props.html) to understand props better?
 
 * What is the term **props** short for?
 
