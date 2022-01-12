@@ -42,9 +42,9 @@ In this activity, you will create a function that takes in an array and returns 
      var numbers =  [-2,1,-3,4,-1,2,1,-5,4]
      ```
 
-   * In the case above, the maximum sum you can get from adding sequential numbers is adding the numbers in the subarray [4, -1, 2, 1]. So in this case, 6 should be returned.
+   * In the previous case, the maximum sum you can get from adding sequential numbers is adding the numbers in the subarray [4, -1, 2, 1]. So in this case, 6 should be returned.
 
-   * Assume that the array will contain only integers and the integers can be positive or negative. 
+   * Assume that the array will contain only integers, and that the integers can be positive or negative. 
 
    * Assume that if there is only one integer in a given array, the value of the integer will be returned. 
 
@@ -52,13 +52,13 @@ In this activity, you will create a function that takes in an array and returns 
 
 * You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-   * Functions that PASS the tests will be denoted with a green check mark.
+   * Functions that pass the tests will be denoted with a green check mark.
 
-   * Functions that FAIL the tests will be denoted with a red X and an error message.
+   * Functions that fail the tests will be denoted with a red X and an error message.
 
 ### Hints
 
-* What properties and methods on the Math object may help simplify your solution code?
+* Which properties and methods on the Math object may help simplify your solution code?
 
 * Why is it important if the array has only positive, only negative, or both positive and negative numbers?
 

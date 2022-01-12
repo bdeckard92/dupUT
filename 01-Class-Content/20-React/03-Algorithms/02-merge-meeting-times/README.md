@@ -44,9 +44,9 @@ In this activity, you will create a function that takes in a 2D array of meeting
 
 * You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-  * Functions that PASS the tests will be denoted with a green check mark.
+  * Functions that pass the tests will be denoted with a green check mark.
 
-  * Functions that FAIL the tests will be denoted with a red X and an error message.
+  * Functions that fail the tests will be denoted with a red X and an error message.
 
 ### Hints
 

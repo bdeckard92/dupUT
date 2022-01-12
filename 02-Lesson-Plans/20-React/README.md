@@ -6,18 +6,20 @@ In this module, students will be introduced to React and the problems that it so
 
 In this week's virtual classes, you'll help students understand what React is and explain the key improvements that it makes to web development over older methods. You'll also help students learn to create reusable components rather than monolithic pages. You'll introduce students to JSX and conditional rendering. Most importantly, you'll emphasize the need to understand props and state, two pillars of being a successful React developer.
 
+The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
+
 | Day | Topic                    | Location         |
 | --- | ------------------------ | ---------------- |
 | 1   | Props                    | 20.3             |
 | 1   | State                    | 20.3 - 20.5      |
 | 1   | Git Guide                | N/A              |
 | 2   | `useEffect` Hook         | 20.3             |
-| 2   | Conditional Rendering    | 20.3             |
+| 2   | Conditional rendering    | 20.3             |
 | 2   | React forms              | 20.4             |
 
 ## Overview of Asynchronous Material
 
-Why are students learning React?
+This week in the asynchronous content, students are learning React, which is important for the following reasons:
 
 * React is important because of its proliferation throughout much of the modern web, being used by the likes of Netflix, Dropbox, Airbnb, and of course Facebook.
 
@@ -49,7 +51,9 @@ Throughout the async module this week, students will use React to do the followi
 
 * Write functions for syncing form input values with state, submitting form data, and validating that data.
 
-**Reminder**: If students need help with an async activity, encourage them to attend Office Hours for help! If you can’t get through all of it, remind them that they can lean on Learning Assistants with the AskBCS bot for more help.
+**Reminder**: If students need help with an async activity, encourage them to attend Office Hours. If they need more help, remind them that they can use Learning Assistants via the AskBCS bot.
+
+The following table contains a description of each lesson's portion of the module project and the corresponding key points that are taught:
 
 | Lesson | Description                                    | Key Points                                                                   |
 | ------ | ---------------------------------------------- | --- |
@@ -61,9 +65,11 @@ Throughout the async module this week, students will use React to do the followi
 
 ## Virtual Classes
 
-* [Virtual Class 20.1](./20.1-REQUIRED.md)
+Here are the lesson plans for this week's virtual classes:
 
-* [Virtual Class 20.2](./20.2-REQUIRED.md)
+* [20.1 Virtual Class](./20.1-REQUIRED.md)
+
+* [20.2 Virtual Class](./20.2-REQUIRED.md)
 
 ## Instructor Notes
 
@@ -98,7 +104,7 @@ According to our class data, students might experience some of the following pai
 
 ## Career Connection
 
-During each lesson that students work through, they will also view a Career Connection section that will tie together the academic content with career services and how this material will be applicable to them in their future career.
+The first virtual class of the week contains a Career Connection section, which links the current module's coursework with career services and students' future careers. During this section, it can be helpful to share examples of how you've used these skills and tools in your professional life.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
@@ -106,11 +112,9 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-Students will build a single-page portfolio page in React using skills and techniques covered in the async material. The portfolio page will feature a header area with navigation, a content area, and a footer. The portfolio will contain sections titled About Me, Portfolio, Contact, and Resume.
+For the [Module 20 Challenge](../../01-Class-Content/20-React/02-Challenge/README.md), students will build a single-page portfolio page in React using the skills and techniques covered in the async material. The portfolio page will feature a header area with navigation, a content area, and a footer. The portfolio will contain sections titled About Me, Portfolio, Contact, and Resume.
 
-[Module 20 Challenge](../../01-Class-Content/20-React/02-Challenge/README.md)
-
-Specific skills students will need to implement in order to be successful:
+Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
 * Use Create React App to make the project skeleton.
 
@@ -142,6 +146,8 @@ Specific skills students will need to implement in order to be successful:
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
 * [React Docs on props](https://reactjs.org/docs/components-and-props.html)
 
 * [React Docs on using the State Hook](https://reactjs.org/docs/hooks-state.html)
@@ -153,6 +159,8 @@ Specific skills students will need to implement in order to be successful:
 * [React Docs on forms](https://reactjs.org/docs/forms.html)
 
 ## Algorithms
+
+Here are the algorithms for this week:
 
 * [01-maximum-continuous-subarray](../../01-Class-Content/20-React/03-Algorithms/01-maximum-continuous-subarray)
 
