@@ -8,7 +8,7 @@ Before you begin this activity, complete the following steps:
 
 2. Copy the `/src` folder from [Unsolved](./Unsolved/) and paste it into [00-practice-app](../00-practice-app/).
 
-3. This project uses Bootstrap, so don't forget to import it inside `index.js`:
+3. This project uses Bootstrap, so don't forget to import it inside `index.js` by using the following command:
 
   `import 'bootstrap/dist/css/bootstrap.min.css'`
 

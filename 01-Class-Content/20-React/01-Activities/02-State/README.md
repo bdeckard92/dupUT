@@ -10,7 +10,7 @@ Before you begin this activity, complete the following steps:
 
 3. Import Bootstrap into the [index.js](./Unsolved/src/index.js) file:
 
-  `import 'bootstrap/dist/css/bootstrap.min.css'`
+   `import 'bootstrap/dist/css/bootstrap.min.css'`
 
 ## Activity
 
