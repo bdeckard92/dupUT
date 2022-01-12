@@ -2,28 +2,28 @@
 
 ## Overview
 
-In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutations and implement GraphQL on both the client and server. Students will also work with **JSON Web Tokens (JWT)** as a means of handling user authentication. Finally, they'll bring together all four technologies of the MERN stack (Mongo, Express.js, React, Node.js) to build a full-stack application.
+In this module, students will use the built-in GraphQL Playground to work with GraphQL queries and mutations, and implement GraphQL on both the client and server. Students will also work with **JSON Web Tokens (JWT)** to handle user authentication. Finally, they'll bring together all four technologies of the MERN stack (Mongo, Express.js, React, Node.js) to build a full-stack application.
 
-In this week's virtual classes, you'll cover GraphQL, including making queries arguments and mutations. These activities will also give students an opportunity to practice using the GraphQL Playground. You'll also review react Router, JSON Web Tokens, and the `useEffect` Hook.
+In this week's virtual classes, you'll cover GraphQL, including making queries, arguments, and mutations. These activities will give students an opportunity to practice using the GraphQL Playground. You'll also review react Router, JSON Web Tokens, and the `useEffect` Hook.
 
 The following table maps the key topics covered in the virtual lessons to where they are taught in the asynchronous content:
 
 | Day  | Topic              | Location   |
 | ---  | ---                | ---        |
-| 1    | Query Arguments    | 21.1       |
+| 1    | Query arguments    | 21.1       |
 | 1    | Mutations          | 21.2       |
 | 1    | Git Guide          | N/A        |
-| 2    | React Router       | 21.4       |
-| 2    | JWT Signing        | 21.2       |
+| 2    | React router       | 21.4       |
+| 2    | JWT signing        | 21.2       |
 | 2    | `useEffect` Hook   | Challenge  |
 
 ## Overview of Asynchronous Material
 
 This week in the asynchronous content, students are learning about MERN, which is important for the following reasons:
 
-* Full-stack developers are in demand for their skill set and versatility.
+* Full-stack MERN developers are in demand for their skill set and versatility.
 
-* MERN is a full JavaScript tech stack ideal for developing dynamic and interactive websites.
+* MERN is a full JavaScript tech stack that is ideal for developing dynamic and interactive websites.
 
 * The MERN stack uses JavaScript for every layer of the application, allowing students to be introduced to the full-stack architecture using a language they know.
 
@@ -72,23 +72,23 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp.
+* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Essentially, this is when students will start to focus on life after boot camp.
 
 * It is highly recommended that prior to class, you go through each demo and activity so that you are familiar with the code and can anticipate issues that students new to GraphQL and the MERN framework may face.
 
-* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
+* **Important**: [React Router recently upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> `, and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
 * Some activities rely on the GraphQL Playground. Students do not need to install a separate tool to access this technology. To use the GraphQL Playground, simply start the app using `npm install`, `npm run seed`, and `npm start`and point to `localhost:3001/graphql` in the browser.
 
-* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Homework, students must **MUST** use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class.  Alternately, students can complete the Homework using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Homework, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class.  Alternately, students can complete the Homework using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
 
-* The GraphQL activities and instructor demonstrations require a minimum npm version of 7.0.0 or greater. Prior to class, please be sure to check your npm version and update if needed. Refer to the [NPM docs on updating to latest stable version.](https://docs.npmjs.com/try-the-latest-stable-version-of-npm).
+* The GraphQL activities and instructor demonstrations require a minimum npm version of 7.0.0 or greater. Prior to class, please be sure to check your npm version and update if needed. Refer to the [NPM docs on updating to latest stable version](https://docs.npmjs.com/try-the-latest-stable-version-of-npm).
 
 * For a refresher on how to use the GraphQL Playground, see the [Apollo docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
 * The `useEffect` Hook wasn't covered in the async material; however, it's used in the Challenge. Use the class time to explain the activity and help students understand it so that they can succeed in the Challenge.
 
-* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Challenge, students must MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class. Alternately, students can complete the Challenge using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Challenge, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class. Alternately, students can complete the Challenge using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
 
 ### Common Pain Points
 
@@ -98,7 +98,7 @@ According to our class data, students might experience some of the following pai
 | ---                                             | ---                                                                                                                                                 |
 | Structure of GraphQL queries and mutations      | Refer to Lesson 1, 2, or the [GraphQL docs on queries and mutations](https://graphql.org/learn/queries/)                                            |
 | Implementing JWT authentication                 | Refer to Lesson 2 or the [JSON Web Tokens documentation introduction](https://jwt.io/introduction)                                                  |
-| Optional chaining                               | Refer to the [MDN Web docs on optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)     |
+| Optional chaining                               | Refer to the [MDN Web Docs on optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)     |
 | `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true`                                                                 |
 
 ## Career Connection
@@ -111,7 +111,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-For the [Module 21 Challenge](../../01-Class-Content/21-MERN/02-Challenge), students will take a fully functioning Google Books API search engine that was built with a RESTful API, and they'll refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
+For the [Module 21 Challenge](../../01-Class-Content/21-MERN/02-Challenge), students will take a fully functioning Google Books API search engine that was built with a RESTful API and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
 If you get an `eslint` preflight check error when running the Challenge, add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true`. The error can also be avoided by running the Challenge from the class repo to avoid conflicting `eslint` installations.
 
