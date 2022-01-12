@@ -16,7 +16,7 @@ The activity is complete when the following criteria are met:
 
 ## Assets
 
-The following image demonstrates the web application's appearance and functionality:
+The following screenshot demonstrates the web application's appearance and functionality:
 
 ![The single thought's page displays the thought's information, its list of comments, and a form to add a new comment.](./Images/01-screenshot.png)
 
@@ -28,7 +28,7 @@ The following image demonstrates the web application's appearance and functional
 
 * How can we define a route with a parameter using React Router?
 
-* How can the `useParams()` hook be used to retrieve data to be used in the `useQuery()` hook?
+* How can the `useParams()` Hook be used to retrieve data to be used in the `useQuery()` Hook?
 
 ## 🏆 Bonus
 

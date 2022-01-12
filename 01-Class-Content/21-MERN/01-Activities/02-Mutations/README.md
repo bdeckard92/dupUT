@@ -6,7 +6,7 @@ Work with a partner to resolve the following issue:
 
 ## Expected Behavior
 
-Updating a class's building number should show the new value in the returned object.
+Updating a class's building number shows the new value in the returned object.
 
 ## Actual Behavior
 

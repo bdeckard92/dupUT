@@ -6,7 +6,7 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have added a new resolver and the following GraphQL query returns a single class object:
+* It is done when I have added a new resolver and the following GraphQL query returns a single class object:
 
   ```gql
   query class($id: ID!) {
@@ -23,9 +23,9 @@ Work with a partner to implement the following user story:
 
 Refer to the documentation:
 
-[Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
+* [Apollo docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
-[Apollo docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
+* [Apollo docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
 
 ---
 
