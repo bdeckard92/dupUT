@@ -4,9 +4,9 @@ In this activity, you will create a function that takes in a string and an offse
 
 ## Instructions
 
-* Open [Unsolved/caesar-cipher.js](Unsolved/caesar-cipher.js) in your code editor. **This is the only file you will modify in this activity.**
+* Open [Unsolved/caesar-cipher.js](Unsolved/caesar-cipher.js) in your code editor. This is the only file you will modify in this activity.
 
-  * In this file, you will write code in the body of the `caesarCipher` function to achieve the following:
+* In this file, you will write code in the body of the `caesarCipher` function to achieve the following:
 
     * Return a new string with characters shifted up by the offset. The characters in the new string should maintain the same casing as the original. Assume the provided string will only contain alphabetical characters and spaces.
 
@@ -38,7 +38,7 @@ In this activity, you will create a function that takes in a string and an offse
        "Hello World";
        ```
 
-    * Because a every character has been shifted down to the previous character in the alphabet. This means that you can use a negative offset to reverse a previously encoded string.
+    * Because every character has been shifted down to the previous character in the alphabet. This means that you can use a negative offset to reverse a previously encoded string.
 
     * Given the following string and offset:
 
@@ -57,9 +57,9 @@ In this activity, you will create a function that takes in a string and an offse
 
 * You can check to see if your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-  * Functions that _pass_ the tests will be denoted with a **green check mark**.
+  * Functions that pass the tests will be denoted with a green check mark.
 
-  * Functions that _fail_ the tests will be denoted with a **red x and an error message**.
+  * Functions that fail the tests will be denoted with a red x and an error message.
 
 ### Hints
 
