@@ -80,15 +80,15 @@ Here are the lesson plans for this week's virtual classes:
 
 * Some activities rely on the GraphQL Playground. Students do not need to install a separate tool to access this technology. To use the GraphQL Playground, simply start the app using `npm install`, `npm run seed`, and `npm start`and point to `localhost:3001/graphql` in the browser.
 
-* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Homework, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class.  Alternately, students can complete the Homework using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Homework, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class.  Alternately, students can complete the Homework using the latest version of Apollo Server. Please refer them to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
 
 * The GraphQL activities and instructor demonstrations require a minimum npm version of 7.0.0 or greater. Prior to class, please be sure to check your npm version and update if needed. Refer to the [NPM docs on updating to latest stable version](https://docs.npmjs.com/try-the-latest-stable-version-of-npm).
 
-* For a refresher on how to use the GraphQL Playground, see the [Apollo docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
+* For a refresher on how to use the GraphQL Playground, see the [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
 * The `useEffect` Hook wasn't covered in the async material; however, it's used in the Challenge. Use the class time to explain the activity and help students understand it so that they can succeed in the Challenge.
 
-* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Challenge, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class. Alternately, students can complete the Challenge using the latest version of Apollo Server. Please refer them to the [Apollo Server docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
+* Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. Apollo Server 2 is currently used in the activities. For the Challenge, students MUST use the following script `npm install apollo-server-express@2.15.0` to follow the implementation used in class. Alternately, students can complete the Challenge using the latest version of Apollo Server. Please refer them to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that Apollo Server 3 requires the use of `await server.start()` before calling `server.applyMiddleware`.
 
 ### Common Pain Points
 
@@ -96,7 +96,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                                      | Recommendation                                                                                                                                      |
 | ---                                             | ---                                                                                                                                                 |
-| Structure of GraphQL queries and mutations      | Refer to Lesson 1, 2, or the [GraphQL docs on queries and mutations](https://graphql.org/learn/queries/)                                            |
+| Structure of GraphQL queries and mutations      | Refer to Lesson 1, 2, or the [GraphQL Docs on queries and mutations](https://graphql.org/learn/queries/)                                            |
 | Implementing JWT authentication                 | Refer to Lesson 2 or the [JSON Web Tokens documentation introduction](https://jwt.io/introduction)                                                  |
 | Optional chaining                               | Refer to the [MDN Web Docs on optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)     |
 | `eslint` preflight check error in Challenge app | Add an `.env` folder to the root of the project and add `SKIP_PREFLIGHT_CHECK=true`                                                                 |
@@ -131,23 +131,23 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-* Next week, students will learn about state management using the React Context API. They'll also learn about the Stripe payment platform. For more information, refer to the [React documentation on the Context API](https://reactjs.org/docs/context.html) and the [Stripe docs](https://stripe.com/docs).
+* Next week, students will learn about state management using the React Context API. They'll also learn about the Stripe payment platform. For more information, refer to the [React documentation on the Context API](https://reactjs.org/docs/context.html) and the [Stripe Docs](https://stripe.com/docs).
 
 ## Resources
 
 The following resources can help you prepare for this week's classes:
 
-* [Apollo docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
+* [Apollo Docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
 
-* [Apollo docs on schemas](https://www.apollographql.com/docs/apollo-server/schema/schema/)
+* [Apollo Docs on schemas](https://www.apollographql.com/docs/apollo-server/schema/schema/)
 
-* [GraphQL docs on mutations](https://graphql.org/learn/queries/#mutations)
+* [GraphQL Docs on mutations](https://graphql.org/learn/queries/#mutations)
 
-* [Apollo docs on mutation type](https://www.apollographql.com/docs/apollo-server/schema/schema/#the-mutation-type)
+* [Apollo Docs on mutation type](https://www.apollographql.com/docs/apollo-server/schema/schema/#the-mutation-type)
 
-* [Apollo docs on Apollo Client](https://www.apollographql.com/docs/react/)
+* [Apollo Docs on Apollo Client](https://www.apollographql.com/docs/react/)
 
-* [React Router docs on Getting Started](https://reactrouter.com/web/guides/quick-start)
+* [React Router Docs on Getting Started](https://reactrouter.com/web/guides/quick-start)
 
 * [JSON Web Tokens documentation introduction](https://jwt.io/introduction/)
 
