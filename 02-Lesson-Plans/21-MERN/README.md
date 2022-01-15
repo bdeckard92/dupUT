@@ -13,7 +13,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | 1    | Query arguments    | 21.1       |
 | 1    | Mutations          | 21.2       |
 | 1    | Git Guide          | n/a        |
-| 2    | React router       | 21.4       |
+| 2    | React Router       | 21.4       |
 | 2    | JWT signing        | 21.2       |
 | 2    | `useEffect` Hook   | Challenge  |
 
