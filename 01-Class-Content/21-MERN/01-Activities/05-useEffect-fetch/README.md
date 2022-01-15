@@ -20,7 +20,7 @@ Work with a partner to implement the following user story:
 
 Refer to the documentation:
 
-* [React docs on using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+* [React Docs on using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 ## 💡 Hints
 

@@ -1,14 +1,14 @@
 # GitHub Actions
 
-At this point in the course, you are well aware that GitHub is a very powerful tool for collaborating with multiple users on the same project. Collaboration inevitably will cause some conflicts, whether that be within the code itself or with your overall workflow. On occasion, some errors will slip past a local linter and make their way into pull requests. Wouldn't it be nice to automate something like linting before each pull request?
+At this point in the course, you are well aware that GitHub is a powerful tool for collaborating with multiple users on the same project. Collaboration inevitably will cause some conflicts, whether that be within the code or the overall workflow. On occasion, errors will slip past a local linter and make their way into pull requests. Wouldn't it be nice to automate something like linting before each pull request?
 
-GitHub Actions is a great solution to this problem. For example, you could create a GitHub action to automatically run a linter against every pull request to ensure the code meets your standards. Today, we are going to create such an action.
+GitHub Actions provides a great solution to this problem. For example, you could create a GitHub action to automatically run a linter against every pull request to ensure that the code meets your standards. Today, we are going to create such an action.
 
-* Before we begin, read the [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) to get a grasp on some of the core concepts.
+* Before we begin, read the [Introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) to understand some of the core concepts.
 
 ## Initial Project Setup
 
-To begin, start by creating a boilerplate React application and putting it on Github. While you are probably already familiar with this process, let's go through it together:
+To begin, start by creating a boilerplate React application and putting it on GitHub. While you are probably already familiar with this process, let's go through it together:
 
 1. Run `npx create-react-app gh-actions-demo` from your workspace directory.
 
@@ -30,7 +30,7 @@ To begin, start by creating a boilerplate React application and putting it on Gi
     },
     ```
 
-4. Create a new repository on your personal GitHub and name it `gh-actions-demo` for consistency. Also, make sure to **not** initialize your repository with a `README.md` or `.gitignore`.
+4. Create a new repository on your personal GitHub and name it `gh-actions-demo` for consistency. Also, make sure that you **DO NOT** initialize your repository with a `README.md` or `.gitignore`.
 
 5. Copy the first two lines of the snippet from GitHub for adding to an existing repo and paste it in the terminal:
 
@@ -51,13 +51,11 @@ To begin, start by creating a boilerplate React application and putting it on Gi
 
 Now that we have some code in our remote repository, let's create the workflow that will contain the actions we want to perform after each pull request:
 
-1. In your terminal create a new directory called `.github`. GitHub will automatically look for this directory when it's pushed to your repository.
+1. In the terminal, create a new directory called `.github`. GitHub will automatically look for this directory when it's pushed to your repository.
 
 2. Create a `workflows` directory inside `.github`.
 
-3. Create a `main.yml` file inside your `workflows` directory.
-
-     The folder structure should look something like this:
+3. Create a `main.yml` file inside your `workflows` directory. The folder structure should look something like this:
 
      ```text
      .github

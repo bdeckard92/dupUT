@@ -23,9 +23,9 @@ Work with a partner to implement the following user story:
 
 Refer to the documentation:
 
-* [Apollo docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
+* [Apollo Docs on GraphQL Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/).
 
-* [Apollo docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
+* [Apollo Docs on handling arguments](https://www.apollographql.com/docs/apollo-server/data/resolvers/#handling-arguments)
 
 ---
 
