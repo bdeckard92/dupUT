@@ -124,7 +124,7 @@ Students must know how to implement the following skills in order to succeed in 
 
 ## Heads-Up
 
-Next week, students will combine everything they've learned so far to create their first full-stack application&mdash;with Handlebars.js, MVC architecture, and front-end authentication.
+Next week, students will combine everything they've learned so far to create their first full-stack application using  Handlebars.js, MVC architecture, and front-end authentication.
 
 At the end of next week, you'll divide students into groups for their second group project. Groups of three are ideal. Create one or two groups of four if the class cannot be divided by three. Structure groups so that they include students all at the same skill level.
 
