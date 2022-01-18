@@ -11,6 +11,7 @@ In this week's virtual classes, you'll cover PWAs, primarily focusing on Webpack
 | ---  | ---                        | ---        |
 | 1    | PWA                        | 19.4, 19.5 |
 | 1    | Webpack                    | 19.2       |
+| 1    | Git Guide                  | N/A        |
 | 2    | Service Workers            | 19.4       |
 | 2    | Caching Fetching Files     | 19.4       |
 | 2    | Service Workers, Manifest  | 19.4, 19.5 |
@@ -121,11 +122,11 @@ Specific skills students will need to implement in order to be successful:
 
 ## Algorithms
 
-* [01-maximum-continuous-subarray](../../01-Class-Content/19-PWA/03-Algorithms/01-maximum-continuous-subarray)
+* [01-is-armstrong](../../01-Class-Content/19-PWA/03-Algorithms/01-is-armstrong)
 
-* [02-merge-meeting-times](../../01-Class-Content/19-PWA/03-Algorithms/02-merge-meeting-times)
+* [02-max-profit](../../01-Class-Content/19-PWA/03-Algorithms/02-max-profit)
 
-* [03-int-to-roman](../../01-Class-Content/19-PWA/03-Algorithms/03-int-to-roman)
+* [03-smallest-difference](../../01-Class-Content/19-PWA/03-Algorithms/03-smallest-difference)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
