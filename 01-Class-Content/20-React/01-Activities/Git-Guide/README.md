@@ -20,7 +20,7 @@ First we need to open the `package.json` file for the client and add an entry ca
 https://{username}.github.io/{repo-name}
 ```
 
-Your updated `package.json` should look something like this:
+Your updated `package.json` should look something like the following code snippet:
 
 ```text
 {
@@ -40,7 +40,7 @@ npm i gh-pages
 
 **Note:** You will see another package manager called `yarn` suggested by `create-react-app`. `yarn` is very similar to `npm`, but for the sake of consistency we will stick with `npm`.
 
-Now lets add the `predeploy` and `deploy` scripts to `package.json`.
+Now let's add the `predeploy` and `deploy` scripts to `package.json`:
 
 ```text
   "scripts": {

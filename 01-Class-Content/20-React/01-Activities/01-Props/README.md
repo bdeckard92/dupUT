@@ -10,7 +10,7 @@ Before you begin this activity, complete the following steps:
 
 3. This project uses Bootstrap, so don't forget to import it inside `index.js`:
 
-  `import 'bootstrap/dist/css/bootstrap.min.css'`
+   `import 'bootstrap/dist/css/bootstrap.min.css'`
 
 ## Activity
 
@@ -22,15 +22,15 @@ Work with a partner to implement the following user story:
 
 The activity is done when it meets the following criteria:
 
-* It's done when I have updated the return method in `src/components/Display.js` to render a card.
+* It is done when I have updated the return method in `src/components/Display.js` to render a card.
 
-* It's done when I have passed data for the dog's `name`, `description`, and `id` as props to the `Card` component.
+* It is done when I have passed data for the dog's `name`, `description`, and `id` as props to the `Card` component.
 
-* It's done when I have modified to `Card` component to render the `canine` properties.
+* It is done when I have modified to `Card` component to render the `canine` properties.
 
 ## 💡 Hints
 
-* How can we use the [React Docs on components and props](https://facebook.github.io/react/docs/components-and-props.html) to understand props better?
+* How can we use the [React docs on components and props](https://facebook.github.io/react/docs/components-and-props.html) to understand props better?
 
 * What is the term **props** short for?
 

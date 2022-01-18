@@ -16,17 +16,17 @@ Work with a partner to implement the following user story:
 
 ## Acceptance Criteria
 
-* It's done when I have imported `useEffect` into `Thermostat.js`.
+* It is done when I have imported `useEffect` into `Thermostat.js`.
 
-* It's done when I have set a value for the `temp` variable.
+* It is done when I have set a value for the `temp` variable.
 
-* It's done when I have used the `useEffect` Hook to set the `document.title` to the current temperature.
+* It is done when I have used the `useEffect` Hook to set the `document.title` to the current temperature.
 
 ## 📝 Notes
 
 Refer to the documentation:
 
-[React Docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+[React docs on the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 ## 🏆 Bonus
 
