@@ -1,23 +1,24 @@
-# Functional Loops
+# 📐 Add Comments to Implementation of Functional Loops
 
-In this activity, you will use the `map` and `filter` methods to solve problems we previously would have used a `for` loop for.
+Work with a partner to add comments that describe the functionality of the code found in [filter.js](./Unsolved/filter.js) and [map.js](./Unsolved/map.js).
 
-## Instructions
+## 📝 Notes
 
-* Open [map.js](Unsolved/map.js) and create the following:
+Refer to the documentation:
 
-  1. A map that triples the `originalArray` and sets the result equal to a new array, `tripledArray`.
+* [MDN Web Docs on filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-  2. A map that takes the `originalArray` and returns a new array `oddOrEven` containing the text "even" if the number is even and the text "odd" if the number is odd. 
-    
-    * For example, using this map, the array [3, 1, 2, 4] should give us back ["odd", "odd", "even", "even"].
+* [MDN Web Docs on map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-* Open [filter.js](Unsolved/filter.js) and create the following:
+---
 
-  1. A filter that runs through the `originalArray` and creates a new array `primeArray` containing only its prime numbers. You will need to use the `isPrime` function provided.
+## 🏆 Bonus
 
-  2. A filter that runs through the `originalArray` and creates a new array `moreThan5Array` containing only its numbers larger than 5.
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-## Bonus
+* What is the `reduce()` array method?
 
-* Use arrow functions as callbacks.
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

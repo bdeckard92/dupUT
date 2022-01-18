@@ -1,8 +1,35 @@
 {
-    "MD013": false,
-    "MD004": {
-        "style": "asterisk"
-    },
-    "no-hard-tabs": false,
-    "list-indent": true
+  // MD001 - Heading levels should only increment by one level at a time
+  "heading-increment": true,
+  // MD004 - Unordered list uses asterisks
+  "ul-style": {
+    "style": "asterisk"
+  },
+  // MD005 - Consistent indentation for list items at the same level
+  "list-indent": true,
+  // MD010 - Replace hard tab with spaces
+  "no-hard-tabs": true,
+  // MD012 - Only one blank line in between lines
+  "no-multiple-blanks": {
+    "maximum": 1
+  },
+  // MD013 - No rule on line length
+  "line-length": false,
+  // MD018 - No space after hash on atx style heading
+  "no-missing-space-atx": true,
+  // MD022 - Headings should be surrounded by blank lines
+  "blanks-around-headings": {
+    "lines_above": 1,
+    "lines_below": 1
+  },
+  // MD031 - Fenced code blocks should be surrounded by blank lines
+  "blanks-around-fences": true,
+  // MD035 - Horizontal rule style
+  "hr-style": {
+    "style": "---"
+  },
+  // MD038 - Spaces inside code span elements
+  "no-space-in-code": true,
+  // MD040 - Code blocks should have a language specified
+  "fenced-code-language": true
 }

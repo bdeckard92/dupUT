@@ -1,13 +1,7 @@
-const name = 'Kim';
+// TODO: Complete the 'counter' function below.
+function counter() {}
 
-function person() {
-  const name = 'Lee';
+// Displays an interactive list of the properties of the specified JavaScript object
+console.dir(counter);
 
-  // Return a function called `displayName()` with access to the `name` variable
-  // YOUR CODE HERE
-  //
-}
-
-// Invoke `displayName()` in order to print "Lee" in the console
-
-console.log(name);
+module.exports = counter;

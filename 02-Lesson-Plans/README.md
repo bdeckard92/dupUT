@@ -28,8 +28,6 @@ Only learners who are assigned to that specific class may attend these classes.
 |---            |---                            |---                       |---                             |---       |
 | Weekly Challenge & Assessment Due | Virtual Class 1   | Virtual Class 2 | New Module Released at 12:01 a.m. |          |
 
-**Note**: All classes that began **before** January 1, 2021 have a **Recommended Virtual Class** and a **Required Virtual Class**. All classes that began **after** January 1, 2021 have two **Required Virtual Classes**. For your convenience, we have linked the appropriate lesson plans in each unit's overview (the root-level README for that unit).
-
 ### Emoji Key
 
 Lesson plans use the following emojis for visual cues: 
@@ -48,27 +46,19 @@ The virtual classes follow the same format every week:
 
 #### Virtual Class 1 Time Tracker Template
 
-| Start  | #   | Activity Name                  | Duration |
-| ------ | --- | ------------------------------ | -------- |
-| 6:30PM | 1   | Introduction                   | 0:05     |
-| 6:35PM | 2   | Everyone Do: Career Connection | 0:20     |
-| 6:55PM | 3   | Instructor Demo:               | 0:05     |
-| 7:00PM | 4   | Student Do:                    | 0:15     |
-| 7:15PM | 5   | Instrutor Review:              | 0:10     |
-| 7:25PM | 6   | Instructor Demo:               | 0:05     |
-| 7:30PM | 7   | Student Do:                    | 0:15     |
-| 7:45PM | 8   | Instructor Review:             | 0:10     |
-| 7:55PM | 9   | Recap                          | 0:05     |
-| 8:00PM | 10  | Office Hours                   | 0:30     |
-| 8:30PM | 11  | End                            | N/A      |
-
-**Note**: If you are teaching a course that started **after** January 1, 2021, the first 2 items in the time tracker will look slightly different:
-
-| Start  | #   | Activity Name                     | Duration |
-| ------ | --- | ------------------------------    | -------- |
-| 7:00PM | 1   | Everyone Do: Career Connection    | 0:20     |
-| 7:20PM | 2   | Instructor Do: Student Check-In   | 0:05     |
-
+| Start  | #   | Activity Name                   | Duration |
+| ------ | --- | ------------------------------  | -------- |
+| 6:30PM | 1   | Everyone Do: Career Connection  | 0:05     |
+| 6:35PM | 2   | Instructor Do: Student Check-In | 0:20     |
+| 6:55PM | 3   | Instructor Demo:                | 0:05     |
+| 7:00PM | 4   | Student Do:                     | 0:15     |
+| 7:15PM | 5   | Instrutor Review:               | 0:10     |
+| 7:25PM | 6   | Instructor Demo:                | 0:05     |
+| 7:30PM | 7   | Student Do:                     | 0:15     |
+| 7:45PM | 8   | Instructor Review:              | 0:10     |
+| 7:55PM | 9   | Recap                           | 0:05     |
+| 8:00PM | 10  | Office Hours                    | 0:30     |
+| 8:30PM | 11  | End                             | N/A      |
 
 #### Virtual Class 2 Time Tracker Template
 
@@ -106,4 +96,4 @@ The second virtual class is held on a Wednesday or Thursday, depending on your s
 By the time this class meets, your class should be nearly done with their asynchronous material and should be working on their Challenge.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
