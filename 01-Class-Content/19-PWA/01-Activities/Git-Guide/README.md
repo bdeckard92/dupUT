@@ -156,4 +156,4 @@ Remember, though, that everyone on your team would need to set up this Git hook 
 * Our `post-checkout` hook used a regular expression. For more information, look over the [regular expression syntax cheatsheet from the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet).
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
