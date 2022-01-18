@@ -2,18 +2,18 @@
 
 ## Overview
 
-In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, implement conditional rendering, use React Hooks like `useEffect()`, and finally learn how to dispatch actions to update state.
+In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, and finally learn how to dispatch actions to update state.
 
-In this week's virtual classes, you'll cover state management, particularly using the React Context API. You'll review how to create actions and reducers, test the reducers, implement global state, and introduce Redux.
+In this week's virtual classes, you'll cover state management, particularly using the React Context API. You'll review how to use providers, consumers, reducers, and actions.
 
 | Day | Topic                                                | Location   |
 | --- | ---------------------------------------------------- | ---------- |
-| 1   | Actions, Reducers, `useReducer` Hook                 | 22.1       |
-| 1   | Testing Reducers                                     | 22.1, 22.2 |
+| 1   | Providers                                            | 22.1       |
+| 1   | Consumers                                            | 22.1       |
 | 1   | Git Guide                                            | N/A        |
-| 2   | Global State, `createContext` and `useContext` Hooks | 22.1, 22.2 |
-| 2   | Global State Refactor                                | 22.1       |
-| 2   | Redux Documentation                                  | Challenge  |
+| 2   | Reducers                                             | 22.1       |
+| 2   | Actions                                              | 22.1       |
+| 2   | `useReducer` Hook                                    | 22.1       |
 
 ## Overview of Asynchronous Material
 
@@ -66,11 +66,17 @@ Throughout the async module this week, students will use state management to do 
 
 * **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
-* Note that the included `00-React-App` includes a service worker out of the box, which means that it offers progressive web app capabilities with little to no configuration. The service worker is no longer included in the default behavior for the most recent version of the `create-react-app` utility. Be sure to communicate this to students to avoid setting expectations that Create React App, by default, will allow for progressive web applications. To create a React application that is ready to be a progressive web application using the `create-react-app` utility, refer to the [Create React App documentation on creating a PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/).
+* The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
 
-* The `05-Redux-Docs` activity is unique in that it isn't only a coding activity. To prepare the students for the Challenge and also their career, the activity requires them to examine the official Redux documentation. Emphasize to the students how important it will be on the job for them to be able to sift through documentation to find information that addresses the specific problem that they're trying to solve.
+* **Important**: In order to avoid continuous NPM installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. Swap out the `src` folder for each activity in `00-practice-app`. It's recommended that you completely restart the dev server between activities.
 
-* **Important**: To avoid continuous npm installs, all of the Solved and Unsolved folders for this week's activities include only a `src` folder. Use the React app provided in [00-React-App](../../01-Class-Content/20-React/01-Activities/00-React-App) and swap out the `src` folder for each activity. It's recommended that you completely restart the dev server between activities.
+* To avoid errors due to conflicting versions of ESLint in the repo, navigate to `00-practice-app` in the command line and run the following command:
+
+  ```sh
+  echo "SKIP_PREFLIGHT_CHECK=true" > .env
+  ```
+
+* In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documention to find information on specific issues and then apply that information to their own code.
 
 * Information about the final group project, Project 03, must go out during this week's second virtual class!
 
@@ -115,7 +121,7 @@ Specific skills students will need to implement in order to be successful:
 
 ## Heads-Up
 
-* Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
+* Next week, students will begin work on their final projects. These projects are student-driven; they will be responsible for forming their own teams, brainstorming app ideas, and developing a full-stack app. Encourage students to start forming groups and brainstorming ideas for their apps, and be prepared to help anyone who is struggling to find a group or project idea.
 
 * There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
@@ -123,23 +129,17 @@ Specific skills students will need to implement in order to be successful:
 
 * [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
+* [React documentation on Context.Provider](https://reactjs.org/docs/context.html#contextprovider)
+
+* [React documentation on useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+* [Redux Docs on reducers](https://redux.js.org/faq/reducers/)
+
+* [Redux Docs on actions](https://redux.js.org/faq/actions/)
+
 * [React documentation on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
-* [Create React App documentation on running tests](https://create-react-app.dev/docs/running-tests/)
-
-* [React documentation on Context](https://reactjs.org/docs/context.html)
-
-* [React documentation on useEffect](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
-
 * [Redux documentation](https://redux.js.org/)
-
-## Algorithms
-
-* [01-roman-to-int](../../01-Class-Content/22-State/03-Algorithms/01-roman-to-int)
-
-* [02-rotation-point](../../01-Class-Content/22-State/03-Algorithms/02-rotation-point)
-
-* [03-simplify-path](../../01-Class-Content/22-State/03-Algorithms/03-simplify-path)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
