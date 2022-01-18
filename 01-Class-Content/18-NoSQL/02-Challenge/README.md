@@ -22,38 +22,38 @@ SO THAT my website can handle large amounts of unstructured data
 GIVEN a social network API
 WHEN I enter the command to invoke the application
 THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia Core for users and thoughts
+WHEN I open API GET routes in Insomnia for users and thoughts
 THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia Core
+WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
 
 
 ## Mock-Up
 
-The following animations show examples of the application's API routes being tested in Insomnia Core.
+The following animations show examples of the application's API routes being tested in Insomnia.
 
-The first animation shows GET routes to return all users and all thoughts being tested in Insomnia Core:
+The first animation shows GET routes to return all users and all thoughts being tested in Insomnia:
 
 ![Homework Demo 01](./Assets/18-nosql-homework-demo-01.gif)
 
-The second animation shows GET routes to return a single user and a single thought being tested in Insomnia Core:
+The second animation shows GET routes to return a single user and a single thought being tested in Insomnia:
 
 ![Homework Demo 02](./Assets/18-nosql-homework-demo-02.gif)
 
-The third animation shows the POST, PUT, and DELETE routes for users being tested in Insomnia Core:
+The third animation shows the POST, PUT, and DELETE routes for users being tested in Insomnia:
 
 ![Homework Demo 03](./Assets/18-nosql-homework-demo-03.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for thoughts being tested in Insomnia Core.
+Your walkthrough video should also show the POST, PUT, and DELETE routes for thoughts being tested in Insomnia.
 
-The final animation shows the POST and DELETE routes for a user’s friend list being tested in Insomnia Core:
+The final animation shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
 
 ![Homework Demo 04](./Assets/18-nosql-homework-demo-04.gif)
 
-Your walkthrough video should also show the POST and DELETE routes for reactions to thoughts being tested in Insomnia Core.
+Your walkthrough video should also show the POST and DELETE routes for reactions to thoughts being tested in Insomnia.
 
 
 ## Getting Started
@@ -210,4 +210,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

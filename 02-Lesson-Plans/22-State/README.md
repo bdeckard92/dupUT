@@ -63,9 +63,7 @@ Throughout the async module this week, students will use state management to do 
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp. Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
 
-* Be sure to prepare and read over the activities before your class begins.
-
-* Many of the activities this week allow students to review the skills needed for final projects. Because the code and activities will be familiar, encourage students to use activity time to explore the code, ask questions, and build on their existing skills. Encourage students who need an additional challenge to explore the Bonus.
+* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
 * The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
 
@@ -79,7 +77,7 @@ Throughout the async module this week, students will use state management to do 
 
 * In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documention to find information on specific issues and then apply that information to their own code.
 
-* Information about the upcoming group project must go out during this week's second virtual class!
+* Information about the final group project, Project 03, must go out during this week's second virtual class!
 
   * This time, students will self-assign themselves into groups of 3. Be ready to step in and help out with making groups as necessary.
 
@@ -124,6 +122,8 @@ Specific skills students will need to implement in order to be successful:
 
 * Next week, students will begin work on their final projects. These projects are student-driven; they will be responsible for forming their own teams, brainstorming app ideas, and developing a full-stack app. Encourage students to start forming groups and brainstorming ideas for their apps, and be prepared to help anyone who is struggling to find a group or project idea.
 
+* There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
 ## Resources
 
 * [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
@@ -141,4 +141,4 @@ Specific skills students will need to implement in order to be successful:
 * [Redux documentation](https://redux.js.org/)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

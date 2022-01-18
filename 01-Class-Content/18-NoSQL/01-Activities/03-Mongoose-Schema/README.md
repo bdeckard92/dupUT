@@ -16,7 +16,7 @@ In this activity, you will create a schema for the User model with Mongoose.
 
 * To test it out, run `npm install` and `npm start` in your command line to start the server.
 
-  * Open Insomnia Core and make a POST request to `/submit` with data for a new user in JSON format.
+  * Open Insomnia and make a POST request to `/submit` with data for a new user in JSON format.
 
   * You should see your new user created in the data returned from our POST request. 
 
