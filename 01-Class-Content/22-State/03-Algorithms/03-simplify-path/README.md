@@ -65,7 +65,7 @@ In this activity you will be writing code to create a function that takes in a s
         var path = "/a/b/c/d/..";
         ```
 
-      * Given the preceding path, the following should be returned, because we `cd` into `/a/b/c/d/` and then come up one directory: 
+      * Given the preceding path, the following should be returned, because we `cd` into `/a/b/c/d/` and then come up one directory:
 
         ```js
         "/a/b/c";
@@ -82,4 +82,4 @@ In this activity you will be writing code to create a function that takes in a s
 Examine the examples provided here to make sure that you understand file paths. Experiment in your terminal to learn how changing directories will affect your folder location.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

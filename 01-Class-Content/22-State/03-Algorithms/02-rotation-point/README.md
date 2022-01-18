@@ -45,4 +45,4 @@ In this activity you will be writing code to create a function that takes in an 
 The process for checking whether one string precedes another alphabetically is similar to checking the order of numbers.
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

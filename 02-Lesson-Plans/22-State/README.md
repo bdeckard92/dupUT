@@ -76,7 +76,7 @@ Throughout the async module this week, students will use state management to do 
   echo "SKIP_PREFLIGHT_CHECK=true" > .env
   ```
 
-* In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documention to find information on specific issues and then apply that information to their own code.
+* In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documentation to find information on specific issues and then apply that information to their own code.
 
 * Information about the final group project, Project 03, must go out during this week's second virtual class!
 

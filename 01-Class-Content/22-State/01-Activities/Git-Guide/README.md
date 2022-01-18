@@ -29,14 +29,14 @@ First we will create an app that will eventually be used by GitHub Actions to au
 
 The `Procfile` is a small text file that will tell Heroku which command to execute to start your app.
 
-1. Create a `Procfile` at the root of the project directory, with a `web` command that tells Heroku which npm script needs to run for the application to start. We can do this quickly, from the command line, with the following command: 
+1. Create a `Procfile` at the root of the project directory, with a `web` command that tells Heroku which npm script needs to run for the application to start. We can do this quickly, from the command line, with the following command:
 
     ```sh
     echo "web: npm start" > Procfile
     ```
 
    * The `echo` command outputs the string that is passed inside the quotation marks.
-   
+
    * The `>`, or the **redirection operator**, means that anything inside the quotes will be redirected to the destination that follows the `>`. In this case, we inject the string into `Procfile`. The file doesn't exist, so Bash creates one.
 
 2. Create a new folder called `.github` and another folder inside of it called `workflows`. After this, we will create the `main.yml` file, defining the workflow for GitHub. See the following example:
@@ -113,7 +113,7 @@ The `Procfile` is a small text file that will tell Heroku which command to execu
 
 ## Heroku Steps
 
-Now we need to make a new Heroku app to deploy to. 
+Now we need to make a new Heroku app to deploy to.
 
 1. First, navigate to the [Heroku dashboard](https://dashboard.heroku.com/apps) and select New in the top right. Next, choose App and accept the randomly generated app name provided for you. You can set a custom one, but the one you want might already be in use.
 
@@ -155,7 +155,7 @@ Any changes that are made to your main branch will invoke your CD workflow on Gi
 
 ## The One-Click Solution (Optional)
 
-**Important**: The following step is an alternative to creating a workflow. Setting up both the one-click solution and a workflow is redundant and not recommended. 
+**Important**: The following step is an alternative to creating a workflow. Setting up both the one-click solution and a workflow is redundant and not recommended.
 
 With continuous deployment, you can be as granular or as hands-off as you want. Heroku offers a button in your project settings that does something similar to what you just accomplished using Actions. You can use it by following these steps.
 
@@ -191,9 +191,9 @@ Congratulations on setting up continuous deployment for your app! It is importan
 
 * [YAML documentation](https://yaml.org/)
 
-* [GitHub documentation on continuous integration](https://docs.github.com/en/actions/guides/about-continuous-integration) 
+* [GitHub documentation on continuous integration](https://docs.github.com/en/actions/guides/about-continuous-integration)
 
-* [GitHub documentation on GitHub Actions](https://docs.github.com/en/actions) 
+* [GitHub documentation on GitHub Actions](https://docs.github.com/en/actions)
 
 * [Heroku documentation on automatic deploys](https://devcenter.heroku.com/articles/github-integration#automatic-deploys)
 
