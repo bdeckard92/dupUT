@@ -10,6 +10,7 @@ In this week's virtual classes, you'll cover state management, particularly usin
 | --- | ---------------------------------------------------- | ---------- |
 | 1   | Providers                                            | 22.1       |
 | 1   | Consumers                                            | 22.1       |
+| 1   | Git Guide                                            | N/A        |
 | 2   | Reducers                                             | 22.1       |
 | 2   | Actions                                              | 22.1       |
 | 2   | `useReducer` Hook                                    | 22.1       |
