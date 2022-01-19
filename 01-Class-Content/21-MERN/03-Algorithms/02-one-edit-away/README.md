@@ -4,9 +4,9 @@ In this activity, you will create a function that takes in two strings and retur
 
 ## Instructions
 
-* Open [Unsolved/one-edit-away.js](Unsolved/one-edit-away.js) in your code editor. **This is the only file you will modify in this activity.**
+* Open [Unsolved/one-edit-away.js](Unsolved/one-edit-away.js) in your code editor. This is the only file you will modify in this activity.
 
-  * In this file, you will write code in the body of the `oneEditAway` function to achieve the following:
+* In this file, you will write code in the body of the `oneEditAway` function to achieve the following:
 
     * Return `true` if the strings are one character edit away from each other, else return `false`.
 
@@ -68,13 +68,13 @@ In this activity, you will create a function that takes in two strings and retur
        false;
        ```
 
-    * Because the strings are the same, they are no edits away. We only return `true` if the strings are _exactly_ one edit away.
+    * Because the strings are the same, they are no "edits away." We only return `true` if the strings are _exactly_ one edit away.
 
 * You can check to see if your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
-  * Functions that _pass_ the tests will be denoted with a **green check mark**.
+  * Functions that pass the tests will be denoted with a green check mark.
 
-  * Functions that _fail_ the tests will be denoted with a **red x and an error message**.
+  * Functions that fail the tests will be denoted with a red x and an error message.
 
 ### Hints
 

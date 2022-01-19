@@ -1,4 +1,4 @@
-# 🐛 Class Mutation Does Not Show that Object Was Updated
+# 🐛 Class Mutation Does Not Show That Object Was Updated
 
 Work with a partner to resolve the following issue:
 
@@ -6,7 +6,7 @@ Work with a partner to resolve the following issue:
 
 ## Expected Behavior
 
-Updating a class's building number should show the new value in the returned object.
+Updating a class's building number shows the new value in the returned object.
 
 ## Actual Behavior
 
@@ -42,7 +42,7 @@ Follow these steps to reproduce the problem:
     }
     ```
 
-6. Note that the `building` property in the returned data is not set to `"AA"`
+6. Note that the `building` property in the returned data is not set to `"AA"`.
 
 ---
 
