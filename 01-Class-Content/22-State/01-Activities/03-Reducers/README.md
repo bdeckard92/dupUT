@@ -1,6 +1,6 @@
-# 🐛 Reducer Fails to Add/Remove Students
+# 🐛 Reducer Fails to Add or Remove Students
 
-Work with a partner to resolve the following issue(s):
+Work with a partner to resolve the following issues:
 
 * As a developer, I want to implement reducers into my application to update global state.
 
@@ -8,7 +8,7 @@ Work with a partner to resolve the following issue(s):
 
 ## Setup
 
-Copy the `src` directory from the activity folder into `00-practice-app` before you begin.
+Before you begin, copy the `src` directory from the activity folder into `00-practice-app`.
 
 ## Expected Behavior
 
@@ -20,6 +20,8 @@ The suite that tests the reducer is failing for adding and removing student func
 
 ## Steps to Reproduce the Problem
 
+To reproduce the problem, follow these steps:
+
 1. Navigate to the `Unsolved/` folder and run `npm install`.
 
 2. Run `npm run test`.
@@ -30,15 +32,15 @@ The suite that tests the reducer is failing for adding and removing student func
 
 ## 💡 Hints
 
-How does the test's error message inform us about where the error is occurring?
+* How does the test's error message inform us where the error is occurring?
 
-How can we use `switch` statements to an advantage in this activity?
+* How can we use `switch` statements to an advantage in this activity?
 
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-* Where have we seen the term **reduce** elsewhere in Javascript?
+* Where have we seen the term "reduce" elsewhere in Javascript?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
