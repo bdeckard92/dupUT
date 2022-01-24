@@ -2,7 +2,7 @@
 
 Your Challenge this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
 
-This week, you’ll take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
+This week, you’ll take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
 To fulfill the Challenge, you’ll need to do the following:
 
@@ -55,9 +55,8 @@ THEN I am presented with all of the books I have saved to my account, each featu
 WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
 ```
-
 
 ## Mock-Up
 
@@ -75,7 +74,6 @@ A user can view their saved books on a separate page, as shown in the following 
 
 ![The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.](./Assets/21-mern-homework-demo-03.gif)
 
-
 ## Getting Started
 
 In order for this application to use a GraphQL API, you’ll need to refactor the API to use GraphQL on the back end and add some functionality to the front end. The following sections contain details about the files you’ll need to modify on the back end and the front end.
@@ -90,64 +88,63 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 * `server.js`: Implement the Apollo Server and apply it to the Express server as middleware.
 
-	> **Important:** Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. To implement Apollo Server 2 as demonstrated in the activities, you **MUST** use the following script `npm install apollo-server-express@2.15.0` to install Apollo Server 2. Alternately, to migrate to the latest version of Apollo Server, please refer to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that if you are using Apollo Server 3 you are required use `await server.start()` before calling `server.applyMiddleware`.
+> **Important:** Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. To implement Apollo Server 2 as demonstrated in the activities, you **MUST** use the following script `npm install apollo-server-express@2.15.0` to install Apollo Server 2. Alternately, to migrate to the latest version of Apollo Server, please refer to the [Apollo Server Docs on Migrating to Apollo Server 3](https://www.apollographql.com/docs/apollo-server/migration/#nodejs) and [Apollo Server Docs on Implementing Apollo Server Express with v3](https://www.apollographql.com/docs/apollo-server/integrations/middleware/#apollo-server-express). Note that if you are using Apollo Server 3 you are required use `await server.start()` before calling `server.applyMiddleware`.
 
 * `Schemas` directory:
 
-	* `index.js`: Export your typeDefs and resolvers.
+  * `index.js`: Export your typeDefs and resolvers.
 
-	* `resolvers.js`: Define the query and mutation functionality to work with the Mongoose models.
+  * `resolvers.js`: Define the query and mutation functionality to work with the Mongoose models.
 
-		> **Hint:** Use the functionality in the `user-controller.js` as a guide.
+    > **Hint:** Use the functionality in the `user-controller.js` as a guide.
 
-	* `typeDefs.js`: Define the necessary `Query` and `Mutation` types:
+  * `typeDefs.js`: Define the necessary `Query` and `Mutation` types:
 
-		* `Query` type:
+    * `Query` type:
 
-			* `me`: Which returns a `User` type.
-		
-		* `Mutation` type:
+      * `me`: Which returns a `User` type.
 
-			* `login`: Accepts an email and password as parameters; returns an `Auth` type.
+    * `Mutation` type:
 
-			* `addUser`: Accepts a username, email, and password as parameters; returns an `Auth` type.
+      * `login`: Accepts an email and password as parameters; returns an `Auth` type.
 
-			* `saveBook`: Accepts a book author's array, description, title, bookId, image, and link as parameters; returns a `User` type. (Look into creating what's known as an `input` type to handle all of these parameters!)
+      * `addUser`: Accepts a username, email, and password as parameters; returns an `Auth` type.
 
-			* `removeBook`: Accepts a book's `bookId` as a parameter; returns a `User` type.
-			
-		* `User` type:
+      * `saveBook`: Accepts a book author's array, description, title, bookId, image, and link as parameters; returns a `User` type. (Look into creating what's known as an `input` type to handle all of these parameters!)
 
-			* `_id`
+      * `removeBook`: Accepts a book's `bookId` as a parameter; returns a `User` type.
 
-			* `username`
+    * `User` type:
 
-			* `email`
+      * `_id`
 
-			* `bookCount`
+      * `username`
 
-			* `savedBooks` (This will be an array of the `Book` type.)
+      * `email`
 
-		* `Book` type:
+      * `bookCount`
 
-			* `bookId` (Not the `_id`, but the book's `id` value returned from Google's Book API.)
+      * `savedBooks` (This will be an array of the `Book` type.)
 
-			* `authors` (An array of strings, as there may be more than one author.)
+    * `Book` type:
 
-			* `description`
+      * `bookId` (Not the `_id`, but the book's `id` value returned from Google's Book API.)
 
-			* `title`
+      * `authors` (An array of strings, as there may be more than one author.)
 
-			* `image`
+      * `description`
 
-			* `link`
+      * `title`
 
-		* `Auth` type:
+      * `image`
 
-			* `token`
+      * `link`
 
-			* `user` (References the `User` type.)
+    * `Auth` type:
 
+      * `token`
+
+      * `user` (References the `User` type.)
 
 ### Front-End Specifications
 
@@ -157,31 +154,31 @@ You'll need to create the following front-end files:
 
 * `mutations.js`:
 
-	* `LOGIN_USER` will execute the `loginUser` mutation set up using Apollo Server.
+  * `LOGIN_USER` will execute the `loginUser` mutation set up using Apollo Server.
 
-	* `ADD_USER` will execute the `addUser` mutation.
+  * `ADD_USER` will execute the `addUser` mutation.
 
-	* `SAVE_BOOK` will execute the `saveBook` mutation.
+  * `SAVE_BOOK` will execute the `saveBook` mutation.
 
-	* `REMOVE_BOOK` will execute the `removeBook` mutation.
+  * `REMOVE_BOOK` will execute the `removeBook` mutation.
 
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 
 * `App.js`: Using `ApolloClient`, `InMemoryCache`, `createHttpLink`, and `setContext` from the Apollo Client library, create an Apollo Provider to make every request work with the Apollo server.
-	
+
 * `SearchBooks.js`:
 
-	* Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file. Define and export the `SAVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`.
+  * Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file. Define and export the `SAVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`.
 
-	* Make sure you keep the logic for saving the book's ID to state in the `try...catch` block! 
+  * Make sure you keep the logic for saving the book's ID to state in the `try...catch` block!
 
 * `SavedBooks.js`:
 
-	* Remove the `useEffect()` Hook that sets the state for `UserData`.
+  * Remove the `useEffect()` Hook that sets the state for `UserData`.
 
-	* Instead, use the `useQuery()` Hook to execute the `GET_ME` query on load and save it to a variable named `userData`. Define and export the `GET_ME` query in a new file at `/client/src/utils/queries.js`.
+  * Instead, use the `useQuery()` Hook to execute the `GET_ME` query on load and save it to a variable named `userData`. Define and export the `GET_ME` query in a new file at `/client/src/utils/queries.js`.
 
-	* Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. Define and export the `REMOVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`. (Make sure you keep the `removeBookId()` function in place!)
+  * Use the `useMutation()` Hook to execute the `REMOVE_BOOK` mutation in the `handleDeleteBook()` function instead of the `deleteBook()` function that's imported from `API` file. Define and export the `REMOVE_BOOK` mutation in a new file at `/client/src/utils/mutations.js`. (Make sure you keep the `removeBookId()` function in place!)
 
 * `SignupForm.js`: Replace the `addUser()` functionality imported from the `API` file with the `ADD_USER` mutation functionality. Define and export the `ADD_USER` mutation in a new file at `/client/src/utils/mutations.js`.
 
@@ -195,5 +192,5 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

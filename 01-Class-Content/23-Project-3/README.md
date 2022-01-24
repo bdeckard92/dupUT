@@ -65,4 +65,4 @@ Refer to the following general resources for more information about topics cover
 * [GraphQL course](https://www.youtube.com/watch?v=ed8SzALpx1Q)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

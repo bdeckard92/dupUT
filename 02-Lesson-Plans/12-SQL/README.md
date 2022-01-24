@@ -154,4 +154,4 @@ Here are the algorithms for this week:
 * [03-merge-sorted](../../01-Class-Content/12-SQL/03-Algorithms/03-merge-sorted)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
