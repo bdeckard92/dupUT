@@ -8,37 +8,31 @@ At the end of this week, your group will present the application to your classma
 
 ## Key Topics
 
-The following topics will be covered in this module:
+The following topics will be covered in this unit:
 
-* Full-stack MERN applications
-
-* Collaborative full-stack development
+* Full-stack applications
 
 * [Git branching workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 
 * [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
 
-* Professional-grade portfolio and resume
+* Collaborative development
 
 ## Learning Objectives
 
-You will be employer-competitive if you are able to:
+You will be employer-ready if you are able to:
+
+* Speak technically about a feature you implemented in your project
+
+* Explain and execute git branching workflow in a collaborative project
+
+* Resolve merge conflicts
 
 * Explain agile software development
 
-* Explain and execute git workflow in a collaborative project
-
-* Communicate with team members asynchronously
-
-* Design, build, and deploy a full-stack MERN application using Heroku
+* Design, build and deploy a full-stack MERN application to Heroku
 
 * Prepare a professional presentation and repository README for your project
-
-* Speak technically about the features in your application
-
-* Polish your professional-grade portfolio to show all 3 deployed group projects, in addition to 2-3 of your best homework assignments or personal projects.
-
-* Update your resume detailing your newly acquired skillset.
 
 ## Heads Up
 
@@ -52,7 +46,7 @@ This section contains some additional resources to help you understand the topic
 
 ### Full-Stack Blog Posts
 
-Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
+Check out the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, like walkthroughs, articles, and installation guides.
 
 * 📖 [Setting up MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas)
 
@@ -62,13 +56,9 @@ Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) f
 
 Refer to the following resources for more information about topics covered in this module:
 
-* [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
+* [Project Management with GitHub Project Boards](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards)
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
-
-* [Employer-Ready vs Employer-Competitive](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp)
-
-* [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
