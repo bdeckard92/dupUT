@@ -500,9 +500,9 @@
       }
     </style>
     <script>
-      $(function() {
+      $(function () {
         let $select2 = $('.select2').select2({
-          containerCssClass: 'wrap'
+          containerCssClass: 'wrap',
         });
 
         function triggerEvent(name, val) {
@@ -511,7 +511,7 @@
           selected[0].dispatchEvent(change);
         }
 
-        $('.select2').on('select2:select', function(e) {
+        $('.select2').on('select2:select', function (e) {
           triggerEvent(e.target.name, e.target.value);
         });
       });
@@ -521,7 +521,7 @@
   <body>
     <div id="app"></div>
     <script>
-      (function(window) {
+      (function (window) {
         'use strict';
 
         function Model() {
@@ -537,7 +537,7 @@
                   score: 8,
                   type: 'true false',
                   message: "Application isn't deployed",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -545,23 +545,23 @@
                   score: 8,
                   type: 'true false',
                   message: "Application isn't deployed",
-                  status: false
+                  status: false,
                 },
                 {
                   title: 'Student submitted application GitHub URL',
                   score: 8,
                   type: 'true false',
                   message: 'Missing GitHub submission URL',
-                  status: false
+                  status: false,
                 },
                 {
                   title: 'GitHub Repo contains application code',
                   score: 8,
                   type: 'true false',
                   message: 'GitHub repo is empty',
-                  status: false
-                }
-              ]
+                  status: false,
+                },
+              ],
             },
             {
               title: 'Technical Acceptance Criteria',
@@ -575,7 +575,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't use the redux and react-redux npm packages",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -584,7 +584,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't use a Redux store or uses the Context API for its store",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -593,7 +593,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't use a Redux Provider or uses a Context API Provider",
-                  status: false
+                  status: false,
                 },
                 {
                   title: 'Application passes reducers to a Redux store',
@@ -601,7 +601,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't pass reducers to a Redux store or uses the Context API",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -610,7 +610,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't use the useSelector Hook to extract state data from the store or uses the Context API",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -619,7 +619,7 @@
                   type: 'true false',
                   message:
                     "Application doesn't use the useDispatch Hook to dispatch actions or uses the Context API",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -628,7 +628,7 @@
                   type: 'true false',
                   message:
                     'Users are no longer able to sign up or log in to the application',
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -636,9 +636,9 @@
                   score: 5,
                   type: 'true false',
                   message:
-                    "Users are no longer able to use the application's shopping cart"
-                }
-              ]
+                    "Users are no longer able to use the application's shopping cart",
+                },
+              ],
             },
             {
               title: 'Repository Quality',
@@ -650,7 +650,7 @@
                   score: 2,
                   type: 'true false',
                   message: "Repo doesn't have a unique name",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -659,7 +659,7 @@
                   type: 'true false',
                   message:
                     "Code doesn't follow recommended file/folder structure",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -668,7 +668,7 @@
                   type: 'true false',
                   message:
                     "Code doesn't follow good practices for class/id names, indentation, lacks quality comments",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -677,7 +677,7 @@
                   type: 'true false',
                   message:
                     "Repo doesn't contain multiple descriptive commit messages",
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -688,28 +688,28 @@
                     {
                       message:
                         "Repo doesn't include a high quality README with screenshots, a description, link to deployed application",
-                      score: 0
+                      score: 0,
                     },
                     {
                       message:
                         'Repository README is missing 2 of the following: description, screenshot, or link to deployed application',
-                      score: 2
+                      score: 2,
                     },
                     {
                       message:
                         'Repository README is missing 1 of the following: description, screenshot, or link to deployed application',
-                      score: 4
+                      score: 4,
                     },
                     {
                       message:
                         'Repository contains quality README with description, screenshot, link to deployed application',
-                      score: 5
-                    }
+                      score: 5,
+                    },
                   ],
                   message: '',
-                  status: false
-                }
-              ]
+                  status: false,
+                },
+              ],
             },
             {
               title: 'Application Quality',
@@ -725,26 +725,26 @@
                     {
                       message:
                         'Application user experience is not intuitive and easy to navigate',
-                      score: 0
+                      score: 0,
                     },
                     {
                       message:
                         'Application user experience could be much more intuitive and easy to navigate',
-                      score: 2
+                      score: 2,
                     },
                     {
                       message:
                         'Application user experience could be a lot more intuitive and easy to navigate',
-                      score: 4
+                      score: 4,
                     },
                     {
                       message:
                         'Application user experience is intuitive and easy to navigate',
-                      score: 5
-                    }
+                      score: 5,
+                    },
                   ],
                   message: '',
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -755,26 +755,26 @@
                     {
                       message:
                         'Application user interface is not clean and polished',
-                      score: 0
+                      score: 0,
                     },
                     {
                       message:
                         'Application user interface could be much better',
-                      score: 2
+                      score: 2,
                     },
                     {
                       message:
                         'Application user interface could be a bit better',
-                      score: 4
+                      score: 4,
                     },
                     {
                       message:
                         'Application user interface style is clean and polished',
-                      score: 5
-                    }
+                      score: 5,
+                    },
                   ],
                   message: '',
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -785,28 +785,28 @@
                     {
                       message:
                         "Application doesn't resemble the mock-up functionality provided in Challenge instructions",
-                      score: 0
+                      score: 0,
                     },
                     {
                       message:
                         'Application could resemble mock-up functionality provided with Challenge instructions much more closely',
-                      score: 2
+                      score: 2,
                     },
                     {
                       message:
                         'Application could resemble mock-up functionality provided with Challenge instructions a bit more closely',
-                      score: 4
+                      score: 4,
                     },
                     {
                       message:
                         'Application resembles the mock-up functionality provided in Challenge instructions',
-                      score: 5
-                    }
+                      score: 5,
+                    },
                   ],
                   message: '',
-                  status: false
-                }
-              ]
+                  status: false,
+                },
+              ],
             },
             {
               title: 'Academic Integrity',
@@ -819,7 +819,7 @@
                   score: 0,
                   type: 'true false',
                   message: null,
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -827,7 +827,7 @@
                   score: 0,
                   type: 'true false',
                   message: null,
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -835,7 +835,7 @@
                   score: 0,
                   type: 'true false',
                   message: null,
-                  status: false
+                  status: false,
                 },
                 {
                   title:
@@ -843,16 +843,16 @@
                   score: 0,
                   type: 'true false',
                   message: null,
-                  status: false
-                }
-              ]
-            }
+                  status: false,
+                },
+              ],
+            },
           ];
 
           this.initStorage();
         }
 
-        Model.prototype.initStorage = function() {
+        Model.prototype.initStorage = function () {
           this.score = 0;
           this.questions = [];
           this.messages = new Set();
@@ -860,9 +860,9 @@
           this.isDarkMode =
             JSON.parse(localStorage.getItem('isDarkMode')) || false;
 
-          this.categories.forEach(category => {
+          this.categories.forEach((category) => {
             category.score = 0;
-            category.questions.forEach(question => {
+            category.questions.forEach((question) => {
               question.category = category.title;
               question.status = false;
               question.id = this.questions.length;
@@ -876,7 +876,7 @@
 
               let messageObj = {
                 message: question.message,
-                category: question.category
+                category: question.category,
               };
 
               question.message &&
@@ -888,12 +888,12 @@
           });
         };
 
-        Model.prototype.toggleDarkMode = function() {
+        Model.prototype.toggleDarkMode = function () {
           this.isDarkMode = !this.isDarkMode;
           localStorage.setItem('isDarkMode', this.isDarkMode);
         };
 
-        Model.prototype.toggleRadio = function(radio) {
+        Model.prototype.toggleRadio = function (radio) {
           const id = Number(radio.getAttribute('name'));
           const question = this.questions[id];
           const questionScore = document.querySelector(
@@ -911,7 +911,7 @@
 
           if (question.status === true) {
             if (!question.bonus) {
-              this.messages.forEach(message => {
+              this.messages.forEach((message) => {
                 if (message.message === question.message) {
                   this.messages.delete(message);
                 }
@@ -919,7 +919,7 @@
             } else {
               let messageObj = {
                 message: question.message,
-                category: category
+                category: category,
               };
               this.messages.add(messageObj);
             }
@@ -938,12 +938,12 @@
               if (question.message) {
                 let messageObj = {
                   message: question.message,
-                  category: category
+                  category: category,
                 };
                 this.messages.add(messageObj);
               }
             } else {
-              this.messages.forEach(message => {
+              this.messages.forEach((message) => {
                 if (message.message === question.message) {
                   this.messages.delete(message);
                 }
@@ -961,11 +961,11 @@
             }
 
             const catQuestions = this.categories.filter(
-              cat => cat.title === category
+              (cat) => cat.title === category
             )[0].questions;
             let categoryTotal = 0;
 
-            catQuestions.forEach(question => {
+            catQuestions.forEach((question) => {
               if (question.type === 'true false') {
                 if (question.status) {
                   categoryTotal += question.score;
@@ -983,7 +983,7 @@
           }
         };
 
-        Model.prototype.handleSelect = function(select) {
+        Model.prototype.handleSelect = function (select) {
           const id = Number(select.getAttribute('name'));
           const question = this.questions[id];
           const questionScore = document.querySelector(
@@ -1004,7 +1004,7 @@
           }
 
           if (question.type === 'likert') {
-            this.messages.forEach(item => {
+            this.messages.forEach((item) => {
               if (item.message === question.message) {
                 this.messages.delete(item);
               }
@@ -1014,7 +1014,7 @@
 
             let messageObj = {
               message: newMessage,
-              category: category
+              category: category,
             };
 
             this.messages.add(messageObj);
@@ -1025,11 +1025,11 @@
           questionScore.textContent = select.value;
 
           const catQuestions = this.categories.filter(
-            cat => cat.title === category
+            (cat) => cat.title === category
           )[0].questions;
           let categoryTotal = 0;
 
-          catQuestions.forEach(question => {
+          catQuestions.forEach((question) => {
             if (question.type === 'true false') {
               if (question.status) {
                 categoryTotal += question.score;
@@ -1046,7 +1046,7 @@
           resultsCategoryScore.textContent = categoryTotal;
         };
 
-        Model.prototype.calcGrade = function() {
+        Model.prototype.calcGrade = function () {
           const roundedScore = Math.min(100, Math.ceil(this.score));
 
           let letterGrade = '';
@@ -1082,7 +1082,7 @@
           return letterGrade;
         };
 
-        Model.prototype.hasFlags = function() {
+        Model.prototype.hasFlags = function () {
           return this.flagged.size > 0;
         };
 
@@ -1092,7 +1092,7 @@
           this.cacheDom();
         }
 
-        View.prototype.cacheDom = function() {
+        View.prototype.cacheDom = function () {
           this.darkModeToggle = document.querySelector('#dark-mode');
 
           this.radios = Array.from(
@@ -1108,8 +1108,8 @@
           this.summary = document.querySelector('.summary');
 
           this.model.categories
-            .filter(category => category.title !== 'Academic Integrity')
-            .map(category => {
+            .filter((category) => category.title !== 'Academic Integrity')
+            .map((category) => {
               let summary = category.title.replace(/\s+/g, '-').toLowerCase();
               let summaryName = summary + '-summary';
               return (this[summaryName] = document.querySelector(
@@ -1120,8 +1120,8 @@
           this.resetButton = document.querySelector('.reset');
 
           this.model.categories
-            .filter(category => category.title !== 'Academic Integrity')
-            .map(category => {
+            .filter((category) => category.title !== 'Academic Integrity')
+            .map((category) => {
               let button = category.title.replace(/\s+/g, '-').toLowerCase();
               let buttonName = 'copyButton-' + button;
               return (this[buttonName] = document.querySelector(
@@ -1130,14 +1130,14 @@
             });
         };
 
-        View.prototype.createFieldset = function({
+        View.prototype.createFieldset = function ({
           title,
           id,
           score,
           status,
           category,
           type,
-          options
+          options,
         }) {
           return `<fieldset class="input-group">
           <legend>
@@ -1165,7 +1165,7 @@
             <select name="${id}" class="select-lg select2 narrow wrap">
               <option value="0" selected>Open this menu</option>
               ${options.map(
-                option =>
+                (option) =>
                   `<option value="${option.score}">${option.score} - ${option.message}</option>`
               )}
             </select>
@@ -1174,11 +1174,11 @@
         </fieldset>`;
         };
 
-        View.prototype.createCard = function({
+        View.prototype.createCard = function ({
           title,
           subtitle,
           questions,
-          score
+          score,
         }) {
           return `<div class="card">
           <div class="card-header"><h2>${title}</h2> ${
@@ -1191,11 +1191,11 @@
               : ''
           }</div>
           ${subtitle ? `<h3>${subtitle}</h3>` : ''}
-          ${questions.map(child => this.createFieldset(child)).join('')}
+          ${questions.map((child) => this.createFieldset(child)).join('')}
           </div>`;
         };
 
-        View.prototype.createResults = function() {
+        View.prototype.createResults = function () {
           return `<div class="card">
         <h2>Recommended Grade: <span class="grade">F</span></h2>
         <h2 class="totals">Total: (0/100)</h2>
@@ -1206,8 +1206,8 @@
         </div>
         <div class="summary" aria-label="summary">
         ${this.model.categories
-          .filter(category => category.title !== 'Academic Integrity')
-          .map(category => {
+          .filter((category) => category.title !== 'Academic Integrity')
+          .map((category) => {
             let score = category.score;
             let title = category.title;
             let catClass = title.replace(/\s+/g, '-').toLowerCase();
@@ -1223,8 +1223,8 @@
               catClass +
               "'>" +
               [...this.model.messages]
-                .filter(messageObj => messageObj.category === category.title)
-                .map(messageObj => `* ${messageObj.message}\n`)
+                .filter((messageObj) => messageObj.category === category.title)
+                .map((messageObj) => `* ${messageObj.message}\n`)
                 .join('') +
               "</pre><button class='copy copy-" +
               catClass +
@@ -1239,7 +1239,7 @@
       </div>`;
         };
 
-        View.prototype.createHeader = function(title, isDarkMode = false) {
+        View.prototype.createHeader = function (title, isDarkMode = false) {
           return `<header>
             <h1>${title}</h1>
             <div class="switch-group">
@@ -1250,10 +1250,10 @@
               </label>
             </div>
           </header>
-          `;
+          <h2>Note: This is an extra credit assignment for students, and they are not required to complete it.</h2>`;
         };
 
-        View.prototype.generateHTML = function() {
+        View.prototype.generateHTML = function () {
           this.wrapper = document.querySelector('#app');
 
           if (this.model.isDarkMode) {
@@ -1275,7 +1275,7 @@
           this.wrapper.innerHTML = header + survey + results;
         };
 
-        View.prototype.update = function() {
+        View.prototype.update = function () {
           const roundedScore = Math.min(100, Math.ceil(this.model.score));
           this.totals.textContent = `Total: (${roundedScore}/ 100)`;
 
@@ -1295,13 +1295,13 @@
           }
 
           this.model.categories
-            .filter(category => category.title !== 'Academic Integrity')
-            .forEach(category => {
+            .filter((category) => category.title !== 'Academic Integrity')
+            .forEach((category) => {
               let catClass = category.title.replace(/\s+/g, '-').toLowerCase();
 
               this[catClass + '-summary'].innerHTML = [...this.model.messages]
-                .filter(messageObj => messageObj.category === category.title)
-                .map(messageObj => `* ${messageObj.message}\n`)
+                .filter((messageObj) => messageObj.category === category.title)
+                .map((messageObj) => `* ${messageObj.message}\n`)
                 .join('');
             });
         };
@@ -1312,8 +1312,8 @@
           this.addEventListeners();
         }
 
-        Controller.prototype.addEventListeners = function() {
-          this.view.wrapper.addEventListener('change', event => {
+        Controller.prototype.addEventListeners = function () {
+          this.view.wrapper.addEventListener('change', (event) => {
             const { target } = event;
 
             if (target.name !== 'dark-mode') {
@@ -1331,14 +1331,16 @@
             this.model.initStorage();
 
             this.view.radios.forEach(
-              radio => (radio.checked = radio.hasAttribute('checked'))
+              (radio) => (radio.checked = radio.hasAttribute('checked'))
             );
 
-            this.view.selects.forEach(select => (select.selectedIndex = null));
+            this.view.selects.forEach(
+              (select) => (select.selectedIndex = null)
+            );
 
             this.model.questions
-              .filter(question => question.category !== 'Academic Integrity')
-              .forEach(question => {
+              .filter((question) => question.category !== 'Academic Integrity')
+              .forEach((question) => {
                 const id = question.id;
                 const questionScore = document.querySelector(
                   "span[data-id='" + id + "']"
@@ -1347,8 +1349,8 @@
               });
 
             this.model.categories
-              .filter(category => category.title !== 'Academic Integrity')
-              .forEach(category => {
+              .filter((category) => category.title !== 'Academic Integrity')
+              .forEach((category) => {
                 const title = category.title;
                 const categoryScore = document.querySelector(
                   "span[data-cat='" + title + "']"
@@ -1365,8 +1367,8 @@
           });
 
           this.model.categories
-            .filter(category => category.title !== 'Academic Integrity')
-            .forEach(category => {
+            .filter((category) => category.title !== 'Academic Integrity')
+            .forEach((category) => {
               let title = category.title.replace(/\s+/g, '-').toLowerCase();
               let buttonName = 'copyButton-' + title;
 
