@@ -1,6 +1,8 @@
-# 🏗️ Implement Global State with React Context API
+# 🏗️ Implement Global State Using React Context API
 
-Initializing a React application by using the `create-react-app` command-line utility can take some time. To save time throughout this unit, we will create one React application and only replace the `/src` files for each subsequent activity as we work on them. Before you add comments to the code, you will practice the workflow for creating a React app and updating your practice app for subsequent activities.
+Using the `create-react-app` command-line utility to initialize a React application can take some time. Therefore, to save time throughout this module, we will create one React application and only replace the `src` files for subsequent activities as we work on them. 
+
+Before you add comments to the code, you will practice the workflow for creating a React app and updating your practice app for subsequent activities.
 
 To do this, follow these steps:
 
@@ -8,21 +10,21 @@ To do this, follow these steps:
 
   2. Run the command `npx create-react-app 00-practice-app`.
 
-  3. After `create-react-app` has completed (which can take a few minutes), copy the `/src` folder from each activity and paste it into [00-practice-app](../00-practice-app/).
+  3. After `create-react-app` has completed (which can take a few minutes) and before each activity, copy the `src` folder from the activity and paste it into [00-practice-app](../00-practice-app/).
 
 ## Activity
 
 Work with a partner to implement the following user story:
 
-* As a developer, I want to consume data/values from a single, global source across my entire React application.
+* As a developer, I want to consume data and values from a single, global source across my entire React application.
 
 ## Acceptance Criteria
 
-* It's done when a global state object has been defined with the following properties: an array of students with `name` and `major` properties.
+* It is done when a global state object has been defined with the following properties: an array of students with `name` and `major` properties.
 
-* It's done when the provider is made available to child components.
+* It is done when the provider is made available to child components.
 
-* It's done when the associated test suite passes with zero failures when `npm run test` is run.
+* It is done when the associated test suite passes with zero failures when `npm run test` is run.
 
 ---
 

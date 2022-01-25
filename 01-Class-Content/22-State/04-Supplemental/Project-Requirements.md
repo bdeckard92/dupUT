@@ -1,5 +1,7 @@
 # Project Requirements
 
+Your project must meet the following requirements:
+
 * Use React for the front end.
 
 * Use GraphQL with a Node.js and Express.js server.
@@ -26,7 +28,7 @@
 
 Finally, you must add your project to the portfolio that you created in Module 20.
 
-You should also consider the following suggestions to help your project stand out.
+You should also consider the suggestions in the following sections to help your project stand out.
 
 ## CSS Styling
 
@@ -42,16 +44,16 @@ Ultimately, it doesn't matter which of these options you choose; your project ju
 
 ## Payment Platform
 
-Consider integrating the Stripe payment platform. If you don’t create an e-commerce application, you could use Stripe to enable your site to accept charitable donations.
+Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could use Stripe to enable your site to accept charitable donations.
 
 ## Bonus
 
 Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
 
-* Uses a web manifest
+* Uses a web manifest.
 
-* Uses a service worker for offline functionality
+* Uses a service worker for offline functionality.
 
-* Is installable
+* Is installable.
 
-**More details about the project will be provided in the lessons for Module 23 in Canvas.**
+**More details about the project are provided in the lessons for Module 23 in Canvas.**

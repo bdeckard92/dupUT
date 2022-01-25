@@ -1,12 +1,12 @@
 # Simplify Path
 
-In this activity you will be writing code to create a function that takes in a string representing an absolute file path and then simplifies it, similar to `path.join`.
+In this activity, you will write code to create a function that takes in a string that represents an absolute file path and then simplifies it, similar to `path.join`.
 
 ## Instructions
 
-* Open [Unsolved/simplify-path.js](Unsolved/simplify-path.js) in your code editor -- this is the only file you will modify in this activity.
+* Open [Unsolved/simplify-path.js](Unsolved/simplify-path.js) in your code editor; this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `simplifyPath()` function to achieve the following:
+  * In this file, you will write code in the body of the `simplifyPath()` function to achieve the following:
 
     * Return a simplified canonical version of the file path.
 
@@ -28,7 +28,7 @@ In this activity you will be writing code to create a function that takes in a s
         var path = "/../";
         ```
 
-      * Given the preceding path, the following should be returned, because there's no way to `cd ..` from the root directory.
+      * Given the preceding path, the following should be returned, because there's no way to `cd ..` from the root directory:
 
         ```js
         "/";
@@ -40,7 +40,7 @@ In this activity you will be writing code to create a function that takes in a s
         var path = "/a/./b/../../c/";
         ```
 
-      * We start at folder `a`, then `cd` into folder `b`, which is inside `a`. We come up one level, back to `a`, and up another level, to the root, then go into `c`, which is at the root level. So, given the preceding path, the following should be returned:
+      * We start at folder `a`, then `cd` into folder `b`, which is inside `a`. We come up one level, back to `a`, and up another level, to the root, then go into `c`, which is at the root level. So given the preceding path, the following should be returned:
 
 
         ```js
@@ -53,7 +53,7 @@ In this activity you will be writing code to create a function that takes in a s
         var path = "/a/../../b/../c//.//";
         ```
 
-      * This is like the previous example, but consecutive instances of `/` are collapsed into one `/`, and a single `.` alone doesn't change directories. So, given the preceding path, the following should be returned:
+      * This is like the previous example, but consecutive instances of `/` are collapsed into one `/`, and a single `.` alone doesn't change directories. So given the preceding path, the following should be returned:
 
         ```js
         "/c";

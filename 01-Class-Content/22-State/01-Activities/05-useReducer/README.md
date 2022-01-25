@@ -2,7 +2,7 @@
 
 Work with a partner to implement the following user story:
 
-* As a developer I want to use a Hook to define and respond to actions in my app, allowing me to have better control over complex state changes.
+* As a developer, I want to use a Hook to define and respond to actions in my app, allowing me to have better control over complex state changes.
 
 ## Setup
 
@@ -10,17 +10,17 @@ Copy the `src` directory from the activity folder into `00-practice-app` before 
 
 ## Acceptance Criteria
 
-* It's done when I have used `studentContext` to provide the initial state for my reducer.
+* It is done when I have used `studentContext` to provide the initial state for my reducer.
 
-* It's done when I have implemented `onClick` actions for adding and removing students using `dispatch()`.
+* It is done when I have implemented `onClick` actions for adding and removing students using `dispatch()`.
 
-* It's done when the component renders correctly without errors in the browser.
+* It is done when the component renders correctly without errors in the browser.
 
 ## 📝 Notes
 
 Refer to the documentation:
 
-[React documentation on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+[React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
 ---
 
