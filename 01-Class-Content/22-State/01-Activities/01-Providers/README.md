@@ -1,6 +1,6 @@
 # 🏗️ Implement Global State Using React Context API
 
-Using the `create-react-app` command-line utility to initialize a React application can take some time. Therefore, to save time throughout this module, we will create one React application and only replace the `src` files for subsequent activities as we work on them. 
+Using the `create-react-app` command-line utility to initialize a React application can take some time. Therefore, to save time throughout this module, we will create one React application and only replace the `src` file for subsequent activities as we work on them. 
 
 Before you add comments to the code, you will practice the workflow for creating a React app and updating your practice app for subsequent activities.
 

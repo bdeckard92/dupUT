@@ -18,9 +18,7 @@ Copy the `src` directory from the activity folder into `00-practice-app` before 
 
 ## 📝 Notes
 
-Refer to the documentation:
-
-[React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+Refer to the documentation: [React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will expand their knowledge of state by using the React Context API to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, and finally learn how to dispatch actions in order to update state.
+In this module, students will expand their knowledge of state by using the React Context API in order to implement a Redux-like store to manage state globally. Students will create actions and reducers to manipulate the global state, and learn how to dispatch actions to update state.
 
 In this week's virtual classes, you'll review state management, particularly using the React Context API. You'll review how to use providers, consumers, reducers, and actions.
 
@@ -12,7 +12,7 @@ The following table maps the key topics covered in the virtual lessons to where 
 | --- | ---------------------------------------------------- | ---------- |
 | 1   | Providers                                            | 22.1       |
 | 1   | Consumers                                            | 22.1       |
-| 1   | Git Guide                                            | n/a        |
+| 1   | Git Guide                                            | N/A        |
 | 2   | Reducers                                             | 22.1       |
 | 2   | Actions                                              | 22.1       |
 | 2   | `useReducer` Hook                                    | 22.1       |
@@ -25,11 +25,11 @@ This week, students are learning about state management, which is important for 
 
 * When working on larger-scale or enterprise-level React projects, managing global state using the React Context API or a third-party solution like Redux is a critical part of the application's success.
 
-* The larger an application becomes, the more the initial time investment in setting up global state management pays dividends.
+* The larger an application becomes, the more the initial time investment in setting up global state management pays off.
 
 * State management expands on the students' existing knowledge of state within React applications.
 
-* Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive.
+* Having the ability to implement a global state management framework or API allows students to go from employer-ready to employer-competitive!
 
 Throughout the async module this week, students will use state management to do the following:
 
@@ -54,7 +54,7 @@ The following table contains a description of each lesson's portion of the modul
 | Lesson | Description                                  | Key Points                                                        |
 | ------ | -------------------------------------------- | ----------------------------------------------------------------- |
 | 1      | Create a Global Store                        | Create actions and reducers, implement Context API                |
-| 2      | Build the Shopping Cart UI                   | Implement state globally; update and delete arrays with reducers  |
+| 2      | Build the Shopping Cart UI                   | Implement state globally, update and delete arrays with reducers  |
 | 3      | Add Shopping Cart Persistence with IndexedDB | Use IndexedDB for caching within a component                      |
 | 4      | Add Checkout with Stripe                     | Generate checkout session via Stripe API, handle delayed requests |
 
@@ -68,13 +68,13 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. Basically, students will focus on life after boot camp. Think about the questions you had when preparing for your job search, and try to anticipate any questions that students might have.
+* This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. The focus starts to shift to life after boot camp. Think about the questions you had when preparing for your job search as you try to anticipate any questions that students might have.
 
 * **Important**: [React Router recently upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6), which includes important changes to `<Switch>`, `<Redirect> `, and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities (as currently written), please instruct students to use the following npm command to install React Router version 5: `npm install react-router-dom@5`.
 
-* The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` which will be used for all the activities this week.
+* The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
 
-* **Important**: In order to avoid continuous npm installs, all of this week's activities' Solved and Unsolved folders include only a `src` folder. For each activity, swap out the `src` folder in `00-practice-app`. It's recommended that you completely restart the dev server between activities.
+* **Important**: In order to avoid continuous npm installs, all of this week's activities' `Solved` and `Unsolved` folders include only a `src` folder. For each activity, swap out the `src` folder in `00-practice-app`. It is recommended that you completely restart the dev server between activities.
 
 * To avoid errors due to conflicting versions of ESLint in the repo, navigate to `00-practice-app` in the command line and run the following command:
 
@@ -84,9 +84,9 @@ Here are the lesson plans for this week's virtual classes:
 
 * In the state management activities, emphasis is placed on having the students refer to the documentation. Explain that on the job, it is important to be able to use documentation to find information on specific issues and then apply that information to their own code.
 
-* Information about the final group project, Project 03, must be communicated during this week's second virtual class!
+* You must communicate information about the final group project, Project 03, during this week's second virtual class:
 
-  * For this project, students will self-assign themselves into groups of 3. Be ready to step in and help create groups as necessary.
+  * For this project, students will self-assign themselves into groups of three. Be ready to step in and help create groups as necessary.
 
   * Review the [project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md).
 
@@ -96,7 +96,7 @@ According to our class data, students might experience some of the following pai
 
 | Pain Point                             | Recommendation                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------- | ---                                                                                                                                                                                                                                                                                                                                            |
-| Understanding which React Hook to use  | Refer students to the [React Docs on Hooks](https://reactjs.org/docs/hooks-intro.html)..                                                                                                                                                                                                                                               |
+| Understanding which React Hook to use  | Refer students to the [React Docs on Hooks](https://reactjs.org/docs/hooks-intro.html).                                                                                                                                                                                                                                               |
 | Knowing when to use global state       | Advise students that not all applications call for the use of global state management. Refer students to the [React Docs on Context](https://reactjs.org/docs/context.html#before-you-use-context).                                                                                                                                   |
 | Pure vs. impure functions              | Advise students that pure functions do not mutate the data that is passed to them, whereas impure functions do. Refer students to the [Wikipedia page on pure functions](https://en.wikipedia.org/wiki/Pure_function).                                                                                                                           |
 | Choosing between Redux and Context API | Advise students that while Redux and the Context API have some similarities, they are different tools with different capabilities. If the only thing you need to do is avoid prop drilling, then the Context API is probably your best choice. When you need to track changes in state over a long period of time, Redux is the better choice. |
@@ -112,11 +112,11 @@ If you'd like more information on career services, visit the [career services re
 ## Module Challenge
 
 For the [Module 22 Challenge](../../01-Class-Content/22-State/02-Challenge/README.md)
-, students will refactor the e-commerce platform that they created in this module, updating the way it handles complex state management using the Context API and changing it to Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much to refactor the application, but they'll need to read through the Redux documentation to find the right information.
+, students will refactor the e-commerce platform that they created in this module, updating the way it handles complex state management from using the Context API to using Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much code in order to refactor the application, but they'll need to read through the Redux documentation to find out how to do it.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
-* Read and understand third-party documentation to understand how to use a new technology.
+* Read and understand third-party documentation to understand a new technology.
 
 * Refactor an existing application to use Redux.
 
