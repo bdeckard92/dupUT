@@ -40,7 +40,7 @@ Throughout the async module this week, students will use state management to do 
 
 * Use IndexedDB within a React component.
 
-* Generate a checkout session with the Stripe API.
+* Generate a checkout session with the Stripe API. [Refer to](https://stripe.com/docs/testing).
 
 * Handle delayed requests using the `useLazyQuery` Hook.
 
