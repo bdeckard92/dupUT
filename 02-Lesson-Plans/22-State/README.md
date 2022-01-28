@@ -114,7 +114,6 @@ Specific skills students will need to implement in order to be successful:
 
 * Implement actions and reducers to update state.
 
-* Implement Stripe API [Stripe docs on testing your integration](https://stripe.com/docs/testing)
 
 > **Important:** Let students know that this Challenge is extra credit!
 
