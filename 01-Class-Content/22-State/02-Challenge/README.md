@@ -14,7 +14,6 @@ I WANT my platform to use Redux to manage global state instead of the Context AP
 SO THAT my website's state management is taken out of the React ecosystem
 ```
 
-
 ## Acceptance Criteria
 
 ```md
@@ -31,7 +30,6 @@ WHEN I review the way the app dispatches actions
 THEN I find that the app uses Redux instead of the Context API
 ```
 
-
 ## Mock-Up
 
 The following animations show the web application's appearance and functionality:
@@ -42,13 +40,11 @@ The following animations show the web application's appearance and functionality
 
 ![Demo #3](./Assets/22-state-homework-demo-03.gif)
 
-
 ### Getting Started
 
 Read through the [Redux basic tutorial](https://redux.js.org/basics/basic-tutorial) to learn how to add Redux to your application. Note that the documentation will refer to additional packages that you'll need in order to complete this implementation.
 
 > **Important:** Make sure you look through ALL the documentation, because there are newer methods available that can make these tools much easier to implement. Remember that React has gone through several iterations, and some React + Redux tutorials that you find will assume that you aren't using Hooks.
-
 
 ## Review
 

@@ -111,8 +111,7 @@ If you'd like more information on career services, visit the [career services re
 
 ## Module Challenge
 
-For the [Module 22 Challenge](../../01-Class-Content/22-State/02-Challenge/README.md)
-, students will refactor the e-commerce platform that they created in this module, updating the way it handles complex state management from using the Context API to using Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much code in order to refactor the application, but they'll need to read through the Redux documentation to find out how to do it.
+For the [Module 22 Challenge](../../01-Class-Content/22-State/02-Challenge/README.md), students will refactor the e-commerce platform that they created in this module, updating the way it handles complex state management from using the Context API to using Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much code in order to refactor the application, but they'll need to read through the Redux documentation to find out how to do it.
 
 Students must know how to implement the following skills in order to succeed in this week's Challenge:
 
