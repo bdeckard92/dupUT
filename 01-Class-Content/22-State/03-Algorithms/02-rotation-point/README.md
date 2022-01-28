@@ -1,12 +1,12 @@
 # Rotation Point
 
-In this activity you will be writing code to create a function that takes in an array of strings. These strings will be in sorted order, but the array might be rotated. Return the index of the rotation, or `-1` if there is none.
+In this activity, you will write code to create a function that takes in an array of strings. These strings will be in sorted order, but the array might be rotated. Return the index of the rotation, or `-1` if there is none.
 
 ## Instructions
 
-* Open [Unsolved/rotation-point.js](Unsolved/rotation-point.js) in your code editor -- this is the only file you will modify in this activity.
+* Open [Unsolved/rotation-point.js](Unsolved/rotation-point.js) in your code editor; this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `rotationPoint()` function to achieve the following:
+  * In this file, you will write code in the body of the `rotationPoint()` function to achieve the following:
 
     * If the sorted array has been rotated, return the index of rotation, else return -1. The rotation point will be the first word that is less than the previous word alphabetically.
 

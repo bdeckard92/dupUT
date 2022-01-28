@@ -10,13 +10,13 @@ Copy the `src` directory from the activity folder into `00-practice-app` before 
 
 ## Acceptance Criteria
 
-* It's done when the `studentList` component pulls the global state variables `students` and `majors`.
+* It is done when the `studentList` component pulls the global state variables `students` and `majors`.
 
-* It's done when the `studentList` components add and remove buttons to update the global state object.
+* It is done when the `studentList` components add and remove buttons to update the global state object.
 
-* It's done when changes in global state are reflected in necessary components.
+* It is done when changes in global state are reflected in the necessary components.
 
-* It's done when the components render properly in the browser.
+* It is done when the components render properly in the browser.
 
 ---
 

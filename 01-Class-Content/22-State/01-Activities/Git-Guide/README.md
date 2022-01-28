@@ -1,16 +1,16 @@
 # CI/CD Using GitHub Actions
 
-In this guide, we will explore how applications are constantly updated and released to the public smoothly and seamlessly: we will revisit GitHub Actions to set up automated continuous deployment of an application to Heroku. **Continuous deployment (CD)** describes the automated process by which new features and bug fixes are delivered to end users.
+In this guide, we will explore how applications are constantly updated and released to the public smoothly and seamlessly by revisiting GitHub Actions to set up automated continuous deployment of an application to Heroku. **Continuous deployment (CD)** describes the automated process by which new features and bug fixes are delivered to end users.
 
-CD often accompanies **continuous integration (CI)**, which describes when developers merge all their existing copies of code into a shared branch several times a day. As changes to a repository compound on each other, developers encounter more complications when submitting their work. The **CI/CD pipeline**, then, keeps the codebase up to date and evolving with the developers that work on it.
+CD often accompanies **continuous integration (CI)**, which describes when developers merge all of their existing copies of code into a shared branch several times a day. As changes to a repository compound, developers encounter more complications when submitting their work. The **CI/CD pipeline**, then, keeps the codebase up to date and evolving with the developers that work on it.
 
-Although this particular guide covers continuous deployment with Heroku, you can use the same process for other platforms, such as Netlify, Vercel, and many others. There is no shortage of cloud providers that you can choose from to deploy your applications -- and because technologies are constantly emerging and evolving, developers need to be well-rounded and adaptable to new platforms.
+Although this particular guide covers continuous deployment with Heroku, you can use the same process for other platforms, such as Netlify, Vercel, and many others. There is no shortage of cloud providers that you can use to deploy your applications -- and because technologies are constantly emerging and evolving, developers need to be well-rounded and adaptable to new platforms.
 
 ## Create the App
 
-First we will create an app that will eventually be used by GitHub Actions to automatically deploy to Heroku.
+First, we will create an app that will eventually be used by GitHub Actions to automatically deploy to Heroku by following these steps:
 
-1. Create a new boilerplate React application in a directory of your choice. After the app has been created, navigate to that directory, as follows:
+1. Create a new boilerplate React application in a directory of your choice. After the app has been created, navigate to that directory using the following commands:
 
     ```sh
     npx create-react-app github-cd
@@ -19,7 +19,7 @@ First we will create an app that will eventually be used by GitHub Actions to au
 
 2. Navigate to GitHub and create a new repository of the same name. Opt out of the README and `.gitignore` initialization.
 
-3. Copy the remote URL from your newly created GitHub repository and add it to your current project, as follows:
+3. Copy the remote URL from your newly created GitHub repository and add it to your current project using the following command:
 
     ```sh
     git remote add origin <github_remote_url>
@@ -27,9 +27,9 @@ First we will create an app that will eventually be used by GitHub Actions to au
 
 ## Create Procfile and main.yml
 
-The `Procfile` is a small text file that will tell Heroku which command to execute to start your app.
+The `Procfile` is a small text file that will tell Heroku which command to execute to start your app. Follow these steps to create the `Procfile` and `main.yml`:
 
-1. Create a `Procfile` at the root of the project directory, with a `web` command that tells Heroku which npm script needs to run for the application to start. We can do this quickly, from the command line, with the following command:
+1. Create a `Procfile` at the root of the project directory, with a `web` command that tells Heroku which npm script needs to run for the application to start. You can do this quickly, from the command line, using the following command:
 
     ```sh
     echo "web: npm start" > Procfile
@@ -39,7 +39,7 @@ The `Procfile` is a small text file that will tell Heroku which command to execu
 
    * The `>`, or the **redirection operator**, means that anything inside the quotes will be redirected to the destination that follows the `>`. In this case, we inject the string into `Procfile`. The file doesn't exist, so Bash creates one.
 
-2. Create a new folder called `.github` and another folder inside of it called `workflows`. After this, we will create the `main.yml` file, defining the workflow for GitHub. See the following example:
+2. Create a new folder called `.github` and another folder inside of it called `workflows`. After this, create the `main.yml` file, defining the workflow for GitHub. See the following example:
 
       ```sh
       mkdir .github && cd .github
@@ -49,7 +49,7 @@ The `Procfile` is a small text file that will tell Heroku which command to execu
 
     **Note**: Any file prefixed by a `.` is hidden to the operating system. Running `ls` won't show those files or folders. To see them, run `ls -a`. The `-a` flag stands for "all."
 
-3. Return to the root of your project directory and open your code editor, as follows:
+3. Return to the root of your project directory and open your code editor by entering the following commands:
 
     ```sh
     cd ../..
@@ -113,7 +113,7 @@ The `Procfile` is a small text file that will tell Heroku which command to execu
 
 ## Heroku Steps
 
-Now we need to make a new Heroku app to deploy to.
+Now we need to make a new Heroku app to deploy to. To do that, follow these steps:
 
 1. First, navigate to the [Heroku dashboard](https://dashboard.heroku.com/apps) and select New in the top right. Next, choose App and accept the randomly generated app name provided for you. You can set a custom one, but the one you want might already be in use.
 
@@ -124,6 +124,8 @@ Now we need to make a new Heroku app to deploy to.
     ![In Heroku, an API Key appears hidden in a text box, with a Reveal button on the right side of the window.](Images/02-heroku-api.png)
 
 ## GitHub Steps
+
+To set up GitHub Actions, follow these steps:
 
 1. Navigate to the repository on GitHub and then select Settings for the repository (not your account settings).
 
@@ -137,11 +139,11 @@ Now we need to make a new Heroku app to deploy to.
 
 ## Finishing Up
 
-* Once you save your secret, double-check that you updated your `main.yml` file with the name of your Heroku app and the address associated with your account.
+Follow these final steps to complete the process:
 
-* Finally, we need to add and commit the changes and push to GitHub. Once we do this, we will be able to automatically deploy to Heroku using GitHub Actions.
+1. After you save your secret, double-check that you updated your `main.yml` file with the name of your Heroku app and the address associated with your account.
 
-* Commit your changes to the `.github/` directory as well as the `Procfile`, as follows:
+2. Finally, add and commit the changes and push them up to GitHub. Once you do this, you will be able to automatically deploy to Heroku using GitHub Actions. Commit your changes to the `.github/` directory as well as the `Procfile`, as follows:
 
   ```sh
   git add -A
@@ -157,13 +159,13 @@ Any changes that are made to your main branch will invoke your CD workflow on Gi
 
 **Important**: The following step is an alternative to creating a workflow. Setting up both the one-click solution and a workflow is redundant and not recommended.
 
-With continuous deployment, you can be as granular or as hands-off as you want. Heroku offers a button in your project settings that does something similar to what you just accomplished using Actions. You can use it by following these steps.
+With continuous deployment, you can be as granular or as hands-off as you want. Heroku offers a button in your project settings that does something similar to what you just accomplished using Actions. You can use it by following these steps:
 
 1. Open the dashboard for your Heroku app and then select Deploy.
 
 2. Look for a section titled Deployment Method and click the GitHub button.
 
-3. You will be asked to "Connect to GitHub". Click this button -- doing so will create an OAuth token for use between Heroku and your GitHub account.
+3. You will be asked to "Connect to GitHub". Click this button; doing so will create an OAuth token for use between Heroku and your GitHub account.
 
 4. Select Authorize.
 
@@ -185,19 +187,21 @@ Look at the Actions tab while your application is building. You can actually see
 
 ## Conclusion
 
-Congratulations on setting up continuous deployment for your app! It is important to understand how to set up workflows for both your group projects and your future job -- and it can be quite satisfying to push your code to the main branch and watch the deployment log on GitHub. Happy coding!
+Congratulations on setting up continuous deployment for your app! It is important to understand how to set up workflows for both your group projects and your future job, and it can be quite satisfying to push your code to the main branch and watch the deployment log on GitHub. Happy coding!
 
 ## Helpful Resources
 
+The following resources provide additional information:
+
 * [YAML documentation](https://yaml.org/)
 
-* [GitHub documentation on continuous integration](https://docs.github.com/en/actions/guides/about-continuous-integration)
+* [GitHub Docs on continuous integration](https://docs.github.com/en/actions/guides/about-continuous-integration)
 
-* [GitHub documentation on GitHub Actions](https://docs.github.com/en/actions)
+* [GitHub Docs on GitHub Actions](https://docs.github.com/en/actions)
 
 * [Heroku documentation on automatic deploys](https://devcenter.heroku.com/articles/github-integration#automatic-deploys)
 
 * [Heroku documentation on Procfile](https://devcenter.heroku.com/articles/procfile)
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

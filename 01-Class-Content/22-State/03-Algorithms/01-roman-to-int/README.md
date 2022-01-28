@@ -1,12 +1,12 @@
 # Roman Numeral to Int
 
-In this activity you will be writing code to create a function that takes in a Roman numeral string and returns its integer form. If you aren't familiar with Roman numerals or would like to review them, refer to this [guide to Roman numerals](https://reference.yourdictionary.com/resources/romanums.html).
+In this activity, you will write code to create a function that takes in a Roman numeral string and returns its integer form. If you aren't familiar with Roman numerals or would like to review them, refer to this [guide to Roman numerals](https://reference.yourdictionary.com/resources/romanums.html).
 
 ## Instructions
 
-* Open [Unsolved/roman-to-int.js](Unsolved/roman-to-int.js) in your code editor -- this is the only file you will modify in this activity.
+* Open [Unsolved/roman-to-int.js](Unsolved/roman-to-int.js) in your code editor; this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `romanToInt()` function to achieve the following:
+  * In this file, you will write code in the body of the `romanToInt()` function to achieve the following:
 
     * Return the integer form of the provided Roman numeral.
 
@@ -54,7 +54,7 @@ In this activity you will be writing code to create a function that takes in a R
 
 ### Hints
 
-Start by making sure that you understand Roman numerals and then check that your function works with the most simple inputs.
+Start by making sure that you understand Roman numerals, and then check that your function works with the most simple inputs.
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
