@@ -116,7 +116,7 @@ Specific skills students will need to implement in order to be successful:
 
 
 > **Important:** Let students know that this Challenge is extra credit!
-
+The Module Challenge will use Stripe API.  Provide the [Stripe docs on testing](https://stripe.com/docs/testing) to the students before they begin the challenge. 
 ## Heads-Up
 
 * Next week, students will start working on their last group project. Students will have the opportunity to form their own groups for this final project. Before this weekend, students must form project groups and brainstorm project ideas within those groups.
