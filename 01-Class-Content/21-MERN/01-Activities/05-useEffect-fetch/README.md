@@ -1,31 +1,38 @@
-# useEffect fetch
+# 📖 Use the `useEffect` Hook to make HTTP Calls
 
-In this activity, you will use the `useEffect` Hook to make HTTP calls using `fetch` and a search term to the Giphy API.
+Work with a partner to implement the following user story:
 
-## Instructions
+* As a developer, I want to use the `useEffect` Hook to make HTTP calls to the Giphy API using `fetch` and a search term.
 
-* Navigate to [Unsolved/](Unsolved/) in your command line and run `npm install`.
+## Acceptance Criteria
 
-* Run `npm start` in your command line and notice how there is no GIF loaded on the page yet.
+* It is done when I use the `useEffect` to run the `handleSearchGiphy()` function with a search term of my choice as the argument.
 
-* Press `CTRL + C` to stop the server before moving on.
+* It is done when a GIF is displayed on the page when the page is loaded.
 
-* Open [SearchGiphy.js](Unsolved/src/pages/SearchGiphy.js) and do the following:
+* It is done when I can search for another GIF and a new GIF is returned.
 
-  * Take a moment to see what is happening on the page and why no GIF is shown when the page is first loaded.
-  
-  * Import the `useEffect` Hook at the top of the page.
+* It is done when the result of the GIF search replaces the GIF on the page.
 
-  * Use `useEffect` to run the `handleSearchGiphy()` function with a search term of your choice as the argument. This should display a GIF on the page when the page is loaded.
+---
 
-* To check if everything is working properly, navigate to [Unsolved/](Unsolved/) and run `npm start` in your command line.
+## 📝 Notes
 
-  * Now you should see a GIF loaded on the page before you search for anything.
+Refer to the documentation:
 
-  * Go ahead and search for another GIF. That should replace the GIF on the page.
+* [React Docs on using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
-* Press `CTRL + C` to stop the server.
+## 💡 Hints
 
-## Hint(s)
+How can you optimize performance by running effects once?
 
-* You can refer to the React Docs on [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html), especially the [last part](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects) about running an effect only once.
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+
+* How can you build your own Hook?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

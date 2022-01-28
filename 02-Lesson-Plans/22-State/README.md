@@ -70,11 +70,11 @@ Here are the lesson plans for this week's virtual classes:
 
 * This last phase of the boot camp focuses on being employer-ready, improving the skills that students have already learned, and making web applications more performant and efficient. The focus starts to shift to life after boot camp. Think about the questions you had when preparing for your job search as you try to anticipate any questions that students might have.
 
-* **Important**: [React Router recently upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6), which includes important changes to `<Switch>`, `<Redirect> `, and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities (as currently written), please instruct students to use the following npm command to install React Router version 5: `npm install react-router-dom@5`.
-
 * The first activity for this week will use `npx create-react-app` to create a practice React application `00-practice-app` that will be used for all the activities this week.
 
-* **Important**: In order to avoid continuous npm installs, all of this week's activities' `Solved` and `Unsolved` folders include only a `src` folder. For each activity, swap out the `src` folder in `00-practice-app`. It is recommended that you completely restart the dev server between activities.
+* This module's Challenge is **extra credit**. It is not required for submission, nor will it count towards one of the two assignments that students can skip. If students choose to submit this Challenge, they will receive extra credit points on their final grade. However, if they choose not to submit it, their final grade will not be affected in any way. This Challenge is an opportunity for students to further practice their skills and get feedback on it, with the added incentive of receiving extra credit for the work. Please let students know about this extra credit opportunity!
+
+* **Important**: React Router recently [upgraded to version 6](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrade-to-react-router-v6) which includes breaking changes with `<Switch>`, `<Redirect> ` and other elements. The content of this week's in-class and module activities uses React Router version 5. To make sure that students can follow along with activities -- as currently written -- please instruct students to use this npm command to install React Router version 5: `npm install react-router-dom@5`.
 
 * To avoid errors due to conflicting versions of ESLint in the repo, navigate to `00-practice-app` in the command line and run the following command:
 
@@ -109,7 +109,7 @@ Remind students that they should reach out to their Career Coach and meet with t
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
-## Module Challenge
+## Module Challenge (Extra Credit)
 
 For the [Module 22 Challenge](../../01-Class-Content/22-State/02-Challenge/README.md), students will refactor the e-commerce platform that they created in this module, updating the way it handles complex state management from using the Context API to using Redux, the open source JavaScript library that it’s emulating. They won’t have to change too much code in order to refactor the application, but they'll need to read through the Redux documentation to find out how to do it.
 
@@ -122,6 +122,8 @@ Students must know how to implement the following skills in order to succeed in 
 * Refactor components that use the React Context API to use Redux instead.
 
 * Implement actions and reducers to update state.
+
+> **Important:** Let students know that this Challenge is extra credit!
 
 ## Heads-Up
 
