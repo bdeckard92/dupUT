@@ -51,7 +51,7 @@ Read through the Redux [basic tutorial](https://redux.js.org/basics/basic-tutori
 
 > **Important:** Make sure you look through ALL the documentation, because there are newer methods available that can make these tools much easier to implement. Remember that React has gone through several iterations, and some React + Redux tutorials that you find will assume you aren't using Hooks.
 
-* We'll use the Stripe API to process payments, which includes making front-end and back-end changes. Don't worry, Stripe provides test credentials, so you won't need to use a real credit card to try it out. Refer to [Stripe docs on testing your integration.](https://stripe.com/docs/testing).
+* We'll use the Stripe API to process payments, which includes making front-end and back-end changes. Don't worry, Stripe provides test credentials, so you won't need to use a real credit card to try it out. Refer to the [Stripe Docs on testing your integration](https://stripe.com/docs/testing).
 
 
 ## Review
