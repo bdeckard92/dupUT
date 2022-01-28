@@ -16,7 +16,6 @@ Each module contains an overview (like this one!) that contains tips, alerts, an
 
 - In the second virtual class each week, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
-- Module Challenge will use Stripe API.  Provide this resource to the students before they begin the challenge. [Stripe docs on testing your integration](https://stripe.com/docs/testing)
 
 ## Virtual Class Lesson Plans
 
