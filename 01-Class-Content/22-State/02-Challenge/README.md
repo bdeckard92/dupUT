@@ -6,7 +6,7 @@ Your challenge this week is to refactor the e-commerce platform that you created
 
 > **On the Job:** Web developers are frequently asked to dive into a new technology, and must sift through documentation to find the information that matches the specific problem they’re trying to solve. As you get ready to enter into a new development role, use this Challenge to practice a skill that you’ll use repeatedly over the course of your career.
 
-Remember, this module's Challenge is extra credit. It is not required for submission, nor will it count towards one of the two assignments that you can skip. If you choose to submit this Challenge, you will receive extra credit points on your final grade. However, if you choose not to submit it, your final grade will not be affected in any way. This Challenge is an opportunity for you to further practice your skills and get feedback on it, with the added incentive of receiving extra credit for the work.
+Remember, this module's Challenge is **extra credit**. It is not required for submission, nor will it count towards one of the two assignments that you can skip. If you choose to submit this Challenge, you will receive extra credit points on your final grade. However, if you choose not to submit it, your final grade will not be affected in any way. This Challenge is an opportunity for you to further practice your skills and get feedback on it, with the added incentive of receiving extra credit for the work.
 
 ## User Story
 
@@ -47,6 +47,8 @@ The following animations show the web application's appearance and functionality
 Read through the [Redux basic tutorial](https://redux.js.org/basics/basic-tutorial) to learn how to add Redux to your application. Note that the documentation will refer to additional packages that you'll need in order to complete this implementation.
 
 > **Important:** Make sure you look through ALL the documentation, because there are newer methods available that can make these tools much easier to implement. Remember that React has gone through several iterations, and some React + Redux tutorials that you find will assume that you aren't using Hooks.
+
+* We'll use the Stripe API to process payments, which includes making front-end and back-end changes. Don't worry, Stripe provides test credentials, so you won't need to use a real credit card to try it out. Refer to the [Stripe Docs on testing your integration](https://stripe.com/docs/testing).
 
 ## Review
 

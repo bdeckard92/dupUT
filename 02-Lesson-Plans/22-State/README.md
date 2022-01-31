@@ -125,6 +125,8 @@ Students must know how to implement the following skills in order to succeed in 
 
 > **Important:** Let students know that this Challenge is extra credit!
 
+The Module Challenge will use Stripe API. Provide the [Stripe docs on testing](https://stripe.com/docs/testing) to the students before they begin the challenge.
+
 ## Heads-Up
 
 * Next week, students will begin working on their final projects. These projects are student-driven; they will be responsible for forming their own teams, brainstorming app ideas, and developing a full-stack app. Encourage students to start forming groups and brainstorming ideas for their apps, and be prepared to help anyone who is struggling to find a group or project idea.
@@ -147,7 +149,19 @@ The following resources can help you prepare for this week's classes:
 
 * [React Docs on useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
+* [Stripe docs on testing your integration](https://stripe.com/docs/testing)
+
 * [Redux documentation](https://redux.js.org/)
+
+## Algorithms
+
+Here are the algorithms for this week:
+
+* [01-roman-to-int](../../01-Class-Content/22-State/03-Algorithms/01-roman-to-int)
+
+* [02-rotation-point](../../01-Class-Content/22-State/03-Algorithms/02-rotation-point)
+
+* [03-simplify-path](../../01-Class-Content/22-State/03-Algorithms/03-simplify-path)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
