@@ -17,7 +17,6 @@ mongoose.connect(
   }
 );
 
-mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
 app.post('/submit', ({ body }, res) => {

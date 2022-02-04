@@ -17,7 +17,6 @@ mongoose.connect(
   }
 );
 
-mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
 // A user has been created already for our activity purposes

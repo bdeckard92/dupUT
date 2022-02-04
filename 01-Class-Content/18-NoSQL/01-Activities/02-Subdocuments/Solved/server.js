@@ -9,8 +9,6 @@ const { Notebook } = require('./models');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const mongoose = require('mongoose');
-
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/notebookdb',
   {
@@ -19,7 +17,6 @@ mongoose.connect(
   }
 );
 
-mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
 // Create a new notebook
