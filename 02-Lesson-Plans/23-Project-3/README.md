@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will begin work on the final group project of the boot camp, which is to build a full-stack MERN app. You will assume the role of "scrummaster" and hold scrum meetings with each group during each virtual class.
+In this module, students will begin working on the final group project of the boot camp, which is to build a full-stack MERN app. During the virtual classes, you will assume the role of "scrummaster" and hold scrum meetings with each group.
 
 ## Virtual Classes
 
