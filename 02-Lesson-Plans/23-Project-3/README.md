@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will begin work on their final project of the Boot Camp--a full-stack MERN app. You will assume the role of the "scrummaster" and hold daily scrum meetings with each group.
+In this module, students will begin work on the final group project of the boot camp, which is to build a full-stack MERN app. You will assume the role of "scrummaster" and hold scrum meetings with each group during each virtual class.
 
 ## Virtual Classes
 
@@ -14,7 +14,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* For the final project, students will be choosing their own groups. Let students know that they should contact the instructor or TAs when they have decided on their groups for approval. Please be flexible and empathetic in addressing student concerns regarding groups, or the lack of members to team up with.
+* For the final project, students will choose their own groups. Let students know that they should contact the instructor or TAs for approval when they have decided on their groups. Please be flexible and empathetic in addressing student concerns about groups or the lack of members to team up with.
 
 * Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code.
 
@@ -40,11 +40,15 @@ N/A
 
 ## Resources
 
+The following resources can help you prepare for this week's classes:
+
 * [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
 
 * [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
 * [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
+* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+
 ---
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
