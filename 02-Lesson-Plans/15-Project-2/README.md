@@ -2,7 +2,9 @@
 
 ## Overview
 
-In this module, students will begin work on their second project of the Boot Camp--a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, students will begin work on their second project of the Boot Camp--a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of scrum facilitator and hold daily scrum meetings with each group.
+
+> **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
 ## Virtual Classes
 
