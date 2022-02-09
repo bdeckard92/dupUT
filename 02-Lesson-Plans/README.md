@@ -16,6 +16,7 @@ Each module contains an overview (like this one!) that contains tips, alerts, an
 
 - In the second virtual class each week, you will need to demonstrate the upcoming challenge. Make sure to familiarize yourself with the application and ensure any dependencies are installed prior to class.
 
+
 ## Virtual Class Lesson Plans
 
 The virtual classes are scheduled video class times held on either a Monday/Wednesday or Tuesday/Thursday schedule. These classes are led by one instructor and supported by assigned instructional staff members. If you are not sure which class you are leading, please confirm with your Student Success Manager or Online Instructional Lead.
