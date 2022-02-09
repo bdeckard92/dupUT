@@ -2,7 +2,9 @@
 
 ## Overview
 
-In this module, you will introduce agile project management and help students with their first project, which is an API-powered interactive front-end web application that pulls data from multiple sources. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub issues and projects to keep track of their project progress. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, you will introduce agile project management and help students with their first project, which is an API-powered interactive front-end web application that pulls data from multiple sources. Students will learn how to write user stories and acceptance criteria. Students will create a new repository for their project and learn how to use GitHub issues and projects to keep track of their project progress. You will assume the role of scrum facilitator and hold daily scrum meetings with each group.
+
+> **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
 ## Virtual Classes
 
@@ -52,9 +54,13 @@ N/A
 
 The following resources can help you prepare for this week:
 
-* [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
-
 * [Project requirements](../../01-Class-Content/06-Server-Side-APIs/04-Supplemental/Project-Requirements.md)
+
+* [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing)
+
+* [API Resources blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

@@ -2,7 +2,9 @@
 
 ## Overview
 
-In this module, students will begin work on their final project of the Boot Camp--a full-stack MERN app. You will assume the role of the "scrummaster" and hold daily scrum meetings with each group.
+In this module, students will begin working on the final group project of the boot camp, which is to build a full-stack MERN app. During the virtual classes, you will assume the role of scrum facilitator and hold scrum meetings with each group.
+
+> **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
 ## Virtual Classes
 
@@ -14,7 +16,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* For the final project, students will be choosing their own groups. Let students know that they should contact the instructor or TAs when they have decided on their groups for approval. Please be flexible and empathetic in addressing student concerns regarding groups, or the lack of members to team up with.
+* For the final project, students will choose their own groups. Let students know that they should contact the instructor or TAs for approval when they have decided on their groups. Please be flexible and empathetic in addressing student concerns about groups or the lack of members to team up with.
 
 * Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code.
 
@@ -40,11 +42,17 @@ N/A
 
 ## Resources
 
-* [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+The following resources can help you prepare for this week's classes:
 
-* [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
+* [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+* [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+
+* [Deploy with Heroku and MongoDB Atlas blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+
+* [Demo Day checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 
 ---
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

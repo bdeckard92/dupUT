@@ -26,27 +26,29 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Career Connection
 
-Now that you are in the last week of boot camp, it's more important than ever that students meet with their Career Coach more than ever. Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+It's the last week of boot camp, so it's more important than ever that students meet with their Career Coach to help finalize their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 ## Heads-Up
 
-* Remind the class that **each member of the group** is required to submit the deployed application, GitHub repository, and their portfolio with the project added to it by **this week's second Virtual Class**.
+* Remind the class that **each and every member of the group** must submit the deployed application, GitHub repository, and their portfolio with the project added to it **before this week's second virtual class**.
 
-* Encourage the students to RSVP for the upcoming **Demo Day**. An invitation email will be sent out or they can reach out to their Student Success Manager for the link.
+* Encourage students to RSVP for the upcoming **Demo Day**. They can do that by responding to the invitation email that will be sent or asking their Student Success Manager for the link.
 
 ## Resources
 
-* [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+The following resources can help you prepare for this week's classes:
 
-* [Superlative Awards Slide Deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+* [Project requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
 
-* [Project Requirements](../../01-Class-Content/22-State/04-Supplemental/Project-Requirements.md)
+* [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
 
-* [Demo Day Checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
+* [Deploy with Heroku and MongoDB Atlas blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+
+* [Demo Day checklist](https://docs.google.com/document/d/1ncrQ3X7QsgyO_rcEIKdAeW28jT-niDZkwpFBWK7x-nI/edit)
 
 ---
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

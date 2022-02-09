@@ -2,7 +2,9 @@
 
 ## Overview
 
-In this module, students will begin work on their second project of the Boot Camp--a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, students will begin work on their second project of the boot camp: a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of scrum facilitator and hold daily scrum meetings with each group.
+
+> **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
 ## Virtual Classes
 
@@ -44,11 +46,13 @@ N/A
 
 The following resources can help you prepare for this week:
 
-* [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
-
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
 * [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+
+* [Deploy with Heroku and MySQL blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.
