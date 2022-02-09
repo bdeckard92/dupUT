@@ -28,7 +28,7 @@ Your project must meet the following requirements:
 
 * Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-Finally, you must add your project to the portfolio that you created in Module 2.
+Finally, you must add your project to the portfolio that you created in Module 20.
 
 You should also consider the suggestions in the following sections to help your project stand out.
 
@@ -48,7 +48,7 @@ Ultimately, it doesn't matter which of these options you choose; your project ju
 
 Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could use Stripe to enable your site to accept charitable donations.
 
-## PWA
+## Bonus
 
 Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
 
