@@ -50,7 +50,7 @@ The following resources can help you prepare for this week:
 
 * [Superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing)
 
-* [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
+* [Deploy with Heroku and MySQL blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 

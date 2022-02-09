@@ -46,7 +46,7 @@ N/A
 
 The following resources can help you prepare for this week:
 
-* [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
+* [Deploy with Heroku and MySQL blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
