@@ -1,4 +1,6 @@
-# Project Requirements
+# Project 03 Requirements
+
+The group project must meet the following requirements:
 
 * Use React for the front end.
 
@@ -24,7 +26,7 @@
 
 * Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-Finally, you must add your project to the portfolio that you created in Module 20.
+Finally, you must add your project to the portfolio that you created in Module 2.
 
 You should also consider the following suggestions to help your project stand out:
 
@@ -44,7 +46,7 @@ Ultimately, it doesn't matter which of these options you choose&mdash;it just ne
 
 Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
-## Bonus
+## PWA
 
 Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
 
@@ -54,4 +56,7 @@ Although this is not a requirement for your project, see if you can also impleme
 
 * Is installable
 
-**More details about the project will be provided in the lessons for Module 23 in Canvas.**
+> **Note**: More details about the project are provided in the online lessons for Module 23.
+
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

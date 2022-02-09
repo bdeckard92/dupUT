@@ -50,13 +50,13 @@ This section contains some additional resources to help you understand the topic
 
 Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
-  * 📖 [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
+* 📖 [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ### General
 
 Refer to the following resources for more information about topics covered in this module:
 
-  * 📖 [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

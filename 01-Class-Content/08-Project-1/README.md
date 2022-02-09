@@ -40,17 +40,17 @@ This section contains some additional resources to help you understand the topic
 
 Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
-  * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
+* 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
-  * 📖 [Node.js Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
+* 📖 [Node.js Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
 
 ### General
 
 Refer to the following resources for more information about topics covered in this module:
 
-  * 📖 [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+* [Project Presentation Template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-  * 📖 [Node.js](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/)
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

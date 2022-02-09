@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will finish their projects, deploy and submit their projects, and present their projects as groups to their classmates.
+In this module, students will continue to work on their projects and then will present them to the class. They'll also update their professional materials, including their portfolio, GitHub profile, resume, and LinkedIn profile.
 
 ## Virtual Classes
 
@@ -29,6 +29,10 @@ Here are the lesson plans for this week's virtual classes:
 It's the last week of boot camp, so it's more important than ever that students meet with their Career Coach to help finalize their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
 If you'd like more information on career services, visit the [career services resources page](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
+
+## Module Challenge
+
+N/A
 
 ## Heads-Up
 

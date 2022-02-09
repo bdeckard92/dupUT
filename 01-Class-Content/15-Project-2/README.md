@@ -40,13 +40,13 @@ This section contains some additional resources to help you understand the topic
 
 Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
-  * 📖 [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
+* 📖 [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ### General
 
 Refer to the following general resources for more information about topics covered in this module:
 
-  * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
+* 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

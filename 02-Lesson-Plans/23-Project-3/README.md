@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this module, students will begin working on the final group project of the boot camp, which is to build a full-stack MERN app. During the virtual classes, you will assume the role of scrum facilitator and hold scrum meetings with each group.
+In this module, students will begin working on the final group project of the boot camp: a full-stack MERN app. During the virtual classes, you will assume the role of scrum facilitator and hold scrum meetings with each group.
 
 > **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
@@ -18,9 +18,9 @@ Here are the lesson plans for this week's virtual classes:
 
 * For the final project, students will choose their own groups. Let students know that they should contact the instructor or TAs for approval when they have decided on their groups. Please be flexible and empathetic in addressing student concerns about groups or the lack of members to team up with.
 
-* Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code.
-
 * There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
+
+* Encourage students to spend time pseudocoding their projects and researching APIs and libraries before writing any code.
 
 ## Career Connection
 
