@@ -32,7 +32,7 @@ React lets us create highly reusable components. Instead of having to create the
 
 We’ll also cover computer science fundamentals, which are essential to web development. Though this content is no replacement for a computer science degree, you'll learn what you need to know to work efficiently and create optimized code, including sorting algorithms and Big O notation.
 
-### Project 3: Modules 23–24
+### Project 03: Modules 23–24
 
 As a capstone to the boot camp, you’ll work with a group to build a full-stack application that uses a wide swath of the languages and libraries that you learned throughout the course. We can’t wait to see what you build!
 
