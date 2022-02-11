@@ -1,4 +1,4 @@
-# Module 16 Instructor Overview: Project 2
+# Module 16 Instructor Overview: Project 02
 
 ## Overview
 
@@ -26,7 +26,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Career Connection
 
-Remind students that this module's Career Connection consists of updating their portfolio with this project as well as updating their GitHub profile, resume, and LinkedIn profile.
+Remind students that this module's career connection consists of updating their portfolio with this project as well as updating their GitHub profile, resume, and LinkedIn profile.
 
 Remind students that they should reach out to their Career Coach and meet with them often throughout the boot camp to help prepare their professional materials. Students can also [sign up for career services workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp).
 
@@ -46,13 +46,13 @@ N/A
 
 The following resources can help you prepare for this week:
 
+* [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+
 * [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
 
-* [Superlative awards slide deck](https://docs.google.com/presentation/d/1fJGzsclaQ5TKBk3EnL7Gc-bg1ijSGM6_oB1gvpKYnZE/edit?usp=sharing)
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
 
-* [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
-
-* [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
+* [Deploy with Heroku and MySQL blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

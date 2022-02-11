@@ -1,4 +1,4 @@
-# Project Requirements
+# Project 01 Requirements
 
 The group project must meet the following requirements:
 
@@ -22,7 +22,7 @@ The group project must meet the following requirements:
 
 * Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-* Finally, you must add your project to the portfolio that you created in Module 2.
+Finally, you must add your project to the portfolio that you created in Module 2.
 
 > **Note**: More details about the project are provided in the online lessons for Module 7.
 
