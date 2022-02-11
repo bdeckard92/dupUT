@@ -4,21 +4,21 @@ Welcome to the Coding Online Boot Camp! Many factors influence how well and how 
 
 Learning to become a full-stack web developer is challenging. It will take a lot of internal drive and outside support. To make that journey a bit easier, the course is structured to keep motivation high and connections between concepts clear. Read on to learn about how the class is broken down.
 
-## Section 1: Foundation (Modules 1–6)
+## Section 1: Foundation (Modules 01–06)
 
 The first third of the course is focused on the front end of web development. The front end includes the things you see and interact with in the browser, such as when you click a login button and a box pops up inviting you to enter your username and password. Front-end languages, techniques, and libraries are foundational to being a full-stack web developer, so you’ll continuously build on these concepts throughout the entire course.
 
-### Project 1: Modules 7–8
+### Project 01: Modules 07–08
 
 The boot camp will be taxing, and having something you can look back on and be proud of early in the course helps keep motivation and morale high. It’s totally possible to build a cool, interactive web application after the first several weeks&mdash;and this is exactly what you'll do for your first group project!
 
 To do this, you'll develop the front end yourself and leverage other people’s servers and APIs. Past students have created some pretty cool projects, including Food Finder, an app that helps you find recipes, and Fourth and Lawn, an app that helps you find parking at sporting events.
 
-## Section 2: Technique (Modules 9–14)
+## Section 2: Technique (Modules 09–14)
 
 You could stop here and look for a job as a front-end web developer. But the field demands more, and there are many opportunities for developers who can also build a back end. So during the second section of the course, you’ll learn how to create your own server. Having a back end allows you to use a server to make and receive requests from the front end. For example, when you enter your username and password in a login dialog and click submit, those credentials are validated via a back-end server.
 
-### Project 2: Modules 15–16
+### Project 02: Modules 15–16
 
 As a group project for the second section, you'll combine your ability to create a front-end website with your new ability to write server code to create a web application that interacts with your server code.
 
