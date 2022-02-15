@@ -1,6 +1,6 @@
-# Project Requirements
+# Project 02 Requirements
 
-Your project must meet the following criteria:
+The group project must meet the following requirements:
 
 * Use Node.js and Express.js to create a RESTful API.
 
@@ -32,7 +32,7 @@ Your project must meet the following criteria:
 
 Finally, you must add your project to the portfolio that you created in Module 2.
 
-**More details about the project will be provided in the lessons for Module 15 in Canvas.**
+> **Note**: More details about the project are provided in the online lessons for Module 15.
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

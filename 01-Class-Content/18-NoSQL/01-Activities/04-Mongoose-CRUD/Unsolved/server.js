@@ -9,13 +9,14 @@ const { Note } = require('./models');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Notedb', {
-  useFindAndModify: false,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Notedb',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+)
 
-mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
 app.post('/submit', ({ body }, res) => {

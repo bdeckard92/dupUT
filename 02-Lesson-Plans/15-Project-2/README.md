@@ -1,8 +1,10 @@
-# Module 15 Instructor Overview: Project 2
+# Module 15 Instructor Overview: Project 02
 
 ## Overview
 
-In this module, students will begin work on their second project of the Boot Camp--a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of "scrummaster" and hold daily scrum meetings with each group.
+In this module, students will begin work on their second project of the boot camp: a full-stack application that connects a robust back-end with servers, databases, advanced APIs, and user authentication to an intuitive front end. You will assume the role of scrum facilitator and hold daily scrum meetings with each group.
+
+> **Note:** Historically, the role of scrum facilitator has been called “scrum master.” We use the term “scrum facilitator” to foster an inclusive environment in our boot camp.
 
 ## Virtual Classes
 
@@ -14,7 +16,7 @@ Here are the lesson plans for this week's virtual classes:
 
 ## Instructor Notes
 
-* Prepare a list of project group members prior to the first class for this module. This time, assign three students per group, all around the same skill level. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the final project.
+* Prepare a list of project group members prior to the first class for this module. This time, assign three students per group, all around the same skill level. You can add a slide to this module's slide deck to list the group members, or you can send the list out to students via Slack. Let students know that they will be allowed to create their own groups for the Project 03.
 
 * There are occasional circumstances, such as an illness or a personal emergency, which might force a student to complete a group project on their own. In these circumstances, as the instructor, you will meet with the student and SSM to determine if completing the project independently is the best path forward. If it is, you will share adjusted project requirements and a grading rubric with the student.
 
@@ -44,11 +46,13 @@ N/A
 
 The following resources can help you prepare for this week:
 
-* [Deploy with Heroku and MySQL](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
-
 * [Project requirements](../../01-Class-Content/14-MVC/04-Supplemental/Project-Requirements.md)
 
 * [Project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing)
+
+* [Superlative awards slide deck](https://docs.google.com/presentation/d/1QlPJhHnHvLLtKheKl4opm7tibkjjALZeAzwVvZdJDO0/edit?usp=sharing)
+
+* [Deploy with Heroku and MySQL blog post on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql)
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand.  Confidential and Proprietary.  All Rights Reserved.

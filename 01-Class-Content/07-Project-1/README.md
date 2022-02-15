@@ -1,8 +1,8 @@
-# Module 07: Project 1
+# Module 07: Project 01
 
 ## Overview
 
-Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build a web application from scratch. Along with your group, you will conceive and execute a design that solves a real-world problem by integrating data that is received from multiple server-side API requests.
+Welcome to Project 01! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build a web application from scratch. Along with your group, you will conceive and execute a design that solves a real-world problem by integrating data that is received from multiple server-side API requests.
 
 Because you will be working collaboratively, you will learn agile development methodologies as you go. You'll also implement feature and bug fixes by using the Git branch workflow and pull requests.
 
@@ -40,13 +40,13 @@ This section contains some additional resources to help you understand the topic
 
 Refer to [The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for walkthroughs, articles, and installation guides:
 
-  * 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
+* 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
 
 ### General
 
 Refer to the following general resources for more information about topics covered in this module:
 
-  * 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
+* 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

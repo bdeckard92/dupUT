@@ -1,4 +1,6 @@
-# Project Requirements
+# Project 03 Requirements
+
+The group project must meet the following requirements:
 
 Your project must meet the following requirements:
 
@@ -56,7 +58,7 @@ Although this is not a requirement for your project, see if you can also impleme
 
 * Is installable.
 
-**More details about the project are provided in the lessons for Module 23 in Canvas.**
+> **Note**: More details about the project are provided in the online lessons for Module 23.
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
