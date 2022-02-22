@@ -599,14 +599,6 @@
                   status: false
                 },
                 {
-                  title: "Application generates valid password based on provided options",
-                  score: 8,
-                  type: "true false",
-                  message:
-                    "Application doesn't generate valid password based on password options",
-                  status: false
-                },
-                {
                   title:
                     "Application requires minimum password length of 8 characters",
                   score: 8,
@@ -625,10 +617,36 @@
                   status: false
                 },
                 {
-                  title: "Application is free of console errors",
+                  title: "Application generates passwords that consistently demonstrate a valid reflection of user input (but may not necessarily include all user selections for character type)",
+                  score: 8,
+                  type: "likert",
+                  options: [
+                    {
+                      message: "Application doesn't generate a password at all",
+                      score: 0
+                    },
+                    {
+                      message: "Application generates passwords that only include character type(s) which user didn't select",
+                      score: 2
+                    },
+                    {
+                      message: "Application generates passwords that always include at least one selected character type, but also character type(s) not selected by user",
+                      score: 4
+                    },
+                    {
+                      message: "Application generates passwords that consistently demonstrate a valid reflection of user input (but may not necessarily include all user selections for character type)",
+                      score: 8
+                    }
+                  ],
+                  message: "",
+                  status: false
+                },
+                {
+                  title: "Application generates valid password based on options outlined in all other criteria",
                   score: 8,
                   type: "true false",
-                  message: "Application has errors in the console",
+                  message:
+                    "Application doesn't generate valid password based on options outlined in all other criteria",
                   status: false
                 }
               ]
