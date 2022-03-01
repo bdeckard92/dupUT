@@ -65,7 +65,7 @@ var fight = function() {
   } else {
     window.alert("You need to pick a valid option. Try again!");
   }
-};
+}; // end of fight function
 
 // run fight function to start game
 fight();

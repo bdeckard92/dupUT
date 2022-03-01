@@ -113,8 +113,8 @@ var fight = function(enemy) {
     }
     // switch turn order for next round
     isPlayerTurn = !isPlayerTurn;
-  }
-};
+  } // end of while loop
+}; // end of fight function
 
 // function to start a new game
 var startGame = function() {

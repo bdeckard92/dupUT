@@ -66,8 +66,8 @@ var fight = function(enemy) {
     } else {
       window.alert(playerInfo.name + ' still has ' + playerInfo.health + ' health left.');
     }
-  }
-};
+  } // end of while loop
+}; // end of fight function
 
 // function to start a new game
 var startGame = function() {

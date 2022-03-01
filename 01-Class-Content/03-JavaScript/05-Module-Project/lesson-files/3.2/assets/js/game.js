@@ -66,8 +66,8 @@ var fight = function(enemyName) {
     } else {
       window.alert(playerName + ' still has ' + playerHealth + ' health left.');
     }
-  }
-};
+  } // end of while loop
+}; // end of fight function
 
 // fight each enemy-robot by looping over them and fighting them one at a time
 for (var i = 0; i < enemyNames.length; i++) {
