@@ -8,8 +8,23 @@ var words = message.split(' ');
 function countdown() {
   var timeLeft = 5;
 
-  // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
-  var timeInterval = setInterval(function() {});
+  // TODO: Add a comment describing the functionality of the setInterval() method:
+  var timeInterval = setInterval(function () {
+    // TODO: Add comments describing the functionality of the `if` statement:
+    if (timeLeft > 1) {
+      timerEl.textContent = timeLeft + ' seconds remaining';
+      timeLeft--;
+    } // TODO: Add comments describing the functionality of the `else if` statement:
+    else if (timeLeft === 1) {
+      timerEl.textContent = timeLeft + ' second remaining';
+      timeLeft--;
+    } // TODO: Add comments describing the functionality of the `else` statement:
+    else {
+      timerEl.textContent = '';
+      clearInterval(timeInterval);
+      displayMessage();
+    }
+  }, 1000);
 }
 
 // Displays the message one word at a time
@@ -17,7 +32,7 @@ function displayMessage() {
   var wordCount = 0;
 
   // Uses the `setInterval()` method to call a function to be executed every 1000 milliseconds
-  var msgInterval = setInterval(function() {
+  var msgInterval = setInterval(function () {
     // If there are no more words left in the message
     if (words[wordCount] === undefined) {
       // Use `clearInterval()` to stop the timer
