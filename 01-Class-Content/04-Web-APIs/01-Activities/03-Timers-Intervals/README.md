@@ -1,14 +1,6 @@
-# 📖 Create a Speed-Reader
+# 📐 Add Comments to Implementation of setInterval()
 
-Work with a partner to implement the following user story:
-
-* As a developer, I want to create a speed-reading application that prints a single word of a message at a time.
-
-## Acceptance Criteria
-
-* It's done when the number of seconds left on the countdown is printed on the screen.
-
-* It's done when, after the countdown of 5 seconds ends, the words of the message appear on the screen, one word at a time.
+Work with a partner to add comments that describe the functionality of the code found in [assets/js/script.js](./Unsolved/assets/js/script.js).
 
 ## 📝 Notes
 
@@ -24,9 +16,7 @@ The following animation demonstrates the web application's appearance and functi
 
 ![A countdown of 5 seconds begins and then single words appear on the screen.](./images/demo1.gif)
 
-## 💡 Hints
-
-How does `displayMessage()` use the `setInterval()` and `clearInterval()` methods to display the words at an interval of 1000 milliseconds?
+---
 
 ## 🏆 Bonus
 
